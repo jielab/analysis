@@ -1,0 +1,2 @@
+locus_id	chr	core_start	core_end	x_class	n_sites	n_haplotype_types	n_haplotype_copies	haplotype_denominator	n_archaic_references	n_pairwise_matches	n_full_similarity_pass	n_similarity_candidates	n_local_segments	n_unfiltered_families	stage1_status	anchor_used	ancestral_filter_used	population_filter_used	interpretation
+rs6525167	X	66186240	66423003	male_nonpar	848	592	1233	male_nonpar_X_chromosome_copies	5	2960	2960	2960	27008	2	complete	0	0	0	complete_anchor_independent_inventory;not_an_introgression_call

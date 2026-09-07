@@ -1,0 +1,6 @@
+locus_id	chr	core_start	core_end	archaic	lineage	seq	anchor_used	ancestral_filter_used	population_filter_used	filter_state	interpretation
+rs7412	19	45409038	45412650	Altai	Neanderthal	CGGGCGAGAAACCGGAATGGTGCCGGGACCCCGGGGCCT	0	0	0	UNFILTERED	regional_archaic_reference_projection
+rs7412	19	45409038	45412650	Chagyr	Neanderthal	CGGGCGAGAAACCGGAATGGTGCCGGGACCCCGGGGCCT	0	0	0	UNFILTERED	regional_archaic_reference_projection
+rs7412	19	45409038	45412650	Vindija	Neanderthal	CGGGCGAGAAACCGGAATGGTGCCGGGACCCCGGGGCCT	0	0	0	UNFILTERED	regional_archaic_reference_projection
+rs7412	19	45409038	45412650	Denisova	Denisovan	CGGGCGAGAAACCGGAATGGTGCCGGGACCCCGGGGCCT	0	0	0	UNFILTERED	regional_archaic_reference_projection
+rs7412	19	45409038	45412650	Denisova25	Denisovan	CGGGCGAGAAACCGGAATGGTGCCGGGACCCCGGGGCCT	0	0	0	UNFILTERED	regional_archaic_reference_projection
