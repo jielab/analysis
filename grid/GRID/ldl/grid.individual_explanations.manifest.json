@@ -1,0 +1,7 @@
+{
+  "format": "GRID-features-1",
+  "trait": "ldl",
+  "feature_contract_sha256": "28c1bcd1b0e27a69ce2342bf9435249b71d3b48495cc5e5d2e9711082f338213",
+  "data_sha256": "6c8e093146deeeb13ec47763fd4142fb071e11b75fa94b1f68d7963a401432d2",
+  "producer": "GRID_report_frozen_test_features"
+}

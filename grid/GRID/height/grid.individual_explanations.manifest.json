@@ -1,0 +1,7 @@
+{
+  "format": "GRID-features-1",
+  "trait": "height",
+  "feature_contract_sha256": "392228c06765eb547e5bd3384de9dfe8c69b0421c019dee6730d9d4625d72b3b",
+  "data_sha256": "9f6647197f273052655d2f20e49b17d557935c7efbef5ee288a9d88cd0ce8f7d",
+  "producer": "GRID_report_frozen_test_features"
+}
