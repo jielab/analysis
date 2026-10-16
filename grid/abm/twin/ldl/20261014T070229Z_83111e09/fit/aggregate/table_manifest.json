@@ -1,0 +1,95 @@
+[
+  {
+    "name": "training_summary",
+    "path": "training_summary.tsv.gz",
+    "sha256": "8b71692a92a4b345687992a368ce8076f728ff18da378c681d4a14cd09c06194",
+    "rows": 1,
+    "columns": [
+      "build_N",
+      "build_QC_N",
+      "reference_eligible_N",
+      "retained_N",
+      "retained_cases",
+      "reference_radius",
+      "grouping_status",
+      "profile_kind",
+      "variant_dosage_QC_checked",
+      "raw_SNP_combinations_exhaustively_checked",
+      "profile_dimensions",
+      "matching_dimensions",
+      "pruning_is_not_proof_of_noise"
+    ],
+    "trait": "ldl",
+    "module": "Twin training",
+    "run_id": "bc71b3711cd355da75bc076a741f7717dec60fba3da45782544b489931f9e545"
+  },
+  {
+    "name": "roles",
+    "path": "roles.tsv.gz",
+    "sha256": "075dddb979362f3f2a938b4d98becf1cf1f0c854fa8182933c7e2f5c7ac9c001",
+    "rows": 5,
+    "columns": [
+      "role",
+      "N",
+      "QC_N",
+      "roster_hash",
+      "labels_used_for_fitting"
+    ],
+    "trait": "ldl",
+    "module": "Twin training",
+    "run_id": "bc71b3711cd355da75bc076a741f7717dec60fba3da45782544b489931f9e545"
+  },
+  {
+    "name": "tuning",
+    "path": "tuning.tsv.gz",
+    "sha256": "9ba29e435c7f8f4a1d118126a68139f49226190ed6b5a87f053f0065b806e6bd",
+    "rows": 24,
+    "columns": [
+      "model",
+      "penalty",
+      "tune_loss",
+      "training_N",
+      "tune_N"
+    ],
+    "trait": "ldl",
+    "module": "Twin training",
+    "run_id": "bc71b3711cd355da75bc076a741f7717dec60fba3da45782544b489931f9e545"
+  },
+  {
+    "name": "OOF_audit",
+    "path": "OOF_audit.tsv.gz",
+    "sha256": "951628893c86f4d1d08d0c945ecb039f89227521a4142ec0f7a048624d167cac",
+    "rows": 10,
+    "columns": [
+      "repeat",
+      "fold",
+      "training_N",
+      "training_QC_excluded",
+      "recipient_N",
+      "recipient_QC_excluded",
+      "recipient_id_hash",
+      "recipient_groups_absent_from_teacher"
+    ],
+    "trait": "ldl",
+    "module": "Twin training",
+    "run_id": "bc71b3711cd355da75bc076a741f7717dec60fba3da45782544b489931f9e545"
+  },
+  {
+    "name": "profile_features",
+    "path": "profile_features.tsv.gz",
+    "sha256": "7af7a61dd0e318d133e5eb32e29d1e51e3b7d719d18d4cd5360457de453da1a3",
+    "rows": 18,
+    "columns": [
+      "feature",
+      "role",
+      "training_mean",
+      "training_sd",
+      "imputation_median",
+      "distance_weight",
+      "full_model_coefficient"
+    ],
+    "trait": "ldl",
+    "module": "Twin training",
+    "run_id": "bc71b3711cd355da75bc076a741f7717dec60fba3da45782544b489931f9e545"
+  }
+]

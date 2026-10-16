@@ -1,0 +1,12 @@
+key	value
+phe	/mnt/d/data/ukb/phe/Rdata/phe.rds|138817490:1782876961
+pca	/mnt/d/data/ukb/phe/pca/ukb.discodivas.pca.tsv.gz|51854859:1786179953
+med	/mnt/d/scripts/grid/DiscoDivas/files/med.g1000.4pop.tsv|402:1785718108
+script	/mnt/d/scripts/grid/f/prepare_ancestry_auto.R|17807:1786183428
+ethnicity_col	auto
+prob_threshold	0.90
+fine_prob_threshold	0.999999
+cov_pcs	20
+distance_pcs	10
+anchor_max_per_group	10000
+anchor_margin_quantile	0.25

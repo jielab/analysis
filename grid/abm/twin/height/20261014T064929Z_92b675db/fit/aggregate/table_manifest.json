@@ -1,0 +1,95 @@
+[
+  {
+    "name": "training_summary",
+    "path": "training_summary.tsv.gz",
+    "sha256": "40098573037183c91a29f122be775b2adda3289aa6c24c39d0ba9970da94fc85",
+    "rows": 1,
+    "columns": [
+      "build_N",
+      "build_QC_N",
+      "reference_eligible_N",
+      "retained_N",
+      "retained_cases",
+      "reference_radius",
+      "grouping_status",
+      "profile_kind",
+      "variant_dosage_QC_checked",
+      "raw_SNP_combinations_exhaustively_checked",
+      "profile_dimensions",
+      "matching_dimensions",
+      "pruning_is_not_proof_of_noise"
+    ],
+    "trait": "height",
+    "module": "Twin training",
+    "run_id": "d0c0d5a985dc18eef91fffa44f8dc8fa5b98d2794bba7b4f9db80f74eccf2384"
+  },
+  {
+    "name": "roles",
+    "path": "roles.tsv.gz",
+    "sha256": "2b5d9dbca0f4637a8a4b39b1b3b0b0d46155543de265d05b38503c1f22929a1a",
+    "rows": 5,
+    "columns": [
+      "role",
+      "N",
+      "QC_N",
+      "roster_hash",
+      "labels_used_for_fitting"
+    ],
+    "trait": "height",
+    "module": "Twin training",
+    "run_id": "d0c0d5a985dc18eef91fffa44f8dc8fa5b98d2794bba7b4f9db80f74eccf2384"
+  },
+  {
+    "name": "tuning",
+    "path": "tuning.tsv.gz",
+    "sha256": "d92d35eefa93a5ffe551be1d1f0c68d8dba3462e19bb05829c52895d76aa85a8",
+    "rows": 24,
+    "columns": [
+      "model",
+      "penalty",
+      "tune_loss",
+      "training_N",
+      "tune_N"
+    ],
+    "trait": "height",
+    "module": "Twin training",
+    "run_id": "d0c0d5a985dc18eef91fffa44f8dc8fa5b98d2794bba7b4f9db80f74eccf2384"
+  },
+  {
+    "name": "OOF_audit",
+    "path": "OOF_audit.tsv.gz",
+    "sha256": "d66241f91d91e5ef49d8cbf3cc8ac985f35626f8f3552ad26daaeb6e33467e41",
+    "rows": 10,
+    "columns": [
+      "repeat",
+      "fold",
+      "training_N",
+      "training_QC_excluded",
+      "recipient_N",
+      "recipient_QC_excluded",
+      "recipient_id_hash",
+      "recipient_groups_absent_from_teacher"
+    ],
+    "trait": "height",
+    "module": "Twin training",
+    "run_id": "d0c0d5a985dc18eef91fffa44f8dc8fa5b98d2794bba7b4f9db80f74eccf2384"
+  },
+  {
+    "name": "profile_features",
+    "path": "profile_features.tsv.gz",
+    "sha256": "65f9a52a340f2345da8b63cc70ebc25bdd54d7dd6bf51d247ece9669d5b5cd86",
+    "rows": 18,
+    "columns": [
+      "feature",
+      "role",
+      "training_mean",
+      "training_sd",
+      "imputation_median",
+      "distance_weight",
+      "full_model_coefficient"
+    ],
+    "trait": "height",
+    "module": "Twin training",
+    "run_id": "d0c0d5a985dc18eef91fffa44f8dc8fa5b98d2794bba7b4f9db80f74eccf2384"
+  }
+]

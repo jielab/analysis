@@ -1,0 +1,95 @@
+[
+  {
+    "name": "training_summary",
+    "path": "training_summary.tsv.gz",
+    "sha256": "85a8c1587007e5b55716a4eb703776d9007c560c221d4bd9c8ad81f81dfb8c1f",
+    "rows": 1,
+    "columns": [
+      "build_N",
+      "build_QC_N",
+      "reference_eligible_N",
+      "retained_N",
+      "retained_cases",
+      "reference_radius",
+      "grouping_status",
+      "profile_kind",
+      "variant_dosage_QC_checked",
+      "raw_SNP_combinations_exhaustively_checked",
+      "profile_dimensions",
+      "matching_dimensions",
+      "pruning_is_not_proof_of_noise"
+    ],
+    "trait": "t2dm",
+    "module": "Twin training",
+    "run_id": "5dccdd8061213292042f38b892224b8ce68af073d149336a9f9f3e8372f2e6a1"
+  },
+  {
+    "name": "roles",
+    "path": "roles.tsv.gz",
+    "sha256": "cace279a4024cd7793dac7278b47a43ae0c35405b0c2fb07989731a58ecfdac9",
+    "rows": 5,
+    "columns": [
+      "role",
+      "N",
+      "QC_N",
+      "roster_hash",
+      "labels_used_for_fitting"
+    ],
+    "trait": "t2dm",
+    "module": "Twin training",
+    "run_id": "5dccdd8061213292042f38b892224b8ce68af073d149336a9f9f3e8372f2e6a1"
+  },
+  {
+    "name": "tuning",
+    "path": "tuning.tsv.gz",
+    "sha256": "2e68a4cd5ad9b77fb5977da9256f4cd72734e582600d5adb587d74cb9fe40584",
+    "rows": 18,
+    "columns": [
+      "model",
+      "penalty",
+      "tune_loss",
+      "training_N",
+      "tune_N"
+    ],
+    "trait": "t2dm",
+    "module": "Twin training",
+    "run_id": "5dccdd8061213292042f38b892224b8ce68af073d149336a9f9f3e8372f2e6a1"
+  },
+  {
+    "name": "OOF_audit",
+    "path": "OOF_audit.tsv.gz",
+    "sha256": "facca2bc98808f1c4356f8ae10a5831a78bde2f4b9e1b8eb7998a777ff553dfa",
+    "rows": 10,
+    "columns": [
+      "repeat",
+      "fold",
+      "training_N",
+      "training_QC_excluded",
+      "recipient_N",
+      "recipient_QC_excluded",
+      "recipient_id_hash",
+      "recipient_groups_absent_from_teacher"
+    ],
+    "trait": "t2dm",
+    "module": "Twin training",
+    "run_id": "5dccdd8061213292042f38b892224b8ce68af073d149336a9f9f3e8372f2e6a1"
+  },
+  {
+    "name": "profile_features",
+    "path": "profile_features.tsv.gz",
+    "sha256": "2d4bd3aeccd5f0002b6875d0aeed2494068ae87f7430ad94488ac03749563098",
+    "rows": 18,
+    "columns": [
+      "feature",
+      "role",
+      "training_mean",
+      "training_sd",
+      "imputation_median",
+      "distance_weight",
+      "full_model_coefficient"
+    ],
+    "trait": "t2dm",
+    "module": "Twin training",
+    "run_id": "5dccdd8061213292042f38b892224b8ce68af073d149336a9f9f3e8372f2e6a1"
+  }
+]

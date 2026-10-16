@@ -1,0 +1,10 @@
+key	value
+PCA	/mnt/d/data/ukb/pca_proj/ukb.discodivas.pca.tsv.gz
+centers	/mnt/d/files/DiscoDivas/med.g1000.4pop.tsv
+PCs	10
+A	1,1,1,1
+regress_PCA	TRUE
+AFR	/mnt/d/data/ukb/pgs/ldl/1csx.scores.rds
+EAS	/mnt/d/data/ukb/pgs/ldl/1csx.scores.rds
+EUR	/mnt/d/data/ukb/pgs/ldl/1csx.scores.rds
+SAS	/mnt/d/data/ukb/pgs/ldl/1csx.scores.rds

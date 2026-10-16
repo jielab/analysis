@@ -1,0 +1,411 @@
+{
+  "format_version": 1,
+  "options": {
+    "dir_gen": "/mnt/f/gen/ukb/37/hap",
+    "pheno_file": "/mnt/d/data/ukb/phe/Rdata/all.rds",
+    "ancestry_file": "/mnt/d/data/ukb/pca_proj/ukb.ancestry.auto.tsv.gz",
+    "group_col": "genetic_ancestry",
+    "traits": "height,ldl,t2dm",
+    "covariates": "age,sex,PC1,PC2",
+    "height_col": "height",
+    "ldl_col": "ldl",
+    "t2dm_col": "auto",
+    "snp_list": "/mnt/f/refLD/csx/snpinfo_mult_1kg_hm3",
+    "chrs": "1-22",
+    "keep": "/mnt/d/analysis/grid/prsformer/cache/roster/common.keep",
+    "remove": "/mnt/d/files/ukb.exclude.id",
+    "split_file": "/mnt/d/analysis/grid/prsformer/cache/roster/prsformer.split.tsv.gz",
+    "split_group_file": "/mnt/d/analysis/grid/prsformer/cache/roster/families.tsv.gz",
+    "require_shared_cohort": true,
+    "train_fraction": 0.4,
+    "validation_fraction": 0.1,
+    "seed": 20260904,
+    "maf": 0.01,
+    "call_rate": 0.98,
+    "chunk_variants": 32,
+    "max_samples": 0,
+    "max_variants": 0
+  },
+  "inputs": [
+    {
+      "path": "/mnt/d/data/ukb/phe/Rdata/all.rds",
+      "size": 499211747,
+      "mtime_ns": 1789805583683162200
+    },
+    {
+      "path": "/mnt/d/data/ukb/pca_proj/ukb.ancestry.auto.tsv.gz",
+      "size": 21966348,
+      "mtime_ns": 1786183464748447700
+    },
+    {
+      "path": "/mnt/f/refLD/csx/snpinfo_mult_1kg_hm3",
+      "size": 105463266,
+      "mtime_ns": 1655401074000000000
+    },
+    {
+      "path": "/mnt/d/analysis/grid/prsformer/cache/roster/common.keep",
+      "size": 3893965,
+      "mtime_ns": 1791770909339083800
+    },
+    {
+      "path": "/mnt/d/files/ukb.exclude.id",
+      "size": 2254,
+      "mtime_ns": 1789802079400072500
+    },
+    {
+      "path": "/mnt/d/analysis/grid/prsformer/cache/roster/prsformer.split.tsv.gz",
+      "size": 1577718,
+      "mtime_ns": 1791770911365971600
+    },
+    {
+      "path": "/mnt/d/analysis/grid/prsformer/cache/roster/families.tsv.gz",
+      "size": 2600573,
+      "mtime_ns": 1791770910629170300
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr1.pgen",
+      "size": 3710515158,
+      "mtime_ns": 1787791096000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr1.pvar",
+      "size": 1402027,
+      "mtime_ns": 1787791024000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr1.psam",
+      "size": 8771924,
+      "mtime_ns": 1787791024000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr2.pgen",
+      "size": 3705968412,
+      "mtime_ns": 1787791510000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr2.pvar",
+      "size": 1390056,
+      "mtime_ns": 1787791418000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr2.psam",
+      "size": 8771924,
+      "mtime_ns": 1787791420000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr3.pgen",
+      "size": 3134508598,
+      "mtime_ns": 1787791854000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr3.pvar",
+      "size": 1160883,
+      "mtime_ns": 1787791796000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr3.psam",
+      "size": 8771924,
+      "mtime_ns": 1787791798000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr4.pgen",
+      "size": 2945169664,
+      "mtime_ns": 1787792202000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr4.pvar",
+      "size": 1083075,
+      "mtime_ns": 1787792152000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr4.psam",
+      "size": 8771924,
+      "mtime_ns": 1787792152000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr5.pgen",
+      "size": 2754788117,
+      "mtime_ns": 1787792572000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr5.pvar",
+      "size": 1013740,
+      "mtime_ns": 1787792492000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr5.psam",
+      "size": 8771924,
+      "mtime_ns": 1787792494000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr6.pgen",
+      "size": 3297351740,
+      "mtime_ns": 1787792944000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr6.pvar",
+      "size": 1189725,
+      "mtime_ns": 1787792878000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr6.psam",
+      "size": 8771924,
+      "mtime_ns": 1787792880000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr7.pgen",
+      "size": 2594958587,
+      "mtime_ns": 1787793248000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr7.pvar",
+      "size": 942600,
+      "mtime_ns": 1787793198000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr7.psam",
+      "size": 8771924,
+      "mtime_ns": 1787793200000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr8.pgen",
+      "size": 2406408721,
+      "mtime_ns": 1787793520000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr8.pvar",
+      "size": 879484,
+      "mtime_ns": 1787793476000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr8.psam",
+      "size": 8771924,
+      "mtime_ns": 1787793476000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr9.pgen",
+      "size": 2091646025,
+      "mtime_ns": 1787793894000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr9.pvar",
+      "size": 760746,
+      "mtime_ns": 1787793832000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr9.psam",
+      "size": 8771924,
+      "mtime_ns": 1787793832000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr10.pgen",
+      "size": 2327437961,
+      "mtime_ns": 1787794192000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr10.pvar",
+      "size": 882166,
+      "mtime_ns": 1787794122000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr10.psam",
+      "size": 8771924,
+      "mtime_ns": 1787794122000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr11.pgen",
+      "size": 2323490485,
+      "mtime_ns": 1787794394000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr11.pvar",
+      "size": 894529,
+      "mtime_ns": 1787794356000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr11.psam",
+      "size": 8771924,
+      "mtime_ns": 1787794356000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr12.pgen",
+      "size": 2247049496,
+      "mtime_ns": 1787794546000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr12.pvar",
+      "size": 849967,
+      "mtime_ns": 1787794508000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr12.psam",
+      "size": 8771924,
+      "mtime_ns": 1787794510000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr13.pgen",
+      "size": 1627434106,
+      "mtime_ns": 1787794660000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr13.pvar",
+      "size": 595617,
+      "mtime_ns": 1787794632000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr13.psam",
+      "size": 8771924,
+      "mtime_ns": 1787794634000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr14.pgen",
+      "size": 1514683846,
+      "mtime_ns": 1787794760000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr14.pvar",
+      "size": 575083,
+      "mtime_ns": 1787794734000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr14.psam",
+      "size": 8771924,
+      "mtime_ns": 1787794734000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr15.pgen",
+      "size": 1524700058,
+      "mtime_ns": 1787794862000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr15.pvar",
+      "size": 561077,
+      "mtime_ns": 1787794834000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr15.psam",
+      "size": 8771924,
+      "mtime_ns": 1787794836000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr16.pgen",
+      "size": 1705528094,
+      "mtime_ns": 1787794976000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr16.pvar",
+      "size": 633218,
+      "mtime_ns": 1787794946000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr16.psam",
+      "size": 8771924,
+      "mtime_ns": 1787794946000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr17.pgen",
+      "size": 1594916979,
+      "mtime_ns": 1787795088000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr17.pvar",
+      "size": 591968,
+      "mtime_ns": 1787795062000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr17.psam",
+      "size": 8771924,
+      "mtime_ns": 1787795062000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr18.pgen",
+      "size": 1429527011,
+      "mtime_ns": 1787795186000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr18.pvar",
+      "size": 512026,
+      "mtime_ns": 1787795162000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr18.psam",
+      "size": 8771924,
+      "mtime_ns": 1787795162000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr19.pgen",
+      "size": 1355980459,
+      "mtime_ns": 1787795278000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr19.pvar",
+      "size": 509277,
+      "mtime_ns": 1787795254000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr19.psam",
+      "size": 8771924,
+      "mtime_ns": 1787795256000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr20.pgen",
+      "size": 1251999612,
+      "mtime_ns": 1787795368000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr20.pvar",
+      "size": 454321,
+      "mtime_ns": 1787795346000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr20.psam",
+      "size": 8771924,
+      "mtime_ns": 1787795348000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr21.pgen",
+      "size": 728979931,
+      "mtime_ns": 1787795424000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr21.pvar",
+      "size": 261142,
+      "mtime_ns": 1787795410000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr21.psam",
+      "size": 8771924,
+      "mtime_ns": 1787795412000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr22.pgen",
+      "size": 812936973,
+      "mtime_ns": 1787795482000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr22.pvar",
+      "size": 290259,
+      "mtime_ns": 1787795466000000000
+    },
+    {
+      "path": "/mnt/f/gen/ukb/37/hap/chr22.psam",
+      "size": 8771924,
+      "mtime_ns": 1787795468000000000
+    }
+  ],
+  "signature": "a2c2798c7addaedf9daf5058a459a24af9e06bbccd583da191b2f3bd750894c2",
+  "shape": [
+    486745,
+    145259
+  ],
+  "dosage": "ALT, float16; missing=-1",
+  "split_counts": {
+    "test": 243372,
+    "train": 194698,
+    "validation": 48675
+  },
+  "sha256": {
+    "data.tsv.gz": "7798a69606eac7c8b953dd085b939a933e7cfceb24cc7070460fcc738f819cef",
+    "variants.tsv.gz": "9c1a17c1aa49b834797936f4bd701984bc7b34745adf1ba1eb938013da5c1f00"
+  }
+}

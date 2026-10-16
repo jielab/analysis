@@ -1,0 +1,932 @@
+{
+  "config": {
+    "trait": "ldl",
+    "trait_type": "continuous",
+    "seed": 20260904,
+    "folds": 5,
+    "repeats": 2,
+    "role_fractions": [
+      0.6,
+      0.15,
+      0.15,
+      0.05,
+      0.05
+    ],
+    "keep_fraction": 0.99,
+    "pruning": "profile_concordance",
+    "soft_floor": 0.1,
+    "primary": "ABM_clean",
+    "selector": "support_quality",
+    "primary_coverage": 0.5,
+    "coverages": [
+      0.2,
+      0.4,
+      0.5,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "ridge_grid": [
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "logistic_c_grid": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "pilot_ridge": 100.0,
+    "pilot_c": 0.1,
+    "max_iter": 3000,
+    "max_genetic_missing": 0.2,
+    "max_covariate_missing": 0.2,
+    "max_feature_missing": 0.3,
+    "profile_kind": "genetic_summary",
+    "max_profile_dims": 32,
+    "k": 64,
+    "min_twins": 20,
+    "min_group_ess": 15.0,
+    "radius_quantile": 0.9,
+    "query_batch": 256,
+    "gate_iterations": 100,
+    "min_role_n": 30,
+    "min_class_n": 10,
+    "bootstrap": 500,
+    "grouping_status": "individual_unverified",
+    "upstream_gwas_overlap": "unknown",
+    "label_budget_note": "build fit; tune selection; separate probability calibration and audit"
+  },
+  "input": {
+    "input_mode": "UKB_CSx_and_reference_projected_PC",
+    "sources": [
+      {
+        "path": "/mnt/d/data/ukb/phe/Rdata/all.rds",
+        "size": 499242208,
+        "mtime_ns": 1791811461378129200
+      },
+      {
+        "path": "/mnt/d/data/ukb/pca_proj/ukb.ancestry.auto.tsv.gz",
+        "size": 21966348,
+        "mtime_ns": 1786183464748447700
+      },
+      {
+        "path": "/mnt/d/data/ukb/pca_proj/ukb.discodivas.pca.tsv.gz",
+        "size": 51854859,
+        "mtime_ns": 1786179953282581800
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr1.psam",
+        "size": 8771924,
+        "mtime_ns": 1787791024000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr1.pvar",
+        "size": 1402027,
+        "mtime_ns": 1787791024000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr1.pgen",
+        "size": 3710515158,
+        "mtime_ns": 1787791096000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr2.psam",
+        "size": 8771924,
+        "mtime_ns": 1787791420000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr2.pvar",
+        "size": 1390056,
+        "mtime_ns": 1787791418000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr2.pgen",
+        "size": 3705968412,
+        "mtime_ns": 1787791510000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr3.psam",
+        "size": 8771924,
+        "mtime_ns": 1787791798000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr3.pvar",
+        "size": 1160883,
+        "mtime_ns": 1787791796000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr3.pgen",
+        "size": 3134508598,
+        "mtime_ns": 1787791854000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr4.psam",
+        "size": 8771924,
+        "mtime_ns": 1787792152000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr4.pvar",
+        "size": 1083075,
+        "mtime_ns": 1787792152000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr4.pgen",
+        "size": 2945169664,
+        "mtime_ns": 1787792202000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr5.psam",
+        "size": 8771924,
+        "mtime_ns": 1787792494000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr5.pvar",
+        "size": 1013740,
+        "mtime_ns": 1787792492000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr5.pgen",
+        "size": 2754788117,
+        "mtime_ns": 1787792572000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr6.psam",
+        "size": 8771924,
+        "mtime_ns": 1787792880000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr6.pvar",
+        "size": 1189725,
+        "mtime_ns": 1787792878000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr6.pgen",
+        "size": 3297351740,
+        "mtime_ns": 1787792944000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr7.psam",
+        "size": 8771924,
+        "mtime_ns": 1787793200000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr7.pvar",
+        "size": 942600,
+        "mtime_ns": 1787793198000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr7.pgen",
+        "size": 2594958587,
+        "mtime_ns": 1787793248000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr8.psam",
+        "size": 8771924,
+        "mtime_ns": 1787793476000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr8.pvar",
+        "size": 879484,
+        "mtime_ns": 1787793476000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr8.pgen",
+        "size": 2406408721,
+        "mtime_ns": 1787793520000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr9.psam",
+        "size": 8771924,
+        "mtime_ns": 1787793832000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr9.pvar",
+        "size": 760746,
+        "mtime_ns": 1787793832000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr9.pgen",
+        "size": 2091646025,
+        "mtime_ns": 1787793894000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr10.psam",
+        "size": 8771924,
+        "mtime_ns": 1787794122000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr10.pvar",
+        "size": 882166,
+        "mtime_ns": 1787794122000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr10.pgen",
+        "size": 2327437961,
+        "mtime_ns": 1787794192000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr11.psam",
+        "size": 8771924,
+        "mtime_ns": 1787794356000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr11.pvar",
+        "size": 894529,
+        "mtime_ns": 1787794356000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr11.pgen",
+        "size": 2323490485,
+        "mtime_ns": 1787794394000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr12.psam",
+        "size": 8771924,
+        "mtime_ns": 1787794510000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr12.pvar",
+        "size": 849967,
+        "mtime_ns": 1787794508000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr12.pgen",
+        "size": 2247049496,
+        "mtime_ns": 1787794546000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr13.psam",
+        "size": 8771924,
+        "mtime_ns": 1787794634000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr13.pvar",
+        "size": 595617,
+        "mtime_ns": 1787794632000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr13.pgen",
+        "size": 1627434106,
+        "mtime_ns": 1787794660000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr14.psam",
+        "size": 8771924,
+        "mtime_ns": 1787794734000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr14.pvar",
+        "size": 575083,
+        "mtime_ns": 1787794734000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr14.pgen",
+        "size": 1514683846,
+        "mtime_ns": 1787794760000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr15.psam",
+        "size": 8771924,
+        "mtime_ns": 1787794836000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr15.pvar",
+        "size": 561077,
+        "mtime_ns": 1787794834000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr15.pgen",
+        "size": 1524700058,
+        "mtime_ns": 1787794862000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr16.psam",
+        "size": 8771924,
+        "mtime_ns": 1787794946000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr16.pvar",
+        "size": 633218,
+        "mtime_ns": 1787794946000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr16.pgen",
+        "size": 1705528094,
+        "mtime_ns": 1787794976000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr17.psam",
+        "size": 8771924,
+        "mtime_ns": 1787795062000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr17.pvar",
+        "size": 591968,
+        "mtime_ns": 1787795062000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr17.pgen",
+        "size": 1594916979,
+        "mtime_ns": 1787795088000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr18.psam",
+        "size": 8771924,
+        "mtime_ns": 1787795162000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr18.pvar",
+        "size": 512026,
+        "mtime_ns": 1787795162000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr18.pgen",
+        "size": 1429527011,
+        "mtime_ns": 1787795186000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr19.psam",
+        "size": 8771924,
+        "mtime_ns": 1787795256000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr19.pvar",
+        "size": 509277,
+        "mtime_ns": 1787795254000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr19.pgen",
+        "size": 1355980459,
+        "mtime_ns": 1787795278000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr20.psam",
+        "size": 8771924,
+        "mtime_ns": 1787795348000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr20.pvar",
+        "size": 454321,
+        "mtime_ns": 1787795346000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr20.pgen",
+        "size": 1251999612,
+        "mtime_ns": 1787795368000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr21.psam",
+        "size": 8771924,
+        "mtime_ns": 1787795412000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr21.pvar",
+        "size": 261142,
+        "mtime_ns": 1787795410000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr21.pgen",
+        "size": 728979931,
+        "mtime_ns": 1787795424000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr22.psam",
+        "size": 8771924,
+        "mtime_ns": 1787795468000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr22.pvar",
+        "size": 290259,
+        "mtime_ns": 1787795466000000000
+      },
+      {
+        "path": "/mnt/f/gen/ukb/37/hap/chr22.pgen",
+        "size": 812936973,
+        "mtime_ns": 1787795482000000000
+      },
+      {
+        "path": "/mnt/d/data/ukb/pgs/height/2disco.scores.rds",
+        "size": 11054543,
+        "mtime_ns": 1791842447695981200
+      },
+      {
+        "path": "/mnt/d/data/ukb/pgs/height/1csx.scores.rds",
+        "size": 45279701,
+        "mtime_ns": 1791780814262116300
+      },
+      {
+        "path": "/mnt/d/data/ukb/pgs/ldl/2disco.scores.rds",
+        "size": 11057277,
+        "mtime_ns": 1791842518018155800
+      },
+      {
+        "path": "/mnt/d/data/ukb/pgs/ldl/1csx.scores.rds",
+        "size": 45316316,
+        "mtime_ns": 1791798169072560300
+      },
+      {
+        "path": "/mnt/d/data/ukb/pgs/t2dm/2disco.scores.rds",
+        "size": 11056816,
+        "mtime_ns": 1791842585157258600
+      },
+      {
+        "path": "/mnt/d/data/ukb/pgs/t2dm/1csx.scores.rds",
+        "size": 45164431,
+        "mtime_ns": 1791815933634011100
+      },
+      {
+        "path": "/mnt/d/files/ukb.exclude.id",
+        "size": 2254,
+        "mtime_ns": 1789802079400072500
+      }
+    ],
+    "covariates": [
+      "age",
+      "sex",
+      "PC1",
+      "PC2"
+    ],
+    "traits": [
+      "height",
+      "ldl",
+      "t2dm"
+    ],
+    "family_status": "individual_ID_groups; no claim of unrelatedness",
+    "train_fraction": 0.5000010272319182,
+    "split_uses_outcome_values": false,
+    "prsformer_split_counts": {
+      "test": 243372,
+      "train": 194698,
+      "validation": 48675
+    },
+    "n_shared": 486745,
+    "labels_kept_missing_until_evaluation": true,
+    "t2dm_endpoint": "baseline_0_1; Yr2e=1 case, Yr2e=0 or valid Yt2e control",
+    "disco_comparator": {
+      "height": {
+        "score_column_present": true,
+        "n_observed_scores": 486745,
+        "used_on_complete_common_cohort": true
+      },
+      "ldl": {
+        "score_column_present": true,
+        "n_observed_scores": 486745,
+        "used_on_complete_common_cohort": true
+      },
+      "t2dm": {
+        "score_column_present": true,
+        "n_observed_scores": 486745,
+        "used_on_complete_common_cohort": true
+      }
+    },
+    "match_PC_source": "reference_projected_PCs_separate_from_covariates",
+    "evolution_verified": false,
+    "evolution": {
+      "height": {
+        "builder": {
+          "mode": "reference_matching",
+          "n_variants": 142024,
+          "annotation_source": "not_requested"
+        },
+        "weights_sources": [
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.EUR/gwas/height.EUR.gz",
+            "size": 41651463,
+            "mtime_ns": 1789307934000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.EUR/gwas/height.EUR.csx.gz",
+            "size": 2042482,
+            "mtime_ns": 1791770192759169400
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.EUR/gwas/height.EUR.csx.gz.signature",
+            "size": 8561,
+            "mtime_ns": 1791770193062520900
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.EUR/gwas/height.EUR.csx.gz.metadata.json",
+            "size": 1191,
+            "mtime_ns": 1791770193125690300,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.AFR/gwas/height.AFR.gz",
+            "size": 39331895,
+            "mtime_ns": 1789307934000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.AFR/gwas/height.AFR.csx.gz",
+            "size": 1849154,
+            "mtime_ns": 1791770073371299600
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.AFR/gwas/height.AFR.csx.gz.signature",
+            "size": 8561,
+            "mtime_ns": 1791770073698175500
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.AFR/gwas/height.AFR.csx.gz.metadata.json",
+            "size": 1189,
+            "mtime_ns": 1791770073763410400,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.EAS/gwas/height.EAS.gz",
+            "size": 37781927,
+            "mtime_ns": 1789307932000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.EAS/gwas/height.EAS.csx.gz",
+            "size": 1762777,
+            "mtime_ns": 1791770126941897500
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.EAS/gwas/height.EAS.csx.gz.signature",
+            "size": 8561,
+            "mtime_ns": 1791770127559185900
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.EAS/gwas/height.EAS.csx.gz.metadata.json",
+            "size": 1189,
+            "mtime_ns": 1791770127654717800,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.SAS/gwas/height.SAS.gz",
+            "size": 35894230,
+            "mtime_ns": 1789307962000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.SAS/gwas/height.SAS.csx.gz",
+            "size": 1961635,
+            "mtime_ns": 1791770255214720500
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.SAS/gwas/height.SAS.csx.gz.signature",
+            "size": 8561,
+            "mtime_ns": 1791770255586513900
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/height.SAS/gwas/height.SAS.csx.gz.metadata.json",
+            "size": 1034,
+            "mtime_ns": 1791770255654246600,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/d/data/ukb/pgs/height/1csx.scores.provenance.json",
+            "size": 56438,
+            "mtime_ns": 1791780817026726000
+          },
+          {
+            "path": "/mnt/f/refLD/csx/snpinfo_mult_1kg_hm3",
+            "size": 105463266,
+            "mtime_ns": 1655401074000000000
+          }
+        ]
+      },
+      "ldl": {
+        "builder": {
+          "mode": "reference_matching",
+          "n_variants": 147751,
+          "annotation_source": "not_requested"
+        },
+        "weights_sources": [
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.EUR/gwas/ldl.EUR.gz",
+            "size": 1232859228,
+            "mtime_ns": 1789789090000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.EUR/gwas/ldl.EUR.csx.gz",
+            "size": 2121353,
+            "mtime_ns": 1791785461638608000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.EUR/gwas/ldl.EUR.csx.gz.signature",
+            "size": 8543,
+            "mtime_ns": 1791785462077932200
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.EUR/gwas/ldl.EUR.csx.gz.metadata.json",
+            "size": 1188,
+            "mtime_ns": 1791785462167311200,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.AFR/gwas/ldl.AFR.gz",
+            "size": 1004946652,
+            "mtime_ns": 1789786942000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.AFR/gwas/ldl.AFR.csx.gz",
+            "size": 1916901,
+            "mtime_ns": 1791785363059358600
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.AFR/gwas/ldl.AFR.csx.gz.signature",
+            "size": 8543,
+            "mtime_ns": 1791785363373424200
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.AFR/gwas/ldl.AFR.csx.gz.metadata.json",
+            "size": 1183,
+            "mtime_ns": 1791785363432433300,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.EAS/gwas/ldl.EAS.gz",
+            "size": 482081140,
+            "mtime_ns": 1789786734000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.EAS/gwas/ldl.EAS.csx.gz",
+            "size": 1817407,
+            "mtime_ns": 1791785412023190900
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.EAS/gwas/ldl.EAS.csx.gz.signature",
+            "size": 8543,
+            "mtime_ns": 1791785412344378100
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.EAS/gwas/ldl.EAS.csx.gz.metadata.json",
+            "size": 1183,
+            "mtime_ns": 1791785412415017000,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.SAS/gwas/ldl.SAS.gz",
+            "size": 470099455,
+            "mtime_ns": 1789790993000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.SAS/gwas/ldl.SAS.csx.gz",
+            "size": 2036686,
+            "mtime_ns": 1791785509094677800
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.SAS/gwas/ldl.SAS.csx.gz.signature",
+            "size": 8543,
+            "mtime_ns": 1791785509573163000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/ldl.SAS/gwas/ldl.SAS.csx.gz.metadata.json",
+            "size": 1031,
+            "mtime_ns": 1791785509669550400,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/d/data/ukb/pgs/ldl/1csx.scores.provenance.json",
+            "size": 56297,
+            "mtime_ns": 1791798171874786500
+          },
+          {
+            "path": "/mnt/f/refLD/csx/snpinfo_mult_1kg_hm3",
+            "size": 105463266,
+            "mtime_ns": 1655401074000000000
+          }
+        ]
+      },
+      "t2dm": {
+        "builder": {
+          "mode": "reference_matching",
+          "n_variants": 147703,
+          "annotation_source": "not_requested"
+        },
+        "weights_sources": [
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.gz",
+            "size": 459300535,
+            "mtime_ns": 1789345306000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.csx.gz",
+            "size": 2120172,
+            "mtime_ns": 1791802974958129900
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.csx.gz.signature",
+            "size": 8549,
+            "mtime_ns": 1791802975293913900
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.csx.gz.metadata.json",
+            "size": 1034,
+            "mtime_ns": 1791802975359570800,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.gz",
+            "size": 476664005,
+            "mtime_ns": 1789345314000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.csx.gz",
+            "size": 1917770,
+            "mtime_ns": 1791802878189113100
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.csx.gz.signature",
+            "size": 8549,
+            "mtime_ns": 1791802878617775200
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.csx.gz.metadata.json",
+            "size": 1034,
+            "mtime_ns": 1791802878707547600,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.gz",
+            "size": 408839472,
+            "mtime_ns": 1789345048000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.csx.gz",
+            "size": 1823565,
+            "mtime_ns": 1791802926757706500
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.csx.gz.signature",
+            "size": 8549,
+            "mtime_ns": 1791802927064675900
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.csx.gz.metadata.json",
+            "size": 1035,
+            "mtime_ns": 1791802927127881400,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.gz",
+            "size": 348132192,
+            "mtime_ns": 1789346148000000000
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.csx.gz",
+            "size": 2037725,
+            "mtime_ns": 1791803025919309300
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.csx.gz.signature",
+            "size": 8549,
+            "mtime_ns": 1791803026248240700
+          },
+          {
+            "path": "/mnt/f/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.csx.gz.metadata.json",
+            "size": 1030,
+            "mtime_ns": 1791803026311173400,
+            "preparation_validation": "current_preparation"
+          },
+          {
+            "path": "/mnt/d/data/ukb/pgs/t2dm/1csx.scores.provenance.json",
+            "size": 56344,
+            "mtime_ns": 1791815936504375600
+          },
+          {
+            "path": "/mnt/f/refLD/csx/snpinfo_mult_1kg_hm3",
+            "size": 105463266,
+            "mtime_ns": 1655401074000000000
+          }
+        ]
+      }
+    },
+    "evolution_mode": "reference_matching",
+    "primary_scientific_model": "GRID_no_evolution",
+    "evolution_information_used": false,
+    "matching_inputs": "projected_PCs + ancestry-specific_PRS-CSx_scores",
+    "input_source": "/tmp/grid-cache/grid/prepared.joblib",
+    "input_sha256": "290901ec7946e9761994bd178d6045d87dee4390c056014f9bab70c8b6ce1cd3",
+    "matrix_provenance": "existing_GRID_prepared_cache",
+    "outer_cohort_N": 486745,
+    "prepared_settings": {
+      "abm_backend": "selective_attention",
+      "device": "cuda",
+      "attention_epochs": 20,
+      "attention_patience": 4,
+      "attention_batch": 256,
+      "attention_width": 64,
+      "attention_heads": 4,
+      "attention_layers": 2,
+      "attention_dropout": 0.1,
+      "attention_lr": 0.0005,
+      "attention_reconstruction": 0.1,
+      "donor_block": 8192,
+      "traits": [
+        "height",
+        "ldl",
+        "t2dm"
+      ],
+      "cache_dir": "/tmp/grid-cache/grid",
+      "pheno_file": "/mnt/d/data/ukb/phe/Rdata/all.rds",
+      "score_dir": "/mnt/d/data/ukb/pgs",
+      "pca_file": "/mnt/d/data/ukb/pca_proj/ukb.discodivas.pca.tsv.gz",
+      "ancestry_file": "/mnt/d/data/ukb/pca_proj/ukb.ancestry.auto.tsv.gz",
+      "group_col": "genetic_ancestry",
+      "dir_gen": "/mnt/f/gen/ukb/37/hap",
+      "gwas_dir": "/mnt/f/gwas/4grid/common",
+      "snpinfo": "/mnt/f/refLD/csx/snpinfo_mult_1kg_hm3",
+      "weights_file": null,
+      "data_file": null,
+      "split_file": null,
+      "split_group_file": null,
+      "keep": null,
+      "remove": "/mnt/d/files/ukb.exclude.id",
+      "covariates": "age,sex,PC1,PC2",
+      "distance_pcs": 10,
+      "height_col": "height",
+      "ldl_col": "ldl",
+      "t2dm_col": "auto",
+      "chrs": "1-22",
+      "annotation_file": null,
+      "build": "GRCh37",
+      "allow_proxy_only": false,
+      "include_proxy": false,
+      "min_age_variants": 1,
+      "age_permutation_mode": "auto",
+      "plink2": "plink2",
+      "score_memory": 2048,
+      "seed": 20260904,
+      "coverage": 0.5,
+      "coverages": [
+        0.2,
+        0.4,
+        0.5,
+        0.6,
+        0.8,
+        1.0
+      ],
+      "train_role_fractions": [
+        0.6,
+        0.15,
+        0.15,
+        0.1
+      ],
+      "folds": 5,
+      "k_grid": [
+        16,
+        32,
+        64
+      ],
+      "alpha_grid": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "radius_grid": [
+        1.0,
+        2.0,
+        4.0
+      ],
+      "max_dims": 12,
+      "retrieval": "cuda",
+      "query_batch": 1024,
+      "ann_recall_min": 0.95,
+      "ann_audit_n": 64,
+      "hgb_iterations": 150,
+      "gate_iterations": 100,
+      "min_role_n": 20,
+      "audit_bootstrap": 500
+    }
+  },
+  "flow": {
+    "original_N": 486745,
+    "outer_train_N": 243373,
+    "outer_test_N": 243372,
+    "development_missing_y_N": 39693,
+    "test_missing_y_N": 39742,
+    "test_roster_hash": "2e6273256eb7bf254acab815429a067d0468557ab070008930dc872b8eb80adc",
+    "grouping_status": "individual_unverified",
+    "raw_SNP_QC": "only for explicit variant_dosage input; summaries cannot reconstruct unseen SNP combinations",
+    "genetic_columns": [
+      "csx.EUR",
+      "csx.AFR",
+      "csx.EAS",
+      "csx.SAS",
+      "match_PC1",
+      "match_PC2",
+      "match_PC3",
+      "match_PC4",
+      "match_PC5",
+      "match_PC6",
+      "match_PC7",
+      "match_PC8",
+      "match_PC9",
+      "match_PC10"
+    ],
+    "clinical_columns": [
+      "age",
+      "sex",
+      "PC1",
+      "PC2"
+    ]
+  },
+  "endpoint_definition": "ldl",
+  "test_roster_changed": false,
+  "validation_scope": "exploratory_previously_inspected_test"
+}

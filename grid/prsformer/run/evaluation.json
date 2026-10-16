@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "preparation_signature": "a2c2798c7addaedf9daf5058a459a24af9e06bbccd583da191b2f3bd750894c2",
+  "inputs": {
+    "data_sha256": "7798a69606eac7c8b953dd085b939a933e7cfceb24cc7070460fcc738f819cef",
+    "variants_sha256": "9c1a17c1aa49b834797936f4bd701984bc7b34745adf1ba1eb938013da5c1f00",
+    "canonical_data_sha256": "66becd70a48e5cb6d82545a3548511aa462647f0c3c74ee9a57e9ee193c3fb97",
+    "canonical_variants_sha256": "478025393c8cb71839915a0f5d6a8759f5711dd88820c8e2cfbcd33990677e0f",
+    "genotypes": {
+      "size": 141408184038,
+      "mtime_ns": 1791786387724472400,
+      "shape": [
+        486745,
+        145259
+      ],
+      "dtype": "float16"
+    }
+  },
+  "outputs_sha256": {
+    "metrics.tsv": "2e51da96187831c7c576973fc71817325729563988dba1293d771a92f2e756e7",
+    "test_predictions.tsv.gz": "a12b94e5ce5079484a8ed4b3572dcb748727179dbdc6af3108ef20627fb50133",
+    "history.tsv": "b32522201608b6b1a3a89e7b46714391db345958fe556d97be1193247eb92298"
+  },
+  "model": {
+    "file": "model.pt",
+    "size": 229856204,
+    "mtime_ns": 1791890942029034200,
+    "training_signature": "23771c170b49c82a3dc0a93587ae19dce9ab3f12512b4c4612fe614f4949ea44",
+    "upstream_source_sha256": {
+      "utils": "19b724648c0634518236fd10f593468028c725bdb0b680ddeeeb27c98bdcd6be",
+      "modules": "5bea0445eb63bf6dc6a9c6c6e68567168bd0334b81569c278c1b4b7795af8da2",
+      "model": "fd803257bda0fc0c41c87143c67c7ebca7e368ec3d9e389d97ad4393e49df51f"
+    }
+  }
+}
