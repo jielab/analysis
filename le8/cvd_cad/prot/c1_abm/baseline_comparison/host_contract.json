@@ -1,0 +1,9 @@
+{
+  "source": "same-roster C1 versus ABM selective prediction",
+  "source_hashes": {
+    "C1": "ab9c59235bb46dfd658d0f7796e6543caf137e0a6e0979a39526c7cd9dece634",
+    "model": "902e975bf53586627a305a3a8be00bd2d2ead9bf7cedb90abe8bb531299269d5",
+    "predictions": "f1d6085d99e317a3b6e35c8ccdd2c548680db4c8a3e9b1acdf32633c5e45d2aa",
+    "truth": "a2df97ccf3d399c0a7215f9ec4d6a391eca32c2575695fed45ed90cfde5e875d"
+  }
+}

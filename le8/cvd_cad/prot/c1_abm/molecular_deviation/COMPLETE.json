@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "files": {
+    "host_contract.json": "f199d6973217451fe4abb921ca441630a8c4ec27d31a1f1e6a5e11ad89840985",
+    "aggregate/table_manifest.json": "d52ece19a1437d8c0683eaa9c298d03c6bf77d10e9a876a9865668ec80ac4eac",
+    "fit/MODEL_FROZEN.json": "eadd57c7f66807364a977ff7e29e2880cc68374384acbf72ba9bfb9a724609f0",
+    "results/table_manifest.json": "0b05f2f8a015d1add03bbc8ae7babd4076c2db6cc9758533d2489ff0a8ddafb6",
+    "fit/aggregate/table_manifest.json": "46adfc68421a04da44679ddd59786092c25696702512e538fc8b172ee446ff87"
+  }
+}

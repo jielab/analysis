@@ -1,0 +1,46 @@
+[
+  {
+    "name": "reference_calibration",
+    "path": "reference_calibration.tsv.gz",
+    "module": "deviation",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "b6716444cc13be1e",
+    "rows": 2582,
+    "sha256": "0e7656ff384058ccd748fcd09e8c27ac4fd319c311478976deec08ce3a5b38a8",
+    "status": "available"
+  },
+  {
+    "name": "reference_folds",
+    "path": "reference_folds.tsv.gz",
+    "module": "deviation",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "b6716444cc13be1e",
+    "rows": 5,
+    "sha256": "4e3198817a7fa8e1af57520281dba3031fae7f77fd0a8c6688597e1d38cd0ecc",
+    "status": "available"
+  },
+  {
+    "name": "model_tuning",
+    "path": "model_tuning.tsv.gz",
+    "module": "deviation",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "b6716444cc13be1e",
+    "rows": 0,
+    "sha256": "d7e807fb8b029169a573983a1beb5a933b6313d606f58e87dca984b6c5f7ede2",
+    "status": "empty"
+  },
+  {
+    "name": "status",
+    "path": "status.tsv.gz",
+    "module": "deviation",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "b6716444cc13be1e",
+    "rows": 1,
+    "sha256": "80dc83f6d944073c6aebf817da49e995dcc7e2630fb2ff00a96d3f273bf6c045",
+    "status": "available"
+  }
+]

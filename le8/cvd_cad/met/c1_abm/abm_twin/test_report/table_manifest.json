@@ -1,0 +1,68 @@
+[
+  {
+    "name": "metrics",
+    "path": "metrics.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 1078,
+    "sha256": "714b95907af5774d6c96f007e7c1e62fe9440bed12582f56fa9fdfc7d26b3236",
+    "status": "available"
+  },
+  {
+    "name": "contrasts",
+    "path": "contrasts.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 44,
+    "sha256": "7bfd4b6725280594c6df29bf92504c10c3f5f7fe01059f5d0ce9f6fd036a5b8e",
+    "status": "available"
+  },
+  {
+    "name": "calibration",
+    "path": "calibration.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 6,
+    "sha256": "7e9ccd8f2780baea2b71211ea1fdee7af894883f983db952ec3779de8a963e5b",
+    "status": "available"
+  },
+  {
+    "name": "confidence_validation",
+    "path": "confidence_validation.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 14,
+    "sha256": "6209c356acb4ef6ffc024865ee793f32b7c4eaf13d6aec4b2563efe82da010ae",
+    "status": "available"
+  },
+  {
+    "name": "strata_diagnostics",
+    "path": "strata_diagnostics.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 30,
+    "sha256": "468064124cff94e213e8537cbfe6d0d894f4dce7138bf1a6dea148f178d59af2",
+    "status": "available"
+  },
+  {
+    "name": "status",
+    "path": "status.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 1,
+    "sha256": "b879b8e1a15733233e572313423402017ed5bf70e603afcc066d0acc0c3f3e39",
+    "status": "available"
+  }
+]

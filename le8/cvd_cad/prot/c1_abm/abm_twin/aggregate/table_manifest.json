@@ -1,0 +1,13 @@
+[
+  {
+    "name": "support_status",
+    "path": "support_status.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "host",
+    "rows": 1,
+    "sha256": "6310d62f59cc9948f0ec4a1c431a749d35ac9512ab7a28669d20c074210552e7",
+    "status": "available"
+  }
+]

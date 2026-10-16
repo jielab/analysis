@@ -1,0 +1,35 @@
+[
+  {
+    "name": "pgs_quality_audit",
+    "path": "pgs_quality_audit.tsv.gz",
+    "module": "deviation",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "host",
+    "rows": 2582,
+    "sha256": "18a0e80266c94ddd7823ca060bd01eae4c26e6a0f51b8a1a653066d43eb374ab",
+    "status": "available"
+  },
+  {
+    "name": "endpoint_flow",
+    "path": "endpoint_flow.tsv.gz",
+    "module": "deviation",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "host",
+    "rows": 4,
+    "sha256": "945b0908898cb2b152b40719beeb470843e87efcb38439c5633ef9f09bfa8b4e",
+    "status": "available"
+  },
+  {
+    "name": "support_status",
+    "path": "support_status.tsv.gz",
+    "module": "deviation",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "host",
+    "rows": 1,
+    "sha256": "d2883e31e1cb3c9175e4f8f59d50cc896fdbbaa8670d97d16bc0ee3eeb3b4ac0",
+    "status": "available"
+  }
+]

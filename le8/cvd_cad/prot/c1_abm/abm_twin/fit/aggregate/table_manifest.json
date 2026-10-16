@@ -1,0 +1,68 @@
+[
+  {
+    "name": "training_summary",
+    "path": "training_summary.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 1,
+    "sha256": "f516ead75a7b3fd48310ebc839aabfce19d7a3dc71d12eb335e38ef525865752",
+    "status": "available"
+  },
+  {
+    "name": "training_folds",
+    "path": "training_folds.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 10,
+    "sha256": "2aeec8c857f55cd068cc0babf6c86c37b342b5eaeef9ec256732f0b176a710c9",
+    "status": "available"
+  },
+  {
+    "name": "pruning_audit",
+    "path": "pruning_audit.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 1,
+    "sha256": "640ab4889aaf1222838c4e16026467fc33cb216a39f442bd93d6a12456376c01",
+    "status": "available"
+  },
+  {
+    "name": "selected_panel",
+    "path": "selected_panel.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 47,
+    "sha256": "7472a7d081e4b24be2c1878108975dd3804478bead4d4f19b963e57d3f07cdf5",
+    "status": "available"
+  },
+  {
+    "name": "model_tuning",
+    "path": "model_tuning.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 24,
+    "sha256": "c234109e87e7ed7248bf72fb7e7f1eb32e889dc35fec9949c79e033fb2520400",
+    "status": "available"
+  },
+  {
+    "name": "role_counts",
+    "path": "role_counts.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 5,
+    "sha256": "691991b264fc97fd90fc04be9ae47436ec6e96323c51d18270b2a64f34ad5ded",
+    "status": "available"
+  }
+]

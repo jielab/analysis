@@ -1,0 +1,112 @@
+[
+  {
+    "name": "reference_calibration",
+    "path": "reference_calibration.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 234,
+    "sha256": "96c6fdb712eb6a5b274fc9958a9dec21ac20decf7176e13ef329110566553777",
+    "status": "available"
+  },
+  {
+    "name": "model_metrics",
+    "path": "model_metrics.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 0,
+    "sha256": "6df3e7197be1dcb7dc74a1bcaa53ba6d65fdbb626326d48431412c71154f9738",
+    "status": "empty"
+  },
+  {
+    "name": "paired_contrasts",
+    "path": "paired_contrasts.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 0,
+    "sha256": "af7940a8daddd7d5043f602261e84e2efb0d9f53da835b42c57a98c703a7309d",
+    "status": "empty"
+  },
+  {
+    "name": "roc_points",
+    "path": "roc_points.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 0,
+    "sha256": "aeb7de92b05aa62066fd65d4663fe3860d15b1015ad0604e3b0b7dad2c5bfdfb",
+    "status": "empty"
+  },
+  {
+    "name": "probability_calibration",
+    "path": "probability_calibration.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 0,
+    "sha256": "23df870600d9ba6d5fd2551120ee611aaacfad37d00230a567f613c8cd8e4f64",
+    "status": "empty"
+  },
+  {
+    "name": "decision_curve",
+    "path": "decision_curve.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 0,
+    "sha256": "8062d94cc562543beb057b130e6d75ab76ad49f3e6711adf3316c087991b5f91",
+    "status": "empty"
+  },
+  {
+    "name": "feature_distribution",
+    "path": "feature_distribution.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 0,
+    "sha256": "cb552d075300e5eb8cba0cb8a33674081012b69ba07fbbfb4f81b6a6202f2509",
+    "status": "empty"
+  },
+  {
+    "name": "feature_state_summary",
+    "path": "feature_state_summary.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 0,
+    "sha256": "c4f126f479d9f60cb6dc19ab7f0d60b06a29a814c7705abfb4588a485b259a57",
+    "status": "empty"
+  },
+  {
+    "name": "feature_state_association",
+    "path": "feature_state_association.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 234,
+    "sha256": "ed97f7ce654c0b4a19c6bb348cea84517b01617f7f8cc32848caa1694b628796",
+    "status": "available"
+  },
+  {
+    "name": "status",
+    "path": "status.tsv.gz",
+    "module": "Molecular deviation",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "249214aa9b702d0f96cf53f27683be96e3d055506e592d6eacae4bd391cbd301",
+    "rows": 1,
+    "sha256": "d37f84d96d9d09f2dd6d0ae842ed0b559e30a5531315137a6918c7be680abb67",
+    "status": "available"
+  }
+]

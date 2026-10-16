@@ -1,0 +1,25 @@
+stage,family,model,panel,context,metric,value,N,horizon,evaluation_scope,source
+c1_correlate,C1 conventional holdout,Biomarkers,A,,IPCW AUC,0.759626744508728,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,A,,IPCW AUC,0.764829116837742,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,A,,IPCW AUC,0.72644278346599,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,A,,IPCW AUC,0.726407096866862,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,A,,IPCW AUC,0.749599140036778,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,A,,IPCW AUC,0.72644278346599,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,A,,IPCW AUC,0.731946971232352,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,A,,IPCW AUC,0.752135222331453,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,A,,IPCW AUC,0.72644278346599,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,A,,IPCW AUC,0.759224124113238,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,A,,IPCW AUC,0.76369394021948,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,A,,IPCW AUC,0.72644278346599,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,A,,IPCW AUC,0.714000539383197,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,A,,IPCW AUC,0.746237573225132,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,A,,IPCW AUC,0.72644278346599,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,A,,IPCW AUC,0.763843631157818,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,A,,IPCW AUC,0.76247407122866,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,A,,IPCW AUC,0.72644278346599,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,A,,IPCW AUC,0.724023225790501,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,A,,IPCW AUC,0.750830429221654,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,A,,IPCW AUC,0.72644278346599,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,A,,IPCW AUC,0.755658936832907,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,A,,IPCW AUC,0.764171219011831,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,A,,IPCW AUC,0.72644278346599,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv

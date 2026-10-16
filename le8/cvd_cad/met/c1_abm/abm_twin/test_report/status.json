@@ -1,0 +1,21 @@
+{
+  "information_adequate": true,
+  "selected_cases": 1678,
+  "selected_controls": 34602,
+  "original_N": 74475,
+  "technical_QC_excluded": 0,
+  "technical_QC_N": 74475,
+  "selected_N": 37392,
+  "actual_coverage": 0.502074521651561,
+  "no_adequate_twins_N": 3948,
+  "selective_discrimination_supported": true,
+  "selection_only_supported": true,
+  "training_gain_supported": false,
+  "absolute_error_improvement_supported": true,
+  "beyond_risk_composition_supported": false,
+  "beyond_confidence_selection_supported": true,
+  "clinical_release": false,
+  "external_validation": false,
+  "interpretation": "Independent audit can validate a subset policy even without same-subset algorithm superiority; no individual guarantee",
+  "test_provenance": "previously_inspected_or_unverified_exploratory"
+}

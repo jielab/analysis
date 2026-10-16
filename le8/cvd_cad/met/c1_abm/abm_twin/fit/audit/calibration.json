@@ -1,0 +1,56 @@
+[
+  {
+    "model": "elasticnet_clean",
+    "subset": "all",
+    "N": 35813,
+    "evaluation_only": true,
+    "intercept": 0.0021884977044395997,
+    "slope": 1.0016667887331576,
+    "observed_expected": 0.9985631563217046
+  },
+  {
+    "model": "elasticnet_full",
+    "subset": "all",
+    "N": 35813,
+    "evaluation_only": true,
+    "intercept": 0.04951337705181958,
+    "slope": 1.0211812063388086,
+    "observed_expected": 0.9985118237785583
+  },
+  {
+    "model": "elasticnet_clean",
+    "subset": "selected",
+    "N": 18043,
+    "evaluation_only": true,
+    "intercept": 0.40473111165180403,
+    "slope": 1.2319313047573757,
+    "observed_expected": 0.843363711247183
+  },
+  {
+    "model": "elasticnet_full",
+    "subset": "selected",
+    "N": 18043,
+    "evaluation_only": true,
+    "intercept": 0.2835628622112302,
+    "slope": 1.1129407235485038,
+    "observed_expected": 0.9859366351276639
+  },
+  {
+    "model": "elasticnet_clean",
+    "subset": "rejected",
+    "N": 17770,
+    "evaluation_only": true,
+    "intercept": -0.23190658231763445,
+    "slope": 0.847335855117091,
+    "observed_expected": 1.120884471268933
+  },
+  {
+    "model": "elasticnet_full",
+    "subset": "rejected",
+    "N": 17770,
+    "evaluation_only": true,
+    "intercept": -0.10146205761008685,
+    "slope": 0.9520891929946789,
+    "observed_expected": 1.0061217787872676
+  }
+]

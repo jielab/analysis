@@ -1,0 +1,12 @@
+"metric","value"
+"all.rds N",502371
+"birth_month nonmissing",501936
+"birth_north nonmissing",444228
+"birth_east nonmissing",444228
+"bmonth_cos nonmissing",501936
+"bmonth_sin nonmissing",501936
+"bmonth_winter_summer nonmissing",249028
+"bmonth_spring_autumn nonmissing",252908
+"birth_north_100km nonmissing",444228
+"birth_east_100km nonmissing",444228
+"bmonth_rank nonmissing",501936

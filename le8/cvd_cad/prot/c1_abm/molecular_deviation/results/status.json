@@ -1,0 +1,14 @@
+{
+  "module": "molecular_deviation",
+  "task": "objective_plaque",
+  "classification_status": "objective_endpoint_unavailable",
+  "validation_status": "not_validated_for_diagnosis",
+  "target_N": 0,
+  "original_N": 6442,
+  "clinical_release": false,
+  "gwas_overlap": "unknown",
+  "residuals_do_not_create_information": true,
+  "external_validation": false,
+  "endpoint_sampling": "ascertainment_sample",
+  "PPV_and_net_benefit_scope": "observed ascertainment sample; not automatically population screening"
+}

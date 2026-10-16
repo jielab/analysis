@@ -1,0 +1,219 @@
+{
+  "outcome": {
+    "joined": 487354,
+    "eligible": 467647,
+    "prevalent": 19707,
+    "same_day": 0,
+    "invalid_followup": 0,
+    "unknown_diagnosis": 0,
+    "other_baseline_disease": 0,
+    "diagnosis_after_censor": 6,
+    "incident": 41363,
+    "outcome_type": "survival"
+  },
+  "split_source": "fresh_outcome_blind_family_assignment",
+  "roster_sha256": "e23793a948c41e8ab898ff4458db124597aae3272c01a9ccae572cab56b3d296",
+  "clinical_encoding": [
+    {
+      "column": "age",
+      "encoding": "training-vocabulary one-hot",
+      "levels": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72"
+      ],
+      "unknown_or_missing_N": 2
+    },
+    {
+      "column": "sex",
+      "encoding": "training-vocabulary one-hot",
+      "levels": [
+        "0",
+        "1"
+      ],
+      "unknown_or_missing_N": 0
+    },
+    {
+      "column": "tdi",
+      "encoding": "numeric"
+    },
+    {
+      "column": "PC1",
+      "encoding": "numeric"
+    },
+    {
+      "column": "PC2",
+      "encoding": "numeric"
+    }
+  ],
+  "deviation_encoding": [
+    {
+      "column": "age",
+      "encoding": "training-vocabulary one-hot",
+      "levels": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72"
+      ],
+      "unknown_or_missing_N": 2
+    },
+    {
+      "column": "sex",
+      "encoding": "training-vocabulary one-hot",
+      "levels": [
+        "0",
+        "1"
+      ],
+      "unknown_or_missing_N": 0
+    },
+    {
+      "column": "tdi",
+      "encoding": "numeric"
+    },
+    {
+      "column": "PC1",
+      "encoding": "numeric"
+    },
+    {
+      "column": "PC2",
+      "encoding": "numeric"
+    }
+  ],
+  "clinical_columns": [
+    "age",
+    "sex",
+    "tdi",
+    "PC1",
+    "PC2"
+  ],
+  "technical_adjustment": "fixed covariate inputs; no full-cohort residualization",
+  "family_status": "unavailable_individual_ID_groups_only",
+  "independent_family_support_verified": false,
+  "validation_status": "exploratory",
+  "input_config": {
+    "trait": "cvd_cad",
+    "biom": "met",
+    "ukb_phe": "/mnt/d/data/ukb/phe",
+    "phe_file": "/mnt/d/data/ukb/phe/Rdata/all.rds",
+    "omics_file": "/mnt/d/data/ukb/phe/Rdata/met.rds",
+    "met_map": "/mnt/d/data/ukb/phe/common/met.lst",
+    "diagnosis_col": "fod_icd10_cvd_cad",
+    "end_date": "2023-04-01",
+    "covariates": "age,sex,tdi,PC1,PC2",
+    "residualize": "",
+    "categorical": "sex",
+    "group_col": "",
+    "group_file": "",
+    "outer_roster": "",
+    "met_input": "named",
+    "id_col": "eid",
+    "baseline_col": "date_attend",
+    "death_col": "date_death",
+    "lost_col": "date_lost",
+    "disease_evidence_col": "",
+    "healthy_date_cols": "",
+    "exclude_features": "",
+    "transform": "none",
+    "seed": 2026,
+    "r_bin": "Rscript",
+    "max_samples": 0,
+    "demo_features": 80,
+    "demo": false,
+    "shared_covariates": "",
+    "shared_config_sources": {
+      "group_file": {
+        "source": "default",
+        "value": ""
+      },
+      "group_col": {
+        "source": "default",
+        "value": ""
+      },
+      "end_date": {
+        "source": "default",
+        "value": "2023-04-01"
+      },
+      "diagnosis_col": {
+        "source": "default",
+        "value": ""
+      },
+      "outer_roster": {
+        "source": "default",
+        "value": ""
+      },
+      "shared_covariates": {
+        "source": "default",
+        "value": ""
+      }
+    },
+    "group_source_column": "",
+    "outcome_type": "survival",
+    "target_col": "cvd_cad",
+    "excluded_technical_covariates": [],
+    "cores": 8
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "metrics",
+    "path": "metrics.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 1078,
+    "sha256": "8dda29ed2183515be83e2c55955211677552e46780b47d36cd690325ff0db84e",
+    "status": "available"
+  },
+  {
+    "name": "contrasts",
+    "path": "contrasts.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 44,
+    "sha256": "0478e4c228ec1cbe0664cda102805199330751cc363ae9e7e55bc17481c84b73",
+    "status": "available"
+  },
+  {
+    "name": "calibration",
+    "path": "calibration.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 6,
+    "sha256": "8e51c5ab195f6eb8c1e04c507edf4b84ac5b400a9a6ac7eb4442325922eabf75",
+    "status": "available"
+  },
+  {
+    "name": "confidence_validation",
+    "path": "confidence_validation.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 12,
+    "sha256": "1da2ce93d7b27b242ea28a52c0652ac7c4a66521d66ae43693eb485715a5e518",
+    "status": "available"
+  },
+  {
+    "name": "strata_diagnostics",
+    "path": "strata_diagnostics.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 30,
+    "sha256": "c92a99388222bd0ca64856a97a73a73e90d0d4e80b6f2c46e093a5067067a382",
+    "status": "available"
+  },
+  {
+    "name": "status",
+    "path": "status.tsv.gz",
+    "module": "ABM twin",
+    "layer": "prot",
+    "trait": "cvd_cad",
+    "run_id": "62c85dc110458c4509770468bdcef44781b51e3e744c6ae8be729621beb7cf51",
+    "rows": 1,
+    "sha256": "0d45493ee6b275456e7a96de2ce070d15dcf7532e844e0138cc63895b483042f",
+    "status": "available"
+  }
+]

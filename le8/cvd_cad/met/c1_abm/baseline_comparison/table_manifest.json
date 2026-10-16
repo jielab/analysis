@@ -1,0 +1,57 @@
+[
+  {
+    "name": "status",
+    "path": "status.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "",
+    "rows": 1,
+    "sha256": "364f69016509025547874d41799ec68cf34c6c1ae7db7a0dbb8cf05812b0574d",
+    "status": "available"
+  },
+  {
+    "name": "metrics",
+    "path": "metrics.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "",
+    "rows": 648,
+    "sha256": "07189dbe2b4c8de75d6dd1bbbbc139ef4518165e6c69f947dda08a2915e7aa90",
+    "status": "available"
+  },
+  {
+    "name": "same_subset_comparison",
+    "path": "same_subset_comparison.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "",
+    "rows": 16200,
+    "sha256": "ae343a7e67ed06ea3d1f75cd67b7c2739d10d8d3da7c8c7871aaae1439ea6083",
+    "status": "available"
+  },
+  {
+    "name": "coverage_curve",
+    "path": "coverage_curve.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "",
+    "rows": 72,
+    "sha256": "bd46a2f509b22204a790ace8c86c7774588cd87a665c9f294a54f1cf6c083d1c",
+    "status": "available"
+  },
+  {
+    "name": "selector_summary",
+    "path": "selector_summary.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "",
+    "rows": 12,
+    "sha256": "fda88cd8417aa23436121bdb6f127da29e73d5aae6a1d268593fd7db013dffbe",
+    "status": "available"
+  }
+]

@@ -1,0 +1,25 @@
+stage,family,model,panel,context,metric,value,N,horizon,evaluation_scope,source
+c1_correlate,C1 conventional holdout,Biomarkers,B,,Harrell C,0.736117534688995,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,B,,Harrell C,0.743357821960083,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,B,,Harrell C,0.710919789604903,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,B,,Harrell C,0.705475225783025,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,B,,Harrell C,0.731587246678716,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,B,,Harrell C,0.710919789604903,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,B,,Harrell C,0.713290564401173,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,B,,Harrell C,0.732999974764737,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,B,,Harrell C,0.710919789604903,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,B,,Harrell C,0.735818284667612,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,B,,Harrell C,0.741903779505438,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,B,,Harrell C,0.710919789604903,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,B,,Harrell C,0.69373680871291,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,B,,Harrell C,0.729071983252718,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,B,,Harrell C,0.710919789604903,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,B,,Harrell C,0.739353008054515,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,B,,Harrell C,0.740499760934964,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,B,,Harrell C,0.710919789604903,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,B,,Harrell C,0.702534312699747,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,B,,Harrell C,0.731634814032861,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,B,,Harrell C,0.710919789604903,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Biomarkers,B,,Harrell C,0.732053094100063,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Combined,B,,Harrell C,0.740060935343906,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv
+c1_correlate,C1 conventional holdout,Model 0,B,,Harrell C,0.710919789604903,7364,10.0,C1 conventional holdout,/mnt/d/analysis/le8/cvd_cad/prot/c1_correlate/prediction/prediction_summary.csv

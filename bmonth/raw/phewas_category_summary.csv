@@ -1,0 +1,73 @@
+"exposure","category","n_tested","n_bonf"
+"bmonth_cos","circulatory system",141,0
+"bmonth_cos","congenital anomalies",52,0
+"bmonth_cos","dermatologic",83,0
+"bmonth_cos","digestive",143,0
+"bmonth_cos","endocrine/metabolic",117,0
+"bmonth_cos","genitourinary",148,0
+"bmonth_cos","hematopoietic",54,0
+"bmonth_cos","infectious diseases",53,0
+"bmonth_cos","injuries & poisonings",69,0
+"bmonth_cos","mental disorders",63,0
+"bmonth_cos","musculoskeletal",120,0
+"bmonth_cos","neoplasms",128,0
+"bmonth_cos","neurological",72,0
+"bmonth_cos","other",36,0
+"bmonth_cos","pregnancy complications",27,0
+"bmonth_cos","respiratory",71,0
+"bmonth_cos","sense organs",107,0
+"bmonth_cos","symptoms",30,0
+"bmonth_sin","circulatory system",141,0
+"bmonth_sin","congenital anomalies",52,0
+"bmonth_sin","dermatologic",83,0
+"bmonth_sin","digestive",143,0
+"bmonth_sin","endocrine/metabolic",117,0
+"bmonth_sin","genitourinary",148,0
+"bmonth_sin","hematopoietic",54,0
+"bmonth_sin","infectious diseases",53,0
+"bmonth_sin","injuries & poisonings",69,0
+"bmonth_sin","mental disorders",63,0
+"bmonth_sin","musculoskeletal",120,0
+"bmonth_sin","neoplasms",128,0
+"bmonth_sin","neurological",72,0
+"bmonth_sin","other",36,0
+"bmonth_sin","pregnancy complications",27,0
+"bmonth_sin","respiratory",71,0
+"bmonth_sin","sense organs",107,0
+"bmonth_sin","symptoms",30,0
+"bmonth_winter_summer","circulatory system",138,0
+"bmonth_winter_summer","congenital anomalies",49,0
+"bmonth_winter_summer","dermatologic",76,0
+"bmonth_winter_summer","digestive",143,0
+"bmonth_winter_summer","endocrine/metabolic",108,0
+"bmonth_winter_summer","genitourinary",146,0
+"bmonth_winter_summer","hematopoietic",49,0
+"bmonth_winter_summer","infectious diseases",52,0
+"bmonth_winter_summer","injuries & poisonings",62,0
+"bmonth_winter_summer","mental disorders",61,0
+"bmonth_winter_summer","musculoskeletal",118,0
+"bmonth_winter_summer","neoplasms",128,0
+"bmonth_winter_summer","neurological",69,0
+"bmonth_winter_summer","other",36,0
+"bmonth_winter_summer","pregnancy complications",26,0
+"bmonth_winter_summer","respiratory",69,0
+"bmonth_winter_summer","sense organs",103,0
+"bmonth_winter_summer","symptoms",30,0
+"bmonth_spring_autumn","circulatory system",139,0
+"bmonth_spring_autumn","congenital anomalies",50,0
+"bmonth_spring_autumn","dermatologic",78,0
+"bmonth_spring_autumn","digestive",143,0
+"bmonth_spring_autumn","endocrine/metabolic",106,0
+"bmonth_spring_autumn","genitourinary",145,0
+"bmonth_spring_autumn","hematopoietic",49,0
+"bmonth_spring_autumn","infectious diseases",51,0
+"bmonth_spring_autumn","injuries & poisonings",63,0
+"bmonth_spring_autumn","mental disorders",61,0
+"bmonth_spring_autumn","musculoskeletal",117,0
+"bmonth_spring_autumn","neoplasms",128,0
+"bmonth_spring_autumn","neurological",71,0
+"bmonth_spring_autumn","other",36,0
+"bmonth_spring_autumn","pregnancy complications",27,0
+"bmonth_spring_autumn","respiratory",68,0
+"bmonth_spring_autumn","sense organs",104,0
+"bmonth_spring_autumn","symptoms",30,0

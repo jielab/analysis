@@ -1,0 +1,68 @@
+[
+  {
+    "name": "metrics",
+    "path": "metrics.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 70,
+    "sha256": "782f1e863c7d83c5a5ec09eff5569f2e1de80cd3098d68d2ea1430d409cc2768",
+    "status": "available"
+  },
+  {
+    "name": "contrasts",
+    "path": "contrasts.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 44,
+    "sha256": "d1014512b8615c7b31a58933eeed45bf151b82f9f385d52ec421e2ec07e245a2",
+    "status": "available"
+  },
+  {
+    "name": "calibration",
+    "path": "calibration.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 6,
+    "sha256": "13d80aaa166f09d86aad2a5d6f8b6478ac3ff6b8fb2d802409dcad8ee087b7e3",
+    "status": "available"
+  },
+  {
+    "name": "confidence_validation",
+    "path": "confidence_validation.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 14,
+    "sha256": "ec08a5f803ff99ca6a4d652c5343ad495d429476fb0323bb98e394956081b577",
+    "status": "available"
+  },
+  {
+    "name": "strata_diagnostics",
+    "path": "strata_diagnostics.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 30,
+    "sha256": "a9ff57bd3ec90f7143f7d29f564c9a1472c1f31559f893ea30e25e773a458d11",
+    "status": "available"
+  },
+  {
+    "name": "status",
+    "path": "status.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 1,
+    "sha256": "dea12f94d480fc59178ff34eac43de93578864f0ee8c1fc9376c6332b0059382",
+    "status": "available"
+  }
+]

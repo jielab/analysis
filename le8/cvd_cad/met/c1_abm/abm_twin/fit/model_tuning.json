@@ -1,0 +1,170 @@
+[
+  {
+    "model": "elasticnet_full",
+    "parameter": 0.01,
+    "logloss": 0.20953441295553143,
+    "iterations": 1032,
+    "fit_attempts": 1
+  },
+  {
+    "model": "elasticnet_full",
+    "parameter": 0.1,
+    "logloss": 0.20937154662908866,
+    "iterations": 1380,
+    "fit_attempts": 1
+  },
+  {
+    "model": "elasticnet_full",
+    "parameter": 1.0,
+    "logloss": 0.2093749230416123,
+    "iterations": 1412,
+    "fit_attempts": 1
+  },
+  {
+    "model": "elasticnet_clean",
+    "parameter": 0.01,
+    "logloss": 0.31894785181181645,
+    "iterations": 1522,
+    "fit_attempts": 1
+  },
+  {
+    "model": "elasticnet_clean",
+    "parameter": 0.1,
+    "logloss": 0.34675545933933094,
+    "iterations": 3322,
+    "fit_attempts": 2
+  },
+  {
+    "model": "elasticnet_clean",
+    "parameter": 1.0,
+    "logloss": 0.3525798247129582,
+    "iterations": 3662,
+    "fit_attempts": 2
+  },
+  {
+    "model": "elasticnet_soft",
+    "parameter": 0.01,
+    "logloss": 0.23435951481701373,
+    "iterations": 1068,
+    "fit_attempts": 1
+  },
+  {
+    "model": "elasticnet_soft",
+    "parameter": 0.1,
+    "logloss": 0.23491467001563912,
+    "iterations": 2837,
+    "fit_attempts": 2
+  },
+  {
+    "model": "elasticnet_soft",
+    "parameter": 1.0,
+    "logloss": 0.23510826327871978,
+    "iterations": 3162,
+    "fit_attempts": 2
+  },
+  {
+    "model": "elasticnet_random",
+    "parameter": 0.01,
+    "logloss": 0.27544980312192113,
+    "iterations": 1293,
+    "fit_attempts": 1
+  },
+  {
+    "model": "elasticnet_random",
+    "parameter": 0.1,
+    "logloss": 0.286996883773376,
+    "iterations": 3074,
+    "fit_attempts": 2
+  },
+  {
+    "model": "elasticnet_random",
+    "parameter": 1.0,
+    "logloss": 0.2899152419531002,
+    "iterations": 3419,
+    "fit_attempts": 2
+  },
+  {
+    "model": "lightgbm_full",
+    "parameter": 7,
+    "logloss": 0.21389888946916383,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_full",
+    "parameter": 15,
+    "logloss": 0.21110639503174264,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_full",
+    "parameter": 31,
+    "logloss": 0.2102798241604055,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_clean",
+    "parameter": 7,
+    "logloss": 0.29406122087036407,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_clean",
+    "parameter": 15,
+    "logloss": 0.3051149306648254,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_clean",
+    "parameter": 31,
+    "logloss": 0.3144480633058923,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_soft",
+    "parameter": 7,
+    "logloss": 0.23982456206960512,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_soft",
+    "parameter": 15,
+    "logloss": 0.23599554613152904,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_soft",
+    "parameter": 31,
+    "logloss": 0.23502503054944815,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_random",
+    "parameter": 7,
+    "logloss": 0.27007658023154685,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_random",
+    "parameter": 15,
+    "logloss": 0.2738652874892775,
+    "iterations": null,
+    "fit_attempts": null
+  },
+  {
+    "model": "lightgbm_random",
+    "parameter": 31,
+    "logloss": 0.27821070131018116,
+    "iterations": null,
+    "fit_attempts": null
+  }
+]

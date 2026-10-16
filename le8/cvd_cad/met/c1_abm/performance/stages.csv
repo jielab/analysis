@@ -1,0 +1,6 @@
+stage,source,status,metric_rows,detail
+c1_correlate,C1 conventional holdout,evaluated,48,Existing model estimates only
+c1_correlate,C1 fixed-budget holdout,evaluated,42,Existing model estimates only
+c1_correlate,C1 optional nested cross-validation,not_evaluated,0,Existing model estimates only
+c1_abm,ABM test (technical QC),evaluated,168,Existing model estimates only
+c1_abm,Molecular deviation objective endpoint,not_evaluated,0,Existing model estimates only

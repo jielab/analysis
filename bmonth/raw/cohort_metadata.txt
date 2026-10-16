@@ -1,0 +1,14 @@
+List of 9
+ $ input            : chr "/mnt/d/data/ukb/phe/Rdata/all.rds"
+ $ move             : chr "/mnt/d/data/ukb/phe/Rdata/move.rds"
+ $ outcomes         : chr [1:2] "cvd_cad" "ra"
+ $ follow_end       : chr "2023-04-01"
+ $ birth_year_source: chr "birth_year"
+ $ birth_year_approx: logi FALSE
+ $ covars_primary   : chr [1:8] "age" "sex" "center" "edu.sco" ...
+ $ covars_stage     :List of 4
+  ..$ D1_core        : chr [1:3] "age" "sex" "center"
+  ..$ D2_adultSES    : chr [1:5] "age" "sex" "center" "edu.sco" ...
+  ..$ D3_birthContext: chr [1:8] "age" "sex" "center" "edu.sco" ...
+  ..$ D4_migration   : chr [1:9] "age" "sex" "center" "edu.sco" ...
+ $ note_tdi_birth   : chr "tdi.birth is the value created by ukb/f/phe.R: current-home TDI spatial surface mapped by nearest neighbour to "| __truncated__

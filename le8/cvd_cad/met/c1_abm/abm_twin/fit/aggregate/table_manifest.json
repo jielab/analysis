@@ -1,0 +1,68 @@
+[
+  {
+    "name": "training_summary",
+    "path": "training_summary.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 1,
+    "sha256": "d15267b93e0929c96c3a991dc0aa51a651a7d13f599f0b5c15434bd1a1fe8026",
+    "status": "available"
+  },
+  {
+    "name": "training_folds",
+    "path": "training_folds.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 10,
+    "sha256": "1aac9694b5cbc3f94d780796cd9d7f85565eb7d89f70d4afcffa58bc3d627aac",
+    "status": "available"
+  },
+  {
+    "name": "pruning_audit",
+    "path": "pruning_audit.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 1,
+    "sha256": "68ac7816e768db044bca32e3a3daa7dcc56575f463a4f0d915935bba56703262",
+    "status": "available"
+  },
+  {
+    "name": "selected_panel",
+    "path": "selected_panel.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 50,
+    "sha256": "34a8aa6d17c30e4de49e84f542cef93aa750e1fe46f020a7fe2fb043b249163e",
+    "status": "available"
+  },
+  {
+    "name": "model_tuning",
+    "path": "model_tuning.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 24,
+    "sha256": "20ce7aefd65ea8ce2d33c0fb5bd3b77b790535e6751abae3549cb8eaad51b4cd",
+    "status": "available"
+  },
+  {
+    "name": "role_counts",
+    "path": "role_counts.tsv.gz",
+    "module": "ABM twin",
+    "layer": "met",
+    "trait": "cvd_cad",
+    "run_id": "11319ae04df33b2bef1803bbd9229f6eae7b82b12b5b2e977eb72035e329eca9",
+    "rows": 5,
+    "sha256": "3d9a7a7c672e27c857e0a59747452071e7eaa3b8cde66f07446a66f2da253ef2",
+    "status": "available"
+  }
+]

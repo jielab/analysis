@@ -1,0 +1,7 @@
+"exposure","type","N","cases","controls","title_counts"
+"bmonth_cos","continuous",425086,,,"N=425,086"
+"bmonth_sin","continuous",425086,,,"N=425,086"
+"bmonth_winter_summer","binary",210910,107057,103853,"107,057 cases vs 103,853 controls"
+"bmonth_spring_autumn","binary",214176,101448,112728,"101,448 cases vs 112,728 controls"
+"birth_north_100km","continuous",379249,,,"N=379,249"
+"birth_east_100km","continuous",379249,,,"N=379,249"

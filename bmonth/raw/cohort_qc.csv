@@ -1,0 +1,17 @@
+"metric","value"
+"all.rds N",502371
+"birth_month nonmissing",501936
+"birth_north nonmissing",444228
+"birth_east nonmissing",444228
+"tdi.birth nonmissing",444123
+"move_km nonmissing",444123
+"tdi.birth nearest-neighbour distance median km",0.707106781186548
+"tdi.birth nearest-neighbour distance p95 km",9.61769203083567
+"bmonth_cos nonmissing",501936
+"bmonth_sin nonmissing",501936
+"bmonth_winter_summer nonmissing",249028
+"bmonth_spring_autumn nonmissing",252908
+"bmonth_rank nonmissing",501936
+"birth_north_100km nonmissing",444228
+"birth_east_100km nonmissing",444228
+"move_log1p nonmissing",444123
