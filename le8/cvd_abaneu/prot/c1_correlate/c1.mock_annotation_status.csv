@@ -1,0 +1,5 @@
+source,status,detail
+MGI,ok,"MGI high-level phenotypes; annotated assayed background N=2474, selected N=107"
+KEGG,ok,KEGG_2021_Human
+TF,ok,TRRUST_Transcription_Factors_2019
+STRING,ok,54 physical edges

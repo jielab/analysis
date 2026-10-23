@@ -1,0 +1,7 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,score,term_label,term_key,x_value,panel
+"Subgroup","Metabolite subgroup:Cholesterol","Cholesterol",0.120941735371266,7,7,142,300,2.11267605633803,0.917423804071754,"Cholesterol","Subgroup___Metabolite subgroup:Cholesterol",2.11267605633803,"F"
+"Subgroup","Metabolite subgroup:IDL_ratios","IDL_ratios",0.120941735371266,5,5,142,300,2.11267605633803,0.917423804071754,"IDL_ratios","Subgroup___Metabolite subgroup:IDL_ratios",2.11267605633803,"F"
+"Subgroup","Metabolite subgroup:Large_HDL_ratios","Large_HDL_ratios",0.120941735371266,5,5,142,300,2.11267605633803,0.917423804071754,"Large_HDL_ratios","Subgroup___Metabolite subgroup:Large_HDL_ratios",2.11267605633803,"F"
+"Subgroup","Metabolite subgroup:Medium_LDL_ratios","Medium_LDL_ratios",0.120941735371266,5,5,142,300,2.11267605633803,0.917423804071754,"Medium_LDL_ratios","Subgroup___Metabolite subgroup:Medium_LDL_ratios",2.11267605633803,"F"
+"Subgroup","Metabolite subgroup:Medium_VLDL_ratios","Medium_VLDL_ratios",0.120941735371266,5,5,142,300,2.11267605633803,0.917423804071754,"Medium_VLDL_ratios","Subgroup___Metabolite subgroup:Medium_VLDL_ratios",2.11267605633803,"F"
+"Subgroup","Metabolite subgroup:Small_VLDL_ratios","Small_VLDL_ratios",0.120941735371266,5,5,142,300,2.11267605633803,0.917423804071754,"Small_VLDL_ratios","Subgroup___Metabolite subgroup:Small_VLDL_ratios",2.11267605633803,"F"

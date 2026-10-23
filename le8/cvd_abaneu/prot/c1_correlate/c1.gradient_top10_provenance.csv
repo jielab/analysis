@@ -1,0 +1,11 @@
+analysis,feature,p_value,rank
+"incident_behavioral_LE4","MMP12",2.24178440874957e-48,1
+"incident_behavioral_LE4","WFDC2",7.9024316205913e-20,2
+"incident_behavioral_LE4","CXCL17",2.2427573976073e-16,3
+"incident_behavioral_LE4","NPC2",3.02153583194201e-14,4
+"incident_behavioral_LE4","SHISA5",3.93183996864592e-13,5
+"incident_behavioral_LE4","GDF15",1.86481463250272e-12,6
+"incident_behavioral_LE4","PLAUR",2.38514760027006e-12,7
+"incident_behavioral_LE4","TNFRSF1A",1.0694871037592e-11,8
+"incident_behavioral_LE4","CSF1",1.64118559008688e-11,9
+"incident_behavioral_LE4","RNASE6",3.21379535577273e-11,10

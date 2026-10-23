@@ -1,0 +1,2 @@
+term,estimate,beta,std.error,conf.low,conf.high,statistic,p.value,N_total,N_event,status,warning,dropped_constant_covariates,FDR,score_column,x_original,y_original,direction,label,x,y,panel
+"S_VLDL_L",1.29383479878747,0.257610520840063,0.0601198209538988,1.15001578891294,1.45563956833652,4.28495156427037,1.82779004552543e-05,458182,278,"ok","","",0.0042770287065295,"S_VLDL_L.pgs",0.257610520840063,4.73807369224907,"Positive","S_VLDL_L",0.184094067078282,4.73807369224907,"C"

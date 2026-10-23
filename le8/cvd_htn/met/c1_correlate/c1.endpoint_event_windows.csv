@@ -1,0 +1,7 @@
+"window_lo","window_hi","N_at_risk","events","interpretation"
+0,0.5,423755,3546,"Observed event distribution; verify recording coverage"
+0.5,1,419958,3981,"Observed event distribution; verify recording coverage"
+1,2,415601,8042,"Observed event distribution; verify recording coverage"
+2,5,406577,24687,"Observed event distribution; verify recording coverage"
+5,10,377960,42539,"Observed event distribution; verify recording coverage"
+10,Inf,328157,32584,"Observed event distribution; verify recording coverage"
