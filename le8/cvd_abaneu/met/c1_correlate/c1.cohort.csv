@@ -1,0 +1,2 @@
+layer,N_omics,incident_events,prevalent_cases,features,annotation_matched,annotation_unmatched,attained_age_N,bi2e_available,PGS_matched,PGS_file_signature,LE8_components,covs_use,LE4_components,le8_covariates_removed,overlap_covariates_removed,treatment_covariates
+"metabolite",459254,2613,278,300,300,0,458976,459254,234,"/mnt/d/data/ukb/Rdata/met.pgs.rds|352839892|2026-09-01T12:13:03+0800",8,"adj_le4",4,"bmi.pts;nonhdl.pts;hba1c.pts;bp.pts","bmi.pts;nonhdl.pts;hba1c.pts;bp.pts",""

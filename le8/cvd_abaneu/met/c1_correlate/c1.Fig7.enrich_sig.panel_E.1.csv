@@ -1,0 +1,7 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,score,term_label,term_key,x_value,panel
+"Group","Metabolite group:Relative_lipoprotein_lipid_concentrations","Relative_lipoprotein_lipid_concentrations",0.0128348299789378,45,70,142,300,1.35814889336016,1.89160987998811,"Relative_lipoprotein_lipid_concentrations","Group___Metabolite group:Relative_lipoprotein_lipid_concentrations",1.35814889336016,"E"
+"Group","Metabolite group:Lipoprotein_subclasses","Lipoprotein_subclasses",0.0132566525287438,52,85,142,300,1.29246064623032,1.87756612689877,"Lipoprotein_subclasses","Group___Metabolite group:Lipoprotein_subclasses",1.29246064623032,"E"
+"Group","Metabolite group:Cholesterol","Cholesterol",0.0229387327677246,7,7,142,300,2.11267605633803,1.63943057802961,"Cholesterol","Group___Metabolite group:Cholesterol",2.11267605633803,"E"
+"Group","Metabolite group:Cholesteryl_esters","Cholesteryl_esters",0.137417855842134,4,4,142,300,2.11267605633803,0.861956832124571,"Cholesteryl_esters","Group___Metabolite group:Cholesteryl_esters",2.11267605633803,"E"
+"Group","Metabolite group:Free_cholesterol","Free_cholesterol",0.137417855842134,4,4,142,300,2.11267605633803,0.861956832124571,"Free_cholesterol","Group___Metabolite group:Free_cholesterol",2.11267605633803,"E"
+"Group","Metabolite group:Other_lipids","Other_lipids",0.35901962337134,4,5,142,300,1.69014084507042,0.444881813012272,"Other_lipids","Group___Metabolite group:Other_lipids",1.69014084507042,"E"

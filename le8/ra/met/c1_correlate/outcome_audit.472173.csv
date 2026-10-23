@@ -1,0 +1,8 @@
+metric,value,outcome
+N,472173,ra
+prevalent_including_same_day,2386,ra
+same_day,0,ra
+incident_within_followup,7755,ra
+diagnosis_after_censor,2,ra
+invalid_followup,0,ra
+unknown_date_with_disease_evidence,0,ra

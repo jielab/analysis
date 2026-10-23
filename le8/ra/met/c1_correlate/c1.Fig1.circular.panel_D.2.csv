@@ -1,0 +1,6 @@
+circle_group,x1,x2,x,angle,label,panel
+"Amino acids",177.55,182.45,180,-60.2230483271376,"Amino acids","D"
+"Cholesterol and apolipoproteins",159.55,174.45,167,-42.8252788104089,"Cholesterol / Apo","D"
+"Energy metabolism",185.55,189.45,187.5,-70.2602230483271,"Energy","D"
+"Lipoprotein lipids",6.55,156.45,81.5,71.5985130111524,"Lipoprotein lipids","D"
+"Other metabolites",192.55,263.45,228,55.5390334572491,"Other","D"

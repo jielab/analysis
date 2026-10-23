@@ -1,0 +1,7 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,score,term_label,term_key,x_value,panel
+"Group","Metabolite group:Relative_lipoprotein_lipid_concentrations","Relative_lipoprotein_lipid_concentrations",0.154970348674785,51,70,181,300,1.20757695343331,0.80975138982194,"Relative_lipoprotein_lipid_concentrations","Group___Metabolite group:Relative_lipoprotein_lipid_concentrations",1.20757695343331,"B"
+"Group","Metabolite group:Lipoprotein_subclasses","Lipoprotein_subclasses",0.227947253492727,59,85,181,300,1.15047123821904,0.642165636189105,"Lipoprotein_subclasses","Group___Metabolite group:Lipoprotein_subclasses",1.15047123821904,"B"
+"Group","Metabolite group:Other_lipids","Other_lipids",0.417003058263636,5,5,181,300,1.65745856353591,0.379860759937152,"Other_lipids","Group___Metabolite group:Other_lipids",1.65745856353591,"B"
+"Group","Metabolite group:Fatty_acids","Fatty_acids",0.768664254722031,12,18,181,300,1.10497237569061,0.114263314504984,"Fatty_acids","Group___Metabolite group:Fatty_acids",1.10497237569061,"B"
+"Group","Metabolite group:Fluid_balance","Fluid_balance",0.768664254722031,2,2,181,300,1.65745856353591,0.114263314504984,"Fluid_balance","Group___Metabolite group:Fluid_balance",1.65745856353591,"B"
+"Group","Metabolite group:Free_cholesterol","Free_cholesterol",0.768664254722031,3,4,181,300,1.24309392265193,0.114263314504984,"Free_cholesterol","Group___Metabolite group:Free_cholesterol",1.24309392265193,"B"

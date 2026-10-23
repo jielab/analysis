@@ -1,0 +1,4 @@
+k,silhouette,gap,gap_se,stability,min_cluster_n,passes_min_cluster,rank_sum,analysis
+2,1,30.6214010269637,0.0833819523620901,1,25,TRUE,3,"incident_behavioral_LE4"
+3,0.992507802763101,30.1812232563968,0.106355974693473,1,1,FALSE,5,"incident_behavioral_LE4"
+4,0.873224623592983,29.7985379817363,0.096568283975813,1,1,FALSE,7,"incident_behavioral_LE4"
