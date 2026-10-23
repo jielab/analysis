@@ -1,8 +1,0 @@
-source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
-"GO:CC","GO:0005576","extracellular region",1.66368200674577e-08,73,976,118,2910,1.8445227841067,"A"
-"GO:CC","GO:0005615","obsolete extracellular space",3.45578564166159e-06,58,765,118,2910,1.86972416085078,"A"
-"GO:MF","GO:0005031","tumor necrosis factor receptor activity",0.000922292755315864,5,8,118,2910,15.4131355932203,"A"
-"GO:CC","GO:0005788","endoplasmic reticulum lumen",0.00260265124262909,16,137,118,2910,2.88011876778424,"A"
-"GO:BP","GO:0007178","cell surface receptor protein serine/threonine kinase signaling pathway",0.0232904964415468,4,6,118,2910,16.4406779661017,"A"
-"GO:BP","GO:0007250","activation of NF-kappaB-inducing kinase activity",0.0296454900847137,4,8,118,2910,12.3305084745763,"A"
-"GO:BP","GO:0019731","antibacterial humoral response",0.0296454900847137,5,15,118,2910,8.22033898305085,"A"

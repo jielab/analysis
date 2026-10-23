@@ -1,0 +1,9 @@
+phase	device	seconds	n	rows_per_second	max_rss_gib	requested_device	executed_device	cache_reused	original_cache_device	peak_vram_gib	gpu	dtype
+input_verification	cpu	1401.5847532479966	486030	346.7717516715893	12.291965484619141							
+prepare		5.0882711820013364	486030	95519.673110039133	12.291965484619141	auto	cpu	False		0		float64_distance_float32_network
+fit_predictors		1.2741889349999838	486030		12.291965484619141	auto	none_cache_reused	True	cuda	0		float64_distance_float32_network
+build_support		70.428766241995618	486030		12.291965484619141	auto	none_cache_reused	True	cuda	0		float64_distance_float32_network
+fit_assessor		1.0616652469907422	486030	457799.67026107077	12.291965484619141	auto	cpu	False		0		float64_distance_float32_network
+freeze_predictions		20.883318320993567	486030	23273.60013046414	12.291965484619141	auto	cpu	False		0		float64_distance_float32_network
+evaluate		142.60553066901048	486030	3408.2128352236405	12.291965484619141	auto	cpu	False		0		float64_distance_float32_network
+report		1.3335696840076707	486030	364457.89509804448	12.291965484619141	auto	cpu	False		0		float64_distance_float32_network

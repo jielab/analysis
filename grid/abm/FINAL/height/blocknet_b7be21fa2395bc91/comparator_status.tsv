@@ -1,0 +1,4 @@
+method	status	fit_role	tuning_role	calibration_role	reason
+Clinical	completed	build	tune_model	prediction_calibration	
+csx-moe	completed	build	tune_model	prediction_calibration	
+csx-disco	unavailable				Official R interpolation failed; inspect /mnt/d/analysis/grid/abm/FINAL/height/blocknet_b7be21fa2395bc91/_LOCAL_ONLY/disco/R.log

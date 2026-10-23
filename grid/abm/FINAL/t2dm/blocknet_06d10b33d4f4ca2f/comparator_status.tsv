@@ -1,0 +1,4 @@
+method	status	fit_role	tuning_role	calibration_role	reason
+Clinical	completed	build	tune_model	prediction_calibration	
+csx-moe	completed	build	tune_model	prediction_calibration	
+csx-disco	unavailable				Disco EAS/tune_model: insufficient cases/controls; unavailable

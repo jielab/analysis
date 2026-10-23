@@ -1,5 +1,0 @@
-source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,score,term_label,term_key,x_value,panel
-"Super-group","Metabolite super-group:Lipoprotein lipids","Lipoprotein lipids",1.29859225186434e-06,128,177,181,300,1.19861410244405,5.88652719270198,"Lipoprotein lipids","Super-group___Metabolite super-group:Lipoprotein lipids",1.19861410244405,"A"
-"Super-group","Metabolite super-group:Amino acids","Amino acids",0.999982203494496,5,10,181,300,0.828729281767956,7.72899291225447e-06,"Amino acids","Super-group___Metabolite super-group:Amino acids",0.828729281767956,"A"
-"Super-group","Metabolite super-group:Cholesterol and apolipoproteins","Cholesterol and apolipoproteins",0.999982203494496,11,18,181,300,1.01289134438306,7.72899291225447e-06,"Cholesterol and apolipoproteins","Super-group___Metabolite super-group:Cholesterol and apolipoproteins",1.01289134438306,"A"
-"Super-group","Metabolite super-group:Other metabolites","Other metabolites",0.999982203494496,37,87,181,300,0.704896170699181,7.72899291225447e-06,"Other metabolites","Super-group___Metabolite super-group:Other metabolites",0.704896170699181,"A"

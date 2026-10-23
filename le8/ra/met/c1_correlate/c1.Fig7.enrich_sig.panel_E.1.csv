@@ -1,7 +1,0 @@
-source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,score,term_label,term_key,x_value,panel
-"Group","Metabolite group:Cholesterol","Cholesterol",0.288202354787499,6,7,138,300,1.86335403726708,0.540302475059022,"Cholesterol","Group___Metabolite group:Cholesterol",1.86335403726708,"E"
-"Group","Metabolite group:Fatty_acids","Fatty_acids",0.288202354787499,13,18,138,300,1.57004830917874,0.540302475059022,"Fatty_acids","Group___Metabolite group:Fatty_acids",1.57004830917874,"E"
-"Group","Metabolite group:Amino_acids","Amino_acids",0.420004842448676,6,10,138,300,1.30434782608696,0.376745702372063,"Amino_acids","Group___Metabolite group:Amino_acids",1.30434782608696,"E"
-"Group","Metabolite group:Cholesteryl_esters","Cholesteryl_esters",0.420004842448676,3,4,138,300,1.6304347826087,0.376745702372063,"Cholesteryl_esters","Group___Metabolite group:Cholesteryl_esters",1.6304347826087,"E"
-"Group","Metabolite group:Free_cholesterol","Free_cholesterol",0.420004842448676,3,4,138,300,1.6304347826087,0.376745702372063,"Free_cholesterol","Group___Metabolite group:Free_cholesterol",1.6304347826087,"E"
-"Group","Metabolite group:Lipoprotein_particle_concentrations","Lipoprotein_particle_concentrations",0.420004842448676,2,2,138,300,2.17391304347826,0.376745702372063,"Lipoprotein_particle_concentrations","Group___Metabolite group:Lipoprotein_particle_concentrations",2.17391304347826,"E"

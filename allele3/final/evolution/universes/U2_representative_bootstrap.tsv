@@ -1,3 +1,0 @@
-metric	n_rows	n_clusters	mean	ci_low	ci_high	method
-extra_af	141	141	0.010717828141000993	0.00311376175975156	0.02161665438419865	whole_LD_block_bootstrap; outside_partition uses labelled 1Mb spatial clusters
-extra_ac	141	141	1629.113475177305	499.7163120567376	3357.950354609929	whole_LD_block_bootstrap; outside_partition uses labelled 1Mb spatial clusters

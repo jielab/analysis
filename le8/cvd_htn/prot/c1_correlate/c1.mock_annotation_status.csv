@@ -1,5 +1,0 @@
-source,status,detail
-MGI,unavailable,<urlopen error [Errno 104] Connection reset by peer>
-KEGG,ok,KEGG_2021_Human
-TF,ok,TRRUST_Transcription_Factors_2019
-STRING,ok,2842 physical edges

@@ -1,0 +1,12 @@
+method	status	fit_role	tuning_role	calibration_role	reason	trait
+Clinical	completed	build	tune_model	prediction_calibration		height
+csx-moe	completed	build	tune_model	prediction_calibration		height
+Clinical	completed	build	tune_model	prediction_calibration		ldl
+csx-moe	completed	build	tune_model	prediction_calibration		ldl
+ABM	not_completed					t2dm
+PRSformer	not_completed					height
+PRSformer	not_completed					ldl
+PRSformer	not_completed					t2dm
+PRSformer2	not_completed					height
+PRSformer2	not_completed					ldl
+PRSformer2	not_completed					t2dm

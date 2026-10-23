@@ -1,2 +1,0 @@
-status,detail,score_file,genotype_rows,phenotype_matches,same_omic_rows,adjustment
-"ok","234 matched PGS columns","/mnt/d/data/ukb/Rdata/met.pgs.rds",458721,458721,452528,"age;sex;tdi;PC1;PC2"

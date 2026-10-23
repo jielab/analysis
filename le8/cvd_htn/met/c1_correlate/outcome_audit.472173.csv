@@ -1,8 +1,0 @@
-metric,value,outcome
-N,472173,cvd_htn
-prevalent_including_same_day,36798,cvd_htn
-same_day,8,cvd_htn
-incident_within_followup,118660,cvd_htn
-diagnosis_after_censor,31,cvd_htn
-invalid_followup,0,cvd_htn
-unknown_date_with_disease_evidence,0,cvd_htn

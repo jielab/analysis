@@ -1,0 +1,4 @@
+source	status	detail
+disco/height/coefficients.xlsx	source_read_failed	Expanded workbook exceeds configured limit
+disco/ldl/coefficients.xlsx	source_read_failed	Expanded workbook exceeds configured limit
+disco/t2dm/coefficients.xlsx	source_read_failed	Expanded workbook exceeds configured limit

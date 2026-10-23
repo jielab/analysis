@@ -1,4 +1,0 @@
-source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
-"GO:CC","GO:0005576","extracellular region",3.60801173094634e-11,550,976,1361,2910,1.20489093121018,"A"
-"GO:CC","GO:0005615","obsolete extracellular space",3.60801173094634e-11,445,765,1361,2910,1.24375099047701,"A"
-"GO:CC","GO:0070062","extracellular exosome",1.36265341926497e-08,398,693,1361,2910,1.22796136021705,"A"

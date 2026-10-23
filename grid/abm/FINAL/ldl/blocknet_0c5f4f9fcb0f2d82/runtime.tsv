@@ -1,0 +1,9 @@
+phase	device	seconds	n	rows_per_second	max_rss_gib	requested_device	executed_device	cache_reused	original_cache_device	peak_vram_gib	gpu	dtype
+input_verification	cpu	5950.6940410929965	447052	75.126026798361053	28.551338195800781							
+prepare		5.8413093129929612	447052	76532.841533594459	28.551338195800781	auto	cpu	False		0		float64_distance_float32_network
+fit_predictors		1663.5402736230026	447052	268.73530330971266	28.551338195800781	auto	cuda	False		0.32269906997680642	NVIDIA GeForce RTX 5090 Laptop GPU	float64_distance_float32_network
+build_support		4603.6512268010119	447052	97.108138296273083	28.551338195800781	auto	cuda	False	cuda	6.809565544128418	NVIDIA GeForce RTX 5090 Laptop GPU	float64_distance_float32_network
+fit_assessor		1.1572329319897108	447052	386311.16315654153	28.551338195800781	auto	cpu	False		0		float64_distance_float32_network
+freeze_predictions		21.498299867002061	447052	20794.760644593309	28.551338195800781	auto	cpu	False		0		float64_distance_float32_network
+evaluate		150.46338147498318	447052	2971.1681049407307	28.551338195800781	auto	cpu	False		0		float64_distance_float32_network
+report		0.93205288899480365	447052	479642.30922789662	28.551338195800781	auto	cpu	False		0		float64_distance_float32_network

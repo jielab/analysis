@@ -1,5 +1,0 @@
-source,status,detail
-MGI,ok,"MGI high-level phenotypes; annotated assayed background N=2474, selected N=524"
-KEGG,ok,KEGG_2021_Human
-TF,unavailable,<urlopen error _ssl.c:1015: The handshake operation timed out>
-STRING,ok,786 physical edges

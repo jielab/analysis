@@ -1,6 +1,0 @@
-2026-09-21.baseline-med-source-v3
-baseline medication columns: .le8_raw_med_i0_1,.le8_raw_med_i0_2
-raw medication source: /mnt/d/data/ukb/rap/vip.tab.gz : p6153_i0,p6177_i0
-mapping: ukb/f/phe.R baseline raw-assay convention
-Diagnosis requires date <= date_attend; unresolved medication status stays NA.
-Raw assays and other LE8 components still require source visit provenance review.
