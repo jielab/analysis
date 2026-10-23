@@ -1,0 +1,33 @@
+HG00096 / GRCh38 autosomal RepeatMasker census
+Sequence-based annotation; variant-conditioned haplotypes, not complete independent assemblies.
+Unresolved spans were masked with N. Unknown inserted sequence lengths remain unknown.
+
+label	ERV_with_MaLR_percent_model_length	ERV_with_MaLR_percent_non_N
+diploid	8.242676	8.665806
+hap1	8.241746	8.665639
+hap2	8.243606	8.665974
+reference	8.276603	8.667987
+reference_callable_diploid	8.243011	8.665944
+reference_callable_hap1	8.241812	8.665521
+reference_callable_hap2	8.244209	8.666367
+
+Calendar hours from first annotation start (includes pauses): 9.943
+Measured CPU core-hours: 102.203
+Uncertain reference bases across both haplotypes: 20999789
+Unhandled/audited allele records across both haplotypes: 61989
+Boundary disagreement (bp; ERV_with_MaLR): {"reference": 5490, "hap1": 3428, "hap2": 3306}
+
+Linear projection for 3202 individuals; one shared reference control:
+{
+  "samples": 3202,
+  "reference_runs": 1,
+  "haplotypes_per_sample": 2,
+  "annotation_job_hours": 151108.90877806747,
+  "annotation_wall_days_at_same_jobs": 787.0255665524347,
+  "annotation_cpu_core_hours": 217991.28531388874,
+  "caveat": "Linear projection from HG00096, assuming similar workloads and resource contention. Excludes installation, downloads, VCF preparation and scheduling overhead."
+}
+
+All results: genome_fraction.tsv/json; chromosome_fraction.tsv; variant_summary.tsv;
+boundary_audit.tsv; variants/<chromosome>/unhandled.tsv.gz; chunks/*/*/*/repeatmasker.out.gz.
+No complete individual FASTA was saved. Temporary sequence chunks are removed after each job.

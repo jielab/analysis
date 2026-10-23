@@ -1,0 +1,13 @@
+variant_id	pvar_index	chrom	pos	ref	alt	status
+2_136161092_C_G	6670838	2	136161092	C	G	assayed_pass
+2_136161092_C_A	6670837	2	136161092	C	A	not_in_high_quality
+5_131556174_T_C	18574752	5	131556174	T	C	assayed_pass
+5_131556174_T_G	.	5	131556174	T	G	not_represented_in_panel
+5_131537860_T_G	18574485	5	131537860	T	G	assayed_pass
+5_131537860_T_A	.	5	131537860	T	A	not_represented_in_panel
+5_131495729_G_T	18573612	5	131495729	G	T	assayed_pass
+5_131495729_G_A	18573611	5	131495729	G	A	not_in_high_quality
+12_113357237_G_C	38315064	12	113357237	G	C	assayed_pass
+12_113357237_G_T	38315065	12	113357237	G	T	not_in_high_quality
+2_135429288_G_A	6658116	2	135429288	G	A	assayed_pass
+2_135429288_G_C	.	2	135429288	G	C	not_represented_in_panel
