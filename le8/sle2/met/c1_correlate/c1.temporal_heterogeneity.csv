@@ -1,0 +1,5 @@
+feature,N,events,p_time_interaction,status,FDR
+"L_VLDL_TG.pct",351087,391,0.55290934939253,"interval-slope likelihood-ratio test",0.747768589154175
+"L_VLDL_TG",351087,391,0.560826441865631,"interval-slope likelihood-ratio test",0.747768589154175
+"Total_TG",351087,391,0.216862090406157,"interval-slope likelihood-ratio test",0.747768589154175
+"ApoB",351087,391,0.923209285795833,"interval-slope likelihood-ratio test",0.923209285795833

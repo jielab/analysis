@@ -1,0 +1,7 @@
+feature,analysis,predictor,model,beta,se,p_value,FDR,N,events,conf.low,conf.high,vldl_size,metric,target,panel
+"L_VLDL_TG.pct","Incident","Inherited","PGS: full genetic cohort",0.0490145035620851,0.041810560893013,0.241076794538406,0.933109292707422,457912,569,-0.0329341957882204,0.130963202912391,"L","TG / total lipids (%)",TRUE,"D"
+"L_VLDL_TG.pct","Baseline prevalent","Inherited","PGS: full genetic cohort",0.0486186534087782,0.0607631289389507,0.42363308773523,0.87038498685252,458182,270,-0.0704770793115652,0.167714386129122,"L","TG / total lipids (%)",TRUE,"D"
+"L_VLDL_TG.pct","Attained age","Inherited","PGS: full genetic cohort",0.0492204975095279,0.0418117378785578,0.239118363996767,0.931772160051116,457912,569,-0.0327305087324455,0.131171503751501,"L","TG / total lipids (%)",TRUE,"D"
+"L_VLDL_TG.pct","Incident","Measured","Measured: behavioral LE4",-0.0586348678458127,0.0494333914534841,0.23556745632205,0.321228349530069,351087,391,-0.155524315094642,0.0382545794030161,"L","TG / total lipids (%)",TRUE,"D"
+"L_VLDL_TG.pct","Baseline prevalent","Measured","Measured: behavioral LE4",NA,NA,NA,NA,351256,169,NA,NA,"L","TG / total lipids (%)",TRUE,"D"
+"L_VLDL_TG.pct","Attained age","Measured","Measured: behavioral LE4",-0.0587887280899981,0.0494368797822504,0.234373781847332,0.319600611609998,351087,391,-0.155685012463209,0.0381075562832126,"L","TG / total lipids (%)",TRUE,"D"

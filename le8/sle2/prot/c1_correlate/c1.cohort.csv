@@ -1,0 +1,2 @@
+layer,N_omics,incident_events,prevalent_cases,features,annotation_matched,annotation_unmatched,attained_age_N,bi2e_available,PGS_matched,PGS_file_signature,LE8_components,covs_use,LE4_components,le8_covariates_removed,overlap_covariates_removed,treatment_covariates
+"protein",38576,210,201,2910,2895,15,38375,38576,2582,"/mnt/d/data/ukb/Rdata/prot.pgs.rds|2721916583|2026-09-01T12:13:27+0800",8,"adj_le4",4,"bmi.pts;nonhdl.pts;hba1c.pts;bp.pts","bmi.pts;nonhdl.pts;hba1c.pts;bp.pts",""

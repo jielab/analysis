@@ -1,0 +1,10 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0005886","plasma membrane",3.52108264457352e-12,199,1118,349,2910,1.48415354885669,"B"
+"GO:CC","GO:0009986","cell surface",3.42160503702109e-11,83,325,349,2910,2.1294247299978,"B"
+"GO:CC","GO:0005576","extracellular region",8.7532737618585e-11,176,976,349,2910,1.50359340504486,"B"
+"GO:BP","GO:0002376","immune system process",6.88209280236255e-10,66,235,349,2910,2.34176674998476,"B"
+"GO:BP","GO:0006955","immune response",1.98397625899686e-07,53,192,349,2910,2.30166547277937,"B"
+"GO:MF","GO:0005031","tumor necrosis factor receptor activity",1.119107521904e-05,8,8,349,2910,8.33810888252149,"B"
+"GO:BP","GO:0002250","adaptive immune response",6.55692413053534e-05,29,92,349,2910,2.62831693036004,"B"
+"GO:MF","GO:0001618","virus receptor activity",0.000102774144929414,20,52,349,2910,3.20696495481596,"B"
+"GO:MF","GO:0038023","signaling receptor activity",0.000138427455124135,35,130,349,2910,2.24487546837117,"B"

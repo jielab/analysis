@@ -1,0 +1,241 @@
+term,beta,std.error,conf.low,conf.high,p.value,N_total,N_event,N_case,N_control,person_years,window_lo,window_hi,time,effect_measure,status,side,FDR
+"L_VLDL_TG.pct",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_VLDL_TG",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_TG",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"ApoB",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Albumin",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_CE",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Creatinine",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_C",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_P",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_C",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_P",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_C",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_CE",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_C",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_FC",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_PL",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"M_LDL_FC",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_FC",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_FC",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_CE",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_VLDL_TG.pct",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_VLDL_TG",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_TG",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"ApoB",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Albumin",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_CE",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Creatinine",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_C",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_P",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_C",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_P",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_C",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_CE",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_C",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_FC",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_PL",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"M_LDL_FC",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_FC",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_FC",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_CE",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_VLDL_TG.pct",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_VLDL_TG",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_TG",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"ApoB",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Albumin",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_CE",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Creatinine",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_C",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_P",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_C",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_P",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_C",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_CE",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_C",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_FC",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_PL",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"M_LDL_FC",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_FC",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_FC",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_CE",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_VLDL_TG.pct",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_VLDL_TG",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_TG",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"ApoB",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Albumin",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_CE",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Creatinine",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_C",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_P",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_C",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_P",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_C",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_CE",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_C",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_FC",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_PL",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"M_LDL_FC",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_FC",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_FC",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_CE",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Albumin",-0.514276572562641,0.129202518213367,-0.767513508260841,-0.261039636864441,6.88019359522354e-05,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.00137603871904471
+"M_LDL_FC",-0.375798507902805,0.143598336495223,-0.657251247433441,-0.0943457683721681,0.00887033348355293,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0777619948103522
+"LDL_FC",-0.331678042035606,0.143291045720689,-0.612528491648156,-0.0508275924230566,0.0206284926097271,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0777619948103522
+"S_HDL_C",-0.321619050112486,0.13986766458571,-0.595759672700478,-0.0474784275244937,0.0214792580463612,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0777619948103522
+"LDL_C",-0.314766471486897,0.143966342558918,-0.596940502902376,-0.0325924400714169,0.0287871354870974,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0777619948103522
+"S_HDL_P",-0.302685791068503,0.139435468468393,-0.575979309266552,-0.0293922728704528,0.0299466865615006,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0777619948103522
+"L_LDL_CE",-0.306916125747802,0.144403841740661,-0.589947655559497,-0.0238845959361069,0.03355313452583,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0777619948103522
+"L_LDL_C",-0.305035635838549,0.144152145265324,-0.587573840558585,-0.0224974311185137,0.0343390870725898,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0777619948103522
+"LDL_CE",-0.30387521058831,0.144123203594204,-0.586356689632949,-0.0213937315436698,0.0349928976646585,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0777619948103522
+"L_LDL_FC",-0.290651087737857,0.143137102979827,-0.571199809578318,-0.0101023658973952,0.0422977961730248,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0845955923460497
+"Total_CE",-0.229843372669166,0.142888303860381,-0.509904448235513,0.0502177028971813,0.10771417525102,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.195843955001855
+"Total_C",-0.215333249428915,0.1425441725942,-0.494719827713547,0.0640533288557163,0.130879623656332,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.218132706093887
+"Total_P",-0.191651245701224,0.145777623925494,-0.477375388595191,0.0940728971927436,0.188616735017847,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.29017959233515
+"Total_FC",-0.174494561136884,0.141470688984394,-0.451777111546296,0.102787989272528,0.217414404832728,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.310592006903897
+"ApoB",-0.158477307616133,0.139821824923946,-0.432528084467067,0.115573469234802,0.257036553806328,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.342715405075105
+"L_VLDL_TG",-0.125693593038268,0.154751871816428,-0.429007261798466,0.17762007572193,0.416661595404768,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.52082699425596
+"L_VLDL_TG.pct",-0.0934050990602933,0.132109639033051,-0.352339991565074,0.165529793444487,0.479549617671353,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.564176020789828
+"Total_PL",-0.0725007469585427,0.142804298174689,-0.352397171380933,0.207395677463847,0.611668636637075,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.679631818485639
+"Creatinine",0.0513516383017885,0.112555298802487,-0.169256747351087,0.271960023954664,0.648221181258056,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.682338085534796
+"Total_TG",0.026464800085501,0.140526984424405,-0.248968089386333,0.301897689557335,0.850621577862585,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.850621577862585
+"L_VLDL_TG.pct",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_VLDL_TG",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_TG",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"ApoB",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Albumin",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_CE",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Creatinine",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_C",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_P",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_C",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"S_HDL_P",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_C",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_CE",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_C",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_FC",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"Total_PL",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"M_LDL_FC",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_FC",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_LDL_FC",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LDL_CE",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"L_VLDL_TG.pct",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_VLDL_TG",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_TG",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"ApoB",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Albumin",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_CE",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Creatinine",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_C",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_P",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"S_HDL_C",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"S_HDL_P",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_LDL_C",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_LDL_CE",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LDL_C",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_FC",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_PL",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"M_LDL_FC",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LDL_FC",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_LDL_FC",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LDL_CE",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_VLDL_TG.pct",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_VLDL_TG",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_TG",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"ApoB",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Albumin",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_CE",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Creatinine",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_C",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_P",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"S_HDL_C",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"S_HDL_P",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_LDL_C",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_LDL_CE",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LDL_C",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_FC",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"Total_PL",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"M_LDL_FC",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LDL_FC",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_LDL_FC",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LDL_CE",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"L_VLDL_TG.pct",-0.221491057657564,0.194230403042847,-0.602182647621543,0.159200532306416,0.254139619499133,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.303450291939264
+"L_VLDL_TG",-0.139149535175099,0.228565053942496,-0.587137040902391,0.308837970552193,0.54265953593577,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.578836838331488
+"Total_TG",-0.106985136484129,0.224899131857937,-0.547787434925685,0.333817161957427,0.634286158359192,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.658998606087472
+"ApoB",-0.18589438243876,0.207334689812226,-0.592270374470722,0.220481609593203,0.369937290935421,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.416830750349771
+"Albumin",-0.430441870628141,0.197791442442261,-0.818113097814972,-0.0427706434413093,0.029537235526279,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0472595768420463
+"Total_CE",-0.28014782953648,0.211437072534196,-0.694564491703504,0.134268832630544,0.185181020866637,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.245274263607282
+"Creatinine",0.0675547226212063,0.139854366495741,-0.206559835710447,0.341669280952859,0.629070028600518,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.658998606087472
+"Total_C",-0.269352888033711,0.211138058303503,-0.683183482308577,0.144477706241156,0.202054776811607,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.248682802229671
+"Total_P",-0.351961377561271,0.220002242271692,-0.783165772413787,0.0792430172912449,0.109641152922123,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.156630218460175
+"S_HDL_C",-0.436722874182209,0.208300846233342,-0.844992532799559,-0.0284532155648595,0.0360292885302802,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0565165310278906
+"S_HDL_P",-0.413571542770573,0.207801514445139,-0.820862511083046,-0.00628057445810032,0.0465662754615473,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0702887176778073
+"L_LDL_C",-0.278840981830195,0.211652846568978,-0.693680561105392,0.135998597445002,0.187689509597144,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.245274263607282
+"L_LDL_CE",-0.27918753284268,0.21196851748863,-0.694645827120396,0.136270761435035,0.187799101189645,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.245274263607282
+"LDL_C",-0.276358719010428,0.210909310542116,-0.689740967672976,0.13702352965212,0.190087554295644,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.245274263607282
+"Total_FC",-0.236630494245991,0.210275494235503,-0.648770462947577,0.175509474455595,0.260446860039484,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.306408070634688
+"Total_PL",-0.246970522475904,0.215666114579601,-0.669676107051921,0.175735062100114,0.25214612112273,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.303450291939264
+"M_LDL_FC",-0.293881617558574,0.209615333171494,-0.704727670574702,0.116964435457554,0.160913935427394,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.225844119898097
+"LDL_FC",-0.276603494701157,0.209678237286039,-0.687572839781794,0.13436585037948,0.187108691644696,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.245274263607282
+"L_LDL_FC",-0.269357289930319,0.210262899253175,-0.681472572466541,0.142757992605904,0.200176099670472,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.248682802229671
+"LDL_CE",-0.272276902754703,0.211300319424344,-0.686425528826417,0.141871723317011,0.197544902096719,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.248682802229671
+"L_VLDL_TG.pct",-0.0888596213326613,0.118390227122041,-0.320904466491862,0.14318522382654,0.452914183850993,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.497731824182595
+"L_VLDL_TG",-0.146760740104878,0.144688142829015,-0.430349500049748,0.136828019839992,0.310427897694952,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.359916403124582
+"Total_TG",-0.106006440269565,0.141631969455922,-0.383605100403173,0.171592219864043,0.454180289566618,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.497731824182595
+"ApoB",-0.212675440490692,0.129511825229384,-0.466518617940285,0.0411677369589009,0.100562766590039,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.146273115040057
+"Albumin",-0.36024191361981,0.125051574607693,-0.605342999850888,-0.115140827388733,0.0039673430897246,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00933492491699906
+"Total_CE",-0.306360318655712,0.131941818000546,-0.564966281936781,-0.0477543553746424,0.0202364385247826,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.037649187953084
+"Creatinine",-0.171957487389787,0.184068169160793,-0.53273109894494,0.188816124165367,0.350197923321759,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.40022619808201
+"Total_C",-0.29603719110145,0.131830268129278,-0.554424516634835,-0.0376498655680649,0.0247300582385567,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0430087969366203
+"Total_P",-0.314439525380161,0.134913023779632,-0.57886905198824,-0.0500099987720821,0.0197700678036622,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.037649187953084
+"S_HDL_C",-0.376182983162746,0.128788524708078,-0.628608491590578,-0.123757474734914,0.00348981987874325,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00893348332679393
+"S_HDL_P",-0.371500264064735,0.128513039085978,-0.623385820673252,-0.119614707456219,0.00384312332266564,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00931666260040156
+"L_LDL_C",-0.294152641326638,0.132068488849981,-0.5530068794726,-0.0352984031806753,0.0259290025466481,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0432349236205446
+"L_LDL_CE",-0.291281927004501,0.132150061619882,-0.55029604777947,-0.0322678062295321,0.027512004690788,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0449175586788376
+"LDL_C",-0.30453434677933,0.131940385901762,-0.563137503146785,-0.0459311904118759,0.0209924195654948,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0381680355736269
+"Total_FC",-0.263460531277485,0.131432224841393,-0.521067691966615,-0.00585337058835572,0.0450127518990541,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0692503875370063
+"Total_PL",-0.259750590789485,0.133989314265395,-0.522369646749659,0.00286846517068962,0.0525510584006411,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0778534198528016
+"M_LDL_FC",-0.333438704120158,0.131125652226509,-0.590444982484115,-0.0764324257562017,0.0109938407740226,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0225514682544054
+"LDL_FC",-0.307289270763705,0.13117526707509,-0.56439279423088,-0.050185747296529,0.0191506486178009,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0373671192542456
+"L_LDL_FC",-0.292682711665659,0.13141907661241,-0.550264101825982,-0.0351013215053362,0.0259409541723268,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0432349236205446
+"LDL_CE",-0.299160295003098,0.13218839869142,-0.558249556438281,-0.0400710335679154,0.0236273204168452,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0420041251855026
+"L_VLDL_TG.pct",-0.0315304411731689,0.0786383127662099,-0.18566153419494,0.122600651848602,0.688453100973022,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.706105744587715
+"L_VLDL_TG",-0.0669802986782034,0.0913421806500017,-0.246010972752207,0.1120503753958,0.463381632762912,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.500953116500446
+"Total_TG",-0.017864629535723,0.088428764110817,-0.191185007192924,0.155455748121478,0.839898873235782,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.850530504542564
+"ApoB",-0.294659180696818,0.0885406674118459,-0.468198888824036,-0.1211194725696,0.000874866214563094,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0027995718866019
+"Albumin",-0.34063402460755,0.084251922812784,-0.505767793320607,-0.175500255894493,5.27622661725127e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00030149866384293
+"Total_CE",-0.37305923669103,0.0892277048044966,-0.547945538107844,-0.198172935274217,2.90255575936328e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000286471751431905
+"Creatinine",0.117680550527404,0.0228181106351336,0.0729570536825422,0.162404047372266,2.50494693641179e-07,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",2.00395754912943e-05
+"Total_C",-0.368948352568626,0.0892693264114738,-0.543916232335115,-0.193980472802138,3.58089689289882e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000286471751431905
+"Total_P",-0.275531632718104,0.0901948281023637,-0.452313495798737,-0.0987497696374713,0.00225173425191203,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00643352643403437
+"S_HDL_C",-0.234568301533889,0.0854990071114641,-0.402146355472358,-0.0669902475954193,0.00607842034333907,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0135076007629757
+"S_HDL_P",-0.231079509353,0.0853010280047894,-0.398269524242387,-0.0638894944636124,0.00674886659765425,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0145921439949281
+"L_LDL_C",-0.368495646648275,0.089657197087696,-0.544223752940159,-0.192767540356391,3.95571854149883e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000287688621199915
+"L_LDL_CE",-0.364117737017693,0.0897377723997451,-0.540003770921194,-0.188231703114193,4.95849075603742e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00030149866384293
+"LDL_C",-0.360900085494619,0.0892505660324456,-0.535831194918213,-0.185968976071026,5.26203432662171e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00030149866384293
+"Total_FC",-0.350452488230626,0.0894066754332057,-0.525689572079709,-0.175215404381543,8.8638104755292e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000408614719965775
+"Total_PL",-0.290016397051374,0.0901080740378178,-0.466628222165497,-0.113404571937251,0.00128845215847821,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00381763602512063
+"M_LDL_FC",-0.370387066261212,0.0882544991454184,-0.543365884586232,-0.197408247936192,2.70704884791263e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000286471751431905
+"LDL_FC",-0.373897338479641,0.088722245019399,-0.547792938717663,-0.200001738241619,2.50614360063466e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000286471751431905
+"L_LDL_FC",-0.368351011468754,0.0890725582046768,-0.54293322554992,-0.193768797387587,3.54330754144717e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000286471751431905
+"LDL_CE",-0.350554354450024,0.0893533210318212,-0.525686863672394,-0.175421845227655,8.73667268431141e-05,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000408614719965775
+"L_VLDL_TG.pct",-0.0122757323424804,0.0833205724570277,-0.175584054358255,0.151032589673294,0.88287048951436,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.88287048951436
+"L_VLDL_TG",-0.245259991392716,0.104485749240348,-0.450052059903799,-0.0404679228816337,0.0189097345535229,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0373671192542456
+"Total_TG",-0.275150413467886,0.106563882534774,-0.484015623236044,-0.0662852036997291,0.00982229911275312,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0206785244479013
+"ApoB",-0.253771265145474,0.0918012336381987,-0.433701683076343,-0.0738408472146045,0.00570353244966509,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0130366455992345
+"Albumin",-0.339022811594961,0.0883599589293002,-0.512208331096389,-0.165837292093532,0.000124628834933148,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000524752989192203
+"Total_CE",-0.367870230160339,0.0934050742959777,-0.550944175780455,-0.184796284540222,8.20132817808166e-05,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000408614719965775
+"Creatinine",0.114203596682535,0.0348655154277166,0.0458671864442105,0.18254000692086,0.00105457969883033,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00324486061178562
+"Total_C",-0.365248876732348,0.0933916267363878,-0.548296465135668,-0.182201288329028,9.19383119922993e-05,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000408614719965775
+"Total_P",-0.478243495689098,0.0973829360291219,-0.669114050306177,-0.287372941072019,9.06325632244753e-07,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",3.62530252897901e-05
+"S_HDL_C",-0.430768302055895,0.0916280348338205,-0.610359250330183,-0.251177353781607,2.58546015086466e-06,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",4.13673624138346e-05
+"S_HDL_P",-0.441413309998318,0.0915100987815045,-0.620773103610067,-0.262053516386569,1.40949866702339e-06,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",3.75866311206237e-05
+"L_LDL_C",-0.319775870666276,0.0928941357838574,-0.501848376802637,-0.137703364529916,0.000576643599782839,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00200571686880987
+"L_LDL_CE",-0.332931873237949,0.0932067810059698,-0.51561716400965,-0.150246582466249,0.000354305313279511,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00134973452677909
+"LDL_C",-0.31607961061201,0.0924872253100112,-0.497354572219632,-0.134804649004388,0.000631877531184038,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00210625843728013
+"Total_FC",-0.351067224433452,0.09346131035959,-0.534251392738249,-0.167883056128656,0.000172454984157933,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00068981993663173
+"Total_PL",-0.453840060864487,0.096112858742681,-0.642221264000142,-0.265458857728832,2.33594743594708e-06,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",4.13673624138346e-05
+"M_LDL_FC",-0.264657389247709,0.0908365982089471,-0.442697121737245,-0.0866176567581723,0.00357339333071757,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00893348332679393
+"LDL_FC",-0.266291224227825,0.0913332437186022,-0.445304381916285,-0.0872780665393646,0.00355005084724103,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00893348332679393
+"L_LDL_FC",-0.274778378369696,0.0919314482531898,-0.454964016945947,-0.0945927397934435,0.00279939172411695,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00772245992859849
+"LDL_CE",-0.330435795154834,0.092954852818416,-0.51262730667893,-0.148244283630739,0.000378268494620407,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00137552179861966

@@ -1,0 +1,7 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,score,term_label,term_key,x_value,panel
+"Group","Metabolite group:Lipoprotein_subclasses","Lipoprotein_subclasses",0.00177224191011967,37,85,83,300,1.57335223245925,2.75147699742672,"Lipoprotein_subclasses","Group___Metabolite group:Lipoprotein_subclasses",1.57335223245925,"B"
+"Group","Metabolite group:Cholesterol","Cholesterol",0.0138327546629515,6,7,83,300,3.09810671256454,1.85909132561795,"Cholesterol","Group___Metabolite group:Cholesterol",3.09810671256454,"B"
+"Group","Metabolite group:Other_lipids","Other_lipids",0.0946640674682694,4,5,83,300,2.89156626506024,1.02381483896507,"Other_lipids","Group___Metabolite group:Other_lipids",2.89156626506024,"B"
+"Group","Metabolite group:Cholesteryl_esters","Cholesteryl_esters",0.140910973084886,3,4,83,300,2.71084337349398,0.851055185991721,"Cholesteryl_esters","Group___Metabolite group:Cholesteryl_esters",2.71084337349398,"B"
+"Group","Metabolite group:Fluid_balance","Fluid_balance",0.140910973084886,2,2,83,300,3.6144578313253,0.851055185991721,"Fluid_balance","Group___Metabolite group:Fluid_balance",3.6144578313253,"B"
+"Group","Metabolite group:Lipoprotein_particle_concentrations","Lipoprotein_particle_concentrations",0.140910973084886,2,2,83,300,3.6144578313253,0.851055185991721,"Lipoprotein_particle_concentrations","Group___Metabolite group:Lipoprotein_particle_concentrations",3.6144578313253,"B"

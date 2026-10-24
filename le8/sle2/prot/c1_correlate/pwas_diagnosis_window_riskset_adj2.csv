@@ -1,0 +1,337 @@
+term,beta,std.error,conf.low,conf.high,p.value,N_total,N_event,N_case,N_control,person_years,window_lo,window_hi,time,effect_measure,status,side,FDR
+"PCSK9",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LPA",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"GDF15",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"NTPROBNP",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"MMP12",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LGALS9",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"SIGLEC1",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF4",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD80",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"PDCD1",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CXCL10",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF1B",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"IL15",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LAG3",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"HAVCR2",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNF",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD27",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF9",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CXCL9",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"VSIG4",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF8",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TRIM21",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD302",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD300E",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"IL18BP",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"MMP3",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD74",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"WFDC2",NA,NA,NA,NA,NA,29365,2,2,29363,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"PCSK9",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LPA",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"GDF15",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"NTPROBNP",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"MMP12",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LGALS9",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"SIGLEC1",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF4",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD80",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"PDCD1",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CXCL10",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF1B",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"IL15",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LAG3",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"HAVCR2",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNF",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD27",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF9",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CXCL9",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"VSIG4",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF8",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TRIM21",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD302",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD300E",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"IL18BP",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"MMP3",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD74",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"WFDC2",NA,NA,NA,NA,NA,29374,11,11,29363,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"PCSK9",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LPA",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"GDF15",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"NTPROBNP",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"MMP12",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LGALS9",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"SIGLEC1",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF4",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD80",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"PDCD1",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CXCL10",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF1B",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"IL15",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LAG3",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"HAVCR2",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNF",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD27",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF9",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CXCL9",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"VSIG4",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF8",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TRIM21",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD302",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD300E",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"IL18BP",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"MMP3",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD74",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"WFDC2",NA,NA,NA,NA,NA,29379,16,16,29363,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"PCSK9",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LPA",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"GDF15",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"NTPROBNP",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"MMP12",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LGALS9",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"SIGLEC1",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF4",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD80",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"PDCD1",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CXCL10",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF1B",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"IL15",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"LAG3",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"HAVCR2",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNF",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD27",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF9",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CXCL9",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"VSIG4",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TNFRSF8",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TRIM21",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD302",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD300E",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"IL18BP",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"MMP3",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"CD74",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"WFDC2",NA,NA,NA,NA,NA,29396,33,33,29363,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA
+"TRIM21",-0.757391035077434,0.0840941150457754,-0.922215500567154,-0.592566569587715,2.12797681199821e-19,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.191667014719e-17
+"IL15",0.704201212909422,0.0798909530735171,0.547614944885328,0.860787480933515,1.2018805277662e-18,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",3.36526547774535e-17
+"LGALS9",0.947392030486163,0.113871314828676,0.724204253421958,1.17057980755037,8.807619236329e-17,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.64408892411475e-15
+"CD80",0.634073685108829,0.0848004533055785,0.467864796629895,0.800282573587763,7.58973901021454e-14,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.06256346143004e-12
+"TNFRSF4",0.688924623924935,0.0927965555519739,0.507043375043067,0.870805872806804,1.1360745250521e-13,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.27240346805835e-12
+"IL18BP",0.752726639591065,0.103825861346388,0.549227951352144,0.956225327829987,4.17093467208803e-13,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",3.33674773767042e-12
+"HAVCR2",0.730155027082591,0.104338051340517,0.525652446455178,0.934657607710004,2.59689260943012e-12,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.61584429031207e-11
+"CD302",0.644607267958859,0.0944381603708228,0.459508473632047,0.829706062285672,8.7492982012813e-12,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",4.45418817519775e-11
+"CD27",0.698202739799873,0.102697915181219,0.496914826044683,0.899490653555064,1.05635722814306e-11,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",4.9296670646676e-11
+"TNFRSF9",0.491893915786082,0.073598341953866,0.347641165556504,0.636146666015659,2.33314902145051e-11,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.00504880924022e-10
+"PDCD1",0.617519028360392,0.0929315725076124,0.435373146245471,0.799664910475312,3.03466852892094e-11,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.21386741156838e-10
+"SIGLEC1",0.718638267050001,0.108716133548329,0.505554645295277,0.931721888804725,3.83732445588682e-11,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.43260113019775e-10
+"TNFRSF8",0.632733236130111,0.0958608839103542,0.444845903665817,0.820620568594405,4.0967328507962e-11,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.43385649777867e-10
+"CD74",0.763286671791023,0.120739916131752,0.526636436172788,0.999936907409257,2.58629929977356e-10,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",7.13556637614064e-10
+"CD300E",0.724748561377322,0.114739265367148,0.499859601257713,0.949637521496931,2.67583739105274e-10,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",7.13556637614064e-10
+"TNFRSF1B",0.333482623237353,0.0534595239554398,0.228701956284691,0.438263290190015,4.43088727209143e-10,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.03387369682133e-09
+"VSIG4",0.721808178142227,0.115924247146101,0.494596653735869,0.949019702548586,4.76816602999586e-10,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.06806919071907e-09
+"MMP3",0.765950653916018,0.139041968589277,0.493428395481034,1.038472912351,3.61343342829551e-08,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",6.97766455119132e-08
+"WFDC2",0.605148256880801,0.116395686129284,0.377012712067404,0.833283801694199,2.00297933586766e-07,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",3.61828525188996e-07
+"CXCL10",0.505412824573514,0.103697079222411,0.302166549297589,0.708659099849439,1.09396993247075e-06,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.91444738182382e-06
+"CXCL9",0.501891291090109,0.109022407519998,0.288207372350913,0.715575209829305,4.15327697004489e-06,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",6.84069148007393e-06
+"GDF15",0.451283925018856,0.099700714434201,0.255870524727822,0.64669732530989,6.00009225925832e-06,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",9.08122071671529e-06
+"LAG3",0.437600892057975,0.101909013913214,0.237859224788076,0.637342559327874,1.75454645208383e-05,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",2.39645369065109e-05
+"TNF",0.250286774723662,0.0660030614040738,0.120920774371677,0.379652775075646,0.00014941004638587,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.000190158240854744
+"NTPROBNP",0.388771715304764,0.154325773993112,0.0862931982782644,0.691250232331264,0.0117634325874924,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0134439229571342
+"MMP12",0.283390211963518,0.169159921734938,-0.0481632346369609,0.614943658563997,0.0938793327968433,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.103083188953397
+"LPA",-0.0564496358743579,0.16409406319938,-0.378073999745142,0.265174727996427,0.730840428399041,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.744128436188115
+"PCSK9",0.0477034938614184,0.166241520647976,-0.278129886608614,0.373536874331451,0.774148350415108,29401,38,38,29363,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.774148350415108
+"MMP3",1.00618129493937,0.136392996568328,0.738851021665442,1.27351156821329,1.61805495175267e-13,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.51018462163582e-12
+"CD302",0.742607434678451,0.104622612645215,0.53754711389383,0.947667755463072,1.26609056996997e-12,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",8.86263398978979e-12
+"CD27",0.795492165753059,0.115491200850351,0.569129412086371,1.02185491941975,5.66208745274828e-12,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",3.17076897353904e-11
+"IL15",0.647006859862714,0.0987254856405454,0.453504908007245,0.840508811718183,5.61681309379601e-11,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.85024431325045e-10
+"TNFRSF9",0.535275113011907,0.0821984733325583,0.374166105280092,0.696384120743721,7.41648020428203e-11,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",2.30734939688774e-10
+"VSIG4",0.797746315747177,0.124072751939907,0.554563721944959,1.0409289095494,1.2788489608087e-10,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",3.76923904238354e-10
+"CD300E",0.817455827107847,0.130411307153146,0.561849665087681,1.07306198912801,3.65035658779464e-10,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",9.00002748534928e-10
+"HAVCR2",0.754485303094404,0.120402957792268,0.51849550582156,0.990475100367249,3.69643986005417e-10,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",9.00002748534928e-10
+"TNFRSF4",0.654815158769856,0.106286265426055,0.446494078534788,0.863136239004924,7.23493980230708e-10,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.55829472665075e-09
+"TNFRSF1B",0.362191754538078,0.0594584257856053,0.245653239998291,0.478730269077864,1.11848725233161e-09,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",2.31982541224334e-09
+"WFDC2",0.726933792394782,0.122664812872685,0.486510759164319,0.967356825625244,3.10062224600393e-09,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",6.20124449200786e-09
+"IL18BP",0.702523353104004,0.132894322290306,0.442050481415004,0.962996224793005,1.24794115123132e-07,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",2.32949014896513e-07
+"CD74",0.728894481139737,0.149889850724133,0.435110373720437,1.02267858855904,1.15697308636985e-06,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.96334826777915e-06
+"CXCL9",0.566748516656408,0.123656943116915,0.324380908147254,0.809116125165561,4.57842549366542e-06,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",7.32548078986466e-06
+"GDF15",0.473587566960607,0.104197010758536,0.269361425873878,0.677813708047337,5.49048424926147e-06,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",8.54075327662896e-06
+"SIGLEC1",0.627950770002766,0.141432208402958,0.350743641532968,0.905157898472565,8.99832207540541e-06,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.32606851637553e-05
+"LAG3",0.476399703221292,0.10871925049335,0.263309972254326,0.689489434188258,1.17634802518144e-05,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",1.68911511308104e-05
+"PDCD1",0.527820819084529,0.122729629499074,0.287270745266345,0.768370892902714,1.70275071174591e-05,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",2.38385099644427e-05
+"LGALS9",0.639711600948139,0.158944027081932,0.328181307867552,0.951241894028726,5.70333920827116e-05,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",7.60445227769489e-05
+"TNFRSF8",0.513856870373611,0.130551496747244,0.257975936749012,0.769737803998209,8.28346426562723e-05,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.000107877674157006
+"CD80",0.474637423220878,0.128998700202601,0.22179997082378,0.727474875617975,0.000233786139574017,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.000290933862581
+"TRIM21",-0.482547432824727,0.132355202465731,-0.74196362965756,-0.223131235991893,0.000266507700841782,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.000324444157546517
+"TNF",0.266383545196339,0.0751903520784556,0.119010455122566,0.413756635270112,0.000395919485070985,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.000471733854552663
+"CXCL10",0.442932862811183,0.135067511621303,0.178200540033429,0.707665185588937,0.00104048639444414,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.00121390079351817
+"NTPROBNP",0.455361964725022,0.194112097585647,0.0749022534571543,0.835821675992891,0.018982669797759,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.0212605901734901
+"LPA",-0.289805511714206,0.198174503856097,-0.678227539272155,0.0986165158437431,0.143638377338914,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.154687483288061
+"MMP12",0.293940230428749,0.206647953677125,-0.111089758778416,0.698970219635914,0.154904292873781,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.163672460394939
+"PCSK9",0.0702379119826105,0.202815931780152,-0.327281314306487,0.467757138271708,0.729107061874071,29389,26,26,29363,NA,10,16,-13,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.744128436188115
+"PCSK9",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LPA",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"GDF15",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"NTPROBNP",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"MMP12",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LGALS9",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"SIGLEC1",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF4",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD80",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"PDCD1",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CXCL10",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF1B",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"IL15",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LAG3",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"HAVCR2",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNF",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD27",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF9",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CXCL9",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"VSIG4",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF8",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TRIM21",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD302",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD300E",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"IL18BP",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"MMP3",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD74",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"WFDC2",NA,NA,NA,NA,NA,29363,8,8,29355,14677.1341546886,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"PCSK9",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LPA",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"GDF15",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"NTPROBNP",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"MMP12",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LGALS9",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"SIGLEC1",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF4",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD80",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"PDCD1",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CXCL10",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF1B",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"IL15",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LAG3",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"HAVCR2",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNF",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD27",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF9",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CXCL9",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"VSIG4",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF8",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TRIM21",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD302",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD300E",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"IL18BP",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"MMP3",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD74",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"WFDC2",NA,NA,NA,NA,NA,29338,6,6,29332,14656.4558521561,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"PCSK9",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LPA",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"GDF15",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"NTPROBNP",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"MMP12",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LGALS9",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"SIGLEC1",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF4",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD80",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"PDCD1",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CXCL10",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF1B",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"IL15",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LAG3",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"HAVCR2",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNF",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD27",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF9",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CXCL9",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"VSIG4",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF8",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TRIM21",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD302",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD300E",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"IL18BP",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"MMP3",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD74",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"WFDC2",NA,NA,NA,NA,NA,29287,19,19,29268,29219.8240930869,1,2,1.5,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"PCSK9",-0.116589410494461,0.156966612459063,-0.424243970914225,0.191065149925303,0.45762356548387,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.483526786171636
+"LPA",-0.27906332676775,0.155859509487545,-0.584547965363338,0.0264213118278394,0.0733767876535015,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0821820021719217
+"GDF15",0.403586336301471,0.115800385008949,0.176617581683931,0.630555090919011,0.000491787821423197,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000625911772720432
+"NTPROBNP",0.220202825509998,0.166027926734293,-0.105211910889217,0.545617561909213,0.184740374216753,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.202852175610552
+"MMP12",0.107354484678125,0.171413455294508,-0.228615887699111,0.443324857055361,0.531124928799103,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.550796222458329
+"LGALS9",0.819791225285648,0.12361625175283,0.577503371850101,1.0620790787212,3.31745594297322e-11,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.42905794466539e-10
+"SIGLEC1",0.724575298816368,0.114474336935561,0.500205598422668,0.948944999210068,2.45817928969441e-10,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",7.24516001173088e-10
+"TNFRSF4",0.530180677798405,0.0972326890724375,0.339604607216428,0.720756748380383,4.96107423404677e-08,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.11128062842648e-07
+"CD80",0.532392130718576,0.100577877941782,0.335259489952683,0.72952477148447,1.2010737892287e-07,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",2.49111600728915e-07
+"PDCD1",0.54248881161725,0.103569469064225,0.339492652251369,0.74548497098313,1.62394569829051e-07,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",3.24789139658102e-07
+"CXCL10",0.60132084278163,0.0935343381132177,0.417993540079723,0.784648145483537,1.28549296845631e-10,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",4.23456507256198e-10
+"TNFRSF1B",0.258810514895843,0.0681145376596559,0.125306021082918,0.392315008708769,0.000144908210172927,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000197923409016681
+"IL15",0.514075849833825,0.10352739555947,0.311162154537263,0.716989545130386,6.84882592178337e-07,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.27844750539956e-06
+"LAG3",0.513597355138595,0.067152561100733,0.381978335381158,0.645216374896031,2.03785215700449e-14,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.26799689769168e-13
+"HAVCR2",0.467906252296449,0.134170073772431,0.204932907702485,0.730879596890414,0.000487720388983859,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000625911772720432
+"TNF",0.246822656918129,0.0633585270076139,0.122639943983206,0.371005369853053,9.7935657387022e-05,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000144326231938769
+"CD27",0.547626026613754,0.123405698242689,0.305750858058083,0.789501195169424,9.09643824817389e-06,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.49823688793452e-05
+"TNFRSF9",0.423483482714771,0.0830393850790168,0.260726287959898,0.586240677469644,3.40029290694845e-07,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",6.56608285479701e-07
+"CXCL9",0.565252692598661,0.103968701793216,0.361474037083958,0.769031348113365,5.42586892731502e-08,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.16864869203708e-07
+"VSIG4",0.49855846448425,0.140439115603675,0.223297797901047,0.773819131067454,0.000385235276530039,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000513647035373385
+"TNFRSF8",0.517045098162753,0.107811039123995,0.305735461479724,0.728354734845783,1.61990016831716e-06,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",2.92627127179874e-06
+"TRIM21",-0.702540926568998,0.0831135548497207,-0.86544349407445,-0.539638359063545,2.84437602773663e-17,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",5.30950191844171e-16
+"CD302",0.49394989929531,0.120632190552499,0.257510805812412,0.730388992778208,4.22756689975306e-05,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",6.76410703960489e-05
+"CD300E",0.410503834554848,0.145514229063855,0.125295945589693,0.695711723520003,0.00478657995976352,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00558434328639077
+"IL18BP",0.499131512631445,0.127899359190953,0.248448768617178,0.749814256645712,9.51911236918636e-05,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000144073052074172
+"MMP3",0.639346619806666,0.141198396891857,0.362597761898626,0.916095477714705,5.95440257214543e-06,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.01044407284892e-05
+"CD74",0.528171218307466,0.136955842705242,0.259737766605191,0.79660467000974,0.00011501862650162,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000165154950874121
+"WFDC2",0.447106084373478,0.143934647600332,0.164994175076828,0.729217993670128,0.00189436005191104,29153,42,42,29111,86743.2997946612,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0023061774545004
+"PCSK9",0.0163513964912258,0.137072941544139,-0.252311568935287,0.285014361917739,0.905045806357268,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.905045806357268
+"LPA",0.117200402670988,0.137981915964547,-0.153244152619524,0.3876449579615,0.395664545230331,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.426100279478818
+"GDF15",0.391525369769807,0.102505569929969,0.190614452707069,0.592436286832546,0.000133694193788666,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.000187171871304133
+"NTPROBNP",0.0848240804401151,0.15045315491308,-0.210064103189522,0.379712264069752,0.572896622850376,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.583312925084019
+"MMP12",0.412467297767556,0.13604496555041,0.145819165288753,0.679115430246359,0.00243063689618967,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00289607800397066
+"LGALS9",0.929208357291606,0.101161736422568,0.730931353903374,1.12748536067984,4.10100701381257e-20,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.35530989564979e-18
+"SIGLEC1",0.744539975329179,0.0915424723974042,0.565116729430266,0.923963221228091,4.1785004312695e-16,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",3.89993373585153e-15
+"TNFRSF4",0.602603952721103,0.0738943273632022,0.457771071089227,0.74743683435298,3.49347530879943e-16,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",3.89993373585153e-15
+"CD80",0.613633810284175,0.0669356607069722,0.48243991529851,0.744827705269841,4.84039248446353e-20,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.35530989564979e-18
+"PDCD1",0.624568824489138,0.0813807506561084,0.465062553203165,0.78407509577511,1.65870182251854e-14,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.16109127576298e-13
+"CXCL10",0.590863605312827,0.0796210140859619,0.434806417704341,0.746920792921312,1.16282762376344e-13,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",6.51183469307527e-13
+"TNFRSF1B",0.334143093815354,0.0400768374944113,0.255592492326308,0.4126936953044,7.58382644757251e-17,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.06173570266015e-15
+"IL15",0.545165048284961,0.082949817165138,0.382583406641291,0.707746689928631,4.95681340257826e-11,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.73488469090239e-10
+"LAG3",0.462471707262267,0.0747729549566629,0.315916715547208,0.609026698977326,6.20973059280292e-10,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.73872456598482e-09
+"HAVCR2",0.679866139777068,0.100600402504661,0.482689350867931,0.877042928686204,1.39826838014944e-11,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",7.11845720803349e-11
+"TNF",0.305982241477511,0.0396334400362414,0.228300699006478,0.383663783948544,1.1605175726757e-14,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",9.2841405814056e-14
+"CD27",0.601341457449249,0.103822681487896,0.397849001732972,0.804833913165526,6.95512025669528e-09,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.69342058423885e-08
+"TNFRSF9",0.459295525208589,0.0698033408929626,0.322480977058382,0.596110073358795,4.70922540623104e-11,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.73488469090239e-10
+"CXCL9",0.581235146229465,0.086862033866852,0.410985559850435,0.751484732608495,2.20931934891004e-11,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.03101569615802e-10
+"VSIG4",0.567444124305353,0.122433017781406,0.327475409453798,0.807412839156908,3.57401629529072e-06,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",6.25452851675876e-06
+"TNFRSF8",0.575815859955515,0.0873531075362948,0.404603769184378,0.747027950726653,4.34470558815588e-11,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",1.73488469090239e-10
+"TRIM21",-0.520108182319139,0.0925542819589913,-0.701514574958762,-0.338701789679516,1.91518126399602e-08,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",4.46875628265739e-08
+"CD302",0.456802739104164,0.112414635496538,0.23647005353095,0.677135424677377,4.83315079652301e-05,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",7.51823457236913e-05
+"CD300E",0.692696778682532,0.114649566664503,0.467983628020107,0.917409929344957,1.52346415910798e-09,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",3.8779087686385e-09
+"IL18BP",0.617478207060594,0.100343967215519,0.420804031318177,0.81415238280301,7.57361017592625e-10,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",2.019629380247e-09
+"MMP3",0.324636610728927,0.163790961048837,0.00360632707320607,0.645666894384649,0.0474772413314071,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.054259704378751
+"CD74",0.704286061687682,0.110941141748881,0.486841423859876,0.921730699515487,2.17727485081027e-10,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",6.7737439802986e-10
+"WFDC2",0.418332299168935,0.128972334901515,0.165546522761966,0.671118075575905,0.00118036973067496,28655,55,55,28600,140660.819301848,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.00146890455372884
+"PCSK9",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LPA",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"GDF15",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"NTPROBNP",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"MMP12",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LGALS9",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"SIGLEC1",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF4",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD80",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"PDCD1",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CXCL10",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF1B",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"IL15",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"LAG3",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"HAVCR2",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNF",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD27",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF9",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CXCL9",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"VSIG4",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TNFRSF8",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"TRIM21",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD302",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD300E",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"IL18BP",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"MMP3",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"CD74",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA
+"WFDC2",NA,NA,NA,NA,NA,27576,9,9,27567,112809.431895962,10,16,13,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA

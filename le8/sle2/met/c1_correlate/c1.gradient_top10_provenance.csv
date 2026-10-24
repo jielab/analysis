@@ -1,0 +1,11 @@
+analysis,feature,p_value,rank
+"incident_behavioral_LE4","Albumin",2.71255308318202e-12,1
+"incident_behavioral_LE4","Total_CE",3.52331129827713e-11,2
+"incident_behavioral_LE4","Creatinine",3.79638002039065e-11,3
+"incident_behavioral_LE4","Total_C",7.60883824606115e-11,4
+"incident_behavioral_LE4","Total_P",1.55967547081316e-10,5
+"incident_behavioral_LE4","S_HDL_C",5.87713072297506e-10,6
+"incident_behavioral_LE4","S_HDL_P",7.10461200190191e-10,7
+"incident_behavioral_LE4","L_LDL_C",7.52630314320531e-10,8
+"incident_behavioral_LE4","L_LDL_CE",8.56330208111222e-10,9
+"incident_behavioral_LE4","LDL_C",1.11996198444667e-09,10

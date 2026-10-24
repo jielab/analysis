@@ -1,0 +1,13 @@
+term,beta,std.error,conf.low,conf.high,p.value,N_total,N_event,N_case,N_control,person_years,window_lo,window_hi,time,effect_measure,status,side,FDR,panel
+"ApoB",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"D"
+"ApoB",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"D"
+"ApoB",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"D"
+"ApoB",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"D"
+"ApoB",-0.158477307616133,0.139821824923946,-0.432528084467067,0.115573469234802,0.257036553806328,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.342715405075105,"D"
+"ApoB",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"D"
+"ApoB",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA,"D"
+"ApoB",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA,"D"
+"ApoB",-0.18589438243876,0.207334689812226,-0.592270374470722,0.220481609593203,0.369937290935421,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.416830750349771,"D"
+"ApoB",-0.212675440490692,0.129511825229384,-0.466518617940285,0.0411677369589009,0.100562766590039,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.146273115040057,"D"
+"ApoB",-0.294659180696818,0.0885406674118459,-0.468198888824036,-0.1211194725696,0.000874866214563094,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0027995718866019,"D"
+"ApoB",-0.253771265145474,0.0918012336381987,-0.433701683076343,-0.0738408472146045,0.00570353244966509,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0130366455992345,"D"

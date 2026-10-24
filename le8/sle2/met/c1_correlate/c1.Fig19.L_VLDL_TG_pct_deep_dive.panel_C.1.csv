@@ -1,0 +1,13 @@
+term,beta,std.error,conf.low,conf.high,p.value,N_total,N_event,N_case,N_control,person_years,window_lo,window_hi,time,effect_measure,status,side,FDR,panel
+"Total_TG",NA,NA,NA,NA,NA,351093,6,6,351087,NA,0,0.5,-0.25,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"C"
+"Total_TG",NA,NA,NA,NA,NA,351100,13,13,351087,NA,0.5,1,-0.75,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"C"
+"Total_TG",NA,NA,NA,NA,NA,351107,20,20,351087,NA,1,2,-1.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"C"
+"Total_TG",NA,NA,NA,NA,NA,351131,44,44,351087,NA,2,5,-3.5,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"C"
+"Total_TG",0.026464800085501,0.140526984424405,-0.248968089386333,0.301897689557335,0.850621577862585,351142,55,55,351087,NA,5,10,-7.5,"log OR; baseline prevalence","ok","Pre-baseline prevalent",0.850621577862585,"C"
+"Total_TG",NA,NA,NA,NA,NA,351118,31,31,351087,NA,10,16,-13,"log OR; baseline prevalence","insufficient data","Pre-baseline prevalent",NA,"C"
+"Total_TG",NA,NA,NA,NA,NA,351087,10,10,351077,175496.537645448,0,0.5,0.25,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA,"C"
+"Total_TG",NA,NA,NA,NA,NA,350863,9,9,350854,175344.409650924,0.5,1,0.75,"log HR; interval-specific Cox","insufficient events or variation","Post-baseline incident",NA,"C"
+"Total_TG",-0.106985136484129,0.224899131857937,-0.547787434925685,0.333817161957427,0.634286158359192,350492,25,25,350467,349996.662559891,1,2,1.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.658998606087472,"C"
+"Total_TG",-0.106006440269565,0.141631969455922,-0.383605100403173,0.171592219864043,0.454180289566618,349470,66,66,349404,1042159.08966461,2,5,3.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.497731824182595,"C"
+"Total_TG",-0.017864629535723,0.088428764110817,-0.191185007192924,0.155455748121478,0.839898873235782,345018,146,146,344872,1700551.30732375,5,10,7.5,"log HR; interval-specific Cox","ok","Post-baseline incident",0.850530504542564,"C"
+"Total_TG",-0.275150413467886,0.106563882534774,-0.484015623236044,-0.0662852036997291,0.00982229911275312,334595,135,135,334460,1369514.93086927,10,16,13,"log HR; interval-specific Cox","ok","Post-baseline incident",0.0206785244479013,"C"

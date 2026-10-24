@@ -1,0 +1,7 @@
+k,silhouette,gap,gap_se,stability,min_cluster_n,passes_min_cluster,rank_sum,analysis
+2,0,0,0,1,1,FALSE,3,"incident_behavioral_LE4"
+3,0,0,0,1,1,FALSE,3,"incident_behavioral_LE4"
+4,0,0,0,1,1,FALSE,3,"incident_behavioral_LE4"
+2,0,0,0,1,1,FALSE,3,"prevalent_behavioral_LE4"
+3,0,0,0,1,1,FALSE,3,"prevalent_behavioral_LE4"
+4,0,0,0,1,1,FALSE,3,"prevalent_behavioral_LE4"

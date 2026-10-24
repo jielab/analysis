@@ -1,0 +1,10 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:BP","GO:0002376","immune system process",2.42407614026407e-10,51,235,221,2910,2.85761047463175,"A"
+"GO:CC","GO:0005886","plasma membrane",3.04043424079914e-10,133,1118,221,2910,1.56642841531824,"A"
+"GO:CC","GO:0009897","external side of plasma membrane",1.87680297124589e-08,42,202,221,2910,2.73778056538686,"A"
+"GO:BP","GO:0006955","immune response",2.88956591351485e-07,40,192,221,2910,2.74321266968326,"A"
+"GO:BP","GO:0002250","adaptive immune response",1.57770044847558e-06,25,92,221,2910,3.57810348219555,"A"
+"GO:CC","GO:0005576","extracellular region",3.69521692691453e-06,110,976,221,2910,1.48403308359914,"A"
+"GO:MF","GO:0005125","cytokine activity",1.6714992685672e-05,29,134,221,2910,2.84966569865604,"A"
+"GO:MF","GO:0038023","signaling receptor activity",1.6714992685672e-05,28,130,221,2910,2.83605986773408,"A"
+"GO:MF","GO:0004888","transmembrane signaling receptor activity",0.00019044548124263,24,118,221,2910,2.67811948769077,"A"
