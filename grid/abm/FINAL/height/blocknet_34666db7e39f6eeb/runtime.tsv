@@ -1,0 +1,19 @@
+phase	device	seconds	n	rows_per_second	max_rss_gib	requested_device	executed_device	cache_reused	original_cache_device	peak_vram_gib	gpu	dtype
+input_verification	cpu	4505.6193518140062	486030	107.8719621097862	63.540050506591797							
+prepare		4.3421239600284025	486030	111933.699837722	63.540050506591797	auto	cpu	False		0		float64_distance_float32_network
+fit_predictors		915.91469262601436	486030	530.64985627264673	63.540050506591797	auto	cuda	False		0.32304668426513672	NVIDIA GeForce RTX 5090 Laptop GPU	float64_distance_float32_network
+prepare		0	486030		1.6378326416015625	auto	none_cache_reused	True	cpu	0		float64_distance_float32_network
+fit_predictors		0	486030		1.6378326416015625	auto	none_cache_reused	True	cuda	0		float64_distance_float32_network
+build_support		3759.2255974939912	486030	129.28992618160552	50.239006042480469	auto	cuda	False	cuda	8.0234689712524414	NVIDIA GeForce RTX 5090 Laptop GPU	float64_distance_float32_network
+prepare		0	486030		1.6377677917480469	auto	none_cache_reused	True	cpu	0		float64_distance_float32_network
+fit_predictors		0	486030		1.6377677917480469	auto	none_cache_reused	True	cuda	0		float64_distance_float32_network
+prepare		0	486030		1.6372718811035156	auto	none_cache_reused	True	cpu	0		float64_distance_float32_network
+fit_predictors		0	486030		1.6372718811035156	auto	none_cache_reused	True	cuda	0		float64_distance_float32_network
+build_support		0	486030		1.6372718811035156	auto	none_cache_reused	True	cuda	0		float64_distance_float32_network
+prepare		0	486030		1.6366157531738279	auto	none_cache_reused	True	cpu	0		float64_distance_float32_network
+fit_predictors		0	486030		1.6366157531738279	auto	none_cache_reused	True	cuda	0		float64_distance_float32_network
+build_support		0	486030		1.6366157531738279	auto	none_cache_reused	True	cuda	0		float64_distance_float32_network
+fit_assessor		0.72288662800565362	486030	672346.09297019511	1.9403266906738279	auto	cpu	False		0		float64_distance_float32_network
+freeze_predictions		16.877179853006965	486030	28798.057746206057	2.263641357421875	auto	cpu	False		0		float64_distance_float32_network
+evaluate		127.48186207900288	486030	3812.5423654291935	2.8073577880859371	auto	cpu	False		0		float64_distance_float32_network
+report		1.0193690449814312	486030	476794.9374103797	2.8073577880859375	auto	cpu	False		0		float64_distance_float32_network

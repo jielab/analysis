@@ -1,0 +1,14 @@
+component	trait	status	source_script	run_id	scientific_role	detail
+GRID	height	completed	grid.sh	blocknet_34666db7e39f6eeb		
+GRID	ldl	completed	grid.sh	blocknet_3a99fa91d4bbfbd8		
+GRID	t2dm	completed	grid.sh	blocknet_89f7ee8fbca61a7c		
+PRSformer	height	not_completed	4.prsformer.sh		independent-trait adaptation	
+PRSformer2 exploratory	height	not_completed	4.prsformer.sh		exploratory adaptation with separate calibration	
+PRSformer	ldl	not_completed	4.prsformer.sh		independent-trait adaptation	
+PRSformer2 exploratory	ldl	not_completed	4.prsformer.sh		exploratory adaptation with separate calibration	
+PRSformer	t2dm	not_completed	4.prsformer.sh		independent-trait adaptation	
+PRSformer2 exploratory	t2dm	not_completed	4.prsformer.sh		exploratory adaptation with separate calibration	
+DiscoDivas	height	unavailable	3.disco.sh		same-roster development-only outcome adaptation	Frozen cohort inputs or development fitting requirements failed validation; inspect local Disco diagnostics
+DiscoDivas	ldl	unavailable	3.disco.sh		same-roster development-only outcome adaptation	Frozen cohort inputs or development fitting requirements failed validation; inspect local Disco diagnostics
+DiscoDivas	t2dm	unavailable	3.disco.sh		same-roster development-only outcome adaptation	Frozen cohort inputs or development fitting requirements failed validation; inspect local Disco diagnostics
+PCA	all	prerequisite_QC	1.pca.sh		prerequisite/QC, not a competing predictor	

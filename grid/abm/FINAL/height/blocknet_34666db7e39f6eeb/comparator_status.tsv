@@ -1,0 +1,3 @@
+method	status	fit_role	tuning_role	calibration_role
+Clinical	completed	build	tune_model	prediction_calibration
+csx-moe	completed	build	tune_model	prediction_calibration

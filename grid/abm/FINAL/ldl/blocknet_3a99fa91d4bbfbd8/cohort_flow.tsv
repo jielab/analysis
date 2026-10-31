@@ -1,0 +1,10 @@
+role	n	observed	supported	groups	cases	assessable	selected	switched
+audit	10222	10222	9795	10222				
+build	122200	122200	116924	122200				
+head_calibration	2574	2574	2457	2574				
+policy_calibration	2520	2520	2416	2520				
+prediction_calibration	5172	5172	4928	5172				
+test	243372	203630	232801	243372				
+tune_gate	30573	30573	29262	30573				
+tune_model	30419	30419	29097	30419				
+test_assessed	243372	203630	232801			232621	137695	137695

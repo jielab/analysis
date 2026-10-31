@@ -1,0 +1,16 @@
+method	status	fit_role	tuning_role	calibration_role	trait	reason
+Clinical	completed	build	tune_model	prediction_calibration	height	
+csx-moe	completed	build	tune_model	prediction_calibration	height	
+Clinical	completed	build	tune_model	prediction_calibration	ldl	
+csx-moe	completed	build	tune_model	prediction_calibration	ldl	
+Clinical	completed	build	tune_model	prediction_calibration	t2dm	
+csx-moe	completed	build	tune_model	prediction_calibration	t2dm	
+PRSformer	not_completed				height	
+PRSformer2 exploratory	not_completed				height	
+PRSformer	not_completed				ldl	
+PRSformer2 exploratory	not_completed				ldl	
+PRSformer	not_completed				t2dm	
+PRSformer2 exploratory	not_completed				t2dm	
+DiscoDivas	unavailable				height	Frozen cohort inputs or development fitting requirements failed validation; inspect local Disco diagnostics
+DiscoDivas	unavailable				ldl	Frozen cohort inputs or development fitting requirements failed validation; inspect local Disco diagnostics
+DiscoDivas	unavailable				t2dm	Frozen cohort inputs or development fitting requirements failed validation; inspect local Disco diagnostics

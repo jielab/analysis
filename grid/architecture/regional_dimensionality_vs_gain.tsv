@@ -1,0 +1,4 @@
+trait	primary_loss	baseline_loss	candidate_loss	absolute_loss_reduction	relative_primary_loss_reduction	interpretation_status	median_effective_blocks_fraction_beta2	median_top5pct_share_beta2	median_hhi_beta2	median_gini_beta2	median_effective_blocks_fraction_abs_beta
+height	mse					not_available	0.2328671373753058	0.3589128582272351	0.0024619571283064703	0.6550689095045233	0.5858669042950866
+ldl	mse					not_available	0.00948779162208111	0.6020661023562812	0.05819437395843581	0.735850974001494	0.4587247730110606
+t2dm	brier					not_available	0.14491900439629798	0.37574136909794065	0.004050609750179599	0.6255676280925052	0.6249289482148059

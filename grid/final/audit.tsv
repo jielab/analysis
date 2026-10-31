@@ -1,0 +1,17 @@
+source	status	detail
+abm/FINAL/height/blocknet_34666db7e39f6eeb/audit_count_calibration.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/height/blocknet_34666db7e39f6eeb/policy_calibration_count_calibration.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/height/blocknet_34666db7e39f6eeb/support_by_group.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/height/blocknet_34666db7e39f6eeb/test_count_calibration.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/ldl/blocknet_3a99fa91d4bbfbd8/audit_count_calibration.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/ldl/blocknet_3a99fa91d4bbfbd8/policy_calibration_count_calibration.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/ldl/blocknet_3a99fa91d4bbfbd8/support_by_group.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/ldl/blocknet_3a99fa91d4bbfbd8/test_count_calibration.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/t2dm/blocknet_89f7ee8fbca61a7c/audit_count_calibration.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/t2dm/blocknet_89f7ee8fbca61a7c/policy_calibration_count_calibration.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/t2dm/blocknet_89f7ee8fbca61a7c/support_by_group.tsv	private_columns	Individual-level columns cannot enter final: group
+abm/FINAL/t2dm/blocknet_89f7ee8fbca61a7c/test_count_calibration.tsv	private_columns	Individual-level columns cannot enter final: group
+disco/height/coefficients.xlsx	source_read_failed	Expanded workbook exceeds configured limit
+disco/ldl/coefficients.xlsx	source_read_failed	Expanded workbook exceeds configured limit
+disco/t2dm/coefficients.xlsx	source_read_failed	Expanded workbook exceeds configured limit
+pca/ancestry.xlsx::Anchor_counts	private_columns	Individual-level columns cannot enter final: group

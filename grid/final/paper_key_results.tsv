@@ -1,0 +1,23 @@
+trait	result	metric	objective	baseline	GRID	delta	ci_low	ci_high	status	direction
+height	blocknet_vs_csx	prediction_r2		0.6655081447060033	0.6665455828925473	0.001037438186544004				positive delta favours GRID
+height	predictability_selected_vs_control	baseline_prediction_loss_difference				-1.0022511178407605	-1.3718655101734156	-0.6358751916515031	available	negative favours selected
+height	gain_enrichment	candidate_gain_difference				0.0992782604786595	0.0620561268472081	0.1388284392533676	available	positive favours GRID
+height	policy_vs_base	policy_loss_reduction_vs_base				0.0662880360232195	0.0517037565179226	0.0819078219332885	available	positive favours GRID
+height	policy_vs_candidate	policy_loss_reduction_vs_candidate				-0.0226901336368398	-0.0326359905386546	-0.0121799428739438	available	positive favours GRID
+height	count_incremental_D_vs_C	assessment_target_mse_reduction	expected_loss	2122.233878762853	2122.2265544130687	0.0073243497846096	-0.0921098065623635	0.1044457006343115	ok	positive favours adding count
+height	count_incremental_D_vs_C	assessment_target_mse_reduction	expected_gain	21.351915597035457	21.35153877348796	0.0003768235475069	0.0001603763525294	0.0005819178047101	ok	positive favours adding count
+ldl	blocknet_vs_csx	prediction_r2		0.1005964502366173	0.1418595427444682	0.04126309250785089				positive delta favours GRID
+ldl	predictability_selected_vs_control	baseline_prediction_loss_difference				-0.0266933919670289	-0.0360772747937631	-0.0160100638132472	available	negative favours selected
+ldl	gain_enrichment	candidate_gain_difference				-0.001034606496816	-0.0040743933030541	0.0020007939211468	available	positive favours GRID
+ldl	policy_vs_base	policy_loss_reduction_vs_base				0.0174747145777623	0.016523161373225	0.0184174832354843	available	positive favours GRID
+ldl	policy_vs_candidate	policy_loss_reduction_vs_candidate				-0.0138547303967412	-0.0147099650275261	-0.0130670173980121	available	positive favours GRID
+ldl	count_incremental_D_vs_C	assessment_target_mse_reduction	expected_loss	1.013670052243738	1.0131329633844983	0.0005370888592399	0.0003263705166306	0.0007527842196707	ok	positive favours adding count
+ldl	count_incremental_D_vs_C	assessment_target_mse_reduction	expected_gain	0.0836868953422402	0.0836869180044232	-2.2662183054395493e-08	-3.9603451057127855e-06	3.963308935866442e-06	ok	positive favours adding count
+t2dm	blocknet_vs_csx	brier		0.0175795634375171	0.0174268697532298	0.00015269368428729932				positive delta favours GRID
+t2dm	blocknet_vs_csx	auprc		0.0955027495334425	0.1082177245139691	0.012714974980526608				positive delta favours GRID
+t2dm	predictability_selected_vs_control	baseline_prediction_loss_difference				-0.0009657400996982	-0.001997739554027	0.0001156411374167	available	negative favours selected
+t2dm	gain_enrichment	candidate_gain_difference				6.303986873692696e-05	-7.753212409906851e-06	0.0001339529409534	available	positive favours GRID
+t2dm	policy_vs_base	policy_loss_reduction_vs_base				7.817348842682905e-05	5.1359142820443135e-05	0.000105150249316	available	positive favours GRID
+t2dm	policy_vs_candidate	policy_loss_reduction_vs_candidate				-7.45201958605437e-05	-0.0001042061503537	-4.442656854787372e-05	available	positive favours GRID
+t2dm	count_incremental_D_vs_C	assessment_target_mse_reduction	expected_loss	0.0139600214505032	0.013960067331339	-4.588083587321081e-08	-4.102510720807498e-07	3.0079699266826737e-07	ok	positive favours adding count
+t2dm	count_incremental_D_vs_C	assessment_target_mse_reduction	expected_gain	8.291183728849852e-05	8.291332150179555e-05	-1.4842132970239011e-09	-3.651547589079281e-09	5.918399120721857e-10	ok	positive favours adding count

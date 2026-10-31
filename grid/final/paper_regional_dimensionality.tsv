@@ -1,0 +1,4 @@
+trait	primary_mass_definition	median_effective_blocks_fraction	q25_effective_blocks_fraction	q75_effective_blocks_fraction	median_top5pct_share	median_hhi	median_gini	primary_loss	relative_primary_loss_reduction	interpretation
+height	beta_squared	0.2328671373753058	0.2037831554492811	0.2676336501995777	0.3589128582272351	0.0024619571283064	0.6550689095045233	mse		not_available
+ldl	beta_squared	0.0094877916220811	0.0055251846301253	0.0279271997275884	0.6020661023562812	0.0581943739584358	0.735850974001494	mse		not_available
+t2dm	beta_squared	0.1449190043962979	0.0900495393958075	0.243491104772211	0.3757413690979406	0.0040506097501795	0.6255676280925052	brier		not_available
