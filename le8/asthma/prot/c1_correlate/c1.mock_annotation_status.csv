@@ -1,0 +1,5 @@
+source,status,detail
+MGI,unavailable,<urlopen error _ssl.c:1015: The handshake operation timed out>
+KEGG,ok,KEGG_2021_Human
+TF,ok,TRRUST_Transcription_Factors_2019
+STRING,unavailable,<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>

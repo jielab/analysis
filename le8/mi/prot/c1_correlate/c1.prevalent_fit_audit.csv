@@ -1,0 +1,4 @@
+analysis,fit_method,status,n_features,n_FDR05,min_cases,median_cases,max_cases
+"prevalent_basic","glm_mle","ok",2910,745,443,443,443
+"prevalent_adj2","glm_mle","ok",2910,622,331,331,331
+"prevalent_adj2_full_le8_sensitivity","glm_mle","ok",2910,316,285,285,285

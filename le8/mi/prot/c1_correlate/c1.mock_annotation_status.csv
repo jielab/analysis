@@ -1,0 +1,5 @@
+source,status,detail
+MGI,unavailable,<urlopen error [Errno 104] Connection reset by peer>
+KEGG,unavailable,<urlopen error [Errno 104] Connection reset by peer>
+TF,unavailable,<urlopen error [Errno 104] Connection reset by peer>
+STRING,unavailable,<urlopen error [Errno 104] Connection reset by peer>

@@ -1,0 +1,4 @@
+analysis,fit_method,status,n_features,n_FDR05,min_cases,median_cases,max_cases
+"prevalent_basic","not_fitted","insufficient_data",2910,0,0,0,0
+"prevalent_adj2","not_fitted","insufficient_data",2910,0,0,0,0
+"prevalent_adj2_full_le8_sensitivity","not_fitted","insufficient_data",2910,0,0,0,0

@@ -1,0 +1,3 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0045121","membrane raft",0.013460383152207,6,82,30,2910,7.09756097560976,"A"
+"GO:CC","GO:0005615","obsolete extracellular space",0.0211388027174826,17,765,30,2910,2.15555555555556,"A"

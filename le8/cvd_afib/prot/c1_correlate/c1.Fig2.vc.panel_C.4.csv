@@ -1,0 +1,2 @@
+term,estimate,beta,std.error,conf.low,conf.high,statistic,p.value,N_total,N_event,status,warning,dropped_constant_covariates,fit_method,FDR,score_column,x_original,y_original,direction,label,x,y,panel
+"ENO2",1.06063713852507,0.0588698016315616,0.013069261526508,1.03381314511916,1.08815712484386,4.50444744044318,6.65458648731411e-06,458182,5995,"ok","","","glm_mle",0.017182142310245,"ENO2.SCORE_SUM",0.0588698016315616,5.1768789261934,"Positive","ENO2",0.0588698016315616,5.1768789261934,"C"

@@ -1,0 +1,7 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,score,term_label,term_key,x_value,panel
+"Group","Metabolite group:Relative_lipoprotein_lipid_concentrations","Relative_lipoprotein_lipid_concentrations",0.910488401756938,68,70,276,300,1.05590062111801,0.0407255820876706,"Relative_lipoprotein_lipid_concentrations","Group___Metabolite group:Relative_lipoprotein_lipid_concentrations",1.05590062111801,"E"
+"Group","Metabolite group:Amino_acids","Amino_acids",0.951923076923077,10,10,276,300,1.08695652173913,0.0213981447012303,"Amino_acids","Group___Metabolite group:Amino_acids",1.08695652173913,"E"
+"Group","Metabolite group:Apolipoproteins","Apolipoproteins",0.951923076923077,3,3,276,300,1.08695652173913,0.0213981447012303,"Apolipoproteins","Group___Metabolite group:Apolipoproteins",1.08695652173913,"E"
+"Group","Metabolite group:Cholesterol","Cholesterol",0.951923076923077,7,7,276,300,1.08695652173913,0.0213981447012303,"Cholesterol","Group___Metabolite group:Cholesterol",1.08695652173913,"E"
+"Group","Metabolite group:Cholesteryl_esters","Cholesteryl_esters",0.951923076923077,4,4,276,300,1.08695652173913,0.0213981447012303,"Cholesteryl_esters","Group___Metabolite group:Cholesteryl_esters",1.08695652173913,"E"
+"Group","Metabolite group:Fatty_acids","Fatty_acids",0.951923076923077,18,18,276,300,1.08695652173913,0.0213981447012303,"Fatty_acids","Group___Metabolite group:Fatty_acids",1.08695652173913,"E"

@@ -1,0 +1,10 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0005576","extracellular region",1.93289737886012e-19,193,976,334,2910,1.72287596937273,"A"
+"GO:CC","GO:0005615","obsolete extracellular space",3.06246109936804e-17,160,765,334,2910,1.8222378771868,"A"
+"GO:CC","GO:0031012","extracellular matrix",4.75060375152036e-07,56,227,334,2910,2.14935767232056,"A"
+"GO:MF","GO:0005031","tumor necrosis factor receptor activity",9.0373799921274e-06,8,8,334,2910,8.7125748502994,"A"
+"GO:MF","GO:0048018","receptor ligand activity",4.35122720442326e-05,29,94,334,2910,2.68792202828386,"A"
+"GO:MF","GO:0008201","heparin binding",0.000699400483804651,27,97,334,2910,2.4251497005988,"A"
+"GO:BP","GO:0006935","chemotaxis",0.00972208325622152,20,67,334,2910,2.60076861202967,"A"
+"GO:BP","GO:0006954","inflammatory response",0.00972208325622152,37,165,334,2910,1.95372890582471,"A"
+"GO:BP","GO:0033209","tumor necrosis factor-mediated signaling pathway",0.00972208325622152,11,23,334,2910,4.16688362405624,"A"

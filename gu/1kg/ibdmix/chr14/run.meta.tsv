@@ -1,0 +1,47 @@
+pipeline_version	2026-09-14.1
+profile	multi_reference
+coordinate_system	0-based-half-open
+population_mode	population
+background_filter	1
+mask_root	/mnt/e/genRef/archaic/37/mask
+custom_masks	
+export_denisovan	1
+denisovan_call_definition	native_reference_matching_no_African_Denisova_subtraction
+genome_build	b37
+x_mode	not_requested
+loci_flank_bp	0
+refs	Altai Altai.2013 Chagyr Denisova Denisova.2013 Denisova25 Vindija
+lod_cut	4
+len_cut	50000
+emit_lod_cut	4
+minor_allele_count	1
+archaic_error	0.01
+modern_error_max	0.002
+modern_error_proportion	2
+sample_file\t/mnt/e/genRef/1kg/37/samples.txt:57720:1787477532
+software\t/mnt/d/software/gu/ibdmix/build/src/generate_gt:352912:1777774172
+software\t/mnt/d/software/gu/ibdmix/build/src/ibdmix:419088:1777774182
+software\t/mnt/d/scripts/gu/f/ibdmix_workflow.py:31222:1790842610
+software\t/mnt/d/scripts/gu/f/vcf_gt_fix.py:3233:1788603868
+software\t/mnt/d/scripts/gu/f/ibdmix.sh:25043:1790854718
+mask_manifest_sha256	C14	057bc380dd7b4f15b4e6750f1d9a2258e51f50c462219012de2a867ed8f246c8
+excluded_mask_sha256	C14	Altai	73889210558575b15b40a7a867fdaf80d9b6e645f51b20bd2ebfeccfa805a911
+excluded_mask_sha256	C14	Altai.2013	73889210558575b15b40a7a867fdaf80d9b6e645f51b20bd2ebfeccfa805a911
+excluded_mask_sha256	C14	Chagyr	60a3c9f4e6b4b4aaeb622b9c2c41fbe3adebf168930fb086b301bf311cd0d713
+excluded_mask_sha256	C14	Denisova	f0e35f26443b51927c034d3af3a8b7687f421e179c3665f87b53aa013d60db14
+excluded_mask_sha256	C14	Denisova.2013	f0e35f26443b51927c034d3af3a8b7687f421e179c3665f87b53aa013d60db14
+excluded_mask_sha256	C14	Denisova25	c3836b63887cf913f2b4446db9bc73fd51bcf4440f4b915912f1d84961bfaf9a
+excluded_mask_sha256	C14	Vindija	9bc9e31e298bf97901c313efe8f771489ca8bfadcc91f1e6c17635809634a41f
+reference_fasta\t/mnt/e/genRef/fasta/GRCH37.fasta:3153506519:1785817816
+modern_source	chr14	schema	4
+modern_source	chr14	format	vcf
+modern_source	chr14	chromosome	14
+modern_source	chr14	vcf\t/mnt/e/genRef/1kg/37/vcf/chr14.vcf.gz:506573037:1432764840
+modern_source	chr14	index\t/mnt/e/genRef/1kg/37/vcf/chr14.vcf.gz.tbi:87551:1777813008
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Altai/chr14_mq25_mapab100.vcf.gz:1718236300:1468582332
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Altai.2013/AltaiNea.hg19_1000g.14.mod.vcf.gz:2398946399:1790837057
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Chagyr/chr14.noRB.vcf.gz:1490203204:1777797048
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Denisova/chr14_mq25_mapab100.vcf.gz:1617053944:1468585398
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Denisova.2013/DenisovaPinky.hg19_1000g.14.mod.vcf.gz:2122839171:1790839837
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Denisova25/chr14.Den25.L35MQ25.B30.map35_100.vcf.gz:1625858226:1761653120
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Vindija/chr14_mq25_mapab100.vcf.gz:1675113520:1468584268

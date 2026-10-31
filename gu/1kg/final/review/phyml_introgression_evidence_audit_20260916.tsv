@@ -1,0 +1,3 @@
+locus_id	genome_build	target_variant	lineage	core_interval	core_kb	tree_bootstrap	ils_probability	ibdmix_status	ibdmix_supported_individuals	ibdmix_individuals	ibdmix_support_fraction	risk_frequency_EUR	evidence_assessment
+11:126000071:T:C	GRCh37	11:125869966:T:C	Denisovan	125869906–125871955	2.05	87.0		not_detected	0	1661	0.0	0.39065606361829025	tree_support_only_insufficient_corroboration
+3:114851480:A:C	GRCh37	3:114570327:A:C	Neanderthal	114570327–114627142	56.816	92.0	0.00021909146219807902	overlap_detected	344	2487	0.13831926015279453	0.974155069582505	reasonably_strong_candidate_not_confirmed

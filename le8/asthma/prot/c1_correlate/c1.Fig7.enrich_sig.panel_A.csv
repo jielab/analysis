@@ -1,0 +1,7 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0005576","extracellular region",6.4551010831842e-10,165,976,319,2910,1.54218485019785,"A"
+"GO:CC","GO:0005615","obsolete extracellular space",4.19773069568511e-08,133,765,319,2910,1.5859610301801,"A"
+"GO:CC","GO:0031012","extracellular matrix",0.00140992820851938,46,227,319,2910,1.84856310331018,"A"
+"GO:MF","GO:0030246","carbohydrate binding",0.00344977955375972,27,104,319,2910,2.36827827345069,"A"
+"GO:BP","GO:0007565","female pregnancy",0.0168010773008498,12,28,319,2910,3.90953873712494,"A"
+"GO:BP","GO:0050830","defense response to Gram-positive bacterium",0.0475261772334562,14,42,319,2910,3.04075235109718,"A"

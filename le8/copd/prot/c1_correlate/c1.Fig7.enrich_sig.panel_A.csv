@@ -1,0 +1,10 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0005576","extracellular region",8.27287046782163e-37,299,976,504,2910,1.76882074551132,"A"
+"GO:CC","GO:0005615","obsolete extracellular space",4.89990818308083e-29,242,765,504,2910,1.82648615001556,"A"
+"GO:CC","GO:0031012","extracellular matrix",2.94698687995034e-10,81,227,504,2910,2.06025802391441,"A"
+"GO:MF","GO:0030246","carbohydrate binding",4.17406670232162e-05,40,104,504,2910,2.22069597069597,"A"
+"GO:MF","GO:0048018","receptor ligand activity",4.17406670232162e-05,37,94,504,2910,2.27266970618034,"A"
+"GO:BP","GO:0002376","immune system process",6.15630618565463e-05,73,235,504,2910,1.7935663627153,"A"
+"GO:MF","GO:0030414","peptidase inhibitor activity",0.000257191874440318,27,64,504,2910,2.43582589285714,"A"
+"GO:BP","GO:0006954","inflammatory response",0.000690535953965748,53,165,504,2910,1.8546176046176,"A"
+"GO:BP","GO:0006955","immune response",0.000690535953965748,59,192,504,2910,1.7742435515873,"A"

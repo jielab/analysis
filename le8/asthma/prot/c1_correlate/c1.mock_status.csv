@@ -1,0 +1,2 @@
+status,layer,matching_covariates,cases,controls,biomarkers,proteins,metabolites,interpretation,reference
+"ok","protein","age,sex,tdi,PC1,PC2,diet.pts,pa.pts,smoke.pts,sleep.pts",1996,19960,319,319,NA,"One baseline sample per person; diagnosis-timed LOESS, not longitudinal within-person change","Mean/SD of matched controls; absolute Z > 0.25 for clustering"

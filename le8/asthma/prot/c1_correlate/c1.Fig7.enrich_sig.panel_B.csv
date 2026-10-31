@@ -1,0 +1,8 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0005576","extracellular region",5.20965008327922e-12,164,976,307,2910,1.59275377796764,"B"
+"GO:CC","GO:0005615","obsolete extracellular space",1.56062477430519e-11,137,765,307,2910,1.69751548828,"B"
+"GO:CC","GO:0031012","extracellular matrix",8.25000413261608e-06,50,227,307,2910,2.08784743646773,"B"
+"GO:MF","GO:0005031","tumor necrosis factor receptor activity",0.00872889407050917,6,8,307,2910,7.10912052117264,"B"
+"GO:BP","GO:0007178","cell surface receptor protein serine/threonine kinase signaling pathway",0.0279517607185051,5,6,307,2910,7.89902280130293,"B"
+"GO:BP","GO:0008217","regulation of blood pressure",0.0279517607185051,8,16,307,2910,4.73941368078176,"B"
+"GO:BP","GO:0050830","defense response to Gram-positive bacterium",0.0279517607185051,14,42,307,2910,3.15960912052117,"B"

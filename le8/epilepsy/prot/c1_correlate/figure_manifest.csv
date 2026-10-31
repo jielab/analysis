@@ -1,0 +1,19 @@
+file,group,panels,sources,policy
+c1.Fig1.mh.png,mh,6,c1.Fig1.mh.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig2.vc.png,vc,6,c1.Fig2.vc.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig3.temporal_profiles.png,temporal_profiles,4,c1.Fig3.yy_top.png;c1.Fig4.gradient.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig4.diagnosis_timed_profiles.png,diagnosis_timed_profiles,4,c1.Fig7.diagnosis_timed_profiles.png,full-height trajectory heatmap + three aligned cluster axes; all numeric rows retained
+c1.Fig5.gradient_cluster.png,gradient_cluster,6,c1.Fig5.gradient_cluster.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig6.quantile_top.png,quantile_top,6,c1.Fig6.quantile_top.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig7.enrich_sig.png,enrich_sig,3,c1.Fig8.enrich_sig.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig8.temporal_evidence.png,temporal_evidence,4,c1.Fig9.directionality_triage.png;c1.Fig12.directionality_detail.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig9.landmark_birthline_sensitivity.png,landmark_birthline_sensitivity,2,c1.Fig10.landmark_birthline_sensitivity.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig10.diagnosis_window_riskset.png,diagnosis_window_riskset,6,c1.Fig11.diagnosis_window_riskset.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig11.diagnosis_window_riskset.png,diagnosis_window_riskset,6,c1.Fig11.diagnosis_window_riskset.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig12.diagnosis_window_riskset.png,diagnosis_window_riskset,6,c1.Fig11.diagnosis_window_riskset.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig13.diagnosis_window_riskset.png,diagnosis_window_riskset,2,c1.Fig11.diagnosis_window_riskset.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig14.paired_temporal_validation.png,paired_temporal_validation,3,c1.Fig16.paired_temporal_validation.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig15.gradient_cluster_diagnostics.png,gradient_cluster_diagnostics,6,c1.Fig5.gradient_cluster.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig16.reverse_time_exploratory.png,reverse_time_exploratory,2,c1.Fig13.reverse_time_exploratory.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig17.pgs_actual_concordance.png,pgs_actual_concordance,6,c1.Fig14.pgs_actual_concordance.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained
+c1.Fig18.measured_volcano.png,measured_volcano,1,c1.Fig17.measured_volcano.png,equal panel cells; <=6 axes; max 12 labels in source order; all numeric rows retained

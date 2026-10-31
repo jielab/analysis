@@ -1,0 +1,46 @@
+archaic_error	0.01
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Altai.2013/AltaiNea.hg19_1000g.X.mod.vcf.gz:3816474705:1790842567
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Altai/chrX_mq25_mapab100.vcf.gz:2527399597:1468582982
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Chagyr/chrX.noRB.vcf.gz:2205218101:1777799020
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Denisova.2013/DenisovaPinky.hg19_1000g.X.mod.vcf.gz:3350308820:1790844013
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Denisova/chrX_mq25_mapab100.vcf.gz:2367124790:1468585994
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Denisova25/chrX.Den25.L35MQ25.B30.map35_100.vcf.gz:2076748366:1761653798
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Vindija/chrX_mq25_mapab100.vcf.gz:2473316109:1468584934
+background_filter	1
+coordinate_system	0-based-half-open
+custom_masks	
+denisovan_call_definition	native_reference_matching_no_African_Denisova_subtraction
+emit_lod_cut	4
+excluded_mask_sha256	X_MALE	Altai	96f64fc07a0d17a400f99102d16e7a40e7f02e4e7d8f3a36c59594ea275e61fe
+excluded_mask_sha256	X_MALE	Altai.2013	96f64fc07a0d17a400f99102d16e7a40e7f02e4e7d8f3a36c59594ea275e61fe
+excluded_mask_sha256	X_MALE	Chagyr	af3d1dcc829052b194508aed38f4623a0f1e73295433baf8e9e61dcc4d67f44d
+excluded_mask_sha256	X_MALE	Denisova	55a86e9f745d86d605bcd7ff4a41a6506632ed38bf4ddb7eb128ba1330755a47
+excluded_mask_sha256	X_MALE	Denisova.2013	55a86e9f745d86d605bcd7ff4a41a6506632ed38bf4ddb7eb128ba1330755a47
+excluded_mask_sha256	X_MALE	Denisova25	ea6ebd97927debf631ece7b8b22f2e148946702ab3484d27ef8a617d23b50936
+excluded_mask_sha256	X_MALE	Vindija	c32e82c576517fa5b87031c0eec3d0d606d305a1e6a0c0ccfdced95040d11361
+export_denisovan	1
+genome_build	b37
+len_cut	50000
+loci_flank_bp	0
+lod_cut	4
+minor_allele_count	1
+modern_error_max	0.002
+modern_error_proportion	2
+modern_source	chrX	chromosome	X
+modern_source	chrX	format	pfile
+modern_source	chrX	loci	whole_chromosome
+modern_source	chrX	pgen	/mnt/e/genRef/1kg/37/pfile/chrX.male.pgen:68421117:1787791348
+modern_source	chrX	psam	/mnt/e/genRef/1kg/37/pfile/chrX.male.psam:22207:1787791336
+modern_source	chrX	pvar	/mnt/e/genRef/1kg/37/pfile/chrX.male.pvar:515123424:1787791338
+modern_source	chrX	schema	4
+modern_source	chrX	x_mode	male_haploid_nonpar
+pipeline_version	2026-09-14.1
+population_mode	population
+profile	multi_reference
+reference_fasta	/mnt/e/genRef/fasta/GRCH37.fasta:3153506519:1785817816
+refs	Altai Altai.2013 Chagyr Denisova Denisova.2013 Denisova25 Vindija
+sample_file	/mnt/e/genRef/1kg/37/samples.txt:57720:1787477532
+software	/mnt/d/scripts/gu/f/vcf_gt_fix.py:3233:1788603868
+software	/mnt/d/software/gu/ibdmix/build/src/generate_gt:352912:1777774172
+software	/mnt/d/software/gu/ibdmix/build/src/ibdmix:419088:1777774182
+x_mode	male_haploid_nonpar

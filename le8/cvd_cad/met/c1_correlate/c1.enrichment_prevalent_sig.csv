@@ -1,0 +1,71 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio
+"Metabolite super-group","Metabolite super-group:Lipoprotein lipids","Lipoprotein lipids",0.0104441141278258,170,177,276,300,1.0439695406534
+"Metabolite super-group","Metabolite super-group:Cholesterol and apolipoproteins","Cholesterol and apolipoproteins",0.532159496944331,18,18,276,300,1.08695652173913
+"Metabolite super-group","Metabolite super-group:Amino acids","Amino acids",0.714388336097288,10,10,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Relative_lipoprotein_lipid_concentrations","Relative_lipoprotein_lipid_concentrations",0.910488401756938,68,70,276,300,1.05590062111801
+"Metabolite group","Metabolite group:Amino_acids","Amino_acids",0.951923076923077,10,10,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Apolipoproteins","Apolipoproteins",0.951923076923077,3,3,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Cholesterol","Cholesterol",0.951923076923077,7,7,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Cholesteryl_esters","Cholesteryl_esters",0.951923076923077,4,4,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Fatty_acids","Fatty_acids",0.951923076923077,18,18,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Fluid_balance","Fluid_balance",0.951923076923077,2,2,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Free_cholesterol","Free_cholesterol",0.951923076923077,4,4,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Ketone_bodies","Ketone_bodies",0.951923076923077,4,4,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Lipoprotein_particle_concentrations","Lipoprotein_particle_concentrations",0.951923076923077,2,2,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Lipoprotein_particle_sizes","Lipoprotein_particle_sizes",0.951923076923077,3,3,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Lipoprotein_subclasses","Lipoprotein_subclasses",0.951923076923077,80,85,276,300,1.0230179028133
+"Metabolite group","Metabolite group:Other_lipids","Other_lipids",0.951923076923077,5,5,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Phospholipids","Phospholipids",0.951923076923077,4,4,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Total_lipids","Total_lipids",0.951923076923077,4,4,276,300,1.08695652173913
+"Metabolite group","Metabolite group:Triglycerides","Triglycerides",0.951923076923077,4,4,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Amino_acids","Amino_acids",0.960328113348248,4,4,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Branched-chain_amino_acids","Branched-chain_amino_acids",0.960328113348248,4,4,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Cholesterol","Cholesterol",0.960328113348248,7,7,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Cholesteryl_esters","Cholesteryl_esters",0.960328113348248,4,4,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Chylomicrons_and_extremely_large_VLDL_ratios","Chylomicrons_and_extremely_large_VLDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Fatty_acid_ratios","Fatty_acid_ratios",0.960328113348248,9,9,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Fatty_acids","Fatty_acids",0.960328113348248,9,9,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Free_cholesterol","Free_cholesterol",0.960328113348248,4,4,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:IDL_(average_diameter_28.6_nm)","IDL_(average_diameter_28.6_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:IDL_ratios","IDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Ketone_bodies","Ketone_bodies",0.960328113348248,4,4,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Large_HDL_(average_diameter_12.1_nm)","Large_HDL_(average_diameter_12.1_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Large_HDL_ratios","Large_HDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Large_LDL_(average_diameter_25.5_nm)","Large_LDL_(average_diameter_25.5_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Large_VLDL_(average_diameter_53.6_nm)","Large_VLDL_(average_diameter_53.6_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Medium_HDL_ratios","Medium_HDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Medium_LDL_(average_diameter_23_nm)","Medium_LDL_(average_diameter_23_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Medium_LDL_ratios","Medium_LDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Medium_VLDL_(average_diameter_44.5_nm)","Medium_VLDL_(average_diameter_44.5_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Medium_VLDL_ratios","Medium_VLDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Other_lipids","Other_lipids",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Phospholipids","Phospholipids",0.960328113348248,4,4,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Small_HDL_(average_diameter_8.7_nm)","Small_HDL_(average_diameter_8.7_nm)",0.960328113348248,7,7,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Small_HDL_ratios","Small_HDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Small_LDL_(average_diameter_18.7_nm)","Small_LDL_(average_diameter_18.7_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Small_LDL_ratios","Small_LDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Small_VLDL_(average_diameter_36.8_nm)","Small_VLDL_(average_diameter_36.8_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Small_VLDL_ratios","Small_VLDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Total_lipids","Total_lipids",0.960328113348248,4,4,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Triglycerides","Triglycerides",0.960328113348248,4,4,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Very_large_HDL_(average_diameter_14.3_nm)","Very_large_HDL_(average_diameter_14.3_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Very_large_HDL_ratios","Very_large_HDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Very_large_VLDL_ratios","Very_large_VLDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Very_small_VLDL_(average_diameter_31.3_nm)","Very_small_VLDL_(average_diameter_31.3_nm)",0.960328113348248,6,6,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Very_small_VLDL_ratios","Very_small_VLDL_ratios",0.960328113348248,5,5,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Apolipoproteins","Apolipoproteins",0.9882794513667,3,3,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Lipoprotein_particle_sizes","Lipoprotein_particle_sizes",0.9882794513667,3,3,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Aromatic_amino_acids","Aromatic_amino_acids",0.99423076923077,2,2,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Fluid_balance","Fluid_balance",0.99423076923077,2,2,276,300,1.08695652173913
+"Metabolite subgroup","Metabolite subgroup:Lipoprotein_particle_concentrations","Lipoprotein_particle_concentrations",0.99423076923077,2,2,276,300,1.08695652173913
+"Metabolite super-group","Metabolite super-group:Energy metabolism","Energy metabolism",0.999988547858944,7,8,276,300,0.951086956521739
+"Metabolite super-group","Metabolite super-group:Other metabolites","Other metabolites",0.999988547858944,71,87,276,300,0.887056471764118
+"Metabolite group","Metabolite group:Glycolysis_related_metabolites","Glycolysis_related_metabolites",0.999999892145937,3,4,276,300,0.815217391304348
+"Metabolite group","Metabolite group:Other","Other",0.999999892145937,50,66,276,300,0.823451910408432
+"Metabolite subgroup","Metabolite subgroup:Chylomicrons_and_extremely_large_VLDL_(particle_diameters_from_75_nm_upwards)","Chylomicrons_and_extremely_large_VLDL_(particle_diameters_from_75_nm_upwards)",0.999999892145937,3,6,276,300,0.543478260869565
+"Metabolite subgroup","Metabolite subgroup:Glycolysis_related_metabolites","Glycolysis_related_metabolites",0.999999892145937,3,4,276,300,0.815217391304348
+"Metabolite subgroup","Metabolite subgroup:Large_LDL_ratios","Large_LDL_ratios",0.999999892145937,4,5,276,300,0.869565217391304
+"Metabolite subgroup","Metabolite subgroup:Large_VLDL_ratios","Large_VLDL_ratios",0.999999892145937,4,5,276,300,0.869565217391304
+"Metabolite subgroup","Metabolite subgroup:Medium_HDL_(average_diameter_10.9_nm)","Medium_HDL_(average_diameter_10.9_nm)",0.999999892145937,5,6,276,300,0.905797101449275
+"Metabolite subgroup","Metabolite subgroup:Other","Other",0.999999892145937,50,66,276,300,0.823451910408432
+"Metabolite subgroup","Metabolite subgroup:Very_large_VLDL_(average_diameter_64_nm)","Very_large_VLDL_(average_diameter_64_nm)",0.999999892145937,5,6,276,300,0.905797101449275

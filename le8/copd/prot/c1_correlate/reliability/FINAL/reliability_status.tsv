@@ -1,0 +1,4 @@
+component	head	status	features	calibration_audit_N	calibration_audit_cases	test_N	test_cases	primary_status
+reliability_head	P0_risk_only	fitted:N=2981;cases=112;controls=2869	p;p*(1-p);logit(p)	3139	112	8222	262	completed_primary_P1_vs_P0
+reliability_head	P1_incident_support	fitted:N=2981;cases=112;controls=2869	P0 + log1p(eligible_match_count);log1p(family_ess);twin_fraction;radius_ratio;nearest_radius_ratio	3139	112	8222	262	completed_primary_P1_vs_P0
+reliability_head	P2_incident_plus_prevalent	fitted:N=2981;cases=112;controls=2869	P1 + log1p(prevalent_eligible_reference_count);log1p(prevalent_matched_count);log1p(prevalent_used_count);log1p(prevalent_family_ess);matched/reference fraction;prevalent_matching_radius;prevalent_support_available	3139	112	8222	262	completed_primary_P1_vs_P0

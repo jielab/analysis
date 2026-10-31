@@ -1,0 +1,7 @@
+role	N	technical_qc_pass	known_cases	known_controls	unknown_after_qc	minimum_per_class	minimum_known_total	required	sufficient	phase
+build	19830	19830	145	18475	1210.0	20	40	True	True	before_technical_qc_upper_bound
+tune_model	3869	3869	24	3598	247.0	20	40	True	True	before_technical_qc_upper_bound
+tune_gate	3076	3076	23	2871	182.0	20	40	True	True	before_technical_qc_upper_bound
+calibration_fit	3178	3178	18	2964	196.0	20	40	True	False	before_technical_qc_upper_bound
+calibration_audit	3163	3163	28	2947	188.0	20	100	True	True	before_technical_qc_upper_bound
+all_development_with_biom	33116	33116	238	30855		50	0	True	True	before_technical_qc_upper_bound

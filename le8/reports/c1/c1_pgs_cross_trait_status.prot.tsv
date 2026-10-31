@@ -1,0 +1,13 @@
+status	declared_status	analyses_summarized	detail	Y	layer
+unavailable		0	No estimable saved PGS fits; PGS summary skipped (not a negative result)	ad	prot
+available	ok	4	Saved PGS fits retained; no refitting	amr	prot
+available	ok	6	Saved PGS fits retained; no refitting	asthma	prot
+available	ok	6	Saved PGS fits retained; no refitting	copd	prot
+available	ok	6	Saved PGS fits retained; no refitting	cvd_afib	prot
+available	ok	6	Saved PGS fits retained; no refitting	cvd_cad	prot
+available	ok	6	Saved PGS fits retained; no refitting	cvd_htn	prot
+available	ok	6	Saved PGS fits retained; no refitting	epilepsy	prot
+unavailable		0	No estimable saved PGS fits; PGS summary skipped (not a negative result)	masld	prot
+available	ok	6	Saved PGS fits retained; no refitting	mi	prot
+available	ok	6	Saved PGS fits retained; no refitting	ra	prot
+unavailable		0	No estimable saved PGS fits; PGS summary skipped (not a negative result)	sle2	prot

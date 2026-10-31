@@ -1,0 +1,10 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0005576","extracellular region",2.45729583725136e-15,201,976,377,2910,1.5896366917424,"A"
+"GO:CC","GO:0005615","obsolete extracellular space",6.92977277703327e-14,166,765,377,2910,1.67493628751235,"A"
+"GO:CC","GO:0031012","extracellular matrix",3.04405091245208e-10,67,227,377,2910,2.27824583133713,"A"
+"GO:MF","GO:0005031","tumor necrosis factor receptor activity",2.2619962925129e-05,8,8,377,2910,7.71883289124668,"A"
+"GO:MF","GO:0048018","receptor ligand activity",4.08731900272758e-05,31,94,377,2910,2.54557254924093,"A"
+"GO:MF","GO:0030246","carbohydrate binding",0.000102843864690415,32,104,377,2910,2.37502550499898,"A"
+"GO:BP","GO:0046718","symbiont entry into host cell",0.0037131685891968,22,62,377,2910,2.7389407033456,"A"
+"GO:BP","GO:0002376","immune system process",0.00964380474092831,52,235,377,2910,1.70799706529714,"A"
+"GO:BP","GO:0042102","positive regulation of T cell proliferation",0.00964380474092831,15,37,377,2910,3.12925657753244,"A"

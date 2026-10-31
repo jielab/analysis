@@ -1,0 +1,43 @@
+archaic_error	0.01
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Altai.2013/AltaiNea.hg19_1000g.9.mod.vcf.gz:3115794976:1790833336
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Altai/chr9_mq25_mapab100.vcf.gz:2143738789:1468582944
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Chagyr/chr9.noRB.vcf.gz:1873703776:1777798776
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Denisova.2013/DenisovaPinky.hg19_1000g.9.mod.vcf.gz:2752721561:1790835124
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Denisova/chr9_mq25_mapab100.vcf.gz:2024875640:1468585958
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Denisova25/chr9.Den25.L35MQ25.B30.map35_100.vcf.gz:2030390620:1761653764
+archaic_vcf	/mnt/e/genRef/archaic/37/vcf/Vindija/chr9_mq25_mapab100.vcf.gz:2108570635:1468584898
+background_filter	1
+coordinate_system	0-based-half-open
+custom_masks	
+denisovan_call_definition	native_reference_matching_no_African_Denisova_subtraction
+emit_lod_cut	4
+excluded_mask_sha256	C9	Altai	ff8fc8f8247f7e4d8a2be9e736720bc21dc1358021919a14ddf5a896bfc9322c
+excluded_mask_sha256	C9	Altai.2013	ff8fc8f8247f7e4d8a2be9e736720bc21dc1358021919a14ddf5a896bfc9322c
+excluded_mask_sha256	C9	Chagyr	fedc55ffe92c988df2046932cc23e91f19a2ef5a915799fdc6b2fb28487e606a
+excluded_mask_sha256	C9	Denisova	4c84bcd46d84b5b107b5bd76f177547199579a7e78623387f7bb61e4bb8bb267
+excluded_mask_sha256	C9	Denisova.2013	4c84bcd46d84b5b107b5bd76f177547199579a7e78623387f7bb61e4bb8bb267
+excluded_mask_sha256	C9	Denisova25	4df7eedaaf39b33338e748f877759366b99c7d114b33414d8c55df79c4ee7f1e
+excluded_mask_sha256	C9	Vindija	4b77dbeb4a108955243079237f3c057625a96020f3a4997178ab6152960d16d8
+export_denisovan	1
+genome_build	b37
+len_cut	50000
+loci_flank_bp	0
+lod_cut	4
+minor_allele_count	1
+modern_error_max	0.002
+modern_error_proportion	2
+modern_source	chr9	chromosome	9
+modern_source	chr9	format	vcf
+modern_source	chr9	index	/mnt/e/genRef/1kg/37/vcf/chr9.vcf.gz.tbi:118178:1777812476
+modern_source	chr9	schema	4
+modern_source	chr9	vcf	/mnt/e/genRef/1kg/37/vcf/chr9.vcf.gz:672879733:1432765080
+pipeline_version	2026-09-14.1
+population_mode	population
+profile	multi_reference
+reference_fasta	/mnt/e/genRef/fasta/GRCH37.fasta:3153506519:1785817816
+refs	Altai Altai.2013 Chagyr Denisova Denisova.2013 Denisova25 Vindija
+sample_file	/mnt/e/genRef/1kg/37/samples.txt:57720:1787477532
+software	/mnt/d/scripts/gu/f/vcf_gt_fix.py:3233:1788603868
+software	/mnt/d/software/gu/ibdmix/build/src/generate_gt:352912:1777774172
+software	/mnt/d/software/gu/ibdmix/build/src/ibdmix:419088:1777774182
+x_mode	not_requested

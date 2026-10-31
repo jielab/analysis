@@ -1,0 +1,562 @@
+source,term_name,p_raw,intersection_size,genes,adjusted_p
+MGI,homeostasis/metabolism phenotype,0.07026967357589389,21,ACE2;CD14;CSF1;CTBS;CXADR;ENPP7;GDF15;GGT1;GPR37;LAMP2;MERTK;MME;MRC1;NCS1;PIGR;PILRA;PVR;RBFOX3;SULT2A1;TNFRSF10A;TNFRSF1B,0.733233110440756
+MGI,hematopoietic system phenotype,0.07233941076700495,18,ACE2;CD14;CPM;CSF1;CTBS;CXADR;CXCL13;GDF15;GGT1;LAMP2;MERTK;MRC1;PIGR;PILRA;PVR;SEPTIN8;TNFRSF10A;TNFRSF1B,0.733233110440756
+MGI,endocrine/exocrine gland phenotype,0.11914047746477381,11,ACE2;CSF1;CXADR;CXCL13;ENPP7;GGT1;LAMP2;MERTK;SULT2A1;TNFRSF10A;TNFRSF1B,0.733233110440756
+MGI,pigmentation phenotype,0.1997898095813287,3,ACE2;GGT1;MERTK,0.733233110440756
+MGI,immune system phenotype,0.20608779599114116,17,ACE2;CD14;CPM;CSF1;CTBS;CXADR;CXCL13;GGT1;LAMP2;MERTK;MME;MRC1;PIGR;PILRA;PVR;TNFRSF10A;TNFRSF1B,0.733233110440756
+MGI,nervous system phenotype,0.21931329921551704,12,BMPER;CRELD1;CSF1;CXADR;GDF15;GPR37;MERTK;MME;NEFL;RBFOX3;SEPTIN8;TNFRSF1B,0.733233110440756
+MGI,mortality/aging,0.23551680808929487,16,ACE2;BMPER;CD14;CRELD1;CSF1;CXADR;GDF15;GGT1;LAMP2;MERTK;MRC1;NCS1;PILRA;RBFOX3;SULT2A1;TNFRSF10A,0.733233110440756
+MGI,liver/biliary system phenotype,0.2466622914076246,7,CSF1;CTBS;CXADR;LAMP2;MME;PILRA;SULT2A1,0.733233110440756
+MGI,adipose tissue phenotype,0.2641895340732079,5,ACE2;CD14;GDF15;GPR37;LAMP2,0.733233110440756
+MGI,neoplasm,0.30928403192714954,4,LRG1;PVR;TNFRSF10A;TNFRSF1B,0.733233110440756
+MGI,digestive/alimentary phenotype,0.320626692919275,6,ACE2;CXADR;CXCL13;ENPP7;MERTK;PIGR,0.733233110440756
+MGI,cardiovascular system phenotype,0.34738946660477826,11,ACE2;BMPER;CRELD1;CSF1;CTBS;CXADR;GDF15;LAMP2;MERTK;PILRA;TNFRSF1B,0.733233110440756
+MGI,limbs/digits/tail phenotype,0.3819040787227222,4,BMPER;CSF1;GGT1;SULT2A1,0.733233110440756
+MGI,cellular phenotype,0.4015225619840277,14,ACE2;CRELD1;CSF1;CTBS;CXADR;CXCL13;GGT1;GPR37;LAMP2;MERTK;PILRA;RBFOX3;TNFRSF10A;TNFRSF1B,0.733233110440756
+MGI,craniofacial phenotype,0.4089088644863634,4,BMPER;CRELD1;CSF1;PVR,0.733233110440756
+MGI,respiratory system phenotype,0.4345085098908184,5,ACE2;BMPER;CD14;CXADR;TNFRSF1B,0.733233110440756
+MGI,renal/urinary system phenotype,0.5493367618601716,5,BMPER;CTBS;CXADR;GDF15;GGT1,0.7934322439226933
+MGI,growth/size/body region phenotype,0.5580813138137931,14,ACE2;BMPER;CD14;CPM;CRELD1;CSF1;CXADR;GDF15;GGT1;LAMP2;MERTK;PVR;SEPTIN8;SULT2A1,0.7934322439226933
+MGI,muscle phenotype,0.5583412086863397,5,ACE2;CRELD1;CSF1;CXADR;LAMP2,0.7934322439226933
+MGI,behavior/neurological phenotype,0.6163378737052485,11,CSF1;CXADR;GDF15;GGT1;GPR37;LAMP2;NCS1;NEFL;RBFOX3;SEPTIN8;TNFRSF1B,0.807744948013682
+MGI,hearing/vestibular/ear phenotype,0.6282460706773082,2,BMPER;CSF1,0.807744948013682
+MGI,reproductive system phenotype,0.6663219257273358,6,ACE2;CSF1;GGT1;LAMP2;MERTK;MRC1,0.817758727029003
+MGI,vision/eye phenotype,0.7070728926211512,6,ACE2;BMPER;CSF1;GGT1;MERTK;NCS1,0.8300420913378731
+MGI,integument phenotype,0.8027473165807621,5,ACE2;CSF1;GGT1;MME;TNFRSF1B,0.9030907311533575
+MGI,skeleton phenotype,0.8514984490497975,5,BMPER;CD14;CSF1;GGT1;PVR,0.9196183249737814
+MGI,embryo phenotype,0.8917631496780563,3,BMPER;CRELD1;CXADR,0.9260617323579814
+MGI,taste/olfaction phenotype,1.0,0,,1.0
+KEGG,Renin-angiotensin system,0.005334951618317717,2,ACE2;MME,0.8254740594271865
+KEGG,Viral protein interaction with cytokine and cytokine receptor,0.005521565614897569,4,CSF1;CXCL13;TNFRSF10A;TNFRSF1B,0.8254740594271865
+KEGG,Pathways of neurodegeneration,0.012197470532172829,4,CSF1;GPR37;NEFL;TNFRSF1B,1.0
+KEGG,Phagosome,0.01637366701501222,3,CD14;LAMP2;MRC1,1.0
+KEGG,Hematopoietic cell lineage,0.021799801754133208,3,CD14;CSF1;MME,1.0
+KEGG,Tuberculosis,0.0227893484674248,3,CD14;LAMP2;MRC1,1.0
+KEGG,Cytokine-cytokine receptor interaction,0.039791790836846724,5,CSF1;CXCL13;GDF15;TNFRSF10A;TNFRSF1B,1.0
+KEGG,Taurine and hypotaurine metabolism,0.04062441950645229,1,GGT1,1.0
+KEGG,Protein digestion and absorption,0.04953943134781061,2,ACE2;MME,1.0
+KEGG,TNF signaling pathway,0.10574408644660335,2,CSF1;TNFRSF1B,1.0
+KEGG,Bile secretion,0.1079097847328253,1,SULT2A1,1.0
+KEGG,Arachidonic acid metabolism,0.11714148754673274,1,GGT1,1.0
+KEGG,Metabolism of xenobiotics by cytochrome P450,0.11714148754673274,1,SULT2A1,1.0
+KEGG,Nitrogen metabolism,0.11714148754673274,1,CA12,1.0
+KEGG,Sphingolipid metabolism,0.11714148754673274,1,ENPP7,1.0
+KEGG,Amyotrophic lateral sclerosis,0.11914136819464412,2,NEFL;TNFRSF1B,1.0
+KEGG,Shigellosis,0.11914136819464412,2,CD14;SEPTIN8,1.0
+KEGG,Salmonella infection,0.13998945320969433,2,CD14;TNFRSF10A,1.0
+KEGG,Alzheimer disease,0.15070448669255676,2,CSF1;MME,1.0
+KEGG,Acute myeloid leukemia,0.17922616904498767,1,CD14,1.0
+KEGG,Bacterial invasion of epithelial cells,0.1877433654927305,1,SEPTIN8,1.0
+KEGG,Glutathione metabolism,0.1877433654927305,1,GGT1,1.0
+KEGG,Viral myocarditis,0.1961750952626632,1,CXADR,1.0
+KEGG,Adipocytokine signaling pathway,0.2045221866926413,1,TNFRSF1B,1.0
+KEGG,Lipid and atherosclerosis,0.2178522077300063,2,CD14;TNFRSF10A,1.0
+KEGG,Legionellosis,0.2209657292330949,1,CD14,1.0
+KEGG,Intestinal immune network for IgA production,0.22906379857530323,1,PIGR,1.0
+KEGG,p53 signaling pathway,0.2450165223585848,1,TNFRSF10A,1.0
+KEGG,Parkinson disease,0.2909833524571313,1,GPR37,1.0
+KEGG,Autophagy,0.3056953854261307,1,LAMP2,1.0
+KEGG,Pertussis,0.32011211626347047,1,CD14,1.0
+KEGG,Necroptosis,0.32721153725586805,1,TNFRSF10A,1.0
+KEGG,Toll-like receptor signaling pathway,0.3342392718932726,1,CD14,1.0
+KEGG,MAPK signaling pathway,0.34906834597990993,2,CD14;CSF1,1.0
+KEGG,Natural killer cell mediated cytotoxicity,0.3548993162150337,1,TNFRSF10A,1.0
+KEGG,Amoebiasis,0.36832689056341095,1,CD14,1.0
+KEGG,Chemical carcinogenesis,0.3943762118749406,1,SULT2A1,1.0
+KEGG,Lysosome,0.40700837940199325,1,LAMP2,1.0
+KEGG,Transcriptional misregulation in cancer,0.40700837940199325,1,CD14,1.0
+KEGG,Human immunodeficiency virus 1 infection,0.41322857122809703,1,TNFRSF1B,1.0
+KEGG,Influenza A,0.41938566911799113,1,TNFRSF10A,1.0
+KEGG,Rheumatoid arthritis,0.41938566911799113,1,CSF1,1.0
+KEGG,NF-kappa B signaling pathway,0.4254802912042254,1,CD14,1.0
+KEGG,Osteoclast differentiation,0.4374845513617829,1,CSF1,1.0
+KEGG,Complement and coagulation cascades,0.4492461809029303,1,CFHR5,1.0
+KEGG,Pathogenic Escherichia coli infection,0.4492461809029303,1,TNFRSF10A,1.0
+KEGG,Herpes simplex virus 1 infection,0.46076991809262713,1,PILRA,1.0
+KEGG,Coronavirus disease,0.4664440332996143,1,ACE2,1.0
+KEGG,Apoptosis,0.47206041189562303,1,TNFRSF10A,1.0
+KEGG,Chemokine signaling pathway,0.48312222362122903,1,CXCL13,1.0
+KEGG,Cell adhesion molecules,0.5449355527700633,1,PVR,1.0
+KEGG,Rap1 signaling pathway,0.5497510495677806,1,CSF1,1.0
+KEGG,Ras signaling pathway,0.5730990581674817,1,CSF1,1.0
+KEGG,PI3K-Akt signaling pathway,0.7950374407712683,1,CSF1,1.0
+KEGG,AGE-RAGE signaling pathway in diabetic complications,1.0,0,,1.0
+KEGG,AMPK signaling pathway,1.0,0,,1.0
+KEGG,Adherens junction,1.0,0,,1.0
+KEGG,Adrenergic signaling in cardiomyocytes,1.0,0,,1.0
+KEGG,African trypanosomiasis,1.0,0,,1.0
+KEGG,"Alanine, aspartate and glutamate metabolism",1.0,0,,1.0
+KEGG,Alcoholism,1.0,0,,1.0
+KEGG,Aldosterone synthesis and secretion,1.0,0,,1.0
+KEGG,Aldosterone-regulated sodium reabsorption,1.0,0,,1.0
+KEGG,Allograft rejection,1.0,0,,1.0
+KEGG,Amino sugar and nucleotide sugar metabolism,1.0,0,,1.0
+KEGG,Aminoacyl-tRNA biosynthesis,1.0,0,,1.0
+KEGG,Amphetamine addiction,1.0,0,,1.0
+KEGG,Antigen processing and presentation,1.0,0,,1.0
+KEGG,Apelin signaling pathway,1.0,0,,1.0
+KEGG,Arginine and proline metabolism,1.0,0,,1.0
+KEGG,Arginine biosynthesis,1.0,0,,1.0
+KEGG,Arrhythmogenic right ventricular cardiomyopathy,1.0,0,,1.0
+KEGG,Ascorbate and aldarate metabolism,1.0,0,,1.0
+KEGG,Asthma,1.0,0,,1.0
+KEGG,Autoimmune thyroid disease,1.0,0,,1.0
+KEGG,Axon guidance,1.0,0,,1.0
+KEGG,B cell receptor signaling pathway,1.0,0,,1.0
+KEGG,Basal cell carcinoma,1.0,0,,1.0
+KEGG,Base excision repair,1.0,0,,1.0
+KEGG,Biosynthesis of unsaturated fatty acids,1.0,0,,1.0
+KEGG,Bladder cancer,1.0,0,,1.0
+KEGG,Breast cancer,1.0,0,,1.0
+KEGG,Butanoate metabolism,1.0,0,,1.0
+KEGG,C-type lectin receptor signaling pathway,1.0,0,,1.0
+KEGG,Calcium signaling pathway,1.0,0,,1.0
+KEGG,Carbohydrate digestion and absorption,1.0,0,,1.0
+KEGG,Cardiac muscle contraction,1.0,0,,1.0
+KEGG,Cell cycle,1.0,0,,1.0
+KEGG,Cellular senescence,1.0,0,,1.0
+KEGG,Central carbon metabolism in cancer,1.0,0,,1.0
+KEGG,Chagas disease,1.0,0,,1.0
+KEGG,Cholesterol metabolism,1.0,0,,1.0
+KEGG,Choline metabolism in cancer,1.0,0,,1.0
+KEGG,Cholinergic synapse,1.0,0,,1.0
+KEGG,Chronic myeloid leukemia,1.0,0,,1.0
+KEGG,Circadian entrainment,1.0,0,,1.0
+KEGG,Circadian rhythm,1.0,0,,1.0
+KEGG,Citrate cycle (TCA cycle),1.0,0,,1.0
+KEGG,Cocaine addiction,1.0,0,,1.0
+KEGG,Collecting duct acid secretion,1.0,0,,1.0
+KEGG,Colorectal cancer,1.0,0,,1.0
+KEGG,Cortisol synthesis and secretion,1.0,0,,1.0
+KEGG,Cushing syndrome,1.0,0,,1.0
+KEGG,Cysteine and methionine metabolism,1.0,0,,1.0
+KEGG,Cytosolic DNA-sensing pathway,1.0,0,,1.0
+KEGG,DNA replication,1.0,0,,1.0
+KEGG,Diabetic cardiomyopathy,1.0,0,,1.0
+KEGG,Dilated cardiomyopathy,1.0,0,,1.0
+KEGG,Dopaminergic synapse,1.0,0,,1.0
+KEGG,Drug metabolism,1.0,0,,1.0
+KEGG,ECM-receptor interaction,1.0,0,,1.0
+KEGG,Endocrine and other factor-regulated calcium reabsorption,1.0,0,,1.0
+KEGG,Endocytosis,1.0,0,,1.0
+KEGG,Endometrial cancer,1.0,0,,1.0
+KEGG,Epithelial cell signaling in Helicobacter pylori infection,1.0,0,,1.0
+KEGG,Epstein-Barr virus infection,1.0,0,,1.0
+KEGG,ErbB signaling pathway,1.0,0,,1.0
+KEGG,Estrogen signaling pathway,1.0,0,,1.0
+KEGG,Ether lipid metabolism,1.0,0,,1.0
+KEGG,Fanconi anemia pathway,1.0,0,,1.0
+KEGG,Fat digestion and absorption,1.0,0,,1.0
+KEGG,Fatty acid degradation,1.0,0,,1.0
+KEGG,Fatty acid elongation,1.0,0,,1.0
+KEGG,Fc epsilon RI signaling pathway,1.0,0,,1.0
+KEGG,Fc gamma R-mediated phagocytosis,1.0,0,,1.0
+KEGG,Ferroptosis,1.0,0,,1.0
+KEGG,Fluid shear stress and atherosclerosis,1.0,0,,1.0
+KEGG,Focal adhesion,1.0,0,,1.0
+KEGG,Folate biosynthesis,1.0,0,,1.0
+KEGG,FoxO signaling pathway,1.0,0,,1.0
+KEGG,Fructose and mannose metabolism,1.0,0,,1.0
+KEGG,GABAergic synapse,1.0,0,,1.0
+KEGG,Galactose metabolism,1.0,0,,1.0
+KEGG,Gap junction,1.0,0,,1.0
+KEGG,Gastric acid secretion,1.0,0,,1.0
+KEGG,Gastric cancer,1.0,0,,1.0
+KEGG,Glioma,1.0,0,,1.0
+KEGG,Glucagon signaling pathway,1.0,0,,1.0
+KEGG,Glutamatergic synapse,1.0,0,,1.0
+KEGG,Glycerolipid metabolism,1.0,0,,1.0
+KEGG,Glycerophospholipid metabolism,1.0,0,,1.0
+KEGG,"Glycine, serine and threonine metabolism",1.0,0,,1.0
+KEGG,Glycolysis / Gluconeogenesis,1.0,0,,1.0
+KEGG,Glycosaminoglycan biosynthesis,1.0,0,,1.0
+KEGG,Glycosaminoglycan degradation,1.0,0,,1.0
+KEGG,Glycosphingolipid biosynthesis,1.0,0,,1.0
+KEGG,Glyoxylate and dicarboxylate metabolism,1.0,0,,1.0
+KEGG,GnRH secretion,1.0,0,,1.0
+KEGG,GnRH signaling pathway,1.0,0,,1.0
+KEGG,Graft-versus-host disease,1.0,0,,1.0
+KEGG,"Growth hormone synthesis, secretion and action",1.0,0,,1.0
+KEGG,HIF-1 signaling pathway,1.0,0,,1.0
+KEGG,Hedgehog signaling pathway,1.0,0,,1.0
+KEGG,Hepatitis B,1.0,0,,1.0
+KEGG,Hepatitis C,1.0,0,,1.0
+KEGG,Hepatocellular carcinoma,1.0,0,,1.0
+KEGG,Hippo signaling pathway,1.0,0,,1.0
+KEGG,Histidine metabolism,1.0,0,,1.0
+KEGG,Homologous recombination,1.0,0,,1.0
+KEGG,Human T-cell leukemia virus 1 infection,1.0,0,,1.0
+KEGG,Human cytomegalovirus infection,1.0,0,,1.0
+KEGG,Human papillomavirus infection,1.0,0,,1.0
+KEGG,Huntington disease,1.0,0,,1.0
+KEGG,Hypertrophic cardiomyopathy,1.0,0,,1.0
+KEGG,IL-17 signaling pathway,1.0,0,,1.0
+KEGG,Inflammatory bowel disease,1.0,0,,1.0
+KEGG,Inflammatory mediator regulation of TRP channels,1.0,0,,1.0
+KEGG,Inositol phosphate metabolism,1.0,0,,1.0
+KEGG,Insulin resistance,1.0,0,,1.0
+KEGG,Insulin secretion,1.0,0,,1.0
+KEGG,Insulin signaling pathway,1.0,0,,1.0
+KEGG,JAK-STAT signaling pathway,1.0,0,,1.0
+KEGG,Kaposi sarcoma-associated herpesvirus infection,1.0,0,,1.0
+KEGG,Leishmaniasis,1.0,0,,1.0
+KEGG,Leukocyte transendothelial migration,1.0,0,,1.0
+KEGG,Linoleic acid metabolism,1.0,0,,1.0
+KEGG,Long-term depression,1.0,0,,1.0
+KEGG,Long-term potentiation,1.0,0,,1.0
+KEGG,Longevity regulating pathway,1.0,0,,1.0
+KEGG,Lysine degradation,1.0,0,,1.0
+KEGG,Malaria,1.0,0,,1.0
+KEGG,Maturity onset diabetes of the young,1.0,0,,1.0
+KEGG,Measles,1.0,0,,1.0
+KEGG,Melanogenesis,1.0,0,,1.0
+KEGG,Melanoma,1.0,0,,1.0
+KEGG,MicroRNAs in cancer,1.0,0,,1.0
+KEGG,Mineral absorption,1.0,0,,1.0
+KEGG,Mismatch repair,1.0,0,,1.0
+KEGG,Mitophagy,1.0,0,,1.0
+KEGG,Morphine addiction,1.0,0,,1.0
+KEGG,Mucin type O-glycan biosynthesis,1.0,0,,1.0
+KEGG,N-Glycan biosynthesis,1.0,0,,1.0
+KEGG,NOD-like receptor signaling pathway,1.0,0,,1.0
+KEGG,Neuroactive ligand-receptor interaction,1.0,0,,1.0
+KEGG,Neurotrophin signaling pathway,1.0,0,,1.0
+KEGG,Neutrophil extracellular trap formation,1.0,0,,1.0
+KEGG,Nicotinate and nicotinamide metabolism,1.0,0,,1.0
+KEGG,Non-alcoholic fatty liver disease,1.0,0,,1.0
+KEGG,Non-homologous end-joining,1.0,0,,1.0
+KEGG,Non-small cell lung cancer,1.0,0,,1.0
+KEGG,Notch signaling pathway,1.0,0,,1.0
+KEGG,Nucleotide excision repair,1.0,0,,1.0
+KEGG,One carbon pool by folate,1.0,0,,1.0
+KEGG,Oocyte meiosis,1.0,0,,1.0
+KEGG,Other glycan degradation,1.0,0,,1.0
+KEGG,Other types of O-glycan biosynthesis,1.0,0,,1.0
+KEGG,Ovarian steroidogenesis,1.0,0,,1.0
+KEGG,Oxidative phosphorylation,1.0,0,,1.0
+KEGG,Oxytocin signaling pathway,1.0,0,,1.0
+KEGG,PD-L1 expression and PD-1 checkpoint pathway in cancer,1.0,0,,1.0
+KEGG,PPAR signaling pathway,1.0,0,,1.0
+KEGG,Pancreatic cancer,1.0,0,,1.0
+KEGG,Pancreatic secretion,1.0,0,,1.0
+KEGG,Pantothenate and CoA biosynthesis,1.0,0,,1.0
+KEGG,"Parathyroid hormone synthesis, secretion and action",1.0,0,,1.0
+KEGG,Pathways in cancer,1.0,0,,1.0
+KEGG,Pentose and glucuronate interconversions,1.0,0,,1.0
+KEGG,Pentose phosphate pathway,1.0,0,,1.0
+KEGG,Peroxisome,1.0,0,,1.0
+KEGG,Phenylalanine metabolism,1.0,0,,1.0
+KEGG,Phosphatidylinositol signaling system,1.0,0,,1.0
+KEGG,Phospholipase D signaling pathway,1.0,0,,1.0
+KEGG,Platelet activation,1.0,0,,1.0
+KEGG,Porphyrin and chlorophyll metabolism,1.0,0,,1.0
+KEGG,Primary immunodeficiency,1.0,0,,1.0
+KEGG,Prion disease,1.0,0,,1.0
+KEGG,Progesterone-mediated oocyte maturation,1.0,0,,1.0
+KEGG,Prolactin signaling pathway,1.0,0,,1.0
+KEGG,Propanoate metabolism,1.0,0,,1.0
+KEGG,Prostate cancer,1.0,0,,1.0
+KEGG,Proteasome,1.0,0,,1.0
+KEGG,Protein processing in endoplasmic reticulum,1.0,0,,1.0
+KEGG,Proteoglycans in cancer,1.0,0,,1.0
+KEGG,Proximal tubule bicarbonate reclamation,1.0,0,,1.0
+KEGG,Purine metabolism,1.0,0,,1.0
+KEGG,Pyrimidine metabolism,1.0,0,,1.0
+KEGG,Pyruvate metabolism,1.0,0,,1.0
+KEGG,RIG-I-like receptor signaling pathway,1.0,0,,1.0
+KEGG,RNA degradation,1.0,0,,1.0
+KEGG,RNA transport,1.0,0,,1.0
+KEGG,Regulation of actin cytoskeleton,1.0,0,,1.0
+KEGG,Regulation of lipolysis in adipocytes,1.0,0,,1.0
+KEGG,Relaxin signaling pathway,1.0,0,,1.0
+KEGG,Renal cell carcinoma,1.0,0,,1.0
+KEGG,Renin secretion,1.0,0,,1.0
+KEGG,Retinol metabolism,1.0,0,,1.0
+KEGG,Retrograde endocannabinoid signaling,1.0,0,,1.0
+KEGG,Riboflavin metabolism,1.0,0,,1.0
+KEGG,Ribosome,1.0,0,,1.0
+KEGG,Ribosome biogenesis in eukaryotes,1.0,0,,1.0
+KEGG,SNARE interactions in vesicular transport,1.0,0,,1.0
+KEGG,Salivary secretion,1.0,0,,1.0
+KEGG,Selenocompound metabolism,1.0,0,,1.0
+KEGG,Serotonergic synapse,1.0,0,,1.0
+KEGG,Signaling pathways regulating pluripotency of stem cells,1.0,0,,1.0
+KEGG,Small cell lung cancer,1.0,0,,1.0
+KEGG,Sphingolipid signaling pathway,1.0,0,,1.0
+KEGG,Spinocerebellar ataxia,1.0,0,,1.0
+KEGG,Spliceosome,1.0,0,,1.0
+KEGG,Staphylococcus aureus infection,1.0,0,,1.0
+KEGG,Starch and sucrose metabolism,1.0,0,,1.0
+KEGG,Steroid hormone biosynthesis,1.0,0,,1.0
+KEGG,Synaptic vesicle cycle,1.0,0,,1.0
+KEGG,Synthesis and degradation of ketone bodies,1.0,0,,1.0
+KEGG,Systemic lupus erythematosus,1.0,0,,1.0
+KEGG,T cell receptor signaling pathway,1.0,0,,1.0
+KEGG,TGF-beta signaling pathway,1.0,0,,1.0
+KEGG,Taste transduction,1.0,0,,1.0
+KEGG,Terpenoid backbone biosynthesis,1.0,0,,1.0
+KEGG,Th1 and Th2 cell differentiation,1.0,0,,1.0
+KEGG,Th17 cell differentiation,1.0,0,,1.0
+KEGG,Thermogenesis,1.0,0,,1.0
+KEGG,Thiamine metabolism,1.0,0,,1.0
+KEGG,Thyroid cancer,1.0,0,,1.0
+KEGG,Thyroid hormone signaling pathway,1.0,0,,1.0
+KEGG,Thyroid hormone synthesis,1.0,0,,1.0
+KEGG,Tight junction,1.0,0,,1.0
+KEGG,Toxoplasmosis,1.0,0,,1.0
+KEGG,Tryptophan metabolism,1.0,0,,1.0
+KEGG,Type I diabetes mellitus,1.0,0,,1.0
+KEGG,Type II diabetes mellitus,1.0,0,,1.0
+KEGG,Tyrosine metabolism,1.0,0,,1.0
+KEGG,Ubiquitin mediated proteolysis,1.0,0,,1.0
+KEGG,VEGF signaling pathway,1.0,0,,1.0
+KEGG,"Valine, leucine and isoleucine degradation",1.0,0,,1.0
+KEGG,Various types of N-glycan biosynthesis,1.0,0,,1.0
+KEGG,Vascular smooth muscle contraction,1.0,0,,1.0
+KEGG,Vasopressin-regulated water reabsorption,1.0,0,,1.0
+KEGG,Vibrio cholerae infection,1.0,0,,1.0
+KEGG,Viral carcinogenesis,1.0,0,,1.0
+KEGG,Vitamin digestion and absorption,1.0,0,,1.0
+KEGG,Wnt signaling pathway,1.0,0,,1.0
+KEGG,Yersinia infection,1.0,0,,1.0
+KEGG,alpha-Linolenic acid metabolism,1.0,0,,1.0
+KEGG,beta-Alanine metabolism,1.0,0,,1.0
+KEGG,cAMP signaling pathway,1.0,0,,1.0
+KEGG,cGMP-PKG signaling pathway,1.0,0,,1.0
+KEGG,mRNA surveillance pathway,1.0,0,,1.0
+KEGG,mTOR signaling pathway,1.0,0,,1.0
+TF,JUN human,0.006712004921050368,4,CSF1;NEFL;TNFRSF10A;TNFRSF1B,1.0
+TF,KLF4 human,0.011273316401447369,2,CD14;GDF15,1.0
+TF,MEF2D human,0.030620503130062534,1,CD14,1.0
+TF,SF1 human,0.030620503130062534,1,SULT2A1,1.0
+TF,SP2 human,0.030620503130062534,1,CD14,1.0
+TF,ZEB1 human,0.04062441950645229,1,CXADR,1.0
+TF,ZEB2 human,0.04062441950645229,1,CXADR,1.0
+TF,PPARG human,0.044520402642890665,2,CSF1;GDF15,1.0
+TF,SNAI2 human,0.05052850326915875,1,CXADR,1.0
+TF,SPI1 human,0.05475503083688714,2,CSF1;MME,1.0
+TF,GATA6 human,0.06033371666090263,1,SULT2A1,1.0
+TF,SNAI1 human,0.06033371666090263,1,CXADR,1.0
+TF,ABL1 human,0.0796513366450559,1,CSF1,1.0
+TF,ATF3 human,0.0796513366450559,1,GDF15,1.0
+TF,TP53 human,0.10574408644660335,2,GDF15;TNFRSF10A,1.0
+TF,VHL human,0.1079097847328253,1,CA12,1.0
+TF,ATM human,0.11714148754673274,1,PVR,1.0
+TF,TWIST2 human,0.13532864383368653,1,GDF15,1.0
+TF,PPARA human,0.16193202362598452,1,SULT2A1,1.0
+TF,TWIST1 human,0.17922616904498767,1,GDF15,1.0
+TF,RELA human,0.18577914589035524,3,CSF1;PIGR;TNFRSF10A,1.0
+TF,USF2 human,0.1961750952626632,1,PIGR,1.0
+TF,WT1 human,0.1961750952626632,1,CD14,1.0
+TF,NFKB1 human,0.20440041312217902,3,CSF1;PIGR;TNFRSF10A,1.0
+TF,RUNX1 human,0.2045221866926413,1,CSF1,1.0
+TF,VDR human,0.2045221866926413,1,CD14,1.0
+TF,CEBPA human,0.2209657292330949,1,CSF1,1.0
+TF,IRF1 human,0.2209657292330949,1,PIGR,1.0
+TF,CEBPB human,0.2528727500142129,1,GDF15,1.0
+TF,FOS human,0.2528727500142129,1,NEFL,1.0
+TF,USF1 human,0.2528727500142129,1,PIGR,1.0
+TF,HDAC1 human,0.27597018129009654,1,TNFRSF10A,1.0
+TF,MYC human,0.2835147782210205,1,MME,1.0
+TF,SP1 human,0.3144158741663103,3,CD14;CXADR;MME,1.0
+TF,AR human,0.32011211626347047,1,PIGR,1.0
+TF,HIF1A human,0.32011211626347047,1,ACE2,1.0
+TF,TFAP2A human,0.32011211626347047,1,PVR,1.0
+TF,EGR1 human,0.38796297020695125,1,GDF15,1.0
+TF,SP3 human,0.38796297020695125,1,CD14,1.0
+TF,AHR human,1.0,0,,1.0
+TF,APEX1 human,1.0,0,,1.0
+TF,ARNT human,1.0,0,,1.0
+TF,ATF1 human,1.0,0,,1.0
+TF,ATF2 human,1.0,0,,1.0
+TF,ATF4 human,1.0,0,,1.0
+TF,BCL6 human,1.0,0,,1.0
+TF,BRCA1 human,1.0,0,,1.0
+TF,CDX1 human,1.0,0,,1.0
+TF,CDX2 human,1.0,0,,1.0
+TF,CEBPD human,1.0,0,,1.0
+TF,CIITA human,1.0,0,,1.0
+TF,CLOCK human,1.0,0,,1.0
+TF,CREB1 human,1.0,0,,1.0
+TF,CREB5 human,1.0,0,,1.0
+TF,CREBBP human,1.0,0,,1.0
+TF,CREM human,1.0,0,,1.0
+TF,CTCF human,1.0,0,,1.0
+TF,CTNNB1 human,1.0,0,,1.0
+TF,DDIT3 human,1.0,0,,1.0
+TF,DNMT1 human,1.0,0,,1.0
+TF,DNMT3A human,1.0,0,,1.0
+TF,E2F1 human,1.0,0,,1.0
+TF,E2F3 human,1.0,0,,1.0
+TF,EGR2 human,1.0,0,,1.0
+TF,ELF1 human,1.0,0,,1.0
+TF,ELF3 human,1.0,0,,1.0
+TF,ELK1 human,1.0,0,,1.0
+TF,EP300 human,1.0,0,,1.0
+TF,EPAS1 human,1.0,0,,1.0
+TF,ERCC2 human,1.0,0,,1.0
+TF,ERG human,1.0,0,,1.0
+TF,ESR1 human,1.0,0,,1.0
+TF,ESR2 human,1.0,0,,1.0
+TF,ETS1 human,1.0,0,,1.0
+TF,ETS2 human,1.0,0,,1.0
+TF,ETV4 human,1.0,0,,1.0
+TF,EZH2 human,1.0,0,,1.0
+TF,FLI1 human,1.0,0,,1.0
+TF,FOSL1 human,1.0,0,,1.0
+TF,FOSL2 human,1.0,0,,1.0
+TF,FOXA1 human,1.0,0,,1.0
+TF,FOXA2 human,1.0,0,,1.0
+TF,FOXF2 human,1.0,0,,1.0
+TF,FOXM1 human,1.0,0,,1.0
+TF,FOXO1 human,1.0,0,,1.0
+TF,FOXO3 human,1.0,0,,1.0
+TF,FOXO4 human,1.0,0,,1.0
+TF,FOXP2 human,1.0,0,,1.0
+TF,FOXP3 human,1.0,0,,1.0
+TF,GATA1 human,1.0,0,,1.0
+TF,GATA2 human,1.0,0,,1.0
+TF,GATA3 human,1.0,0,,1.0
+TF,GATA4 human,1.0,0,,1.0
+TF,GLI1 human,1.0,0,,1.0
+TF,GLI2 human,1.0,0,,1.0
+TF,HDAC2 human,1.0,0,,1.0
+TF,HDAC3 human,1.0,0,,1.0
+TF,HDAC4 human,1.0,0,,1.0
+TF,HDAC5 human,1.0,0,,1.0
+TF,HDAC7 human,1.0,0,,1.0
+TF,HDAC9 human,1.0,0,,1.0
+TF,HDGF human,1.0,0,,1.0
+TF,HES1 human,1.0,0,,1.0
+TF,HEY1 human,1.0,0,,1.0
+TF,HIC1 human,1.0,0,,1.0
+TF,HIPK2 human,1.0,0,,1.0
+TF,HMGA1 human,1.0,0,,1.0
+TF,HNF1A human,1.0,0,,1.0
+TF,HNF4A human,1.0,0,,1.0
+TF,HOXA10 human,1.0,0,,1.0
+TF,HOXA9 human,1.0,0,,1.0
+TF,HOXB7 human,1.0,0,,1.0
+TF,HSF1 human,1.0,0,,1.0
+TF,HSF2 human,1.0,0,,1.0
+TF,IKBKB human,1.0,0,,1.0
+TF,ILF3 human,1.0,0,,1.0
+TF,ING1 human,1.0,0,,1.0
+TF,ING4 human,1.0,0,,1.0
+TF,IRF2 human,1.0,0,,1.0
+TF,IRF3 human,1.0,0,,1.0
+TF,IRF7 human,1.0,0,,1.0
+TF,IRF8 human,1.0,0,,1.0
+TF,IRF9 human,1.0,0,,1.0
+TF,JUNB human,1.0,0,,1.0
+TF,JUND human,1.0,0,,1.0
+TF,KAT2B human,1.0,0,,1.0
+TF,KLF10 human,1.0,0,,1.0
+TF,KLF2 human,1.0,0,,1.0
+TF,KLF5 human,1.0,0,,1.0
+TF,KLF6 human,1.0,0,,1.0
+TF,KLF8 human,1.0,0,,1.0
+TF,LEF1 human,1.0,0,,1.0
+TF,LMO2 human,1.0,0,,1.0
+TF,LMX1B human,1.0,0,,1.0
+TF,MAF human,1.0,0,,1.0
+TF,MAZ human,1.0,0,,1.0
+TF,MECP2 human,1.0,0,,1.0
+TF,MEF2A human,1.0,0,,1.0
+TF,MEF2C human,1.0,0,,1.0
+TF,MEN1 human,1.0,0,,1.0
+TF,MITF human,1.0,0,,1.0
+TF,MSC human,1.0,0,,1.0
+TF,MSX1 human,1.0,0,,1.0
+TF,MSX2 human,1.0,0,,1.0
+TF,MTA1 human,1.0,0,,1.0
+TF,MYB human,1.0,0,,1.0
+TF,MYCN human,1.0,0,,1.0
+TF,MZF1 human,1.0,0,,1.0
+TF,NANOG human,1.0,0,,1.0
+TF,NCOA3 human,1.0,0,,1.0
+TF,NF1 human,1.0,0,,1.0
+TF,NFATC1 human,1.0,0,,1.0
+TF,NFATC2 human,1.0,0,,1.0
+TF,NFE2L2 human,1.0,0,,1.0
+TF,NFIC human,1.0,0,,1.0
+TF,NFIL3 human,1.0,0,,1.0
+TF,NFKB2 human,1.0,0,,1.0
+TF,NFKBIA human,1.0,0,,1.0
+TF,NFYA human,1.0,0,,1.0
+TF,NFYB human,1.0,0,,1.0
+TF,NFYC human,1.0,0,,1.0
+TF,NKX2-1 human,1.0,0,,1.0
+TF,NKX3-1 human,1.0,0,,1.0
+TF,NR1H4 human,1.0,0,,1.0
+TF,NR1I2 human,1.0,0,,1.0
+TF,NR2F1 human,1.0,0,,1.0
+TF,NR3C1 human,1.0,0,,1.0
+TF,NR3C2 human,1.0,0,,1.0
+TF,NR4A1 human,1.0,0,,1.0
+TF,NRF1 human,1.0,0,,1.0
+TF,PARP1 human,1.0,0,,1.0
+TF,PAX2 human,1.0,0,,1.0
+TF,PAX3 human,1.0,0,,1.0
+TF,PAX5 human,1.0,0,,1.0
+TF,PAX6 human,1.0,0,,1.0
+TF,PAX8 human,1.0,0,,1.0
+TF,PGR human,1.0,0,,1.0
+TF,PITX1 human,1.0,0,,1.0
+TF,PITX2 human,1.0,0,,1.0
+TF,PML human,1.0,0,,1.0
+TF,POU1F1 human,1.0,0,,1.0
+TF,POU2F1 human,1.0,0,,1.0
+TF,POU2F2 human,1.0,0,,1.0
+TF,POU5F1 human,1.0,0,,1.0
+TF,PPARD human,1.0,0,,1.0
+TF,PROX1 human,1.0,0,,1.0
+TF,PTTG1 human,1.0,0,,1.0
+TF,RARA human,1.0,0,,1.0
+TF,RB1 human,1.0,0,,1.0
+TF,REL human,1.0,0,,1.0
+TF,REST human,1.0,0,,1.0
+TF,RFX1 human,1.0,0,,1.0
+TF,RUNX2 human,1.0,0,,1.0
+TF,RUNX3 human,1.0,0,,1.0
+TF,RXRA human,1.0,0,,1.0
+TF,SATB1 human,1.0,0,,1.0
+TF,SIRT1 human,1.0,0,,1.0
+TF,SMAD3 human,1.0,0,,1.0
+TF,SMAD4 human,1.0,0,,1.0
+TF,SMAD7 human,1.0,0,,1.0
+TF,SMARCA4 human,1.0,0,,1.0
+TF,SOX10 human,1.0,0,,1.0
+TF,SOX2 human,1.0,0,,1.0
+TF,SOX9 human,1.0,0,,1.0
+TF,SP4 human,1.0,0,,1.0
+TF,SPDEF human,1.0,0,,1.0
+TF,SREBF1 human,1.0,0,,1.0
+TF,SREBF2 human,1.0,0,,1.0
+TF,SRF human,1.0,0,,1.0
+TF,STAT1 human,1.0,0,,1.0
+TF,STAT2 human,1.0,0,,1.0
+TF,STAT3 human,1.0,0,,1.0
+TF,STAT4 human,1.0,0,,1.0
+TF,STAT5A human,1.0,0,,1.0
+TF,STAT5B human,1.0,0,,1.0
+TF,STAT6 human,1.0,0,,1.0
+TF,TAL1 human,1.0,0,,1.0
+TF,TBP human,1.0,0,,1.0
+TF,TBX21 human,1.0,0,,1.0
+TF,TCF3 human,1.0,0,,1.0
+TF,TCF4 human,1.0,0,,1.0
+TF,TFAP2C human,1.0,0,,1.0
+TF,TFCP2 human,1.0,0,,1.0
+TF,TFDP1 human,1.0,0,,1.0
+TF,TP63 human,1.0,0,,1.0
+TF,TP73 human,1.0,0,,1.0
+TF,TRERF1 human,1.0,0,,1.0
+TF,WWTR1 human,1.0,0,,1.0
+TF,XBP1 human,1.0,0,,1.0
+TF,YBX1 human,1.0,0,,1.0
+TF,YY1 human,1.0,0,,1.0
+TF,ZBTB16 human,1.0,0,,1.0
+TF,ZFP36 human,1.0,0,,1.0
+TF,ZNF148 human,1.0,0,,1.0
+TF,ZNF382 human,1.0,0,,1.0

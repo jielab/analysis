@@ -1,0 +1,7 @@
+analysis,fit_method,status,n_features,n_FDR05,min_cases,median_cases,max_cases
+"prevalent_basic","brglm2_AS_mean","ok_bias_reduced",3,3,18194,18194,18194
+"prevalent_basic","glm_mle","ok",297,282,18194,18194,18194
+"prevalent_adj2","brglm2_AS_mean","ok_bias_reduced",3,3,12662,12662,12662
+"prevalent_adj2","glm_mle","ok",297,281,12662,12662,12662
+"prevalent_adj2_full_le8_sensitivity","brglm2_AS_mean","ok_bias_reduced",1,1,10522,10522,10522
+"prevalent_adj2_full_le8_sensitivity","glm_mle","ok",299,273,10522,10522,10522

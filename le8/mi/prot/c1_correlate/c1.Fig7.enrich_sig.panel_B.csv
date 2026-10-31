@@ -1,0 +1,7 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0005576","extracellular region",1.08459253239411e-10,140,976,258,2910,1.61789935188715,"B"
+"GO:CC","GO:0005615","obsolete extracellular space",1.24227689763117e-10,118,765,258,2910,1.73977808177535,"B"
+"GO:MF","GO:0005319","lipid carrier activity",0.000307831966188061,10,20,258,2910,5.63953488372093,"B"
+"GO:MF","GO:0005504","fatty acid binding",0.000307831966188061,9,16,258,2910,6.34447674418605,"B"
+"GO:CC","GO:0009986","cell surface",0.000495564132685255,52,325,258,2910,1.8046511627907,"B"
+"GO:MF","GO:0015485","cholesterol binding",0.00291169563589178,6,9,258,2910,7.51937984496124,"B"

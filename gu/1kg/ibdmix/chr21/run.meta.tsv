@@ -1,0 +1,47 @@
+pipeline_version	2026-09-14.1
+profile	multi_reference
+coordinate_system	0-based-half-open
+population_mode	population
+background_filter	1
+mask_root	/mnt/e/genRef/archaic/37/mask
+custom_masks	
+export_denisovan	1
+denisovan_call_definition	native_reference_matching_no_African_Denisova_subtraction
+genome_build	b37
+x_mode	not_requested
+loci_flank_bp	0
+refs	Altai Altai.2013 Chagyr Denisova Denisova.2013 Denisova25 Vindija
+lod_cut	4
+len_cut	50000
+emit_lod_cut	4
+minor_allele_count	1
+archaic_error	0.01
+modern_error_max	0.002
+modern_error_proportion	2
+sample_file\t/mnt/e/genRef/1kg/37/samples.txt:57720:1787477532
+software\t/mnt/d/software/gu/ibdmix/build/src/generate_gt:352912:1777774172
+software\t/mnt/d/software/gu/ibdmix/build/src/ibdmix:419088:1777774182
+software\t/mnt/d/scripts/gu/f/ibdmix_workflow.py:31222:1790842610
+software\t/mnt/d/scripts/gu/f/vcf_gt_fix.py:3233:1788603868
+software\t/mnt/d/scripts/gu/f/ibdmix.sh:25043:1790854718
+mask_manifest_sha256	C21	5131b60627fc882d0291e2b2fa928a2e146dd1fa5787f7766c16bf1637d272b5
+excluded_mask_sha256	C21	Altai	3d9b39f459e14c1866c5e6a20c1d367b5e2b1953ba24552d940f544d5453dd02
+excluded_mask_sha256	C21	Altai.2013	3d9b39f459e14c1866c5e6a20c1d367b5e2b1953ba24552d940f544d5453dd02
+excluded_mask_sha256	C21	Chagyr	baaa6bb6576822e68ff8e94066a58c66d6550cf0e07dc695bb6ffb980d93f45f
+excluded_mask_sha256	C21	Denisova	002f210ee3ee309d84806a0f7212462ce48eeb6e4b4f106f5ad194d5825ecd53
+excluded_mask_sha256	C21	Denisova.2013	002f210ee3ee309d84806a0f7212462ce48eeb6e4b4f106f5ad194d5825ecd53
+excluded_mask_sha256	C21	Denisova25	f2ea37fea7defd8246f6103d0d2fa255a2d1810f8bfeec278d87b06b0817b28a
+excluded_mask_sha256	C21	Vindija	dfdfea83d982160ca2b30459a184335f032ac10133c487f1a32ba651cbb4d878
+reference_fasta\t/mnt/e/genRef/fasta/GRCH37.fasta:3153506519:1785817816
+modern_source	chr21	schema	4
+modern_source	chr21	format	vcf
+modern_source	chr21	chromosome	21
+modern_source	chr21	vcf\t/mnt/e/genRef/1kg/37/vcf/chr21.vcf.gz:218612970:1432764900
+modern_source	chr21	index\t/mnt/e/genRef/1kg/37/vcf/chr21.vcf.gz.tbi:35470:1777813462
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Altai/chr21_mq25_mapab100.vcf.gz:665210641:1468582522
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Altai.2013/AltaiNea.hg19_1000g.21.mod.vcf.gz:941872399:1790840897
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Chagyr/chr21.noRB.vcf.gz:581498017:1777798060
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Denisova/chr21_mq25_mapab100.vcf.gz:624933800:1468585574
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Denisova.2013/DenisovaPinky.hg19_1000g.21.mod.vcf.gz:831253255:1790842715
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Denisova25/chr21.Den25.L35MQ25.B30.map35_100.vcf.gz:631475262:1761653322
+archaic_vcf\t/mnt/e/genRef/archaic/37/vcf/Vindija/chr21_mq25_mapab100.vcf.gz:652029015:1468584490

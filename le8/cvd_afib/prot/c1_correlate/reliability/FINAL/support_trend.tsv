@@ -1,0 +1,5 @@
+support_metric	transformation	risk_adjustment	error_metric	slope	N_used	bootstrap_unit	lower	upper	bootstrap_valid	inference_status
+eligible_match_count	log1p	frozen risk-bin fixed effects	Brier	-0.0016640486538269609	7742	family	-0.004070596102711625	0.0005881341140862814	1000	evaluated
+eligible_match_count	log1p	frozen risk-bin fixed effects	LogLoss	-0.006666759392574343	7742	family	-0.015184642470333973	0.0013184852153980354	1000	evaluated
+family_ess	log1p	frozen risk-bin fixed effects	Brier	-0.004344827778155705	7742	family	-0.011695053119946163	0.0023949079597857066	1000	evaluated
+family_ess	log1p	frozen risk-bin fixed effects	LogLoss	-0.01623937955635775	7742	family	-0.041121214520456126	0.005241482934631054	1000	evaluated

@@ -1,0 +1,15 @@
+component	status	baseline	common_N	independent_groups	grouping_unit	independent_family_support_verified	bootstrap_requested	minimum_valid_bootstrap	primary_coverage	risk_matching_edges_source	outcome_model_or_gate_fit_on_test	winner_selected_on_test	note	model	reason	finite_predicted_error_N	unavailable_predicted_error_N	assessment_status	reference
+unified_evaluation	evaluated	glmnet	8256.0	8050.0	family	True	1000.0	800.0	0.5	glmnet:tune_gate_frozen_before_evaluation	False	False	Fixed-horizon IPCW net risk; full-followup strict-time Harrell C; internal conditional uncertainty						
+matched_twin_count	evaluated													glmnet	Raw count, used count, reference size and risk-stratified errors reported separately				
+matched_twin_count	evaluated													lightgbm	Raw count, used count, reference size and risk-stratified errors reported separately				
+matched_twin_count	evaluated													abm_case_preserving	Raw count, used count, reference size and risk-stratified errors reported separately				
+matched_twin_count	evaluated													abm_profile	Raw count, used count, reference size and risk-stratified errors reported separately				
+matched_twin_count	evaluated													abm_prevalent	Raw count, used count, reference size and risk-stratified errors reported separately				
+matched_twin_count	evaluated													abm_prevalent_control	Raw count, used count, reference size and risk-stratified errors reported separately				
+individual_expected_error	evaluated		8256.0											glmnet	Only finite frozen expected errors can be calibrated; support-only ranking is not an accuracy estimate	8256.0	0.0	fitted_model_specific_risk_residual_error	
+individual_expected_error	evaluated		8256.0											lightgbm	Only finite frozen expected errors can be calibrated; support-only ranking is not an accuracy estimate	8256.0	0.0	fitted_model_specific_risk_residual_error	
+individual_expected_error	evaluated		8256.0											abm_case_preserving	Only finite frozen expected errors can be calibrated; support-only ranking is not an accuracy estimate	8256.0	0.0	fitted_model_specific_risk_residual_error	
+individual_expected_error	evaluated		8256.0											abm_profile	Only finite frozen expected errors can be calibrated; support-only ranking is not an accuracy estimate	8256.0	0.0	fitted_model_specific_risk_residual_error	
+individual_expected_error	evaluated		8256.0											abm_prevalent	Only finite frozen expected errors can be calibrated; support-only ranking is not an accuracy estimate	8256.0	0.0	fitted_model_specific_risk_residual_error	
+individual_expected_error	evaluated		8256.0											abm_prevalent_control	Only finite frozen expected errors can be calibrated; support-only ranking is not an accuracy estimate	8256.0	0.0	fitted_model_specific_risk_residual_error	
+historical_increment	evaluated													abm_prevalent	Same architecture and incident rows isolate incremental historical information				abm_prevalent_control

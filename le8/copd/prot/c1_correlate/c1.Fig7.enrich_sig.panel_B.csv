@@ -1,0 +1,10 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0005576","extracellular region",6.77481606822323e-17,118,976,182,2910,1.93309764006485,"B"
+"GO:CC","GO:0005615","obsolete extracellular space",4.16862762121595e-16,101,765,182,2910,2.11096746390864,"B"
+"GO:CC","GO:0031012","extracellular matrix",3.51425450139346e-05,34,227,182,2910,2.39482983976376,"B"
+"GO:MF","GO:0030246","carbohydrate binding",0.00793807828240404,18,104,182,2910,2.76732882502113,"B"
+"GO:BP","GO:0006953","acute-phase response",0.0107097227289894,9,26,182,2910,5.53465765004227,"B"
+"GO:BP","GO:0002376","immune system process",0.0120013952162849,31,235,182,2910,2.10918868365677,"B"
+"GO:MF","GO:0004866","endopeptidase inhibitor activity",0.0249946811935999,7,23,182,2910,4.86622073578595,"B"
+"GO:MF","GO:0030414","peptidase inhibitor activity",0.0249946811935999,12,64,182,2910,2.99793956043956,"B"
+"GO:BP","GO:0150077","regulation of neuroinflammatory response",0.0473412691613483,4,6,182,2910,10.6593406593407,"B"

@@ -1,0 +1,7 @@
+role	N	technical_qc_pass	known_cases	known_controls	unknown_after_qc	minimum_per_class	minimum_known_total	required	sufficient	phase
+build	18974	18974	1193	16868	913.0	20	40	True	True	after_technical_qc
+tune_model	3694	3694	266	3236	192.0	20	40	True	True	after_technical_qc
+tune_gate	2928	2928	174	2625	129.0	20	40	True	True	after_technical_qc
+calibration_fit	3054	3054	170	2732	152.0	20	40	True	True	after_technical_qc
+calibration_audit	3017	3017	215	2662	140.0	20	100	True	True	after_technical_qc
+all_development_with_biom	31667	31667	2018	28123		50	0	True	True	after_technical_qc

@@ -1,0 +1,6 @@
+feature,N,events,p_time_interaction,status,FDR
+"PCSK9",28705,1996,0.200871032067598,"interval-slope likelihood-ratio test",0.334785053445997
+"LPA",28705,1996,0.965484644941274,"interval-slope likelihood-ratio test",0.965484644941274
+"GDF15",28705,1996,0.166854873227553,"interval-slope likelihood-ratio test",0.334785053445997
+"NTPROBNP",28705,1996,0.496021517472141,"interval-slope likelihood-ratio test",0.620026896840176
+"MMP12",28705,1996,0.0661388392328732,"interval-slope likelihood-ratio test",0.330694196164366

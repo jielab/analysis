@@ -1,0 +1,8 @@
+metric,value,outcome
+N,472173,cvd_afib
+prevalent_including_same_day,6180,cvd_afib
+same_day,3,cvd_afib
+incident_within_followup,35555,cvd_afib
+diagnosis_after_censor,9,cvd_afib
+invalid_followup,0,cvd_afib
+unknown_date_with_disease_evidence,0,cvd_afib

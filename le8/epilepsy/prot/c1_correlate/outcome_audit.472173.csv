@@ -1,0 +1,8 @@
+metric,value,outcome
+N,472173,epilepsy
+prevalent_including_same_day,2331,epilepsy
+same_day,0,epilepsy
+incident_within_followup,4892,epilepsy
+diagnosis_after_censor,2,epilepsy
+invalid_followup,0,epilepsy
+unknown_date_with_disease_evidence,0,epilepsy

@@ -1,0 +1,8 @@
+metric,value,outcome
+N,472173,cvd_cad
+prevalent_including_same_day,19067,cvd_cad
+same_day,0,cvd_cad
+incident_within_followup,40017,cvd_cad
+diagnosis_after_censor,6,cvd_cad
+invalid_followup,0,cvd_cad
+unknown_date_with_disease_evidence,0,cvd_cad

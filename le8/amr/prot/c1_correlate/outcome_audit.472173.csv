@@ -1,0 +1,8 @@
+metric,value,outcome
+N,472173,amr
+prevalent_including_same_day,0,amr
+same_day,0,amr
+incident_within_followup,5739,amr
+diagnosis_after_censor,2,amr
+invalid_followup,0,amr
+unknown_date_with_disease_evidence,0,amr

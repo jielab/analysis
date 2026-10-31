@@ -1,0 +1,7 @@
+source,term_id,term_name,adjusted_p,intersection_size,term_size,query_size,background_n,enrichment_ratio,panel
+"GO:CC","GO:0005576","extracellular region",7.78497834155048e-26,220,976,372,2910,1.76328662083554,"A"
+"GO:CC","GO:0005615","obsolete extracellular space",5.71876585943888e-17,171,765,372,2910,1.74857685009488,"A"
+"GO:CC","GO:0031012","extracellular matrix",8.60698645873644e-13,71,227,372,2910,2.4467102458434,"A"
+"GO:MF","GO:0005201","extracellular matrix structural constituent",3.13692558440856e-07,27,62,372,2910,3.40660770031218,"A"
+"GO:MF","GO:0048018","receptor ligand activity",0.00889842053740545,26,94,372,2910,2.1636925188744,"A"
+"GO:MF","GO:0008201","heparin binding",0.0105915052421456,26,97,372,2910,2.09677419354839,"A"

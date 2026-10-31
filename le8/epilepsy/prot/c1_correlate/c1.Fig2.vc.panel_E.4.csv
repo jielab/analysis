@@ -1,0 +1,2 @@
+term,estimate,beta,std.error,conf.low,conf.high,statistic,p.value,N_total,N_event,time_scale,FDR,score_column,x_original,y_original,direction,label,x,y,panel
+"CEND1",1.06416732789883,0.0621926416177257,0.0140160192364412,1.03533106373598,1.09380674591266,4.43725429942525,9.11136298467665e-06,455962,4724,"attained age with delayed entry",0.0235255392264351,"CEND1.SCORE_SUM",0.0621926416177257,5.04041665129842,"Positive","CEND1",0.0621926416177257,5.04041665129842,"E"

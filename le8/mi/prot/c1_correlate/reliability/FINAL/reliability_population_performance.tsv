@@ -1,0 +1,2 @@
+model	population	N	known_N	cases	Brier	LogLoss	AUC	AUPRC	observed_risk	expected_risk
+glmnet	all frozen test participants	8213	7720	167	0.019949730372410407	0.09081652252864403	0.7813911208127482	0.0829482472740383	0.020941823419256586	0.01864902456439729
