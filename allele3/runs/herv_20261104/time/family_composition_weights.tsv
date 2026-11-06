@@ -1,0 +1,54 @@
+method	region	measurement_source	weight	n_reference
+fixed_region	C	all	0.28586854798070693	3971
+fixed_region	N	all	0.12281333237347923	1706
+fixed_region	SW	all	0.23648405442372758	3285
+fixed_region	SE	all	0.23115686415664818	3211
+fixed_region	E	all	0.12367720106543806	1718
+fixed_region_technology_source	C	mixed_shotgun_capture|1. Previously published data (ancient)	0.0005759124613058816	8
+fixed_region_technology_source	N	shotgun_label|1. Previously published data (ancient)	0.05219206680584551	725
+fixed_region_technology_source	C	capture_label|1. Previously published data (ancient)	0.06990137499100137	971
+fixed_region_technology_source	C	shotgun_label|1. Previously published data (ancient)	0.06399827226261608	889
+fixed_region_technology_source	SW	capture_label|4. New sample (capture)	0.05766323518825139	801
+fixed_region_technology_source	SE	shotgun_label|1. Previously published data (ancient)	0.017709308185155856	246
+fixed_region_technology_source	SE	capture_label|1. Previously published data (ancient)	0.04463321575120582	620
+fixed_region_technology_source	E	capture_label|1. Previously published data (ancient)	0.029155568353610252	405
+fixed_region_technology_source	SW	capture_label|1. Previously published data (ancient)	0.023468432798214672	326
+fixed_region_technology_source	E	shotgun_label|1. Previously published data (ancient)	0.0194370455690735	270
+fixed_region_technology_source	SW	shotgun_label|1. Previously published data (ancient)	0.018933122165430853	263
+fixed_region_technology_source	E	mixed_shotgun_capture|1. Previously published data (ancient)	0.0007198905766323518	10
+fixed_region_technology_source	N	capture_label|1. Previously published data (ancient)	0.031243251025844073	434
+fixed_region_technology_source	SW	mixed_shotgun_capture|1. Previously published data (ancient)	0.0004319343459794111	6
+fixed_region_technology_source	N	mixed_shotgun_capture|1. Previously published data (ancient)	0.0017277373839176444	24
+fixed_region_technology_source	C	shotgun_label|2. Previously published sample with new shotgun data	0.005255201209416169	73
+fixed_region_technology_source	C	capture_label|3. Previously published sample with new capture data	0.0040313872291411704	56
+fixed_region_technology_source	SE	shotgun_label|2. Previously published sample with new shotgun data	0.0053991793247426395	75
+fixed_region_technology_source	E	shotgun_label|2. Previously published sample with new shotgun data	0.0048952559210999926	68
+fixed_region_technology_source	SW	shotgun_label|2. Previously published sample with new shotgun data	0.0013677920956014686	19
+fixed_region_technology_source	SW	capture_label|3. Previously published sample with new capture data	0.0025196170182132317	35
+fixed_region_technology_source	E	capture_label|3. Previously published sample with new capture data	0.0028075732488661723	39
+fixed_region_technology_source	SE	capture_label|4. New sample (capture)	0.017709308185155856	246
+fixed_region_technology_source	SE	capture_label|3. Previously published sample with new capture data	0.0022316607875602907	31
+fixed_region_technology_source	N	capture_label|4. New sample (capture)	0.017709308185155856	246
+fixed_region_technology_source	E	capture_label|4. New sample (capture)	0.036714419408249946	510
+fixed_region_technology_source	C	capture_label|4. New sample (capture)	0.027139874739039668	377
+fixed_region_technology_source	N	shotgun_label|2. Previously published sample with new shotgun data	0.0035274638254985244	49
+fixed_region_technology_source	N	capture_label|3. Previously published sample with new capture data	0.001151824922611763	16
+fixed_region_technology_source	N	shotgun_label|4. New sample (shotgun)	0.0002879562306529408	4
+fixed_region_technology_source	E	shotgun_label|4. New sample (shotgun)	0.0019437045569073502	27
+fixed_region_technology_source	SE	shotgun_label|4. New sample (shotgun)	0.0007918796342955871	11
+fixed_region_technology_source	C	shotgun_label|4. New sample (shotgun)	0.0007198905766323518	10
+fixed_region_technology_source	SW	shotgun_label|4. New sample (shotgun)	0.00021596717298970556	3
+fixed_region_technology_source	SE	other_reported|4. New sample (capture)	0.13980274998200273	1942
+fixed_region_technology_source	C	other_reported|1. Previously published data (ancient)	0.0017277373839176444	24
+fixed_region_technology_source	N	other_reported|4. New sample (capture)	0.01482974587862645	206
+fixed_region_technology_source	SW	other_reported|4. New sample (capture)	0.13173997552372038	1830
+fixed_region_technology_source	E	other_reported|4. New sample (capture)	0.025556115470448493	355
+fixed_region_technology_source	C	other_reported|4. New sample (capture)	0.1112950831473616	1546
+fixed_region_technology_source	C	other_reported|3. Previously published sample with new capture data	0.0012238139802749981	17
+fixed_region_technology_source	E	other_reported|1. Previously published data (ancient)	0.0024476279605499963	34
+fixed_region_technology_source	N	other_reported|1. Previously published data (ancient)	7.19890576632352e-05	1
+fixed_region_technology_source	SE	other_reported|1. Previously published data (ancient)	0.0017997264415808797	25
+fixed_region_technology_source	SE	other_reported|3. Previously published sample with new capture data	0.0006479015189691167	9
+fixed_region_technology_source	SW	other_reported|3. Previously published sample with new capture data	0.0001439781153264704	2
+fixed_region_technology_source	SE	mixed_shotgun_capture|1. Previously published data (ancient)	0.0004319343459794111	6
+fixed_region_technology_source	N	other_reported|3. Previously published sample with new capture data	7.19890576632352e-05	1

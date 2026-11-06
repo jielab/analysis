@@ -1,0 +1,10 @@
+counter_label	exact_family	selected_exact	eligible_sites_ac5_all	alias_policy
+family:ERV1	ERV1	True	15699077	exact family strings only; no alias collapsing
+family:ERV1?	ERV1?	False	134841	exact family strings only; no alias collapsing
+family:ERVK	ERVK	True	1613448	exact family strings only; no alias collapsing
+family:ERVL	ERVL	False	11530135	exact family strings only; no alias collapsing
+family:ERVL-MaLR	ERVL-MaLR	False	22118221	exact family strings only; no alias collapsing
+family:ERVL?	ERVL?	False	268798	exact family strings only; no alias collapsing
+family:Gypsy	Gypsy	False	1460942	exact family strings only; no alias collapsing
+family:Gypsy?	Gypsy?	False	661038	exact family strings only; no alias collapsing
+family:unspecified	unspecified	False	577471	exact family strings only; no alias collapsing

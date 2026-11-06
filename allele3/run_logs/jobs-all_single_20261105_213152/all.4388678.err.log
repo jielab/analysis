@@ -1,0 +1,6 @@
+# Source: allele3/jobs/all_single_20261105_213152/logs/all.4388678.err
+# Snapshot UTC: 2026-11-06T08:21:49Z
+# Source bytes: 60
+# Capture: full text; source may still be running.
+
+[W::bcf_hdr_check_sanity] AC should be declared as Number=A

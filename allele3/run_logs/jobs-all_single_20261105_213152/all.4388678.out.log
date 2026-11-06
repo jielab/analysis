@@ -1,0 +1,508 @@
+# Source: allele3/jobs/all_single_20261105_213152/logs/all.4388678.out
+# Snapshot UTC: 2026-11-06T08:21:49Z
+# Source bytes: 46450
+# Capture: full text; source may still be running.
+
+[batch-sequence] primary -> summary -> spatial -> windows -> alleles -> time -> selection -> candidates -> genotypes -> ld -> report
+[dataset] gnomad_scan combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/analysis/allele3/stores/gnomad_scan
+[build-check] gnomad_scan combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[reuse] primary: input/parameter/output content identities match
+[batch-stage] stage=primary status=reused batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/primary.json
+[dataset] gnomad_scan combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/analysis/allele3/stores/gnomad_scan
+[build-check] gnomad_scan combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[stage] summary: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_modern.py summary --modern-dir /work/sph-huangj/analysis/allele3/stores/gnomad_scan --out /work/sph-huangj/analysis/allele3/runs/herv_20261104/summary --bootstrap 2000 --seed 20261027 --min-training-sites 100 --min-support 0.99 --archaic-references Altai,Chagyr,Denisova,Denisova25,Vindija --ibdmix FALSE
+[batch-stage] stage=summary status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/summary.json
+[dataset] gnomad_scan combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/analysis/allele3/stores/gnomad_scan
+[build-check] gnomad_scan combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_annotation combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+[build-check] herv_annotation combined: declared=38 status=declared_only dual_ref=unavailable; limited audit; no whole-file validation
+[stage] spatial: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_modern.py spatial --modern-dir /work/sph-huangj/analysis/allele3/stores/gnomad_scan --erv-joined /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz --fasta /work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz --out /work/sph-huangj/analysis/allele3/runs/herv_20261104/spatial --end-bp 200 --body-bins 20 --bootstrap 2000 --seed 20261027 --min-training-sites 100 --min-support 0.99 --bcftools bcftools
+[spatial] indexed chr1 aligned-body query
+[spatial chr1] 281,222 eligible sites
+[spatial chr1] 681,748 eligible sites
+[spatial chr1] 1,058,660 eligible sites
+[spatial] indexed chr2 aligned-body query
+[spatial chr2] 351,642 eligible sites
+[spatial chr2] 730,201 eligible sites
+[spatial chr2] 1,120,180 eligible sites
+[spatial] indexed chr3 aligned-body query
+[spatial chr3] 361,824 eligible sites
+[spatial chr3] 752,619 eligible sites
+[spatial chr3] 1,177,084 eligible sites
+[spatial] indexed chr4 aligned-body query
+[spatial chr4] 422,569 eligible sites
+[spatial chr4] 876,092 eligible sites
+[spatial chr4] 1,333,158 eligible sites
+[spatial] indexed chr5 aligned-body query
+[spatial chr5] 431,929 eligible sites
+[spatial chr5] 838,808 eligible sites
+[spatial] indexed chr6 aligned-body query
+[spatial chr6] 392,821 eligible sites
+[spatial chr6] 859,029 eligible sites
+[spatial] indexed chr7 aligned-body query
+[spatial chr7] 402,713 eligible sites
+[spatial chr7] 765,197 eligible sites
+[spatial] indexed chr8 aligned-body query
+[spatial chr8] 335,048 eligible sites
+[spatial chr8] 780,187 eligible sites
+[spatial] indexed chr9 aligned-body query
+[spatial chr9] 310,000 eligible sites
+[spatial chr9] 643,442 eligible sites
+[spatial] indexed chr10 aligned-body query
+[spatial chr10] 343,964 eligible sites
+[spatial chr10] 709,164 eligible sites
+[spatial] indexed chr11 aligned-body query
+[spatial chr11] 380,657 eligible sites
+[spatial chr11] 781,801 eligible sites
+[spatial] indexed chr12 aligned-body query
+[spatial chr12] 371,400 eligible sites
+[spatial chr12] 741,926 eligible sites
+[spatial] indexed chr13 aligned-body query
+[spatial chr13] 438,342 eligible sites
+[spatial] indexed chr14 aligned-body query
+[spatial chr14] 367,950 eligible sites
+[spatial] indexed chr15 aligned-body query
+[spatial chr15] 298,357 eligible sites
+[spatial] indexed chr16 aligned-body query
+[spatial chr16] 276,317 eligible sites
+[spatial] indexed chr17 aligned-body query
+[spatial chr17] 262,101 eligible sites
+[spatial] indexed chr18 aligned-body query
+[spatial chr18] 392,441 eligible sites
+[spatial] indexed chr19 aligned-body query
+[spatial chr19] 375,767 eligible sites
+[spatial] indexed chr20 aligned-body query
+[spatial] indexed chr21 aligned-body query
+[spatial] indexed chr22 aligned-body query
+[batch-stage] stage=spatial status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/spatial.json
+[dataset] gnomad_scan combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/analysis/allele3/stores/gnomad_scan
+[build-check] gnomad_scan combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_annotation combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+[build-check] herv_annotation combined: declared=38 status=declared_only dual_ref=unavailable; limited audit; no whole-file validation
+[stage] windows: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_modern.py windows --modern-dir /work/sph-huangj/analysis/allele3/stores/gnomad_scan --erv-joined /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz --fasta /work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz --out /work/sph-huangj/analysis/allele3/runs/herv_20261104/windows --window 200 --step 50 --flank 2000 --bootstrap 2000 --seed 20261027 --min-training-sites 100 --min-support 0.99 --bcftools bcftools
+[boundaries] indexed chr1 query
+[boundaries chr1] 535,463 eligible sites
+[boundaries chr1] 1,050,741 eligible sites
+[boundaries chr1] 1,632,181 eligible sites
+[boundaries chr1] 2,245,426 eligible sites
+[boundaries chr1] 2,859,927 eligible sites
+[boundaries chr1] 3,407,037 eligible sites
+[boundaries chr1] 4,010,611 eligible sites
+[boundaries chr1] 4,633,690 eligible sites
+[boundaries chr1] 5,232,226 eligible sites
+[boundaries chr1] 5,849,587 eligible sites
+[boundaries] indexed chr2 query
+[boundaries chr2] 610,218 eligible sites
+[boundaries chr2] 1,193,291 eligible sites
+[boundaries chr2] 1,831,872 eligible sites
+[boundaries chr2] 2,436,848 eligible sites
+[boundaries chr2] 3,005,802 eligible sites
+[boundaries chr2] 3,596,997 eligible sites
+[boundaries chr2] 4,188,506 eligible sites
+[boundaries chr2] 4,773,074 eligible sites
+[boundaries chr2] 5,389,318 eligible sites
+[boundaries chr2] 5,971,005 eligible sites
+[boundaries] indexed chr3 query
+[boundaries chr3] 592,449 eligible sites
+[boundaries chr3] 1,212,159 eligible sites
+[boundaries chr3] 1,769,731 eligible sites
+[boundaries chr3] 2,405,907 eligible sites
+[boundaries chr3] 3,033,028 eligible sites
+[boundaries chr3] 3,625,422 eligible sites
+[boundaries chr3] 4,233,647 eligible sites
+[boundaries chr3] 4,849,543 eligible sites
+[boundaries] indexed chr4 query
+[boundaries chr4] 627,237 eligible sites
+[boundaries chr4] 1,263,929 eligible sites
+[boundaries chr4] 1,881,872 eligible sites
+[boundaries chr4] 2,513,079 eligible sites
+[boundaries chr4] 3,106,194 eligible sites
+[boundaries chr4] 3,693,074 eligible sites
+[boundaries chr4] 4,338,817 eligible sites
+[boundaries chr4] 4,953,490 eligible sites
+[boundaries chr4] 5,591,492 eligible sites
+[boundaries chr4] 6,218,691 eligible sites
+[boundaries] indexed chr5 query
+[boundaries chr5] 639,606 eligible sites
+[boundaries chr5] 1,258,509 eligible sites
+[boundaries chr5] 1,859,372 eligible sites
+[boundaries chr5] 2,448,870 eligible sites
+[boundaries chr5] 3,089,049 eligible sites
+[boundaries chr5] 3,725,018 eligible sites
+[boundaries chr5] 4,287,942 eligible sites
+[boundaries chr5] 4,875,831 eligible sites
+[boundaries] indexed chr6 query
+[boundaries chr6] 624,760 eligible sites
+[boundaries chr6] 1,190,060 eligible sites
+[boundaries chr6] 1,784,092 eligible sites
+[boundaries chr6] 2,377,285 eligible sites
+[boundaries chr6] 2,989,679 eligible sites
+[boundaries chr6] 3,592,665 eligible sites
+[boundaries chr6] 4,197,576 eligible sites
+[boundaries chr6] 4,803,976 eligible sites
+[boundaries] indexed chr7 query
+[boundaries chr7] 635,213 eligible sites
+[boundaries chr7] 1,232,647 eligible sites
+[boundaries chr7] 1,844,168 eligible sites
+[boundaries chr7] 2,424,936 eligible sites
+[boundaries chr7] 3,005,143 eligible sites
+[boundaries chr7] 3,589,829 eligible sites
+[boundaries chr7] 4,185,604 eligible sites
+[boundaries] indexed chr8 query
+[boundaries chr8] 581,456 eligible sites
+[boundaries chr8] 1,179,918 eligible sites
+[boundaries chr8] 1,778,817 eligible sites
+[boundaries chr8] 2,412,871 eligible sites
+[boundaries chr8] 3,020,298 eligible sites
+[boundaries chr8] 3,637,721 eligible sites
+[boundaries chr8] 4,243,824 eligible sites
+[boundaries] indexed chr9 query
+[boundaries chr9] 579,342 eligible sites
+[boundaries chr9] 1,203,090 eligible sites
+[boundaries chr9] 1,637,700 eligible sites
+[boundaries chr9] 2,238,291 eligible sites
+[boundaries chr9] 2,817,401 eligible sites
+[boundaries] indexed chr10 query
+[boundaries chr10] 626,437 eligible sites
+[boundaries chr10] 1,227,401 eligible sites
+[boundaries chr10] 1,808,730 eligible sites
+[boundaries chr10] 2,359,939 eligible sites
+[boundaries chr10] 2,940,543 eligible sites
+[boundaries chr10] 3,521,222 eligible sites
+[boundaries] indexed chr11 query
+[boundaries chr11] 545,273 eligible sites
+[boundaries chr11] 1,148,116 eligible sites
+[boundaries chr11] 1,738,827 eligible sites
+[boundaries chr11] 2,314,827 eligible sites
+[boundaries chr11] 2,944,206 eligible sites
+[boundaries chr11] 3,512,354 eligible sites
+[boundaries] indexed chr12 query
+[boundaries chr12] 578,585 eligible sites
+[boundaries chr12] 1,156,938 eligible sites
+[boundaries chr12] 1,755,462 eligible sites
+[boundaries chr12] 2,358,605 eligible sites
+[boundaries chr12] 2,969,520 eligible sites
+[boundaries chr12] 3,556,284 eligible sites
+[boundaries] indexed chr13 query
+[boundaries chr13] 613,774 eligible sites
+[boundaries chr13] 1,240,994 eligible sites
+[boundaries chr13] 1,876,601 eligible sites
+[boundaries chr13] 2,515,519 eligible sites
+[boundaries chr13] 3,119,657 eligible sites
+[boundaries] indexed chr14 query
+[boundaries chr14] 562,916 eligible sites
+[boundaries chr14] 1,184,917 eligible sites
+[boundaries chr14] 1,740,892 eligible sites
+[boundaries chr14] 2,311,016 eligible sites
+[boundaries] indexed chr15 query
+[boundaries chr15] 569,465 eligible sites
+[boundaries chr15] 1,116,887 eligible sites
+[boundaries chr15] 1,665,832 eligible sites
+[boundaries] indexed chr16 query
+[boundaries chr16] 547,239 eligible sites
+[boundaries chr16] 1,093,274 eligible sites
+[boundaries chr16] 1,656,563 eligible sites
+[boundaries chr16] 2,213,311 eligible sites
+[boundaries] indexed chr17 query
+[boundaries chr17] 553,433 eligible sites
+[boundaries chr17] 1,092,676 eligible sites
+[boundaries chr17] 1,637,844 eligible sites
+[boundaries] indexed chr18 query
+[boundaries chr18] 600,262 eligible sites
+[boundaries chr18] 1,220,220 eligible sites
+[boundaries chr18] 1,856,055 eligible sites
+[boundaries] indexed chr19 query
+[boundaries chr19] 531,555 eligible sites
+[boundaries chr19] 1,133,857 eligible sites
+[boundaries chr19] 1,732,182 eligible sites
+[boundaries] indexed chr20 query
+[boundaries chr20] 608,467 eligible sites
+[boundaries chr20] 1,179,355 eligible sites
+[boundaries] indexed chr21 query
+[boundaries chr21] 535,186 eligible sites
+[boundaries chr21] 1,151,295 eligible sites
+[boundaries] indexed chr22 query
+[boundaries chr22] 499,735 eligible sites
+[batch-stage] stage=windows status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/windows.json
+[dataset] gnomad_scan combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/analysis/allele3/stores/gnomad_scan
+[build-check] gnomad_scan combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_annotation combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+[build-check] herv_annotation combined: declared=38 status=declared_only dual_ref=unavailable; limited audit; no whole-file validation
+[stage] alleles: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_candidates.py --modern-dir /work/sph-huangj/analysis/allele3/stores/gnomad_scan --erv-joined /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz --out /work/sph-huangj/analysis/allele3/runs/herv_20261104/alleles --max-sites 0 --controls-per-case 1 --all-alleles-catalog --seed 20261027 --end-bp 200 --body-bins 20
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr1.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr2.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr3.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr4.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr5.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr6.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr7.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr8.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr9.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr10.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr11.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr12.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr13.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr14.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr15.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr16.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr17.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr18.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr19.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr20.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr21.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr22.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr1.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr2.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr3.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr4.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr5.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr6.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr7.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr8.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr9.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr10.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr11.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr12.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr13.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr14.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr15.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr16.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr17.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr18.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr19.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr20.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr21.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr22.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] 121162 cases, 120337 unique controls; /work/sph-huangj/analysis/allele3/runs/herv_20261104/.alleles.history/20261106T060111-7dedd733-8x0yigew/targets.tsv
+[batch-stage] stage=alleles status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/alleles.json
+[build-check] genomic joins: modern labels GRCh38 <-> ancient GRCh37; use exact nucleotide mapping, not rsID-only joins
+[dataset] ancient_pgen combined: available; status=audited; individual_fileset_present_not_decoded; sample_count=NA; /work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes
+[build-check] ancient_pgen combined: declared=37 status=ambiguous_two_builds dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] ancient_dates combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/data/gen/ancient/allele3/pca3d/metadata/sample_metadata.tsv
+[build-check] ancient_dates combined: declared=not_applicable status=not_applicable dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] ancient_hq combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/data/gen/ancient/HighQualityVariants.tsv
+[build-check] ancient_hq combined: declared=37 status=declared_only dual_ref=unavailable; limited audit; no whole-file validation
+[stage] time: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_allele_time.py run --catalog /work/sph-huangj/analysis/allele3/runs/herv_20261104/alleles/site_catalog.tsv.gz --pgen-prefix /work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes --metadata /work/sph-huangj/data/gen/ancient/allele3/pca3d/metadata/sample_metadata.tsv --hq-variants /work/sph-huangj/data/gen/ancient/HighQualityVariants.tsv --fasta38 /work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz --fasta37 /work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz --chain38to37 /work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz --chain37to38 /work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz --out /work/sph-huangj/analysis/allele3/runs/herv_20261104/time --bin-years 1000 --min-samples 20 --min-call-rate 0.9 --max-age-bp 10000 --chunk-size 64 --pcs 10 --bootstrap 2000 --seed 20261027 --coordinates /work/sph-huangj/data/gen/ancient/allele3/pca3d/pca/all.sscore
+[allele-time] 64/36,480 measured ALT nucleotides; all 16,339 PSAM samples; genotype buffer <= 64 rows
+[allele-time] 10,048/36,480 measured ALT nucleotides; all 16,339 PSAM samples; genotype buffer <= 64 rows
+[allele-time] 20,032/36,480 measured ALT nucleotides; all 16,339 PSAM samples; genotype buffer <= 64 rows
+[allele-time] 30,016/36,480 measured ALT nucleotides; all 16,339 PSAM samples; genotype buffer <= 64 rows
+[batch-stage] stage=time status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/time.json
+[stage] selection: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_selection.py --catalog /work/sph-huangj/analysis/allele3/runs/herv_20261104/alleles/site_catalog.tsv.gz --selection-stats /work/sph-huangj/data/gen/ancient/Selection_Summary_Statistics_01OCT2025.tsv.gz --fasta38 /work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz --fasta37 /work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz --chain38to37 /work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz --chain37to38 /work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz --effect-allele raw_only --out /work/sph-huangj/analysis/allele3/runs/herv_20261104/selection
+[published-selection] 1,000,000 source rows streamed
+[published-selection] 2,000,000 source rows streamed
+[published-selection] 3,000,000 source rows streamed
+[published-selection] 4,000,000 source rows streamed
+[published-selection] 5,000,000 source rows streamed
+[published-selection] 6,000,000 source rows streamed
+[published-selection] 7,000,000 source rows streamed
+[published-selection] 8,000,000 source rows streamed
+[published-selection] 9,000,000 source rows streamed
+{"qc": {"availability_available_flagged_only": 6606, "availability_available_valid_filter_accepted": 65479, "availability_mapping_unavailable": 3539, "availability_not_in_published_summary": 681657, "catalog_bases": 757281, "catalog_sites": 241499, "mapping_mapped": 240383, "mapping_non_autosomal_target": 27, "mapping_non_reciprocal": 33, "mapping_unmapped": 1056, "matched_base_contrast_rows": 73236, "matched_published_contrasts": 36618, "matched_valid_accepted_filter_contrasts": 33202, "published_alt_not_in_modern_labels": 5, "published_noncanonical_snv_skipped": 1665051, "published_rows_at_catalog_coordinate": 36623, "published_rows_streamed": 9739624}, "status": "complete"}
+[batch-stage] stage=selection status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/selection.json
+[dataset] gnomad_scan combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/analysis/allele3/stores/gnomad_scan
+[build-check] gnomad_scan combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_annotation combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+[build-check] herv_annotation combined: declared=38 status=declared_only dual_ref=unavailable; limited audit; no whole-file validation
+[stage] candidates: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_candidates.py --modern-dir /work/sph-huangj/analysis/allele3/stores/gnomad_scan --erv-joined /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz --out /work/sph-huangj/analysis/allele3/runs/herv_20261104/candidates --max-sites 500 --controls-per-case 4 --seed 20261027 --end-bp 200 --body-bins 20
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr1.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr2.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr3.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr4.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr5.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr6.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr7.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr8.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr9.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr10.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr11.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr12.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr13.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr14.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr15.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr16.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr17.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr18.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr19.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr20.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr21.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr22.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr1.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr2.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr3.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr4.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr5.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr6.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr7.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr8.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr9.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr10.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr11.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr12.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr13.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr14.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr15.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr16.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr17.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr18.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr19.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr20.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr21.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] read /work/sph-huangj/analysis/allele3/stores/gnomad_scan/shards/chr22.d913ea3bc9d8b15c/multiallelic_sites.tsv.gz
+[herv-candidates] 1000 cases, 3952 unique controls; /work/sph-huangj/analysis/allele3/runs/herv_20261104/.candidates.history/20261106T073632-6e847dcb-zu9ampd7/targets.tsv
+[batch-stage] stage=candidates status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/candidates.json
+[dataset] 1kg_vcf chr1.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr1.vcf.gz
+[build-check] 1kg_vcf chr1.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr10.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr10.vcf.gz
+[build-check] 1kg_vcf chr10.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr11.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr11.vcf.gz
+[build-check] 1kg_vcf chr11.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr12.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr12.vcf.gz
+[build-check] 1kg_vcf chr12.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr13.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr13.vcf.gz
+[build-check] 1kg_vcf chr13.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr14.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr14.vcf.gz
+[build-check] 1kg_vcf chr14.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr15.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr15.vcf.gz
+[build-check] 1kg_vcf chr15.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr16.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr16.vcf.gz
+[build-check] 1kg_vcf chr16.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr17.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr17.vcf.gz
+[build-check] 1kg_vcf chr17.vcf.gz: declared=38 status=sample_supports_supplied_reference_38 dual_ref=discriminating_support; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr18.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr18.vcf.gz
+[build-check] 1kg_vcf chr18.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr19.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr19.vcf.gz
+[build-check] 1kg_vcf chr19.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr2.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr2.vcf.gz
+[build-check] 1kg_vcf chr2.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr20.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr20.vcf.gz
+[build-check] 1kg_vcf chr20.vcf.gz: declared=38 status=sample_supports_supplied_reference_38 dual_ref=discriminating_support; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr21.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr21.vcf.gz
+[build-check] 1kg_vcf chr21.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr22.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr22.vcf.gz
+[build-check] 1kg_vcf chr22.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr3.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr3.vcf.gz
+[build-check] 1kg_vcf chr3.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr4.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr4.vcf.gz
+[build-check] 1kg_vcf chr4.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr5.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr5.vcf.gz
+[build-check] 1kg_vcf chr5.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr6.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr6.vcf.gz
+[build-check] 1kg_vcf chr6.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr7.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr7.vcf.gz
+[build-check] 1kg_vcf chr7.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr8.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr8.vcf.gz
+[build-check] 1kg_vcf chr8.vcf.gz: declared=38 status=sample_supports_supplied_reference_38 dual_ref=discriminating_support; limited audit; no whole-file validation
+[dataset] 1kg_vcf chr9.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chr9.vcf.gz
+[build-check] 1kg_vcf chr9.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] 1kg_vcf chrX.vcf.gz: available; status=audited; individuals; sample_count=3202; /work/sph-huangj/data/gen/1kg/38/vcf/chrX.vcf.gz
+[build-check] 1kg_vcf chrX.vcf.gz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[stage] genotypes: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_genotypes.py --targets /work/sph-huangj/analysis/allele3/runs/herv_20261104/candidates/targets.tsv --vcf-dir /work/sph-huangj/data/gen/1kg/38/vcf --sample-panel /work/sph-huangj/data/gen/1kg/38/samples.txt --vcf-pattern 'chr{chrom}.vcf.gz' --out /work/sph-huangj/analysis/allele3/runs/herv_20261104/genotypes --seed 20261027 --min-ac 2 --min-call-rate 0.9
+[herv-genotypes] 4952 targets; 2340 balanced samples; /work/sph-huangj/analysis/allele3/runs/herv_20261104/.genotypes.history/20261106T075612-8effde9f-f1fsde52/genotype_validation.tsv
+[batch-stage] stage=genotypes status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/genotypes.json
+[dataset] herv_annotation combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+[build-check] herv_annotation combined: declared=38 status=declared_only dual_ref=unavailable; limited audit; no whole-file validation
+[stage] ld: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_ld.py --ld-block-dir /work/sph-huangj/data/LD/block --erv-joined /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz --build 38 --out /work/sph-huangj/analysis/allele3/runs/herv_20261104/ld --chrom-sizes /work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz.fai --bootstrap 1000 --seed 20261027
+{"status": "complete", "out": "/work/sph-huangj/analysis/allele3/runs/herv_20261104/ld", "eligible_physical_windows": 2550, "complete_case_windows": 2550, "dropped_incomplete_windows": 0, "evidence_level": "descriptive_without_sequence_recombination_covariates", "slope_tests": 80, "tested_slopes": 80, "fdr_scope": "all families, both outcomes, all ancestry-specific and paired-difference slope tests"}
+[batch-stage] stage=ld status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/ld.json
+[stage] report: /work/sph-huangj/.conda/envs/allele3-evolution/bin/python /work/sph-huangj/scripts/allele3/f/herv_report.py report --analysis-root /work/sph-huangj/analysis/allele3 --modern-dir /work/sph-huangj/analysis/allele3/stores/gnomad_scan --out /work/sph-huangj/analysis/allele3/runs/herv_20261104 --ibdmix FALSE
+{
+  "status": "complete",
+  "report": "/work/sph-huangj/analysis/allele3/runs/herv_20261104/report.html",
+  "primary_available": true
+}
+[batch-stage] stage=report status=complete batch=c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37 receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37/report.json
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u14a>
+Subject: Job 4388678: <allele3_pipeline.e17a26815e.all> in cluster <qmhpc> Done
+
+Job <allele3_pipeline.e17a26815e.all> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov  5 21:31:59 2026
+Job was executed on host(s) <20*b08u14a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov  6 02:32:57 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/allele3> was used as the working directory.
+Started at Fri Nov  6 02:32:57 2026
+Terminated at Fri Nov  6 16:00:19 2026
+Results reported at Fri Nov  6 16:00:19 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J "allele3_pipeline.e17a26815e.all"
+#BSUB -q 33
+#BSUB -n 20
+#BSUB -W 72:00
+#BSUB -R "span[hosts=1] rusage[mem=64GB/host]"
+#BSUB -o /work/sph-huangj/analysis/allele3/jobs/all_single_20261105_213152/logs/all.%J.out
+#BSUB -e /work/sph-huangj/analysis/allele3/jobs/all_single_20261105_213152/logs/all.%J.err
+
+set -euo pipefail
+[[ ${LSB_JOBID:-} =~ ^[1-9][0-9]*$ ]] || { echo 'Submit this .cmd with bsub; no login-node payload' >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} =~ ^[0-9]+$ && ${LSB_DJOB_NUMPROC:-0} -ge 20 ]] || { echo 'Insufficient allocated CPU slots' >&2; exit 2; }
+export ALLELE_1KG_PANEL=/work/sph-huangj/data/gen/1kg/38/samples.txt
+export ALLELE_1KG_VCF_DIR=/work/sph-huangj/data/gen/1kg/38/vcf
+export ALLELE_ALL_OF_US=/work/sph-huangj/data/annot/allele3/allofus/hg38_allofus.txt.gz
+export ALLELE_ANALYSIS_ROOT=/work/sph-huangj/analysis/allele3
+export ALLELE_ANCIENT_DIR=/work/sph-huangj/data/gen/ancient
+export ALLELE_ARCHAIC_CACHE=/work/sph-huangj/analysis/allele3/stores/archaic_overlap
+export ALLELE_ARCHAIC_DATASETS=1kg
+export ALLELE_ARCHAIC_LIFTOVER=/work/sph-huangj/software/bin/liftOver
+export ALLELE_ARCHAIC_ROOT=/work/sph-huangj/data/gen
+export ALLELE_ATLAS_DIR=/work/sph-huangj/data/annot/allele3/alphagenome/hg38
+export ALLELE_CHAIN37TO38=/work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz
+export ALLELE_CHAIN38TO37=/work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz
+export ALLELE_COHORT_TABLE=/work/sph-huangj/data/gen/1kg/38/allele3/herv_cohort/herv_cohort_burden.tsv
+export ALLELE_COORDINATES=/work/sph-huangj/data/gen/ancient/allele3/pca3d/pca/all.sscore
+export ALLELE_ERV_JOINED=/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+export ALLELE_EXECUTION_MODE=hpc
+export ALLELE_FASTA=/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+export ALLELE_FASTA37=/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz
+export ALLELE_LD_BLOCK_DIR=/work/sph-huangj/data/LD/block
+export ALLELE_LOW_MAPPABILITY_BED=/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+export ALLELE_MEMORY_LIMIT_GB=64
+export ALLELE_METADATA=/work/sph-huangj/data/gen/ancient/allele3/pca3d/metadata/sample_metadata.tsv
+export ALLELE_PYTHON=/work/sph-huangj/.conda/envs/allele3-evolution/bin/python
+export ALLELE_SCAN_REPLACE=TRUE
+export ALLELE_SCAN_STORE=/work/sph-huangj/analysis/allele3/stores/gnomad_scan
+export ALLELE_VCF_DIR=/work/sph-huangj/data/annot/allele3/gnomad/sites
+export ANALYSIS_ROOT=/work/sph-huangj/analysis
+export DATE_SCRATCH=2026-11-03
+export DIR_ANALYSIS=/work/sph-huangj/analysis
+export DIR_ANNOT=/work/sph-huangj/data/annot
+export DIR_BIG=/work/sph-huangj/data
+export DIR_DAT=/work/sph-huangj
+export DIR_DATA=/work/sph-huangj/data
+export DIR_FILES=/work/sph-huangj/files
+export DIR_GEN=/work/sph-huangj/data/gen
+export DIR_GWAS=/work/sph-huangj/data/gwas
+export DIR_HOME=/work/sph-huangj
+export DIR_LD=/work/sph-huangj/data/LD
+
+(... more ...)
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   52705.10 sec.
+    Max Memory :                                 5725 MB
+    Average Memory :                             851.81 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               59811.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                7
+    Run time :                                   48440 sec.
+    Turnaround time :                            66500 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/allele3/jobs/all_single_20261105_213152/logs/all.4388678.err> for stderr output of this job.
+

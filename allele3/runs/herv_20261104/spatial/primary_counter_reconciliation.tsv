@@ -1,0 +1,9 @@
+family	sensitivity	threshold	scope	status	mismatch_fields	counter_observed	counter_expected	counter_eligible	counter_without_loco
+ERV1	all	5	eur_ld_partition	matched		95118	80797.7621266228	15222673	0
+ERV1	all	10	eur_ld_partition	matched		41807	35292.31374657044	15222673	0
+ERV1	strict	5	eur_ld_partition	matched		80704	67502.23929720379	13810197	0
+ERV1	strict	10	eur_ld_partition	matched		34849	28931.148007078464	13810197	0
+ERVK	all	5	eur_ld_partition	matched		11711	9634.699677783534	1479404	0
+ERVK	all	10	eur_ld_partition	matched		5319	4301.232226863593	1479404	0
+ERVK	strict	5	eur_ld_partition	matched		8476	7058.598393726585	1169971	0
+ERVK	strict	10	eur_ld_partition	matched		3689	3077.922051587029	1169971	0

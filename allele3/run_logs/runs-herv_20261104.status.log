@@ -1,0 +1,20 @@
+# Source: allele3/runs/herv_20261104/pipeline_status.json
+# Snapshot UTC: 2026-11-06T08:21:48Z
+# Source bytes: status summary
+# Capture: full text; source may still be running.
+
+Pipeline status: complete_requested_stages
+Updated: 2026-11-06T08:00:14.633379+00:00
+Batch: c06ec2acafbb9871dca58f66c51e427fd0cb5ef7174b6130276e9565a1756b37
+
+primary: reused | job=4388678 | started=2026-11-05T18:33:05.011859+00:00 | completed=2026-11-05T18:33:07.402963+00:00 | worker_exit_code=0
+summary: complete | job=4388678 | started=2026-11-05T18:33:07.492525+00:00 | completed=2026-11-05T22:27:29.866129+00:00 | worker_exit_code=0
+spatial: complete | job=4388678 | started=2026-11-05T22:27:34.615294+00:00 | completed=2026-11-06T03:06:53.695637+00:00 | worker_exit_code=0
+windows: complete | job=4388678 | started=2026-11-06T03:06:54.997288+00:00 | completed=2026-11-06T06:01:07.609050+00:00 | worker_exit_code=0
+alleles: complete | job=4388678 | started=2026-11-06T06:01:09.883502+00:00 | completed=2026-11-06T06:20:52.156269+00:00 | worker_exit_code=0
+time: complete | job=4388678 | started=2026-11-06T06:20:53.000470+00:00 | completed=2026-11-06T07:16:41.252213+00:00 | worker_exit_code=0
+selection: complete | job=4388678 | started=2026-11-06T07:16:43.778742+00:00 | completed=2026-11-06T07:36:30.110317+00:00 | worker_exit_code=0
+candidates: complete | job=4388678 | started=2026-11-06T07:36:30.700494+00:00 | completed=2026-11-06T07:56:06.245146+00:00 | worker_exit_code=0
+genotypes: complete | job=4388678 | started=2026-11-06T07:56:11.440274+00:00 | completed=2026-11-06T07:58:53.838973+00:00 | worker_exit_code=0
+ld: complete | job=4388678 | started=2026-11-06T07:58:56.215614+00:00 | completed=2026-11-06T08:00:12.549437+00:00 | worker_exit_code=0
+report: complete | job=4388678 | started=2026-11-06T08:00:14.151388+00:00 | completed=2026-11-06T08:00:14.624920+00:00 | worker_exit_code=0

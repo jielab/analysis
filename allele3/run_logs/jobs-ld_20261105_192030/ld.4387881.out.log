@@ -1,0 +1,103 @@
+# Source: allele3/jobs/ld_20261105_192030/logs/ld.4387881.out
+# Snapshot UTC: 2026-11-06T08:21:49Z
+# Source bytes: 5170
+# Capture: full text; source may still be running.
+
+[dataset] herv_annotation combined: available; status=audited; not_applicable; sample_count=NA; /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+[build-check] herv_annotation combined: declared=38 status=declared_only dual_ref=unavailable; limited audit; no whole-file validation
+[reuse] ld: input/parameter/output content identities match
+[batch-stage] stage=ld status=reused batch=af8141ebcae775e7794f6dab6f853c7ce9e001cf076d66dde8eee7c2deea266f receipt=/work/sph-huangj/analysis/allele3/runs/herv_20261104/.batch_stage_status/af8141ebcae775e7794f6dab6f853c7ce9e001cf076d66dde8eee7c2deea266f/ld.json
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@r13n47>
+Subject: Job 4387881: <allele3_pipeline.a451e513b2.ld> in cluster <qmhpc> Done
+
+Job <allele3_pipeline.a451e513b2.ld> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov  5 19:20:32 2026
+Job was executed on host(s) <10*r13n47>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov  5 19:20:34 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/allele3> was used as the working directory.
+Started at Thu Nov  5 19:20:34 2026
+Terminated at Thu Nov  5 19:20:48 2026
+Results reported at Thu Nov  5 19:20:48 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J "allele3_pipeline.a451e513b2.ld"
+#BSUB -q 33
+#BSUB -n 10
+#BSUB -W 24:00
+#BSUB -R "span[hosts=1] rusage[mem=8GB/host]"
+#BSUB -o /work/sph-huangj/analysis/allele3/jobs/ld_20261105_192030/logs/ld.%J.out
+#BSUB -e /work/sph-huangj/analysis/allele3/jobs/ld_20261105_192030/logs/ld.%J.err
+
+set -euo pipefail
+[[ ${LSB_JOBID:-} =~ ^[1-9][0-9]*$ ]] || { echo 'Submit this .cmd with bsub; no login-node payload' >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} =~ ^[0-9]+$ && ${LSB_DJOB_NUMPROC:-0} -ge 10 ]] || { echo 'Insufficient allocated CPU slots' >&2; exit 2; }
+export ALLELE_1KG_PANEL=/work/sph-huangj/data/gen/1kg/38/samples.txt
+export ALLELE_1KG_VCF_DIR=/work/sph-huangj/data/gen/1kg/38/vcf
+export ALLELE_ALL_OF_US=/work/sph-huangj/data/annot/allele3/allofus/hg38_allofus.txt.gz
+export ALLELE_ANALYSIS_ROOT=/work/sph-huangj/analysis/allele3
+export ALLELE_ANCIENT_DIR=/work/sph-huangj/data/gen/ancient
+export ALLELE_ARCHAIC_CACHE=/work/sph-huangj/analysis/allele3/stores/archaic_overlap
+export ALLELE_ARCHAIC_DATASETS=1kg
+export ALLELE_ARCHAIC_LIFTOVER=/work/sph-huangj/software/bin/liftOver
+export ALLELE_ARCHAIC_ROOT=/work/sph-huangj/data/gen
+export ALLELE_ATLAS_DIR=/work/sph-huangj/data/annot/allele3/alphagenome/hg38
+export ALLELE_CHAIN37TO38=/work/sph-huangj/data/gen/chains/hg19ToHg38.over.chain.gz
+export ALLELE_CHAIN38TO37=/work/sph-huangj/data/gen/chains/hg38ToHg19.over.chain.gz
+export ALLELE_COHORT_TABLE=/work/sph-huangj/data/gen/1kg/38/allele3/herv_cohort/herv_cohort_burden.tsv
+export ALLELE_COORDINATES=/work/sph-huangj/data/gen/ancient/allele3/pca3d/pca/all.sscore
+export ALLELE_ERV_JOINED=/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+export ALLELE_EXECUTION_MODE=hpc
+export ALLELE_FASTA=/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+export ALLELE_FASTA37=/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz
+export ALLELE_LD_BLOCK_DIR=/work/sph-huangj/data/LD/block
+export ALLELE_LOW_MAPPABILITY_BED=/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+export ALLELE_MEMORY_LIMIT_GB=8
+export ALLELE_METADATA=/work/sph-huangj/data/gen/ancient/allele3/pca3d/metadata/sample_metadata.tsv
+export ALLELE_PYTHON=/work/sph-huangj/.conda/envs/allele3-evolution/bin/python
+export ALLELE_SCAN_REPLACE=TRUE
+export ALLELE_SCAN_STORE=/work/sph-huangj/analysis/allele3/stores/gnomad_scan
+export ALLELE_VCF_DIR=/work/sph-huangj/data/annot/allele3/gnomad/sites
+export ANALYSIS_ROOT=/work/sph-huangj/analysis
+export DATE_SCRATCH=2026-11-03
+export DIR_ANALYSIS=/work/sph-huangj/analysis
+export DIR_ANNOT=/work/sph-huangj/data/annot
+export DIR_BIG=/work/sph-huangj/data
+export DIR_DAT=/work/sph-huangj
+export DIR_DATA=/work/sph-huangj/data
+export DIR_FILES=/work/sph-huangj/files
+export DIR_GEN=/work/sph-huangj/data/gen
+export DIR_GWAS=/work/sph-huangj/data/gwas
+export DIR_HOME=/work/sph-huangj
+export DIR_LD=/work/sph-huangj/data/LD
+
+(... more ...)
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.38 sec.
+    Max Memory :                                 46 MB
+    Average Memory :                             39.25 MB
+    Total Requested Memory :                     8192.00 MB
+    Delta Memory :                               8146.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   12 sec.
+    Turnaround time :                            16 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/allele3/jobs/ld_20261105_192030/logs/ld.4387881.err> for stderr output of this job.
+
