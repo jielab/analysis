@@ -1,0 +1,147 @@
+{
+  "schema": "allele3-module-layout-1",
+  "status": "complete",
+  "public_root": "/work/sph-huangj/analysis/allele3/pca3d",
+  "runtime_root": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work",
+  "directory_map": {
+    ".": ".",
+    "basis": "pca",
+    "coordinates": "pca",
+    "metadata": "metadata",
+    "pca": "pca"
+  },
+  "public_files": {
+    "tables/sample_metadata.tsv": {
+      "native": "metadata/sample_metadata.tsv",
+      "size": 1955328
+    },
+    "figures/pca_time_overview.png": {
+      "native": "pca/pca_time_overview.png",
+      "size": 779245
+    },
+    "basis/ref.acount": {
+      "native": "pca/ref.acount",
+      "size": 1946417
+    },
+    "figures/pca_time_slices.pdf": {
+      "native": "pca/pca_time_slices.pdf",
+      "size": 251562
+    },
+    "figures/pca_time_overview.pdf": {
+      "native": "pca/pca_time_overview.pdf",
+      "size": 234336
+    },
+    "basis/ld.prune.in": {
+      "native": "pca/ld.prune.in",
+      "size": 902140
+    },
+    "coordinates/all.sscore": {
+      "native": "pca/all.sscore",
+      "size": 3144622
+    },
+    "reports/pca_time.html": {
+      "native": "pca/pca_time.html",
+      "size": 7806029
+    },
+    "basis/ref.eigenvec.allele": {
+      "native": "pca/ref.eigenvec.allele",
+      "size": 13746364
+    },
+    "coordinates/ref.eigenvec": {
+      "native": "pca/ref.eigenvec",
+      "size": 528231
+    },
+    "figures/pca_time_centroids.pdf": {
+      "native": "pca/pca_time_centroids.pdf",
+      "size": 23617
+    },
+    "figures/pca_time_centroids.png": {
+      "native": "pca/pca_time_centroids.png",
+      "size": 145354
+    },
+    "coordinates/ref.eigenval": {
+      "native": "pca/ref.eigenval",
+      "size": 80
+    },
+    "tables/pca_time_centroids.tsv": {
+      "native": "pca/pca_time_centroids.tsv",
+      "size": 4165
+    },
+    "tables/pca_time_layers.tsv": {
+      "native": "pca/pca_time_layers.tsv",
+      "size": 812
+    },
+    "figures/pca_time_slices.png": {
+      "native": "pca/pca_time_slices.png",
+      "size": 497954
+    },
+    "figures/atlas/pca_time_stack_alternative.pdf": {
+      "native": "pca/atlas/pca_time_stack_alternative.pdf",
+      "size": 389617
+    },
+    "figures/atlas/pca_time_stack_alternative.png": {
+      "native": "pca/atlas/pca_time_stack_alternative.png",
+      "size": 817432
+    },
+    "tables/atlas/sample_feature_values.tsv.gz": {
+      "native": "pca/atlas/sample_feature_values.tsv.gz",
+      "size": 39431
+    },
+    "figures/atlas/pca_time_stack.pdf": {
+      "native": "pca/atlas/pca_time_stack.pdf",
+      "size": 349917
+    },
+    "figures/atlas/pca_all_ages.pdf": {
+      "native": "pca/atlas/pca_all_ages.pdf",
+      "size": 267151
+    },
+    "figures/atlas/pca_time_stack.png": {
+      "native": "pca/atlas/pca_time_stack.png",
+      "size": 767051
+    },
+    "tables/atlas/variant_overlay_metadata.tsv": {
+      "native": "pca/atlas/variant_overlay_metadata.tsv",
+      "size": 86
+    },
+    "tables/atlas/sample_feature_metadata.tsv": {
+      "native": "pca/atlas/sample_feature_metadata.tsv",
+      "size": 39
+    },
+    "tables/atlas/original_points.tsv.gz": {
+      "native": "pca/atlas/original_points.tsv.gz",
+      "size": 284059
+    },
+    "figures/atlas/pca_all_ages.png": {
+      "native": "pca/atlas/pca_all_ages.png",
+      "size": 691207
+    },
+    "reports/atlas/pca_time_atlas.html": {
+      "native": "pca/atlas/pca_time_atlas.html",
+      "size": 7839999
+    },
+    "tables/atlas/layer_counts.tsv": {
+      "native": "pca/atlas/layer_counts.tsv",
+      "size": 1435
+    }
+  },
+  "support_files": {
+    ".pca3d.lock": "/work/sph-huangj/analysis/allele3/qc/pca3d/.pca3d.lock",
+    "metadata/pca3d_metadata.json": "/work/sph-huangj/analysis/allele3/qc/pca3d/metadata/pca3d_metadata.json",
+    "metadata/metadata_qc.tsv": "/work/sph-huangj/analysis/allele3/qc/pca3d/metadata/metadata_qc.tsv",
+    "metadata/metadata_qc.json": "/work/sph-huangj/analysis/allele3/qc/pca3d/metadata/metadata_qc.json",
+    "pca/PCA_COMPLETE": "/work/sph-huangj/analysis/allele3/qc/pca3d/pca/PCA_COMPLETE",
+    "pca/ref.log": "/work/sph-huangj/analysis/allele3/logs/pca3d/pca/ref.log",
+    "pca/all.log": "/work/sph-huangj/analysis/allele3/logs/pca3d/pca/all.log",
+    "pca/pca_plan.json": "/work/sph-huangj/analysis/allele3/qc/pca3d/pca/pca_plan.json",
+    "pca/ld.log": "/work/sph-huangj/analysis/allele3/logs/pca3d/pca/ld.log",
+    "pca/basis_common.log": "/work/sph-huangj/analysis/allele3/logs/pca3d/pca/basis_common.log",
+    "pca/all_pruned.log": "/work/sph-huangj/analysis/allele3/logs/pca3d/pca/all_pruned.log",
+    "pca/pca_time.html.json": "/work/sph-huangj/analysis/allele3/qc/pca3d/pca/pca_time.html.json",
+    "pca/commands.sh": "/work/sph-huangj/analysis/allele3/jobs/pca3d/pca/commands.sh",
+    "pca/completed.sha256": "/work/sph-huangj/analysis/allele3/qc/pca3d/pca/completed.sha256",
+    "pca/atlas/sample_display_audit.tsv.gz": "/work/sph-huangj/analysis/allele3/qc/pca3d/pca/atlas/sample_display_audit.tsv.gz",
+    "pca/atlas/atlas_manifest.json": "/work/sph-huangj/analysis/allele3/qc/pca3d/pca/atlas/atlas_manifest.json",
+    "pca/atlas/.pca_atlas.lock": "/work/sph-huangj/analysis/allele3/qc/pca3d/pca/atlas/.pca_atlas.lock"
+  },
+  "provenance": "Native scientific receipts retained unchanged; this receipt describes file layout only"
+}

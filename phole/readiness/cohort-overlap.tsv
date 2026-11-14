@@ -1,0 +1,12 @@
+DATASETS	MAPPED_PROTEINS	PRIORITY_CIS_PROTEINS
+ukb;ckb	2918	0
+ukb;decode	1889	0
+ukb;scot	103	0
+ckb;decode	1886	0
+ckb;scot	103	0
+decode;scot	127	0
+ukb;ckb;decode	1886	0
+ukb;ckb;scot	103	0
+ukb;decode;scot	92	0
+ckb;decode;scot	92	0
+ukb;ckb;decode;scot	92	0

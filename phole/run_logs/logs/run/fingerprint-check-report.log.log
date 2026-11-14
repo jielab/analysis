@@ -1,0 +1,8 @@
+# Source: phole/logs/run/fingerprint-check-report.log
+# Snapshot UTC: 2026-11-14T00:42:37Z
+# Source bytes: 350
+# Capture: full text; source may still be running.
+
+
+[2026-11-13T13:01:40+00:00] /work/sph-huangj/software/venvs/phole-v5/bin/python /work/sph-huangj/scripts/phole/f/fingerprint_report.py --check-dir /work/sph-huangj/analysis/phole/qc/fingerprint-check --cross-dir /work/sph-huangj/analysis/phole/cross-check
+Regional review: /work/sph-huangj/analysis/phole/qc/fingerprint-check/fingerprint-check.html

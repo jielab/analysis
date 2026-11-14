@@ -1,0 +1,199 @@
+{
+  "datasets": {
+    "ukb": {
+      "files": 2940,
+      "raw_cis_rows": 2080,
+      "all_trans_labels": false,
+      "build": "38",
+      "build_source": "explicit",
+      "full_summary_files": 0,
+      "complete_full_summaries": false,
+      "completeness_scope": "all supplied summaries; missing mapped assays are reported separately",
+      "cis": 2067,
+      "strict_cis": 1948,
+      "coverage": {
+        "not_mapped": 3163,
+        "complete": 2922,
+        "missing": 1
+      }
+    },
+    "ckb": {
+      "files": 2918,
+      "raw_cis_rows": 1257,
+      "all_trans_labels": false,
+      "build": "38",
+      "build_source": "explicit",
+      "full_summary_files": 2918,
+      "complete_full_summaries": true,
+      "completeness_scope": "all supplied summaries; missing mapped assays are reported separately",
+      "cis": 1258,
+      "strict_cis": 1105,
+      "coverage": {
+        "not_mapped": 3168,
+        "complete": 2918
+      }
+    },
+    "decode": {
+      "files": 5284,
+      "raw_cis_rows": 2239,
+      "all_trans_labels": false,
+      "build": "38",
+      "build_source": "explicit",
+      "full_summary_files": 5284,
+      "complete_full_summaries": true,
+      "completeness_scope": "all supplied summaries; missing mapped assays are reported separately",
+      "cis": 2153,
+      "strict_cis": 1971,
+      "coverage": {
+        "not_mapped": 1133,
+        "complete": 4953
+      }
+    },
+    "scot": {
+      "files": 439,
+      "raw_cis_rows": 335,
+      "all_trans_labels": false,
+      "build": "38",
+      "build_source": "explicit",
+      "full_summary_files": 439,
+      "complete_full_summaries": true,
+      "completeness_scope": "all supplied summaries; missing mapped assays are reported separately",
+      "cis": 185,
+      "strict_cis": 172,
+      "coverage": {
+        "complete": 237,
+        "not_mapped": 5849
+      }
+    }
+  },
+  "counts": {
+    "proteins": 6086,
+    "priority": 0,
+    "priority_with_MS": 0,
+    "four_cohort_cis": 64,
+    "review": 4529,
+    "trans_regions_2plus": 806,
+    "trans_regions_strict3plus": 25,
+    "coordinate_sensitive_signal_rows": 291,
+    "coordinate_sensitive_proteins": 272,
+    "coordinate_sensitive_cis_calls": 57
+  },
+  "coordinates": {
+    "status_counts": {
+      "supplied_alternative_contig": 11,
+      "matched_reference_single": 5971,
+      "matched_reference_complex": 63,
+      "supplied_missing": 33,
+      "matched_reference_par": 6,
+      "supplied_point_unverified": 2
+    },
+    "identity_verified": 5960,
+    "shared_anchor_targets": 75,
+    "window": "body",
+    "map_declared_build": "38"
+  },
+  "build_audit": {
+    "ukb": {
+      "build": "38",
+      "source": "explicit",
+      "votes": {
+        "38": 442
+      },
+      "unique_sentinels": {
+        "37": 0,
+        "38": 11
+      },
+      "conflicts": [],
+      "scope": "Dataset inference does not certify every assay"
+    },
+    "ckb": {
+      "build": "38",
+      "source": "explicit",
+      "votes": {
+        "38": 20
+      },
+      "unique_sentinels": {
+        "37": 0,
+        "38": 6
+      },
+      "conflicts": [],
+      "scope": "Dataset inference does not certify every assay"
+    },
+    "decode": {
+      "build": "38",
+      "source": "explicit",
+      "votes": {
+        "38": 556
+      },
+      "unique_sentinels": {
+        "37": 0,
+        "38": 9
+      },
+      "conflicts": [],
+      "scope": "Dataset inference does not certify every assay"
+    },
+    "scot": {
+      "build": "38",
+      "source": "explicit",
+      "votes": {
+        "38": 26
+      },
+      "unique_sentinels": {
+        "37": 0,
+        "38": 6
+      },
+      "conflicts": [],
+      "scope": "Dataset inference does not certify every assay"
+    }
+  },
+  "mapping_repairs": [
+    {
+      "prot": "CXCL8",
+      "dataset": "ukb",
+      "requested": "CXCL8",
+      "resolved": "CXCL8.Cardiometabolic;CXCL8.Inflammation;CXCL8.Neurology;CXCL8.Oncology",
+      "rule": "exact_base_known_Olink_panel_suffix"
+    },
+    {
+      "prot": "IDO1",
+      "dataset": "ukb",
+      "requested": "IDO1",
+      "resolved": "IDO1.Cardiometabolic_II;IDO1.Inflammation_II;IDO1.Neurology_II;IDO1.Oncology_II",
+      "rule": "exact_base_known_Olink_panel_suffix"
+    },
+    {
+      "prot": "IL6",
+      "dataset": "ukb",
+      "requested": "IL6",
+      "resolved": "IL6.Cardiometabolic;IL6.Inflammation;IL6.Neurology;IL6.Oncology",
+      "rule": "exact_base_known_Olink_panel_suffix"
+    },
+    {
+      "prot": "LMOD1",
+      "dataset": "ukb",
+      "requested": "LMOD1",
+      "resolved": "LMOD1.Cardiometabolic_II;LMOD1.Inflammation_II;LMOD1.Neurology_II;LMOD1.Oncology_II",
+      "rule": "exact_base_known_Olink_panel_suffix"
+    },
+    {
+      "prot": "SCRIB",
+      "dataset": "ukb",
+      "requested": "SCRIB",
+      "resolved": "SCRIB.Cardiometabolic_II;SCRIB.Inflammation_II;SCRIB.Neurology_II;SCRIB.Oncology_II",
+      "rule": "exact_base_known_Olink_panel_suffix"
+    },
+    {
+      "prot": "TNF",
+      "dataset": "ukb",
+      "requested": "TNF",
+      "resolved": "TNF.Cardiometabolic;TNF.Inflammation;TNF.Neurology;TNF.Oncology",
+      "rule": "exact_base_known_Olink_panel_suffix"
+    }
+  ],
+  "strong_thresholds": {
+    "ukb": 1.7001020061203672e-11,
+    "ckb": 1.7135023989033584e-11,
+    "decode": 9.462528387585162e-12,
+    "scot": 1.1389521640091116e-10
+  }
+}

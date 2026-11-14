@@ -1,0 +1,54 @@
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/0f/workflow_lock.py", line 47, in flock
+    fcntl.fcntl(fd, command, record)
+BlockingIOError: [Errno 11] Resource temporarily unavailable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/grid/f/shared_cohort.py", line 469, in ensure_inputs
+    with analysis_guard(root), run_lock(lock_folder):
+  File "/work/sph-huangj/.conda/envs/grid/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/grid/f/resume.py", line 36, in run_lock
+    shared_flock(stream, fcntl.LOCK_EX)
+  File "/work/sph-huangj/scripts/0f/workflow_lock.py", line 62, in flock
+    time.sleep(.25)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/grid/f/shared_cohort.py", line 535, in <module>
+    main()
+  File "/work/sph-huangj/scripts/grid/f/shared_cohort.py", line 525, in main
+    ensure_inputs(a)
+  File "/work/sph-huangj/scripts/grid/f/shared_cohort.py", line 469, in ensure_inputs
+    with analysis_guard(root), run_lock(lock_folder):
+  File "/work/sph-huangj/.conda/envs/grid/lib/python3.11/contextlib.py", line 141, in __exit__
+    def __exit__(self, typ, value, traceback):
+
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/0f/workflow_jobs.py", line 603, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/sph-huangj/scripts/0f/workflow_jobs.py", line 594, in main
+    return worker(a.plan, a.key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/0f/workflow_jobs.py", line 340, in worker
+    code = process.wait()
+           ^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2053, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2011, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/0f/workflow_jobs.py", line 334, in stop
+    raise KeyboardInterrupt
+KeyboardInterrupt

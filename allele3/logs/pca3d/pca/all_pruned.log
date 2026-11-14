@@ -1,0 +1,36 @@
+PLINK v2.0.0-a.7.13 64-bit (15 Oct 2026)
+Options in effect:
+  --extract /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ld.prune.in
+  --keep /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all.keep
+  --make-pgen
+  --memory 16384
+  --out /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned
+  --pfile /work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes
+  --threads 4
+
+Hostname: r13n04
+Working directory: /work/sph-huangj/scripts/allele3
+Start time: Thu Nov 12 20:22:57 2026
+
+Random number seed: 1794486177
+192846 MiB RAM detected, ~182251 available; reserving 16384 MiB for main
+workspace.
+Using up to 4 compute threads.
+16339 samples (0 females, 0 males, 16339 ambiguous; 16339 founders) loaded from
+/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes.psam.
+52382872 variants loaded from
+/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes.pvar.
+Note: No phenotype data present.
+--extract: 57605 variants remaining.
+--keep: 14439 samples remaining.
+14439 samples (0 females, 0 males, 14439 ambiguous; 14439 founders) remaining
+after main filters.
+57605 variants remaining after main filters.
+Writing /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned.psam
+... done.
+Writing /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned.pvar
+... done.
+Writing /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned.pgen
+... done.
+
+End time: Thu Nov 12 20:23:07 2026

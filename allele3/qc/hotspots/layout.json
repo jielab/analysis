@@ -1,0 +1,16 @@
+{
+  "schema": "allele3-module-layout-1",
+  "status": "failed",
+  "public_root": "/work/sph-huangj/analysis/allele3/hotspots",
+  "runtime_root": "/work/sph-huangj/analysis/allele3/tmp/hotspots/work",
+  "directory_map": {
+    ".": "."
+  },
+  "public_files": {},
+  "support_files": {
+    "qc/manifest.json": "/work/sph-huangj/analysis/allele3/qc/hotspots/manifest.json",
+    "qc/locks/pipeline.lock": "/work/sph-huangj/analysis/allele3/qc/hotspots/qc/locks/pipeline.lock",
+    "results/characterize.site_sampling_audit.tsv": "/work/sph-huangj/analysis/allele3/qc/hotspots/results/characterize.site_sampling_audit.tsv"
+  },
+  "provenance": "Native scientific receipts retained unchanged; this receipt describes file layout only"
+}

@@ -1,0 +1,129 @@
+[execution] mode=hpc worker=1 jobs_N=8 max_running=32
+[paths] DIR_DATA=/work/sph-huangj/data ANALYSIS_ROOT=/work/sph-huangj/analysis
+[configured scan store] /work/sph-huangj/analysis/allele3/gnomad_scan
+[mode] scan-scan,verify; replace=TRUE; selected store/output=/work/sph-huangj/analysis/allele3/gnomad_scan
+[allele3] full log=/work/sph-huangj/analysis/allele3/logs/gnomad_scan/scan-scan-verify.log
+[mode] FRESH RECALCULATION (--replace TRUE)
+[new output] /work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work
+[permanent input/cache; retained] /work/sph-huangj/data/annot/allele3/gnomad/sites
+[permanent input/cache; retained] /work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+[permanent input/cache; retained] /work/sph-huangj/data/LD/block
+[permanent input/cache; retained] /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+[permanent input/cache; retained] /work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+[scan] 22 input(s); 2 concurrent scan(s); backend=bcftools; no API calls
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 139, in format_exception
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 811, in __init__
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 733, in __init__
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 418, in _extract_from_extended_frame_gen
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 355, in _walk_tb_with_full_positions
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 369, in _get_code_position
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 139, in format_exception
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 811, in __init__
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 733, in __init__
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 418, in _extract_from_extended_frame_gen
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 355, in _walk_tb_with_full_positions
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/traceback.py", line 369, in _get_code_position
+Traceback (most recent call last):
+Traceback (most recent call last):
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u31b>
+Subject: Job 4404638: <allele3.gnomad_scan> in cluster <qmhpc> Exited
+
+Job <allele3.gnomad_scan> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 22:29:37 2026
+Job was executed on host(s) <20*b08u31b>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 22:29:38 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/allele3> was used as the working directory.
+Started at Thu Nov 12 22:29:38 2026
+Terminated at Thu Nov 12 22:30:57 2026
+Results reported at Thu Nov 12 22:30:57 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J "allele3.gnomad_scan"
+#BSUB -q 33
+#BSUB -n 20
+#BSUB -W 72:00
+#BSUB -R "span[hosts=1] rusage[mem=64GB/host]"
+#BSUB -o /work/sph-huangj/analysis/allele3/logs/jobs/gnomad_scan/run3/3_gnomad_scan_sh.out
+#BSUB -e /work/sph-huangj/analysis/allele3/logs/jobs/gnomad_scan/run3/3_gnomad_scan_sh.err
+
+set -euo pipefail
+[[ ${LSB_JOBID:-} =~ ^[1-9][0-9]*$ ]] || { echo 'Submit this .cmd with bsub; no login-node payload' >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} =~ ^[0-9]+$ && ${LSB_DJOB_NUMPROC:-0} -ge 20 ]] || { echo 'Insufficient allocated CPU slots' >&2; exit 2; }
+export ALLELE_1KG_PANEL=/work/sph-huangj/data/gen/1kg/38/samples.txt
+export ALLELE_1KG_VCF_DIR=/work/sph-huangj/data/gen/1kg/38/vcf
+export ALLELE_ALL_OF_US=/work/sph-huangj/data/annot/allele3/allofus/hg38_allofus.txt.gz
+export ALLELE_ANALYSIS_ROOT=/work/sph-huangj/analysis/allele3
+export ALLELE_ANCIENT_DIR=/work/sph-huangj/data/gen/ancient
+export ALLELE_ARCHAIC_CACHE=/work/sph-huangj/analysis/allele3/archaic_overlap
+export ALLELE_ARCHAIC_DATASETS=1kg
+export ALLELE_ARCHAIC_LIFTOVER=/work/sph-huangj/software/bin/liftOver
+export ALLELE_ARCHAIC_ROOT=/work/sph-huangj/data/gen
+export ALLELE_ATLAS_DIR=/work/sph-huangj/data/annot/allele3/alphagenome/38
+export ALLELE_CHAIN37TO38=/work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz
+export ALLELE_CHAIN38TO37=/work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz
+export ALLELE_COHORT_TABLE=/work/sph-huangj/data/gen/1kg/38/allele3/herv_cohort/herv_cohort_burden.tsv
+export ALLELE_COORDINATES=/work/sph-huangj/analysis/allele3/pca3d/coordinates/all.sscore
+export ALLELE_ERV_JOINED=/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+export ALLELE_EXECUTION_MODE=hpc
+export ALLELE_FASTA=/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+export ALLELE_FASTA37=/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz
+export ALLELE_LD_BLOCK_DIR=/work/sph-huangj/data/LD/block
+export ALLELE_LOW_MAPPABILITY_BED=/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+export ALLELE_MEMORY_LIMIT_GB=64
+export ALLELE_METADATA=/work/sph-huangj/analysis/allele3/pca3d/tables/sample_metadata.tsv
+export ALLELE_PYTHON=/work/sph-huangj/.conda/envs/allele3-evolution/bin/python
+export ALLELE_REPLACE=TRUE
+export ALLELE_SCAN_STORE=/work/sph-huangj/analysis/allele3/gnomad_scan
+export ALLELE_VCF_DIR=/work/sph-huangj/data/annot/allele3/gnomad/sites
+export ANALYSIS_ROOT=/work/sph-huangj/analysis
+export DIR_ANALYSIS=/work/sph-huangj/analysis
+export DIR_ANNOT=/work/sph-huangj/data/annot
+export DIR_BIG=/work/sph-huangj/data
+export DIR_DAT=/work/sph-huangj
+export DIR_DATA=/work/sph-huangj/data
+export DIR_FILES=/work/sph-huangj/files
+export DIR_GEN=/work/sph-huangj/data/gen
+export DIR_GWAS=/work/sph-huangj/data/gwas
+export DIR_HOME=/work/sph-huangj
+export DIR_LD=/work/sph-huangj/data/LD
+export DIR_METAG=/work/sph-huangj/data/metag
+
+(... more ...)
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   117.00 sec.
+    Max Memory :                                 1080 MB
+    Average Memory :                             623.38 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               64456.00 MB
+    Max Swap :                                   -
+    Max Processes :                              11
+    Max Threads :                                14
+    Run time :                                   78 sec.
+    Turnaround time :                            80 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/allele3/logs/jobs/gnomad_scan/run3/3_gnomad_scan_sh.err> for stderr output of this job.
+

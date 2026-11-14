@@ -1,0 +1,31 @@
+scope	layer_index	start_bp	end_bp	display_bp	n	cohort	label
+primary	-1	0	0	0	503	modern	Modern
+primary	0	0	1000	500.0	2460	ancient	0–1 ka
+primary	1	1000	2000	1500.0	4569	ancient	1–2 ka
+primary	2	2000	3000	2500.0	2715	ancient	2–3 ka
+primary	3	3000	4000	3500.0	1289	ancient	3–4 ka
+primary	4	4000	5000	4500.0	1024	ancient	4–5 ka
+primary	5	5000	6000	5500.0	678	ancient	5–6 ka
+primary	6	6000	7000	6500.0	454	ancient	6–7 ka
+primary	7	7000	8000	7500.0	559	ancient	7–8 ka
+primary	8	8000	9000	8500.0	101	ancient	8–9 ka
+primary	9	9000	10000	9500.0	42	ancient	9–10 ka
+all	-1	0	0	0	503	modern	Modern
+all	0	0	1000	500.0	2460	ancient	0–1 ka
+all	1	1000	2000	1500.0	4569	ancient	1–2 ka
+all	2	2000	3000	2500.0	2715	ancient	2–3 ka
+all	3	3000	4000	3500.0	1289	ancient	3–4 ka
+all	4	4000	5000	4500.0	1024	ancient	4–5 ka
+all	5	5000	6000	5500.0	678	ancient	5–6 ka
+all	6	6000	7000	6500.0	454	ancient	6–7 ka
+all	7	7000	8000	7500.0	559	ancient	7–8 ka
+all	8	8000	9000	8500.0	101	ancient	8–9 ka
+all	9	9000	10000	9500.0	42	ancient	9–10 ka
+all	10	10000	11000	10500.0	28	ancient	10–11 ka
+all	11	11000	12000	11500.0	3	ancient	11–12 ka
+all	12	12000	13000	12500.0	4	ancient	12–13 ka
+all	13	13000	14000	13500.0	5	ancient	13–14 ka
+all	14	14000	15000	14500.0	1	ancient	14–15 ka
+all	15	15000	16000	15500.0	2	ancient	15–16 ka
+all	17	17000	18000	17500.0	1	ancient	17–18 ka
+all	18	18000	19000	18500.0	1	ancient	18–19 ka

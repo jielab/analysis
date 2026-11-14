@@ -1,0 +1,401 @@
+Private RAM preload index=1551.73 GiB; workers requested=1, effective=1; scheduler accounting=conservative
+[Wxiamen/SRR39271681] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 100,000 fragments; elapsed=1210.3s
+[Wxiamen/SRR39271681] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 200,000 fragments; elapsed=1212.2s
+[Wxiamen/SRR39271681] query classified 300,000 fragments; elapsed=1213.9s
+[Wxiamen/SRR39271681] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 400,000 fragments; elapsed=1215.5s
+[Wxiamen/SRR39271681] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 500,000 fragments; elapsed=1217.5s
+[Wxiamen/SRR39271681] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 600,000 fragments; elapsed=1220.1s
+[Wxiamen/SRR39271681] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 700,000 fragments; elapsed=1222.6s
+[Wxiamen/SRR39271681] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 800,000 fragments; elapsed=1225.1s
+[Wxiamen/SRR39271681] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 900,000 fragments; elapsed=1227.8s
+[Wxiamen/SRR39271681] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 1,000,000 fragments; elapsed=1230.4s
+[Wxiamen/SRR39271681] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271681] query classified 1,100,000 fragments; elapsed=1233.1s
+[Wxiamen/SRR39271681] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271681] query classified 1,200,000 fragments; elapsed=1235.8s
+[Wxiamen/SRR39271681] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271681] query classified 1,300,000 fragments; elapsed=1238.3s
+[Wxiamen/SRR39271681] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271681] query classified 1,400,000 fragments; elapsed=1240.9s
+[Wxiamen/SRR39271681] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271681] query classified 1,500,000 fragments; elapsed=1243.6s
+[Wxiamen/SRR39271681] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271681] query classified 1,600,000 fragments; elapsed=1246.2s
+[Wxiamen/SRR39271681] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271681] query classified 1,700,000 fragments; elapsed=1248.9s
+[Wxiamen/SRR39271681] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271681] query classified 1,800,000 fragments; elapsed=1251.6s
+[Wxiamen/SRR39271681] query streamed 1,900,000 fragments
+[Wxiamen/SRR39271681] query classified 1,900,000 fragments; elapsed=1254.2s
+[Wxiamen/SRR39271681] query streamed 2,000,000 fragments
+[Wxiamen/SRR39271681] query classified 2,000,000 fragments; elapsed=1256.9s
+[Wxiamen/SRR39271681] query streamed 2,100,000 fragments
+[Wxiamen/SRR39271681] query classified 2,100,000 fragments; elapsed=1259.7s
+[Wxiamen/SRR39271681] query streamed 2,200,000 fragments
+[Wxiamen/SRR39271681] query classified 2,200,000 fragments; elapsed=1262.3s
+[Wxiamen/SRR39271681] query streamed 2,300,000 fragments
+[Wxiamen/SRR39271681] query classified 2,300,000 fragments; elapsed=1265.0s
+[Wxiamen/SRR39271681] query streamed 2,400,000 fragments
+[Wxiamen/SRR39271681] query classified 2,400,000 fragments; elapsed=1267.7s
+[Wxiamen/SRR39271681] query streamed 2,500,000 fragments
+[Wxiamen/SRR39271681] query classified 2,500,000 fragments; elapsed=1270.2s
+[Wxiamen/SRR39271681] query classified 2,600,000 fragments; elapsed=1273.2s
+[Wxiamen/SRR39271682] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 2,700,000 fragments; elapsed=1275.9s
+[Wxiamen/SRR39271682] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 2,800,000 fragments; elapsed=1278.5s
+[Wxiamen/SRR39271682] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 2,900,000 fragments; elapsed=1281.3s
+[Wxiamen/SRR39271682] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 3,000,000 fragments; elapsed=1284.0s
+[Wxiamen/SRR39271682] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 3,100,000 fragments; elapsed=1286.9s
+[Wxiamen/SRR39271682] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 3,200,000 fragments; elapsed=1289.8s
+[Wxiamen/SRR39271682] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 3,300,000 fragments; elapsed=1292.5s
+[Wxiamen/SRR39271682] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 3,400,000 fragments; elapsed=1295.2s
+[Wxiamen/SRR39271682] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 3,500,000 fragments; elapsed=1298.1s
+[Wxiamen/SRR39271682] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 3,600,000 fragments; elapsed=1301.0s
+[Wxiamen/SRR39271682] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271681] query classified 3,700,000 fragments; elapsed=1303.8s
+[Wxiamen/SRR39271682] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271681] query classified 3,800,000 fragments; elapsed=1306.8s
+[Wxiamen/SRR39271682] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271681] query classified 3,900,000 fragments; elapsed=1309.6s
+[Wxiamen/SRR39271682] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271681] query classified 4,000,000 fragments; elapsed=1312.5s
+[Wxiamen/SRR39271682] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271681] query classified 4,100,000 fragments; elapsed=1315.1s
+[Wxiamen/SRR39271682] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271681] query classified 4,200,000 fragments; elapsed=1317.9s
+[Wxiamen/SRR39271682] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271681] query classified 4,300,000 fragments; elapsed=1320.7s
+[Wxiamen/SRR39271682] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271681] query classified 4,400,000 fragments; elapsed=1323.3s
+[Wxiamen/SRR39271682] query streamed 1,900,000 fragments
+[Wxiamen/SRR39271681] query classified 4,500,000 fragments; elapsed=1326.2s
+[Wxiamen/SRR39271681] query classified 4,600,000 fragments; elapsed=1328.9s
+[Wxiamen/SRR39271683] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 4,700,000 fragments; elapsed=1331.6s
+[Wxiamen/SRR39271683] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 4,800,000 fragments; elapsed=1334.2s
+[Wxiamen/SRR39271683] query streamed 300,000 fragments
+[Wxiamen/SRR39271683] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 4,900,000 fragments; elapsed=1337.1s
+[Wxiamen/SRR39271681] query classified 5,000,000 fragments; elapsed=1339.7s
+[Wxiamen/SRR39271683] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 5,100,000 fragments; elapsed=1342.4s
+[Wxiamen/SRR39271683] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 5,200,000 fragments; elapsed=1345.1s
+[Wxiamen/SRR39271683] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 5,300,000 fragments; elapsed=1348.2s
+[Wxiamen/SRR39271684] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 5,400,000 fragments; elapsed=1351.0s
+[Wxiamen/SRR39271684] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 5,500,000 fragments; elapsed=1353.7s
+[Wxiamen/SRR39271684] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 5,600,000 fragments; elapsed=1356.5s
+[Wxiamen/SRR39271684] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 5,700,000 fragments; elapsed=1359.3s
+[Wxiamen/SRR39271684] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 5,800,000 fragments; elapsed=1362.1s
+[Wxiamen/SRR39271684] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 5,900,000 fragments; elapsed=1365.0s
+[Wxiamen/SRR39271684] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 6,000,000 fragments; elapsed=1367.7s
+[Wxiamen/SRR39271684] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 6,100,000 fragments; elapsed=1370.5s
+[Wxiamen/SRR39271684] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 6,200,000 fragments; elapsed=1373.3s
+[Wxiamen/SRR39271684] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 6,300,000 fragments; elapsed=1376.2s
+[Wxiamen/SRR39271684] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271681] query classified 6,400,000 fragments; elapsed=1378.9s
+[Wxiamen/SRR39271684] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271681] query classified 6,500,000 fragments; elapsed=1381.7s
+[Wxiamen/SRR39271685] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 6,600,000 fragments; elapsed=1384.3s
+[Wxiamen/SRR39271685] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 6,700,000 fragments; elapsed=1387.2s
+[Wxiamen/SRR39271685] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 6,800,000 fragments; elapsed=1390.0s
+[Wxiamen/SRR39271685] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 6,900,000 fragments; elapsed=1392.8s
+[Wxiamen/SRR39271685] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 7,000,000 fragments; elapsed=1395.6s
+[Wxiamen/SRR39271685] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 7,100,000 fragments; elapsed=1398.4s
+[Wxiamen/SRR39271685] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 7,200,000 fragments; elapsed=1401.3s
+[Wxiamen/SRR39271685] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 7,300,000 fragments; elapsed=1404.0s
+[Wxiamen/SRR39271685] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 7,400,000 fragments; elapsed=1406.9s
+[Wxiamen/SRR39271685] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 7,500,000 fragments; elapsed=1409.6s
+[Wxiamen/SRR39271685] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271681] query classified 7,600,000 fragments; elapsed=1412.6s
+[Wxiamen/SRR39271685] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271681] query classified 7,700,000 fragments; elapsed=1415.3s
+[Wxiamen/SRR39271685] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271681] query classified 7,800,000 fragments; elapsed=1418.0s
+[Wxiamen/SRR39271686] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 7,900,000 fragments; elapsed=1420.8s
+[Wxiamen/SRR39271686] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 8,000,000 fragments; elapsed=1423.6s
+[Wxiamen/SRR39271686] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 8,100,000 fragments; elapsed=1426.3s
+[Wxiamen/SRR39271686] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 8,200,000 fragments; elapsed=1428.7s
+[Wxiamen/SRR39271686] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 8,300,000 fragments; elapsed=1431.6s
+[Wxiamen/SRR39271686] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 8,400,000 fragments; elapsed=1434.3s
+[Wxiamen/SRR39271686] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 8,500,000 fragments; elapsed=1437.2s
+[Wxiamen/SRR39271686] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 8,600,000 fragments; elapsed=1439.8s
+[Wxiamen/SRR39271686] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 8,700,000 fragments; elapsed=1442.7s
+[Wxiamen/SRR39271686] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 8,800,000 fragments; elapsed=1445.4s
+[Wxiamen/SRR39271687] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 8,900,000 fragments; elapsed=1448.1s
+[Wxiamen/SRR39271687] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 9,000,000 fragments; elapsed=1450.9s
+[Wxiamen/SRR39271687] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 9,100,000 fragments; elapsed=1453.7s
+[Wxiamen/SRR39271687] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 9,200,000 fragments; elapsed=1456.5s
+[Wxiamen/SRR39271687] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 9,300,000 fragments; elapsed=1459.4s
+[Wxiamen/SRR39271687] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 9,400,000 fragments; elapsed=1462.2s
+[Wxiamen/SRR39271687] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 9,500,000 fragments; elapsed=1465.1s
+[Wxiamen/SRR39271687] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 9,600,000 fragments; elapsed=1467.9s
+[Wxiamen/SRR39271687] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 9,700,000 fragments; elapsed=1470.8s
+[Wxiamen/SRR39271687] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 9,800,000 fragments; elapsed=1473.6s
+[Wxiamen/SRR39271687] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271681] query classified 9,900,000 fragments; elapsed=1476.5s
+[Wxiamen/SRR39271687] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271681] query classified 10,000,000 fragments; elapsed=1479.2s
+[Wxiamen/SRR39271687] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271681] query classified 10,100,000 fragments; elapsed=1482.1s
+[Wxiamen/SRR39271687] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271681] query classified 10,200,000 fragments; elapsed=1485.0s
+[Wxiamen/SRR39271687] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271681] query classified 10,300,000 fragments; elapsed=1487.9s
+[Wxiamen/SRR39271687] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271681] query classified 10,400,000 fragments; elapsed=1490.8s
+[Wxiamen/SRR39271687] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271681] query classified 10,500,000 fragments; elapsed=1493.6s
+[Wxiamen/SRR39271687] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271681] query classified 10,600,000 fragments; elapsed=1496.5s
+[Wxiamen/SRR39271687] query streamed 1,900,000 fragments
+[Wxiamen/SRR39271681] query classified 10,700,000 fragments; elapsed=1499.5s
+[Wxiamen/SRR39271687] query streamed 2,000,000 fragments
+[Wxiamen/SRR39271681] query classified 10,800,000 fragments; elapsed=1502.3s
+[Wxiamen/SRR39271687] query streamed 2,100,000 fragments
+[Wxiamen/SRR39271681] query classified 10,900,000 fragments; elapsed=1505.1s
+[Wxiamen/SRR39271681] query classified 11,000,000 fragments; elapsed=1508.0s
+[Wxiamen/SRR39271688] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 11,100,000 fragments; elapsed=1511.0s
+[Wxiamen/SRR39271688] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 11,200,000 fragments; elapsed=1513.6s
+[Wxiamen/SRR39271688] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 11,300,000 fragments; elapsed=1516.5s
+[Wxiamen/SRR39271688] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 11,400,000 fragments; elapsed=1519.3s
+[Wxiamen/SRR39271688] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 11,500,000 fragments; elapsed=1522.1s
+[Wxiamen/SRR39271688] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 11,600,000 fragments; elapsed=1524.9s
+[Wxiamen/SRR39271688] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 11,700,000 fragments; elapsed=1527.7s
+[Wxiamen/SRR39271688] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 11,800,000 fragments; elapsed=1530.5s
+[Wxiamen/SRR39271688] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 11,900,000 fragments; elapsed=1533.3s
+[Wxiamen/SRR39271688] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 12,000,000 fragments; elapsed=1536.1s
+[Wxiamen/SRR39271688] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271681] query classified 12,100,000 fragments; elapsed=1538.7s
+[Wxiamen/SRR39271688] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271681] query classified 12,200,000 fragments; elapsed=1541.5s
+[Wxiamen/SRR39271688] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271681] query classified 12,300,000 fragments; elapsed=1544.3s
+[Wxiamen/SRR39271688] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271681] query classified 12,400,000 fragments; elapsed=1547.1s
+[Wxiamen/SRR39271688] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271681] query classified 12,500,000 fragments; elapsed=1549.9s
+[Wxiamen/SRR39271688] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271681] query classified 12,600,000 fragments; elapsed=1552.8s
+[Wxiamen/SRR39271688] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271681] query classified 12,700,000 fragments; elapsed=1555.6s
+[Wxiamen/SRR39271688] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271681] query classified 12,800,000 fragments; elapsed=1558.5s
+[Wxiamen/SRR39271688] query streamed 1,900,000 fragments
+[Wxiamen/SRR39271681] query classified 12,900,000 fragments; elapsed=1561.5s
+[Wxiamen/SRR39271689] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 13,000,000 fragments; elapsed=1564.3s
+[Wxiamen/SRR39271689] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 13,100,000 fragments; elapsed=1567.2s
+[Wxiamen/SRR39271689] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 13,200,000 fragments; elapsed=1570.1s
+[Wxiamen/SRR39271681] query classified 13,300,000 fragments; elapsed=1572.8s
+[Wxiamen/SRR39271689] query streamed 400,000 fragments
+[Wxiamen/SRR39271689] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 13,400,000 fragments; elapsed=1575.6s
+[Wxiamen/SRR39271689] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 13,500,000 fragments; elapsed=1578.4s
+[Wxiamen/SRR39271689] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 13,600,000 fragments; elapsed=1581.1s
+[Wxiamen/SRR39271689] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 13,700,000 fragments; elapsed=1584.1s
+[Wxiamen/SRR39271689] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 13,800,000 fragments; elapsed=1586.7s
+[Wxiamen/SRR39271689] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 13,900,000 fragments; elapsed=1589.5s
+[Wxiamen/SRR39271689] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271681] query classified 14,000,000 fragments; elapsed=1592.3s
+[Wxiamen/SRR39271689] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271681] query classified 14,100,000 fragments; elapsed=1595.2s
+[Wxiamen/SRR39271689] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271681] query classified 14,200,000 fragments; elapsed=1598.0s
+[Wxiamen/SRR39271689] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271681] query classified 14,300,000 fragments; elapsed=1600.8s
+[Wxiamen/SRR39271689] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271681] query classified 14,400,000 fragments; elapsed=1603.7s
+[Wxiamen/SRR39271689] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271681] query classified 14,500,000 fragments; elapsed=1606.5s
+[Wxiamen/SRR39271689] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271681] query classified 14,600,000 fragments; elapsed=1609.2s
+[Wxiamen/SRR39271689] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271681] query classified 14,700,000 fragments; elapsed=1612.4s
+[Wxiamen/SRR39271690] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 14,800,000 fragments; elapsed=1615.2s
+[Wxiamen/SRR39271690] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 14,900,000 fragments; elapsed=1618.3s
+[Wxiamen/SRR39271690] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 15,000,000 fragments; elapsed=1621.0s
+[Wxiamen/SRR39271690] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 15,100,000 fragments; elapsed=1623.8s
+[Wxiamen/SRR39271690] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 15,200,000 fragments; elapsed=1626.7s
+[Wxiamen/SRR39271690] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 15,300,000 fragments; elapsed=1629.5s
+[Wxiamen/SRR39271690] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 15,400,000 fragments; elapsed=1632.4s
+[Wxiamen/SRR39271690] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 15,500,000 fragments; elapsed=1635.2s
+[Wxiamen/SRR39271690] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 15,600,000 fragments; elapsed=1638.1s
+[Wxiamen/SRR39271690] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 15,700,000 fragments; elapsed=1641.0s
+[Wxiamen/SRR39271690] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271681] query classified 15,800,000 fragments; elapsed=1643.8s
+[Wxiamen/SRR39271690] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271681] query classified 15,900,000 fragments; elapsed=1646.5s
+[Wxiamen/SRR39271690] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271681] query classified 16,000,000 fragments; elapsed=1649.4s
+[Wxiamen/SRR39271690] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271681] query classified 16,100,000 fragments; elapsed=1652.3s
+[Wxiamen/SRR39271690] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271681] query classified 16,200,000 fragments; elapsed=1655.2s
+[Wxiamen/SRR39271681] split 1,000,000/2,568,035
+[Wxiamen/SRR39271681] split 2,000,000/2,568,035
+[Wxiamen/SRR39271681] PASS 2,568,035 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271681
+[Wxiamen/SRR39271682] split 1,000,000/1,963,353
+[Wxiamen/SRR39271682] PASS 1,963,353 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271682
+[Wxiamen/SRR39271683] PASS 702,815 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271683
+[Wxiamen/SRR39271684] split 1,000,000/1,209,887
+[Wxiamen/SRR39271684] PASS 1,209,887 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271684
+[Wxiamen/SRR39271685] split 1,000,000/1,318,821
+[Wxiamen/SRR39271685] PASS 1,318,821 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271685
+[Wxiamen/SRR39271686] split 1,000,000/1,057,648
+[Wxiamen/SRR39271686] PASS 1,057,648 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271686
+[Wxiamen/SRR39271687] split 1,000,000/2,191,880
+[Wxiamen/SRR39271687] split 2,000,000/2,191,880
+[Wxiamen/SRR39271687] PASS 2,191,880 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271687
+[Wxiamen/SRR39271688] split 1,000,000/1,912,572
+[Wxiamen/SRR39271688] PASS 1,912,572 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271688
+[Wxiamen/SRR39271689] split 1,000,000/1,801,117
+[Wxiamen/SRR39271689] PASS 1,801,117 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271689
+[Wxiamen/SRR39271690] split 1,000,000/1,543,277
+[Wxiamen/SRR39271690] PASS 1,543,277 fragments -> /work/sph-huangj/data/metag/species/Wxiamen/SRR39271690
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b03u06s>
+Subject: Job 4404270[1]: <metag_split.Wxiamen[1]%1> in cluster <qmhpc> Done
+
+Job <metag_split.Wxiamen[1]%1> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 20:51:51 2026
+Job was executed on host(s) <24*b03u06s>, in queue <v4-3t>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 23:25:33 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/metag> was used as the working directory.
+Started at Thu Nov 12 23:25:33 2026
+Terminated at Fri Nov 13 00:12:20 2026
+Results reported at Fri Nov 13 00:12:20 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J "metag_split.Wxiamen[1]%1"
+#BSUB -q v3-6t
+#BSUB -n 24
+#BSUB -W 120:00
+#BSUB -R "span[hosts=1] rusage[mem=1792GB/host]"
+#BSUB -o /work/sph-huangj/analysis/metag/logs/split/run2/split.1.%I.out
+#BSUB -e /work/sph-huangj/analysis/metag/logs/split/run2/split.1.%I.err
+
+set -euo pipefail
+export submit="${submit:-hpc}" WORKFLOW_WORKER=1
+export OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 BLIS_NUM_THREADS=1
+export VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1
+cd -- /work/sph-huangj/analysis/metag/releases/0fef49ee3e234ea0199c839dd5a60cf84fd54f4d0ff4d85f7f7f7f0fc11e9eff/metag
+exec bash /work/sph-huangj/analysis/metag/releases/0fef49ee3e234ea0199c839dd5a60cf84fd54f4d0ff4d85f7f7f7f0fc11e9eff/metag/f/entry.sh parallel-split-worker --config /work/sph-huangj/analysis/metag/jobs/split/run2/config.json --job-plan /work/sph-huangj/analysis/metag/jobs/split/run2/jobs.json --batch-id "${LSB_JOBINDEX:?}" --offset 0
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3484.73 sec.
+    Max Memory :                                 1589836 MB
+    Average Memory :                             600824.81 MB
+    Total Requested Memory :                     1835008.00 MB
+    Delta Memory :                               245172.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              8
+    Max Threads :                                32
+    Run time :                                   2806 sec.
+    Turnaround time :                            12029 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/metag/logs/split/run2/split.1.1.err> for stderr output of this job.
+

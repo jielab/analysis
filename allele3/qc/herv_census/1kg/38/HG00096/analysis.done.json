@@ -1,0 +1,25 @@
+{
+  "completed": "2026-11-13T04:39:41.984115+00:00",
+  "chunks": 1761,
+  "results_sha256": "aecb73c69fe0dedf8f883d4b6298ab9c42d895ce4222c2e4530f10cf754e5908",
+  "settings": {
+    "method": "vcf-chunk-repeatmasker-v1",
+    "sample": "HG00096",
+    "fasta_sha256": "3006daf69d79db2ec6796937975015986f2114d1da145e5a838304945fe34d57",
+    "library": "/work/sph-huangj/data/annot/allele3/dfam_4.0_human/human.curated.fa",
+    "library_sha256": "a77b411966aadc715c808e89db11f1eb308f568576b1a179ea1639f7a742371e",
+    "repeatmasker": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/RepeatMasker",
+    "repeatmasker_sha256": "93f23892013867577e5cb0fd78263c212dea38399aae2c12d9403344131c6183",
+    "chunk_bp": 5000000,
+    "halo": 20000,
+    "uncertain_flank": 1000,
+    "parameters": [
+      "-e",
+      "rmblast",
+      "-pa",
+      "1"
+    ],
+    "code_sha256": "27f4ddf0fd59dbd4e03ac468bc9d513d58f09cebbd646d8d073d549904219e2c",
+    "rmblast_version": "rmblastn: 2.17.1+\n Package: blast 2.17.0, build Jul 22 2026 12:38:07"
+  }
+}

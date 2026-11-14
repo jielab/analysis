@@ -1,0 +1,6 @@
+# Source: ckm/logs/run3/logs/ckm.4407789.err
+# Snapshot UTC: 2026-11-14T00:42:34Z
+# Source bytes: 98
+# Capture: full text; source may still be running.
+
+Rscript not found: /work/sph-huangj/.conda/envs/ckm/bin/Rscript. Run install.sh or use --rscript.

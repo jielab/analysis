@@ -1,0 +1,23 @@
+{
+  "schema": "allele3-batch-plan-1",
+  "plan_identity": "c2164f6c207eb1e667f9b5d3d13a85333a377d31a220f99f60a609d14230a9ac",
+  "name": "2_herv_census_sh",
+  "status": "succeeded",
+  "started_at": "2026-11-12T12:22:00.504392+00:00",
+  "lsf_job_id": "4404178",
+  "argv": [
+    "bash",
+    "/work/sph-huangj/scripts/allele3/2.herv_census.sh",
+    "--out",
+    "/work/sph-huangj/analysis/allele3/herv_census/1kg/38/HG00096",
+    "--python",
+    "/work/sph-huangj/.conda/envs/allele3-evolution/bin/python",
+    "--memory-limit-gb",
+    "160"
+  ],
+  "cwd": "/work/sph-huangj/scripts/allele3",
+  "returncode": 0,
+  "outputs": [],
+  "output_verification": "unavailable_no_declared_outputs",
+  "finished_at": "2026-11-13T04:40:43.615208+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "allele3-batch-plan-1",
+  "plan_identity": "c2164f6c207eb1e667f9b5d3d13a85333a377d31a220f99f60a609d14230a9ac",
+  "mode": "hpc",
+  "created_at": "2026-11-12T12:21:56.801113+00:00",
+  "jobs": {
+    "2_herv_census_sh": {
+      "name": "2_herv_census_sh",
+      "status": "submitted",
+      "job_id": 4404178,
+      "dependency": "",
+      "argv": [
+        "bsub"
+      ],
+      "command_sha256": "d6160fb1c72300b985fa57a8a216285bf2b789c60ec95fa2f21e7b048d6c6895",
+      "attempt": 1,
+      "started_at": "2026-11-12T12:21:56.801145+00:00",
+      "history": [],
+      "returncode": 0,
+      "stdout": "Job <4404178> is submitted to queue <33>.\n",
+      "stderr": "",
+      "finished_at": "2026-11-12T12:21:56.858362+00:00"
+    }
+  },
+  "updated_at": "2026-11-12T12:21:56.858376+00:00"
+}

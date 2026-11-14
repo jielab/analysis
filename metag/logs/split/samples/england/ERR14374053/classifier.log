@@ -1,0 +1,17 @@
+COMMAND ["/work/sph-huangj/software/metag_parallel/metag_union/releases/e3f893d3a2aee77a/bin/metag_classify", "-H", "/work/sph-huangj/data/annot/metag/lib/index/microbes/hash.k2d", "-t", "/work/sph-huangj/data/annot/metag/lib/index/taxo.k2d", "-o", "/work/sph-huangj/data/annot/metag/lib/index/opts.k2d", "-p", "22", "-T", "0.1", "-g", "2", "-Q", "0", "--metag-hashes", "/work/sph-huangj/data/annot/metag/lib/index/hashes.txt", "-S"]
+OMP_NUM_THREADS 22
+Loading compatible category indexes (RAM preload)...
+METAG_INDEX_BEGIN mode=ram bytes=101819298408 path=/work/sph-huangj/data/annot/metag/lib/index/microbes/hash.k2d
+METAG_INDEX_READY seconds=82.8739 path=/work/sph-huangj/data/annot/metag/lib/index/microbes/hash.k2d
+METAG_INDEX_BEGIN mode=ram bytes=664467780 path=/work/sph-huangj/data/annot/metag/lib/index/viruses/hash.k2d
+METAG_INDEX_READY seconds=1.22704 path=/work/sph-huangj/data/annot/metag/lib/index/viruses/hash.k2d
+METAG_INDEX_BEGIN mode=ram bytes=148288577860 path=/work/sph-huangj/data/annot/metag/lib/index/plants/hash.k2d
+METAG_INDEX_READY seconds=150.136 path=/work/sph-huangj/data/annot/metag/lib/index/plants/hash.k2d
+METAG_INDEX_BEGIN mode=ram bytes=283566953356 path=/work/sph-huangj/data/annot/metag/lib/index/invertebrates/hash.k2d
+METAG_INDEX_READY seconds=275.835 path=/work/sph-huangj/data/annot/metag/lib/index/invertebrates/hash.k2d
+METAG_INDEX_BEGIN mode=ram bytes=1131809205424 path=/work/sph-huangj/data/annot/metag/lib/index/vertebrates/hash.k2d
+METAG_INDEX_READY seconds=1301.19 path=/work/sph-huangj/data/annot/metag/lib/index/vertebrates/hash.k2d
+ 5 categories; one FASTQ scan; global minimizer LCA.
+392914656 sequences (117874.40 Mbp) processed in 14117.173s (1669.9 Kseq/m, 500.98 Mbp/m).
+  56479469 sequences classified (14.37%)
+  336435187 sequences unclassified (85.63%)

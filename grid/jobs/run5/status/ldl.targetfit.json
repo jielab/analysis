@@ -1,0 +1,11 @@
+{
+  "completion_contract": "process_exit_only",
+  "ended": "2026-11-12T22:58:46.451363+00:00",
+  "job_id": "4404294",
+  "key": "ldl.targetfit",
+  "pid": 1427370,
+  "plan_sha256": "ec6bddd02b8a447e6820414f10ab17a8efafc91eb49a484725c31208e940484b",
+  "returncode": 0,
+  "started": "2026-11-12T22:57:49.908184+00:00",
+  "status": "DONE"
+}

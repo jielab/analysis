@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "metadata_path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/metadata/sample_metadata.tsv",
+  "qc_path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/metadata/metadata_qc.tsv",
+  "manifest_path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/metadata/metadata_qc.json",
+  "inputs": {
+    "psam": {
+      "path": "/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes.psam",
+      "size": 221391,
+      "sha256": "4af9d4ebdf99a7d0493dd60d975617687217935a662f209736f367eb3fb3d80b"
+    },
+    "supplement_xlsx": {
+      "path": "/work/sph-huangj/data/gen/ancient/41586_2026_10358_MOESM3_ESM.xlsx",
+      "size": 5365772,
+      "sha256": "0f1ffa445752d37c2df5a2686b972a9d6092c6b8e1e3767c7132702819a1a0c1"
+    },
+    "qpadm": null
+  },
+  "sheet": "STable1(22274.individuals)",
+  "header_row_1based": 2,
+  "source_columns": [
+    "Genetic version identifier",
+    "Unique individual identifier",
+    "All library components",
+    "Libraries with newly reported data",
+    "Political entity",
+    "Latitute",
+    "Longitude",
+    "Publication if some or all data from this individuals was previously reported",
+    "Digital Object Identifier (DOI) for publication if some or all data from this individual was previously reported",
+    "Data source",
+    "Contributing data types",
+    "Mean coverage on 1.15M autosomal targets",
+    "Date mean in BP in years before 1950 CE",
+    "Broad geographic region (N=North, C=Central, SW=Southwest, SE=Southeast, E=East)",
+    "In unrelated set?"
+  ],
+  "counts": {
+    "samples_total": 16339,
+    "ancient_total": 15836,
+    "modern_total": 503,
+    "included": 14439,
+    "excluded": 1900,
+    "ancient_included": 13936,
+    "modern_included": 503,
+    "ancient_excluded": 1900,
+    "modern_excluded": 0,
+    "modern_without_region": 0,
+    "qpadm_valid": 0,
+    "qpadm_valid_included": 0
+  },
+  "exclusions": {
+    "related_in_official_table": 1900
+  },
+  "fields": [
+    "sample_id",
+    "cohort",
+    "age_bp",
+    "include",
+    "stratum",
+    "region",
+    "individual_id",
+    "unrelated",
+    "data_source",
+    "data_types",
+    "target_coverage",
+    "iqs",
+    "sex_psam",
+    "exclusion_reasons",
+    "qpadm_model",
+    "qpadm_valid",
+    "qpadm_reason",
+    "qpadm_left_or_right",
+    "qpadm_pval"
+  ],
+  "supplement_rows_not_in_psam": 5935,
+  "qpadm_rows_not_in_psam": 0,
+  "ancestry_model": null,
+  "iqs_column": null,
+  "qc_rule": "Official unrelated flag equals 1; ancient region required; explicit IQS > 0.9 only if a named IQS column exists.",
+  "qpadm_rule": "pval > 0.05, all proportions finite and in [0,1], Left or Right == No. No clipping. Invalid qpAdm never excludes geographic trajectories.",
+  "sample_order": "exact_psam_order",
+  "date_units": "years BP before 1950 CE; point estimate",
+  "sources": {
+    "paper": "https://doi.org/10.1038/s41586-026-10358-1",
+    "dataset": "https://doi.org/10.7910/DVN/7RVV9N",
+    "readme": "https://dataverse.harvard.edu/api/access/datafile/13596811",
+    "public_supplement": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10358-1/MediaObjects/41586_2026_10358_MOESM3_ESM.xlsx"
+  },
+  "limitations": [
+    "Public STable1 supplies point dates, not individual date distributions; geographic strata do not fully control ancestry or migration.",
+    "Target coverage is mean depth on 1.15M capture targets, not genome-wide depth or IQS.",
+    "The public released dataset contains ancient samples and EUR1KG controls; the original study also used 5935 UK Biobank samples absent from this release.",
+    "Current public STable1 has no IQS column. Upstream study sample QC included IQS > 0.9, but individual values cannot be independently rechecked here.",
+    "qpAdm reference-role rows are preserved and flagged; composition estimates are model-specific and never hard ancestry labels."
+  ]
+}

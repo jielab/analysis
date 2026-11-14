@@ -1,0 +1,738 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/grid.sh radius_twins --traits t2dm --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml --device cpu --threads 8
+[GRID ABM FINAL] support cpu: 512/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 1,024/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 1,536/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 2,048/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 2,560/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 3,072/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 3,584/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 4,096/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 4,608/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 5,120/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 5,632/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 6,144/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 6,656/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 7,168/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 7,680/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 8,192/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 8,704/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 9,216/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 9,728/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 10,240/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 10,752/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 11,264/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 11,776/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 12,288/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 12,800/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 13,312/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 13,824/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 14,336/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 14,848/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 15,360/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 15,872/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 16,384/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 16,896/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 17,408/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 17,920/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 18,432/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 18,944/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 19,456/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 19,968/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 20,480/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 20,992/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 21,504/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 22,016/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 22,528/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 23,040/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 23,552/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 24,064/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 24,576/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 25,088/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 25,600/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 26,112/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 26,624/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 27,136/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 27,648/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 28,160/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 28,672/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 29,184/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 29,696/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 30,144/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 30,592/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 31,104/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 31,616/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 32,128/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 32,640/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 33,152/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 33,600/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 34,048/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 34,496/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 35,008/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 35,520/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 36,032/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 36,480/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 36,928/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 37,376/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 37,824/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 38,336/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 38,848/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 39,360/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 39,872/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 40,384/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 40,896/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 41,408/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 41,920/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 42,432/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 42,944/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 43,456/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 43,968/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 44,480/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 44,992/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 45,504/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 46,016/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 46,528/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 47,040/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 47,552/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 48,064/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM FINAL] support cpu: 48,569/48,569 queries; 194,804 donors; resident_bank=False
+[GRID ABM] t2dm: radius=1.33187; frozen geometry reused
+[GRID ABM] cpu: 512/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 1,024/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 1,536/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 2,048/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 2,560/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 3,072/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 3,584/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 4,096/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 4,608/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 5,120/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 5,632/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 6,144/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 6,656/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 7,168/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 7,680/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 8,192/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 8,704/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 9,216/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 9,728/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 10,240/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 10,752/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 11,264/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 11,776/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 12,288/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 12,800/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 13,312/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 13,824/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 14,336/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 14,848/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 15,360/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 15,872/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 16,384/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 16,896/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 17,408/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 17,920/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 18,432/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 18,944/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 19,456/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 19,968/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 20,480/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 20,992/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 21,504/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 22,016/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 22,528/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 23,040/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 23,552/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 24,064/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 24,576/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 25,088/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 25,600/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 26,112/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 26,624/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 27,136/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 27,648/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 28,160/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 28,672/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 29,184/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 29,696/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 30,208/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 30,720/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 31,232/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 31,744/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 32,256/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 32,768/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 33,280/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 33,792/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 34,304/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 34,816/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 35,328/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 35,840/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 36,352/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 36,864/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 37,376/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 37,888/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 38,400/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 38,912/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 39,424/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 39,936/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 40,448/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 40,960/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 41,472/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 41,984/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 42,496/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 43,008/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 43,520/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 43,968/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 44,416/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 44,864/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 45,312/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 45,760/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 46,208/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 46,656/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 47,104/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 47,552/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 48,000/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 48,448/48,569 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 512/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 1,024/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 1,536/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 2,048/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 2,560/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 3,072/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 3,584/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 4,096/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 4,608/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 5,120/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 5,632/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 6,144/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 6,656/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 7,168/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 7,680/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 8,192/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 8,704/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 9,216/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 9,728/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 10,240/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 10,752/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 11,264/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 11,776/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 12,288/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 12,800/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 13,312/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 13,824/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 14,336/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 14,848/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 15,360/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 15,872/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 16,384/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 16,896/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 17,408/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 17,920/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 18,432/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 18,944/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 19,456/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 19,968/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 20,480/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 20,992/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 21,504/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 22,016/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 22,528/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 23,040/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 23,552/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 24,064/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 24,576/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 25,088/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 25,600/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 26,112/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 26,624/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 27,136/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 27,648/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 28,160/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 28,672/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 29,184/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 29,696/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 30,208/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 30,720/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 31,232/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 31,744/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 32,256/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 32,832/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 33,344/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 33,856/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 34,368/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 34,944/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 35,456/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 35,968/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 36,480/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 36,992/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 37,504/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 38,016/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 38,528/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 39,040/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 39,552/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 40,064/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 40,576/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 41,088/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 41,600/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 42,112/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 42,624/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 43,136/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 43,648/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 44,160/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 44,672/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 45,184/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 45,696/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 46,208/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 46,720/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 47,232/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 47,744/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 48,256/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 48,768/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 49,280/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 49,792/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 50,304/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 50,816/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 51,328/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 51,840/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 52,352/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 52,864/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 53,376/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 53,888/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 54,400/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 54,912/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 55,424/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 55,936/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 56,448/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 56,960/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 57,472/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 57,984/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 58,496/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 59,008/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 59,520/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 60,032/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 60,544/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 61,056/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 61,568/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 62,080/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 62,592/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 63,104/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 63,616/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 64,128/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 64,640/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 65,152/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 65,664/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 66,176/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 66,688/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 67,200/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 67,712/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 68,224/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 68,736/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 69,248/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 69,760/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 70,272/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 70,784/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 71,296/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 71,808/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 72,320/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 72,832/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 73,344/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 73,856/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 74,368/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 74,880/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 75,392/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 75,904/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 76,416/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 76,928/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 77,440/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 77,952/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 78,464/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 78,976/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 79,488/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 80,000/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 80,512/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 81,024/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 81,536/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 82,048/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 82,560/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 83,072/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 83,584/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 84,096/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 84,608/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 85,120/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 85,632/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 86,144/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 86,656/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 87,168/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 87,680/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 88,192/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 88,704/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 89,216/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 89,728/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 90,240/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 90,752/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 91,264/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 91,776/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 92,288/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 92,800/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 93,312/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 93,824/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 94,336/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 94,848/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 95,360/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 95,872/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 96,384/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 96,896/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 97,408/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 97,920/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 98,432/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 98,944/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 99,456/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 99,968/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 100,480/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 100,992/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 101,504/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 102,016/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 102,528/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 103,040/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 103,552/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 104,064/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 104,576/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 105,088/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 105,600/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 106,112/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 106,624/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 107,136/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 107,648/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 108,160/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 108,672/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 109,184/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 109,696/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 110,208/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 110,720/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 111,232/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 111,744/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 112,256/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 112,768/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 113,280/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 113,792/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 114,304/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 114,816/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 115,328/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 115,840/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 116,352/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 116,864/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 117,376/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 117,888/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 118,400/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 118,912/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 119,424/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 119,936/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 120,448/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 120,960/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 121,472/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 121,984/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 122,496/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 123,008/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 123,520/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 124,032/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 124,544/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 125,056/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 125,568/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 126,080/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 126,592/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 127,104/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 127,616/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 128,128/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 128,640/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 129,152/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 129,664/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 130,176/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 130,688/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 131,200/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 131,712/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 132,224/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 132,736/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 133,248/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 133,760/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 134,272/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 134,784/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 135,296/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 135,808/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 136,320/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 136,832/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 137,344/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 137,856/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 138,368/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 138,880/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 139,392/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 139,904/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 140,416/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 140,928/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 141,440/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 141,952/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 142,464/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 142,976/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 143,488/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 144,000/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 144,512/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 145,024/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 145,536/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 146,048/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 146,560/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 147,072/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 147,584/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 148,096/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 148,608/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 149,120/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 149,632/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 150,144/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 150,656/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 151,168/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 151,680/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 152,192/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 152,704/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 153,216/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 153,728/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 154,240/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 154,752/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 155,264/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 155,776/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 156,288/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 156,800/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 157,312/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 157,824/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 158,336/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 158,848/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 159,360/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 159,872/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 160,384/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 160,896/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 161,408/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 161,920/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 162,432/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 162,944/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 163,456/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 163,968/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 164,480/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 164,992/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 165,504/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 166,016/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 166,528/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 167,040/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 167,552/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 168,064/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 168,576/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 169,088/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 169,600/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 170,112/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 170,624/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 171,136/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 171,648/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 172,160/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 172,672/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 173,184/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 173,696/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 174,208/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 174,720/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 175,232/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 175,744/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 176,256/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 176,768/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 177,280/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 177,792/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 178,304/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 178,816/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 179,328/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 179,840/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 180,352/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 180,864/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 181,376/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 181,888/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 182,400/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 182,912/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 183,424/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 183,936/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 184,448/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 184,960/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 185,472/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 185,984/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 186,496/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 187,008/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 187,520/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 188,032/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 188,544/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 189,056/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 189,568/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 190,080/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 190,592/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 191,104/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 191,616/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 192,128/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 192,640/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 193,152/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 193,664/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 194,176/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 194,688/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 195,200/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 195,712/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 196,224/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 196,736/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 197,248/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 197,760/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 198,272/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 198,784/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 199,296/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 199,808/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 200,320/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 200,832/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 201,344/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 201,856/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 202,368/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 202,880/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 203,392/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 203,904/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 204,416/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 204,928/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 205,440/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 205,952/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 206,464/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 206,976/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 207,488/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 208,000/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 208,512/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 209,024/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 209,536/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 210,048/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 210,560/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 211,072/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 211,584/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 212,096/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 212,608/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 213,120/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 213,632/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 214,144/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 214,656/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 215,168/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 215,680/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 216,192/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 216,704/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 217,216/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 217,728/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 218,240/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 218,752/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 219,136/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 219,520/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 219,904/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 220,288/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 220,672/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 221,056/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 221,440/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 221,888/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 222,336/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 222,784/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 223,168/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 223,616/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 224,064/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 224,512/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 224,896/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 225,280/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 225,664/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 226,048/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 226,432/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 226,880/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 227,328/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 227,776/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 228,224/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 228,672/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 229,120/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 229,568/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 230,016/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 230,464/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 230,848/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 231,296/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 231,744/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 232,192/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 232,640/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 233,088/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 233,472/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 233,920/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 234,368/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 234,752/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 235,200/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 235,584/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 235,968/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 236,416/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 236,864/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 237,312/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 237,760/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 238,208/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 238,656/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 239,104/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 239,552/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 240,000/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 240,448/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 240,896/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 241,344/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 241,792/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 242,240/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 242,688/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] cpu: 243,136/243,372 queries; 194,804 donors; all in-radius outcomes counted
+[GRID ABM] t2dm: complete donor memberships and predictions frozen before evaluation
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u27a>
+Subject: Job 4406339: <grid.t2dm.radius_twins> in cluster <qmhpc> Done
+
+Job <grid.t2dm.radius_twins> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 09:44:53 2026
+Job was executed on host(s) <48*b04u27a>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 13:25:24 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Fri Nov 13 13:25:24 2026
+Terminated at Fri Nov 13 22:32:51 2026
+Results reported at Fri Nov 13 22:32:51 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.t2dm.radius_twins
+#BSUB -q 38
+#BSUB -n 48
+#BSUB -R "span[hosts=1] rusage[mem=256GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run11/logs/t2dm.abm.cpu_radius_twins.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run11/logs/t2dm.abm.cpu_radius_twins.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 48 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: t2dm.abm.cpu_geometry
+# Scientific command: bash /work/sph-huangj/scripts/grid/grid.sh radius_twins --traits t2dm --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml --device cpu --threads 8
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run11/plan.json --key t2dm.abm.cpu_radius_twins
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   246312.77 sec.
+    Max Memory :                                 948 MB
+    Average Memory :                             594.32 MB
+    Total Requested Memory :                     262144.00 MB
+    Delta Memory :                               261196.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              4
+    Max Threads :                                13
+    Run time :                                   32850 sec.
+    Turnaround time :                            46078 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run11/logs/t2dm.abm.cpu_radius_twins.4406339.err> for stderr output of this job.
+

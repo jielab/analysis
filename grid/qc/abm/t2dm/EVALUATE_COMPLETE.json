@@ -1,0 +1,23 @@
+{
+  "artifacts": {
+    "_LOCAL_ONLY/calibration.block_examples.tsv.gz": 44544,
+    "_LOCAL_ONLY/calibration.counterexamples.tsv.gz": 5239,
+    "_LOCAL_ONLY/calibration.reference_examples.tsv.gz": 3821,
+    "_LOCAL_ONLY/test.block_examples.tsv.gz": 42983,
+    "_LOCAL_ONLY/test.counterexamples.tsv.gz": 4762,
+    "_LOCAL_ONLY/test.reference_examples.tsv.gz": 3608,
+    "ancestry_audit.tsv": 1731,
+    "performance.tsv": 3346,
+    "report.html": 19808,
+    "risk_coverage.png": 124792,
+    "risk_coverage.tsv": 4758
+  },
+  "details": {
+    "truth_attached_after_frozen_predictions": true,
+    "validation_status": "exploratory_previously_inspected_test"
+  },
+  "schema_version": "grid.abm.1",
+  "stage": "evaluate",
+  "status": "complete",
+  "version": "20261112.1"
+}

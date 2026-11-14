@@ -1,0 +1,26 @@
+RepeatMasker version 4.2.4
+Search Engine: NCBI/RMBLAST [ 2.17.1+ ]
+
+Using FamDB: /work/sph-huangj/.conda/envs/allele3-evolution/share/famdb-3.0.0
+  Title    : Dfam
+  Version  : 4.0
+  Date     : 2026-05-22
+  Families : 30,659
+
+Using Custom Repeat Library: /work/sph-huangj/data/annot/allele3/dfam_4.0_human/human.curated.fa
+
+
+analyzing file /tmp/herv-preflight-gcqjmtbt/check.fa
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 1 of 1
+identifying matches to human.curated.fa sequences in batch 1 of 1
+
+
+ProcessRepeats: Adjudicating alignments
+
+ProcessRepeats: Masking sequences
+
+ProcessRepeats: Generating table output
+
+done

@@ -1,0 +1,65 @@
+# Source: ckm/logs/run3/logs/ckm.4407789.out
+# Snapshot UTC: 2026-11-14T00:42:34Z
+# Source bytes: 2339
+# Capture: full text; source may still be running.
+
+[EXEC] bash /work/sph-huangj/scripts/ckm/1.phe.sh
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b07u09a>
+Subject: Job 4407789: <ckm.ckm> in cluster <qmhpc> Exited
+
+Job <ckm.ckm> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 22:19:07 2026
+Job was executed on host(s) <40*b07u09a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 22:19:09 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/ckm> was used as the working directory.
+Started at Fri Nov 13 22:19:09 2026
+Terminated at Fri Nov 13 22:19:13 2026
+Results reported at Fri Nov 13 22:19:13 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J ckm.ckm
+#BSUB -q 33
+#BSUB -n 40
+#BSUB -R "span[hosts=1] rusage[mem=160GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/ckm/logs/run3/logs/ckm.%J.out
+#BSUB -e /work/sph-huangj/analysis/ckm/logs/run3/logs/ckm.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 40 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/ckm/1.phe.sh
+exec python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/ckm/logs/run3/plan.json --key ckm
+
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.20 sec.
+    Max Memory :                                 27 MB
+    Average Memory :                             26.33 MB
+    Total Requested Memory :                     163840.00 MB
+    Delta Memory :                               163813.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   4 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/ckm/logs/run3/logs/ckm.4407789.err> for stderr output of this job.
+

@@ -1,0 +1,29 @@
+[allocation] LSF job=4404568 cores=20 budget=64 GiB; scheduler-controlled worker
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 775, in <module>
+    return 0
+             
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 759, in main
+    def main(argv=None):
+                       ^^
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 528, in worker
+    try: return _worker_payload(frozen_plan,job_id,out)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 504, in _worker_payload
+    process=subprocess.run(job["argv"],cwd=job["cwd"],env=environment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 1201, in communicate
+    self.wait()
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2053, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2011, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,19 @@
+METRIC	VALUE	SCOPE
+summary_only	True	reported-summary feasibility audit
+signed_matrix_available	False	reported-summary feasibility audit
+priority_cis_proteins	0	reported-summary feasibility audit
+priority_cis_unique_coding_ids	0	reported-summary feasibility audit
+priority_cis_with_ms	0	reported-summary feasibility audit
+primary_strict_cis_screen_proteins	0	reported-summary feasibility audit
+cross_platform_strict_trans_regions	25	reported-summary feasibility audit
+cross_platform_trans_targets	20	reported-summary feasibility audit
+cross_platform_trans_bins_1mb	18	reported-summary feasibility audit
+cross_platform_trans_blocks_5mb	16	reported-summary feasibility audit
+cross_platform_trans_targets_3plus_regions	0	reported-summary feasibility audit
+cross_platform_trans_top5_bin_edges	12	reported-summary feasibility audit
+cross_platform_trans_top5_bin_fraction	0.48	reported-summary feasibility audit
+cis_and_trans_priority_intersection	0	reported-summary feasibility audit
+signed_replicated_edges	not_estimated	reported-summary feasibility audit
+independent_ld_loci	not_estimated	reported-summary feasibility audit
+observed_matrix_cells	not_estimated	reported-summary feasibility audit
+observed_matrix_density	not_estimated	reported-summary feasibility audit

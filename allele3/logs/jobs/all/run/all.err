@@ -1,0 +1,4 @@
+[allele3 inputs OK] Required PCA files and scan manifest exist.
+[allocation] LSF job=4409729 cores=40 budget=160 GiB; scheduler-controlled worker
+[allele3] last workload output:
+[allele3] failed exit=1; full log=/work/sph-huangj/analysis/allele3/logs/hotspots/hotspots.log

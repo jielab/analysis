@@ -1,0 +1,110 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/2.csx.sh blockprepare --traits height --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml --device cpu --threads 8
+[GRID ABM] LD audit {"mode": "population_multiview", "layout_id": "multi37_dd26c5bb7441", "block_files": ["/work/sph-huangj/data/LD/block/AFR.37.bed", "/work/sph-huangj/data/LD/block/EAS.37.bed", "/work/sph-huangj/data/LD/block/EUR.37.bed", "/work/sph-huangj/data/LD/block/SAS.37.bed"], "block_file_record": {"AFR.37.bed": "file:61593", "EAS.37.bed": "file:34464", "EUR.37.bed": "file:40632", "SAS.37.bed": "file:34464"}, "counts": {"AFR": 2581, "EAS": 1445, "EUR": 1703, "SAS": 1445}, "total_tokens": 7174, "channels": ["scalar"], "channel_count": 1, "genome_build": 37, "layout_mode": "population_multiview", "coordinate_semantics": "BED 0-based half-open; PRS BP converted to BP-1", "files": [{"resolved_path": "/work/sph-huangj/data/LD/block/AFR.37.bed", "filename": "AFR.37.bed", "block_count": 2581, "file_record": "file:61593"}, {"resolved_path": "/work/sph-huangj/data/LD/block/EAS.37.bed", "filename": "EAS.37.bed", "block_count": 1445, "file_record": "file:34464"}, {"resolved_path": "/work/sph-huangj/data/LD/block/EUR.37.bed", "filename": "EUR.37.bed", "block_count": 1703, "file_record": "file:40632"}, {"resolved_path": "/work/sph-huangj/data/LD/block/SAS.37.bed", "filename": "SAS.37.bed", "block_count": 1445, "file_record": "file:34464"}], "population_count_status": "matches_expected_local_2016_counts"}
+[GRID ABM] Supplement writer ready: height
+[GRID block inputs] Dosage supplement source: /work/sph-huangj/data/gen/ukb/37/typ
+[GRID block inputs] Supplement 16,671 exact weighted SNPs from PGEN
+[GRID block inputs] Supplement chr1: 1,259 SNPs
+[GRID block inputs] Supplement chr2: 1,326 SNPs
+[GRID block inputs] Supplement chr3: 1,034 SNPs
+[GRID block inputs] Supplement chr4: 943 SNPs
+[GRID block inputs] Supplement chr5: 834 SNPs
+[GRID block inputs] Supplement chr6: 1,627 SNPs
+[GRID block inputs] Supplement chr7: 840 SNPs
+[GRID block inputs] Supplement chr8: 802 SNPs
+[GRID block inputs] Supplement chr9: 822 SNPs
+[GRID block inputs] Supplement chr10: 882 SNPs
+[GRID block inputs] Supplement chr11: 830 SNPs
+[GRID block inputs] Supplement chr12: 814 SNPs
+[GRID block inputs] Supplement chr13: 602 SNPs
+[GRID block inputs] Supplement chr14: 557 SNPs
+[GRID block inputs] Supplement chr15: 529 SNPs
+[GRID block inputs] Supplement chr16: 587 SNPs
+[GRID block inputs] Supplement chr17: 539 SNPs
+[GRID block inputs] Supplement chr18: 461 SNPs
+[GRID block inputs] Supplement chr19: 510 SNPs
+[GRID block inputs] Supplement chr20: 426 SNPs
+[GRID block inputs] Supplement chr21: 212 SNPs
+[GRID block inputs] Supplement chr22: 235 SNPs
+[GRID block inputs] Exact dosage supplement ready: 16,671 SNPs
+[GRID ABM] BLOCKS height 256/486,745
+[GRID ABM] BLOCKS height 25,856/486,745
+[GRID ABM] BLOCKS height 51,456/486,745
+[GRID ABM] BLOCKS height 77,056/486,745
+[GRID ABM] BLOCKS height 102,656/486,745
+[GRID ABM] BLOCKS height 128,256/486,745
+[GRID ABM] BLOCKS height 153,856/486,745
+[GRID ABM] BLOCKS height 179,456/486,745
+[GRID ABM] BLOCKS height 205,056/486,745
+[GRID ABM] BLOCKS height 230,656/486,745
+[GRID ABM] BLOCKS height 256,256/486,745
+[GRID ABM] BLOCKS height 281,856/486,745
+[GRID ABM] BLOCKS height 307,456/486,745
+[GRID ABM] BLOCKS height 333,056/486,745
+[GRID ABM] BLOCKS height 358,656/486,745
+[GRID ABM] BLOCKS height 384,256/486,745
+[GRID ABM] BLOCKS height 409,856/486,745
+[GRID ABM] BLOCKS height 435,456/486,745
+[GRID ABM] BLOCKS height 461,056/486,745
+[GRID ABM] BLOCKS height 486,656/486,745
+[GRID ABM] BLOCKS height 486,745/486,745
+[GRID data] Reading table with R: 1csx.scores.rds
+{"trait": "height", "layout_id": "multi37_dd26c5bb7441", "shape": [486745, 7174, 1], "status": "prepared"}
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u39a>
+Subject: Job 4406331: <grid.height.blockprepare> in cluster <qmhpc> Done
+
+Job <grid.height.blockprepare> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 09:44:52 2026
+Job was executed on host(s) <48*b04u39a>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 10:45:00 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Fri Nov 13 10:45:00 2026
+Terminated at Fri Nov 13 12:34:52 2026
+Results reported at Fri Nov 13 12:34:52 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.height.blockprepare
+#BSUB -q 38
+#BSUB -n 48
+#BSUB -R "span[hosts=1] rusage[mem=256GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run11/logs/height.abm.cpu_blockprepare.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run11/logs/height.abm.cpu_blockprepare.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 48 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: shared.cpu_prepare
+# Scientific command: bash /work/sph-huangj/scripts/grid/2.csx.sh blockprepare --traits height --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml --device cpu --threads 8
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run11/plan.json --key height.abm.cpu_blockprepare
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3906.29 sec.
+    Max Memory :                                 1876 MB
+    Average Memory :                             1176.20 MB
+    Total Requested Memory :                     262144.00 MB
+    Delta Memory :                               260268.00 MB
+    Max Swap :                                   6 MB
+    Max Processes :                              5
+    Max Threads :                                7
+    Run time :                                   6558 sec.
+    Turnaround time :                            10200 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run11/logs/height.abm.cpu_blockprepare.4406331.err> for stderr output of this job.
+

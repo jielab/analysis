@@ -1,0 +1,39 @@
+{
+  "jobs": {
+    "height.all": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4406234",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406234> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T23:47:50.227312+00:00"
+    },
+    "ldl.all": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4406235",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406235> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T23:47:50.284830+00:00"
+    },
+    "t2dm.all": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4406236",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406236> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T23:47:50.319865+00:00"
+    }
+  },
+  "plan": "/work/sph-huangj/analysis/grid/jobs/run6/plan.json",
+  "plan_sha256": "f6683f39dee55034f0cd82f099b54b602121a1f599d8ef7864c5c3a94922fbd5"
+}

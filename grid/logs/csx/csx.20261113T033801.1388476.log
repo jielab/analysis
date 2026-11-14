@@ -1,0 +1,45 @@
+[csx] work directory: /work/sph-huangj/analysis/grid/csx
+[csx] command file: /work/sph-huangj/analysis/grid/jobs/csx/csx.20261113T033801.1388476.sh
+[csx] log file: /work/sph-huangj/analysis/grid/logs/csx/csx.20261113T033801.1388476.log
+[csx] Target BIM reused: 765067 SNPs; /work/sph-huangj/data/gen/ukb/37/typ/ukb_array.bim
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.gz
+  GRCh37 coordinate sample: 6323/6323; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.gz
+  GRCh37 coordinate sample: 7013/7013; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.gz
+  GRCh37 coordinate sample: 6283/6283; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.gz
+  GRCh37 coordinate sample: 7929/7929; N is median of usable HM3 variants (override: --n-gwas)
+output SNP weights: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.csx.gz
+output SNP weights: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.csx.gz
+output SNP weights: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.csx.gz
+output SNP weights: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.csx.gz
+output score files: /work/sph-huangj/data/gen/ukb/pgs/t2dm/1csx.scores.rds
+CSx: joint AFR,EAS,EUR,SAS; phi=1e-2; iter/burnin/thin=4000/2000/5; seed=20260904; chromosomes=1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
+RUN t2dm AFR: UKB scoring
+RUN t2dm EAS: UKB scoring
+RUN t2dm EUR: UKB scoring
+RUN t2dm SAS: UKB scoring
+DONE t2dm: /work/sph-huangj/data/gen/ukb/pgs/t2dm/1csx.scores.rds
+DONE t2dm: individual posterior covariance in /work/sph-huangj/data/gen/ukb/pgs/t2dm/1csx.posterior.rds
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.gz
+  GRCh37 coordinate sample: 6323/6323; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.gz
+  GRCh37 coordinate sample: 7013/7013; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.gz
+  GRCh37 coordinate sample: 6283/6283; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.gz
+  GRCh37 coordinate sample: 7929/7929; N is median of usable HM3 variants (override: --n-gwas)
+CSx auto: phi=auto; joint run=auto
+DONE t2dm: csx.auto; N=488130; /work/sph-huangj/data/gen/ukb/pgs/t2dm/1csx.scores.rds
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.gz
+  GRCh37 coordinate sample: 6323/6323; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.gz
+  GRCh37 coordinate sample: 7013/7013; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.gz
+  GRCh37 coordinate sample: 6283/6283; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.gz
+  GRCh37 coordinate sample: 7929/7929; N is median of usable HM3 variants (override: --n-gwas)
+CSx meta: phi=1e-2; joint run=phi-1e-2
+DONE t2dm: csx.meta; N=488130; /work/sph-huangj/data/gen/ukb/pgs/t2dm/1csx.scores.rds
+REPORT csx t2dm /work/sph-huangj/analysis/grid/csx/t2dm/ 

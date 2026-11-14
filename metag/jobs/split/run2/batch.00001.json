@@ -1,0 +1,1854 @@
+{
+  "finished_at": "2026-11-12T16:12:19.438756+00:00",
+  "note": null,
+  "outputs": {
+    "failed": [],
+    "native_invocations": 1,
+    "resident_index_batch": true,
+    "samples": 10,
+    "seconds": 2795.455963211134,
+    "succeeded": [
+      {
+        "identity": "5ff098f47f39b968175b2ac05727f2ac28788b2b3bcde32bedfcb4796c6a1c8b",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271681",
+        "sample_id": "Wxiamen/SRR39271681",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 1.996755599975586e-06,
+          "artifact_bytes": 428767493,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 262.5823852738369,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271681/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 1876,
+          "final_human_fragments": 204,
+          "fragments": 2568035,
+          "groups": {
+            "archaea": 2258,
+            "bacteria": 1328575,
+            "fungi": 30,
+            "human": 204,
+            "invertebrate": 759,
+            "mammal": 1196,
+            "other_eukaryote": 13,
+            "other_vertebrate": 867,
+            "plant": 370,
+            "unresolved": 1229124,
+            "virus": 4639
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "6fccb859a6a21c7c8ad41dbf51430d1f2773c2a727b38508c430bd6c47fd5ed6",
+          "kraken_classified_fraction": 0.5498601070468276,
+          "kraken_classified_fragments": 1412060,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 1104,
+              "higher_rank": 1154
+            },
+            "bacteria": {
+              "assigned_species": 494759,
+              "higher_rank": 833816
+            },
+            "fungi": {
+              "assigned_species": 18,
+              "higher_rank": 12
+            },
+            "human": {
+              "assigned_species": 204
+            },
+            "invertebrate": {
+              "assigned_species": 164,
+              "higher_rank": 595
+            },
+            "mammal": {
+              "assigned_species": 948,
+              "higher_rank": 248
+            },
+            "other_eukaryote": {
+              "assigned_species": 2,
+              "higher_rank": 11
+            },
+            "other_vertebrate": {
+              "assigned_species": 261,
+              "higher_rank": 606
+            },
+            "plant": {
+              "assigned_species": 144,
+              "higher_rank": 226
+            },
+            "unresolved": {
+              "higher_rank": 73149,
+              "unclassified": 1155975
+            },
+            "virus": {
+              "assigned_species": 4454,
+              "higher_rank": 185
+            }
+          },
+          "kraken_groups": {
+            "archaea": 2258,
+            "bacteria": 1328575,
+            "fungi": 30,
+            "human": 204,
+            "invertebrate": 759,
+            "mammal": 1196,
+            "other_eukaryote": 13,
+            "other_vertebrate": 867,
+            "plant": 370,
+            "unresolved": 1229124,
+            "virus": 4639
+          },
+          "kraken_higher_rank_fraction": 0.35435731989634095,
+          "kraken_higher_rank_fragments": 910002,
+          "kraken_human_fragments": 204,
+          "kraken_species_fraction": 0.19550278715048666,
+          "kraken_species_fragments": 502058,
+          "kraken_statuses": {
+            "assigned_species": 502058,
+            "higher_rank": 910002,
+            "unclassified": 1155975
+          },
+          "kraken_unclassified_fraction": 0.45013989295317236,
+          "kraken_unclassified_fragments": 1155975,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 938,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.0014500413089990616,
+          "query_seconds_this_run": 262.5823852738369,
+          "reads": 5136070,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271681",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 485676,
+          "species_fragments_materialized_fraction_of_species_calls": 0.967370303829438,
+          "species_other_fragments": 16382,
+          "species_taxa_materialized": 918,
+          "species_taxa_total": 5542,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 0.7243038471788168,
+          "split_seconds": 151.45965973101556,
+          "statuses": {
+            "assigned_species": 502058,
+            "higher_rank": 910002,
+            "unclassified": 1155975
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 512425856,
+          "total_seconds_before_commit": 152.7403885256499,
+          "validated_scope": "entire_input"
+        }
+      },
+      {
+        "identity": "395bb1d4433b2f6684ca9efd65c68dca55112b4d10955193d70d72ecd27e4853",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271682",
+        "sample_id": "Wxiamen/SRR39271682",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 2.248212695121765e-06,
+          "artifact_bytes": 350259479,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 200.75346086581516,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271682/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 904,
+          "final_human_fragments": 25,
+          "fragments": 1963353,
+          "groups": {
+            "archaea": 695,
+            "bacteria": 1048291,
+            "fungi": 33,
+            "human": 25,
+            "invertebrate": 956,
+            "mammal": 624,
+            "other_eukaryote": 7,
+            "other_vertebrate": 1087,
+            "plant": 301,
+            "unresolved": 910227,
+            "virus": 1107
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "c78969ad1e782117fdc4760903a907183f1779245058b29e9be8fd6b8919db2a",
+          "kraken_classified_fraction": 0.5924278517413832,
+          "kraken_classified_fragments": 1163145,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 422,
+              "higher_rank": 273
+            },
+            "bacteria": {
+              "assigned_species": 534624,
+              "higher_rank": 513667
+            },
+            "fungi": {
+              "assigned_species": 30,
+              "higher_rank": 3
+            },
+            "human": {
+              "assigned_species": 25
+            },
+            "invertebrate": {
+              "assigned_species": 111,
+              "higher_rank": 845
+            },
+            "mammal": {
+              "assigned_species": 192,
+              "higher_rank": 432
+            },
+            "other_eukaryote": {
+              "assigned_species": 6,
+              "higher_rank": 1
+            },
+            "other_vertebrate": {
+              "assigned_species": 250,
+              "higher_rank": 837
+            },
+            "plant": {
+              "assigned_species": 87,
+              "higher_rank": 214
+            },
+            "unresolved": {
+              "higher_rank": 110019,
+              "unclassified": 800208
+            },
+            "virus": {
+              "assigned_species": 1072,
+              "higher_rank": 35
+            }
+          },
+          "kraken_groups": {
+            "archaea": 695,
+            "bacteria": 1048291,
+            "fungi": 33,
+            "human": 25,
+            "invertebrate": 956,
+            "mammal": 624,
+            "other_eukaryote": 7,
+            "other_vertebrate": 1087,
+            "plant": 301,
+            "unresolved": 910227,
+            "virus": 1107
+          },
+          "kraken_higher_rank_fraction": 0.3190083494919151,
+          "kraken_higher_rank_fragments": 626326,
+          "kraken_human_fragments": 25,
+          "kraken_species_fraction": 0.27341950224946815,
+          "kraken_species_fragments": 536819,
+          "kraken_statuses": {
+            "assigned_species": 536819,
+            "higher_rank": 626326,
+            "unclassified": 800208
+          },
+          "kraken_unclassified_fraction": 0.40757214825861676,
+          "kraken_unclassified_fragments": 800208,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 452,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.0008869543671607971,
+          "query_seconds_this_run": 200.75346086581516,
+          "reads": 3926706,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271682",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 527636,
+          "species_fragments_materialized_fraction_of_species_calls": 0.9828936755219171,
+          "species_other_fragments": 9183,
+          "species_taxa_materialized": 432,
+          "species_taxa_total": 3274,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 2.857897460460663,
+          "split_seconds": 103.21542595885694,
+          "statuses": {
+            "assigned_species": 536819,
+            "higher_rank": 626326,
+            "unclassified": 800208
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 392217458,
+          "total_seconds_before_commit": 105.50796415656805,
+          "validated_scope": "entire_input"
+        }
+      },
+      {
+        "identity": "ac8f9b67e9691a6fae33c59711afc5a99c9ff3ccb9e48f18426e2af68370d9fa",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271683",
+        "sample_id": "Wxiamen/SRR39271683",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 1.259148120880127e-06,
+          "artifact_bytes": 117311496,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 71.86305447793029,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271683/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 1394,
+          "final_human_fragments": 184,
+          "fragments": 702815,
+          "groups": {
+            "archaea": 8023,
+            "bacteria": 308833,
+            "fungi": 507,
+            "human": 184,
+            "invertebrate": 471,
+            "mammal": 873,
+            "other_eukaryote": 5,
+            "other_vertebrate": 834,
+            "plant": 1751,
+            "unresolved": 373097,
+            "virus": 8237
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "90e7748fb79707bf8157cfd5e24ce28482a35ee802f65255581f5fea7b0e4189",
+          "kraken_classified_fraction": 0.49340153525465447,
+          "kraken_classified_fragments": 346770,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 3537,
+              "higher_rank": 4486
+            },
+            "bacteria": {
+              "assigned_species": 152145,
+              "higher_rank": 156688
+            },
+            "fungi": {
+              "assigned_species": 393,
+              "higher_rank": 114
+            },
+            "human": {
+              "assigned_species": 184
+            },
+            "invertebrate": {
+              "assigned_species": 197,
+              "higher_rank": 274
+            },
+            "mammal": {
+              "assigned_species": 524,
+              "higher_rank": 349
+            },
+            "other_eukaryote": {
+              "assigned_species": 1,
+              "higher_rank": 4
+            },
+            "other_vertebrate": {
+              "assigned_species": 489,
+              "higher_rank": 345
+            },
+            "plant": {
+              "assigned_species": 784,
+              "higher_rank": 967
+            },
+            "unresolved": {
+              "higher_rank": 17052,
+              "unclassified": 356045
+            },
+            "virus": {
+              "assigned_species": 8062,
+              "higher_rank": 175
+            }
+          },
+          "kraken_groups": {
+            "archaea": 8023,
+            "bacteria": 308833,
+            "fungi": 507,
+            "human": 184,
+            "invertebrate": 471,
+            "mammal": 873,
+            "other_eukaryote": 5,
+            "other_vertebrate": 834,
+            "plant": 1751,
+            "unresolved": 373097,
+            "virus": 8237
+          },
+          "kraken_higher_rank_fraction": 0.2567588910310679,
+          "kraken_higher_rank_fragments": 180454,
+          "kraken_human_fragments": 184,
+          "kraken_species_fraction": 0.23664264422358658,
+          "kraken_species_fragments": 166316,
+          "kraken_statuses": {
+            "assigned_species": 166316,
+            "higher_rank": 180454,
+            "unclassified": 356045
+          },
+          "kraken_unclassified_fraction": 0.5065984647453455,
+          "kraken_unclassified_fragments": 356045,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 697,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.0009607691317796707,
+          "query_seconds_this_run": 71.86305447793029,
+          "reads": 1405630,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271683",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 154331,
+          "species_fragments_materialized_fraction_of_species_calls": 0.9279383823564781,
+          "species_other_fragments": 11985,
+          "species_taxa_materialized": 677,
+          "species_taxa_total": 4244,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 0.7605235651135445,
+          "split_seconds": 38.010152673348784,
+          "statuses": {
+            "assigned_species": 166316,
+            "higher_rank": 180454,
+            "unclassified": 356045
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 140153048,
+          "total_seconds_before_commit": 38.52516824938357,
+          "validated_scope": "entire_input"
+        }
+      },
+      {
+        "identity": "933b31d032a0bcc360a875ae49fd8f9509b195aa085a4dbe5f7ff6f396708eb0",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271684",
+        "sample_id": "Wxiamen/SRR39271684",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 1.0225921869277954e-06,
+          "artifact_bytes": 207450961,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 123.71132573029837,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271684/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 1080,
+          "final_human_fragments": 73,
+          "fragments": 1209887,
+          "groups": {
+            "archaea": 1372,
+            "bacteria": 479916,
+            "fungi": 6,
+            "human": 73,
+            "invertebrate": 179,
+            "mammal": 250,
+            "other_eukaryote": 2,
+            "other_vertebrate": 191,
+            "plant": 68,
+            "unresolved": 722163,
+            "virus": 5667
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "7638bbe33003e708f7d87aaf79c0bc4dd6bd1f6bf0c3f02dcff8ef0a2ffbced0",
+          "kraken_classified_fraction": 0.4224658997079893,
+          "kraken_classified_fragments": 511136,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 851,
+              "higher_rank": 521
+            },
+            "bacteria": {
+              "assigned_species": 142654,
+              "higher_rank": 337262
+            },
+            "fungi": {
+              "assigned_species": 4,
+              "higher_rank": 2
+            },
+            "human": {
+              "assigned_species": 73
+            },
+            "invertebrate": {
+              "assigned_species": 35,
+              "higher_rank": 144
+            },
+            "mammal": {
+              "assigned_species": 203,
+              "higher_rank": 47
+            },
+            "other_eukaryote": {
+              "higher_rank": 2
+            },
+            "other_vertebrate": {
+              "assigned_species": 82,
+              "higher_rank": 109
+            },
+            "plant": {
+              "assigned_species": 33,
+              "higher_rank": 35
+            },
+            "unresolved": {
+              "higher_rank": 23412,
+              "unclassified": 698751
+            },
+            "virus": {
+              "assigned_species": 5589,
+              "higher_rank": 78
+            }
+          },
+          "kraken_groups": {
+            "archaea": 1372,
+            "bacteria": 479916,
+            "fungi": 6,
+            "human": 73,
+            "invertebrate": 179,
+            "mammal": 250,
+            "other_eukaryote": 2,
+            "other_vertebrate": 191,
+            "plant": 68,
+            "unresolved": 722163,
+            "virus": 5667
+          },
+          "kraken_higher_rank_fraction": 0.2988808045710054,
+          "kraken_higher_rank_fragments": 361612,
+          "kraken_human_fragments": 73,
+          "kraken_species_fraction": 0.12358509513698386,
+          "kraken_species_fragments": 149524,
+          "kraken_statuses": {
+            "assigned_species": 149524,
+            "higher_rank": 361612,
+            "unclassified": 698751
+          },
+          "kraken_unclassified_fraction": 0.5775341002920107,
+          "kraken_unclassified_fragments": 698751,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 540,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.0008923355489969254,
+          "query_seconds_this_run": 123.71132573029837,
+          "reads": 2419774,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271684",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 139790,
+          "species_fragments_materialized_fraction_of_species_calls": 0.9349000829298306,
+          "species_other_fragments": 9734,
+          "species_taxa_materialized": 521,
+          "species_taxa_total": 3364,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 0.49980268627405167,
+          "split_seconds": 61.93465174548328,
+          "statuses": {
+            "assigned_species": 149524,
+            "higher_rank": 361612,
+            "unclassified": 698751
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 241512416,
+          "total_seconds_before_commit": 62.45976847782731,
+          "validated_scope": "entire_input"
+        }
+      },
+      {
+        "identity": "094cd37a07bc7f7a2797337500945e4808e0d3892fd7aafe69e1f88ff28054e1",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271685",
+        "sample_id": "Wxiamen/SRR39271685",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 1.4137476682662964e-06,
+          "artifact_bytes": 229754991,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 134.84986144239738,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271685/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 998,
+          "final_human_fragments": 42,
+          "fragments": 1318821,
+          "groups": {
+            "archaea": 1372,
+            "bacteria": 470980,
+            "fungi": 5,
+            "human": 42,
+            "invertebrate": 220,
+            "mammal": 223,
+            "other_eukaryote": 1,
+            "other_vertebrate": 182,
+            "plant": 96,
+            "unresolved": 833545,
+            "virus": 12155
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "33353255ee2716b85ec5f0cf251a70bd9c90a91ca74979fb7ec605d5e44f52e4",
+          "kraken_classified_fraction": 0.3896358944845434,
+          "kraken_classified_fragments": 513860,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 912,
+              "higher_rank": 460
+            },
+            "bacteria": {
+              "assigned_species": 147307,
+              "higher_rank": 323673
+            },
+            "fungi": {
+              "assigned_species": 5
+            },
+            "human": {
+              "assigned_species": 42
+            },
+            "invertebrate": {
+              "assigned_species": 36,
+              "higher_rank": 184
+            },
+            "mammal": {
+              "assigned_species": 171,
+              "higher_rank": 52
+            },
+            "other_eukaryote": {
+              "assigned_species": 1
+            },
+            "other_vertebrate": {
+              "assigned_species": 75,
+              "higher_rank": 107
+            },
+            "plant": {
+              "assigned_species": 42,
+              "higher_rank": 54
+            },
+            "unresolved": {
+              "higher_rank": 28584,
+              "unclassified": 804961
+            },
+            "virus": {
+              "assigned_species": 12074,
+              "higher_rank": 81
+            }
+          },
+          "kraken_groups": {
+            "archaea": 1372,
+            "bacteria": 470980,
+            "fungi": 5,
+            "human": 42,
+            "invertebrate": 220,
+            "mammal": 223,
+            "other_eukaryote": 1,
+            "other_vertebrate": 182,
+            "plant": 96,
+            "unresolved": 833545,
+            "virus": 12155
+          },
+          "kraken_higher_rank_fraction": 0.2678111737680853,
+          "kraken_higher_rank_fragments": 353195,
+          "kraken_human_fragments": 42,
+          "kraken_species_fraction": 0.12182472071645811,
+          "kraken_species_fragments": 160665,
+          "kraken_statuses": {
+            "assigned_species": 160665,
+            "higher_rank": 353195,
+            "unclassified": 804961
+          },
+          "kraken_unclassified_fraction": 0.6103641055154566,
+          "kraken_unclassified_fragments": 804961,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 499,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.0009272173047065735,
+          "query_seconds_this_run": 134.84986144239738,
+          "reads": 2637642,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271685",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 151653,
+          "species_fragments_materialized_fraction_of_species_calls": 0.9439081318270937,
+          "species_other_fragments": 9012,
+          "species_taxa_materialized": 481,
+          "species_taxa_total": 3115,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 0.34282667376101017,
+          "split_seconds": 67.41273208521307,
+          "statuses": {
+            "assigned_species": 160665,
+            "higher_rank": 353195,
+            "unclassified": 804961
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 263321600,
+          "total_seconds_before_commit": 67.86394915729761,
+          "validated_scope": "entire_input"
+        }
+      },
+      {
+        "identity": "ca663f341fa4cafc62e06568e0c489380ae05ed3d106894831b252a0109a1200",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271686",
+        "sample_id": "Wxiamen/SRR39271686",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 3.648921847343445e-06,
+          "artifact_bytes": 182299565,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 108.14484016771698,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271686/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 1232,
+          "final_human_fragments": 48,
+          "fragments": 1057648,
+          "groups": {
+            "archaea": 2369,
+            "bacteria": 399774,
+            "fungi": 26,
+            "human": 48,
+            "invertebrate": 233,
+            "mammal": 338,
+            "other_eukaryote": 3,
+            "other_vertebrate": 300,
+            "plant": 175,
+            "unresolved": 641176,
+            "virus": 13206
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "1c40065ff5eac819395baff438f347d84f9dbf9a59d74e84a4ae933a4d01203e",
+          "kraken_classified_fraction": 0.4171737666974268,
+          "kraken_classified_fragments": 441223,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 1424,
+              "higher_rank": 945
+            },
+            "bacteria": {
+              "assigned_species": 157002,
+              "higher_rank": 242772
+            },
+            "fungi": {
+              "assigned_species": 21,
+              "higher_rank": 5
+            },
+            "human": {
+              "assigned_species": 48
+            },
+            "invertebrate": {
+              "assigned_species": 69,
+              "higher_rank": 164
+            },
+            "mammal": {
+              "assigned_species": 260,
+              "higher_rank": 78
+            },
+            "other_eukaryote": {
+              "assigned_species": 1,
+              "higher_rank": 2
+            },
+            "other_vertebrate": {
+              "assigned_species": 141,
+              "higher_rank": 159
+            },
+            "plant": {
+              "assigned_species": 91,
+              "higher_rank": 84
+            },
+            "unresolved": {
+              "higher_rank": 24751,
+              "unclassified": 616425
+            },
+            "virus": {
+              "assigned_species": 13077,
+              "higher_rank": 129
+            }
+          },
+          "kraken_groups": {
+            "archaea": 2369,
+            "bacteria": 399774,
+            "fungi": 26,
+            "human": 48,
+            "invertebrate": 233,
+            "mammal": 338,
+            "other_eukaryote": 3,
+            "other_vertebrate": 300,
+            "plant": 175,
+            "unresolved": 641176,
+            "virus": 13206
+          },
+          "kraken_higher_rank_fraction": 0.25442207615388107,
+          "kraken_higher_rank_fragments": 269089,
+          "kraken_human_fragments": 48,
+          "kraken_species_fraction": 0.16275169054354569,
+          "kraken_species_fragments": 172134,
+          "kraken_statuses": {
+            "assigned_species": 172134,
+            "higher_rank": 269089,
+            "unclassified": 616425
+          },
+          "kraken_unclassified_fraction": 0.5828262333025732,
+          "kraken_unclassified_fragments": 616425,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 616,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.012726189568638802,
+          "query_seconds_this_run": 108.14484016771698,
+          "reads": 2115296,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271686",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 160484,
+          "species_fragments_materialized_fraction_of_species_calls": 0.93232016917053,
+          "species_other_fragments": 11650,
+          "species_taxa_materialized": 596,
+          "species_taxa_total": 4030,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 0.6467257086187601,
+          "split_seconds": 55.71639424003661,
+          "statuses": {
+            "assigned_species": 172134,
+            "higher_rank": 269089,
+            "unclassified": 616425
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 210976880,
+          "total_seconds_before_commit": 56.4474041108042,
+          "validated_scope": "entire_input"
+        }
+      },
+      {
+        "identity": "4341a9375bed887c62cf803f7bdc828f6b735edbd165726298b7088dc5c988e5",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271687",
+        "sample_id": "Wxiamen/SRR39271687",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 2.1085143089294434e-06,
+          "artifact_bytes": 407160708,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 224.12041838760675,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271687/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 1340,
+          "final_human_fragments": 72,
+          "fragments": 2191880,
+          "groups": {
+            "archaea": 2200,
+            "bacteria": 640430,
+            "fungi": 7,
+            "human": 72,
+            "invertebrate": 617,
+            "mammal": 261,
+            "other_vertebrate": 423,
+            "plant": 158,
+            "unresolved": 1517424,
+            "virus": 30288
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "7628a97faea5adc0d7a6473b2fc84278a3fe94759a88696fef664d70790b0a29",
+          "kraken_classified_fraction": 0.3355849772797781,
+          "kraken_classified_fragments": 735562,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 1571,
+              "higher_rank": 629
+            },
+            "bacteria": {
+              "assigned_species": 271173,
+              "higher_rank": 369257
+            },
+            "fungi": {
+              "assigned_species": 2,
+              "higher_rank": 5
+            },
+            "human": {
+              "assigned_species": 72
+            },
+            "invertebrate": {
+              "assigned_species": 111,
+              "higher_rank": 506
+            },
+            "mammal": {
+              "assigned_species": 139,
+              "higher_rank": 122
+            },
+            "other_vertebrate": {
+              "assigned_species": 160,
+              "higher_rank": 263
+            },
+            "plant": {
+              "assigned_species": 62,
+              "higher_rank": 96
+            },
+            "unresolved": {
+              "higher_rank": 61106,
+              "unclassified": 1456318
+            },
+            "virus": {
+              "assigned_species": 30036,
+              "higher_rank": 252
+            }
+          },
+          "kraken_groups": {
+            "archaea": 2200,
+            "bacteria": 640430,
+            "fungi": 7,
+            "human": 72,
+            "invertebrate": 617,
+            "mammal": 261,
+            "other_vertebrate": 423,
+            "plant": 158,
+            "unresolved": 1517424,
+            "virus": 30288
+          },
+          "kraken_higher_rank_fraction": 0.19719875175648302,
+          "kraken_higher_rank_fragments": 432236,
+          "kraken_human_fragments": 72,
+          "kraken_species_fraction": 0.13838622552329508,
+          "kraken_species_fragments": 303326,
+          "kraken_statuses": {
+            "assigned_species": 303326,
+            "higher_rank": 432236,
+            "unclassified": 1456318
+          },
+          "kraken_unclassified_fraction": 0.6644150227202219,
+          "kraken_unclassified_fragments": 1456318,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 670,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.0008920244872570038,
+          "query_seconds_this_run": 224.12041838760675,
+          "reads": 4383760,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271687",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 291889,
+          "species_fragments_materialized_fraction_of_species_calls": 0.9622946928387279,
+          "species_other_fragments": 11437,
+          "species_taxa_materialized": 652,
+          "species_taxa_total": 4060,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 0.7892580833286047,
+          "split_seconds": 112.55792290344834,
+          "statuses": {
+            "assigned_species": 303326,
+            "higher_rank": 432236,
+            "unclassified": 1456318
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 437731666,
+          "total_seconds_before_commit": 113.19187460839748,
+          "validated_scope": "entire_input"
+        }
+      },
+      {
+        "identity": "17eeed33cb9f8af90b0899d47c449949152bf1ae39767e8a6b692bb4b010b82f",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271688",
+        "sample_id": "Wxiamen/SRR39271688",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 1.1753290891647339e-06,
+          "artifact_bytes": 352759080,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 195.56108766740053,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271688/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 1214,
+          "final_human_fragments": 159,
+          "fragments": 1912572,
+          "groups": {
+            "archaea": 1235,
+            "bacteria": 575515,
+            "fungi": 8,
+            "human": 159,
+            "invertebrate": 455,
+            "mammal": 171,
+            "other_eukaryote": 2,
+            "other_vertebrate": 426,
+            "plant": 117,
+            "unresolved": 1305119,
+            "virus": 29365
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "741e8e530447077ea40a4d8bda3eef93da5e514bc9d0435c27452fdd77388d66",
+          "kraken_classified_fraction": 0.3409105644127385,
+          "kraken_classified_fragments": 652016,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 852,
+              "higher_rank": 383
+            },
+            "bacteria": {
+              "assigned_species": 209046,
+              "higher_rank": 366469
+            },
+            "fungi": {
+              "assigned_species": 7,
+              "higher_rank": 1
+            },
+            "human": {
+              "assigned_species": 159
+            },
+            "invertebrate": {
+              "assigned_species": 96,
+              "higher_rank": 359
+            },
+            "mammal": {
+              "assigned_species": 99,
+              "higher_rank": 72
+            },
+            "other_eukaryote": {
+              "higher_rank": 2
+            },
+            "other_vertebrate": {
+              "assigned_species": 154,
+              "higher_rank": 272
+            },
+            "plant": {
+              "assigned_species": 42,
+              "higher_rank": 75
+            },
+            "unresolved": {
+              "higher_rank": 44563,
+              "unclassified": 1260556
+            },
+            "virus": {
+              "assigned_species": 29234,
+              "higher_rank": 131
+            }
+          },
+          "kraken_groups": {
+            "archaea": 1235,
+            "bacteria": 575515,
+            "fungi": 8,
+            "human": 159,
+            "invertebrate": 455,
+            "mammal": 171,
+            "other_eukaryote": 2,
+            "other_vertebrate": 426,
+            "plant": 117,
+            "unresolved": 1305119,
+            "virus": 29365
+          },
+          "kraken_higher_rank_fraction": 0.21558770075061226,
+          "kraken_higher_rank_fragments": 412327,
+          "kraken_human_fragments": 159,
+          "kraken_species_fraction": 0.1253228636621262,
+          "kraken_species_fragments": 239689,
+          "kraken_statuses": {
+            "assigned_species": 239689,
+            "higher_rank": 412327,
+            "unclassified": 1260556
+          },
+          "kraken_unclassified_fraction": 0.6590894355872615,
+          "kraken_unclassified_fragments": 1260556,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 607,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.0008857902139425278,
+          "query_seconds_this_run": 195.56108766740053,
+          "reads": 3825144,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271688",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 228807,
+          "species_fragments_materialized_fraction_of_species_calls": 0.9545995018544864,
+          "species_other_fragments": 10882,
+          "species_taxa_materialized": 588,
+          "species_taxa_total": 3798,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 0.6979755163192749,
+          "split_seconds": 99.82155029661953,
+          "statuses": {
+            "assigned_species": 239689,
+            "higher_rank": 412327,
+            "unclassified": 1260556
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 381934954,
+          "total_seconds_before_commit": 100.76594915986061,
+          "validated_scope": "entire_input"
+        }
+      },
+      {
+        "identity": "7fbbf380c1a38a6dcb90b2250357cc8939e6c278ae9eabd00feefae614287d65",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271689",
+        "sample_id": "Wxiamen/SRR39271689",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 1.428648829460144e-06,
+          "artifact_bytes": 332698275,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 184.1647789135496,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271689/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 1232,
+          "final_human_fragments": 81,
+          "fragments": 1801117,
+          "groups": {
+            "archaea": 2395,
+            "bacteria": 550233,
+            "fungi": 13,
+            "human": 81,
+            "invertebrate": 511,
+            "mammal": 259,
+            "other_eukaryote": 1,
+            "other_vertebrate": 412,
+            "plant": 146,
+            "unresolved": 1224500,
+            "virus": 22566
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "7f176885e1cc1dec65f3f027643902c371d5ad12f51dfcc658594510cba7a24c",
+          "kraken_classified_fraction": 0.34767480402439155,
+          "kraken_classified_fragments": 626203,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 1695,
+              "higher_rank": 700
+            },
+            "bacteria": {
+              "assigned_species": 229635,
+              "higher_rank": 320598
+            },
+            "fungi": {
+              "assigned_species": 12,
+              "higher_rank": 1
+            },
+            "human": {
+              "assigned_species": 81
+            },
+            "invertebrate": {
+              "assigned_species": 90,
+              "higher_rank": 421
+            },
+            "mammal": {
+              "assigned_species": 140,
+              "higher_rank": 119
+            },
+            "other_eukaryote": {
+              "higher_rank": 1
+            },
+            "other_vertebrate": {
+              "assigned_species": 182,
+              "higher_rank": 230
+            },
+            "plant": {
+              "assigned_species": 58,
+              "higher_rank": 88
+            },
+            "unresolved": {
+              "higher_rank": 49586,
+              "unclassified": 1174914
+            },
+            "virus": {
+              "assigned_species": 22400,
+              "higher_rank": 166
+            }
+          },
+          "kraken_groups": {
+            "archaea": 2395,
+            "bacteria": 550233,
+            "fungi": 13,
+            "human": 81,
+            "invertebrate": 511,
+            "mammal": 259,
+            "other_eukaryote": 1,
+            "other_vertebrate": 412,
+            "plant": 146,
+            "unresolved": 1224500,
+            "virus": 22566
+          },
+          "kraken_higher_rank_fraction": 0.20648852906279824,
+          "kraken_higher_rank_fragments": 371910,
+          "kraken_human_fragments": 81,
+          "kraken_species_fraction": 0.14118627496159328,
+          "kraken_species_fragments": 254293,
+          "kraken_statuses": {
+            "assigned_species": 254293,
+            "higher_rank": 371910,
+            "unclassified": 1174914
+          },
+          "kraken_unclassified_fraction": 0.6523251959756085,
+          "kraken_unclassified_fragments": 1174914,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 616,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.0007492993026971817,
+          "query_seconds_this_run": 184.1647789135496,
+          "reads": 3602234,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271689",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 243389,
+          "species_fragments_materialized_fraction_of_species_calls": 0.9571203296984188,
+          "species_other_fragments": 10904,
+          "species_taxa_materialized": 597,
+          "species_taxa_total": 3879,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 1.0552633684128523,
+          "split_seconds": 94.94848424941301,
+          "statuses": {
+            "assigned_species": 254293,
+            "higher_rank": 371910,
+            "unclassified": 1174914
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 359672522,
+          "total_seconds_before_commit": 95.55785939283669,
+          "validated_scope": "entire_input"
+        }
+      },
+      {
+        "identity": "784ea18d6b431f73b9b4e888d0fd10cbed05d981724158e546dcc75394fa8e6c",
+        "output": "/work/sph-huangj/data/metag/species/Wxiamen/SRR39271690",
+        "sample_id": "Wxiamen/SRR39271690",
+        "status": "complete",
+        "summary": {
+          "archive_seconds": 3.959983587265015e-06,
+          "artifact_bytes": 281939773,
+          "batch_classification_seconds": 1663.551770862192,
+          "batch_index_load_seconds": 1203.894453,
+          "batch_query_seconds_excluding_index_load": 459.6573178621918,
+          "batch_samples": 10,
+          "batch_taxonomy_load_seconds": 66.5534898918122,
+          "classification_seconds": 157.80055793564,
+          "classification_timing": "batch wall time apportioned by fragment count",
+          "classifier_log": "/work/sph-huangj/analysis/metag/logs/split/samples/Wxiamen/SRR39271690/classifier.log",
+          "compression": {
+            "chunk_bytes": 1048576,
+            "gzip_threads": 8,
+            "pigz_large_streams": 4,
+            "pigz_threads_per_stream": 2
+          },
+          "count_conservation": true,
+          "fastq_files": 1134,
+          "final_human_fragments": 63,
+          "fragments": 1543277,
+          "groups": {
+            "archaea": 1037,
+            "bacteria": 477194,
+            "fungi": 8,
+            "human": 63,
+            "invertebrate": 404,
+            "mammal": 248,
+            "other_eukaryote": 4,
+            "other_vertebrate": 397,
+            "plant": 127,
+            "unresolved": 1045602,
+            "virus": 18193
+          },
+          "host_positive_fragments": 0,
+          "host_positive_nonhuman_species_conflicts": 0,
+          "host_rescued_fragments": 0,
+          "input_digest": "d3822893499b29e23959ee0e4a65b4798f39da08583fd0a0c8d5d8f3979c4ccc",
+          "kraken_classified_fraction": 0.34613682443268445,
+          "kraken_classified_fragments": 534185,
+          "kraken_group_status": {
+            "archaea": {
+              "assigned_species": 674,
+              "higher_rank": 363
+            },
+            "bacteria": {
+              "assigned_species": 157675,
+              "higher_rank": 319519
+            },
+            "fungi": {
+              "assigned_species": 6,
+              "higher_rank": 2
+            },
+            "human": {
+              "assigned_species": 63
+            },
+            "invertebrate": {
+              "assigned_species": 82,
+              "higher_rank": 322
+            },
+            "mammal": {
+              "assigned_species": 168,
+              "higher_rank": 80
+            },
+            "other_eukaryote": {
+              "assigned_species": 4
+            },
+            "other_vertebrate": {
+              "assigned_species": 163,
+              "higher_rank": 234
+            },
+            "plant": {
+              "assigned_species": 47,
+              "higher_rank": 80
+            },
+            "unresolved": {
+              "higher_rank": 36510,
+              "unclassified": 1009092
+            },
+            "virus": {
+              "assigned_species": 18092,
+              "higher_rank": 101
+            }
+          },
+          "kraken_groups": {
+            "archaea": 1037,
+            "bacteria": 477194,
+            "fungi": 8,
+            "human": 63,
+            "invertebrate": 404,
+            "mammal": 248,
+            "other_eukaryote": 4,
+            "other_vertebrate": 397,
+            "plant": 127,
+            "unresolved": 1045602,
+            "virus": 18193
+          },
+          "kraken_higher_rank_fraction": 0.23146266030012758,
+          "kraken_higher_rank_fragments": 357211,
+          "kraken_human_fragments": 63,
+          "kraken_species_fraction": 0.11467416413255689,
+          "kraken_species_fragments": 176974,
+          "kraken_statuses": {
+            "assigned_species": 176974,
+            "higher_rank": 357211,
+            "unclassified": 1009092
+          },
+          "kraken_unclassified_fraction": 0.6538631755673155,
+          "kraken_unclassified_fragments": 1009092,
+          "output_bins": {
+            "TAXID_name": "one species with at least the materialization threshold; original mates stay together",
+            "species_other": "species below the file-materialization threshold within this group; exact species retained in tables",
+            "taxon_unresolved": "valid higher-rank calls without a species; root means no unique taxonomic group",
+            "unclassified": "taxid 0, no retained taxonomic assignment; not a confidence grade"
+          },
+          "pair_policy": "both original mates share one final fragment/bin; host screen may evaluate mates independently",
+          "paired": true,
+          "physical_bins": 567,
+          "project_preparation": {
+            "project_cache_hit": false,
+            "project_preparation_seconds": 66.55346241034567,
+            "projects": {
+              "Wxiamen": {
+                "discovery": {
+                  "directory_scan": true,
+                  "files": 504,
+                  "inventory_hit": false,
+                  "inventory_seconds": 0.5531067214906216,
+                  "probe_hits": 0,
+                  "probe_seconds": 37.45794351398945,
+                  "probed_samples": 252
+                },
+                "preparation_hit": false
+              }
+            },
+            "taxonomy_cache_build_seconds": 64.83098802901804,
+            "taxonomy_cache_hit": false,
+            "taxonomy_cache_identity": "70af098e6bd86f80ca2c0662f35327ac3f274ec85ec3b53f5c92e67126f86cc3",
+            "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+            "taxonomy_cache_rows": 3126663
+          },
+          "publication_method": "same-filesystem rename",
+          "publication_seconds": 0.0009987298399209976,
+          "query_seconds_this_run": 157.80055793564,
+          "reads": 3086554,
+          "reference_hits": "Kraken taxonomic calls plus optional independent BWA-MEM2 human-host alignment",
+          "requested_limit": 0,
+          "sample_id": "Wxiamen/SRR39271690",
+          "schema": "metag-hpc-split-v4",
+          "species_fragments_materialized": 166227,
+          "species_fragments_materialized_fraction_of_species_calls": 0.9392735656085075,
+          "species_other_fragments": 10747,
+          "species_taxa_materialized": 548,
+          "species_taxa_total": 3728,
+          "split_policy": {
+            "always_materialize_taxids": [
+              9606
+            ],
+            "human_host": {
+              "enabled": false
+            },
+            "materialize_species_min_fragments": 20,
+            "split_gzip_level": 3,
+            "write_read_assignments": true
+          },
+          "split_preparation_seconds": 0.5708736721426249,
+          "split_seconds": 84.20795743353665,
+          "statuses": {
+            "assigned_species": 176974,
+            "higher_rank": 357211,
+            "unclassified": 1009092
+          },
+          "taxonomy_policy": "exact taxids remain in tables; higher-rank and true unclassified calls are separated; species below the materialization threshold may share physical FASTQ bins",
+          "timing_note": "batch wall time apportioned by fragment count",
+          "total_bases": 308003340,
+          "total_seconds_before_commit": 84.68480076827109,
+          "validated_scope": "entire_input"
+        }
+      }
+    ],
+    "workers": 1
+  },
+  "pilot_fragments": null,
+  "status": "complete"
+}

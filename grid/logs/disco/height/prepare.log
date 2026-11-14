@@ -1,0 +1,3 @@
+Disco withdrawn filter: excluded=0; retained=488130
+Disco sample filter: scored=488130; missing PCA=968; retained=487162
+Disco aligned samples: 487162; distance PCs: 10

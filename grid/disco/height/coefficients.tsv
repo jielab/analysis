@@ -1,0 +1,7 @@
+model	term	kind	beta
+disco	intercept	intercept	168.40577627198118
+disco	disco	score	3.270548600615
+disco	age	covariate	-1.3744248802744594
+disco	sex	covariate	6.527554366321076
+disco	PC1	covariate	-0.6218320973757234
+disco	PC2	covariate	0.7544402866210944

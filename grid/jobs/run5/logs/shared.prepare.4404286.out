@@ -1,0 +1,168 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/2.csx.sh prepare --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid
+COHORT: reading phenotype /work/sph-huangj/phe/ukb/Rdata/all.rds
+[GRID data] Reading selected columns with R: all.rds
+COHORT: reading ancestry /work/sph-huangj/data/gen/ukb/pca_proj/ukb.ancestry.auto.tsv.gz
+LABEL height: train=194,122, validation=48,735, test=243,411
+LABEL ldl: train=163,040, validation=40,999, test=204,040
+LABEL t2dm: train=194,695, validation=48,873, test=244,145
+[shared inputs] PCA coverage: 487,713 -> 486,745; missing projected PCs: 968
+[GRID data] Frozen common roster: N=486745, train=243373, test=243372; supplied_family_groups
+[GRID data] Reading table with R: split.rds
+SHARED ROSTER OK: N=486,745; test=243,372; recovered common.keep, families.tsv.gz, prsformer.split.tsv.gz
+COHORT: reading phenotype /work/sph-huangj/phe/ukb/Rdata/all.rds
+[GRID data] Reading selected columns with R: all.rds
+COHORT: reading ancestry /work/sph-huangj/data/gen/ukb/pca_proj/ukb.ancestry.auto.tsv.gz
+LABEL height: train=194,121, validation=48,542, test=242,644
+LABEL ldl: train=163,182, validation=40,769, test=203,355
+LABEL t2dm: train=194,698, validation=48,675, test=243,372
+PREPARE: 486,745 individuals x 158,604 candidate SNPs; ALT dosage, missing=-1, float16
+DISK: upper bound 144.30 GiB for the final shared matrix plus reserve; train-only MAF>=0.01, call rate>=0.98
+STAGING: node-local disk 143.80 GiB at /tmp/grid-genotype-xe8cln0t
+GENOTYPES chr1: checked 4,416/12,859; cumulative 3,991 SNPs retained
+GENOTYPES chr1: checked 8,896/12,859; cumulative 8,042 SNPs retained
+GENOTYPES chr1: cumulative 11,548 SNPs retained
+GENOTYPES chr2: checked 384/11,863; cumulative 11,901 SNPs retained
+GENOTYPES chr2: checked 4,960/11,863; cumulative 15,947 SNPs retained
+GENOTYPES chr2: checked 9,440/11,863; cumulative 19,850 SNPs retained
+GENOTYPES chr2: cumulative 22,021 SNPs retained
+GENOTYPES chr3: checked 1,888/9,778; cumulative 23,675 SNPs retained
+GENOTYPES chr3: checked 6,464/9,778; cumulative 27,765 SNPs retained
+GENOTYPES chr3: cumulative 30,712 SNPs retained
+GENOTYPES chr4: checked 992/8,514; cumulative 31,591 SNPs retained
+GENOTYPES chr4: checked 5,504/8,514; cumulative 35,563 SNPs retained
+GENOTYPES chr4: cumulative 38,242 SNPs retained
+GENOTYPES chr5: checked 1,408/8,968; cumulative 39,542 SNPs retained
+GENOTYPES chr5: checked 5,792/8,968; cumulative 43,467 SNPs retained
+GENOTYPES chr5: cumulative 46,335 SNPs retained
+GENOTYPES chr6: checked 1,120/14,324; cumulative 47,331 SNPs retained
+GENOTYPES chr6: checked 5,696/14,324; cumulative 51,433 SNPs retained
+GENOTYPES chr6: checked 10,208/14,324; cumulative 55,375 SNPs retained
+GENOTYPES chr6: cumulative 58,944 SNPs retained
+GENOTYPES chr7: checked 224/7,993; cumulative 59,156 SNPs retained
+GENOTYPES chr7: checked 4,704/7,993; cumulative 63,086 SNPs retained
+GENOTYPES chr7: cumulative 66,054 SNPs retained
+GENOTYPES chr8: checked 928/7,477; cumulative 66,870 SNPs retained
+GENOTYPES chr8: checked 5,184/7,477; cumulative 70,681 SNPs retained
+GENOTYPES chr8: cumulative 72,687 SNPs retained
+GENOTYPES chr9: checked 1,920/7,308; cumulative 74,383 SNPs retained
+GENOTYPES chr9: checked 6,336/7,308; cumulative 78,255 SNPs retained
+GENOTYPES chr9: cumulative 79,139 SNPs retained
+GENOTYPES chr10: checked 3,296/8,077; cumulative 82,048 SNPs retained
+GENOTYPES chr10: checked 7,744/8,077; cumulative 85,995 SNPs retained
+GENOTYPES chr10: cumulative 86,301 SNPs retained
+GENOTYPES chr11: checked 3,872/7,921; cumulative 89,776 SNPs retained
+GENOTYPES chr11: cumulative 93,354 SNPs retained
+GENOTYPES chr12: checked 96/7,846; cumulative 93,438 SNPs retained
+GENOTYPES chr12: checked 4,544/7,846; cumulative 97,382 SNPs retained
+GENOTYPES chr12: cumulative 100,351 SNPs retained
+GENOTYPES chr13: checked 672/5,481; cumulative 100,955 SNPs retained
+GENOTYPES chr13: checked 4,416/5,481; cumulative 104,263 SNPs retained
+GENOTYPES chr13: cumulative 105,198 SNPs retained
+GENOTYPES chr14: checked 2,400/5,070; cumulative 107,309 SNPs retained
+GENOTYPES chr14: cumulative 109,695 SNPs retained
+GENOTYPES chr15: checked 832/5,127; cumulative 110,444 SNPs retained
+GENOTYPES chr15: checked 4,320/5,127; cumulative 113,542 SNPs retained
+GENOTYPES chr15: cumulative 114,264 SNPs retained
+GENOTYPES chr16: checked 2,560/5,504; cumulative 116,545 SNPs retained
+GENOTYPES chr16: cumulative 119,160 SNPs retained
+GENOTYPES chr17: checked 416/5,402; cumulative 119,546 SNPs retained
+GENOTYPES chr17: checked 3,968/5,402; cumulative 122,700 SNPs retained
+GENOTYPES chr17: cumulative 123,996 SNPs retained
+GENOTYPES chr18: checked 2,080/4,456; cumulative 125,856 SNPs retained
+GENOTYPES chr18: cumulative 127,969 SNPs retained
+GENOTYPES chr19: checked 1,760/4,885; cumulative 129,590 SNPs retained
+GENOTYPES chr19: cumulative 132,313 SNPs retained
+GENOTYPES chr20: checked 1,152/4,541; cumulative 133,363 SNPs retained
+GENOTYPES chr20: cumulative 136,405 SNPs retained
+GENOTYPES chr21: checked 832/2,340; cumulative 137,157 SNPs retained
+GENOTYPES chr21: cumulative 138,529 SNPs retained
+GENOTYPES chr22: checked 2,368/2,870; cumulative 140,687 SNPs retained
+GENOTYPES chr22: cumulative 141,149 SNPs retained
+WRITE: sequential sample-major genotypes 486,745 x 141,149; 127.97 GiB
+WRITE: 17,064/486,745 rows (3.5%); 76.4 MiB/s
+WRITE: 37,920/486,745 rows (7.8%); 84.6 MiB/s
+WRITE: 58,302/486,745 rows (12.0%); 86.6 MiB/s
+WRITE: 78,447/486,745 rows (16.1%); 87.4 MiB/s
+WRITE: 98,592/486,745 rows (20.3%); 87.8 MiB/s
+WRITE: 118,737/486,745 rows (24.4%); 88.2 MiB/s
+WRITE: 138,645/486,745 rows (28.5%); 88.2 MiB/s
+WRITE: 158,553/486,745 rows (32.6%); 88.4 MiB/s
+WRITE: 177,513/486,745 rows (36.5%); 87.9 MiB/s
+WRITE: 197,421/486,745 rows (40.6%); 88.0 MiB/s
+WRITE: 217,803/486,745 rows (44.7%); 88.3 MiB/s
+WRITE: 237,711/486,745 rows (48.8%); 88.3 MiB/s
+WRITE: 257,856/486,745 rows (53.0%); 88.4 MiB/s
+WRITE: 278,475/486,745 rows (57.2%); 88.7 MiB/s
+WRITE: 299,094/486,745 rows (61.4%); 88.9 MiB/s
+WRITE: 318,054/486,745 rows (65.3%); 88.6 MiB/s
+WRITE: 337,725/486,745 rows (69.4%); 88.6 MiB/s
+WRITE: 358,581/486,745 rows (73.7%); 88.9 MiB/s
+WRITE: 379,674/486,745 rows (78.0%); 89.1 MiB/s
+WRITE: 400,530/486,745 rows (82.3%); 89.3 MiB/s
+WRITE: 420,201/486,745 rows (86.3%); 89.2 MiB/s
+WRITE: 438,924/486,745 rows (90.2%); 88.9 MiB/s
+WRITE: 458,121/486,745 rows (94.1%); 88.8 MiB/s
+WRITE: 478,740/486,745 rows (98.4%); 88.9 MiB/s
+WRITE: 486,745/486,745 rows (100.0%); 88.9 MiB/s
+WRITE OK: durable genotype matrix in 1473.4s
+PREPARE OK: 486,745 individuals x 141,149 SNPs -> /work/sph-huangj/analysis/grid/tmp/prsformer/cache
+[shared inputs] READY: frozen cohort and genotype cache; no model trained
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u13b>
+Subject: Job 4404286: <grid.csx.shared.prepare> in cluster <qmhpc> Done
+
+Job <grid.csx.shared.prepare> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 21:00:44 2026
+Job was executed on host(s) <40*b08u13b>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 21:03:18 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Thu Nov 12 21:03:18 2026
+Terminated at Thu Nov 12 22:14:13 2026
+Results reported at Thu Nov 12 22:14:13 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.csx.shared.prepare
+#BSUB -q 38
+#BSUB -n 32
+#BSUB -R "span[hosts=1] rusage[mem=256GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run5/logs/shared.prepare.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run5/logs/shared.prepare.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 32 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/grid/2.csx.sh prepare --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run5/plan.json --key shared.prepare
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4139.34 sec.
+    Max Memory :                                 6068 MB
+    Average Memory :                             959.21 MB
+    Total Requested Memory :                     163840.00 MB
+    Delta Memory :                               157772.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              5
+    Max Threads :                                7
+    Run time :                                   4253 sec.
+    Turnaround time :                            4409 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run5/logs/shared.prepare.4404286.err> for stderr output of this job.
+

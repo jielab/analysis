@@ -1,0 +1,89 @@
+{
+  "schema": "metag-cohort-summary-v1",
+  "generated_utc": "2026-11-13T06:22:17.000257+00:00",
+  "input_root": "/work/sph-huangj/data/metag/species",
+  "expected_samples": 10,
+  "sample_ids": [
+    "Ndesert/SRR23862437",
+    "Ndesert/SRR23862438",
+    "Ndesert/SRR23862439",
+    "Ndesert/SRR23862440",
+    "Ndesert/SRR23862441",
+    "Ndesert/SRR23862442",
+    "Ndesert/SRR23862443",
+    "Ndesert/SRR23862444",
+    "Ndesert/SRR23862445",
+    "Ndesert/SRR23862446"
+  ],
+  "complete_samples": 10,
+  "incomplete_or_invalid_samples": 0,
+  "totals": {
+    "fragments": 396230471,
+    "reads": 792460942,
+    "unclassified_fragments": 340161316,
+    "higher_rank_fragments": 52100692,
+    "species_fragments": 3968463
+  },
+  "state": "complete",
+  "comparison_failures": 0,
+  "validation": "Metadata hashes, artifact existence/sizes and count conservation; large FASTQs/tars not rehashed.",
+  "interpretation": "Fractions use all fragments. Species totals are read-assignment counts, not organism abundances. Disabled human screens are not negative tests. Sensitivity differences are not accuracy estimates."
+}
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@a01u21s>
+Subject: Job 4404269: <metag_split_summary.Ndesert> in cluster <qmhpc> Done
+
+Job <metag_split_summary.Ndesert> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 20:51:51 2026
+Job was executed on host(s) <2*a01u21s>, in queue <v3-6t>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 14:21:46 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/metag> was used as the working directory.
+Started at Fri Nov 13 14:21:46 2026
+Terminated at Fri Nov 13 14:22:19 2026
+Results reported at Fri Nov 13 14:22:19 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J "metag_split_summary.Ndesert"
+#BSUB -q v3-6t
+#BSUB -n 2
+#BSUB -W 24:00
+#BSUB -R "span[hosts=1] rusage[mem=16GB/host]"
+#BSUB -o /work/sph-huangj/analysis/metag/logs/split/run/summary.out
+#BSUB -e /work/sph-huangj/analysis/metag/logs/split/run/summary.err
+
+set -euo pipefail
+export submit="${submit:-hpc}" WORKFLOW_WORKER=1
+export OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 BLIS_NUM_THREADS=1
+export VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1
+cd -- /work/sph-huangj/analysis/metag/releases/0fef49ee3e234ea0199c839dd5a60cf84fd54f4d0ff4d85f7f7f7f0fc11e9eff/metag
+exec bash /work/sph-huangj/analysis/metag/releases/0fef49ee3e234ea0199c839dd5a60cf84fd54f4d0ff4d85f7f7f7f0fc11e9eff/metag/f/entry.sh parallel-summary-worker --config /work/sph-huangj/analysis/metag/jobs/split/run/config.json --job-plan /work/sph-huangj/analysis/metag/jobs/split/run/jobs.json
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.57 sec.
+    Max Memory :                                 42 MB
+    Average Memory :                             34.71 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               16342.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   31 sec.
+    Turnaround time :                            63028 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/metag/logs/split/run/summary.err> for stderr output of this job.
+

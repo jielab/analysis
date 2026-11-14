@@ -1,0 +1,25 @@
+{
+  "schema": "allele3-batch-plan-1",
+  "plan_identity": "126149c925642b57daaee8af9d56b42062896ea5524ff303a5bd0ca79fa3cc9e",
+  "name": "3_gnomad_scan_sh",
+  "status": "running",
+  "started_at": "2026-11-12T12:22:00.461487+00:00",
+  "lsf_job_id": "4404179",
+  "argv": [
+    "bash",
+    "/work/sph-huangj/scripts/allele3/3.gnomad_scan.sh",
+    "run",
+    "--out",
+    "/work/sph-huangj/analysis/allele3/gnomad_scan",
+    "--chr",
+    "autosomes",
+    "--jobs",
+    "4",
+    "--python",
+    "/work/sph-huangj/.conda/envs/allele3-evolution/bin/python",
+    "--memory-limit-gb",
+    "160"
+  ],
+  "cwd": "/work/sph-huangj/scripts/allele3",
+  "finished_at": "2026-11-12T14:12:10.780441+00:00"
+}

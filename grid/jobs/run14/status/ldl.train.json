@@ -1,0 +1,9 @@
+{
+  "completion_contract": "process_exit_only",
+  "job_id": "4407285",
+  "key": "ldl.train",
+  "pid": 3352306,
+  "plan_sha256": "91b178a1f5f0360ee419118f423abd1da43b76ca822014c5b9ff1bbf0082665f",
+  "started": "2026-11-13T14:39:09.133067+00:00",
+  "status": "RUN"
+}

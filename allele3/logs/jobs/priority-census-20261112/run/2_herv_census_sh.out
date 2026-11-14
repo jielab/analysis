@@ -1,0 +1,328 @@
+[execution] mode=hpc worker=1 jobs_N=8 max_running=32
+[paths] DIR_DATA=/work/sph-huangj/data ANALYSIS_ROOT=/work/sph-huangj/analysis
+[HERV dataset] dat=1kg; build=38; sample=HG00096; PGEN=/work/sph-huangj/data/gen/1kg/38/pfile
+[mode] FRESH RECALCULATION; replace=TRUE; output=/work/sph-huangj/analysis/allele3/herv_census/1kg/38/HG00096
+[resolved path] --fasta = /work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+[resolved path] --vcf-dir = /work/sph-huangj/data/gen/1kg/38/vcf
+[resolved path] --library = /work/sph-huangj/data/annot/allele3/dfam_4.0_human/human.curated.fa
+[resolved path] --pfile-dir = /work/sph-huangj/data/gen/1kg/38/pfile
+[herv] full log=/work/sph-huangj/analysis/allele3/logs/herv_census/1kg/38/HG00096/herv.log
+[dataset] HERV census will audit its selected PGEN/VCF source after resolving auto/resume; this is a variant-conditioned sequence model
+[herv] PREFLIGHT RepeatMasker OK
+[build-check] HERV current FASTA: declared=38; index_status=ready; full FASTA SHA/model receipts remain checked by the assembly engine
+[dataset] HERV selected input=pgen; prepared=False; declared build=38; FASTA=/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+[dataset] herv_selected_pgen_chr1 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr1.pvar.zst
+[build-check] herv_selected_pgen_chr1 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr2 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr2.pvar.zst
+[build-check] herv_selected_pgen_chr2 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr3 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr3.pvar.zst
+[build-check] herv_selected_pgen_chr3 combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr4 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr4.pvar.zst
+[build-check] herv_selected_pgen_chr4 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr5 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr5.pvar.zst
+[build-check] herv_selected_pgen_chr5 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr6 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr6.pvar.zst
+[build-check] herv_selected_pgen_chr6 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr7 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr7.pvar.zst
+[build-check] herv_selected_pgen_chr7 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr8 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr8.pvar.zst
+[build-check] herv_selected_pgen_chr8 combined: declared=38 status=sample_supports_supplied_reference_38 dual_ref=discriminating_support; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr9 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr9.pvar.zst
+[build-check] herv_selected_pgen_chr9 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr10 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr10.pvar.zst
+[build-check] herv_selected_pgen_chr10 combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr11 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr11.pvar.zst
+[build-check] herv_selected_pgen_chr11 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr12 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr12.pvar.zst
+[build-check] herv_selected_pgen_chr12 combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr13 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr13.pvar.zst
+[build-check] herv_selected_pgen_chr13 combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr14 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr14.pvar.zst
+[build-check] herv_selected_pgen_chr14 combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr15 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr15.pvar.zst
+[build-check] herv_selected_pgen_chr15 combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr16 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr16.pvar.zst
+[build-check] herv_selected_pgen_chr16 combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr17 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr17.pvar.zst
+[build-check] herv_selected_pgen_chr17 combined: declared=38 status=sample_supports_supplied_reference_38 dual_ref=discriminating_support; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr18 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr18.pvar.zst
+[build-check] herv_selected_pgen_chr18 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr19 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr19.pvar.zst
+[build-check] herv_selected_pgen_chr19 combined: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr20 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr20.pvar.zst
+[build-check] herv_selected_pgen_chr20 combined: declared=38 status=sample_supports_supplied_reference_38 dual_ref=discriminating_support; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr21 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr21.pvar.zst
+[build-check] herv_selected_pgen_chr21 combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] herv_selected_pgen_chr22 combined: available; status=audited; variant_metadata_only; sample_count=NA; /work/sph-huangj/data/gen/1kg/38/pfile/chr22.pvar.zst
+[build-check] herv_selected_pgen_chr22 combined: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[herv] START herv sample=HG00096; input=pgen; chr1-22; reference/hap1/hap2; jobs=8; output=/work/sph-huangj/analysis/allele3/tmp/herv_census/1kg/38/HG00096/work
+[herv] prepared 1/22 chromosomes; latest=chr1
+[herv] prepared 19/22 chromosomes; latest=chr19
+[herv] prepared 22/22 chromosomes; latest=chr22
+[herv] annotated 1 chunks; latest=chr1 hap2
+[herv] annotated 9 chunks; latest=chr1 reference
+[herv] annotated 17 chunks; latest=chr1 reference
+[herv] annotated 25 chunks; latest=chr1 reference
+[herv] annotated 36 chunks; latest=chr1 reference
+[herv] annotated 48 chunks; latest=chr1 hap2
+[herv] annotated 60 chunks; latest=chr1 hap2
+[herv] annotated 71 chunks; latest=chr1 reference
+[herv] annotated 86 chunks; latest=chr1 hap1
+[herv] annotated 93 chunks; latest=chr1 reference
+[herv] annotated 103 chunks; latest=chr1 reference
+[herv] annotated 115 chunks; latest=chr1 reference
+[herv] annotated 126 chunks; latest=chr1 reference
+[herv] annotated 136 chunks; latest=chr1 reference
+[herv] annotated 145 chunks; latest=chr1 reference
+[herv] annotated 158 chunks; latest=chr2 hap1
+[herv] annotated 166 chunks; latest=chr2 reference
+[herv] annotated 175 chunks; latest=chr2 reference
+[herv] annotated 187 chunks; latest=chr2 reference
+[herv] annotated 198 chunks; latest=chr2 hap2
+[herv] annotated 205 chunks; latest=chr2 reference
+[herv] annotated 214 chunks; latest=chr2 reference
+[herv] annotated 224 chunks; latest=chr2 hap1
+[herv] annotated 235 chunks; latest=chr2 hap1
+[herv] annotated 246 chunks; latest=chr2 hap2
+[herv] annotated 256 chunks; latest=chr2 hap1
+[herv] annotated 268 chunks; latest=chr2 reference
+[herv] annotated 278 chunks; latest=chr2 hap1
+[herv] annotated 287 chunks; latest=chr2 hap1
+[herv] annotated 298 chunks; latest=chr3 reference
+[herv] annotated 309 chunks; latest=chr3 reference
+[herv] annotated 320 chunks; latest=chr3 hap1
+[herv] annotated 326 chunks; latest=chr3 hap1
+[herv] annotated 338 chunks; latest=chr3 hap1
+[herv] annotated 349 chunks; latest=chr3 reference
+[herv] annotated 357 chunks; latest=chr3 hap2
+[herv] annotated 370 chunks; latest=chr3 reference
+[herv] annotated 379 chunks; latest=chr3 reference
+[herv] annotated 393 chunks; latest=chr3 hap2
+[herv] annotated 402 chunks; latest=chr3 hap2
+[herv] annotated 411 chunks; latest=chr3 reference
+[herv] annotated 419 chunks; latest=chr4 reference
+[herv] annotated 433 chunks; latest=chr4 reference
+[herv] annotated 442 chunks; latest=chr4 reference
+[herv] annotated 450 chunks; latest=chr4 reference
+[herv] annotated 463 chunks; latest=chr4 reference
+[herv] annotated 472 chunks; latest=chr4 reference
+[herv] annotated 484 chunks; latest=chr4 reference
+[herv] annotated 496 chunks; latest=chr4 reference
+[herv] annotated 507 chunks; latest=chr4 hap2
+[herv] annotated 517 chunks; latest=chr4 reference
+[herv] annotated 532 chunks; latest=chr4 reference
+[herv] annotated 542 chunks; latest=chr5 hap1
+[herv] annotated 551 chunks; latest=chr5 hap1
+[herv] annotated 562 chunks; latest=chr5 reference
+[herv] annotated 574 chunks; latest=chr5 reference
+[herv] annotated 583 chunks; latest=chr5 reference
+[herv] annotated 598 chunks; latest=chr5 reference
+[herv] annotated 610 chunks; latest=chr5 reference
+[herv] annotated 621 chunks; latest=chr5 hap2
+[herv] annotated 630 chunks; latest=chr5 hap2
+[herv] annotated 642 chunks; latest=chr5 hap2
+[herv] annotated 651 chunks; latest=chr6 hap2
+[herv] annotated 660 chunks; latest=chr6 hap2
+[herv] annotated 668 chunks; latest=chr6 hap1
+[herv] annotated 679 chunks; latest=chr6 reference
+[herv] annotated 695 chunks; latest=chr6 hap1
+[herv] annotated 708 chunks; latest=chr6 hap2
+[herv] annotated 719 chunks; latest=chr6 hap1
+[herv] annotated 733 chunks; latest=chr6 reference
+[herv] annotated 746 chunks; latest=chr6 hap1
+[herv] annotated 753 chunks; latest=chr7 reference
+[herv] annotated 764 chunks; latest=chr7 hap1
+[herv] annotated 773 chunks; latest=chr7 hap1
+[herv] annotated 783 chunks; latest=chr7 hap2
+[herv] annotated 784 chunks; latest=chr7 reference
+[herv] annotated 792 chunks; latest=chr7 reference
+[herv] annotated 803 chunks; latest=chr7 hap1
+[herv] annotated 810 chunks; latest=chr7 hap2
+[herv] annotated 821 chunks; latest=chr7 hap1
+[herv] annotated 831 chunks; latest=chr7 hap2
+[herv] annotated 840 chunks; latest=chr7 hap2
+[herv] annotated 850 chunks; latest=chr8 reference
+[herv] annotated 862 chunks; latest=chr8 reference
+[herv] annotated 871 chunks; latest=chr8 reference
+[herv] annotated 882 chunks; latest=chr8 hap2
+[herv] annotated 894 chunks; latest=chr8 hap2
+[herv] annotated 903 chunks; latest=chr8 hap2
+[herv] annotated 917 chunks; latest=chr8 hap1
+[herv] annotated 930 chunks; latest=chr8 hap2
+[herv] annotated 942 chunks; latest=chr9 hap2
+[herv] annotated 954 chunks; latest=chr9 hap2
+[herv] annotated 970 chunks; latest=chr9 reference
+[herv] annotated 979 chunks; latest=chr9 reference
+[herv] annotated 991 chunks; latest=chr9 reference
+[herv] annotated 1000 chunks; latest=chr9 reference
+[herv] annotated 1009 chunks; latest=chr9 reference
+[herv] annotated 1018 chunks; latest=chr9 hap1
+[herv] annotated 1027 chunks; latest=chr10 reference
+[herv] annotated 1036 chunks; latest=chr10 reference
+[herv] annotated 1044 chunks; latest=chr10 reference
+[herv] annotated 1055 chunks; latest=chr10 hap1
+[herv] annotated 1064 chunks; latest=chr10 hap1
+[herv] annotated 1073 chunks; latest=chr10 hap1
+[herv] annotated 1081 chunks; latest=chr10 reference
+[herv] annotated 1094 chunks; latest=chr10 reference
+[herv] annotated 1102 chunks; latest=chr11 reference
+[herv] annotated 1115 chunks; latest=chr11 reference
+[herv] annotated 1126 chunks; latest=chr11 reference
+[herv] annotated 1133 chunks; latest=chr11 hap1
+[herv] annotated 1141 chunks; latest=chr11 reference
+[herv] annotated 1150 chunks; latest=chr11 reference
+[herv] annotated 1163 chunks; latest=chr11 hap1
+[herv] annotated 1172 chunks; latest=chr11 hap1
+[herv] annotated 1184 chunks; latest=chr11 hap1
+[herv] annotated 1194 chunks; latest=chr12 hap1
+[herv] annotated 1204 chunks; latest=chr12 reference
+[herv] annotated 1213 chunks; latest=chr12 reference
+[herv] annotated 1222 chunks; latest=chr12 hap2
+[herv] annotated 1232 chunks; latest=chr12 hap1
+[herv] annotated 1241 chunks; latest=chr12 hap1
+[herv] annotated 1250 chunks; latest=chr12 hap1
+[herv] annotated 1257 chunks; latest=chr12 hap2
+[herv] annotated 1274 chunks; latest=chr12 hap2
+[herv] annotated 1284 chunks; latest=chr13 reference
+[herv] annotated 1295 chunks; latest=chr13 hap1
+[herv] annotated 1308 chunks; latest=chr13 hap2
+[herv] annotated 1323 chunks; latest=chr13 hap2
+[herv] annotated 1341 chunks; latest=chr14 reference
+[herv] annotated 1354 chunks; latest=chr14 reference
+[herv] annotated 1364 chunks; latest=chr14 hap1
+[herv] annotated 1373 chunks; latest=chr14 hap1
+[herv] annotated 1383 chunks; latest=chr14 hap1
+[herv] annotated 1393 chunks; latest=chr14 hap2
+[herv] annotated 1411 chunks; latest=chr15 reference
+[herv] annotated 1425 chunks; latest=chr15 hap2
+[herv] annotated 1432 chunks; latest=chr15 hap1
+[herv] annotated 1441 chunks; latest=chr15 reference
+[herv] annotated 1449 chunks; latest=chr15 hap2
+[herv] annotated 1460 chunks; latest=chr15 hap2
+[herv] annotated 1465 chunks; latest=chr16 reference
+[herv] annotated 1473 chunks; latest=chr16 hap2
+[herv] annotated 1481 chunks; latest=chr16 hap1
+[herv] annotated 1495 chunks; latest=chr16 reference
+[herv] annotated 1504 chunks; latest=chr16 reference
+[herv] annotated 1516 chunks; latest=chr16 reference
+[herv] annotated 1522 chunks; latest=chr17 reference
+[herv] annotated 1531 chunks; latest=chr17 hap1
+[herv] annotated 1538 chunks; latest=chr17 hap1
+[herv] annotated 1546 chunks; latest=chr17 reference
+[herv] annotated 1555 chunks; latest=chr17 reference
+[herv] annotated 1564 chunks; latest=chr17 hap2
+[herv] annotated 1573 chunks; latest=chr18 reference
+[herv] annotated 1582 chunks; latest=chr18 reference
+[herv] annotated 1590 chunks; latest=chr18 hap1
+[herv] annotated 1601 chunks; latest=chr18 hap1
+[herv] annotated 1612 chunks; latest=chr18 reference
+[herv] annotated 1624 chunks; latest=chr19 hap1
+[herv] annotated 1632 chunks; latest=chr19 reference
+[herv] annotated 1642 chunks; latest=chr19 reference
+[herv] annotated 1650 chunks; latest=chr19 hap2
+[herv] annotated 1657 chunks; latest=chr19 hap2
+[herv] annotated 1667 chunks; latest=chr20 hap1
+[herv] annotated 1675 chunks; latest=chr20 reference
+[herv] annotated 1684 chunks; latest=chr20 hap1
+[herv] annotated 1692 chunks; latest=chr21 reference
+[herv] annotated 1710 chunks; latest=chr21 hap2
+[herv] annotated 1720 chunks; latest=chr21 hap2
+[herv] annotated 1738 chunks; latest=chr22 reference
+[herv] annotated 1746 chunks; latest=chr22 hap2
+[herv] annotated 1757 chunks; latest=chr22 reference
+[herv] DONE herv sample=HG00096; results=/work/sph-huangj/analysis/allele3/tmp/herv_census/1kg/38/HG00096/work
+[herv] complete; elapsed=978.7 min; full log=/work/sph-huangj/analysis/allele3/logs/herv_census/1kg/38/HG00096/herv.log
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@ae2u36a>
+Subject: Job 4404178: <allele3.2_herv_census_sh> in cluster <qmhpc> Done
+
+Job <allele3.2_herv_census_sh> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 20:21:56 2026
+Job was executed on host(s) <40*ae2u36a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 20:21:58 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/allele3> was used as the working directory.
+Started at Thu Nov 12 20:21:58 2026
+Terminated at Fri Nov 13 12:40:45 2026
+Results reported at Fri Nov 13 12:40:45 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J "allele3.2_herv_census_sh"
+#BSUB -q 33
+#BSUB -n 40
+#BSUB -W 72:00
+#BSUB -R "span[hosts=1] rusage[mem=160GB/host]"
+#BSUB -o /work/sph-huangj/analysis/allele3/logs/jobs/priority-census-20261112/run/2_herv_census_sh.out
+#BSUB -e /work/sph-huangj/analysis/allele3/logs/jobs/priority-census-20261112/run/2_herv_census_sh.err
+
+set -euo pipefail
+[[ ${LSB_JOBID:-} =~ ^[1-9][0-9]*$ ]] || { echo 'Submit this .cmd with bsub; no login-node payload' >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} =~ ^[0-9]+$ && ${LSB_DJOB_NUMPROC:-0} -ge 40 ]] || { echo 'Insufficient allocated CPU slots' >&2; exit 2; }
+export ALLELE_1KG_PANEL=/work/sph-huangj/data/gen/1kg/38/samples.txt
+export ALLELE_1KG_VCF_DIR=/work/sph-huangj/data/gen/1kg/38/vcf
+export ALLELE_ALL_OF_US=/work/sph-huangj/data/annot/allele3/allofus/hg38_allofus.txt.gz
+export ALLELE_ANALYSIS_ROOT=/work/sph-huangj/analysis/allele3
+export ALLELE_ANCIENT_DIR=/work/sph-huangj/data/gen/ancient
+export ALLELE_ARCHAIC_CACHE=/work/sph-huangj/analysis/allele3/archaic_overlap
+export ALLELE_ARCHAIC_DATASETS=1kg
+export ALLELE_ARCHAIC_LIFTOVER=/work/sph-huangj/software/bin/liftOver
+export ALLELE_ARCHAIC_ROOT=/work/sph-huangj/data/gen
+export ALLELE_ATLAS_DIR=/work/sph-huangj/data/annot/allele3/alphagenome/38
+export ALLELE_CHAIN37TO38=/work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz
+export ALLELE_CHAIN38TO37=/work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz
+export ALLELE_COHORT_TABLE=/work/sph-huangj/data/gen/1kg/38/allele3/herv_cohort/herv_cohort_burden.tsv
+export ALLELE_COORDINATES=/work/sph-huangj/analysis/allele3/pca3d/coordinates/all.sscore
+export ALLELE_ERV_JOINED=/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+export ALLELE_EXECUTION_MODE=hpc
+export ALLELE_FASTA=/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+export ALLELE_FASTA37=/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz
+export ALLELE_LD_BLOCK_DIR=/work/sph-huangj/data/LD/block
+export ALLELE_LOW_MAPPABILITY_BED=/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+export ALLELE_MEMORY_LIMIT_GB=160
+export ALLELE_METADATA=/work/sph-huangj/analysis/allele3/pca3d/tables/sample_metadata.tsv
+export ALLELE_PYTHON=/work/sph-huangj/.conda/envs/allele3-evolution/bin/python
+export ALLELE_REPLACE=TRUE
+export ALLELE_SCAN_STORE=/work/sph-huangj/analysis/allele3/gnomad_scan
+export ALLELE_VCF_DIR=/work/sph-huangj/data/annot/allele3/gnomad/sites
+export ANALYSIS_ROOT=/work/sph-huangj/analysis
+export DIR_ANALYSIS=/work/sph-huangj/analysis
+export DIR_ANNOT=/work/sph-huangj/data/annot
+export DIR_BIG=/work/sph-huangj/data
+export DIR_DAT=/work/sph-huangj
+export DIR_DATA=/work/sph-huangj/data
+export DIR_FILES=/work/sph-huangj/files
+export DIR_GEN=/work/sph-huangj/data/gen
+export DIR_GWAS=/work/sph-huangj/data/gwas
+export DIR_HOME=/work/sph-huangj
+export DIR_LD=/work/sph-huangj/data/LD
+export DIR_METAG=/work/sph-huangj/data/metag
+
+(... more ...)
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   652860.00 sec.
+    Max Memory :                                 2870 MB
+    Average Memory :                             2182.92 MB
+    Total Requested Memory :                     163840.00 MB
+    Delta Memory :                               160970.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              47
+    Max Threads :                                83
+    Run time :                                   58725 sec.
+    Turnaround time :                            58729 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/allele3/logs/jobs/priority-census-20261112/run/2_herv_census_sh.err> for stderr output of this job.
+

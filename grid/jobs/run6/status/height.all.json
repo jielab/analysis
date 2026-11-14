@@ -1,0 +1,11 @@
+{
+  "completion_contract": "process_exit_only",
+  "ended": "2026-11-13T00:25:49.031791+00:00",
+  "job_id": "4406234",
+  "key": "height.all",
+  "pid": 3326313,
+  "plan_sha256": "f6683f39dee55034f0cd82f099b54b602121a1f599d8ef7864c5c3a94922fbd5",
+  "returncode": 0,
+  "started": "2026-11-12T23:47:54.116068+00:00",
+  "status": "DONE"
+}

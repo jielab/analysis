@@ -1,0 +1,11 @@
+{
+  "completion_contract": "process_exit_only",
+  "ended": "2026-11-13T01:36:13.957176+00:00",
+  "job_id": "4406236",
+  "key": "t2dm.all",
+  "pid": 2067994,
+  "plan_sha256": "f6683f39dee55034f0cd82f099b54b602121a1f599d8ef7864c5c3a94922fbd5",
+  "returncode": 0,
+  "started": "2026-11-12T23:47:55.161114+00:00",
+  "status": "DONE"
+}

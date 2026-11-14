@@ -1,0 +1,7 @@
+prot	dataset	requested	resolved	rule
+CXCL8	ukb	CXCL8	CXCL8.Cardiometabolic;CXCL8.Inflammation;CXCL8.Neurology;CXCL8.Oncology	exact_base_known_Olink_panel_suffix
+IDO1	ukb	IDO1	IDO1.Cardiometabolic_II;IDO1.Inflammation_II;IDO1.Neurology_II;IDO1.Oncology_II	exact_base_known_Olink_panel_suffix
+IL6	ukb	IL6	IL6.Cardiometabolic;IL6.Inflammation;IL6.Neurology;IL6.Oncology	exact_base_known_Olink_panel_suffix
+LMOD1	ukb	LMOD1	LMOD1.Cardiometabolic_II;LMOD1.Inflammation_II;LMOD1.Neurology_II;LMOD1.Oncology_II	exact_base_known_Olink_panel_suffix
+SCRIB	ukb	SCRIB	SCRIB.Cardiometabolic_II;SCRIB.Inflammation_II;SCRIB.Neurology_II;SCRIB.Oncology_II	exact_base_known_Olink_panel_suffix
+TNF	ukb	TNF	TNF.Cardiometabolic;TNF.Inflammation;TNF.Neurology;TNF.Oncology	exact_base_known_Olink_panel_suffix

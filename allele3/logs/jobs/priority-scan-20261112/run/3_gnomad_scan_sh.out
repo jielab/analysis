@@ -1,0 +1,180 @@
+[execution] mode=hpc worker=1 jobs_N=8 max_running=32
+[paths] DIR_DATA=/work/sph-huangj/data ANALYSIS_ROOT=/work/sph-huangj/analysis
+[configured scan store] /work/sph-huangj/analysis/allele3/gnomad_scan
+[mode] scan-run; replace=TRUE; selected store/output=/work/sph-huangj/analysis/allele3/gnomad_scan
+[allele3] full log=/work/sph-huangj/analysis/allele3/logs/gnomad_scan/scan-run.log
+[dataset] gnomad_sites chr1.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr1.vcf.bgz
+[build-check] gnomad_sites chr1.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chr10.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr10.vcf.bgz
+[build-check] gnomad_sites chr10.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chr11.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr11.vcf.bgz
+[build-check] gnomad_sites chr11.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chr12.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr12.vcf.bgz
+[build-check] gnomad_sites chr12.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chr13.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr13.vcf.bgz
+[build-check] gnomad_sites chr13.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chr14.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr14.vcf.bgz
+[build-check] gnomad_sites chr14.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chr15.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr15.vcf.bgz
+[build-check] gnomad_sites chr15.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chr16.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr16.vcf.bgz
+[build-check] gnomad_sites chr16.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chr17.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr17.vcf.bgz
+[build-check] gnomad_sites chr17.vcf.bgz: declared=38 status=sample_supports_supplied_reference_38 dual_ref=discriminating_support; limited audit; no whole-file validation
+[dataset] gnomad_sites chr18.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr18.vcf.bgz
+[build-check] gnomad_sites chr18.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chr19.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr19.vcf.bgz
+[build-check] gnomad_sites chr19.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chr2.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr2.vcf.bgz
+[build-check] gnomad_sites chr2.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chr20.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr20.vcf.bgz
+[build-check] gnomad_sites chr20.vcf.bgz: declared=38 status=sample_supports_supplied_reference_38 dual_ref=discriminating_support; limited audit; no whole-file validation
+[dataset] gnomad_sites chr21.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr21.vcf.bgz
+[build-check] gnomad_sites chr21.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chr22.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr22.vcf.bgz
+[build-check] gnomad_sites chr22.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chr3.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr3.vcf.bgz
+[build-check] gnomad_sites chr3.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chr4.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr4.vcf.bgz
+[build-check] gnomad_sites chr4.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chr5.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr5.vcf.bgz
+[build-check] gnomad_sites chr5.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chr6.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr6.vcf.bgz
+[build-check] gnomad_sites chr6.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chr7.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr7.vcf.bgz
+[build-check] gnomad_sites chr7.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chr8.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr8.vcf.bgz
+[build-check] gnomad_sites chr8.vcf.bgz: declared=38 status=sample_supports_supplied_reference_38 dual_ref=discriminating_support; limited audit; no whole-file validation
+[dataset] gnomad_sites chr9.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chr9.vcf.bgz
+[build-check] gnomad_sites chr9.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=ambiguous_or_insufficient; limited audit; no whole-file validation
+[dataset] gnomad_sites chrX.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chrX.vcf.bgz
+[build-check] gnomad_sites chrX.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[dataset] gnomad_sites chrY.vcf.bgz: available; status=audited; sites_only; sample_count=0; /work/sph-huangj/data/annot/allele3/gnomad/sites/chrY.vcf.bgz
+[build-check] gnomad_sites chrY.vcf.bgz: declared=38 status=metadata_supports_38 dual_ref=unavailable; limited audit; no whole-file validation
+[mode] FRESH RECALCULATION (--replace TRUE)
+[new output] /work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work
+[permanent input/cache; retained] /work/sph-huangj/data/annot/allele3/gnomad/sites
+[permanent input/cache; retained] /work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+[permanent input/cache; retained] /work/sph-huangj/data/LD/block
+[permanent input/cache; retained] /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+[permanent input/cache; retained] /work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+[scan] 22 input(s); 4 concurrent scan(s); backend=bcftools; no API calls
+[scan chr2.vcf.bgz] 100,000 qualifying loci; 8,031 multi-ALT; 0.8 min
+[scan chr3.vcf.bgz] 800,000 qualifying loci; 75,398 multi-ALT; 5.9 min
+[scan chr2.vcf.bgz] 1,500,000 qualifying loci; 116,675 multi-ALT; 10.9 min
+[scan chr3.vcf.bgz] 2,200,000 qualifying loci; 193,188 multi-ALT; 16.0 min
+[scan chr1.vcf.bgz] 3,000,000 qualifying loci; 241,808 multi-ALT; 21.1 min
+[scan chr3.vcf.bgz] 3,700,000 qualifying loci; 300,083 multi-ALT; 26.6 min
+[scan chr3.vcf.bgz] 4,400,000 qualifying loci; 353,642 multi-ALT; 31.8 min
+[scan chr1.vcf.bgz] 5,300,000 qualifying loci; 409,363 multi-ALT; 36.9 min
+[scan chr3.vcf.bgz] 5,800,000 qualifying loci; 466,636 multi-ALT; 42.1 min
+[scan chr3.vcf.bgz] 6,500,000 qualifying loci; 517,015 multi-ALT; 47.3 min
+[scan chr1.vcf.bgz] 7,500,000 qualifying loci; 561,835 multi-ALT; 52.4 min
+[scan chr2.vcf.bgz] 8,000,000 qualifying loci; 612,921 multi-ALT; 57.5 min
+[scan chr2.vcf.bgz] 8,700,000 qualifying loci; 677,642 multi-ALT; 62.6 min
+[scan chr4.vcf.bgz] 9,100,000 qualifying loci; 730,946 multi-ALT; 67.7 min
+[scan chr3.vcf.bgz] 10,100,000 qualifying loci; 761,320 multi-ALT; 72.9 min
+[scan chr2.vcf.bgz] 10,800,000 qualifying loci; 862,312 multi-ALT; 78.0 min
+[scan chr1.vcf.bgz] 11,900,000 qualifying loci; 857,358 multi-ALT; 83.1 min
+[scan chr2.vcf.bgz] 12,300,000 qualifying loci; 986,592 multi-ALT; 88.4 min
+[scan chr1.vcf.bgz] 13,400,000 qualifying loci; 960,354 multi-ALT; 93.5 min
+[scan chr3.vcf.bgz] 13,700,000 qualifying loci; 1,039,374 multi-ALT; 98.6 min
+[scan chr4.vcf.bgz] 13,900,000 qualifying loci; 1,124,853 multi-ALT; 103.6 min
+[scan chr1.vcf.bgz] 15,600,000 qualifying loci; 1,110,550 multi-ALT; 108.9 min
+Traceback (most recent call last):
+Traceback (most recent call last):
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@r13n33>
+Subject: Job 4404179: <allele3.3_gnomad_scan_sh> in cluster <qmhpc> Exited
+
+Job <allele3.3_gnomad_scan_sh> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 20:21:56 2026
+Job was executed on host(s) <40*r13n33>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 20:21:58 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/allele3> was used as the working directory.
+Started at Thu Nov 12 20:21:58 2026
+Terminated at Thu Nov 12 22:12:27 2026
+Results reported at Thu Nov 12 22:12:27 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J "allele3.3_gnomad_scan_sh"
+#BSUB -q 33
+#BSUB -n 40
+#BSUB -W 72:00
+#BSUB -R "span[hosts=1] rusage[mem=160GB/host]"
+#BSUB -o /work/sph-huangj/analysis/allele3/logs/jobs/priority-scan-20261112/run/3_gnomad_scan_sh.out
+#BSUB -e /work/sph-huangj/analysis/allele3/logs/jobs/priority-scan-20261112/run/3_gnomad_scan_sh.err
+
+set -euo pipefail
+[[ ${LSB_JOBID:-} =~ ^[1-9][0-9]*$ ]] || { echo 'Submit this .cmd with bsub; no login-node payload' >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} =~ ^[0-9]+$ && ${LSB_DJOB_NUMPROC:-0} -ge 40 ]] || { echo 'Insufficient allocated CPU slots' >&2; exit 2; }
+export ALLELE_1KG_PANEL=/work/sph-huangj/data/gen/1kg/38/samples.txt
+export ALLELE_1KG_VCF_DIR=/work/sph-huangj/data/gen/1kg/38/vcf
+export ALLELE_ALL_OF_US=/work/sph-huangj/data/annot/allele3/allofus/hg38_allofus.txt.gz
+export ALLELE_ANALYSIS_ROOT=/work/sph-huangj/analysis/allele3
+export ALLELE_ANCIENT_DIR=/work/sph-huangj/data/gen/ancient
+export ALLELE_ARCHAIC_CACHE=/work/sph-huangj/analysis/allele3/archaic_overlap
+export ALLELE_ARCHAIC_DATASETS=1kg
+export ALLELE_ARCHAIC_LIFTOVER=/work/sph-huangj/software/bin/liftOver
+export ALLELE_ARCHAIC_ROOT=/work/sph-huangj/data/gen
+export ALLELE_ATLAS_DIR=/work/sph-huangj/data/annot/allele3/alphagenome/38
+export ALLELE_CHAIN37TO38=/work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz
+export ALLELE_CHAIN38TO37=/work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz
+export ALLELE_COHORT_TABLE=/work/sph-huangj/data/gen/1kg/38/allele3/herv_cohort/herv_cohort_burden.tsv
+export ALLELE_COORDINATES=/work/sph-huangj/analysis/allele3/pca3d/coordinates/all.sscore
+export ALLELE_ERV_JOINED=/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+export ALLELE_EXECUTION_MODE=hpc
+export ALLELE_FASTA=/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+export ALLELE_FASTA37=/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz
+export ALLELE_LD_BLOCK_DIR=/work/sph-huangj/data/LD/block
+export ALLELE_LOW_MAPPABILITY_BED=/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+export ALLELE_MEMORY_LIMIT_GB=160
+export ALLELE_METADATA=/work/sph-huangj/analysis/allele3/pca3d/tables/sample_metadata.tsv
+export ALLELE_PYTHON=/work/sph-huangj/.conda/envs/allele3-evolution/bin/python
+export ALLELE_REPLACE=TRUE
+export ALLELE_SCAN_STORE=/work/sph-huangj/analysis/allele3/gnomad_scan
+export ALLELE_VCF_DIR=/work/sph-huangj/data/annot/allele3/gnomad/sites
+export ANALYSIS_ROOT=/work/sph-huangj/analysis
+export DIR_ANALYSIS=/work/sph-huangj/analysis
+export DIR_ANNOT=/work/sph-huangj/data/annot
+export DIR_BIG=/work/sph-huangj/data
+export DIR_DAT=/work/sph-huangj
+export DIR_DATA=/work/sph-huangj/data
+export DIR_FILES=/work/sph-huangj/files
+export DIR_GEN=/work/sph-huangj/data/gen
+export DIR_GWAS=/work/sph-huangj/data/gwas
+export DIR_HOME=/work/sph-huangj
+export DIR_LD=/work/sph-huangj/data/LD
+export DIR_METAG=/work/sph-huangj/data/metag
+
+(... more ...)
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   28535.00 sec.
+    Max Memory :                                 4597 MB
+    Average Memory :                             3903.65 MB
+    Total Requested Memory :                     163840.00 MB
+    Delta Memory :                               159243.00 MB
+    Max Swap :                                   -
+    Max Processes :                              15
+    Max Threads :                                18
+    Run time :                                   6627 sec.
+    Turnaround time :                            6631 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/allele3/logs/jobs/priority-scan-20261112/run/3_gnomad_scan_sh.err> for stderr output of this job.
+

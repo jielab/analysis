@@ -1,0 +1,4 @@
+trait	role	n	groups	radius	task
+ldl	calibration	48569	40003	1.3359504750463915	continuous
+ldl	donor	163236	137084	1.3359504750463915	continuous
+ldl	test	243372	199713	1.3359504750463915	continuous

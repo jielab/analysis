@@ -1,0 +1,39 @@
+{
+  "active_file_record": null,
+  "cache": "/work/sph-huangj/analysis/grid/tmp/prsformer/cache",
+  "files": {
+    "/work/sph-huangj/analysis/grid/tmp/prsformer/cache/data.tsv.gz": {
+      "mtime_ns": 1794561890360202070,
+      "size": 10556557
+    },
+    "/work/sph-huangj/analysis/grid/tmp/prsformer/cache/prepare.json": {
+      "mtime_ns": 1794561892318333000,
+      "size": 11999
+    },
+    "/work/sph-huangj/analysis/grid/tmp/prsformer/cache/variants.tsv.gz": {
+      "mtime_ns": 1794561892292094560,
+      "size": 3499321
+    },
+    "/work/sph-huangj/analysis/grid/tmp/prsformer/ldl/run/evaluation.json": {
+      "mtime_ns": 1794641025084789828,
+      "size": 1102
+    },
+    "/work/sph-huangj/analysis/grid/tmp/prsformer/ldl/run/metrics.tsv": {
+      "mtime_ns": 1794641023952203971,
+      "size": 2567
+    },
+    "/work/sph-huangj/analysis/grid/tmp/prsformer/ldl/run/model.pt": {
+      "mtime_ns": 1794641024958726707,
+      "size": 148875404
+    },
+    "/work/sph-huangj/analysis/grid/tmp/prsformer/ldl/run/test_predictions.tsv.gz": {
+      "mtime_ns": 1794641023951003042,
+      "size": 8199043
+    }
+  },
+  "method": "prsformer",
+  "root": "/work/sph-huangj/analysis/grid",
+  "run": "/work/sph-huangj/analysis/grid/tmp/prsformer/ldl/run",
+  "schema": "grid.prsformer.model_handoff.1",
+  "trait": "ldl"
+}

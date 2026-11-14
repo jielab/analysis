@@ -1,0 +1,33 @@
+[hotspots] start windows
+[genome-windows] background: 1,570,782 compact strata
+[genome-windows] background: 3,269,872 compact strata
+[genome-windows] background: 4,924,549 compact strata
+[genome-windows] background: 6,528,220 compact strata
+[genome-windows] background: 8,157,908 compact strata
+[genome-windows] background complete: 8,380,879 compact strata
+[hotspots] complete windows
+[hotspots] start characterize
+[hotspots] complete characterize
+[hotspots] start atlas
+[build-check] atlas_targets=GRCh38 coordinates=1-based selected_sites=1225 theoretical_ALT_per_site=3 REF_score=NA
+[build-check] atlas=avi declared=GRCh38 source=GRCh38_header_and_declared index=TBI:1-based exact_REF=checked_per_returned_target
+[dataset] atlas=avi status=ready source_version=user-declared-unverified file=/work/sph-huangj/data/annot/allele3/alphagenome/38/chr{chrom}.vcf.bgz
+[build-check] atlas=splicing declared=GRCh38 source=GRCh38_header_and_declared index=TBI:1-based exact_REF=checked_per_returned_target
+[dataset] atlas=splicing status=ready source_version=user-declared-unverified file=/work/sph-huangj/data/annot/allele3/alphagenome/38/chr{chrom}.vcf.bgz
+[build-check] atlas=avi_attributions declared=GRCh38 source=GRCh38_header_and_declared index=TBI:1-based exact_REF=checked_per_returned_target
+[dataset] atlas=avi_attributions status=ready source_version=user-declared-unverified file=/work/sph-huangj/data/annot/allele3/alphagenome/38/chr{chrom}.vcf.bgz
+[hotspots] complete atlas
+[hotspots] start impact
+[hotspots] complete impact
+[hotspots] start selection
+[published-selection] 1,000,000 source rows streamed
+[published-selection] 2,000,000 source rows streamed
+[published-selection] 3,000,000 source rows streamed
+[published-selection] 4,000,000 source rows streamed
+[published-selection] 5,000,000 source rows streamed
+[published-selection] 6,000,000 source rows streamed
+[published-selection] 7,000,000 source rows streamed
+[published-selection] 8,000,000 source rows streamed
+[published-selection] 9,000,000 source rows streamed
+[hotspots] complete selection
+hotspots: Scientific source files or code changed during the pipeline

@@ -1,0 +1,62 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/2.csx.sh targetfit --traits ldl --analysis-root /work/sph-huangj/analysis/grid
+[GRID data] Reading table with R: 1csx.scores.rds
+[csx] ldl: fitted N=5000; untouched test N=243372; /work/sph-huangj/analysis/grid/csx/ldl/targetfit/performance.tsv
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u24a>
+Subject: Job 4404294: <grid.csx.ldl.targetfit> in cluster <qmhpc> Done
+
+Job <grid.csx.ldl.targetfit> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 21:00:46 2026
+Job was executed on host(s) <16*b04u24a>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 06:57:48 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Fri Nov 13 06:57:48 2026
+Terminated at Fri Nov 13 06:58:48 2026
+Results reported at Fri Nov 13 06:58:48 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.csx.ldl.targetfit
+#BSUB -q 38
+#BSUB -n 16
+#BSUB -R "span[hosts=1] rusage[mem=32GB/host]"
+#BSUB -W 24:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run5/logs/ldl.targetfit.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run5/logs/ldl.targetfit.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 16 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: ldl.score, shared.prepare
+# Scientific command: bash /work/sph-huangj/scripts/grid/2.csx.sh targetfit --traits ldl --analysis-root /work/sph-huangj/analysis/grid
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run5/plan.json --key ldl.targetfit
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   46.54 sec.
+    Max Memory :                                 553 MB
+    Average Memory :                             372.73 MB
+    Total Requested Memory :                     32768.00 MB
+    Delta Memory :                               32215.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                6
+    Run time :                                   58 sec.
+    Turnaround time :                            35882 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run5/logs/ldl.targetfit.4404294.err> for stderr output of this job.
+

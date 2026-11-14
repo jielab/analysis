@@ -1,0 +1,377 @@
+{
+  "cache": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards",
+  "identity": {
+    "callable_bed": null,
+    "code_sha256": "f5d72bdbf402a932ee23eca7c859348d4d7a25110f6f3db12bb3e23cff7ae38e",
+    "fasta": {
+      "edge_sha256": "be4a7529166a875d20762395d3d4b8da98215cf5dc2125bc2dabbedaba7f2487",
+      "mtime_ns": 1790987589000000000,
+      "path": "/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz",
+      "size": 791434568
+    },
+    "fasta_gzi": {
+      "edge_sha256": "202c30bb9dd89149aedb79ae75538d1fdd0405cfe1df4be88f9fdf6375cc2b2b",
+      "mtime_ns": 1790987609000000000,
+      "path": "/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz.gzi",
+      "size": 771016
+    },
+    "fasta_index": {
+      "edge_sha256": "502a1b8fb73ccd53285c28a0f12df90c818b4fe3de1e862ef47c593ef1a0a4b4",
+      "mtime_ns": 1790987609000000000,
+      "path": "/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz.fai",
+      "size": 7804
+    },
+    "inputs": [
+      {
+        "edge_sha256": "0fc089ae8d7cdb71e1a37ede12d783725352a4c3ceb5e342d1284a39a231716c",
+        "mtime_ns": 1792286408000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr1.vcf.bgz",
+        "size": 44078103205
+      },
+      {
+        "edge_sha256": "fdc86f7cc90c08e1a3782378050dbc0e715f2d22a27d13a9b2a348c0f4e6bca4",
+        "mtime_ns": 1792294225000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr2.vcf.bgz",
+        "size": 46559034968
+      },
+      {
+        "edge_sha256": "7dff9241627e64647a961782e11fce53f21558a2f96dfb75f3176f6b754c0a03",
+        "mtime_ns": 1792228843000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr3.vcf.bgz",
+        "size": 39251922328
+      },
+      {
+        "edge_sha256": "d4668294f1f1cf395346f1f126e18eff979d192043e2f54c2c49d7e28d4059f7",
+        "mtime_ns": 1792229189000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr4.vcf.bgz",
+        "size": 36033143211
+      },
+      {
+        "edge_sha256": "afec27e08cf540ddd93ad871b1cc215f8c98d36bad808ffb8500271498d3955b",
+        "mtime_ns": 1792329325000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr5.vcf.bgz",
+        "size": 32707176660
+      },
+      {
+        "edge_sha256": "c1310de4b56b6e6523242cb9b58eb3b1aaa16a529e0ea44741ce45d70fcb5942",
+        "mtime_ns": 1792294475000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr6.vcf.bgz",
+        "size": 31788224183
+      },
+      {
+        "edge_sha256": "917f9013900cb5b5b13d922f5d592a31be23a1b70d28d4d605d045cae71539f0",
+        "mtime_ns": 1792320544000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr7.vcf.bgz",
+        "size": 31250828580
+      },
+      {
+        "edge_sha256": "1c8217ccfcf4561a94f0425a201f88453b8ed104687a872277d74b11e886ace7",
+        "mtime_ns": 1792228619000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr8.vcf.bgz",
+        "size": 29291764214
+      },
+      {
+        "edge_sha256": "f4862b8f0acaf267708eee7f85d5a5b6b6fcaab604932a630a69f0190d3f1c21",
+        "mtime_ns": 1792329903000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr9.vcf.bgz",
+        "size": 24761070444
+      },
+      {
+        "edge_sha256": "8ea36fdad8d7e4fba2fade4de281c159004673c2b661e67104c47b967a73bc5b",
+        "mtime_ns": 1792332697000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr10.vcf.bgz",
+        "size": 26841421792
+      },
+      {
+        "edge_sha256": "dcdefe3199dce74b42808496175b20a1010ce49df49946816fce9b125150ea7e",
+        "mtime_ns": 1792192193000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr11.vcf.bgz",
+        "size": 26393279310
+      },
+      {
+        "edge_sha256": "5fe0000b8623342e0be4e72ed9a03ade7687465a502df0085a25277d0ceb3458",
+        "mtime_ns": 1792187994000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr12.vcf.bgz",
+        "size": 25950974228
+      },
+      {
+        "edge_sha256": "6cfafb2a8671af072fcc43d9db8e9bb54903ecb786dcdb675d4cc05c35ab473b",
+        "mtime_ns": 1792208712000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr13.vcf.bgz",
+        "size": 17100492651
+      },
+      {
+        "edge_sha256": "9a3e579852c28551a5c6cc2cdac71eb065476498b789ea01d7d858381ce1eaa7",
+        "mtime_ns": 1792368008000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr14.vcf.bgz",
+        "size": 17860683682
+      },
+      {
+        "edge_sha256": "851eafedb14593e30f14c0dee307581cfb808460d3a5fd908359dafbb23153d2",
+        "mtime_ns": 1792329804000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr15.vcf.bgz",
+        "size": 16904431253
+      },
+      {
+        "edge_sha256": "dd6c96d2629a3f829fd4a5350d18d97fff912bcaee4cef52d133d9cc887a81f2",
+        "mtime_ns": 1792321108000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr16.vcf.bgz",
+        "size": 18918703003
+      },
+      {
+        "edge_sha256": "91d0e7c7f3bf5173a68fa1e19deec6950b73703e727cf9d68c75045c190d32ef",
+        "mtime_ns": 1792368314000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr17.vcf.bgz",
+        "size": 17412317144
+      },
+      {
+        "edge_sha256": "e74871e8682e494d0dcfe82fb60af698f5f4fbbc929a4877a3c1f48b68a91529",
+        "mtime_ns": 1792093863000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr18.vcf.bgz",
+        "size": 14430177524
+      },
+      {
+        "edge_sha256": "73553e077f2f1988c308ab31c3100ca223503a3df05fa5a06c477cad29cb134a",
+        "mtime_ns": 1792094618000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr19.vcf.bgz",
+        "size": 13679473477
+      },
+      {
+        "edge_sha256": "ae2fbef0c2e6c5932104956485fad51fa2c5da6ecdd14bc673491785bed7ba5b",
+        "mtime_ns": 1792323099000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr20.vcf.bgz",
+        "size": 11838569571
+      },
+      {
+        "edge_sha256": "0cdf042da7fc1c280a08dfc78fb9be19a2f52be62870b59ab40c0a1314594b64",
+        "mtime_ns": 1792105466000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr21.vcf.bgz",
+        "size": 7758981978
+      },
+      {
+        "edge_sha256": "e9ed82adc81677af26290ed6d54bd3f9e2812ffaca788725e79476464c2d0f3b",
+        "mtime_ns": 1792146280000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr22.vcf.bgz",
+        "size": 8731339280
+      }
+    ],
+    "options": {
+      "architecture_annotation_cache": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/annotations",
+      "architecture_annotations": {
+        "files": {
+          "AFR": {
+            "edge_sha256": "7b5a84c3e1d2cd0737206f33afe55a6c3cce62f66bd41b3ec7aa05b4de29d584",
+            "mtime_ns": 1789170374000000000,
+            "path": "/work/sph-huangj/data/LD/block/AFR.38.bed",
+            "size": 37663
+          },
+          "EAS": {
+            "edge_sha256": "d6b9bdba35fa228c115001a636da235a5381bc0d5e230efde42d439388e9e964",
+            "mtime_ns": 1789170380000000000,
+            "path": "/work/sph-huangj/data/LD/block/EAS.38.bed",
+            "size": 26737
+          },
+          "EUR": {
+            "edge_sha256": "55742f85338d931c0162b6fcb20c095b97c9fe5ae8ef11f6fb4e0678b8e730fc",
+            "mtime_ns": 1789170388000000000,
+            "path": "/work/sph-huangj/data/LD/block/EUR.38.bed",
+            "size": 31840
+          },
+          "SAS": {
+            "edge_sha256": "6f08c43d96e021ec2e548d67a519a0d59fce73d67f1cf09303cfb3b444648c3f",
+            "mtime_ns": 1789170398000000000,
+            "path": "/work/sph-huangj/data/LD/block/SAS.38.bed",
+            "size": 30206
+          },
+          "architecture_low_mappability_bed": {
+            "edge_sha256": "e7bb118abdc99b01912fbf1312065b2ec5bfe10fd530ba8805925048bdb4f43a",
+            "mtime_ns": 1792814343000000000,
+            "path": "/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz",
+            "size": 3959429
+          },
+          "erv_joined": {
+            "edge_sha256": "1b2ab4d4d34dfdebaa7a5df24652b22dd923df9d1bb8909806196a39f31df098",
+            "mtime_ns": 1792681741000000000,
+            "path": "/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz",
+            "size": 154860479
+          }
+        },
+        "schema": 3
+      },
+      "architecture_build": "38",
+      "architecture_lcr_bed": null,
+      "architecture_low_mappability_bed": "/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz",
+      "architecture_min_sites": 10000,
+      "architecture_prefix": "architecture",
+      "architecture_schema": 3,
+      "architecture_segdup_bed": null,
+      "architecture_top_fraction": 0.01,
+      "backend": "auto",
+      "build": "GRCh38",
+      "callable_bed": null,
+      "candidate_storage": "deferred",
+      "enrichment_bootstrap": 2000,
+      "enrichment_tracks": {},
+      "erv_joined": "/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz",
+      "exclude_flags": [],
+      "fasta": "/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz",
+      "include_unfiltered": false,
+      "ld_block_dir": "/work/sph-huangj/data/LD/block",
+      "min_af": 0.0,
+      "min_an": 100,
+      "min_pop_af": 0.0,
+      "min_pop_an": 100,
+      "populations": "auto",
+      "region": null,
+      "source_label": "gnomAD-v4.1-genomes",
+      "thresholds": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "vep": false,
+      "window_size": 1000000,
+      "with_architecture": true,
+      "write_all_sites": false
+    },
+    "version": "4.0.0-focused-20261024"
+  },
+  "inputs": [
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr1.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr2.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr3.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr4.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr5.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr6.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr7.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr8.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr9.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr10.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr11.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr12.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr13.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr14.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr15.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr16.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr17.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr18.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr19.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr20.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr21.vcf.bgz",
+    "/work/sph-huangj/data/annot/allele3/gnomad/sites/chr22.vcf.bgz"
+  ],
+  "options": {
+    "architecture_annotation_cache": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/annotations",
+    "architecture_annotations": {
+      "files": {
+        "AFR": {
+          "edge_sha256": "7b5a84c3e1d2cd0737206f33afe55a6c3cce62f66bd41b3ec7aa05b4de29d584",
+          "mtime_ns": 1789170374000000000,
+          "path": "/work/sph-huangj/data/LD/block/AFR.38.bed",
+          "size": 37663
+        },
+        "EAS": {
+          "edge_sha256": "d6b9bdba35fa228c115001a636da235a5381bc0d5e230efde42d439388e9e964",
+          "mtime_ns": 1789170380000000000,
+          "path": "/work/sph-huangj/data/LD/block/EAS.38.bed",
+          "size": 26737
+        },
+        "EUR": {
+          "edge_sha256": "55742f85338d931c0162b6fcb20c095b97c9fe5ae8ef11f6fb4e0678b8e730fc",
+          "mtime_ns": 1789170388000000000,
+          "path": "/work/sph-huangj/data/LD/block/EUR.38.bed",
+          "size": 31840
+        },
+        "SAS": {
+          "edge_sha256": "6f08c43d96e021ec2e548d67a519a0d59fce73d67f1cf09303cfb3b444648c3f",
+          "mtime_ns": 1789170398000000000,
+          "path": "/work/sph-huangj/data/LD/block/SAS.38.bed",
+          "size": 30206
+        },
+        "architecture_low_mappability_bed": {
+          "edge_sha256": "e7bb118abdc99b01912fbf1312065b2ec5bfe10fd530ba8805925048bdb4f43a",
+          "mtime_ns": 1792814343000000000,
+          "path": "/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz",
+          "size": 3959429
+        },
+        "erv_joined": {
+          "edge_sha256": "1b2ab4d4d34dfdebaa7a5df24652b22dd923df9d1bb8909806196a39f31df098",
+          "mtime_ns": 1792681741000000000,
+          "path": "/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz",
+          "size": 154860479
+        }
+      },
+      "schema": 3
+    },
+    "architecture_build": "38",
+    "architecture_lcr_bed": null,
+    "architecture_low_mappability_bed": "/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz",
+    "architecture_min_sites": 10000,
+    "architecture_prefix": "architecture",
+    "architecture_schema": 3,
+    "architecture_segdup_bed": null,
+    "architecture_top_fraction": 0.01,
+    "backend": "auto",
+    "build": "GRCh38",
+    "callable_bed": null,
+    "candidate_storage": "deferred",
+    "enrichment_bootstrap": 2000,
+    "enrichment_tracks": {},
+    "erv_joined": "/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz",
+    "exclude_flags": [],
+    "fasta": "/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz",
+    "include_unfiltered": false,
+    "ld_block_dir": "/work/sph-huangj/data/LD/block",
+    "min_af": 0.0,
+    "min_an": 100,
+    "min_pop_af": 0.0,
+    "min_pop_an": 100,
+    "populations": "auto",
+    "region": null,
+    "source_label": "gnomAD-v4.1-genomes",
+    "thresholds": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "vep": false,
+    "window_size": 1000000,
+    "with_architecture": true,
+    "write_all_sites": false
+  },
+  "scan_elapsed_seconds_this_invocation": 121267.9587518014,
+  "shards": [
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr1",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr2",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr3",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr4",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr5",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr6",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr7",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr8",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr9",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr10",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr11",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr12",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr13",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr14",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr15",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr16",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr17",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr18",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr19",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr20",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr21",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr22"
+  ],
+  "signature": "2dfcd1f388ea538389f4d50a8dce8e6024d554b8c18b2f19767270d6d0cbb6ae",
+  "status": "complete",
+  "summary": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/summary",
+  "summary_parameters": {
+    "make_plots": true,
+    "min_training_sites": 100
+  },
+  "version": "4.0.0-focused-20261024"
+}

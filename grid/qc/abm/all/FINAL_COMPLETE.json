@@ -1,0 +1,30 @@
+{
+  "artifacts": {
+    "README.md": 1533,
+    "benchmark_comparison_status.tsv": 2721,
+    "count_vs_benchmarks.tsv": 15458,
+    "index.html": 79242,
+    "performance.tsv": 9374,
+    "risk_coverage.tsv": 12047,
+    "status.tsv": 356
+  },
+  "details": {
+    "benchmark_contract": "grid.target_benchmark.1_COMPLETE_exact_test_ID_and_Y",
+    "evaluate_receipt_file_record": {
+      "height": "file:766",
+      "ldl": "file:766",
+      "t2dm": "file:766"
+    },
+    "fitted_any_model": false,
+    "historical_results_read": false,
+    "traits": [
+      "height",
+      "ldl",
+      "t2dm"
+    ]
+  },
+  "schema_version": "grid.abm.1",
+  "stage": "final",
+  "status": "complete",
+  "version": "20261112.1"
+}

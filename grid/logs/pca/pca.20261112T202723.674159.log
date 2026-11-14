@@ -1,0 +1,8 @@
+[pca] work directory: /work/sph-huangj/analysis/grid/tmp/pca
+[pca] command file: /work/sph-huangj/analysis/grid/jobs/pca/pca.20261112T202723.674159.sh
+[pca] log file: /work/sph-huangj/analysis/grid/logs/pca/pca.20261112T202723.674159.log
+input genotype: /work/sph-huangj/data/gen/ukb/37/imp/chr{1..22}
+input PCA weights: /work/sph-huangj/files/DiscoDivas/g1k_hm3_maf5_woamb_wolr.pca.weight
+output PCA files: /work/sph-huangj/data/gen/ukb/pca_proj/ukb.discodivas.pca.tsv.gz
+output individual distance/ancestry: /work/sph-huangj/data/gen/ukb/pca_proj; reports: /work/sph-huangj/analysis/grid/pca
+[PCA] Completed: /work/sph-huangj/data/gen/ukb/pca_proj/ukb.discodivas.pca.tsv.gz; /work/sph-huangj/data/gen/ukb/pca_proj/ukb_reference_distances.tsv.gz; /work/sph-huangj/data/gen/ukb/pca_proj/ukb.ancestry.auto.tsv.gz; reports: /work/sph-huangj/analysis/grid/pca

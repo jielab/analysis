@@ -1,0 +1,93 @@
+{
+  "schema": "phole-assay-specificity-v3",
+  "primary": "all",
+  "evidence_scope": "reported_locus_hypothesis_screen",
+  "counts": {
+    "proteins": 6086,
+    "assay_discordance_rows": 1983,
+    "canonical_contrasts": 1831,
+    "broad_canonical_no_reported_cis_with_orthogonal_cis": 601,
+    "no_cis_reported_primary_assays_with_clean_orthogonal_cis": 618,
+    "canonical_no_cis_reported_with_orthogonal_cis": 561,
+    "specificity_queries": 813,
+    "excluded_queries": 64,
+    "alternative_anchor_rows": 7198,
+    "specific_fingerprint_hypotheses": 0,
+    "confirmed_wrong_proteins": 0
+  },
+  "by_primary": {
+    "ukb": {
+      "broad_no_reported_cis_with_orthogonal_cis": 0,
+      "no_reported_cis_with_clean_orthogonal_cis": 0,
+      "discordance_rows": 1159,
+      "queries": 0
+    },
+    "ckb": {
+      "broad_no_reported_cis_with_orthogonal_cis": 370,
+      "no_reported_cis_with_clean_orthogonal_cis": 332,
+      "discordance_rows": 462,
+      "queries": 452
+    },
+    "decode": {
+      "broad_no_reported_cis_with_orthogonal_cis": 218,
+      "no_reported_cis_with_clean_orthogonal_cis": 218,
+      "discordance_rows": 290,
+      "queries": 299
+    },
+    "scot": {
+      "broad_no_reported_cis_with_orthogonal_cis": 13,
+      "no_reported_cis_with_clean_orthogonal_cis": 11,
+      "discordance_rows": 72,
+      "queries": 62
+    }
+  },
+  "rules": {
+    "primary_cis_absence": "requires explicit cis_search_complete for certified threshold absence; otherwise reported/unknown",
+    "strong_p_thresholds": {
+      "ukb": "1.7001020061203672E-11",
+      "ckb": "1.7135023989033584E-11",
+      "decode": "9.462528387585162E-12",
+      "scot": "1.1389521640091116E-10"
+    },
+    "profile_locus_span_bp": 1000000,
+    "profile_matching": "one-to-one bounded-span ordered matching; cardinality then exact-rsID then distance",
+    "nonspecific_exact_variant_targets_gt": 10,
+    "regional_hotspot_halfwidth_bp": 500000,
+    "regional_hotspot_trans_targets_gt": 10,
+    "reference_cohorts_counted_once": true
+  },
+  "caveats": [
+    "Significance in one assay and nonsignificance/unreported in another is not a difference test.",
+    "SomaScan is also affinity based; its cis signal may reflect a protein-altering/epitope effect.",
+    "A cis association supports target identity but does not rule out cross-reactivity or identify causal abundance regulation.",
+    "Alternative targets and Jaccard scores use selected loci with unknown discovery completeness, not full genetic correlation.",
+    "Shared lead variants and local fingerprints can reflect true trans regulation, protein complexes, LD or technical effects.",
+    "No beta orientation, colocalization, power-adjusted absence or experimental capture identity is tested here.",
+    "Specificity queries are selected by external positive findings; follow-up is conditional, not a new unbiased discovery scan."
+  ],
+  "generated": "2026-11-13T12:46:16+00:00",
+  "input_provenance": {
+    "files": {
+      "cross-check.data.json": "04875211cefdda43f8b1aa0599894bd007221fcfb2012bc57dc7e31709e1784f",
+      "provenance.json": "4164822e2406b288da8df0fbc95fe97e31b678777b93a2db6ff9f6d62709f396",
+      "summary.json": "e288680fb7d786f40bc5837d8f3ffd6bb312792252ddd1cb4bc5f5410fc7d6d4",
+      "signals.tsv": "a216160cb68bf9aaf0e066c5b8b14c4d5724f1c5cb37df76e12d7156deb17f46",
+      "input-files.tsv": "0bf2f9e05a01fb81310d3291a58164d069a3dfceb6d6acef7b9e40ebbf065b71",
+      "protein_map": "43c4f1a09a35f22b991ac58bbe8964caaf702535c1356339e48b37089d017e0f"
+    },
+    "verified_source_summaries": 0,
+    "source_summary_verification": false,
+    "cross_check_generated": "2026-11-13T12:45:59+00:00"
+  },
+  "output_sha256": {
+    "alternative-targets.tsv": "b41eedfb5347e67c0ef1f801dd8b52ae42a3d0d327ef50e3f220d6b37e8d50df",
+    "assay-discordance.tsv": "4c3db27f4d5e30672004dfc232fbf010d1732c3e8d0b87dea39b1856d5af3dfb",
+    "assay-triage.tsv": "05680b7bf82163ac7225d6c82aa493cc326503491eacbe2055c0b45a3f5d0297",
+    "candidate-exclusions.tsv": "cf0e1cb2beef004a71ef6b4a519e50af70a6dea4bd5a1cd4df0a8ddfc17a1568",
+    "fingerprint-matches.tsv": "bf4e9a881fa796d9ca2b67370c9f4b8bd129dc7dd28c786f87e17b112b75ea08",
+    "protein-discordance.tsv": "850d78769368fc2ad3bd6ddf0b05eb489df8f2740cf3e1feb857a86ec1d3d72c",
+    "specificity-queries.excluded.tsv": "fe9e4e25d28022fbec0993740c3db279293a7bbc08373245466548995dd91924",
+    "specificity-queries.tsv": "edea4ba15946aaabf04b5cef0c15d0e69915e2308338e753c966407023c8db8f"
+  },
+  "code_sha256": "1ce822802048bdb970a37d18a8a3972222f32916b8532a5908b54c38d37be254"
+}

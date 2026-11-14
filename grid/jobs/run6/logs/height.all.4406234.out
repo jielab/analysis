@@ -1,0 +1,149 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/3.disco.sh all --traits height --output-root /work/sph-huangj/analysis/grid
+[trait] START 1/2 height.prepare
+[GRID data] Reading table with R: split.rds
+SHARED ROSTER OK: N=486,745; test=243,372; reused unchanged
+COHORT: reading phenotype /work/sph-huangj/phe/ukb/Rdata/all.rds
+[GRID data] Reading selected columns with R: all.rds
+COHORT: reading ancestry /work/sph-huangj/data/gen/ukb/pca_proj/ukb.ancestry.auto.tsv.gz
+LABEL height: train=194,121, validation=48,542, test=242,644
+LABEL ldl: train=163,182, validation=40,769, test=203,355
+LABEL t2dm: train=194,698, validation=48,675, test=243,372
+PREPARE: 486,745 individuals x 158,604 candidate SNPs; ALT dosage, missing=-1, float16
+DISK: upper bound 144.30 GiB for the final shared matrix plus reserve; train-only MAF>=0.01, call rate>=0.98
+STAGING: RAM 143.80 GiB; job headroom 255.41 GiB
+GENOTYPES chr1: checked 5,792/12,859; cumulative 5,234 SNPs retained
+GENOTYPES chr1: checked 11,776/12,859; cumulative 10,588 SNPs retained
+GENOTYPES chr1: cumulative 11,548 SNPs retained
+GENOTYPES chr2: checked 4,672/11,863; cumulative 15,694 SNPs retained
+GENOTYPES chr2: checked 10,656/11,863; cumulative 20,932 SNPs retained
+GENOTYPES chr2: cumulative 22,021 SNPs retained
+GENOTYPES chr3: checked 4,512/9,778; cumulative 26,017 SNPs retained
+GENOTYPES chr3: cumulative 30,712 SNPs retained
+GENOTYPES chr4: checked 480/8,514; cumulative 31,124 SNPs retained
+GENOTYPES chr4: checked 6,368/8,514; cumulative 36,334 SNPs retained
+GENOTYPES chr4: cumulative 38,242 SNPs retained
+GENOTYPES chr5: checked 3,520/8,968; cumulative 41,440 SNPs retained
+GENOTYPES chr5: cumulative 46,335 SNPs retained
+GENOTYPES chr6: checked 256/14,324; cumulative 46,563 SNPs retained
+GENOTYPES chr6: checked 6,240/14,324; cumulative 51,915 SNPs retained
+GENOTYPES chr6: checked 12,256/14,324; cumulative 57,098 SNPs retained
+GENOTYPES chr6: cumulative 58,944 SNPs retained
+GENOTYPES chr7: checked 3,680/7,993; cumulative 62,169 SNPs retained
+GENOTYPES chr7: cumulative 66,054 SNPs retained
+GENOTYPES chr8: checked 1,408/7,477; cumulative 67,287 SNPs retained
+GENOTYPES chr8: checked 7,328/7,477; cumulative 72,559 SNPs retained
+GENOTYPES chr8: cumulative 72,687 SNPs retained
+GENOTYPES chr9: checked 5,600/7,308; cumulative 77,597 SNPs retained
+GENOTYPES chr9: cumulative 79,139 SNPs retained
+GENOTYPES chr10: checked 4,032/8,077; cumulative 82,695 SNPs retained
+GENOTYPES chr10: cumulative 86,301 SNPs retained
+GENOTYPES chr11: checked 1,664/7,921; cumulative 87,820 SNPs retained
+GENOTYPES chr11: checked 7,584/7,921; cumulative 93,052 SNPs retained
+GENOTYPES chr11: cumulative 93,354 SNPs retained
+GENOTYPES chr12: checked 5,408/7,846; cumulative 98,157 SNPs retained
+GENOTYPES chr12: cumulative 100,351 SNPs retained
+GENOTYPES chr13: checked 3,296/5,481; cumulative 103,275 SNPs retained
+GENOTYPES chr13: cumulative 105,198 SNPs retained
+GENOTYPES chr14: checked 3,552/5,070; cumulative 108,342 SNPs retained
+GENOTYPES chr14: cumulative 109,695 SNPs retained
+GENOTYPES chr15: checked 4,192/5,127; cumulative 113,428 SNPs retained
+GENOTYPES chr15: cumulative 114,264 SNPs retained
+GENOTYPES chr16: checked 4,896/5,504; cumulative 118,612 SNPs retained
+GENOTYPES chr16: cumulative 119,160 SNPs retained
+GENOTYPES chr17: checked 5,280/5,402; cumulative 123,883 SNPs retained
+GENOTYPES chr17: cumulative 123,996 SNPs retained
+GENOTYPES chr18: cumulative 127,969 SNPs retained
+GENOTYPES chr19: checked 928/4,885; cumulative 128,820 SNPs retained
+GENOTYPES chr19: cumulative 132,313 SNPs retained
+GENOTYPES chr20: checked 1,792/4,541; cumulative 133,937 SNPs retained
+GENOTYPES chr20: cumulative 136,405 SNPs retained
+GENOTYPES chr21: cumulative 138,529 SNPs retained
+GENOTYPES chr22: checked 448/2,870; cumulative 138,943 SNPs retained
+GENOTYPES chr22: cumulative 141,149 SNPs retained
+WRITE: sequential sample-major genotypes 486,745 x 141,149; 127.97 GiB
+WRITE: 81,765/486,745 rows (16.8%); 366.2 MiB/s
+WRITE: 164,004/486,745 rows (33.7%); 367.3 MiB/s
+WRITE: 245,769/486,745 rows (50.5%); 367.0 MiB/s
+WRITE: 326,586/486,745 rows (67.1%); 365.8 MiB/s
+WRITE: 408,588/486,745 rows (83.9%); 366.2 MiB/s
+WRITE: 486,745/486,745 rows (100.0%); 366.4 MiB/s
+WRITE OK: durable genotype matrix in 357.7s
+PREPARE OK: 486,745 individuals x 141,149 SNPs -> /work/sph-huangj/analysis/grid/tmp/prsformer/cache
+[shared inputs] READY: frozen cohort and genotype cache; no model trained
+[trait] DONE 1/2 height.prepare
+[trait] START 2/2 height.all
+[disco] work directory: /work/sph-huangj/analysis/grid/tmp/disco
+[disco] command file: /work/sph-huangj/analysis/grid/jobs/disco/disco.20261113T082332.3332213.sh
+[disco] log file: /work/sph-huangj/analysis/grid/logs/disco/disco.20261113T082332.3332213.log
+input PCA: /work/sph-huangj/data/gen/ukb/pca_proj/ukb.discodivas.pca.tsv.gz
+input reference centers: /work/sph-huangj/files/DiscoDivas/med.g1000.4pop.tsv
+input score file: /work/sph-huangj/data/gen/ukb/pgs/height/1csx.scores.rds
+output score files: /work/sph-huangj/data/gen/ukb/pgs/height/2disco.scores.rds; /work/sph-huangj/data/gen/ukb/pgs/height/2disco.coefficients.xlsx
+Disco R runtime: /work/sph-huangj/.conda/envs/grid/bin/Rscript
+Disco withdrawn filter: excluded=0; retained=488130
+Disco sample filter: scored=488130; missing PCA=968; retained=487162
+Disco aligned samples: 487162; distance PCs: 10
+[GRID data] Reading table with R: 2disco.scores.rds
+[disco] height: fitted N=5000; untouched test N=243372; /work/sph-huangj/analysis/grid/disco/height/performance.tsv
+DONE height: /work/sph-huangj/data/gen/ukb/pgs/height/2disco.scores.rds
+REPORT disco height /work/sph-huangj/analysis/grid/disco/height/ 
+[trait] DONE 2/2 height.all
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u31a>
+Subject: Job 4406234: <grid.disco.height.all> in cluster <qmhpc> Done
+
+Job <grid.disco.height.all> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 07:47:50 2026
+Job was executed on host(s) <32*b04u31a>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 07:47:51 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Fri Nov 13 07:47:51 2026
+Terminated at Fri Nov 13 08:25:50 2026
+Results reported at Fri Nov 13 08:25:50 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.disco.height.all
+#BSUB -q 38
+#BSUB -n 32
+#BSUB -R "span[hosts=1] rusage[mem=256GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run6/logs/height.all.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run6/logs/height.all.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 32 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/grid/3.disco.sh all --traits height --output-root /work/sph-huangj/analysis/grid
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run6/plan.json --key height.all
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2237.64 sec.
+    Max Memory :                                 131866 MB
+    Average Memory :                             68448.27 MB
+    Total Requested Memory :                     262144.00 MB
+    Delta Memory :                               130278.00 MB
+    Max Swap :                                   -
+    Max Processes :                              12
+    Max Threads :                                43
+    Run time :                                   2278 sec.
+    Turnaround time :                            2280 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run6/logs/height.all.4406234.err> for stderr output of this job.
+

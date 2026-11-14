@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "signature": "82e30192096606ff1f7a53a527355aceba64a12e6c06aa004374972cb5f172e8",
+  "build": "GRCh37",
+  "inputs": {
+    "metadata": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/metadata/sample_metadata.tsv",
+      "size": 1955328,
+      "mtime_ns": 1794486076672993303,
+      "edge_sha256": "a4587314118a5250ce18ca704516c26a28c7492f82b81fc9eb889a5656e4e664",
+      "sha256": "3743decbef2e967634a709c2bf5b7cf76bd76f9d4f8c3f7fc15766927784e2db"
+    },
+    "high_quality": {
+      "path": "/work/sph-huangj/data/gen/ancient/HighQualityVariants.tsv",
+      "size": 315624578,
+      "mtime_ns": 1778805570000000000,
+      "edge_sha256": "012df576b73859d622240f45f7192dc0c436fc29a22dcc2c253c65c67e179e6d"
+    },
+    "pgen": {
+      "path": "/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes.pgen",
+      "size": 26300030448,
+      "mtime_ns": 1778813524000000000,
+      "edge_sha256": "784f3bed59c2069f2ed28ec13c083c32b71fd11bd152f4cff1665f1581b016e6"
+    },
+    "pvar": {
+      "path": "/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes.pvar",
+      "size": 1700215110,
+      "mtime_ns": 1778807114000000000,
+      "edge_sha256": "049d22c8710808f7c0764348c9be0f0ebb37a54b580d66aad5ec159a14d41002"
+    },
+    "psam": {
+      "path": "/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes.psam",
+      "size": 221391,
+      "mtime_ns": 1778805542000000000,
+      "edge_sha256": "b2e29863d2a4207327499f3fd7e1df6c9a8844e85579a0e7f534227e8b416533"
+    }
+  },
+  "settings": {
+    "pca_mode": "standard",
+    "basis": "joint_balanced",
+    "maf": 0.05,
+    "geno": 0.1,
+    "n_components": 10,
+    "max_per_group": 200,
+    "time_bin_years": 2000,
+    "seed": 20261021,
+    "target_flank_bp": 1000000,
+    "exclude_long_ld": true,
+    "plink2": "plink2",
+    "threads": 4,
+    "memory_mb": 16384,
+    "ld_window_kb": 200,
+    "ld_step": 1,
+    "ld_r2": 0.1
+  },
+  "script_path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/commands.sh",
+  "projected_path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all.sscore",
+  "manifest_path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_plan.json",
+  "commands": [
+    [
+      "plink2",
+      "--threads",
+      "4",
+      "--memory",
+      "16384",
+      "--pfile",
+      "/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes",
+      "--keep",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/basis.keep",
+      "--extract",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/background.ids",
+      "--chr",
+      "1-22",
+      "--snps-only",
+      "just-acgt",
+      "--min-alleles",
+      "2",
+      "--max-alleles",
+      "2",
+      "--maf",
+      "0.05",
+      "--geno",
+      "0.1",
+      "--make-pgen",
+      "--out",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/basis_common"
+    ],
+    [
+      "plink2",
+      "--threads",
+      "4",
+      "--memory",
+      "16384",
+      "--pfile",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/basis_common",
+      "--indep-pairwise",
+      "200kb",
+      "1",
+      "0.1",
+      "--out",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ld"
+    ],
+    [
+      "plink2",
+      "--threads",
+      "4",
+      "--memory",
+      "16384",
+      "--pfile",
+      "/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes",
+      "--keep",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all.keep",
+      "--extract",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ld.prune.in",
+      "--make-pgen",
+      "--out",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned"
+    ],
+    [
+      "plink2",
+      "--threads",
+      "4",
+      "--memory",
+      "16384",
+      "--pfile",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned",
+      "--keep",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/basis.keep",
+      "--freq",
+      "counts",
+      "--pca",
+      "10",
+      "allele-wts",
+      "vcols=chrom,ref,alt",
+      "--seed",
+      "20261021",
+      "--out",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ref"
+    ],
+    [
+      "plink2",
+      "--threads",
+      "4",
+      "--memory",
+      "16384",
+      "--pfile",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned",
+      "--read-freq",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ref.acount",
+      "--score",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ref.eigenvec.allele",
+      "2",
+      "5",
+      "header-read",
+      "variance-standardize",
+      "cols=+scoresums",
+      "--score-col-nums",
+      "6-15",
+      "--out",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all"
+    ]
+  ],
+  "plan_file_sha256": {
+    "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all.keep": "f631ca994add1332f4a0153b3a0f1095203466a95aba60e5e14bf0850ce22b46",
+    "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/basis.keep": "2c9817b2292c40fa30696a1a57c2000a8063c09d39f2d89be1caf68ceef51f71",
+    "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/background.ids": "16133ee3a845d877437e2b89f782f028eb75b0e980fe13488225ae7fa2a50ebd",
+    "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/excluded_regions.GRCh37.bed": "b3e4750a8b4645a6522d29338ab8f97a8772ac5e78a9d16585823a6f5d4b5da7",
+    "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/commands.sh": "23354d8d4ce0de30ea8b4936a25d2ea34e03fd0dba807c49c3d8e8c4f4f9a101"
+  },
+  "counts": {
+    "hq_rows": 9739624,
+    "background_ids": 7773700,
+    "non_autosomal_biallelic_snv": 1665051,
+    "excluded_region": 300873,
+    "samples_eligible": 14439,
+    "samples_basis": 4374
+  },
+  "basis_exclusions": {},
+  "group_counts": [
+    {
+      "cohort": "ancient",
+      "stratum": "C",
+      "time_group": "0",
+      "eligible": 2618,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "C",
+      "time_group": "1",
+      "eligible": 525,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "C",
+      "time_group": "2",
+      "eligible": 399,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "C",
+      "time_group": "3",
+      "eligible": 421,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "C",
+      "time_group": "4",
+      "eligible": 8,
+      "basis": 8
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "C",
+      "time_group": "5",
+      "eligible": 3,
+      "basis": 3
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "C",
+      "time_group": "6",
+      "eligible": 3,
+      "basis": 3
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "E",
+      "time_group": "0",
+      "eligible": 439,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "E",
+      "time_group": "1",
+      "eligible": 523,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "E",
+      "time_group": "2",
+      "eligible": 428,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "E",
+      "time_group": "3",
+      "eligible": 295,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "E",
+      "time_group": "4",
+      "eligible": 33,
+      "basis": 33
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "E",
+      "time_group": "5",
+      "eligible": 9,
+      "basis": 9
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "E",
+      "time_group": "6",
+      "eligible": 2,
+      "basis": 2
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "E",
+      "time_group": "7",
+      "eligible": 1,
+      "basis": 1
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "N",
+      "time_group": "0",
+      "eligible": 853,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "N",
+      "time_group": "1",
+      "eligible": 529,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "N",
+      "time_group": "2",
+      "eligible": 266,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "N",
+      "time_group": "3",
+      "eligible": 42,
+      "basis": 42
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "N",
+      "time_group": "4",
+      "eligible": 16,
+      "basis": 16
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "N",
+      "time_group": "5",
+      "eligible": 2,
+      "basis": 2
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SE",
+      "time_group": "0",
+      "eligible": 2024,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SE",
+      "time_group": "1",
+      "eligible": 722,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SE",
+      "time_group": "2",
+      "eligible": 209,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SE",
+      "time_group": "3",
+      "eligible": 182,
+      "basis": 182
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SE",
+      "time_group": "4",
+      "eligible": 74,
+      "basis": 74
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SE",
+      "time_group": "5",
+      "eligible": 13,
+      "basis": 13
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SE",
+      "time_group": "6",
+      "eligible": 1,
+      "basis": 1
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SE",
+      "time_group": "7",
+      "eligible": 1,
+      "basis": 1
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "0",
+      "eligible": 1095,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "1",
+      "eligible": 1705,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "2",
+      "eligible": 400,
+      "basis": 200
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "3",
+      "eligible": 73,
+      "basis": 73
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "4",
+      "eligible": 12,
+      "basis": 12
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "5",
+      "eligible": 4,
+      "basis": 4
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "6",
+      "eligible": 3,
+      "basis": 3
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "7",
+      "eligible": 1,
+      "basis": 1
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "8",
+      "eligible": 1,
+      "basis": 1
+    },
+    {
+      "cohort": "ancient",
+      "stratum": "SW",
+      "time_group": "9",
+      "eligible": 1,
+      "basis": 1
+    },
+    {
+      "cohort": "modern",
+      "stratum": "C",
+      "time_group": "modern",
+      "eligible": 99,
+      "basis": 99
+    },
+    {
+      "cohort": "modern",
+      "stratum": "N",
+      "time_group": "modern",
+      "eligible": 190,
+      "basis": 190
+    },
+    {
+      "cohort": "modern",
+      "stratum": "SW",
+      "time_group": "modern",
+      "eligible": 214,
+      "basis": 200
+    }
+  ],
+  "long_ld_source": "https://genome.sph.umich.edu/wiki/Regions_of_high_linkage_disequilibrium_(LD)",
+  "coordinate_kind": "all samples use PC*_AVG from the same --score transform; never mix with raw eigenvec units",
+  "limitations": [
+    "Age is only an overlay; no separate per-epoch PCA is fitted.",
+    "joint_balanced caps cohort/region/time groups, rather than guaranteeing equal group weights.",
+    "ancient_balanced fits only explicitly unrelated ancient people within configured ages; modern and excluded training groups remain projections.",
+    "The public Reich modern component is 503 EUR individuals, not the full 26-population 1000 Genomes reference. Reference geography must be reported.",
+    "Background common SNVs are not proven neutral; use target/MHC/long-LD exclusions as sensitivity analyses.",
+    "Projection can shrink out-of-basis samples; modern-only PCs may miss ancient variation.",
+    "MAF and genotype-missingness filters are evaluated on the fixed basis; LD pruning uses hardcall correlations.",
+    "PGEN imputation/batch differences may affect PCs. Inspect data-source, coverage and region overlays.",
+    "basis_common and all_pruned can occupy several GiB; incomplete stages are rerun, completed outputs are checksum-verified.",
+    "Huge inputs use size/mtime/edge hashes, not full-file cryptographic validation. Do not mutate original files during execution.",
+    "No target exclusion file supplied; provide GRCh37 selected variants before interpreting target overlays."
+  ]
+}

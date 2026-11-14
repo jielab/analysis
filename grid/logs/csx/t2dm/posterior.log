@@ -1,0 +1,45 @@
+START posterior scoring chr1: 400 joint draws
+DONE posterior scoring chr1
+START posterior scoring chr2: 400 joint draws
+DONE posterior scoring chr2
+START posterior scoring chr3: 400 joint draws
+DONE posterior scoring chr3
+START posterior scoring chr4: 400 joint draws
+DONE posterior scoring chr4
+START posterior scoring chr5: 400 joint draws
+DONE posterior scoring chr5
+START posterior scoring chr6: 400 joint draws
+DONE posterior scoring chr6
+START posterior scoring chr7: 400 joint draws
+DONE posterior scoring chr7
+START posterior scoring chr8: 400 joint draws
+DONE posterior scoring chr8
+START posterior scoring chr9: 400 joint draws
+DONE posterior scoring chr9
+START posterior scoring chr10: 400 joint draws
+DONE posterior scoring chr10
+START posterior scoring chr11: 400 joint draws
+DONE posterior scoring chr11
+START posterior scoring chr12: 400 joint draws
+DONE posterior scoring chr12
+START posterior scoring chr13: 400 joint draws
+DONE posterior scoring chr13
+START posterior scoring chr14: 400 joint draws
+DONE posterior scoring chr14
+START posterior scoring chr15: 400 joint draws
+DONE posterior scoring chr15
+START posterior scoring chr16: 400 joint draws
+DONE posterior scoring chr16
+START posterior scoring chr17: 400 joint draws
+DONE posterior scoring chr17
+START posterior scoring chr18: 400 joint draws
+DONE posterior scoring chr18
+START posterior scoring chr19: 400 joint draws
+DONE posterior scoring chr19
+START posterior scoring chr20: 400 joint draws
+DONE posterior scoring chr20
+START posterior scoring chr21: 400 joint draws
+DONE posterior scoring chr21
+START posterior scoring chr22: 400 joint draws
+DONE posterior scoring chr22
+DONE individual posterior moments: /work/sph-huangj/data/gen/ukb/pgs/t2dm/1csx.posterior.rds

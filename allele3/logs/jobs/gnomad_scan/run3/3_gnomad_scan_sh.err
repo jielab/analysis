@@ -1,0 +1,61 @@
+[allocation] LSF job=4404638 cores=20 budget=64 GiB; scheduler-controlled worker
+[allele3] last workload output:
+(pid, sts) = os.waitpid(self.pid, wait_flags)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+File "/work/sph-huangj/scripts/allele3/f/workflow_data_check.py", line 589, in <module>
+try: raise SystemExit(cli())
+^^^^^
+File "/work/sph-huangj/scripts/allele3/f/workflow_data_check.py", line 584, in cli
+return entry(argv)
+^^^^^^^^^^^
+File "/work/sph-huangj/scripts/allele3/f/workflow_data_check.py", line 154, in main
+return execute_layout(command, a.module_out)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/work/sph-huangj/scripts/allele3/f/workflow_data_check.py", line 563, in execute_layout
+return _execute_layout(command, output)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/work/sph-huangj/scripts/allele3/f/workflow_data_check.py", line 537, in _execute_layout
+code = subprocess.run(command, env=env).returncode
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/subprocess.py", line 550, in run
+stdout, stderr = process.communicate(input, timeout=timeout)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/subprocess.py", line 1201, in communicate
+self.wait()
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/subprocess.py", line 1277, in wait
+self._wait(timeout=sigint_timeout)
+File "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/subprocess.py", line 2047, in _wait
+time.sleep(delay)
+KeyboardInterrupt
+[allele3] failed exit=-2; full log=/work/sph-huangj/analysis/allele3/logs/gnomad_scan/scan-scan-verify.log
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 780, in <module>
+    if __name__=="__main__": raise SystemExit(main())
+                                              ^^^^^^
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 764, in main
+    return worker(a.frozen_plan,a.job_id,a.out)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 528, in worker
+    try: return _worker_payload(frozen_plan,job_id,out)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 504, in _worker_payload
+    process=subprocess.run(job["argv"],cwd=job["cwd"],env=environment)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 1201, in communicate
+    self.wait()
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2053, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2011, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

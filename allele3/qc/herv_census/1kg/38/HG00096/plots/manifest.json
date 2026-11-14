@@ -1,0 +1,5 @@
+{
+  "personalized_segments": 1102456,
+  "reference_segments": 553562,
+  "definition": "merged ERV_with_MaLR union segments; hap1/hap2 are personalized coordinates; reference coordinates use the FASTA recorded in this census run"
+}

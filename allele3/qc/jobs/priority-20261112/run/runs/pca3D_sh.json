@@ -1,0 +1,26 @@
+{
+  "schema": "allele3-batch-plan-1",
+  "plan_identity": "e3264f29913666ed0fd394e00a1a9f5f9855a171bb3ab4bbfeded9c750ffc220",
+  "name": "pca3D_sh",
+  "status": "succeeded",
+  "started_at": "2026-11-12T12:21:03.510577+00:00",
+  "lsf_job_id": "4404174",
+  "argv": [
+    "bash",
+    "/work/sph-huangj/scripts/allele3/pca3D.sh",
+    "run",
+    "--out",
+    "/work/sph-huangj/analysis/allele3/pca3d",
+    "--supplement-xlsx",
+    "/work/sph-huangj/data/gen/ancient/41586_2026_10358_MOESM3_ESM.xlsx",
+    "--python",
+    "/work/sph-huangj/.conda/envs/allele3-evolution/bin/python",
+    "--memory-limit-gb",
+    "160"
+  ],
+  "cwd": "/work/sph-huangj/scripts/allele3",
+  "returncode": 0,
+  "outputs": [],
+  "output_verification": "unavailable_no_declared_outputs",
+  "finished_at": "2026-11-12T12:23:51.329174+00:00"
+}

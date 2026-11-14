@@ -1,0 +1,512 @@
+[execution] mode=hpc worker=1 jobs_N=8 max_running=32
+[paths] DIR_DATA=/work/sph-huangj/data ANALYSIS_ROOT=/work/sph-huangj/analysis
+[configured scan store] /work/sph-huangj/analysis/allele3/gnomad_scan
+[mode] scan-scan,verify; replace=TRUE; selected store/output=/work/sph-huangj/analysis/allele3/gnomad_scan
+[allele3] full log=/work/sph-huangj/analysis/allele3/logs/gnomad_scan/scan-scan-verify.log
+[mode] FRESH RECALCULATION (--replace TRUE)
+[new output] /work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work
+[permanent input/cache; retained] /work/sph-huangj/data/annot/allele3/gnomad/sites
+[permanent input/cache; retained] /work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+[permanent input/cache; retained] /work/sph-huangj/data/LD/block
+[permanent input/cache; retained] /work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+[permanent input/cache; retained] /work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+[scan] 22 input(s); 2 concurrent scan(s); backend=bcftools; no API calls
+[scan chr2.vcf.bgz] 100,000 qualifying loci; 8,031 multi-ALT; 0.9 min
+[scan chr2.vcf.bgz] 700,000 qualifying loci; 55,245 multi-ALT; 6.0 min
+[scan chr2.vcf.bgz] 1,300,000 qualifying loci; 102,162 multi-ALT; 11.3 min
+[scan chr2.vcf.bgz] 1,900,000 qualifying loci; 146,225 multi-ALT; 16.4 min
+[scan chr2.vcf.bgz] 2,500,000 qualifying loci; 190,197 multi-ALT; 21.5 min
+[scan chr1.vcf.bgz] 3,200,000 qualifying loci; 258,960 multi-ALT; 26.7 min
+[scan chr1.vcf.bgz] 3,800,000 qualifying loci; 303,859 multi-ALT; 31.8 min
+[scan chr2.vcf.bgz] 4,300,000 qualifying loci; 319,864 multi-ALT; 37.0 min
+[scan chr2.vcf.bgz] 4,900,000 qualifying loci; 361,668 multi-ALT; 42.0 min
+[scan chr2.vcf.bgz] 5,600,000 qualifying loci; 410,812 multi-ALT; 47.4 min
+[scan chr1.vcf.bgz] 6,500,000 qualifying loci; 493,297 multi-ALT; 53.0 min
+[scan chr2.vcf.bgz] 6,900,000 qualifying loci; 516,101 multi-ALT; 58.3 min
+[scan chr1.vcf.bgz] 7,800,000 qualifying loci; 582,133 multi-ALT; 63.6 min
+[scan chr2.vcf.bgz] 8,200,000 qualifying loci; 632,539 multi-ALT; 69.1 min
+[scan chr2.vcf.bgz] 8,900,000 qualifying loci; 694,188 multi-ALT; 74.7 min
+[scan chr1.vcf.bgz] 9,900,000 qualifying loci; 723,231 multi-ALT; 80.4 min
+[scan chr1.vcf.bgz] 10,500,000 qualifying loci; 764,807 multi-ALT; 85.5 min
+[scan chr2.vcf.bgz] 10,800,000 qualifying loci; 862,312 multi-ALT; 90.5 min
+[scan chr1.vcf.bgz] 11,800,000 qualifying loci; 850,668 multi-ALT; 95.6 min
+[scan chr1.vcf.bgz] 12,500,000 qualifying loci; 898,652 multi-ALT; 101.2 min
+[scan chr1.vcf.bgz] 13,200,000 qualifying loci; 946,038 multi-ALT; 106.7 min
+[scan chr1.vcf.bgz] 13,900,000 qualifying loci; 993,990 multi-ALT; 112.2 min
+[scan chr2.vcf.bgz] 14,300,000 qualifying loci; 1,130,480 multi-ALT; 117.6 min
+[scan chr2.vcf.bgz] 15,000,000 qualifying loci; 1,179,406 multi-ALT; 123.0 min
+[scan chr1.vcf.bgz] 16,000,000 qualifying loci; 1,136,569 multi-ALT; 128.7 min
+[scan chr1.vcf.bgz] 16,700,000 qualifying loci; 1,182,153 multi-ALT; 134.2 min
+[scan chr1.vcf.bgz] 17,400,000 qualifying loci; 1,230,111 multi-ALT; 139.7 min
+[scan chr1.vcf.bgz] 18,100,000 qualifying loci; 1,278,178 multi-ALT; 145.1 min
+[scan chr2.vcf.bgz] 18,500,000 qualifying loci; 1,467,667 multi-ALT; 150.6 min
+[scan chr2.vcf.bgz] 19,200,000 qualifying loci; 1,516,491 multi-ALT; 156.0 min
+[scan chr2.vcf.bgz] 19,900,000 qualifying loci; 1,569,377 multi-ALT; 161.6 min
+[scan chr1.vcf.bgz] 20,900,000 qualifying loci; 1,478,723 multi-ALT; 167.0 min
+[scan chr1.vcf.bgz] 21,600,000 qualifying loci; 1,528,076 multi-ALT; 172.4 min
+[scan chr2.vcf.bgz] 21,900,000 qualifying loci; 1,713,387 multi-ALT; 177.4 min
+[scan chr2.vcf.bgz] 22,600,000 qualifying loci; 1,764,411 multi-ALT; 183.0 min
+[scan chr1.vcf.bgz] 23,700,000 qualifying loci; 1,724,677 multi-ALT; 188.4 min
+[scan chr2.vcf.bgz] 23,900,000 qualifying loci; 1,860,341 multi-ALT; 193.5 min
+[scan chr2.vcf.bgz] 24,600,000 qualifying loci; 1,913,706 multi-ALT; 198.8 min
+[scan chr2.vcf.bgz] 25,300,000 qualifying loci; 1,960,214 multi-ALT; 204.3 min
+[scan chr2.vcf.bgz] 26,000,000 qualifying loci; 2,008,680 multi-ALT; 209.9 min
+[scan chr2.vcf.bgz] 26,700,000 qualifying loci; 2,057,937 multi-ALT; 215.3 min
+[scan chr2.vcf.bgz] 27,400,000 qualifying loci; 2,105,097 multi-ALT; 220.6 min
+[scan chr1.vcf.bgz] 28,600,000 qualifying loci; 2,059,955 multi-ALT; 226.1 min
+[scan chr1.vcf.bgz] 29,300,000 qualifying loci; 2,106,412 multi-ALT; 231.5 min
+[scan chr2.vcf.bgz] 29,500,000 qualifying loci; 2,246,299 multi-ALT; 237.2 min
+[scan chr2.vcf.bgz] 30,200,000 qualifying loci; 2,293,541 multi-ALT; 242.4 min
+[scan chr1.vcf.bgz] 31,300,000 qualifying loci; 2,250,138 multi-ALT; 247.7 min
+[scan chr1.vcf.bgz] 32,000,000 qualifying loci; 2,297,126 multi-ALT; 253.1 min
+[scan chr1.vcf.bgz] 32,700,000 qualifying loci; 2,345,529 multi-ALT; 258.2 min
+[scan chr1.vcf.bgz] 33,400,000 qualifying loci; 2,393,430 multi-ALT; 263.5 min
+[scan chr1.vcf.bgz] 34,100,000 qualifying loci; 2,439,828 multi-ALT; 269.0 min
+[scan chr2.vcf.bgz] 34,300,000 qualifying loci; 2,569,995 multi-ALT; 274.1 min
+[scan chr2.vcf.bgz] 35,000,000 qualifying loci; 2,614,875 multi-ALT; 279.5 min
+[scan chr1.vcf.bgz] 36,100,000 qualifying loci; 2,576,682 multi-ALT; 284.7 min
+[scan chr2.vcf.bgz] 36,300,000 qualifying loci; 2,701,859 multi-ALT; 289.8 min
+[scan chr1.vcf.bgz] 37,400,000 qualifying loci; 2,667,740 multi-ALT; 295.2 min
+[scan chr2.vcf.bgz] 37,700,000 qualifying loci; 2,794,323 multi-ALT; 300.5 min
+[scan chr1.vcf.bgz] 38,700,000 qualifying loci; 2,758,463 multi-ALT; 305.6 min
+[scan chr2.vcf.bgz] 39,000,000 qualifying loci; 2,884,376 multi-ALT; 310.8 min
+[scan chr1.vcf.bgz] 40,000,000 qualifying loci; 2,850,272 multi-ALT; 315.8 min
+[done] chr1.vcf.bgz: 40,431,589 eligible loci; 2,882,369 multi-ALT
+[scan chr2.vcf.bgz] 40,300,000 qualifying loci; 2,974,922 multi-ALT; 320.9 min
+[scan chr2.vcf.bgz] 41,000,000 qualifying loci; 3,023,617 multi-ALT; 326.6 min
+[scan chr2.vcf.bgz] 41,700,000 qualifying loci; 3,071,835 multi-ALT; 332.1 min
+[scan chr3.vcf.bgz] 2,200,000 qualifying loci; 193,188 multi-ALT; 17.6 min
+[scan chr3.vcf.bgz] 2,900,000 qualifying loci; 244,660 multi-ALT; 22.9 min
+[scan chr2.vcf.bgz] 43,700,000 qualifying loci; 3,221,500 multi-ALT; 348.3 min
+[scan chr3.vcf.bgz] 4,300,000 qualifying loci; 344,095 multi-ALT; 33.9 min
+[done] chr2.vcf.bgz: 44,358,253 eligible loci; 3,275,589 multi-ALT
+[scan chr4.vcf.bgz] 600,000 qualifying loci; 52,715 multi-ALT; 4.9 min
+[scan chr3.vcf.bgz] 5,600,000 qualifying loci; 453,008 multi-ALT; 44.4 min
+[scan chr4.vcf.bgz] 1,900,000 qualifying loci; 173,602 multi-ALT; 15.3 min
+[scan chr3.vcf.bgz] 6,900,000 qualifying loci; 545,759 multi-ALT; 54.7 min
+[scan chr3.vcf.bgz] 7,600,000 qualifying loci; 593,648 multi-ALT; 60.1 min
+[scan chr4.vcf.bgz] 3,900,000 qualifying loci; 352,579 multi-ALT; 31.5 min
+[scan chr3.vcf.bgz] 9,000,000 qualifying loci; 688,112 multi-ALT; 71.2 min
+[scan chr3.vcf.bgz] 9,700,000 qualifying loci; 735,018 multi-ALT; 76.2 min
+[scan chr4.vcf.bgz] 5,900,000 qualifying loci; 495,611 multi-ALT; 47.5 min
+[scan chr3.vcf.bgz] 11,200,000 qualifying loci; 839,058 multi-ALT; 87.3 min
+[scan chr4.vcf.bgz] 7,200,000 qualifying loci; 596,341 multi-ALT; 58.1 min
+[scan chr3.vcf.bgz] 12,500,000 qualifying loci; 945,075 multi-ALT; 97.5 min
+[scan chr4.vcf.bgz] 8,500,000 qualifying loci; 684,378 multi-ALT; 68.4 min
+[scan chr3.vcf.bgz] 13,800,000 qualifying loci; 1,046,664 multi-ALT; 107.7 min
+[scan chr3.vcf.bgz] 14,500,000 qualifying loci; 1,099,115 multi-ALT; 113.2 min
+[scan chr3.vcf.bgz] 15,200,000 qualifying loci; 1,151,535 multi-ALT; 118.6 min
+[scan chr4.vcf.bgz] 11,100,000 qualifying loci; 901,300 multi-ALT; 89.4 min
+[scan chr3.vcf.bgz] 16,500,000 qualifying loci; 1,248,294 multi-ALT; 129.1 min
+[scan chr4.vcf.bgz] 12,400,000 qualifying loci; 1,011,121 multi-ALT; 100.2 min
+[scan chr4.vcf.bgz] 13,100,000 qualifying loci; 1,064,427 multi-ALT; 105.9 min
+[scan chr4.vcf.bgz] 13,800,000 qualifying loci; 1,117,658 multi-ALT; 111.3 min
+[scan chr4.vcf.bgz] 14,500,000 qualifying loci; 1,169,528 multi-ALT; 116.8 min
+[scan chr3.vcf.bgz] 19,900,000 qualifying loci; 1,525,873 multi-ALT; 156.1 min
+[scan chr4.vcf.bgz] 15,800,000 qualifying loci; 1,258,968 multi-ALT; 127.1 min
+[scan chr3.vcf.bgz] 21,200,000 qualifying loci; 1,613,313 multi-ALT; 166.5 min
+[scan chr4.vcf.bgz] 17,100,000 qualifying loci; 1,344,145 multi-ALT; 137.5 min
+[scan chr4.vcf.bgz] 17,800,000 qualifying loci; 1,396,457 multi-ALT; 143.1 min
+[scan chr3.vcf.bgz] 23,300,000 qualifying loci; 1,756,751 multi-ALT; 182.6 min
+[scan chr4.vcf.bgz] 19,100,000 qualifying loci; 1,488,145 multi-ALT; 153.5 min
+[scan chr3.vcf.bgz] 24,600,000 qualifying loci; 1,851,925 multi-ALT; 192.8 min
+[scan chr4.vcf.bgz] 20,400,000 qualifying loci; 1,577,798 multi-ALT; 163.7 min
+[scan chr3.vcf.bgz] 25,900,000 qualifying loci; 1,941,631 multi-ALT; 203.0 min
+[scan chr3.vcf.bgz] 26,600,000 qualifying loci; 1,988,502 multi-ALT; 208.5 min
+[scan chr4.vcf.bgz] 22,400,000 qualifying loci; 1,714,346 multi-ALT; 179.4 min
+[scan chr3.vcf.bgz] 27,900,000 qualifying loci; 2,078,055 multi-ALT; 218.9 min
+[scan chr4.vcf.bgz] 23,700,000 qualifying loci; 1,801,166 multi-ALT; 189.9 min
+[scan chr3.vcf.bgz] 29,200,000 qualifying loci; 2,163,610 multi-ALT; 229.1 min
+[scan chr3.vcf.bgz] 29,900,000 qualifying loci; 2,210,787 multi-ALT; 234.6 min
+[scan chr3.vcf.bgz] 30,500,000 qualifying loci; 2,254,088 multi-ALT; 239.7 min
+[scan chr3.vcf.bgz] 31,200,000 qualifying loci; 2,304,910 multi-ALT; 245.3 min
+[scan chr4.vcf.bgz] 26,900,000 qualifying loci; 2,030,058 multi-ALT; 216.1 min
+[scan chr3.vcf.bgz] 32,500,000 qualifying loci; 2,392,248 multi-ALT; 255.4 min
+[scan chr4.vcf.bgz] 28,200,000 qualifying loci; 2,119,283 multi-ALT; 226.3 min
+[scan chr3.vcf.bgz] 33,800,000 qualifying loci; 2,479,570 multi-ALT; 265.5 min
+[scan chr4.vcf.bgz] 29,500,000 qualifying loci; 2,209,529 multi-ALT; 236.6 min
+[scan chr3.vcf.bgz] 35,200,000 qualifying loci; 2,577,392 multi-ALT; 276.4 min
+[scan chr4.vcf.bgz] 30,800,000 qualifying loci; 2,301,602 multi-ALT; 247.3 min
+[scan chr3.vcf.bgz] 36,500,000 qualifying loci; 2,674,155 multi-ALT; 287.1 min
+[done] chr3.vcf.bgz: 36,635,043 eligible loci; 2,684,429 multi-ALT
+[scan chr4.vcf.bgz] 32,100,000 qualifying loci; 2,393,823 multi-ALT; 258.0 min
+[scan chr5.vcf.bgz] 1,100,000 qualifying loci; 92,749 multi-ALT; 8.8 min
+[scan chr4.vcf.bgz] 33,400,000 qualifying loci; 2,485,302 multi-ALT; 268.7 min
+[scan chr5.vcf.bgz] 2,400,000 qualifying loci; 187,222 multi-ALT; 19.3 min
+[scan chr4.vcf.bgz] 34,700,000 qualifying loci; 2,583,531 multi-ALT; 279.1 min
+[scan chr5.vcf.bgz] 3,700,000 qualifying loci; 281,264 multi-ALT; 29.8 min
+[done] chr4.vcf.bgz: 35,568,435 eligible loci; 2,652,987 multi-ALT
+[scan chr6.vcf.bgz] 300,000 qualifying loci; 24,805 multi-ALT; 2.5 min
+[scan chr5.vcf.bgz] 5,000,000 qualifying loci; 375,153 multi-ALT; 40.2 min
+[scan chr5.vcf.bgz] 5,600,000 qualifying loci; 421,809 multi-ALT; 45.2 min
+[scan chr5.vcf.bgz] 6,300,000 qualifying loci; 473,343 multi-ALT; 50.8 min
+[scan chr6.vcf.bgz] 3,000,000 qualifying loci; 222,711 multi-ALT; 23.9 min
+[scan chr5.vcf.bgz] 7,700,000 qualifying loci; 569,659 multi-ALT; 62.0 min
+[scan chr5.vcf.bgz] 8,400,000 qualifying loci; 623,666 multi-ALT; 67.5 min
+[scan chr5.vcf.bgz] 9,100,000 qualifying loci; 702,531 multi-ALT; 72.5 min
+[scan chr6.vcf.bgz] 5,600,000 qualifying loci; 406,299 multi-ALT; 45.1 min
+[scan chr5.vcf.bgz] 10,400,000 qualifying loci; 796,007 multi-ALT; 82.8 min
+[scan chr5.vcf.bgz] 11,100,000 qualifying loci; 843,583 multi-ALT; 88.1 min
+[scan chr6.vcf.bgz] 7,600,000 qualifying loci; 543,780 multi-ALT; 61.3 min
+[scan chr6.vcf.bgz] 8,300,000 qualifying loci; 593,008 multi-ALT; 66.6 min
+[scan chr6.vcf.bgz] 9,000,000 qualifying loci; 645,252 multi-ALT; 72.3 min
+[scan chr6.vcf.bgz] 9,700,000 qualifying loci; 694,696 multi-ALT; 77.7 min
+[scan chr6.vcf.bgz] 10,400,000 qualifying loci; 742,425 multi-ALT; 83.0 min
+[scan chr6.vcf.bgz] 11,100,000 qualifying loci; 810,604 multi-ALT; 88.3 min
+[scan chr5.vcf.bgz] 15,900,000 qualifying loci; 1,170,055 multi-ALT; 125.9 min
+[scan chr5.vcf.bgz] 16,600,000 qualifying loci; 1,217,933 multi-ALT; 131.2 min
+[scan chr5.vcf.bgz] 17,300,000 qualifying loci; 1,263,779 multi-ALT; 136.7 min
+[scan chr6.vcf.bgz] 13,700,000 qualifying loci; 1,005,945 multi-ALT; 109.2 min
+[scan chr5.vcf.bgz] 18,600,000 qualifying loci; 1,358,194 multi-ALT; 147.1 min
+[scan chr6.vcf.bgz] 15,000,000 qualifying loci; 1,105,482 multi-ALT; 119.8 min
+[scan chr5.vcf.bgz] 19,900,000 qualifying loci; 1,460,251 multi-ALT; 157.4 min
+[scan chr6.vcf.bgz] 16,300,000 qualifying loci; 1,204,411 multi-ALT; 130.2 min
+[scan chr5.vcf.bgz] 21,200,000 qualifying loci; 1,571,008 multi-ALT; 168.0 min
+[scan chr6.vcf.bgz] 17,600,000 qualifying loci; 1,297,823 multi-ALT; 140.7 min
+[scan chr5.vcf.bgz] 22,500,000 qualifying loci; 1,676,634 multi-ALT; 178.6 min
+[scan chr6.vcf.bgz] 18,900,000 qualifying loci; 1,387,543 multi-ALT; 151.1 min
+[scan chr5.vcf.bgz] 23,800,000 qualifying loci; 1,770,314 multi-ALT; 188.9 min
+[scan chr6.vcf.bgz] 20,200,000 qualifying loci; 1,473,522 multi-ALT; 161.4 min
+[scan chr6.vcf.bgz] 20,900,000 qualifying loci; 1,521,022 multi-ALT; 167.0 min
+[scan chr5.vcf.bgz] 25,900,000 qualifying loci; 1,914,050 multi-ALT; 204.7 min
+[scan chr6.vcf.bgz] 22,200,000 qualifying loci; 1,608,741 multi-ALT; 177.4 min
+[scan chr5.vcf.bgz] 27,300,000 qualifying loci; 2,012,453 multi-ALT; 215.5 min
+[scan chr5.vcf.bgz] 28,000,000 qualifying loci; 2,061,870 multi-ALT; 220.9 min
+[scan chr5.vcf.bgz] 28,700,000 qualifying loci; 2,111,037 multi-ALT; 226.5 min
+[scan chr5.vcf.bgz] 29,400,000 qualifying loci; 2,160,969 multi-ALT; 231.9 min
+[scan chr6.vcf.bgz] 25,600,000 qualifying loci; 1,839,122 multi-ALT; 204.5 min
+[scan chr5.vcf.bgz] 30,700,000 qualifying loci; 2,256,884 multi-ALT; 242.3 min
+[scan chr6.vcf.bgz] 26,900,000 qualifying loci; 1,926,147 multi-ALT; 214.9 min
+[scan chr5.vcf.bgz] 32,000,000 qualifying loci; 2,350,443 multi-ALT; 252.5 min
+[scan chr6.vcf.bgz] 28,200,000 qualifying loci; 2,015,395 multi-ALT; 225.2 min
+[done] chr5.vcf.bgz: 33,063,638 eligible loci; 2,432,377 multi-ALT
+[scan chr6.vcf.bgz] 28,900,000 qualifying loci; 2,065,730 multi-ALT; 230.9 min
+[scan chr7.vcf.bgz] 900,000 qualifying loci; 93,067 multi-ALT; 7.3 min
+[scan chr7.vcf.bgz] 1,600,000 qualifying loci; 165,169 multi-ALT; 12.7 min
+[scan chr6.vcf.bgz] 30,900,000 qualifying loci; 2,216,979 multi-ALT; 247.4 min
+[done] chr6.vcf.bgz: 30,982,111 eligible loci; 2,223,486 multi-ALT
+[scan chr8.vcf.bgz] 500,000 qualifying loci; 62,549 multi-ALT; 4.2 min
+[scan chr8.vcf.bgz] 1,100,000 qualifying loci; 156,237 multi-ALT; 9.5 min
+[scan chr7.vcf.bgz] 4,300,000 qualifying loci; 398,121 multi-ALT; 34.1 min
+[scan chr7.vcf.bgz] 5,000,000 qualifying loci; 456,924 multi-ALT; 39.6 min
+[scan chr8.vcf.bgz] 2,900,000 qualifying loci; 418,391 multi-ALT; 25.1 min
+[scan chr8.vcf.bgz] 3,600,000 qualifying loci; 502,849 multi-ALT; 30.7 min
+[scan chr8.vcf.bgz] 4,200,000 qualifying loci; 573,895 multi-ALT; 36.0 min
+[scan chr7.vcf.bgz] 7,800,000 qualifying loci; 652,710 multi-ALT; 61.1 min
+[scan chr8.vcf.bgz] 5,500,000 qualifying loci; 702,803 multi-ALT; 46.7 min
+[scan chr8.vcf.bgz] 6,200,000 qualifying loci; 758,827 multi-ALT; 52.4 min
+[scan chr8.vcf.bgz] 6,900,000 qualifying loci; 809,828 multi-ALT; 57.9 min
+[scan chr8.vcf.bgz] 7,600,000 qualifying loci; 858,358 multi-ALT; 63.4 min
+[scan chr7.vcf.bgz] 11,200,000 qualifying loci; 896,846 multi-ALT; 88.0 min
+[scan chr8.vcf.bgz] 8,900,000 qualifying loci; 950,697 multi-ALT; 73.7 min
+[scan chr8.vcf.bgz] 9,600,000 qualifying loci; 1,001,819 multi-ALT; 79.4 min
+[scan chr8.vcf.bgz] 10,300,000 qualifying loci; 1,077,708 multi-ALT; 84.4 min
+[scan chr7.vcf.bgz] 14,000,000 qualifying loci; 1,137,691 multi-ALT; 109.4 min
+[scan chr8.vcf.bgz] 11,600,000 qualifying loci; 1,176,064 multi-ALT; 94.9 min
+[scan chr7.vcf.bgz] 15,300,000 qualifying loci; 1,229,155 multi-ALT; 119.6 min
+[scan chr8.vcf.bgz] 12,900,000 qualifying loci; 1,271,482 multi-ALT; 105.1 min
+[scan chr8.vcf.bgz] 13,600,000 qualifying loci; 1,320,789 multi-ALT; 110.7 min
+[scan chr8.vcf.bgz] 14,300,000 qualifying loci; 1,367,713 multi-ALT; 116.2 min
+[scan chr8.vcf.bgz] 15,000,000 qualifying loci; 1,416,171 multi-ALT; 121.6 min
+[scan chr7.vcf.bgz] 18,800,000 qualifying loci; 1,470,208 multi-ALT; 146.6 min
+[scan chr7.vcf.bgz] 19,500,000 qualifying loci; 1,520,106 multi-ALT; 152.0 min
+[scan chr8.vcf.bgz] 17,000,000 qualifying loci; 1,555,195 multi-ALT; 137.5 min
+[scan chr7.vcf.bgz] 20,800,000 qualifying loci; 1,613,213 multi-ALT; 162.3 min
+[scan chr8.vcf.bgz] 18,300,000 qualifying loci; 1,651,017 multi-ALT; 147.9 min
+[scan chr8.vcf.bgz] 19,000,000 qualifying loci; 1,698,400 multi-ALT; 153.3 min
+[scan chr8.vcf.bgz] 19,700,000 qualifying loci; 1,744,774 multi-ALT; 158.9 min
+[scan chr8.vcf.bgz] 20,400,000 qualifying loci; 1,791,734 multi-ALT; 164.4 min
+[scan chr8.vcf.bgz] 21,100,000 qualifying loci; 1,839,146 multi-ALT; 169.7 min
+[scan chr8.vcf.bgz] 21,800,000 qualifying loci; 1,887,187 multi-ALT; 175.3 min
+[scan chr7.vcf.bgz] 25,700,000 qualifying loci; 1,943,618 multi-ALT; 200.4 min
+[scan chr7.vcf.bgz] 26,400,000 qualifying loci; 1,991,352 multi-ALT; 206.0 min
+[scan chr8.vcf.bgz] 23,900,000 qualifying loci; 2,031,814 multi-ALT; 192.0 min
+[scan chr8.vcf.bgz] 24,600,000 qualifying loci; 2,080,035 multi-ALT; 197.7 min
+[scan chr7.vcf.bgz] 28,500,000 qualifying loci; 2,150,129 multi-ALT; 223.0 min
+[scan chr8.vcf.bgz] 26,000,000 qualifying loci; 2,184,507 multi-ALT; 209.0 min
+[done] chr7.vcf.bgz: 29,213,312 eligible loci; 2,208,910 multi-ALT
+[scan chr8.vcf.bgz] 26,600,000 qualifying loci; 2,230,303 multi-ALT; 214.1 min
+[scan chr9.vcf.bgz] 1,200,000 qualifying loci; 125,345 multi-ALT; 9.6 min
+[scan chr8.vcf.bgz] 27,900,000 qualifying loci; 2,332,465 multi-ALT; 224.7 min
+[done] chr8.vcf.bgz: 28,306,822 eligible loci; 2,367,416 multi-ALT
+[scan chr9.vcf.bgz] 2,500,000 qualifying loci; 256,213 multi-ALT; 19.9 min
+[scan chr9.vcf.bgz] 3,100,000 qualifying loci; 317,276 multi-ALT; 24.9 min
+[scan chr10.vcf.bgz] 1,400,000 qualifying loci; 117,420 multi-ALT; 11.3 min
+[scan chr9.vcf.bgz] 4,400,000 qualifying loci; 438,873 multi-ALT; 35.0 min
+[scan chr10.vcf.bgz] 2,700,000 qualifying loci; 216,500 multi-ALT; 21.3 min
+[scan chr9.vcf.bgz] 5,700,000 qualifying loci; 557,125 multi-ALT; 45.1 min
+[scan chr10.vcf.bgz] 4,000,000 qualifying loci; 322,486 multi-ALT; 31.7 min
+[scan chr9.vcf.bgz] 7,000,000 qualifying loci; 664,928 multi-ALT; 55.6 min
+[scan chr9.vcf.bgz] 7,700,000 qualifying loci; 716,396 multi-ALT; 61.2 min
+[scan chr9.vcf.bgz] 8,400,000 qualifying loci; 764,079 multi-ALT; 66.5 min
+[scan chr10.vcf.bgz] 6,700,000 qualifying loci; 517,373 multi-ALT; 52.9 min
+[scan chr9.vcf.bgz] 9,600,000 qualifying loci; 894,208 multi-ALT; 76.6 min
+[scan chr10.vcf.bgz] 8,100,000 qualifying loci; 673,853 multi-ALT; 63.3 min
+[scan chr10.vcf.bgz] 8,800,000 qualifying loci; 726,441 multi-ALT; 68.8 min
+[scan chr9.vcf.bgz] 11,600,000 qualifying loci; 1,032,490 multi-ALT; 92.6 min
+[scan chr10.vcf.bgz] 10,100,000 qualifying loci; 819,248 multi-ALT; 79.1 min
+[scan chr9.vcf.bgz] 12,900,000 qualifying loci; 1,122,399 multi-ALT; 103.2 min
+[scan chr10.vcf.bgz] 11,400,000 qualifying loci; 910,548 multi-ALT; 89.5 min
+[scan chr10.vcf.bgz] 12,100,000 qualifying loci; 958,430 multi-ALT; 95.0 min
+[scan chr10.vcf.bgz] 12,800,000 qualifying loci; 1,006,561 multi-ALT; 100.4 min
+[scan chr10.vcf.bgz] 13,500,000 qualifying loci; 1,055,477 multi-ALT; 105.9 min
+[scan chr9.vcf.bgz] 16,200,000 qualifying loci; 1,353,831 multi-ALT; 129.6 min
+[scan chr9.vcf.bgz] 16,900,000 qualifying loci; 1,404,601 multi-ALT; 135.1 min
+[scan chr10.vcf.bgz] 15,500,000 qualifying loci; 1,195,426 multi-ALT; 121.5 min
+[scan chr9.vcf.bgz] 18,200,000 qualifying loci; 1,493,672 multi-ALT; 145.4 min
+[scan chr10.vcf.bgz] 16,800,000 qualifying loci; 1,284,157 multi-ALT; 131.8 min
+[scan chr9.vcf.bgz] 19,500,000 qualifying loci; 1,583,422 multi-ALT; 155.5 min
+[scan chr9.vcf.bgz] 20,200,000 qualifying loci; 1,633,666 multi-ALT; 160.6 min
+[scan chr9.vcf.bgz] 20,900,000 qualifying loci; 1,685,096 multi-ALT; 165.9 min
+[scan chr10.vcf.bgz] 19,500,000 qualifying loci; 1,468,096 multi-ALT; 152.3 min
+[scan chr10.vcf.bgz] 20,100,000 qualifying loci; 1,515,803 multi-ALT; 157.3 min
+[done] chr9.vcf.bgz: 22,423,075 eligible loci; 1,810,937 multi-ALT
+[scan chr10.vcf.bgz] 20,800,000 qualifying loci; 1,566,563 multi-ALT; 162.8 min
+[scan chr10.vcf.bgz] 21,500,000 qualifying loci; 1,614,212 multi-ALT; 168.2 min
+[scan chr11.vcf.bgz] 1,800,000 qualifying loci; 151,311 multi-ALT; 14.0 min
+[scan chr11.vcf.bgz] 2,500,000 qualifying loci; 201,776 multi-ALT; 19.4 min
+[scan chr10.vcf.bgz] 23,500,000 qualifying loci; 1,758,870 multi-ALT; 184.4 min
+[scan chr11.vcf.bgz] 3,900,000 qualifying loci; 300,264 multi-ALT; 30.0 min
+[done] chr10.vcf.bgz: 24,566,652 eligible loci; 1,846,655 multi-ALT
+[scan chr12.vcf.bgz] 200,000 qualifying loci; 14,782 multi-ALT; 1.5 min
+[scan chr11.vcf.bgz] 5,200,000 qualifying loci; 398,858 multi-ALT; 40.6 min
+[scan chr11.vcf.bgz] 5,900,000 qualifying loci; 448,145 multi-ALT; 46.1 min
+[scan chr11.vcf.bgz] 6,600,000 qualifying loci; 495,373 multi-ALT; 51.3 min
+[scan chr12.vcf.bgz] 2,900,000 qualifying loci; 209,189 multi-ALT; 22.7 min
+[scan chr11.vcf.bgz] 7,900,000 qualifying loci; 589,509 multi-ALT; 61.7 min
+[scan chr12.vcf.bgz] 4,200,000 qualifying loci; 303,625 multi-ALT; 33.2 min
+[scan chr12.vcf.bgz] 4,900,000 qualifying loci; 352,361 multi-ALT; 38.7 min
+[scan chr11.vcf.bgz] 10,100,000 qualifying loci; 801,797 multi-ALT; 77.7 min
+[scan chr11.vcf.bgz] 10,800,000 qualifying loci; 854,219 multi-ALT; 83.3 min
+[scan chr12.vcf.bgz] 6,900,000 qualifying loci; 525,651 multi-ALT; 54.5 min
+[scan chr11.vcf.bgz] 12,200,000 qualifying loci; 957,520 multi-ALT; 93.7 min
+[scan chr11.vcf.bgz] 12,900,000 qualifying loci; 1,014,150 multi-ALT; 99.2 min
+[scan chr11.vcf.bgz] 13,600,000 qualifying loci; 1,065,699 multi-ALT; 104.4 min
+[scan chr12.vcf.bgz] 9,700,000 qualifying loci; 719,686 multi-ALT; 75.7 min
+[scan chr11.vcf.bgz] 14,900,000 qualifying loci; 1,159,427 multi-ALT; 114.6 min
+[scan chr12.vcf.bgz] 11,000,000 qualifying loci; 815,326 multi-ALT; 85.9 min
+[scan chr11.vcf.bgz] 16,200,000 qualifying loci; 1,257,177 multi-ALT; 124.9 min
+[scan chr12.vcf.bgz] 12,300,000 qualifying loci; 901,028 multi-ALT; 96.0 min
+[scan chr11.vcf.bgz] 17,500,000 qualifying loci; 1,351,771 multi-ALT; 135.0 min
+[scan chr12.vcf.bgz] 13,600,000 qualifying loci; 990,376 multi-ALT; 106.3 min
+[scan chr11.vcf.bgz] 18,800,000 qualifying loci; 1,451,375 multi-ALT; 145.6 min
+[scan chr11.vcf.bgz] 19,500,000 qualifying loci; 1,498,988 multi-ALT; 151.1 min
+[scan chr11.vcf.bgz] 20,200,000 qualifying loci; 1,548,044 multi-ALT; 156.8 min
+[scan chr12.vcf.bgz] 16,300,000 qualifying loci; 1,177,888 multi-ALT; 127.9 min
+[scan chr11.vcf.bgz] 21,600,000 qualifying loci; 1,646,067 multi-ALT; 167.4 min
+[scan chr11.vcf.bgz] 22,300,000 qualifying loci; 1,695,992 multi-ALT; 172.7 min
+[scan chr12.vcf.bgz] 18,300,000 qualifying loci; 1,310,244 multi-ALT; 143.8 min
+[scan chr11.vcf.bgz] 23,600,000 qualifying loci; 1,787,808 multi-ALT; 182.8 min
+[scan chr12.vcf.bgz] 19,600,000 qualifying loci; 1,397,512 multi-ALT; 154.3 min
+[done] chr11.vcf.bgz: 24,860,387 eligible loci; 1,887,010 multi-ALT
+[scan chr12.vcf.bgz] 20,300,000 qualifying loci; 1,444,018 multi-ALT; 159.6 min
+[scan chr13.vcf.bgz] 700,000 qualifying loci; 56,405 multi-ALT; 5.3 min
+[scan chr12.vcf.bgz] 21,600,000 qualifying loci; 1,535,469 multi-ALT; 169.8 min
+[scan chr13.vcf.bgz] 2,000,000 qualifying loci; 150,773 multi-ALT; 15.5 min
+[scan chr13.vcf.bgz] 2,700,000 qualifying loci; 200,075 multi-ALT; 20.9 min
+[scan chr12.vcf.bgz] 23,500,000 qualifying loci; 1,677,876 multi-ALT; 185.5 min
+[done] chr12.vcf.bgz: 23,971,215 eligible loci; 1,717,048 multi-ALT
+[scan chr13.vcf.bgz] 4,000,000 qualifying loci; 288,354 multi-ALT; 31.2 min
+[scan chr14.vcf.bgz] 700,000 qualifying loci; 59,241 multi-ALT; 5.7 min
+[scan chr14.vcf.bgz] 1,400,000 qualifying loci; 110,829 multi-ALT; 11.0 min
+[scan chr13.vcf.bgz] 6,000,000 qualifying loci; 419,371 multi-ALT; 46.8 min
+[scan chr14.vcf.bgz] 2,800,000 qualifying loci; 206,891 multi-ALT; 21.5 min
+[scan chr14.vcf.bgz] 3,500,000 qualifying loci; 254,163 multi-ALT; 26.8 min
+[scan chr13.vcf.bgz] 8,000,000 qualifying loci; 558,468 multi-ALT; 62.7 min
+[scan chr14.vcf.bgz] 4,800,000 qualifying loci; 350,842 multi-ALT; 37.4 min
+[scan chr13.vcf.bgz] 9,300,000 qualifying loci; 651,854 multi-ALT; 73.2 min
+[scan chr14.vcf.bgz] 6,100,000 qualifying loci; 446,421 multi-ALT; 47.7 min
+[scan chr13.vcf.bgz] 10,600,000 qualifying loci; 743,090 multi-ALT; 83.4 min
+[scan chr14.vcf.bgz] 7,400,000 qualifying loci; 536,957 multi-ALT; 57.9 min
+[scan chr13.vcf.bgz] 11,900,000 qualifying loci; 832,488 multi-ALT; 93.8 min
+[scan chr14.vcf.bgz] 8,700,000 qualifying loci; 626,288 multi-ALT; 68.2 min
+[scan chr14.vcf.bgz] 9,400,000 qualifying loci; 672,205 multi-ALT; 73.6 min
+[scan chr14.vcf.bgz] 10,100,000 qualifying loci; 719,736 multi-ALT; 79.0 min
+[scan chr14.vcf.bgz] 10,800,000 qualifying loci; 766,600 multi-ALT; 84.5 min
+[scan chr13.vcf.bgz] 15,200,000 qualifying loci; 1,067,445 multi-ALT; 120.2 min
+[scan chr14.vcf.bgz] 12,100,000 qualifying loci; 856,279 multi-ALT; 95.0 min
+[scan chr13.vcf.bgz] 16,600,000 qualifying loci; 1,169,655 multi-ALT; 131.3 min
+[scan chr13.vcf.bgz] 17,300,000 qualifying loci; 1,222,083 multi-ALT; 137.0 min
+[done] chr13.vcf.bgz: 17,790,708 eligible loci; 1,267,736 multi-ALT
+[scan chr15.vcf.bgz] 100,000 qualifying loci; 14,574 multi-ALT; 0.8 min
+[scan chr14.vcf.bgz] 14,800,000 qualifying loci; 1,052,239 multi-ALT; 116.9 min
+[scan chr15.vcf.bgz] 1,400,000 qualifying loci; 115,472 multi-ALT; 11.2 min
+[scan chr15.vcf.bgz] 2,100,000 qualifying loci; 167,072 multi-ALT; 16.8 min
+[done] chr14.vcf.bgz: 16,277,650 eligible loci; 1,181,906 multi-ALT
+[scan chr15.vcf.bgz] 2,800,000 qualifying loci; 215,201 multi-ALT; 22.1 min
+[scan chr16.vcf.bgz] 1,200,000 qualifying loci; 119,775 multi-ALT; 9.1 min
+[scan chr16.vcf.bgz] 1,800,000 qualifying loci; 206,056 multi-ALT; 14.1 min
+[scan chr15.vcf.bgz] 4,900,000 qualifying loci; 362,190 multi-ALT; 37.9 min
+[scan chr16.vcf.bgz] 3,100,000 qualifying loci; 349,795 multi-ALT; 24.6 min
+[scan chr16.vcf.bgz] 3,800,000 qualifying loci; 420,091 multi-ALT; 30.2 min
+[scan chr15.vcf.bgz] 7,000,000 qualifying loci; 523,099 multi-ALT; 54.1 min
+[scan chr15.vcf.bgz] 7,700,000 qualifying loci; 577,103 multi-ALT; 59.5 min
+[scan chr15.vcf.bgz] 8,400,000 qualifying loci; 626,408 multi-ALT; 64.6 min
+[scan chr16.vcf.bgz] 6,500,000 qualifying loci; 616,617 multi-ALT; 51.5 min
+[scan chr15.vcf.bgz] 9,800,000 qualifying loci; 722,037 multi-ALT; 75.4 min
+[scan chr15.vcf.bgz] 10,500,000 qualifying loci; 770,629 multi-ALT; 80.4 min
+[scan chr15.vcf.bgz] 11,200,000 qualifying loci; 819,805 multi-ALT; 86.0 min
+[scan chr15.vcf.bgz] 11,900,000 qualifying loci; 875,622 multi-ALT; 91.4 min
+[scan chr16.vcf.bgz] 9,900,000 qualifying loci; 912,230 multi-ALT; 78.2 min
+[scan chr15.vcf.bgz] 13,200,000 qualifying loci; 980,700 multi-ALT; 101.8 min
+[scan chr16.vcf.bgz] 11,200,000 qualifying loci; 1,004,446 multi-ALT; 88.5 min
+[scan chr16.vcf.bgz] 11,900,000 qualifying loci; 1,057,232 multi-ALT; 93.6 min
+[done] chr15.vcf.bgz: 14,843,485 eligible loci; 1,109,430 multi-ALT
+[scan chr17.vcf.bgz] 200,000 qualifying loci; 17,647 multi-ALT; 1.7 min
+[scan chr17.vcf.bgz] 900,000 qualifying loci; 76,472 multi-ALT; 6.7 min
+[scan chr16.vcf.bgz] 13,800,000 qualifying loci; 1,257,011 multi-ALT; 109.2 min
+[scan chr16.vcf.bgz] 14,400,000 qualifying loci; 1,324,456 multi-ALT; 114.3 min
+[scan chr16.vcf.bgz] 15,000,000 qualifying loci; 1,396,708 multi-ALT; 119.6 min
+[scan chr16.vcf.bgz] 15,600,000 qualifying loci; 1,464,684 multi-ALT; 124.6 min
+[scan chr17.vcf.bgz] 4,300,000 qualifying loci; 339,188 multi-ALT; 32.7 min
+[done] chr16.vcf.bgz: 16,495,654 eligible loci; 1,562,218 multi-ALT
+[scan chr18.vcf.bgz] 300,000 qualifying loci; 21,404 multi-ALT; 2.5 min
+[scan chr17.vcf.bgz] 5,700,000 qualifying loci; 439,773 multi-ALT; 43.0 min
+[scan chr17.vcf.bgz] 6,400,000 qualifying loci; 488,511 multi-ALT; 48.1 min
+[scan chr18.vcf.bgz] 2,300,000 qualifying loci; 165,876 multi-ALT; 18.2 min
+[scan chr17.vcf.bgz] 7,900,000 qualifying loci; 594,122 multi-ALT; 58.8 min
+[scan chr18.vcf.bgz] 3,700,000 qualifying loci; 271,430 multi-ALT; 28.8 min
+[scan chr17.vcf.bgz] 9,300,000 qualifying loci; 690,356 multi-ALT; 69.5 min
+[scan chr18.vcf.bgz] 5,000,000 qualifying loci; 360,245 multi-ALT; 39.2 min
+[scan chr17.vcf.bgz] 10,700,000 qualifying loci; 782,872 multi-ALT; 79.7 min
+[scan chr17.vcf.bgz] 11,400,000 qualifying loci; 831,412 multi-ALT; 85.1 min
+[scan chr18.vcf.bgz] 7,000,000 qualifying loci; 498,163 multi-ALT; 55.0 min
+[scan chr18.vcf.bgz] 7,700,000 qualifying loci; 548,777 multi-ALT; 60.4 min
+[scan chr17.vcf.bgz] 13,400,000 qualifying loci; 979,903 multi-ALT; 100.8 min
+[scan chr17.vcf.bgz] 14,100,000 qualifying loci; 1,039,110 multi-ALT; 106.2 min
+[done] chr17.vcf.bgz: 14,405,139 eligible loci; 1,065,247 multi-ALT
+[scan chr19.vcf.bgz] 300,000 qualifying loci; 32,288 multi-ALT; 2.4 min
+[scan chr18.vcf.bgz] 10,300,000 qualifying loci; 735,375 multi-ALT; 81.2 min
+[scan chr18.vcf.bgz] 11,000,000 qualifying loci; 784,821 multi-ALT; 86.8 min
+[scan chr19.vcf.bgz] 2,400,000 qualifying loci; 209,585 multi-ALT; 18.6 min
+[scan chr18.vcf.bgz] 12,300,000 qualifying loci; 876,979 multi-ALT; 97.4 min
+[scan chr19.vcf.bgz] 3,700,000 qualifying loci; 307,977 multi-ALT; 28.8 min
+[scan chr18.vcf.bgz] 13,600,000 qualifying loci; 979,313 multi-ALT; 108.0 min
+[done] chr18.vcf.bgz: 13,902,989 eligible loci; 1,004,151 multi-ALT
+[scan chr20.vcf.bgz] 300,000 qualifying loci; 21,271 multi-ALT; 2.5 min
+[scan chr20.vcf.bgz] 1,000,000 qualifying loci; 70,593 multi-ALT; 8.1 min
+[scan chr19.vcf.bgz] 6,500,000 qualifying loci; 541,347 multi-ALT; 50.9 min
+[scan chr19.vcf.bgz] 7,200,000 qualifying loci; 591,348 multi-ALT; 56.5 min
+[scan chr19.vcf.bgz] 7,900,000 qualifying loci; 648,439 multi-ALT; 61.9 min
+[scan chr20.vcf.bgz] 3,700,000 qualifying loci; 258,343 multi-ALT; 30.1 min
+[scan chr19.vcf.bgz] 9,200,000 qualifying loci; 748,825 multi-ALT; 72.3 min
+[scan chr19.vcf.bgz] 9,800,000 qualifying loci; 794,199 multi-ALT; 77.4 min
+[scan chr20.vcf.bgz] 5,700,000 qualifying loci; 427,379 multi-ALT; 45.6 min
+[done] chr19.vcf.bgz: 10,886,175 eligible loci; 884,027 multi-ALT
+[scan chr20.vcf.bgz] 6,400,000 qualifying loci; 474,345 multi-ALT; 50.9 min
+[scan chr21.vcf.bgz] 700,000 qualifying loci; 77,063 multi-ALT; 6.1 min
+[scan chr20.vcf.bgz] 7,700,000 qualifying loci; 564,718 multi-ALT; 61.3 min
+[scan chr21.vcf.bgz] 2,000,000 qualifying loci; 177,242 multi-ALT; 16.7 min
+[scan chr21.vcf.bgz] 2,600,000 qualifying loci; 224,588 multi-ALT; 21.7 min
+[scan chr20.vcf.bgz] 9,700,000 qualifying loci; 710,559 multi-ALT; 77.3 min
+[scan chr21.vcf.bgz] 3,900,000 qualifying loci; 314,062 multi-ALT; 32.4 min
+[scan chr20.vcf.bgz] 11,000,000 qualifying loci; 814,162 multi-ALT; 87.6 min
+[done] chr20.vcf.bgz: 11,229,461 eligible loci; 834,275 multi-ALT
+[scan chr21.vcf.bgz] 5,200,000 qualifying loci; 402,616 multi-ALT; 42.8 min
+[scan chr22.vcf.bgz] 1,000,000 qualifying loci; 108,706 multi-ALT; 8.2 min
+[scan chr22.vcf.bgz] 1,700,000 qualifying loci; 167,481 multi-ALT; 13.6 min
+[done] chr21.vcf.bgz: 6,649,613 eligible loci; 515,670 multi-ALT
+[scan chr22.vcf.bgz] 2,400,000 qualifying loci; 218,567 multi-ALT; 19.1 min
+[scan chr22.vcf.bgz] 3,100,000 qualifying loci; 267,113 multi-ALT; 24.3 min
+[scan chr22.vcf.bgz] 3,800,000 qualifying loci; 318,507 multi-ALT; 30.0 min
+[scan chr22.vcf.bgz] 4,500,000 qualifying loci; 370,669 multi-ALT; 35.3 min
+[scan chr22.vcf.bgz] 5,200,000 qualifying loci; 423,138 multi-ALT; 40.6 min
+[scan chr22.vcf.bgz] 5,900,000 qualifying loci; 480,984 multi-ALT; 46.3 min
+[scan chr22.vcf.bgz] 6,500,000 qualifying loci; 532,421 multi-ALT; 51.3 min
+[done] chr22.vcf.bgz: 6,919,979 eligible loci; 570,433 multi-ALT
+[complete] /work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/reports
+[allele3] complete; elapsed=2424.6 min; full log=/work/sph-huangj/analysis/allele3/logs/gnomad_scan/scan-scan-verify.log
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u15b>
+Subject: Job 4404641: <allele3.gnomad_scan> in cluster <qmhpc> Done
+
+Job <allele3.gnomad_scan> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 22:32:42 2026
+Job was executed on host(s) <20*b08u15b>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 22:32:42 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/allele3> was used as the working directory.
+Started at Thu Nov 12 22:32:42 2026
+Terminated at Sat Nov 14 14:57:22 2026
+Results reported at Sat Nov 14 14:57:22 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J "allele3.gnomad_scan"
+#BSUB -q 33
+#BSUB -n 20
+#BSUB -W 72:00
+#BSUB -R "span[hosts=1] rusage[mem=64GB/host]"
+#BSUB -o /work/sph-huangj/analysis/allele3/logs/jobs/gnomad_scan/run4/3_gnomad_scan_sh.out
+#BSUB -e /work/sph-huangj/analysis/allele3/logs/jobs/gnomad_scan/run4/3_gnomad_scan_sh.err
+
+set -euo pipefail
+[[ ${LSB_JOBID:-} =~ ^[1-9][0-9]*$ ]] || { echo 'Submit this .cmd with bsub; no login-node payload' >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} =~ ^[0-9]+$ && ${LSB_DJOB_NUMPROC:-0} -ge 20 ]] || { echo 'Insufficient allocated CPU slots' >&2; exit 2; }
+export ALLELE_1KG_PANEL=/work/sph-huangj/data/gen/1kg/38/samples.txt
+export ALLELE_1KG_VCF_DIR=/work/sph-huangj/data/gen/1kg/38/vcf
+export ALLELE_ALL_OF_US=/work/sph-huangj/data/annot/allele3/allofus/hg38_allofus.txt.gz
+export ALLELE_ANALYSIS_ROOT=/work/sph-huangj/analysis/allele3
+export ALLELE_ANCIENT_DIR=/work/sph-huangj/data/gen/ancient
+export ALLELE_ARCHAIC_CACHE=/work/sph-huangj/analysis/allele3/archaic_overlap
+export ALLELE_ARCHAIC_DATASETS=1kg
+export ALLELE_ARCHAIC_LIFTOVER=/work/sph-huangj/software/bin/liftOver
+export ALLELE_ARCHAIC_ROOT=/work/sph-huangj/data/gen
+export ALLELE_ATLAS_DIR=/work/sph-huangj/data/annot/allele3/alphagenome/38
+export ALLELE_CHAIN37TO38=/work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz
+export ALLELE_CHAIN38TO37=/work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz
+export ALLELE_COHORT_TABLE=/work/sph-huangj/data/gen/1kg/38/allele3/herv_cohort/herv_cohort_burden.tsv
+export ALLELE_COORDINATES=/work/sph-huangj/analysis/allele3/pca3d/coordinates/all.sscore
+export ALLELE_ERV_JOINED=/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+export ALLELE_EXECUTION_MODE=hpc
+export ALLELE_FASTA=/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+export ALLELE_FASTA37=/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz
+export ALLELE_LD_BLOCK_DIR=/work/sph-huangj/data/LD/block
+export ALLELE_LOW_MAPPABILITY_BED=/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+export ALLELE_MEMORY_LIMIT_GB=64
+export ALLELE_METADATA=/work/sph-huangj/analysis/allele3/pca3d/tables/sample_metadata.tsv
+export ALLELE_PYTHON=/work/sph-huangj/.conda/envs/allele3-evolution/bin/python
+export ALLELE_REPLACE=TRUE
+export ALLELE_SCAN_STORE=/work/sph-huangj/analysis/allele3/gnomad_scan
+export ALLELE_VCF_DIR=/work/sph-huangj/data/annot/allele3/gnomad/sites
+export ANALYSIS_ROOT=/work/sph-huangj/analysis
+export DIR_ANALYSIS=/work/sph-huangj/analysis
+export DIR_ANNOT=/work/sph-huangj/data/annot
+export DIR_BIG=/work/sph-huangj/data
+export DIR_DAT=/work/sph-huangj
+export DIR_DATA=/work/sph-huangj/data
+export DIR_FILES=/work/sph-huangj/files
+export DIR_GEN=/work/sph-huangj/data/gen
+export DIR_GWAS=/work/sph-huangj/data/gwas
+export DIR_HOME=/work/sph-huangj
+export DIR_LD=/work/sph-huangj/data/LD
+export DIR_METAG=/work/sph-huangj/data/metag
+
+(... more ...)
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   285085.78 sec.
+    Max Memory :                                 2674 MB
+    Average Memory :                             2115.75 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               62862.00 MB
+    Max Swap :                                   1 MB
+    Max Processes :                              11
+    Max Threads :                                14
+    Run time :                                   145477 sec.
+    Turnaround time :                            145480 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/allele3/logs/jobs/gnomad_scan/run4/3_gnomad_scan_sh.err> for stderr output of this job.
+

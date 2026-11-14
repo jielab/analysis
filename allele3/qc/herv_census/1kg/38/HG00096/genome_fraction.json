@@ -1,0 +1,757 @@
+{
+  "scope": "autosomes only; VCF-conditioned reference models, not independent assemblies",
+  "categories": [
+    {
+      "label": "diploid",
+      "category": "ERV_with_MaLR",
+      "union_bp": 473726764,
+      "union_non_N_bp": 473726720,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 8.24267623522179,
+      "percent_non_N": 8.665806207536875
+    },
+    {
+      "label": "diploid",
+      "category": "ERV_without_MaLR",
+      "union_bp": 274305837,
+      "union_non_N_bp": 274305793,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 4.772823440945637,
+      "percent_non_N": 5.017831469887797
+    },
+    {
+      "label": "diploid",
+      "category": "all_LTR",
+      "union_bp": 485556282,
+      "union_non_N_bp": 485556238,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 8.448505616845516,
+      "percent_non_N": 8.882201665484802
+    },
+    {
+      "label": "diploid",
+      "category": "family:",
+      "union_bp": 4939953,
+      "union_non_N_bp": 4939953,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 0.08595341511296285,
+      "percent_non_N": 0.0903657606063268
+    },
+    {
+      "label": "diploid",
+      "category": "family:DIRS",
+      "union_bp": 996,
+      "union_non_N_bp": 996,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 1.7330043717523425e-05,
+      "percent_non_N": 1.8219666778995972e-05
+    },
+    {
+      "label": "diploid",
+      "category": "family:ERV1",
+      "union_bp": 150606042,
+      "union_non_N_bp": 150606038,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 2.620491257011214,
+      "percent_non_N": 2.7550118747638606
+    },
+    {
+      "label": "diploid",
+      "category": "family:ERVK",
+      "union_bp": 16085506,
+      "union_non_N_bp": 16085506,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 0.27988205040008574,
+      "percent_non_N": 0.2942495575216269
+    },
+    {
+      "label": "diploid",
+      "category": "family:ERVL",
+      "union_bp": 107909594,
+      "union_non_N_bp": 107909554,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 1.8775883348998028,
+      "percent_non_N": 1.973972004166739
+    },
+    {
+      "label": "diploid",
+      "category": "family:ERVL-MaLR",
+      "union_bp": 199493773,
+      "union_non_N_bp": 199493773,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 3.471120288618167,
+      "percent_non_N": 3.6493072977356062
+    },
+    {
+      "label": "diploid",
+      "category": "family:Gypsy",
+      "union_bp": 6891041,
+      "union_non_N_bp": 6891041,
+      "genome_bp": 5747244590,
+      "genome_non_N_bp": 5466620285,
+      "percent_genome": 0.11990164838277746,
+      "percent_non_N": 0.1260566975706819
+    },
+    {
+      "label": "hap1",
+      "category": "ERV_with_MaLR",
+      "union_bp": 236851052,
+      "union_non_N_bp": 236851030,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 8.241746165802127,
+      "percent_non_N": 8.665638875997422
+    },
+    {
+      "label": "hap1",
+      "category": "ERV_without_MaLR",
+      "union_bp": 137151516,
+      "union_non_N_bp": 137151494,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 4.7724845280693495,
+      "percent_non_N": 5.017944478888385
+    },
+    {
+      "label": "hap1",
+      "category": "all_LTR",
+      "union_bp": 242760482,
+      "union_non_N_bp": 242760460,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 8.447377602239976,
+      "percent_non_N": 8.88184644893044
+    },
+    {
+      "label": "hap1",
+      "category": "family:",
+      "union_bp": 2468622,
+      "union_non_N_bp": 2468622,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 0.08590105778088238,
+      "percent_non_N": 0.09031916294956585
+    },
+    {
+      "label": "hap1",
+      "category": "family:DIRS",
+      "union_bp": 454,
+      "union_non_N_bp": 454,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 1.5797914882278698e-05,
+      "percent_non_N": 1.6610440958195663e-05
+    },
+    {
+      "label": "hap1",
+      "category": "family:ERV1",
+      "union_bp": 75299025,
+      "union_non_N_bp": 75299023,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 2.6201929243801225,
+      "percent_non_N": 2.7549558937253686
+    },
+    {
+      "label": "hap1",
+      "category": "family:ERVK",
+      "union_bp": 8034913,
+      "union_non_N_bp": 8034913,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 0.2795922283271246,
+      "percent_non_N": 0.29397235240250835
+    },
+    {
+      "label": "hap1",
+      "category": "family:ERVL",
+      "union_bp": 53964920,
+      "union_non_N_bp": 53964900,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 1.8778264598876195,
+      "percent_non_N": 1.9744070160020555
+    },
+    {
+      "label": "hap1",
+      "category": "family:ERVL-MaLR",
+      "union_bp": 99735528,
+      "union_non_N_bp": 99735528,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 3.470514057451814,
+      "percent_non_N": 3.649011231890904
+    },
+    {
+      "label": "hap1",
+      "category": "family:Gypsy",
+      "union_bp": 3441531,
+      "union_non_N_bp": 3441531,
+      "genome_bp": 2873796975,
+      "genome_non_N_bp": 2733220636,
+      "percent_genome": 0.11975553701040416,
+      "percent_non_N": 0.1259148622936125
+    },
+    {
+      "label": "hap2",
+      "category": "ERV_with_MaLR",
+      "union_bp": 236875712,
+      "union_non_N_bp": 236875690,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 8.243606417721313,
+      "percent_non_N": 8.665973528117622
+    },
+    {
+      "label": "hap2",
+      "category": "ERV_without_MaLR",
+      "union_bp": 137154321,
+      "union_non_N_bp": 137154299,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 4.773162395027689,
+      "percent_non_N": 5.01771846828828
+    },
+    {
+      "label": "hap2",
+      "category": "all_LTR",
+      "union_bp": 242795800,
+      "union_non_N_bp": 242795778,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 8.449633768597518,
+      "percent_non_N": 8.882556858775684
+    },
+    {
+      "label": "hap2",
+      "category": "family:",
+      "union_bp": 2471331,
+      "union_non_N_bp": 2471331,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 0.08600577881076144,
+      "percent_non_N": 0.09041235521136193
+    },
+    {
+      "label": "hap2",
+      "category": "family:DIRS",
+      "union_bp": 542,
+      "union_non_N_bp": 542,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 1.8862358832318578e-05,
+      "percent_non_N": 1.982878721003304e-05
+    },
+    {
+      "label": "hap2",
+      "category": "family:ERV1",
+      "union_bp": 75307017,
+      "union_non_N_bp": 75307015,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 2.620789625914235,
+      "percent_non_N": 2.7550678521361003
+    },
+    {
+      "label": "hap2",
+      "category": "family:ERVK",
+      "union_bp": 8050593,
+      "union_non_N_bp": 8050593,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 0.28017190771024375,
+      "percent_non_N": 0.2945267444863128
+    },
+    {
+      "label": "hap2",
+      "category": "family:ERVL",
+      "union_bp": 53944674,
+      "union_non_N_bp": 53944654,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 1.877350180960233,
+      "percent_non_N": 1.9735370208207705
+    },
+    {
+      "label": "hap2",
+      "category": "family:ERVL-MaLR",
+      "union_bp": 99758245,
+      "union_non_N_bp": 99758245,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 3.4717265934914217,
+      "percent_non_N": 3.649603344190669
+    },
+    {
+      "label": "hap2",
+      "category": "family:Gypsy",
+      "union_bp": 3449510,
+      "union_non_N_bp": 3449510,
+      "genome_bp": 2873447615,
+      "genome_non_N_bp": 2733399649,
+      "percent_genome": 0.12004777751968866,
+      "percent_non_N": 0.12619852355882116
+    },
+    {
+      "label": "reference",
+      "category": "ERV_with_MaLR",
+      "union_bp": 237952455,
+      "union_non_N_bp": 237952433,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 8.276602748873257,
+      "percent_non_N": 8.667987273146808
+    },
+    {
+      "label": "reference",
+      "category": "ERV_without_MaLR",
+      "union_bp": 137848937,
+      "union_non_N_bp": 137848915,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 4.794743096487307,
+      "percent_non_N": 5.021476879948927
+    },
+    {
+      "label": "reference",
+      "category": "all_LTR",
+      "union_bp": 243901596,
+      "union_non_N_bp": 243901574,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 8.48352928280641,
+      "percent_non_N": 8.88469898239063
+    },
+    {
+      "label": "reference",
+      "category": "family:",
+      "union_bp": 2484598,
+      "union_non_N_bp": 2484598,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 0.08642075424960419,
+      "percent_non_N": 0.09050743281488538
+    },
+    {
+      "label": "reference",
+      "category": "family:DIRS",
+      "union_bp": 538,
+      "union_non_N_bp": 538,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 1.871303357174362e-05,
+      "percent_non_N": 1.959793852140601e-05
+    },
+    {
+      "label": "reference",
+      "category": "family:ERV1",
+      "union_bp": 75693215,
+      "union_non_N_bp": 75693213,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 2.6328060844762224,
+      "percent_non_N": 2.757306570374889
+    },
+    {
+      "label": "reference",
+      "category": "family:ERVK",
+      "union_bp": 8104978,
+      "union_non_N_bp": 8104978,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 0.2819121290190399,
+      "percent_non_N": 0.2952432352441417
+    },
+    {
+      "label": "reference",
+      "category": "family:ERVL",
+      "union_bp": 54200773,
+      "union_non_N_bp": 54200753,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 1.8852432802294705,
+      "percent_non_N": 1.9743922399775324
+    },
+    {
+      "label": "reference",
+      "category": "family:ERVL-MaLR",
+      "union_bp": 100140873,
+      "union_non_N_bp": 100140873,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 3.483158956045937,
+      "percent_non_N": 3.647871138538898
+    },
+    {
+      "label": "reference",
+      "category": "family:Gypsy",
+      "union_bp": 3465344,
+      "union_non_N_bp": 3465344,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2745186691,
+      "percent_genome": 0.1205336405383649,
+      "percent_non_N": 0.12623345477234793
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "ERV_with_MaLR",
+      "union_bp": 473973356,
+      "union_non_N_bp": 473973312,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 8.243010523178429,
+      "percent_non_N": 8.66594424372702
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "ERV_without_MaLR",
+      "union_bp": 274481613,
+      "union_non_N_bp": 274481569,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 4.773590742467788,
+      "percent_non_N": 5.018514571733336
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "all_LTR",
+      "union_bp": 485826639,
+      "union_non_N_bp": 485826595,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 8.44915446622153,
+      "percent_non_N": 8.882665073745224
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "family:",
+      "union_bp": 4949185,
+      "union_non_N_bp": 4949185,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 0.08607273704253712,
+      "percent_non_N": 0.09048897939192431
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "family:DIRS",
+      "union_bp": 1076,
+      "union_non_N_bp": 1076,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 1.871303357174362e-05,
+      "percent_non_N": 1.9673166758912946e-05
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "family:ERV1",
+      "union_bp": 150688766,
+      "union_non_N_bp": 150688762,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 2.620672803942954,
+      "percent_non_N": 2.7551348917473457
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "family:ERVK",
+      "union_bp": 16111071,
+      "union_non_N_bp": 16111071,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 0.28019239079901953,
+      "percent_non_N": 0.29456857476550774
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "family:ERVL",
+      "union_bp": 107976878,
+      "union_non_N_bp": 107976838,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 1.8778577537045213,
+      "percent_non_N": 1.9742066357566246
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "family:ERVL-MaLR",
+      "union_bp": 199565988,
+      "union_non_N_bp": 199565988,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 3.470710997418387,
+      "percent_non_N": 3.6487871387836615
+    },
+    {
+      "label": "reference_callable_diploid",
+      "category": "family:Gypsy",
+      "union_bp": 6905700,
+      "union_non_N_bp": 6905700,
+      "genome_bp": 5750003044,
+      "genome_non_N_bp": 5469378739,
+      "percent_genome": 0.12009906685538095,
+      "percent_non_N": 0.12626114097307167
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "ERV_with_MaLR",
+      "union_bp": 236952212,
+      "union_non_N_bp": 236952190,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 8.241811706421768,
+      "percent_non_N": 8.665521056240214
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "ERV_without_MaLR",
+      "union_bp": 137224372,
+      "union_non_N_bp": 137224350,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 4.773019107987797,
+      "percent_non_N": 5.018398413426256
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "all_LTR",
+      "union_bp": 242875778,
+      "union_non_N_bp": 242875756,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 8.447848675608457,
+      "percent_non_N": 8.88215035137789
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "family:",
+      "union_bp": 2472973,
+      "union_non_N_bp": 2472973,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 0.08601640663757534,
+      "percent_non_N": 0.09043849564341874
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "family:DIRS",
+      "union_bp": 538,
+      "union_non_N_bp": 538,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 1.871303357174362e-05,
+      "percent_non_N": 1.96750674819981e-05
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "family:ERV1",
+      "union_bp": 75338487,
+      "union_non_N_bp": 75338485,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 2.620467725790651,
+      "percent_non_N": 2.7551854579303003
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "family:ERVK",
+      "union_bp": 8045867,
+      "union_non_N_bp": 8045867,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 0.27985609532487754,
+      "percent_non_N": 0.29424345014160147
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "family:ERVL",
+      "union_bp": 53987624,
+      "union_non_N_bp": 53987604,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 1.8778294058934415,
+      "percent_non_N": 1.9743675685713578
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "family:ERVL-MaLR",
+      "union_bp": 99764963,
+      "union_non_N_bp": 99764963,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 3.4700838325330112,
+      "percent_non_N": 3.648480259040973
+    },
+    {
+      "label": "reference_callable_hap1",
+      "category": "family:Gypsy",
+      "union_bp": 3451394,
+      "union_non_N_bp": 3451394,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734425183,
+      "percent_genome": 0.1200484234039303,
+      "percent_non_N": 0.1262200926709356
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "ERV_with_MaLR",
+      "union_bp": 237021144,
+      "union_non_N_bp": 237021122,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 8.24420933993509,
+      "percent_non_N": 8.666367349457104
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "ERV_without_MaLR",
+      "union_bp": 137257241,
+      "union_non_N_bp": 137257219,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 4.774162376947778,
+      "percent_non_N": 5.018630707599482
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "all_LTR",
+      "union_bp": 242950861,
+      "union_non_N_bp": 242950839,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 8.450460256834605,
+      "percent_non_N": 8.883179696671968
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "family:",
+      "union_bp": 2476212,
+      "union_non_N_bp": 2476212,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 0.0861290674474989,
+      "percent_non_N": 0.09053945338733935
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "family:DIRS",
+      "union_bp": 538,
+      "union_non_N_bp": 538,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 1.871303357174362e-05,
+      "percent_non_N": 1.9671266403033573e-05
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "family:ERV1",
+      "union_bp": 75350279,
+      "union_non_N_bp": 75350277,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 2.620877882095257,
+      "percent_non_N": 2.755084335333408
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "family:ERVK",
+      "union_bp": 8065204,
+      "union_non_N_bp": 8065204,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 0.2805286862731616,
+      "percent_non_N": 0.29489363657771744
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "family:ERVL",
+      "union_bp": 53989254,
+      "union_non_N_bp": 53989234,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 1.8778861015156012,
+      "percent_non_N": 1.974045734032933
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "family:ERVL-MaLR",
+      "union_bp": 99801025,
+      "union_non_N_bp": 99801025,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 3.4713381623037622,
+      "percent_non_N": 3.6490939592394307
+    },
+    {
+      "label": "reference_callable_hap2",
+      "category": "family:Gypsy",
+      "union_bp": 3454306,
+      "union_non_N_bp": 3454306,
+      "genome_bp": 2875001522,
+      "genome_non_N_bp": 2734953556,
+      "percent_genome": 0.12014971030683162,
+      "percent_non_N": 0.12630218134497637
+    }
+  ],
+  "completed_chunks": {
+    "reference": 587,
+    "hap1": 587,
+    "hap2": 587
+  },
+  "repeatmasker_job_seconds": {
+    "reference": 154433.23396649212,
+    "hap1": 154025.9629085511,
+    "hap2": 154031.80607360974
+  },
+  "measured_cpu_seconds": {
+    "reference": 217332.67256500016,
+    "hap1": 216842.60508100005,
+    "hap2": 216872.3283679998
+  },
+  "boundary_disagreement_bp": {
+    "reference": 5490,
+    "hap1": 3428,
+    "hap2": 3306
+  },
+  "cohort_projection": {
+    "samples": 3202,
+    "reference_runs": 1,
+    "haplotypes_per_sample": 2,
+    "annotation_job_hours": 274043.1693096793,
+    "annotation_wall_days_at_same_jobs": 1427.308173487913,
+    "annotation_cpu_core_hours": 385825.7082156285,
+    "caveat": "Linear projection from HG00096, assuming similar workloads and resource contention. Excludes installation, downloads, VCF preparation and scheduling overhead."
+  },
+  "elapsed_wall_seconds": 58244.93337535858,
+  "completed": "2026-11-13T04:39:41.982527+00:00",
+  "settings": {
+    "method": "vcf-chunk-repeatmasker-v1",
+    "sample": "HG00096",
+    "fasta_sha256": "3006daf69d79db2ec6796937975015986f2114d1da145e5a838304945fe34d57",
+    "library": "/work/sph-huangj/data/annot/allele3/dfam_4.0_human/human.curated.fa",
+    "library_sha256": "a77b411966aadc715c808e89db11f1eb308f568576b1a179ea1639f7a742371e",
+    "repeatmasker": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/RepeatMasker",
+    "repeatmasker_sha256": "93f23892013867577e5cb0fd78263c212dea38399aae2c12d9403344131c6183",
+    "chunk_bp": 5000000,
+    "halo": 20000,
+    "uncertain_flank": 1000,
+    "parameters": [
+      "-e",
+      "rmblast",
+      "-pa",
+      "1"
+    ],
+    "code_sha256": "27f4ddf0fd59dbd4e03ac468bc9d513d58f09cebbd646d8d073d549904219e2c",
+    "rmblast_version": "rmblastn: 2.17.1+\n Package: blast 2.17.0, build Jul 22 2026 12:38:07"
+  },
+  "interpretation": "Unresolved variation was masked; unknown inserted sequence/length is not recovered. Percent including N uses model lengths; percent_non_N excludes reference gaps and masked uncertainty."
+}

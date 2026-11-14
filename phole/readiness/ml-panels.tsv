@@ -1,0 +1,3 @@
+PANEL	SELECTION_SCOPE	PROTEINS	PRIMARY_MAPPED	PRIMARY_STRICT_TRANS_EDGES	PRIMARY_TRANS_POSITIONS	PRIMARY_TRANS_BINS_1MB	PRIMARY_TRANS_BLOCKS_5MB	TARGETS_WITH_TRANS	TARGETS_WITH_3PLUS_TRANS	MAPPED_IN_DECODE	MAPPED_IN_CKB	MAPPED_IN_SCOT	DENSE_PANEL_CELL_ILLUSTRATION	CELL_ILLUSTRATION_SCOPE
+primary_strict_cis	primary_only	0	0	0	0	0	0	0	0	0	0	0	0	1 anchor per occupied physical trans bin x mapped targets; hypothetical, not observed cells
+cross_cohort_cis_priority	external_screened	0	0	0	0	0	0	0	0	0	0	0	0	1 anchor per occupied physical trans bin x mapped targets; hypothetical, not observed cells

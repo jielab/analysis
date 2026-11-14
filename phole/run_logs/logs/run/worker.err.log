@@ -1,0 +1,6 @@
+# Source: phole/logs/run/worker.err
+# Snapshot UTC: 2026-11-14T00:42:37Z
+# Source bytes: 213
+# Capture: full text; source may still be running.
+
+ERROR: ukb: complete primary full-summary exports are not certified by /work/sph-huangj/analysis/phole/cross-check/summary.json. Run cross-check,rebuild-plan and rebuild summaries, or use all --refresh-summaries.

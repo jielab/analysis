@@ -1,0 +1,47 @@
+{
+  "schema": "allele3-module-layout-1",
+  "status": "complete",
+  "public_root": "/work/sph-huangj/analysis/allele3/herv_census/1kg/38/HG00096",
+  "runtime_root": "/work/sph-huangj/analysis/allele3/tmp/herv_census/1kg/38/HG00096/work",
+  "directory_map": {
+    ".": "."
+  },
+  "public_files": {
+    "results/variant_summary.tsv": {
+      "native": "variant_summary.tsv",
+      "size": 1684
+    },
+    "results/chromosome_fraction.tsv": {
+      "native": "chromosome_fraction.tsv",
+      "size": 59538
+    },
+    "results/genome_fraction.tsv": {
+      "native": "genome_fraction.tsv",
+      "size": 7418
+    },
+    "reports/plots/herv_length_density.png": {
+      "native": "plots/herv_length_density.png",
+      "size": 45663
+    },
+    "reports/plots/herv_length_density.pdf": {
+      "native": "plots/herv_length_density.pdf",
+      "size": 15452
+    }
+  },
+  "support_files": {
+    "analysis.done.json": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/analysis.done.json",
+    "job.lock": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/job.lock",
+    "progress.json": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/progress.json",
+    "plan.json": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/plan.json",
+    "run.lock": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/run.lock",
+    "prepare.lock": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/prepare.lock",
+    "prepared.json": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/prepared.json",
+    "run.json": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/run.json",
+    "boundary_audit.tsv": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/boundary_audit.tsv",
+    "genome_fraction.json": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/genome_fraction.json",
+    "job.state.json": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/job.state.json",
+    "logs/repeatmasker_preflight.log": "/work/sph-huangj/analysis/allele3/logs/herv_census/1kg/38/HG00096/repeatmasker_preflight.log",
+    "plots/manifest.json": "/work/sph-huangj/analysis/allele3/qc/herv_census/1kg/38/HG00096/plots/manifest.json"
+  },
+  "provenance": "Native scientific receipts retained unchanged; this receipt describes file layout only"
+}

@@ -1,0 +1,30 @@
+{
+  "files": [
+    "reports/chromosome_occupancy.pdf",
+    "reports/chromosome_occupancy.png",
+    "reports/context_occupancy.pdf",
+    "reports/context_occupancy.png",
+    "reports/window_distribution.pdf",
+    "reports/window_distribution.png",
+    "results/annotation_counts.tsv",
+    "results/chromosome_summary.tsv",
+    "results/context_summary.tsv",
+    "results/enrichment_summary.tsv",
+    "results/erv_enrichment.tsv",
+    "results/expected_context.tsv",
+    "results/frequency_counts.tsv",
+    "results/ld_block_enrichment.tsv",
+    "results/ld_block_ranked.tsv",
+    "results/ld_hotspot_consensus.tsv",
+    "results/ld_hotspot_consensus_regions.tsv",
+    "results/occupancy_thresholds.tsv",
+    "results/population_classes.tsv",
+    "results/population_counts.tsv",
+    "results/population_summary.tsv",
+    "results/relationship_counts.tsv",
+    "results/singleton_sensitivity.tsv",
+    "results/site_ac_spectrum.tsv",
+    "results/window_summary.tsv",
+    "reports/README.md"
+  ]
+}

@@ -1,0 +1,5 @@
+model	term	kind	beta
+populations	csx.AFR	population_prs	-0.3104423644261136
+populations	csx.EAS	population_prs	0.3656321214429359
+populations	csx.EUR	population_prs	3.6183842059149245
+populations	csx.SAS	population_prs	0.002450973460502524

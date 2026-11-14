@@ -1,0 +1,42 @@
+{
+  "artifacts": {
+    "GEOMETRY_COMPLETE.json": 1180,
+    "_LOCAL_ONLY/calibration.truth.tsv.gz": 198795,
+    "_LOCAL_ONLY/calibration.tsv.gz": 322529,
+    "_LOCAL_ONLY/calibration.z.npy": 2785529416,
+    "_LOCAL_ONLY/donor.tsv.gz": 1359283,
+    "_LOCAL_ONLY/donor.z.npy": 11172399136,
+    "_LOCAL_ONLY/test.truth.tsv.gz": 991644,
+    "_LOCAL_ONLY/test.tsv.gz": 1615200,
+    "_LOCAL_ONLY/test.z.npy": 13957871072,
+    "features.tsv": 463997,
+    "geometry.json": 775722,
+    "geometry_model.json": 3378,
+    "model.json": 3465
+  },
+  "details": {
+    "lineage": {
+      "calibration": {
+        "groups": 40003,
+        "n": 48569,
+        "ordered_ids_sha256": "c53b5e8c023d8b548d83aa7c82f0365e7991932e6ecb9087a596b7bb7e001928"
+      },
+      "donor": {
+        "groups": 159669,
+        "n": 194804,
+        "ordered_ids_sha256": "fe48515dba29279932f156b9df3af12547d8b3955202410bb93c09a8784f62b3"
+      },
+      "test": {
+        "groups": 199713,
+        "n": 243372,
+        "ordered_ids_sha256": "657f63244c9625914f2c765f3048c0dc840ca5053a6ac91cbfd8e1c39273cd3f"
+      }
+    },
+    "task": "binary",
+    "trait": "t2dm"
+  },
+  "schema_version": "grid.abm.1",
+  "stage": "prepare",
+  "status": "complete",
+  "version": "20261112.1"
+}

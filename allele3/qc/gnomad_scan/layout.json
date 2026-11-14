@@ -1,0 +1,130 @@
+{
+  "schema": "allele3-module-layout-1",
+  "status": "complete",
+  "public_root": "/work/sph-huangj/analysis/allele3/gnomad_scan",
+  "runtime_root": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work",
+  "directory_map": {
+    ".": "."
+  },
+  "public_files": {
+    "results/ld_block_ranked.tsv": {
+      "native": "results/ld_block_ranked.tsv",
+      "size": 51272763
+    },
+    "results/annotation_counts.tsv": {
+      "native": "results/annotation_counts.tsv",
+      "size": 47
+    },
+    "results/chromosome_summary.tsv": {
+      "native": "results/chromosome_summary.tsv",
+      "size": 22108
+    },
+    "results/singleton_sensitivity.tsv": {
+      "native": "results/singleton_sensitivity.tsv",
+      "size": 2773
+    },
+    "results/population_summary.tsv": {
+      "native": "results/population_summary.tsv",
+      "size": 48446
+    },
+    "results/population_classes.tsv": {
+      "native": "results/population_classes.tsv",
+      "size": 13545
+    },
+    "results/ld_hotspot_consensus.tsv": {
+      "native": "results/ld_hotspot_consensus.tsv",
+      "size": 5353
+    },
+    "results/enrichment_summary.tsv": {
+      "native": "results/enrichment_summary.tsv",
+      "size": 256240
+    },
+    "results/frequency_counts.tsv": {
+      "native": "results/frequency_counts.tsv",
+      "size": 150563
+    },
+    "results/relationship_counts.tsv": {
+      "native": "results/relationship_counts.tsv",
+      "size": 4825
+    },
+    "results/site_ac_spectrum.tsv": {
+      "native": "results/site_ac_spectrum.tsv",
+      "size": 8915
+    },
+    "results/population_counts.tsv": {
+      "native": "results/population_counts.tsv",
+      "size": 85756
+    },
+    "results/window_summary.tsv": {
+      "native": "results/window_summary.tsv",
+      "size": 2679428
+    },
+    "results/erv_enrichment.tsv": {
+      "native": "results/erv_enrichment.tsv",
+      "size": 59294148
+    },
+    "results/ld_hotspot_consensus_regions.tsv": {
+      "native": "results/ld_hotspot_consensus_regions.tsv",
+      "size": 1940
+    },
+    "results/occupancy_thresholds.tsv": {
+      "native": "results/occupancy_thresholds.tsv",
+      "size": 1429
+    },
+    "results/ld_block_enrichment.tsv": {
+      "native": "results/ld_block_enrichment.tsv",
+      "size": 94250394
+    },
+    "results/expected_context.tsv": {
+      "native": "results/expected_context.tsv",
+      "size": 35562135
+    },
+    "results/context_summary.tsv": {
+      "native": "results/context_summary.tsv",
+      "size": 52187
+    },
+    "reports/index.html": {
+      "native": "reports/index.html",
+      "size": 2011
+    },
+    "reports/context_occupancy.pdf": {
+      "native": "reports/context_occupancy.pdf",
+      "size": 18283
+    },
+    "reports/context_occupancy.png": {
+      "native": "reports/context_occupancy.png",
+      "size": 63477
+    },
+    "reports/window_distribution.png": {
+      "native": "reports/window_distribution.png",
+      "size": 123547
+    },
+    "reports/window_distribution.pdf": {
+      "native": "reports/window_distribution.pdf",
+      "size": 79940
+    },
+    "reports/chromosome_occupancy.pdf": {
+      "native": "reports/chromosome_occupancy.pdf",
+      "size": 21540
+    },
+    "reports/README.md": {
+      "native": "reports/README.md",
+      "size": 2261
+    },
+    "reports/chromosome_occupancy.png": {
+      "native": "reports/chromosome_occupancy.png",
+      "size": 93656
+    }
+  },
+  "support_files": {
+    ".allele3.lock": "/work/sph-huangj/analysis/allele3/qc/gnomad_scan/.allele3.lock",
+    "run.json": "/work/sph-huangj/analysis/allele3/qc/gnomad_scan/run.json",
+    "qc/published_scan.json": "/work/sph-huangj/analysis/allele3/qc/gnomad_scan/published_scan.json",
+    "summary/enrichment_manifest.json": "/work/sph-huangj/analysis/allele3/qc/gnomad_scan/summary/enrichment_manifest.json",
+    "summary/summarize_manifest.json": "/work/sph-huangj/analysis/allele3/qc/gnomad_scan/summary/summarize_manifest.json",
+    "summary/qc_summary.json": "/work/sph-huangj/analysis/allele3/qc/gnomad_scan/summary/qc_summary.json",
+    "summary/site_ac_spectrum_availability.json": "/work/sph-huangj/analysis/allele3/qc/gnomad_scan/summary/site_ac_spectrum_availability.json",
+    "summary/architecture_manifest.json": "/work/sph-huangj/analysis/allele3/qc/gnomad_scan/summary/architecture_manifest.json"
+  },
+  "provenance": "Native scientific receipts retained unchanged; this receipt describes file layout only"
+}

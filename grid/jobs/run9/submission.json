@@ -1,0 +1,173 @@
+{
+  "jobs": {
+    "height.prsformer.report": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406283)"
+      ],
+      "job_id": "4406289",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406289> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:13:07.073918+00:00"
+    },
+    "height.prsformer.train": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406282)"
+      ],
+      "job_id": "4406283",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406283> is submitted to queue <2v100-32-sc>.\n",
+      "submitted": "2026-11-13T01:13:06.135995+00:00"
+    },
+    "height.prsformer2.report": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406284) && ended(4406282)"
+      ],
+      "job_id": "4406290",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406290> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:13:07.350234+00:00"
+    },
+    "height.prsformer2.train": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406282)"
+      ],
+      "job_id": "4406284",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406284> is submitted to queue <2v100-32-sc>.\n",
+      "submitted": "2026-11-13T01:13:06.275242+00:00"
+    },
+    "ldl.prsformer.report": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406285) && ended(4406283)"
+      ],
+      "job_id": "4406291",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406291> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:13:07.888729+00:00"
+    },
+    "ldl.prsformer.train": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406282)"
+      ],
+      "job_id": "4406285",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406285> is submitted to queue <2v100-32-sc>.\n",
+      "submitted": "2026-11-13T01:13:06.362841+00:00"
+    },
+    "ldl.prsformer2.report": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406286) && ended(4406284)"
+      ],
+      "job_id": "4406292",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406292> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:13:07.947466+00:00"
+    },
+    "ldl.prsformer2.train": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406282)"
+      ],
+      "job_id": "4406286",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406286> is submitted to queue <2v100-32-sc>.\n",
+      "submitted": "2026-11-13T01:13:06.401453+00:00"
+    },
+    "shared.cpu_prepare": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4406282",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406282> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:13:06.018723+00:00"
+    },
+    "t2dm.prsformer.report": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406287) && ended(4406285)"
+      ],
+      "job_id": "4406293",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406293> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:13:07.984761+00:00"
+    },
+    "t2dm.prsformer.train": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406282)"
+      ],
+      "job_id": "4406287",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406287> is submitted to queue <2v100-32-sc>.\n",
+      "submitted": "2026-11-13T01:13:06.444832+00:00"
+    },
+    "t2dm.prsformer2.report": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406288) && ended(4406286)"
+      ],
+      "job_id": "4406294",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406294> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:13:08.027487+00:00"
+    },
+    "t2dm.prsformer2.train": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406282)"
+      ],
+      "job_id": "4406288",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406288> is submitted to queue <2v100-32-sc>.\n",
+      "submitted": "2026-11-13T01:13:06.807098+00:00"
+    }
+  },
+  "plan": "/work/sph-huangj/analysis/grid/jobs/run9/plan.json",
+  "plan_sha256": "e3d68d4db2893a7ce2f4fc7cbc2a53736c397d1bf23ac716778214592ef6f6c9"
+}

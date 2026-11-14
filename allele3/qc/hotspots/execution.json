@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "exit_code": 1,
+  "command": [
+    "/work/sph-huangj/.conda/envs/allele3-evolution/bin/python",
+    "/work/sph-huangj/scripts/allele3/f/base_occupancy.py",
+    "hotspots",
+    "--scan-dir",
+    "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work",
+    "--out",
+    "/work/sph-huangj/analysis/allele3/tmp/hotspots/work",
+    "--with-atlas",
+    "TRUE",
+    "--atlas-resources",
+    "/work/sph-huangj/scripts/allele3/config/alphagenome_resources.vcf.tsv"
+  ],
+  "public_output": "/work/sph-huangj/analysis/allele3/hotspots",
+  "runtime": "/work/sph-huangj/analysis/allele3/tmp/hotspots/work",
+  "output_files": {},
+  "validation": "completion plus file presence and size; no content hashes"
+}

@@ -1,0 +1,68 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/1.pca.sh --traits height,ldl,t2dm --output-root /work/sph-huangj/analysis/grid
+[pca] work directory: /work/sph-huangj/analysis/grid/tmp/pca
+[pca] command file: /work/sph-huangj/analysis/grid/jobs/pca/pca.20261112T202723.674159.sh
+[pca] log file: /work/sph-huangj/analysis/grid/logs/pca/pca.20261112T202723.674159.log
+input genotype: /work/sph-huangj/data/gen/ukb/37/imp/chr{1..22}
+input PCA weights: /work/sph-huangj/files/DiscoDivas/g1k_hm3_maf5_woamb_wolr.pca.weight
+output PCA files: /work/sph-huangj/data/gen/ukb/pca_proj/ukb.discodivas.pca.tsv.gz
+output individual distance/ancestry: /work/sph-huangj/data/gen/ukb/pca_proj; reports: /work/sph-huangj/analysis/grid/pca
+[PCA] Completed: /work/sph-huangj/data/gen/ukb/pca_proj/ukb.discodivas.pca.tsv.gz; /work/sph-huangj/data/gen/ukb/pca_proj/ukb_reference_distances.tsv.gz; /work/sph-huangj/data/gen/ukb/pca_proj/ukb.ancestry.auto.tsv.gz; reports: /work/sph-huangj/analysis/grid/pca
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u35b>
+Subject: Job 4404175: <pca.pca> in cluster <qmhpc> Done
+
+Job <pca.pca> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 20:21:01 2026
+Job was executed on host(s) <48*b04u35b>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 20:27:18 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Thu Nov 12 20:27:18 2026
+Terminated at Thu Nov 12 20:40:37 2026
+Results reported at Thu Nov 12 20:40:37 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J pca.pca
+#BSUB -q 38
+#BSUB -n 48
+#BSUB -R "span[hosts=1] rusage[mem=256GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run/logs/pca.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run/logs/pca.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 48 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/grid/1.pca.sh --traits height,ldl,t2dm --output-root /work/sph-huangj/analysis/grid
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run/plan.json --key pca
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   639.35 sec.
+    Max Memory :                                 8790 MB
+    Average Memory :                             5673.75 MB
+    Total Requested Memory :                     262144.00 MB
+    Delta Memory :                               253354.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                41
+    Run time :                                   801 sec.
+    Turnaround time :                            1176 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run/logs/pca.4404175.err> for stderr output of this job.
+

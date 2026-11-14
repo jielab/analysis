@@ -1,0 +1,140 @@
+{
+  "version": "pca-time-atlas-2.0",
+  "status": "complete",
+  "created_utc": "2026-11-12T12:23:50.225830+00:00",
+  "payload_sha256": "e5d74bdec702fadc6e13cf86455f624e6fe19089f256974c73b2fd501c8a2882",
+  "counts": {
+    "total": 14439,
+    "ancient": 13936,
+    "modern": 503,
+    "ancient_primary": 13891,
+    "ancient_older_than_primary": 45
+  },
+  "display": {
+    "time_scale": "linear",
+    "max_age_bp": 10000.0,
+    "layer_years": 1000,
+    "default_view": "continuous",
+    "log1p_scale_bp": 1000.0,
+    "xy_offset": 0,
+    "date_jitter": 0,
+    "theme": "dark",
+    "point_size": 2.7,
+    "opacity": 0.75,
+    "default_color": "region",
+    "display_downsampling": false,
+    "linked_projection": true
+  },
+  "coordinate_kind": "projected_average",
+  "basis_label": "joint_balanced",
+  "simulated": false,
+  "overlay_variants": 0,
+  "sample_features": 0,
+  "provenance": {
+    "source_type": "existing_html_embedded_coordinates",
+    "inputs": {
+      "html": {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_time.html",
+        "bytes": 7806029,
+        "sha256": "fec3ed3d7a21333da1690ef4fc00fdbf7bed4b9ca819ab092dd0d4842d33081b"
+      }
+    },
+    "plan_validation_status": "embedded_provenance_unverified_plan",
+    "action": "lossless re-rendering of existing PC1/PC2; no new PCA fit"
+  },
+  "coordinates_unchanged": true,
+  "ages_unchanged": true,
+  "genetic_axis_equal_span": true,
+  "recomputed_PCA": false,
+  "PC3_available": false,
+  "explained_variance_available": false,
+  "source_points_sha256": "45bebcfb59e5e4bcaca4bae25fe496ce1e92c532895d96c577aa7ab2afb32a0b",
+  "code_sha256": "4e1a0695437673823b0b4a0a48ca3aa51c807a77f2f95596a2bd1de36d59fadd",
+  "template_sha256": "8107e906f9aee1727b16ee58f498014d4e05caa5012cc747278ebe854147fec1",
+  "explorer_script_sha256": "0ea47a40c8397f50c42657c878a4e6e7d4eb7eb4a884530dd659ed14c3e5528a",
+  "self_contained": true,
+  "network_requests_required": false,
+  "output_files": {
+    "pca_time_atlas.html": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/pca_time_atlas.html",
+      "bytes": 7839999,
+      "sha256": "892ebff6367d6f3a6cf0859792430eebb0fa3b91a4b2460a495b2a04a89d933f"
+    },
+    "atlas_payload.json.gz": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/atlas_payload.json.gz",
+      "bytes": 306138,
+      "sha256": "b7bb74921d0a1fde351f40abbb7a27f6bb60fe8fc586be8f9f766c67fe25a50d"
+    },
+    "original_points.tsv.gz": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/original_points.tsv.gz",
+      "bytes": 284059,
+      "sha256": "9984591b2d6abd5b1111b77bba1f97acb91140847584b0f75ed05e258da7634d"
+    },
+    "sample_display_audit.tsv.gz": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/sample_display_audit.tsv.gz",
+      "bytes": 207256,
+      "sha256": "77d9698ecdd95324c774bdf84e4a1c1ac11713aff4492b31c1bc9f0620b31951"
+    },
+    "layer_counts.tsv": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/layer_counts.tsv",
+      "bytes": 1435,
+      "sha256": "8a2a75531049a03309f73f825b707d99876166dbbdf10caf3b1da8fafe4afa30"
+    },
+    "sample_feature_metadata.tsv": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/sample_feature_metadata.tsv",
+      "bytes": 39,
+      "sha256": "035fdc32711a4696fdf60a39bdcf46f6893ae9c4a6b28cee187a2df22648aeba"
+    },
+    "sample_feature_values.tsv.gz": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/sample_feature_values.tsv.gz",
+      "bytes": 39431,
+      "sha256": "d3b524310ad4f17a4432def48a442eee1a138392138fca0b3fe38303c0f5c2fa"
+    },
+    "variant_overlay_metadata.tsv": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/variant_overlay_metadata.tsv",
+      "bytes": 86,
+      "sha256": "3756cf31233bb66a07aa9a95960ed767403b4ace130535ef0bb5f2d6fbc6aec8"
+    },
+    "pca_time_stack.png": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/pca_time_stack.png",
+      "bytes": 767051,
+      "sha256": "b62b8c89550362111d1e696ede33f20d9ca703ab714628c907222b1611edd1e6"
+    },
+    "pca_time_stack.pdf": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/pca_time_stack.pdf",
+      "bytes": 349917,
+      "sha256": "42cf9b0e1d352277936919b233f4d9100aeb03bea386cfb3400a4985e6f879ad"
+    },
+    "pca_time_stack_alternative.png": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/pca_time_stack_alternative.png",
+      "bytes": 817432,
+      "sha256": "9a186eaa5bf8be2e9582e0d7a359a0d8316218afef3eca97c923787788fad8b5"
+    },
+    "pca_time_stack_alternative.pdf": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/pca_time_stack_alternative.pdf",
+      "bytes": 389617,
+      "sha256": "fbf193b0f8b6ad96cdb7d3fd1805be2f3ac4f34b97a148b5997c32124f81d413"
+    },
+    "pca_all_ages.png": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/pca_all_ages.png",
+      "bytes": 691207,
+      "sha256": "0b7817ae3a3a9da84be85395c2dede61f5adff41569e3ef6927fe2988a16783f"
+    },
+    "pca_all_ages.pdf": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/atlas/pca_all_ages.pdf",
+      "bytes": 267151,
+      "sha256": "2a1f2cc1e96a92de0e6f9d43ec1697df802d3fb61a53b2cc41a17fb4b9657684"
+    }
+  },
+  "limitations": [
+    "Third axis is time, not PC3; genetic coordinates and dates are not jittered or re-estimated.",
+    "Original PCA basis size, marker set, weights, eigenvalues and variance explained are not inferred from two coordinate columns.",
+    "Modern comparison cohort is exactly what the source contains; no unavailable UKB participants are added.",
+    "Layer counts reflect uneven sampling; a denser point cloud is not higher population abundance or genetic diversity.",
+    "No trajectory lines, group-centroid ancestry paths or natural-selection conclusions are inferred.",
+    "Variant overlays are the supplied ALT hardcall/dosage values; 0/1/2 never means three alleles. Missing stays null.",
+    "Optional sample features are explicitly supplied observations with declared provenance; no window annotation or aggregate frequency is converted into individual phenotype data.",
+    "Color and marker-size ranges are fixed over the complete supplied feature track. Filtering and time animation change display membership only.",
+    "3D and linked 2D contain all currently filtered points; no stochastic or hidden display downsampling is performed."
+  ]
+}

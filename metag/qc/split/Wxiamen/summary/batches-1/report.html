@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<title>Metagenomic split report</title><style>
+body{font:16px/1.6 system-ui,sans-serif;max-width:1450px;margin:32px auto;padding:0 24px;color:#172b3a}
+h1,h2{line-height:1.25}table{border-collapse:collapse;font-size:14px;width:100%}
+th,td{padding:10px;border-bottom:1px solid #dae1e7;text-align:right}th:first-child,td:first-child{text-align:left}
+th{background:#eef4f7}.note{background:#f4f7f9;padding:16px;border-left:4px solid #3782a3}
+.scroll{overflow:auto}code{background:#eef2f4;padding:2px 5px}</style>
+<h1>Metagenomic split report</h1>
+<p>10 / 10 requested samples complete.
+State: <b>complete</b>. Generated 2026-11-12T16:12:50.545530+00:00.</p>
+<div class="note">Every fraction uses all input fragments (one fragment is one pair for paired input).
+<b>Species assigned, above species, and unclassified are mutually exclusive.</b>
+<code>taxon_unresolved</code> contains higher-rank calls; a root file contains calls without a unique group.
+<code>TAXID_name</code> files contain separate species; <code>species_other</code> contains species below the
+file-materialization threshold in that group. Species counts include both. These are storage/taxonomic categories, not confidence levels.
+Every exact taxid remains in counts.tsv, and bin-counts.tsv lists the taxids sharing each physical file stem.
+Human candidates require independent alignment validation. A disabled human screen is not a negative test.</div>
+<h2>Sample counts</h2><div class="scroll"><table><thead><tr><th>Sample</th><th>Pairs / fragments</th><th>Unclassified</th><th>Above species</th><th>Species assigned</th><th>Cross-group ancestor</th><th>Kraken human candidates</th><th>Human candidate fraction</th></tr></thead><tbody><tr><td>Wxiamen/SRR39271681</td><td>2,568,035</td><td>45.013989%</td><td>35.435732%</td><td>19.550279%</td><td>2.848442%</td><td>204</td><td>0.007944%</td></tr><tr><td>Wxiamen/SRR39271682</td><td>1,963,353</td><td>40.757215%</td><td>31.900835%</td><td>27.341950%</td><td>5.603628%</td><td>25</td><td>0.001273%</td></tr><tr><td>Wxiamen/SRR39271683</td><td>702,815</td><td>50.659846%</td><td>25.675889%</td><td>23.664264%</td><td>2.426243%</td><td>184</td><td>0.026180%</td></tr><tr><td>Wxiamen/SRR39271684</td><td>1,209,887</td><td>57.753410%</td><td>29.888080%</td><td>12.358510%</td><td>1.935057%</td><td>73</td><td>0.006034%</td></tr><tr><td>Wxiamen/SRR39271685</td><td>1,318,821</td><td>61.036411%</td><td>26.781117%</td><td>12.182472%</td><td>2.167390%</td><td>42</td><td>0.003185%</td></tr><tr><td>Wxiamen/SRR39271686</td><td>1,057,648</td><td>58.282623%</td><td>25.442208%</td><td>16.275169%</td><td>2.340193%</td><td>48</td><td>0.004538%</td></tr><tr><td>Wxiamen/SRR39271687</td><td>2,191,880</td><td>66.441502%</td><td>19.719875%</td><td>13.838623%</td><td>2.787835%</td><td>72</td><td>0.003285%</td></tr><tr><td>Wxiamen/SRR39271688</td><td>1,912,572</td><td>65.908944%</td><td>21.558770%</td><td>12.532286%</td><td>2.330004%</td><td>159</td><td>0.008313%</td></tr><tr><td>Wxiamen/SRR39271689</td><td>1,801,117</td><td>65.232520%</td><td>20.648853%</td><td>14.118627%</td><td>2.753069%</td><td>81</td><td>0.004497%</td></tr><tr><td>Wxiamen/SRR39271690</td><td>1,543,277</td><td>65.386318%</td><td>23.146266%</td><td>11.467416%</td><td>2.365745%</td><td>63</td><td>0.004082%</td></tr></tbody></table></div>
+<h2>Completeness</h2><ul><li>All requested samples passed completion metadata, artifact sizes and count conservation.</li></ul>
+<p>Verification does not reread or rehash large FASTQs. Read assignment fractions are not cell or organism abundances.</p>
+<p>Exact tables: <a href="samples.tsv">samples.tsv</a>, <a href="statuses.tsv">statuses.tsv</a>,
+<a href="groups.tsv">groups.tsv</a>, <a href="species-by-sample.tsv">species-by-sample.tsv</a>,
+<a href="sample-status.tsv">sample-status.tsv</a>.</p></html>

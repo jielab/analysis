@@ -1,0 +1,81 @@
+{
+  "chromosome_subset": "all_autosomes",
+  "endpoint": "ldl",
+  "files": {
+    "/work/sph-huangj/analysis/grid/csx/ldl/targetfit/_LOCAL_ONLY/final_prs.tsv.gz": "file:37413822",
+    "/work/sph-huangj/analysis/grid/csx/ldl/targetfit/_LOCAL_ONLY/frozen_models.json": "file:5106",
+    "/work/sph-huangj/analysis/grid/csx/ldl/targetfit/_LOCAL_ONLY/roles.tsv.gz": "file:3737084",
+    "/work/sph-huangj/analysis/grid/csx/ldl/targetfit/_LOCAL_ONLY/test_truth.tsv.gz": "file:1457823",
+    "/work/sph-huangj/analysis/grid/csx/ldl/targetfit/coefficients.tsv": "file:972",
+    "/work/sph-huangj/analysis/grid/csx/ldl/targetfit/performance.tsv": "file:1867",
+    "/work/sph-huangj/analysis/grid/qc/benchmarks/_LOCAL_ONLY/small_validation_roster.tsv.gz": "file:3737109",
+    "/work/sph-huangj/analysis/grid/tmp/prsformer/cache/data.tsv.gz": "file:10556557",
+    "/work/sph-huangj/data/gen/ukb/pgs/ldl/1csx.scores.rds": "file:45283745"
+  },
+  "implementation_file_record": "file:20257",
+  "metadata": {
+    "endpoint_definition": "ldl",
+    "group_verification": {
+      "N_components": 401011,
+      "N_genotype_ids": 488377,
+      "component_rule": "all supplied UKB relationship edges; no additional threshold",
+      "files": {
+        "/work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/raw_family_components.tsv.gz": "file:3022078",
+        "/work/sph-huangj/data/gen/ukb/37/typ/ukb_rel.dat": "file:3804034"
+      },
+      "mapping": "/work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/raw_family_components.tsv.gz",
+      "schema": "grid.shared_family_components.1",
+      "source": "/work/sph-huangj/data/gen/ukb/37/typ/ukb_rel.dat",
+      "split_uses_outcome_values": false
+    },
+    "grouping_status": "verified_from_kinship_components",
+    "groups_verified": true,
+    "original_test_N": 243372,
+    "phenotype_definitions": {
+      "height": {
+        "source_column": "height"
+      },
+      "ldl": {
+        "source_column": "ldl"
+      },
+      "t2dm": {
+        "endpoint": "baseline_0_1",
+        "source_columns": [
+          "t2dm.Yr2e",
+          "t2dm.Yt2e"
+        ]
+      }
+    },
+    "source": "/work/sph-huangj/analysis/grid/tmp/prsformer/cache/data.tsv.gz",
+    "source_file_record": "file:10556557"
+  },
+  "method": "csx",
+  "model_labels": {
+    "auto": "PRS-CSx-auto + target calibration",
+    "meta": "PRS-CSx-meta + target calibration",
+    "populations": "PRS-CSx validation combination"
+  },
+  "models": [
+    "populations",
+    "auto",
+    "meta"
+  ],
+  "predictions_file": "/work/sph-huangj/analysis/grid/csx/ldl/targetfit/_LOCAL_ONLY/final_prs.tsv.gz",
+  "roster": {
+    "actual_validation_N": 5000,
+    "assignment": "outcome_blind_sha256_whole_groups",
+    "path": "/work/sph-huangj/analysis/grid/qc/benchmarks/_LOCAL_ONLY/small_validation_roster.tsv.gz",
+    "roster_sha256": "ff014d7442e3965ed57733e43050e93184b7fdba423cf6144d021ad6f2382218",
+    "schema": "grid.small_validation.1",
+    "seed": 20261102,
+    "test_N": 243372,
+    "validation_n": 5000
+  },
+  "schema": "grid.target_benchmark.1",
+  "scores": "/work/sph-huangj/data/gen/ukb/pgs/ldl/1csx.scores.rds",
+  "status": "completed",
+  "task": "continuous",
+  "test_labels_used_only_after_prediction_freeze": true,
+  "test_truth_file": "/work/sph-huangj/analysis/grid/csx/ldl/targetfit/_LOCAL_ONLY/test_truth.tsv.gz",
+  "trait": "ldl"
+}

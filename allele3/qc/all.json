@@ -1,0 +1,46 @@
+{
+  "status": "failed",
+  "steps": [
+    {
+      "name": "environment",
+      "status": "complete",
+      "started": 1794641667.3583007,
+      "returncode": 0,
+      "finished": 1794641696.196423
+    },
+    {
+      "name": "hotspots",
+      "status": "failed",
+      "started": 1794641696.1972284,
+      "returncode": 1,
+      "finished": 1794643710.2951868
+    },
+    {
+      "name": "density",
+      "status": "blocked",
+      "blocked_by": "hotspots"
+    },
+    {
+      "name": "herv_enrichment",
+      "status": "blocked",
+      "blocked_by": "hotspots"
+    },
+    {
+      "name": "allele_time",
+      "status": "blocked",
+      "blocked_by": "hotspots"
+    },
+    {
+      "name": "space",
+      "status": "blocked",
+      "blocked_by": "hotspots"
+    },
+    {
+      "name": "base_simulation",
+      "status": "blocked",
+      "blocked_by": "hotspots"
+    }
+  ],
+  "started": 1794641667.3349833,
+  "finished": 1794643710.2952042
+}

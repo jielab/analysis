@@ -1,0 +1,12 @@
+{
+  "chromosome": 16,
+  "iteration": 4000,
+  "iterations": 4000,
+  "retained_draws": 400,
+  "elapsed_seconds": 580.8831493929029,
+  "requested_backend": "cpu",
+  "backend": "cpu",
+  "cpu_block_calls": 900000,
+  "cuda_block_calls": 0,
+  "updated_at": "2026-11-13T00:35:39+0800"
+}

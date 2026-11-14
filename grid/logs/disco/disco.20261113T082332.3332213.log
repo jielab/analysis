@@ -1,0 +1,15 @@
+[disco] work directory: /work/sph-huangj/analysis/grid/tmp/disco
+[disco] command file: /work/sph-huangj/analysis/grid/jobs/disco/disco.20261113T082332.3332213.sh
+[disco] log file: /work/sph-huangj/analysis/grid/logs/disco/disco.20261113T082332.3332213.log
+input PCA: /work/sph-huangj/data/gen/ukb/pca_proj/ukb.discodivas.pca.tsv.gz
+input reference centers: /work/sph-huangj/files/DiscoDivas/med.g1000.4pop.tsv
+input score file: /work/sph-huangj/data/gen/ukb/pgs/height/1csx.scores.rds
+output score files: /work/sph-huangj/data/gen/ukb/pgs/height/2disco.scores.rds; /work/sph-huangj/data/gen/ukb/pgs/height/2disco.coefficients.xlsx
+Disco R runtime: /work/sph-huangj/.conda/envs/grid/bin/Rscript
+Disco withdrawn filter: excluded=0; retained=488130
+Disco sample filter: scored=488130; missing PCA=968; retained=487162
+Disco aligned samples: 487162; distance PCs: 10
+[GRID data] Reading table with R: 2disco.scores.rds
+[disco] height: fitted N=5000; untouched test N=243372; /work/sph-huangj/analysis/grid/disco/height/performance.tsv
+DONE height: /work/sph-huangj/data/gen/ukb/pgs/height/2disco.scores.rds
+REPORT disco height /work/sph-huangj/analysis/grid/disco/height/ 

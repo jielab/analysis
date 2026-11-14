@@ -1,0 +1,40 @@
+{
+  "artifacts": {
+    "_LOCAL_ONLY/calibration.truth.tsv.gz": 257146,
+    "_LOCAL_ONLY/calibration.tsv.gz": 322529,
+    "_LOCAL_ONLY/calibration.z.npy": 2785140864,
+    "_LOCAL_ONLY/donor.tsv.gz": 1613579,
+    "_LOCAL_ONLY/donor.z.npy": 11137810560,
+    "_LOCAL_ONLY/test.truth.tsv.gz": 1284983,
+    "_LOCAL_ONLY/test.tsv.gz": 1615200,
+    "_LOCAL_ONLY/test.z.npy": 13955924096,
+    "features.tsv": 463998,
+    "geometry.json": 772429,
+    "geometry_model.json": 3367
+  },
+  "details": {
+    "lineage": {
+      "calibration": {
+        "groups": 40003,
+        "n": 48569,
+        "ordered_ids_sha256": "c53b5e8c023d8b548d83aa7c82f0365e7991932e6ecb9087a596b7bb7e001928"
+      },
+      "donor": {
+        "groups": 159241,
+        "n": 194228,
+        "ordered_ids_sha256": "721757160643e05be8061cb69d2fcfab18f0344b6b4fc124c5168817b21ca4b1"
+      },
+      "test": {
+        "groups": 199713,
+        "n": 243372,
+        "ordered_ids_sha256": "657f63244c9625914f2c765f3048c0dc840ca5053a6ac91cbfd8e1c39273cd3f"
+      }
+    },
+    "task": "continuous",
+    "trait": "height"
+  },
+  "schema_version": "grid.abm.1",
+  "stage": "geometry",
+  "status": "complete",
+  "version": "20261112.1"
+}

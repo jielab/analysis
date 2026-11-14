@@ -1,0 +1,1234 @@
+{
+  "status": "failed",
+  "request_signature": "38da9f6db55f7b3773d57dcdab9f4a939c86a92380b13b998a3ce949cd22c2ca",
+  "request": {
+    "version": "allele3-FINAL-7.0.0",
+    "parameters": {
+      "scan_dir": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work",
+      "summary": null,
+      "build": "GRCh38",
+      "window_sizes": "1000000",
+      "step_bp": 1000000,
+      "thresholds": "5,10",
+      "primary_threshold": 5,
+      "min_sites": 500,
+      "min_observed": 25,
+      "min_expected": 10.0,
+      "min_support": 0.99,
+      "min_training_sites": 100,
+      "min_calibration_windows": 50,
+      "min_oe": 2.0,
+      "fdr": 0.05,
+      "exclude_bed": [],
+      "annotation_bed": [],
+      "characterize_window_bp": null,
+      "covariates": null,
+      "match_columns": "n_eligible",
+      "controls_per_case": 2,
+      "max_match_distance": 1.0,
+      "control_gap_bp": 0,
+      "site_table": [],
+      "site_sampling": "selected_multialt_candidates",
+      "sites_per_window": 25,
+      "max_targets": 5000,
+      "seed": 20261106,
+      "with_atlas": "TRUE",
+      "atlas_resources": "/work/sph-huangj/scripts/allele3/config/alphagenome_resources.vcf.tsv",
+      "atlas_source_version": null,
+      "dir_data": "/work/sph-huangj/data",
+      "atlas_variants": null,
+      "atlas_metrics": null,
+      "atlas_targets": null,
+      "with_selection": "auto",
+      "selection_stats": "/work/sph-huangj/data/gen/ancient/Selection_Summary_Statistics_01OCT2025.tsv.gz",
+      "selection_effect_allele": "raw_only",
+      "fasta38": "/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz",
+      "fasta37": "/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz",
+      "chain38to37": "/work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz",
+      "chain37to38": "/work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz"
+    },
+    "inputs": [
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/run.json",
+        "size": 16326,
+        "mtime_ns": 1794639435395029000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr1/COMPLETE.json",
+        "size": 5346,
+        "mtime_ns": 1794513205228108000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr1/multiallelic_sites.tsv.gz",
+        "size": 149864391,
+        "mtime_ns": 1794513204628167114,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr1/scan.json",
+        "size": 1535,
+        "mtime_ns": 1794513204719496732,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr1/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794513204580398273,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr1/strata.tsv.gz",
+        "size": 10320184,
+        "mtime_ns": 1794513204632043990,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr10/COMPLETE.json",
+        "size": 5396,
+        "mtime_ns": 1794572760434714000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr10/multiallelic_sites.tsv.gz",
+        "size": 96417874,
+        "mtime_ns": 1794572759953412485,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr10/scan.json",
+        "size": 1574,
+        "mtime_ns": 1794572759960783275,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr10/scan_scope.tsv",
+        "size": 33,
+        "mtime_ns": 1794572759907861135,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr10/strata.tsv.gz",
+        "size": 6191602,
+        "mtime_ns": 1794572759955393554,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr11/COMPLETE.json",
+        "size": 5357,
+        "mtime_ns": 1794582326805440000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr11/multiallelic_sites.tsv.gz",
+        "size": 97785872,
+        "mtime_ns": 1794582326249328849,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr11/scan.json",
+        "size": 1535,
+        "mtime_ns": 1794582326255395365,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr11/scan_scope.tsv",
+        "size": 33,
+        "mtime_ns": 1794582326214785764,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr11/strata.tsv.gz",
+        "size": 6006799,
+        "mtime_ns": 1794582326251645617,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr12/COMPLETE.json",
+        "size": 5394,
+        "mtime_ns": 1794584167054428000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr12/multiallelic_sites.tsv.gz",
+        "size": 89298736,
+        "mtime_ns": 1794584166161415456,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr12/scan.json",
+        "size": 1572,
+        "mtime_ns": 1794584166169064603,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr12/scan_scope.tsv",
+        "size": 33,
+        "mtime_ns": 1794584166138599717,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr12/strata.tsv.gz",
+        "size": 5959259,
+        "mtime_ns": 1794584166163460851,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr13/COMPLETE.json",
+        "size": 5394,
+        "mtime_ns": 1794590824714450000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr13/multiallelic_sites.tsv.gz",
+        "size": 65855193,
+        "mtime_ns": 1794590824066327364,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr13/scan.json",
+        "size": 1572,
+        "mtime_ns": 1794590824073404022,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr13/scan_scope.tsv",
+        "size": 33,
+        "mtime_ns": 1794590823968397757,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr13/strata.tsv.gz",
+        "size": 4352222,
+        "mtime_ns": 1794590824068061169,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr14/COMPLETE.json",
+        "size": 5356,
+        "mtime_ns": 1794591928122375000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr14/multiallelic_sites.tsv.gz",
+        "size": 61581565,
+        "mtime_ns": 1794591927507644314,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr14/scan.json",
+        "size": 1534,
+        "mtime_ns": 1794591927514995951,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr14/scan_scope.tsv",
+        "size": 33,
+        "mtime_ns": 1794591927443523070,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr14/strata.tsv.gz",
+        "size": 4029582,
+        "mtime_ns": 1794591927508955951,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr15/COMPLETE.json",
+        "size": 5356,
+        "mtime_ns": 1794597756418421000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr15/multiallelic_sites.tsv.gz",
+        "size": 57654878,
+        "mtime_ns": 1794597755936078609,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr15/scan.json",
+        "size": 1534,
+        "mtime_ns": 1794597755943417939,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr15/scan_scope.tsv",
+        "size": 33,
+        "mtime_ns": 1794597755820169240,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr15/strata.tsv.gz",
+        "size": 3911140,
+        "mtime_ns": 1794597755937861182,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr16/COMPLETE.json",
+        "size": 5394,
+        "mtime_ns": 1794599881290931000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr16/multiallelic_sites.tsv.gz",
+        "size": 81387805,
+        "mtime_ns": 1794599880909895563,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr16/scan.json",
+        "size": 1572,
+        "mtime_ns": 1794599880916817897,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr16/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794599880855410269,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr16/strata.tsv.gz",
+        "size": 4049013,
+        "mtime_ns": 1794599880911478740,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr17/COMPLETE.json",
+        "size": 5394,
+        "mtime_ns": 1794604309852004000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr17/multiallelic_sites.tsv.gz",
+        "size": 55973862,
+        "mtime_ns": 1794604309397483550,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr17/scan.json",
+        "size": 1572,
+        "mtime_ns": 1794604309403770525,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr17/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794604309388418877,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr17/strata.tsv.gz",
+        "size": 3897522,
+        "mtime_ns": 1794604309399610106,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr18/COMPLETE.json",
+        "size": 5394,
+        "mtime_ns": 1794606539091150000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr18/multiallelic_sites.tsv.gz",
+        "size": 52047015,
+        "mtime_ns": 1794606538704348374,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr18/scan.json",
+        "size": 1572,
+        "mtime_ns": 1794606538710923565,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr18/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794606538685174333,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr18/strata.tsv.gz",
+        "size": 3416644,
+        "mtime_ns": 1794606538705604749,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr19/COMPLETE.json",
+        "size": 5353,
+        "mtime_ns": 1794609538894129000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr19/multiallelic_sites.tsv.gz",
+        "size": 47104092,
+        "mtime_ns": 1794609538481457059,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr19/scan.json",
+        "size": 1532,
+        "mtime_ns": 1794609538487282210,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr19/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794609538446797555,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr19/strata.tsv.gz",
+        "size": 2982414,
+        "mtime_ns": 1794609538483206325,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr2/COMPLETE.json",
+        "size": 5383,
+        "mtime_ns": 1794515257144745000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr2/multiallelic_sites.tsv.gz",
+        "size": 169299462,
+        "mtime_ns": 1794515256704348845,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr2/scan.json",
+        "size": 1572,
+        "mtime_ns": 1794515256711773733,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr2/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794515256648988573,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr2/strata.tsv.gz",
+        "size": 10728004,
+        "mtime_ns": 1794515256707324046,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr20/COMPLETE.json",
+        "size": 5353,
+        "mtime_ns": 1794611934555126000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr20/multiallelic_sites.tsv.gz",
+        "size": 43323227,
+        "mtime_ns": 1794611934055102758,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr20/scan.json",
+        "size": 1532,
+        "mtime_ns": 1794611934060447039,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr20/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794611934038245512,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr20/strata.tsv.gz",
+        "size": 2844803,
+        "mtime_ns": 1794611934056436110,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr21/COMPLETE.json",
+        "size": 5386,
+        "mtime_ns": 1794612870399163000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr21/multiallelic_sites.tsv.gz",
+        "size": 27186710,
+        "mtime_ns": 1794612870022932725,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr21/scan.json",
+        "size": 1565,
+        "mtime_ns": 1794612870064580493,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr21/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794612869993041954,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr21/strata.tsv.gz",
+        "size": 1957543,
+        "mtime_ns": 1794612870024355755,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr22/COMPLETE.json",
+        "size": 5386,
+        "mtime_ns": 1794615264732487000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr22/multiallelic_sites.tsv.gz",
+        "size": 30264900,
+        "mtime_ns": 1794615264651641246,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr22/scan.json",
+        "size": 1565,
+        "mtime_ns": 1794615264658782952,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr22/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794615264642394711,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr22/strata.tsv.gz",
+        "size": 2039892,
+        "mtime_ns": 1794615264653151608,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr3/COMPLETE.json",
+        "size": 5382,
+        "mtime_ns": 1794530536271443000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr3/multiallelic_sites.tsv.gz",
+        "size": 138606049,
+        "mtime_ns": 1794530535769580529,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr3/scan.json",
+        "size": 1573,
+        "mtime_ns": 1794530535776699543,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr3/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794530535723897274,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr3/strata.tsv.gz",
+        "size": 8615624,
+        "mtime_ns": 1794530535772767078,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr4/COMPLETE.json",
+        "size": 5343,
+        "mtime_ns": 1794532487266947000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr4/multiallelic_sites.tsv.gz",
+        "size": 138073178,
+        "mtime_ns": 1794532486817100126,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr4/scan.json",
+        "size": 1534,
+        "mtime_ns": 1794532486824824617,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr4/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794532486747224335,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr4/strata.tsv.gz",
+        "size": 8552717,
+        "mtime_ns": 1794532486819389468,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr5/COMPLETE.json",
+        "size": 5342,
+        "mtime_ns": 1794546237625866000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr5/multiallelic_sites.tsv.gz",
+        "size": 125645589,
+        "mtime_ns": 1794546237184803080,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr5/scan.json",
+        "size": 1533,
+        "mtime_ns": 1794546237192843728,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr5/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794546237087072685,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr5/strata.tsv.gz",
+        "size": 7841723,
+        "mtime_ns": 1794546237187574852,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr6/COMPLETE.json",
+        "size": 5380,
+        "mtime_ns": 1794547414998353000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr6/multiallelic_sites.tsv.gz",
+        "size": 115290198,
+        "mtime_ns": 1794547414530633121,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr6/scan.json",
+        "size": 1571,
+        "mtime_ns": 1794547414537128851,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr6/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794547414496231386,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr6/strata.tsv.gz",
+        "size": 7571918,
+        "mtime_ns": 1794547414532772667,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr7/COMPLETE.json",
+        "size": 5342,
+        "mtime_ns": 1794560008742508000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr7/multiallelic_sites.tsv.gz",
+        "size": 115123228,
+        "mtime_ns": 1794560008292260224,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr7/scan.json",
+        "size": 1533,
+        "mtime_ns": 1794560008312594479,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr7/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794560008253463278,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr7/strata.tsv.gz",
+        "size": 7315711,
+        "mtime_ns": 1794560008295084888,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr8/COMPLETE.json",
+        "size": 5343,
+        "mtime_ns": 1794561128398766000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr8/multiallelic_sites.tsv.gz",
+        "size": 122438698,
+        "mtime_ns": 1794561127931779136,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr8/scan.json",
+        "size": 1534,
+        "mtime_ns": 1794561127950533265,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr8/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794561127876247597,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr8/strata.tsv.gz",
+        "size": 6533198,
+        "mtime_ns": 1794561127933517024,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr9/COMPLETE.json",
+        "size": 5379,
+        "mtime_ns": 1794570723642129000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr9/multiallelic_sites.tsv.gz",
+        "size": 94001999,
+        "mtime_ns": 1794570723040063806,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr9/scan.json",
+        "size": 1571,
+        "mtime_ns": 1794570723059470878,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr9/scan_scope.tsv",
+        "size": 32,
+        "mtime_ns": 1794570723008486102,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/analysis/allele3/tmp/gnomad_scan/work/shards/chr9/strata.tsv.gz",
+        "size": 5729734,
+        "mtime_ns": 1794570723042293914,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr1.vcf.bgz",
+        "size": 39742615316,
+        "mtime_ns": 1794043927803638585,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr1.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr1.vcf.bgz.tbi",
+        "size": 223782,
+        "mtime_ns": 1794044721191314000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr10.vcf.bgz",
+        "size": 22901685317,
+        "mtime_ns": 1794056110057144283,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr10.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr10.vcf.bgz.tbi",
+        "size": 129010,
+        "mtime_ns": 1794056573018974000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr11.vcf.bgz",
+        "size": 23114204758,
+        "mtime_ns": 1794056124541291191,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr11.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr11.vcf.bgz.tbi",
+        "size": 130359,
+        "mtime_ns": 1794056585857568000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr12.vcf.bgz",
+        "size": 23038984579,
+        "mtime_ns": 1794058091159769209,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr12.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr12.vcf.bgz.tbi",
+        "size": 128843,
+        "mtime_ns": 1794058537115363000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr13.vcf.bgz",
+        "size": 16426838950,
+        "mtime_ns": 1794056682121803915,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr13.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr13.vcf.bgz.tbi",
+        "size": 94233,
+        "mtime_ns": 1794057006418383000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr14.vcf.bgz",
+        "size": 15534246478,
+        "mtime_ns": 1794056599486827926,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr14.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr14.vcf.bgz.tbi",
+        "size": 87369,
+        "mtime_ns": 1794056911050200000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr15.vcf.bgz",
+        "size": 14642318177,
+        "mtime_ns": 1794056307617637439,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr15.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr15.vcf.bgz.tbi",
+        "size": 82083,
+        "mtime_ns": 1794056590960612000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr16.vcf.bgz",
+        "size": 14024811187,
+        "mtime_ns": 1794056220213495335,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr16.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr16.vcf.bgz.tbi",
+        "size": 79937,
+        "mtime_ns": 1794056493154997000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr17.vcf.bgz",
+        "size": 14350215862,
+        "mtime_ns": 1794056245829231471,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr17.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr17.vcf.bgz.tbi",
+        "size": 80900,
+        "mtime_ns": 1794056523605909000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr18.vcf.bgz",
+        "size": 13396526080,
+        "mtime_ns": 1794056131297652172,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr18.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr18.vcf.bgz.tbi",
+        "size": 78068,
+        "mtime_ns": 1794056396790732000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr19.vcf.bgz",
+        "size": 10039533374,
+        "mtime_ns": 1794055780438452052,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr19.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr19.vcf.bgz.tbi",
+        "size": 55929,
+        "mtime_ns": 1794055976858128000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr2.vcf.bgz",
+        "size": 41195266240,
+        "mtime_ns": 1794044168747286436,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr2.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr2.vcf.bgz.tbi",
+        "size": 233483,
+        "mtime_ns": 1794044968845246000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr20.vcf.bgz",
+        "size": 10865889137,
+        "mtime_ns": 1794055677571546127,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr20.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr20.vcf.bgz.tbi",
+        "size": 61505,
+        "mtime_ns": 1794055889789267000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr21.vcf.bgz",
+        "size": 6654356175,
+        "mtime_ns": 1794054883187836671,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr21.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr21.vcf.bgz.tbi",
+        "size": 39497,
+        "mtime_ns": 1794055015907839000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr22.vcf.bgz",
+        "size": 6646111243,
+        "mtime_ns": 1794054881049800030,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr22.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr22.vcf.bgz.tbi",
+        "size": 38509,
+        "mtime_ns": 1794055010795166000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr3.vcf.bgz",
+        "size": 34296846815,
+        "mtime_ns": 1794043379456198740,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr3.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr3.vcf.bgz.tbi",
+        "size": 192586,
+        "mtime_ns": 1794044039968669000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr4.vcf.bgz",
+        "size": 32132148751,
+        "mtime_ns": 1794043207961895979,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr4.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr4.vcf.bgz.tbi",
+        "size": 184096,
+        "mtime_ns": 1794043855771512000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr5.vcf.bgz",
+        "size": 30734942779,
+        "mtime_ns": 1794043066925656243,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr5.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr5.vcf.bgz.tbi",
+        "size": 175609,
+        "mtime_ns": 1794043668700023000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr6.vcf.bgz",
+        "size": 29031037592,
+        "mtime_ns": 1794042872761210366,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr6.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr6.vcf.bgz.tbi",
+        "size": 164948,
+        "mtime_ns": 1794043434767417000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr7.vcf.bgz",
+        "size": 27323231122,
+        "mtime_ns": 1794056626806427230,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr7.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr7.vcf.bgz.tbi",
+        "size": 154748,
+        "mtime_ns": 1794057158579202000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr8.vcf.bgz",
+        "size": 24598319518,
+        "mtime_ns": 1794056261007720560,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr8.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr8.vcf.bgz.tbi",
+        "size": 140738,
+        "mtime_ns": 1794056743341904000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr9.vcf.bgz",
+        "size": 20769109154,
+        "mtime_ns": 1794055858206908460,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr9.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chr9.vcf.bgz.tbi",
+        "size": 118843,
+        "mtime_ns": 1794056263385913000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chrM.vcf.bgz",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chrM.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chrM.vcf.bgz.tbi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chrX.vcf.bgz",
+        "size": 26009068124,
+        "mtime_ns": 1794058225849280381,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chrX.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chrX.vcf.bgz.tbi",
+        "size": 150623,
+        "mtime_ns": 1794058746607783000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chrY.vcf.bgz",
+        "size": 4165825236,
+        "mtime_ns": 1794054417500494580,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chrY.vcf.bgz.csi",
+        "status": "missing"
+      },
+      {
+        "path": "/work/sph-huangj/data/annot/allele3/alphagenome/38/chrY.vcf.bgz.tbi",
+        "size": 20429,
+        "mtime_ns": 1794054506085616000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz",
+        "size": 787384761,
+        "mtime_ns": 1790987539000000000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz.fai",
+        "size": 2746,
+        "mtime_ns": 1790987559000000000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz.gzi",
+        "size": 773032,
+        "mtime_ns": 1790987559000000000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz",
+        "size": 791434568,
+        "mtime_ns": 1790987589000000000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz.fai",
+        "size": 7804,
+        "mtime_ns": 1790987609000000000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz.gzi",
+        "size": 771016,
+        "mtime_ns": 1790987609000000000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/data/gen/ancient/Selection_Summary_Statistics_01OCT2025.tsv.gz",
+        "size": 674584607,
+        "mtime_ns": 1778806680000000000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz",
+        "size": 227720,
+        "mtime_ns": 1601393938000000000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz",
+        "size": 1246411,
+        "mtime_ns": 1632982174000000000,
+        "verification": "size_mtime_only"
+      },
+      {
+        "path": "/work/sph-huangj/scripts/allele3/config/alphagenome_resources.vcf.tsv",
+        "size": 4158,
+        "mtime_ns": 1794483456000000000,
+        "verification": "size_mtime_only"
+      }
+    ],
+    "code": {
+      "allele3.sh": "aeefd02079b41ac06da38247966b3194526724426e07a3682c3b05f3208fa7cb",
+      "1.pca3D.sh": "40335c20a60026f6a26797912e2044ca293f1b8d3d464d568db62a3a2cd5fd48",
+      "2.herv_census.sh": "399bee3f282d9f8b0d445d534a9dcf1f6a60d2c02517edc9cb4f2ab793e17a7f",
+      "3.gnomad_scan.sh": "2268e0369e67f78286fc0644f51bd3df19f2e847150772fd2d406a56d630ecb4",
+      "install.sh": "ef669e00489944a26b9b294ae77f92621142ebfb2371dd07e6f17ed46ac09c57",
+      "allele3.env": "3853d8c16d7f86d3cec14b7ac23d04525f508bcab90d62966fca0af40c2d4aef",
+      "f/0.common.py": "218e9ad02c25dfc2134c77bf2301d47ba726a851e8aa02e72588f130d1058cc2",
+      "f/0.execution.sh": "002ebc77dbb59039c000203c44cb6a153794bad0a351fa41708aa29444db3572",
+      "f/0.run.sh": "38f1f589befc03332d16bfc8f8e841dd38849b190d638f5640eb1acc7dbf3ac8",
+      "f/all_workflow.py": "e0e88ce2e73eda050997f423f6dd8c70d8cf771b84eafce260522ed52932f7d9",
+      "f/allele3_bsub.sh": "b32a89ad97ccf23407b93609686de2c665779dff510702bdb56944d8d9964e25",
+      "f/allele_density.py": "ffc11926f2248734b12012d93dc6c37ab9bdf3ebf180805e8d11c03f9998058a",
+      "f/allele_functional.py": "8b280421f952101d2b4a3c945a88b7dc9491bedafbd6f230b1bc13ed8df1af17",
+      "f/allele_measurement.py": "5623afe84e6fc8a510ac72e0a2bb2d61e1ee9a686416885b42ecfec7c1a81f82",
+      "f/allele_opportunity.py": "35ee7b499b69fbc56cbf08707581f90a2efaec10d263cbfb6cb28c62853c8b44",
+      "f/allele_space.py": "2a5cb6770f09a07d14e6ce6f28824dd1df00795c5b3f333e622d94dee36740ce",
+      "f/allofus_shards.py": "825a663495ba56faef693529bb76a3d12ffcab288fd943ed6a4035aaf4e5d41f",
+      "f/allofus_sites.py": "83540a01b2010c586ae32d92194aee458073913fa9f9fe0cf74b67ce484c7eab",
+      "f/analysis_integrity.py": "cddf24f2d139ff2ac725a597a8184d5a5cf8d462cb841601956d7c7c83e040bc",
+      "f/archaic_alleles.py": "25de1a05bc5a60bc7ed7cf70b87184a75eec4efdfb629e2a5e03ce7bab259396",
+      "f/atlas_scores.py": "765be74de764395f32f90067b1c2050cbad9eea1e1f94f250fcb5efd0d6f5beb",
+      "f/base_occupancy.py": "f2fa046ac7470f030670140156a7dd62964d5ba470fddd415a331e049b473a75",
+      "f/base_simulation.py": "8ac5d3da167ab196491db33168d6b55f98cc74fbcfe05c82c9a163ed6a83a1bb",
+      "f/batch_runner.py": "5c63c4328fdc778a357712c7cb82be94746e1c6ed2d85854b25e0767e61b214b",
+      "f/batch_workflows.py": "f23ad2a6798c2a25b4d8acd027211e474606b180d9fe6267a2baefc257740487",
+      "f/burden.py": "77b19fc96327379f7c50a6ab2980ccaefba669ef9e93f214948e6a5bc73ee3e6",
+      "f/burden_plan.py": "686b76924029c630792837aaa83723b694675ca0f3a19ddb0fa9aef14d5ebab9",
+      "f/census.py": "27f4ddf0fd59dbd4e03ac468bc9d513d58f09cebbd646d8d073d549904219e2c",
+      "f/chronology.py": "4f7b1cebdb2ca28e811ca79cef54e96b6a2ecff7f1a35098681cf6ff0e1fd824",
+      "f/console.py": "e5835446b3de6fe5af20eea1893ab67b9bbd9c4af1ab527f7bc47df60ad5882c",
+      "f/data_sources.py": "ad98b9e9cad82dd51565b2144dde63f2aa4a406d1b860d6b6a894a03de736bf0",
+      "f/evolve.py": "46fb006683fa0d5708cc26f45b4d311c5c79611d86bac9c2b6eb4af0c7cccd12",
+      "f/genome_windows.py": "1447c388e02f4a178a8ba8ba725391337bd1a9c6a529e81f356aebcdd646ec9a",
+      "f/herv.py": "e4d946472ba17f2b73ab5e7781078cd7ade3b16f876e98fbdb85a5a5e2d5c732",
+      "f/hotspot_pipeline.py": "8a6dc83fef859b60109437675e17f81d6235772e2effc00f8e5dd6a0d005a3a3",
+      "f/joint_counts.py": "99cf8f204f688d984c02fc3e0b718058b2bc8bfcec8e983fb5d4c94d2da2cda3",
+      "f/panel_targets.py": "666fd4d0358b04a21b675eb3330d73406c2708e82be12701334ad30422d67a71",
+      "f/pca.py": "5968b99e6a5fe939edf8c471ea9d4fdcd0dc8ce417bc24cf139e645bd06252e2",
+      "f/pca_explorer.html": "8107e906f9aee1727b16ee58f498014d4e05caa5012cc747278ebe854147fec1",
+      "f/pca_explorer.js": "0ea47a40c8397f50c42657c878a4e6e7d4eb7eb4a884530dd659ed14c3e5528a",
+      "f/pca_plot.py": "4e1a0695437673823b0b4a0a48ca3aa51c807a77f2f95596a2bd1de36d59fadd",
+      "f/report.py": "46726b18c1268423956a5634ea555b311afd328aeb8aa3558c6355bec9f00513",
+      "f/scan.py": "642a76f331ac763d442ebf78c51b788c3804706613419672556c62558ede4de9",
+      "f/scan_annotations.sh": "2b31b491f8385149375d86a2be3df016bbc4e140abe193ecc19e6407a5c08d74",
+      "f/scan_store.py": "1d88069e1312af81c5598d6bc81575d4f95488e62324114747997514ffae5225",
+      "f/study_summary.py": "da4ed683cbe2e76096469965fa3ed12dbe1cb6c636c748999e555eebcc2ebf85",
+      "f/ukb_mfi.py": "7c6ef7bbdfcb9ce884d73cd21c3e8459670d395f63149d50d199ad80a861a464",
+      "f/usage.sh": "eeb0dd69dcb98408f8afe297001803463d5061851ab0490fc69acd9672604c58",
+      "f/workflow_data_check.py": "1dc1439e8e9de38e8daffa089c77f6eb8895450827ab54ac947bb6e1d2942a91",
+      "config/alphagenome_resources.all3.tsv": "cc247a0ba3debc9fe91e496a6c071a3bdbb30a863a912108e89911cd26e43813",
+      "config/alphagenome_resources.tsv": "9bdc48389cca26d8f934b41bacb5bb722046f0af9327c54f95e5e007e605204f",
+      "config/alphagenome_resources.uploaded.tsv": "ae50826a468eb60c7ac6e661ea7f092b5fa32260fc4867a93170d06bd1765cbf",
+      "config/alphagenome_resources.vcf.tsv": "da186a1126eef72962e23a02d7307e9db9a46c38cd80e584ebcdd7ff813072da",
+      "config/data_sources.tsv": "0b67d401599275e50aa01d19909174958c65d22faca57366f859b8f6be932db6"
+    }
+  },
+  "started_utc": "2026-11-14T07:35:10.709021+00:00",
+  "error": "Scientific source files or code changed during the pipeline",
+  "recovery": "Completed child stages are preserved. Rerun the same command to resume; changed inputs/settings/code require a new output."
+}

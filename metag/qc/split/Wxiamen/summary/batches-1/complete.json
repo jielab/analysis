@@ -1,0 +1,13 @@
+{
+  "files": {
+    "groups.tsv": 13568,
+    "report.html": 3875,
+    "sample-status.tsv": 893,
+    "samples.tsv": 6103,
+    "species-by-sample.tsv": 3976970,
+    "species-total.tsv": 597578,
+    "split-summary.json": 1100,
+    "statuses.tsv": 4076
+  },
+  "status": "complete"
+}

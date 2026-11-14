@@ -1,0 +1,128 @@
+{
+  "jobs": {
+    "height.score": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4404287)"
+      ],
+      "job_id": "4404290",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404290> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:45.858831+00:00"
+    },
+    "height.targetfit": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4404290) && done(4404286)"
+      ],
+      "job_id": "4404293",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404293> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:45.966610+00:00"
+    },
+    "height.weights": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4404287",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404287> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:44.726966+00:00"
+    },
+    "ldl.score": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4404288)"
+      ],
+      "job_id": "4404291",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404291> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:45.898209+00:00"
+    },
+    "ldl.targetfit": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4404291) && done(4404286) && ended(4404286)"
+      ],
+      "job_id": "4404294",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404294> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:46.006543+00:00"
+    },
+    "ldl.weights": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4404288",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404288> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:45.780423+00:00"
+    },
+    "shared.prepare": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4404286",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404286> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:44.667911+00:00"
+    },
+    "t2dm.score": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4404289)"
+      ],
+      "job_id": "4404292",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404292> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:45.932884+00:00"
+    },
+    "t2dm.targetfit": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4404292) && done(4404286) && ended(4404287)"
+      ],
+      "job_id": "4404295",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404295> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:46.295200+00:00"
+    },
+    "t2dm.weights": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4404289",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404289> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T13:00:45.815405+00:00"
+    }
+  },
+  "plan": "/work/sph-huangj/analysis/grid/jobs/run5/plan.json",
+  "plan_sha256": "ec6bddd02b8a447e6820414f10ab17a8efafc91eb49a484725c31208e940484b"
+}

@@ -1,0 +1,28 @@
+object address  : 0x14df06bbd000
+object refcount : 2
+object type     : 0x55bd0d6cf380
+object type name: KeyboardInterrupt
+object repr     : KeyboardInterrupt()
+lost sys.stderr
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/0f/workflow_jobs.py", line 603, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/sph-huangj/scripts/0f/workflow_jobs.py", line 594, in main
+    return worker(a.plan, a.key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/0f/workflow_jobs.py", line 340, in worker
+    code = process.wait()
+           ^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2053, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2011, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/0f/workflow_jobs.py", line 334, in stop
+    raise KeyboardInterrupt
+KeyboardInterrupt

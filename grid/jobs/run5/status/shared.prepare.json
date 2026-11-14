@@ -1,0 +1,11 @@
+{
+  "completion_contract": "process_exit_only",
+  "ended": "2026-11-12T14:14:11.549595+00:00",
+  "job_id": "4404286",
+  "key": "shared.prepare",
+  "pid": 2746564,
+  "plan_sha256": "ec6bddd02b8a447e6820414f10ab17a8efafc91eb49a484725c31208e940484b",
+  "returncode": 0,
+  "started": "2026-11-12T13:03:22.010138+00:00",
+  "status": "DONE"
+}

@@ -1,0 +1,11 @@
+{
+  "completion_contract": "process_exit_only",
+  "ended": "2026-11-12T19:37:46.880211+00:00",
+  "job_id": "4404289",
+  "key": "t2dm.weights",
+  "pid": 36461,
+  "plan_sha256": "ec6bddd02b8a447e6820414f10ab17a8efafc91eb49a484725c31208e940484b",
+  "returncode": 0,
+  "started": "2026-11-12T14:19:22.554682+00:00",
+  "status": "DONE"
+}

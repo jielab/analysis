@@ -1,0 +1,20 @@
+{
+  "schema": "allele3-batch-plan-1",
+  "plan_identity": "cc170e607f1c7db952c47b21d3113330e9652366243eeeb2073a365e6c0ed181",
+  "name": "all",
+  "status": "failed",
+  "started_at": "2026-11-14T07:34:24.631927+00:00",
+  "lsf_job_id": "4409729",
+  "argv": [
+    "/work/sph-huangj/.conda/envs/allele3-evolution/bin/python",
+    "/work/sph-huangj/scripts/allele3/f/all_workflow.py",
+    "worker",
+    "--out",
+    "/work/sph-huangj/analysis/allele3",
+    "--steps-json",
+    "[{\"name\": \"environment\", \"argv\": [\"bash\", \"/work/sph-huangj/scripts/allele3/install.sh\", \"--check\", \"--stage\", \"all\"]}, {\"name\": \"hotspots\", \"argv\": [\"bash\", \"/work/sph-huangj/scripts/allele3/allele3.sh\", \"hotspots\", \"--scan-dir\", \"/work/sph-huangj/analysis/allele3/gnomad_scan\", \"--out\", \"/work/sph-huangj/analysis/allele3/hotspots\", \"--with-atlas\", \"TRUE\", \"--atlas-resources\", \"/work/sph-huangj/scripts/allele3/config/alphagenome_resources.vcf.tsv\"]}, {\"name\": \"density\", \"argv\": [\"bash\", \"/work/sph-huangj/scripts/allele3/allele3.sh\", \"density\", \"--scan-dir\", \"/work/sph-huangj/analysis/allele3/gnomad_scan\", \"--out\", \"/work/sph-huangj/analysis/allele3/density\"]}, {\"name\": \"herv_enrichment\", \"argv\": [\"bash\", \"/work/sph-huangj/scripts/allele3/allele3.sh\", \"herv_enrichment\", \"--ibdmix\", \"FALSE\", \"--scan-dir\", \"/work/sph-huangj/analysis/allele3/gnomad_scan\", \"--out\", \"/work/sph-huangj/analysis/allele3/herv_enrichment\", \"--metadata\", \"/work/sph-huangj/analysis/allele3/pca3d/tables/sample_metadata.tsv\", \"--coordinates\", \"/work/sph-huangj/analysis/allele3/pca3d/coordinates/all.sscore\", \"--basis-dir\", \"/work/sph-huangj/analysis/allele3/pca3d/basis\"]}, {\"name\": \"allele_time\", \"argv\": [\"bash\", \"/work/sph-huangj/scripts/allele3/allele3.sh\", \"base_occupancy\", \"allele-time\", \"--catalog\", \"/work/sph-huangj/analysis/allele3/hotspots/runtime/characterize/selection_catalog.tsv\", \"--pgen-prefix\", \"/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes\", \"--metadata\", \"/work/sph-huangj/analysis/allele3/pca3d/tables/sample_metadata.tsv\", \"--coordinates\", \"/work/sph-huangj/analysis/allele3/pca3d/coordinates/all.sscore\", \"--basis-dir\", \"/work/sph-huangj/analysis/allele3/pca3d/basis\", \"--hq-variants\", \"/work/sph-huangj/data/gen/ancient/HighQualityVariants.tsv\", \"--fasta38\", \"/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz\", \"--fasta37\", \"/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz\", \"--chain38to37\", \"/work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz\", \"--chain37to38\", \"/work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz\", \"--out\", \"/work/sph-huangj/analysis/allele3/base_occupancy/allele_time\"]}, {\"name\": \"space\", \"argv\": [\"bash\", \"/work/sph-huangj/scripts/allele3/allele3.sh\", \"base_occupancy\", \"space\", \"--time-dir\", \"/work/sph-huangj/analysis/allele3/base_occupancy/allele_time\", \"--pgen-prefix\", \"/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes\", \"--metadata\", \"/work/sph-huangj/analysis/allele3/pca3d/tables/sample_metadata.tsv\", \"--coordinates\", \"/work/sph-huangj/analysis/allele3/pca3d/coordinates/all.sscore\", \"--basis-dir\", \"/work/sph-huangj/analysis/allele3/pca3d/basis\", \"--out\", \"/work/sph-huangj/analysis/allele3/base_occupancy/space\"]}, {\"name\": \"base_simulation\", \"argv\": [\"bash\", \"/work/sph-huangj/scripts/allele3/allele3.sh\", \"base_simulation\", \"--out\", \"/work/sph-huangj/analysis/allele3/base_simulation\", \"--plot\"]}]"
+  ],
+  "cwd": "/work/sph-huangj/scripts/allele3",
+  "returncode": 1,
+  "finished_at": "2026-11-14T08:08:30.344763+00:00"
+}

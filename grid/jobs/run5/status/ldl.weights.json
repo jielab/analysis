@@ -1,0 +1,11 @@
+{
+  "completion_contract": "process_exit_only",
+  "ended": "2026-11-12T19:34:01.275200+00:00",
+  "job_id": "4404288",
+  "key": "ldl.weights",
+  "pid": 1293893,
+  "plan_sha256": "ec6bddd02b8a447e6820414f10ab17a8efafc91eb49a484725c31208e940484b",
+  "returncode": 0,
+  "started": "2026-11-12T14:01:20.734288+00:00",
+  "status": "DONE"
+}

@@ -1,0 +1,31 @@
+{
+  "comparison_failures": 0,
+  "complete_samples": 10,
+  "expected_samples": 10,
+  "generated_utc": "2026-11-12T16:12:50.545530+00:00",
+  "incomplete_or_invalid_samples": 0,
+  "input_root": "/work/sph-huangj/data/metag/species",
+  "interpretation": "Fractions use all fragments. Species totals are read-assignment counts, not organism abundances. Disabled human screens are not negative tests. Sensitivity differences are not accuracy estimates.",
+  "sample_ids": [
+    "Wxiamen/SRR39271681",
+    "Wxiamen/SRR39271682",
+    "Wxiamen/SRR39271683",
+    "Wxiamen/SRR39271684",
+    "Wxiamen/SRR39271685",
+    "Wxiamen/SRR39271686",
+    "Wxiamen/SRR39271687",
+    "Wxiamen/SRR39271688",
+    "Wxiamen/SRR39271689",
+    "Wxiamen/SRR39271690"
+  ],
+  "schema": "metag-cohort-summary-v1",
+  "state": "complete",
+  "totals": {
+    "fragments": 16269405,
+    "higher_rank_fragments": 4274362,
+    "reads": 32538810,
+    "species_fragments": 2661798,
+    "unclassified_fragments": 9333245
+  },
+  "validation": "Metadata hashes, artifact existence/sizes and count conservation; large FASTQs/tars not rehashed."
+}

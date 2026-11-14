@@ -1,0 +1,975 @@
+{
+  "inference": "Formal AC5/10 exposure inference: LOCO expected counts, EUR LD-block bootstrap, centered bootstrap P and BH FDR; legacy z is descriptive",
+  "inputs": {
+    "files": {
+      "AFR": {
+        "edge_sha256": "7b5a84c3e1d2cd0737206f33afe55a6c3cce62f66bd41b3ec7aa05b4de29d584",
+        "mtime_ns": 1789170374000000000,
+        "path": "/work/sph-huangj/data/LD/block/AFR.38.bed",
+        "size": 37663
+      },
+      "EAS": {
+        "edge_sha256": "d6b9bdba35fa228c115001a636da235a5381bc0d5e230efde42d439388e9e964",
+        "mtime_ns": 1789170380000000000,
+        "path": "/work/sph-huangj/data/LD/block/EAS.38.bed",
+        "size": 26737
+      },
+      "EUR": {
+        "edge_sha256": "55742f85338d931c0162b6fcb20c095b97c9fe5ae8ef11f6fb4e0678b8e730fc",
+        "mtime_ns": 1789170388000000000,
+        "path": "/work/sph-huangj/data/LD/block/EUR.38.bed",
+        "size": 31840
+      },
+      "SAS": {
+        "edge_sha256": "6f08c43d96e021ec2e548d67a519a0d59fce73d67f1cf09303cfb3b444648c3f",
+        "mtime_ns": 1789170398000000000,
+        "path": "/work/sph-huangj/data/LD/block/SAS.38.bed",
+        "size": 30206
+      },
+      "architecture_low_mappability_bed": {
+        "edge_sha256": "e7bb118abdc99b01912fbf1312065b2ec5bfe10fd530ba8805925048bdb4f43a",
+        "mtime_ns": 1792814343000000000,
+        "path": "/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz",
+        "size": 3959429
+      },
+      "erv_joined": {
+        "edge_sha256": "1b2ab4d4d34dfdebaa7a5df24652b22dd923df9d1bb8909806196a39f31df098",
+        "mtime_ns": 1792681741000000000,
+        "path": "/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz",
+        "size": 154860479
+      }
+    },
+    "schema": 3
+  },
+  "ld_primary": "EUR",
+  "min_sites": 10000,
+  "missing_annotation": "NA; unavailable annotation is never an observed zero",
+  "schema": 3,
+  "shards": [
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    },
+    {
+      "body": "Union of aligned joined blocks, excluding unaligned tails and nested insertion gaps",
+      "boundaries": "Observed joined alignStart/alignEnd, BED edges, absolute distance <10000; signed distance follows repeat strand",
+      "denominator": "Fixed original eligible loci at every AC tier; population profiles conditional on base multi-ALT population class",
+      "erv_status": "measured",
+      "ld_ancestries": [
+        "AFR",
+        "EAS",
+        "EUR",
+        "SAS"
+      ],
+      "missing_sensitivity_annotations": [],
+      "repeat_classes": [
+        "DNA",
+        "DNA?",
+        "LINE",
+        "LTR",
+        "LTR?",
+        "Low_complexity",
+        "RC",
+        "RC?",
+        "RNA",
+        "Retroposon",
+        "SINE",
+        "Satellite",
+        "Simple_repeat",
+        "Unknown",
+        "rRNA",
+        "scRNA",
+        "snRNA",
+        "srpRNA",
+        "tRNA"
+      ],
+      "schema": 3,
+      "sensitivity_analyses": [
+        "all",
+        "exclude_combined",
+        "exclude_lcr_segdup",
+        "exclude_low_mappability",
+        "exclude_simple_low_complexity"
+      ]
+    }
+  ],
+  "status": "complete"
+}

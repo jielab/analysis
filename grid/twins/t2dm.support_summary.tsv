@@ -1,0 +1,3 @@
+trait	role	n	supported_n	actual_coverage
+t2dm	calibration	48569	45838	0.9437707179476621
+t2dm	test	243372	229280	0.9420968722778298

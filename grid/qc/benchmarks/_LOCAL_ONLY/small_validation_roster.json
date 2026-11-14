@@ -1,0 +1,9 @@
+{
+  "actual_validation_N": 5000,
+  "assignment": "outcome_blind_sha256_whole_groups",
+  "roster_sha256": "ff014d7442e3965ed57733e43050e93184b7fdba423cf6144d021ad6f2382218",
+  "schema": "grid.small_validation.1",
+  "seed": 20261102,
+  "test_N": 243372,
+  "validation_n": 5000
+}

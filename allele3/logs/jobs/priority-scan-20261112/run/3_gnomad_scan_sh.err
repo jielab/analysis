@@ -1,0 +1,28 @@
+[allocation] LSF job=4404179 cores=40 budget=160 GiB; scheduler-controlled worker
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 774, in <module>
+    
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 758, in main
+    if not a.frozen_plan or not a.job_id: raise ValueError("worker requires --frozen-plan and --job-id")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 527, in worker
+    except BlockingIOError: raise RuntimeError("Another worker owns this exact job; no duplicate payload started") from None
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/scripts/allele3/f/batch_runner.py", line 503, in _worker_payload
+    "ALLELE_ALLOCATED_MEMORY_GIB":job["resources"]["memory_gib"],"ALLELE_ALLOCATED_CORES":str(job["resources"]["cores"])}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 1201, in communicate
+    self.wait()
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2053, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/.conda/envs/py311/lib/python3.11/subprocess.py", line 2011, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

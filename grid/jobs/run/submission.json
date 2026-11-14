@@ -1,0 +1,17 @@
+{
+  "jobs": {
+    "pca": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4404175",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4404175> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T12:21:01.158017+00:00"
+    }
+  },
+  "plan": "/work/sph-huangj/analysis/grid/jobs/run/plan.json",
+  "plan_sha256": "4b3712b5e87f9bf322a9ef2477d5b9f3cc4ef312b1aebf3aee6cced6917b4bc9"
+}

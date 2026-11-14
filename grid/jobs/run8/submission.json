@@ -1,0 +1,81 @@
+{
+  "jobs": {
+    "height.abm.cpu_blockprepare": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406250)"
+      ],
+      "job_id": "4406251",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406251> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T23:47:52.768585+00:00"
+    },
+    "height.abm.cpu_geometry": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406251)"
+      ],
+      "job_id": "4406255",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "Group <u-sph-huangj>: Pending job slots threshold reached. Retrying in 60 seconds...\n",
+      "stdout": "Job <4406255> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T23:47:52.871992+00:00"
+    },
+    "ldl.abm.cpu_blockprepare": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406250)"
+      ],
+      "job_id": "4406252",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406252> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T23:47:52.803096+00:00"
+    },
+    "ldl.abm.cpu_geometry": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406252)"
+      ],
+      "returncode": 255,
+      "status": "submitting",
+      "stderr": "Group <u-sph-huangj>: Pending job slots threshold reached. Retrying in 60 seconds...\nGroup <u-sph-huangj>: Pending job slots threshold reached. Retrying in 60 seconds...\nGroup <u-sph-huangj>: Pending job slots threshold reached. Retrying in 60 seconds...\nGroup <u-sph-huangj>: Pending job slots threshold reached. Retrying in 60 seconds...\nGroup <u-sph-huangj>: Pending job slots threshold reached. Retrying in 60 seconds...\nGroup <u-sph-huangj>: Pending job slots threshold reached. Retrying in 60 seconds...\nUser permission denied. Job not submitted.\n",
+      "stdout": "",
+      "submitted": "2026-11-12T23:48:52.947854+00:00"
+    },
+    "shared.cpu_prepare": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4406250",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406250> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T23:47:52.730898+00:00"
+    },
+    "t2dm.abm.cpu_blockprepare": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406250)"
+      ],
+      "job_id": "4406253",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406253> is submitted to queue <38>.\n",
+      "submitted": "2026-11-12T23:47:52.835080+00:00"
+    }
+  },
+  "plan": "/work/sph-huangj/analysis/grid/jobs/run8/plan.json",
+  "plan_sha256": "ddb5638654eec903ff4ccd43fede2b41ef03b473aa8fe6c1d15825f00bd78521"
+}

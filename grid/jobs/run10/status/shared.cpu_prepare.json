@@ -1,0 +1,11 @@
+{
+  "completion_contract": "process_exit_only",
+  "ended": "2026-11-13T01:22:45.744454+00:00",
+  "job_id": "4406298",
+  "key": "shared.cpu_prepare",
+  "pid": 1416700,
+  "plan_sha256": "63db358d3050cd5c490251e6abf5ffcb429e937553b7cf74efaf4829493e5fa0",
+  "returncode": 130,
+  "started": "2026-11-13T01:16:11.617829+00:00",
+  "status": "EXIT"
+}

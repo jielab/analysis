@@ -1,0 +1,4 @@
+trait	role	n	groups	radius	task
+t2dm	calibration	48569	40003	1.3318714833885146	binary
+t2dm	donor	194804	159669	1.3318714833885146	binary
+t2dm	test	243372	199713	1.3318714833885146	binary

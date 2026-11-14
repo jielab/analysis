@@ -1,0 +1,61 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/grid.sh evaluate --traits t2dm --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml --device cpu --threads 8
+[GRID ABM] t2dm: evaluation/report completed, all query rows retained
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u09b>
+Subject: Job 4406342: <grid.t2dm> in cluster <qmhpc> Done
+
+Job <grid.t2dm> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 09:44:53 2026
+Job was executed on host(s) <40*b08u09b>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 22:34:36 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Fri Nov 13 22:34:36 2026
+Terminated at Fri Nov 13 22:39:15 2026
+Results reported at Fri Nov 13 22:39:15 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.t2dm
+#BSUB -q 33
+#BSUB -n 40
+#BSUB -R "span[hosts=1] rusage[mem=32GB/host]"
+#BSUB -W 24:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run11/logs/t2dm.abm.cpu_evaluate.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run11/logs/t2dm.abm.cpu_evaluate.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 40 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: t2dm.abm.cpu_radius_twins
+# Scientific command: bash /work/sph-huangj/scripts/grid/grid.sh evaluate --traits t2dm --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml --device cpu --threads 8
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run11/plan.json --key t2dm.abm.cpu_evaluate
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   29.66 sec.
+    Max Memory :                                 503 MB
+    Average Memory :                             374.48 MB
+    Total Requested Memory :                     32768.00 MB
+    Delta Memory :                               32265.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                13
+    Run time :                                   380 sec.
+    Turnaround time :                            46462 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run11/logs/t2dm.abm.cpu_evaluate.4406342.err> for stderr output of this job.
+

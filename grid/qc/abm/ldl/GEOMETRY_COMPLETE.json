@@ -1,0 +1,40 @@
+{
+  "artifacts": {
+    "_LOCAL_ONLY/calibration.truth.tsv.gz": 292063,
+    "_LOCAL_ONLY/calibration.tsv.gz": 322529,
+    "_LOCAL_ONLY/calibration.z.npy": 2785529416,
+    "_LOCAL_ONLY/donor.tsv.gz": 1534147,
+    "_LOCAL_ONLY/donor.z.npy": 9361911200,
+    "_LOCAL_ONLY/test.truth.tsv.gz": 1457823,
+    "_LOCAL_ONLY/test.tsv.gz": 1615200,
+    "_LOCAL_ONLY/test.z.npy": 13957871072,
+    "features.tsv": 463997,
+    "geometry.json": 775270,
+    "geometry_model.json": 3358
+  },
+  "details": {
+    "lineage": {
+      "calibration": {
+        "groups": 40003,
+        "n": 48569,
+        "ordered_ids_sha256": "c53b5e8c023d8b548d83aa7c82f0365e7991932e6ecb9087a596b7bb7e001928"
+      },
+      "donor": {
+        "groups": 137084,
+        "n": 163236,
+        "ordered_ids_sha256": "5e43a19774edd31e0ac8c9ec21dfdb7d5ddf4d0e1654fac3d33bb6e77162596f"
+      },
+      "test": {
+        "groups": 199713,
+        "n": 243372,
+        "ordered_ids_sha256": "657f63244c9625914f2c765f3048c0dc840ca5053a6ac91cbfd8e1c39273cd3f"
+      }
+    },
+    "task": "continuous",
+    "trait": "ldl"
+  },
+  "schema_version": "grid.abm.1",
+  "stage": "geometry",
+  "status": "complete",
+  "version": "20261112.1"
+}

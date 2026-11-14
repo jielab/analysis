@@ -1,0 +1,62 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/4.prsformer.sh prepare --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid --device cpu --threads 8
+[lock] waiting 60s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u33a>
+Subject: Job 4406282: <prsformer.shared.cpu_prepare> in cluster <qmhpc> Exited
+
+Job <prsformer.shared.cpu_prepare> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 09:13:06 2026
+Job was executed on host(s) <32*b04u33a>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 09:13:06 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Fri Nov 13 09:13:06 2026
+Terminated at Fri Nov 13 09:15:09 2026
+Results reported at Fri Nov 13 09:15:09 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J prsformer.shared.cpu_prepare
+#BSUB -q 38
+#BSUB -n 32
+#BSUB -R "span[hosts=1] rusage[mem=256GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run9/logs/shared.cpu_prepare.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run9/logs/shared.cpu_prepare.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 32 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/grid/4.prsformer.sh prepare --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid --device cpu --threads 8
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run9/plan.json --key shared.cpu_prepare
+
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   3.77 sec.
+    Max Memory :                                 141 MB
+    Average Memory :                             130.55 MB
+    Total Requested Memory :                     262144.00 MB
+    Delta Memory :                               262003.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                7
+    Run time :                                   122 sec.
+    Turnaround time :                            123 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run9/logs/shared.cpu_prepare.4406282.err> for stderr output of this job.
+

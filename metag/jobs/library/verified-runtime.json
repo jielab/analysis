@@ -1,0 +1,182 @@
+{
+  "files": {
+    "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/delnodes.dmp": {
+      "sha256": "96c046c6d7c1b84366a7ecb321028bd9b5e6cdb56d8d87916463b2beb864ace9",
+      "state": {
+        "ctime_ns": 1793891371834880597,
+        "mtime_ns": 1793891371834880597,
+        "size": 7579967
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/merged.dmp": {
+      "sha256": "646c37f56db14ab19792b03b61b4d3433cf0daddfe8e73190103e76e5c90d530",
+      "state": {
+        "ctime_ns": 1793891371750395114,
+        "mtime_ns": 1793891371750395114,
+        "size": 1932463
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/names.dmp": {
+      "sha256": "e3d52a29a21767dd7c3a73da05e08d2eb8af61b56235131771e329689ee46f23",
+      "state": {
+        "ctime_ns": 1793891371640585298,
+        "mtime_ns": 1793891371640585298,
+        "size": 317753670
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/nodes.dmp": {
+      "sha256": "bbda26ed90765718d39277ff27623df4c369ae19699685adf51afb23826e4bf4",
+      "state": {
+        "ctime_ns": 1793891370478003406,
+        "mtime_ns": 1793891370478003406,
+        "size": 232650504
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/hashes.txt": {
+      "sha256": "dd5eea5e2e6397131447cb5b8692060929e216337ce5a65aa1c4030c9a3dc6b2",
+      "state": {
+        "ctime_ns": 1794230836398654803,
+        "mtime_ns": 1794230836398654803,
+        "size": 315
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/invertebrates/hash.k2d": {
+      "sha256": "1a56b6c961ff4120b8ca9b7ac0a0b5fc77cc4abf4655fbac0368b9437828839e",
+      "state": {
+        "ctime_ns": 1794324025965379000,
+        "mtime_ns": 1793945546377320744,
+        "size": 283566953356
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/invertebrates/opts.k2d": {
+      "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+      "state": {
+        "ctime_ns": 1793895724006680306,
+        "mtime_ns": 1793895724006680306,
+        "size": 64
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/invertebrates/taxo.k2d": {
+      "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+      "state": {
+        "ctime_ns": 1793895722836693588,
+        "mtime_ns": 1793895722836693588,
+        "size": 4916632
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/microbes/hash.k2d": {
+      "sha256": "6ca8f1ab1480bb7aa6f9564dbb20730bf0e067ab92dc8438ac60270e9841e18d",
+      "state": {
+        "ctime_ns": 1794324021157245000,
+        "mtime_ns": 1793920056437855499,
+        "size": 101819298408
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/microbes/opts.k2d": {
+      "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+      "state": {
+        "ctime_ns": 1793901384786117344,
+        "mtime_ns": 1793901384786117344,
+        "size": 64
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/microbes/taxo.k2d": {
+      "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+      "state": {
+        "ctime_ns": 1793901383028385500,
+        "mtime_ns": 1793901383028385500,
+        "size": 4916632
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/opts.k2d": {
+      "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+      "state": {
+        "ctime_ns": 1794230836396905809,
+        "mtime_ns": 1794230836396905809,
+        "size": 64
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/plants/hash.k2d": {
+      "sha256": "f497d03fc18ab8f7c9ec9fdb5f6cac005acc656945e0ba5c6bdf46dfb5514b51",
+      "state": {
+        "ctime_ns": 1794324025524286000,
+        "mtime_ns": 1793927167111092358,
+        "size": 148288577860
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/plants/opts.k2d": {
+      "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+      "state": {
+        "ctime_ns": 1793898106671417201,
+        "mtime_ns": 1793898106671417201,
+        "size": 64
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/plants/taxo.k2d": {
+      "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+      "state": {
+        "ctime_ns": 1793898105741268372,
+        "mtime_ns": 1793898105741268372,
+        "size": 4916632
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/taxo.k2d": {
+      "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+      "state": {
+        "ctime_ns": 1794230836383891822,
+        "mtime_ns": 1794230836383891822,
+        "size": 4916632
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/hash.k2d": {
+      "sha256": "926a8c2dc380975bb2d42fd100307e8f31e215988407a847f4e8fbd7051b4a62",
+      "state": {
+        "ctime_ns": 1794324021876572000,
+        "mtime_ns": 1794227430906626618,
+        "size": 1131809205424
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/opts.k2d": {
+      "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+      "state": {
+        "ctime_ns": 1794054969777818887,
+        "mtime_ns": 1794054969777818887,
+        "size": 64
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/taxo.k2d": {
+      "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+      "state": {
+        "ctime_ns": 1794054968601422117,
+        "mtime_ns": 1794054968601422117,
+        "size": 4916632
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/viruses/hash.k2d": {
+      "sha256": "5584a09e166843f0044266284590a95bbbdecfdb267ee45ee4eceac91c761602",
+      "state": {
+        "ctime_ns": 1794324023980703000,
+        "mtime_ns": 1793891910041619997,
+        "size": 664467780
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/viruses/opts.k2d": {
+      "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+      "state": {
+        "ctime_ns": 1793891768360015635,
+        "mtime_ns": 1793891768360015635,
+        "size": 64
+      }
+    },
+    "/work/sph-huangj/data/annot/metag/lib/index/viruses/taxo.k2d": {
+      "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+      "state": {
+        "ctime_ns": 1793891766793147745,
+        "mtime_ns": 1793891766793147745,
+        "size": 4916632
+      }
+    }
+  },
+  "identity": "517413916fb7977ebd433a287a5d1a1af9c22a5390dce40213e43de313c5013c",
+  "verified_at": "2026-11-12T14:02:15.576781+00:00"
+}

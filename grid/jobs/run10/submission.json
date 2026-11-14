@@ -1,0 +1,195 @@
+{
+  "jobs": {
+    "abm.cpu_architecture": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406308) && done(4406309) && done(4406310) && ended(4406303)"
+      ],
+      "job_id": "4406311",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406311> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.858205+00:00"
+    },
+    "abm.cpu_final": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406311) && ended(4406304)"
+      ],
+      "status": "submitting",
+      "submitted": "2026-11-13T01:16:09.895665+00:00"
+    },
+    "height.abm.cpu_blockprepare": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406298)"
+      ],
+      "job_id": "4406299",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406299> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.378006+00:00"
+    },
+    "height.abm.cpu_evaluate": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406305) && ended(4406300)"
+      ],
+      "job_id": "4406308",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406308> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.756054+00:00"
+    },
+    "height.abm.cpu_geometry": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406299)"
+      ],
+      "job_id": "4406302",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406302> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.497024+00:00"
+    },
+    "height.abm.cpu_radius_twins": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406302)"
+      ],
+      "job_id": "4406305",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406305> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.653413+00:00"
+    },
+    "ldl.abm.cpu_blockprepare": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406298)"
+      ],
+      "job_id": "4406300",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406300> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.428782+00:00"
+    },
+    "ldl.abm.cpu_evaluate": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406306) && ended(4406301)"
+      ],
+      "job_id": "4406309",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406309> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.789764+00:00"
+    },
+    "ldl.abm.cpu_geometry": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406300)"
+      ],
+      "job_id": "4406303",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406303> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.532845+00:00"
+    },
+    "ldl.abm.cpu_radius_twins": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406303) && ended(4406298)"
+      ],
+      "job_id": "4406306",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406306> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.687657+00:00"
+    },
+    "shared.cpu_prepare": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4406298",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406298> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.310101+00:00"
+    },
+    "t2dm.abm.cpu_blockprepare": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406298)"
+      ],
+      "job_id": "4406301",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406301> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.461345+00:00"
+    },
+    "t2dm.abm.cpu_evaluate": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406307) && ended(4406302)"
+      ],
+      "job_id": "4406310",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406310> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.824471+00:00"
+    },
+    "t2dm.abm.cpu_geometry": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406301)"
+      ],
+      "job_id": "4406304",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406304> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.615161+00:00"
+    },
+    "t2dm.abm.cpu_radius_twins": {
+      "argv": [
+        "bsub",
+        "-w",
+        "done(4406304) && ended(4406299)"
+      ],
+      "job_id": "4406307",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4406307> is submitted to queue <38>.\n",
+      "submitted": "2026-11-13T01:16:09.721538+00:00"
+    }
+  },
+  "plan": "/work/sph-huangj/analysis/grid/jobs/run10/plan.json",
+  "plan_sha256": "63db358d3050cd5c490251e6abf5ffcb429e937553b7cf74efaf4829493e5fa0"
+}

@@ -1,0 +1,81 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/2.csx.sh prepare --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml
+[lock] waiting 60s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 120s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 180s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 240s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 300s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 361s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 421s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 481s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 541s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 601s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 661s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 721s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 781s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 841s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 901s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 961s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1021s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1082s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1142s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1202s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u29a>
+Subject: Job 4406250: <grid.prepare> in cluster <qmhpc> Exited
+
+Job <grid.prepare> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 07:47:52 2026
+Job was executed on host(s) <32*b04u29a>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 07:47:54 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Fri Nov 13 07:47:54 2026
+Terminated at Fri Nov 13 08:09:08 2026
+Results reported at Fri Nov 13 08:09:08 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.prepare
+#BSUB -q 38
+#BSUB -n 32
+#BSUB -R "span[hosts=1] rusage[mem=256GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run8/logs/shared.cpu_prepare.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run8/logs/shared.cpu_prepare.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 32 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/grid/2.csx.sh prepare --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run8/plan.json --key shared.cpu_prepare
+
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   4.92 sec.
+    Max Memory :                                 139 MB
+    Average Memory :                             138.10 MB
+    Total Requested Memory :                     262144.00 MB
+    Delta Memory :                               262005.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                6
+    Run time :                                   1272 sec.
+    Turnaround time :                            1276 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run8/logs/shared.cpu_prepare.4406250.err> for stderr output of this job.
+

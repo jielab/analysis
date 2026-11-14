@@ -1,0 +1,224 @@
+{
+  "html_path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_time.html",
+  "samples": 14439,
+  "variants": 0,
+  "coordinate_kind": "projected_average",
+  "basis_label": "joint_balanced",
+  "simulated": false,
+  "display": {
+    "layer_years": 1000,
+    "time_view": "layered",
+    "color_by": "region",
+    "layers": [
+      {
+        "index": -1,
+        "start_bp": 0,
+        "end_bp": 0,
+        "display_bp": 0,
+        "n": 503,
+        "label": "Modern"
+      },
+      {
+        "index": 0,
+        "start_bp": 0,
+        "end_bp": 1000,
+        "display_bp": 500.0,
+        "n": 2460,
+        "label": "0–1,000 BP"
+      },
+      {
+        "index": 1,
+        "start_bp": 1000,
+        "end_bp": 2000,
+        "display_bp": 1500.0,
+        "n": 4569,
+        "label": "1,000–2,000 BP"
+      },
+      {
+        "index": 2,
+        "start_bp": 2000,
+        "end_bp": 3000,
+        "display_bp": 2500.0,
+        "n": 2715,
+        "label": "2,000–3,000 BP"
+      },
+      {
+        "index": 3,
+        "start_bp": 3000,
+        "end_bp": 4000,
+        "display_bp": 3500.0,
+        "n": 1289,
+        "label": "3,000–4,000 BP"
+      },
+      {
+        "index": 4,
+        "start_bp": 4000,
+        "end_bp": 5000,
+        "display_bp": 4500.0,
+        "n": 1024,
+        "label": "4,000–5,000 BP"
+      },
+      {
+        "index": 5,
+        "start_bp": 5000,
+        "end_bp": 6000,
+        "display_bp": 5500.0,
+        "n": 678,
+        "label": "5,000–6,000 BP"
+      },
+      {
+        "index": 6,
+        "start_bp": 6000,
+        "end_bp": 7000,
+        "display_bp": 6500.0,
+        "n": 454,
+        "label": "6,000–7,000 BP"
+      },
+      {
+        "index": 7,
+        "start_bp": 7000,
+        "end_bp": 8000,
+        "display_bp": 7500.0,
+        "n": 559,
+        "label": "7,000–8,000 BP"
+      },
+      {
+        "index": 8,
+        "start_bp": 8000,
+        "end_bp": 9000,
+        "display_bp": 8500.0,
+        "n": 101,
+        "label": "8,000–9,000 BP"
+      },
+      {
+        "index": 9,
+        "start_bp": 9000,
+        "end_bp": 10000,
+        "display_bp": 9500.0,
+        "n": 42,
+        "label": "9,000–10,000 BP"
+      },
+      {
+        "index": 10,
+        "start_bp": 10000,
+        "end_bp": 11000,
+        "display_bp": 10500.0,
+        "n": 28,
+        "label": "10,000–11,000 BP"
+      },
+      {
+        "index": 11,
+        "start_bp": 11000,
+        "end_bp": 12000,
+        "display_bp": 11500.0,
+        "n": 3,
+        "label": "11,000–12,000 BP"
+      },
+      {
+        "index": 12,
+        "start_bp": 12000,
+        "end_bp": 13000,
+        "display_bp": 12500.0,
+        "n": 4,
+        "label": "12,000–13,000 BP"
+      },
+      {
+        "index": 13,
+        "start_bp": 13000,
+        "end_bp": 14000,
+        "display_bp": 13500.0,
+        "n": 5,
+        "label": "13,000–14,000 BP"
+      },
+      {
+        "index": 14,
+        "start_bp": 14000,
+        "end_bp": 15000,
+        "display_bp": 14500.0,
+        "n": 1,
+        "label": "14,000–15,000 BP"
+      },
+      {
+        "index": 15,
+        "start_bp": 15000,
+        "end_bp": 16000,
+        "display_bp": 15500.0,
+        "n": 2,
+        "label": "15,000–16,000 BP"
+      },
+      {
+        "index": 17,
+        "start_bp": 17000,
+        "end_bp": 18000,
+        "display_bp": 17500.0,
+        "n": 1,
+        "label": "17,000–18,000 BP"
+      },
+      {
+        "index": 18,
+        "start_bp": 18000,
+        "end_bp": 19000,
+        "display_bp": 18500.0,
+        "n": 1,
+        "label": "18,000–19,000 BP"
+      }
+    ],
+    "region_colors": {
+      "C": "#0072B2",
+      "E": "#D55E00",
+      "N": "#009E73",
+      "SE": "#CC79A7",
+      "SW": "#E69F00"
+    },
+    "source_colors": {
+      "1. Previously published data (ancient)": "#0072B2",
+      "1. Previously published data (modern)": "#D55E00",
+      "2. Previously published sample with new shotgun data": "#009E73",
+      "3. Previously published sample with new capture data": "#CC79A7",
+      "4. New sample (capture)": "#E69F00",
+      "4. New sample (shotgun)": "#56B4E9"
+    },
+    "bin_rule": "Ancient: [start, end), shown at bin midpoint; modern: separate plane at 0 BP. Original ages retained for hover and filtering."
+  },
+  "plotly_version": "7.1.0",
+  "self_contained": true,
+  "excluded_metadata_samples": 1900,
+  "third_allele_status": "not_inferred_from_0_1_2; inspect_each_target_availability",
+  "inputs": {
+    "coordinates": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all.sscore",
+      "size": 3144622,
+      "mtime_ns": 1794486208984820251,
+      "edge_sha256": "254ab4b12b6e48aa92136a8b7e6a0e422272ce1b7ab0ec984f31ba576e82fa23"
+    },
+    "metadata": {
+      "path": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/metadata/sample_metadata.tsv",
+      "size": 1955328,
+      "mtime_ns": 1794486076672993303,
+      "edge_sha256": "a4587314118a5250ce18ca704516c26a28c7492f82b81fc9eb889a5656e4e664",
+      "sha256": "3743decbef2e967634a709c2bf5b7cf76bd76f9d4f8c3f7fc15766927784e2db"
+    }
+  },
+  "warnings": [
+    "ALT copy number 0/1/2 is not three different alleles.",
+    "Coordinates use one fixed basis; positive BP points upward; REF is not assumed ancestral.",
+    "gnomAD aggregate counts are not individual coordinates."
+  ],
+  "static_figures": {
+    "outputs": [
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_time_overview.png",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_time_overview.pdf",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_time_slices.png",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_time_slices.pdf",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_time_centroids.png",
+      "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_time_centroids.pdf"
+    ],
+    "centroid_rows": 42,
+    "locus_figures": 0,
+    "slice_width_bp": 1000,
+    "centroid_bin_years": 2000,
+    "time_view": "layered",
+    "color_by": "region",
+    "layer_table": "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/pca_time_layers.tsv"
+  }
+}

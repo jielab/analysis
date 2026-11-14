@@ -1,0 +1,250 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/2.csx.sh weights --traits t2dm --output-root /work/sph-huangj/analysis/grid
+[csx] Backend: requested=cpu; selected=cpu
+[csx] {"backend": "cpu", "numpy": "1.26.4", "gpu_name": null, "device": null, "block_calls": 0, "cpu_block_calls": 0, "cuda_block_calls": 0, "gpu_min_block": 2048, "block_seconds": 0.0, "gpu_peak_memory_mb": 0}
+[csx] MCMC BLAS threads=1; CUDA minimum block size=2048 (smaller blocks use CPU)
+[csx] Native LD cache=/work/sph-huangj/analysis/grid/tmp/cache/csx-ld; budget=16 GiB
+[csx] Scoring: 4 parallel chromosomes, 2048 MiB PLINK workspace each; inference jobs=4
+[csx] work directory: /work/sph-huangj/analysis/grid/csx
+[csx] command file: /work/sph-huangj/analysis/grid/jobs/csx/csx.20261112T221940.36463.sh
+[csx] log file: /work/sph-huangj/analysis/grid/logs/csx/csx.20261112T221940.36463.log
+[csx] Target BIM reused: 765067 SNPs; /work/sph-huangj/data/gen/ukb/37/typ/ukb_array.bim
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.gz
+  GRCh37 coordinate sample: 6323/6323; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.gz
+  GRCh37 coordinate sample: 7013/7013; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.gz
+  GRCh37 coordinate sample: 6283/6283; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.gz
+  GRCh37 coordinate sample: 7929/7929; N is median of usable HM3 variants (override: --n-gwas)
+output SNP weights: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.csx.gz
+output SNP weights: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.csx.gz
+output SNP weights: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.csx.gz
+output SNP weights: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.csx.gz
+output score files: /work/sph-huangj/data/gen/ukb/pgs/t2dm/1csx.scores.rds
+CSx: joint AFR,EAS,EUR,SAS; phi=1e-2; iter/burnin/thin=4000/2000/5; seed=20260904; chromosomes=1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
+SAVED preprocessing t2dm.AFR: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.csx.sumstats.gz
+  t2dm.AFR: n_gwas=128886
+SAVED preprocessing t2dm.EAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.csx.sumstats.gz
+  t2dm.EAS: n_gwas=247159
+SAVED preprocessing t2dm.EUR: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.csx.sumstats.gz
+  t2dm.EUR: n_gwas=751755
+SAVED preprocessing t2dm.SAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.csx.sumstats.gz
+  t2dm.SAS: n_gwas=41577
+RUN t2dm chr1: joint PRS-CSx
+RUN t2dm chr2: joint PRS-CSx
+RUN t2dm chr3: joint PRS-CSx
+RUN t2dm chr4: joint PRS-CSx
+DONE t2dm chr4: 964s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr4.log
+DONE t2dm chr3: 1091s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr3.log
+DONE t2dm chr2: 1323s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr2.log
+DONE t2dm chr1: 1411s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr1.log
+RUN t2dm chr5: joint PRS-CSx
+RUN t2dm chr7: joint PRS-CSx
+RUN t2dm chr8: joint PRS-CSx
+RUN t2dm chr6: joint PRS-CSx
+DONE t2dm chr8: 852s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr8.log
+DONE t2dm chr7: 902s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr7.log
+DONE t2dm chr5: 1020s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr5.log
+DONE t2dm chr6: 2176s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr6.log
+RUN t2dm chr10: joint PRS-CSx
+RUN t2dm chr9: joint PRS-CSx
+RUN t2dm chr11: joint PRS-CSx
+RUN t2dm chr12: joint PRS-CSx
+DONE t2dm chr9: 809s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr9.log
+DONE t2dm chr12: 870s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr12.log
+DONE t2dm chr11: 878s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr11.log
+DONE t2dm chr10: 924s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr10.log
+RUN t2dm chr13: joint PRS-CSx
+RUN t2dm chr14: joint PRS-CSx
+RUN t2dm chr15: joint PRS-CSx
+RUN t2dm chr16: joint PRS-CSx
+DONE t2dm chr15: 562s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr15.log
+DONE t2dm chr14: 579s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr14.log
+DONE t2dm chr13: 599s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr13.log
+DONE t2dm chr16: 604s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr16.log
+RUN t2dm chr17: joint PRS-CSx
+RUN t2dm chr18: joint PRS-CSx
+RUN t2dm chr19: joint PRS-CSx
+RUN t2dm chr20: joint PRS-CSx
+DONE t2dm chr18: 497s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr18.log
+DONE t2dm chr20: 504s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr20.log
+DONE t2dm chr19: 560s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr19.log
+DONE t2dm chr17: 589s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr17.log
+RUN t2dm chr21: joint PRS-CSx
+RUN t2dm chr22: joint PRS-CSx
+DONE t2dm chr21: 265s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr21.log
+DONE t2dm chr22: 328s; log=/work/sph-huangj/analysis/grid/logs/csx/t2dm/csx.chr22.log
+DONE t2dm: permanent SNP weights saved
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.gz
+  GRCh37 coordinate sample: 6323/6323; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.gz
+  GRCh37 coordinate sample: 7013/7013; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.gz
+  GRCh37 coordinate sample: 6283/6283; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.gz
+  GRCh37 coordinate sample: 7929/7929; N is median of usable HM3 variants (override: --n-gwas)
+CSx auto: phi=auto; joint run=auto
+SAVED preprocessing t2dm.AFR: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.csx.sumstats.gz
+SAVED preprocessing t2dm.EAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.csx.sumstats.gz
+SAVED preprocessing t2dm.EUR: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.csx.sumstats.gz
+SAVED preprocessing t2dm.SAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.csx.sumstats.gz
+RUN t2dm auto chr1
+RUN t2dm auto chr2RUN t2dm auto chr3
+RUN t2dm auto chr4
+
+DONE t2dm auto chr4: 965.4s
+RUN t2dm auto chr5
+DONE t2dm auto chr3: 1101.1s
+RUN t2dm auto chr6
+DONE t2dm auto chr2: 1332.4s
+RUN t2dm auto chr7
+DONE t2dm auto chr1: 1515.6s
+RUN t2dm auto chr8
+DONE t2dm auto chr5: 1005.3s
+RUN t2dm auto chr9
+DONE t2dm auto chr7: 895.7s
+RUN t2dm auto chr10
+DONE t2dm auto chr8: 884.4s
+RUN t2dm auto chr11
+DONE t2dm auto chr9: 830.0s
+RUN t2dm auto chr12
+DONE t2dm auto chr10: 916.8s
+RUN t2dm auto chr13
+DONE t2dm auto chr11: 885.3s
+RUN t2dm auto chr14
+DONE t2dm auto chr6: 2199.2s
+RUN t2dm auto chr15
+DONE t2dm auto chr12: 884.5s
+RUN t2dm auto chr16
+DONE t2dm auto chr13: 613.1s
+RUN t2dm auto chr17
+DONE t2dm auto chr14: 578.6s
+RUN t2dm auto chr18
+DONE t2dm auto chr15: 575.3s
+RUN t2dm auto chr19
+DONE t2dm auto chr16: 613.1s
+RUN t2dm auto chr20
+DONE t2dm auto chr17: 612.2s
+RUN t2dm auto chr21
+DONE t2dm auto chr18: 515.4s
+RUN t2dm auto chr22
+DONE t2dm auto chr19: 569.5s
+DONE t2dm auto chr21: 267.4s
+DONE t2dm auto chr22: 328.6s
+DONE t2dm auto chr20: 518.5s
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.gz
+  GRCh37 coordinate sample: 6323/6323; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.gz
+  GRCh37 coordinate sample: 7013/7013; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.gz
+  GRCh37 coordinate sample: 6283/6283; N is median of usable HM3 variants (override: --n-gwas)
+input GWAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.gz
+  GRCh37 coordinate sample: 7929/7929; N is median of usable HM3 variants (override: --n-gwas)
+CSx meta: phi=1e-2; joint run=phi-1e-2
+SAVED preprocessing t2dm.AFR: /work/sph-huangj/data/gwas/4grid/common/t2dm.AFA/gwas/t2dm.AFA.csx.sumstats.gz
+SAVED preprocessing t2dm.EAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.EAS/gwas/t2dm.EAS.csx.sumstats.gz
+SAVED preprocessing t2dm.EUR: /work/sph-huangj/data/gwas/4grid/common/t2dm.EUR/gwas/t2dm.EUR.csx.sumstats.gz
+SAVED preprocessing t2dm.SAS: /work/sph-huangj/data/gwas/4grid/common/t2dm.SAS/gwas/t2dm.SAS.csx.sumstats.gz
+RUN t2dm meta chr1
+RUN t2dm meta chr2
+RUN t2dm meta chr3
+RUN t2dm meta chr4
+DONE t2dm meta chr4: 966.6s
+RUN t2dm meta chr5
+DONE t2dm meta chr3: 1099.8s
+RUN t2dm meta chr6
+DONE t2dm meta chr2: 1311.3s
+RUN t2dm meta chr7
+DONE t2dm meta chr1: 1432.4s
+RUN t2dm meta chr8
+DONE t2dm meta chr5: 1010.8s
+RUN t2dm meta chr9
+DONE t2dm meta chr7: 882.1s
+RUN t2dm meta chr10
+DONE t2dm meta chr8: 840.8s
+RUN t2dm meta chr11
+DONE t2dm meta chr9: 833.6s
+RUN t2dm meta chr12
+DONE t2dm meta chr10: 898.0s
+RUN t2dm meta chr13
+DONE t2dm meta chr11: 886.1s
+RUN t2dm meta chr14
+DONE t2dm meta chr6: 2160.2s
+RUN t2dm meta chr15
+DONE t2dm meta chr12: 871.2s
+RUN t2dm meta chr16
+DONE t2dm meta chr13: 600.0s
+RUN t2dm meta chr17
+DONE t2dm meta chr14: 570.6s
+RUN t2dm meta chr18
+DONE t2dm meta chr15: 578.7s
+RUN t2dm meta chr19
+DONE t2dm meta chr18: 497.5s
+RUN t2dm meta chr20
+DONE t2dm meta chr17: 596.1s
+RUN t2dm meta chr21
+DONE t2dm meta chr16: 606.4s
+RUN t2dm meta chr22
+DONE t2dm meta chr19: 555.3s
+DONE t2dm meta chr21: 267.5s
+DONE t2dm meta chr22: 317.9s
+DONE t2dm meta chr20: 511.4s
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u27a>
+Subject: Job 4404289: <grid.csx.t2dm.weights> in cluster <qmhpc> Done
+
+Job <grid.csx.t2dm.weights> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 21:00:45 2026
+Job was executed on host(s) <32*b04u27a>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 12 22:19:21 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Thu Nov 12 22:19:21 2026
+Terminated at Fri Nov 13 03:37:50 2026
+Results reported at Fri Nov 13 03:37:50 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.csx.t2dm.weights
+#BSUB -q 38
+#BSUB -n 32
+#BSUB -R "span[hosts=1] rusage[mem=256GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run5/logs/t2dm.weights.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run5/logs/t2dm.weights.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 32 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/grid/2.csx.sh weights --traits t2dm --output-root /work/sph-huangj/analysis/grid
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run5/plan.json --key t2dm.weights
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   58422.26 sec.
+    Max Memory :                                 2052 MB
+    Average Memory :                             998.53 MB
+    Total Requested Memory :                     262144.00 MB
+    Delta Memory :                               260092.00 MB
+    Max Swap :                                   -
+    Max Processes :                              17
+    Max Threads :                                20
+    Run time :                                   19111 sec.
+    Turnaround time :                            23825 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run5/logs/t2dm.weights.4404289.err> for stderr output of this job.
+

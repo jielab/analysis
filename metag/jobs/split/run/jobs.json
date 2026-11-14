@@ -1,0 +1,314 @@
+{
+  "code_identity": "0fef49ee3e234ea0199c839dd5a60cf84fd54f4d0ff4d85f7f7f7f0fc11e9eff",
+  "commands": [
+    {
+      "depends_on": [],
+      "path": "/work/sph-huangj/analysis/metag/jobs/split/run/split.1.cmd",
+      "role": "split_1",
+      "sha256": "4acfe3146eb8fc6255ccfff96a2b0928321af5b7837fd0dc91c602a5c672e712"
+    },
+    {
+      "dependency_condition": "ended",
+      "depends_on": [
+        "split_1"
+      ],
+      "path": "/work/sph-huangj/analysis/metag/jobs/split/run/summary.cmd",
+      "role": "summary",
+      "sha256": "8c18cba287ee0e5678e6c6629e5ce81dcb590f2efb825bf91e502d2a48065b35"
+    }
+  ],
+  "config": "/work/sph-huangj/analysis/metag/jobs/split/run/config.json",
+  "config_identity": "2d5af2aeaea480184d01b1624d6ec3b2bfa5a4ae77e72b5bd50d8bf4356e0889",
+  "context": {
+    "database_identity": "517413916fb7977ebd433a287a5d1a1af9c22a5390dce40213e43de313c5013c",
+    "database_runtime_states": {
+      "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/delnodes.dmp": {
+        "size": 7579967
+      },
+      "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/merged.dmp": {
+        "size": 1932463
+      },
+      "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/names.dmp": {
+        "size": 317753670
+      },
+      "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/nodes.dmp": {
+        "size": 232650504
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/hashes.txt": {
+        "size": 315
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/invertebrates/hash.k2d": {
+        "size": 283566953356
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/invertebrates/opts.k2d": {
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/invertebrates/taxo.k2d": {
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/microbes/hash.k2d": {
+        "size": 101819298408
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/microbes/opts.k2d": {
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/microbes/taxo.k2d": {
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/opts.k2d": {
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/plants/hash.k2d": {
+        "size": 148288577860
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/plants/opts.k2d": {
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/plants/taxo.k2d": {
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/taxo.k2d": {
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/hash.k2d": {
+        "size": 1131809205424
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/opts.k2d": {
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/taxo.k2d": {
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/viruses/hash.k2d": {
+        "size": 664467780
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/viruses/opts.k2d": {
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/viruses/taxo.k2d": {
+        "size": 4916632
+      }
+    },
+    "source_release": "/work/sph-huangj/analysis/metag/releases/0fef49ee3e234ea0199c839dd5a60cf84fd54f4d0ff4d85f7f7f7f0fc11e9eff/metag",
+    "split": {
+      "batches": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "pilot_indices": [
+        9
+      ],
+      "sample_states": [
+        {
+          "r1": {
+            "ctime_ns": 1794277763963418955,
+            "mtime_ns": 1790855484000000000,
+            "size": 2386689729
+          },
+          "r2": {
+            "ctime_ns": 1794277825435909910,
+            "mtime_ns": 1790944862000000000,
+            "size": 2390898471
+          }
+        },
+        {
+          "r1": {
+            "ctime_ns": 1794277890922485652,
+            "mtime_ns": 1790856207000000000,
+            "size": 2615781210
+          },
+          "r2": {
+            "ctime_ns": 1794277947205045123,
+            "mtime_ns": 1790943917000000000,
+            "size": 2623028257
+          }
+        },
+        {
+          "r1": {
+            "ctime_ns": 1794277983051051054,
+            "mtime_ns": 1790951633000000000,
+            "size": 1447148206
+          },
+          "r2": {
+            "ctime_ns": 1794278011993103626,
+            "mtime_ns": 1791814155000000000,
+            "size": 1452839537
+          }
+        },
+        {
+          "r1": {
+            "ctime_ns": 1794278058900052490,
+            "mtime_ns": 1790964376000000000,
+            "size": 2167372765
+          },
+          "r2": {
+            "ctime_ns": 1794278114786865594,
+            "mtime_ns": 1790954097000000000,
+            "size": 2174927386
+          }
+        },
+        {
+          "r1": {
+            "ctime_ns": 1794278156095109809,
+            "mtime_ns": 1790914859000000000,
+            "size": 1620181513
+          },
+          "r2": {
+            "ctime_ns": 1794278194362194804,
+            "mtime_ns": 1790957263000000000,
+            "size": 1629735703
+          }
+        },
+        {
+          "r1": {
+            "ctime_ns": 1794278236715025884,
+            "mtime_ns": 1790964859000000000,
+            "size": 1948580589
+          },
+          "r2": {
+            "ctime_ns": 1794278285200533842,
+            "mtime_ns": 1790966772000000000,
+            "size": 1954209110
+          }
+        },
+        {
+          "r1": {
+            "ctime_ns": 1794278319778686511,
+            "mtime_ns": 1790966318000000000,
+            "size": 1539109141
+          },
+          "r2": {
+            "ctime_ns": 1794278354661460880,
+            "mtime_ns": 1790933952000000000,
+            "size": 1545126642
+          }
+        },
+        {
+          "r1": {
+            "ctime_ns": 1794278405979844387,
+            "mtime_ns": 1790975091000000000,
+            "size": 2358025061
+          },
+          "r2": {
+            "ctime_ns": 1794278465257037676,
+            "mtime_ns": 1790972202000000000,
+            "size": 2366193792
+          }
+        },
+        {
+          "r1": {
+            "ctime_ns": 1794278511284107698,
+            "mtime_ns": 1790944917000000000,
+            "size": 1915427258
+          },
+          "r2": {
+            "ctime_ns": 1794278552087717222,
+            "mtime_ns": 1790947375000000000,
+            "size": 1921888118
+          }
+        },
+        {
+          "r1": {
+            "ctime_ns": 1794278656888389434,
+            "mtime_ns": 1790972681000000000,
+            "size": 3609053538
+          },
+          "r2": {
+            "ctime_ns": 1794278791557292571,
+            "mtime_ns": 1790983296000000000,
+            "size": 3618425328
+          }
+        }
+      ],
+      "samples": [
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862437_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862437_2.fastq.gz",
+          "sample": "SRR23862437",
+          "sample_id": "Ndesert/SRR23862437"
+        },
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862438_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862438_2.fastq.gz",
+          "sample": "SRR23862438",
+          "sample_id": "Ndesert/SRR23862438"
+        },
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862439_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862439_2.fastq.gz",
+          "sample": "SRR23862439",
+          "sample_id": "Ndesert/SRR23862439"
+        },
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862440_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862440_2.fastq.gz",
+          "sample": "SRR23862440",
+          "sample_id": "Ndesert/SRR23862440"
+        },
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862441_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862441_2.fastq.gz",
+          "sample": "SRR23862441",
+          "sample_id": "Ndesert/SRR23862441"
+        },
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862442_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862442_2.fastq.gz",
+          "sample": "SRR23862442",
+          "sample_id": "Ndesert/SRR23862442"
+        },
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862443_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862443_2.fastq.gz",
+          "sample": "SRR23862443",
+          "sample_id": "Ndesert/SRR23862443"
+        },
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862444_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862444_2.fastq.gz",
+          "sample": "SRR23862444",
+          "sample_id": "Ndesert/SRR23862444"
+        },
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862445_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862445_2.fastq.gz",
+          "sample": "SRR23862445",
+          "sample_id": "Ndesert/SRR23862445"
+        },
+        {
+          "dataset": "Ndesert",
+          "r1": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862446_1.fastq.gz",
+          "r2": "/work/sph-huangj/data/metag/raw/Ndesert/SRR23862446_2.fastq.gz",
+          "sample": "SRR23862446",
+          "sample_id": "Ndesert/SRR23862446"
+        }
+      ],
+      "selected_batches": [
+        1
+      ]
+    }
+  },
+  "identity": "debf2978c5c9a7776fa6f930795281697d393334958587c562012ce41496dfd3",
+  "kind": "parallel_split",
+  "manifest_digest": "8960360fcaeb73a38accd5fe83d748f452324629412912e5cd40e3c85ab449c4",
+  "schema": 1
+}

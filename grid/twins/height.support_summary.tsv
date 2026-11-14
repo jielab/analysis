@@ -1,0 +1,3 @@
+trait	role	n	supported_n	actual_coverage
+height	calibration	48569	45811	0.9432148077992135
+height	test	243372	229328	0.9422941012113144

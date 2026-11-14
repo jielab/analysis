@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+source /work/sph-huangj/scripts/grid/f/0.common.sh
+grid_activate_environment
+export GRID_CSX_BACKEND=cpu GRID_CSX_GPU=0 GRID_CSX_MODULE=csx
+python3 /work/sph-huangj/scripts/grid/f/0.common.py disco-inputs /work/sph-huangj/data/gen/ukb/pca_proj/ukb.discodivas.pca.tsv.gz /work/sph-huangj/files/DiscoDivas/med.g1000.4pop.tsv /work/sph-huangj/data/gen/ukb/pgs/height /work/sph-huangj/analysis/grid/tmp/disco/height 10 ''  > /work/sph-huangj/analysis/grid/logs/disco/height/prepare.log 2>&1
+/work/sph-huangj/.conda/envs/grid/bin/Rscript /work/sph-huangj/scripts/grid/f/3.disco.R -m /work/sph-huangj/analysis/grid/tmp/disco/height/centers.tsv -p /work/sph-huangj/analysis/grid/tmp/disco/height/pca.tsv --prs.list /work/sph-huangj/analysis/grid/tmp/disco/height/AFR.tsv\,/work/sph-huangj/analysis/grid/tmp/disco/height/EAS.tsv\,/work/sph-huangj/analysis/grid/tmp/disco/height/EUR.tsv\,/work/sph-huangj/analysis/grid/tmp/disco/height/SAS.tsv -s IID\,PRS -A 1\,1\,1\,1 --regress.PCA TRUE --print.coef TRUE -o /work/sph-huangj/analysis/grid/tmp/disco/height/disco  > /work/sph-huangj/analysis/grid/logs/disco/height/disco.log 2>&1
+python3 /work/sph-huangj/scripts/grid/f/0.common.py disco-output /work/sph-huangj/analysis/grid/tmp/disco/height/disco.tsv.gz /work/sph-huangj/analysis/grid/tmp/disco/height  > /work/sph-huangj/analysis/grid/logs/disco/height/validate.log 2>&1
+python3 /work/sph-huangj/scripts/grid/f/0.common.py publish disco /work/sph-huangj/analysis/grid/tmp/disco/height/disco.tsv.gz /work/sph-huangj/data/gen/ukb/pgs/height/2disco.scores.rds --remove ''  > /work/sph-huangj/analysis/grid/logs/disco/step.1794529466713467503.3332269.log 2>&1
+/work/sph-huangj/.conda/envs/grid/bin/Rscript /work/sph-huangj/scripts/grid/../0f/results.R import-table /work/sph-huangj/analysis/grid/tmp/disco/height/disco.coef.tsv.gz /work/sph-huangj/data/gen/ukb/pgs/height/2disco.coefficients.xlsx  > /work/sph-huangj/analysis/grid/logs/disco/step.1794529476403868361.3332269.log 2>&1

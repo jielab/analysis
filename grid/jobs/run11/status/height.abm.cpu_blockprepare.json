@@ -1,0 +1,11 @@
+{
+  "completion_contract": "process_exit_only",
+  "ended": "2026-11-13T04:34:18.482342+00:00",
+  "job_id": "4406331",
+  "key": "height.abm.cpu_blockprepare",
+  "pid": 1716616,
+  "plan_sha256": "5fda59deb4af89ef673ff1645ba8dc5e6676b7c96dd50e8fbddf8a4627440689",
+  "returncode": 0,
+  "started": "2026-11-13T02:45:02.839623+00:00",
+  "status": "DONE"
+}

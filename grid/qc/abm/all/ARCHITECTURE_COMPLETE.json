@@ -1,0 +1,25 @@
+{
+  "artifacts": {
+    "geometry_by_trait_map.tsv": 1158,
+    "posterior_regional_dimensionality.tsv": 6646,
+    "posterior_top_blocks.tsv": 74697
+  },
+  "details": {
+    "historical_performance_tables_read": false,
+    "outcome_fit": false,
+    "prepare_receipt_file_record": {
+      "height": "file:1246",
+      "ldl": "file:1242",
+      "t2dm": "file:1239"
+    },
+    "traits": [
+      "height",
+      "ldl",
+      "t2dm"
+    ]
+  },
+  "schema_version": "grid.abm.1",
+  "stage": "architecture",
+  "status": "complete",
+  "version": "20261112.1"
+}

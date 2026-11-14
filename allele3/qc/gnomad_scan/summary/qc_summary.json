@@ -1,0 +1,15 @@
+{
+  "alt_observed_pass": 543315009,
+  "alt_present_below_threshold": 12455,
+  "alt_present_failed_filter": 78619937,
+  "eligible_sites": 503781385,
+  "loci_with_ambiguous_context": 65,
+  "loci_without_qualifying_alt": 58751898,
+  "multi_alt_loci": 37984306,
+  "multi_alt_loci_discordant_an": 15767285,
+  "multi_alt_sites": 37984306,
+  "non_snv_alt_entries": 51547580,
+  "non_snv_ref_records": 54374715,
+  "records_scanned": 727869696,
+  "three_alt_loci": 1549318
+}

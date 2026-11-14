@@ -1,0 +1,30 @@
+PLINK v2.0.0-a.7.13 64-bit (15 Oct 2026)
+Options in effect:
+  --memory 16384
+  --out /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all
+  --pfile /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned
+  --read-freq /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ref.acount
+  --score /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ref.eigenvec.allele 2 5 header-read variance-standardize cols=+scoresums
+  --score-col-nums 6-15
+  --threads 4
+
+Hostname: r13n04
+Working directory: /work/sph-huangj/scripts/allele3
+Start time: Thu Nov 12 20:23:27 2026
+
+Random number seed: 1794486207
+192846 MiB RAM detected, ~182252 available; reserving 16384 MiB for main
+workspace.
+Using up to 4 compute threads.
+14439 samples (0 females, 0 males, 14439 ambiguous; 14439 founders) loaded from
+/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned.psam.
+57605 variants loaded from
+/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all_pruned.pvar.
+Note: No phenotype data present.
+--read-freq: PLINK 2 --freq file detected.
+--read-freq: Frequencies for 57605 variants loaded.
+--score: 57605 variants processed.
+--score: Results written to
+/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/all.sscore .
+
+End time: Thu Nov 12 20:23:28 2026

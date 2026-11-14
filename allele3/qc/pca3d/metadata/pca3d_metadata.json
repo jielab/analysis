@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "psam": {
+      "path": "/work/sph-huangj/data/gen/ancient/AncientDNA_plus_EUR1KG_AllVariants_NoQC_GRCh37_autosomes.psam",
+      "size": 221391,
+      "mtime_ns": 1778805542000000000,
+      "edge_sha256": "b2e29863d2a4207327499f3fd7e1df6c9a8844e85579a0e7f534227e8b416533"
+    },
+    "supplement": {
+      "path": "/work/sph-huangj/data/gen/ancient/41586_2026_10358_MOESM3_ESM.xlsx",
+      "size": 5365772,
+      "mtime_ns": 1790996963000000000,
+      "edge_sha256": "40871932caf725d8dba0d95dde1670a623c964876a2fbd84c44ef4b04256992f"
+    },
+    "qpadm": null,
+    "ancestry_model": null
+  },
+  "outputs": {
+    "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/metadata/sample_metadata.tsv": "3743decbef2e967634a709c2bf5b7cf76bd76f9d4f8c3f7fc15766927784e2db",
+    "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/metadata/metadata_qc.tsv": "81c71162b5f8ee30b42c0f83ef694db3166a78eea79dc1340c5590afdbbeeb6a",
+    "/work/sph-huangj/analysis/allele3/tmp/pca3d/work/metadata/metadata_qc.json": "8a7e747799125a577dd116bbec4f043b19ca49fa55f6495aa8131824a42d7cd0"
+  }
+}

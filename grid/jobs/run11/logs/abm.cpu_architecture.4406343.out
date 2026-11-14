@@ -1,0 +1,64 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/grid.sh architecture --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml
+[GRID ABM] LD audit {"mode": "population_multiview", "layout_id": "multi37_dd26c5bb7441", "block_files": ["/work/sph-huangj/data/LD/block/AFR.37.bed", "/work/sph-huangj/data/LD/block/EAS.37.bed", "/work/sph-huangj/data/LD/block/EUR.37.bed", "/work/sph-huangj/data/LD/block/SAS.37.bed"], "block_file_record": {"AFR.37.bed": "file:61593", "EAS.37.bed": "file:34464", "EUR.37.bed": "file:40632", "SAS.37.bed": "file:34464"}, "counts": {"AFR": 2581, "EAS": 1445, "EUR": 1703, "SAS": 1445}, "total_tokens": 7174, "channels": ["scalar"], "channel_count": 1, "genome_build": 37, "layout_mode": "population_multiview", "coordinate_semantics": "BED 0-based half-open; PRS BP converted to BP-1", "files": [{"resolved_path": "/work/sph-huangj/data/LD/block/AFR.37.bed", "filename": "AFR.37.bed", "block_count": 2581, "file_record": "file:61593"}, {"resolved_path": "/work/sph-huangj/data/LD/block/EAS.37.bed", "filename": "EAS.37.bed", "block_count": 1445, "file_record": "file:34464"}, {"resolved_path": "/work/sph-huangj/data/LD/block/EUR.37.bed", "filename": "EUR.37.bed", "block_count": 1703, "file_record": "file:40632"}, {"resolved_path": "/work/sph-huangj/data/LD/block/SAS.37.bed", "filename": "SAS.37.bed", "block_count": 1445, "file_record": "file:34464"}], "population_count_status": "matches_expected_local_2016_counts"}
+[GRID ABM] LD audit {"mode": "population_multiview", "layout_id": "multi37_dd26c5bb7441", "block_files": ["/work/sph-huangj/data/LD/block/AFR.37.bed", "/work/sph-huangj/data/LD/block/EAS.37.bed", "/work/sph-huangj/data/LD/block/EUR.37.bed", "/work/sph-huangj/data/LD/block/SAS.37.bed"], "block_file_record": {"AFR.37.bed": "file:61593", "EAS.37.bed": "file:34464", "EUR.37.bed": "file:40632", "SAS.37.bed": "file:34464"}, "counts": {"AFR": 2581, "EAS": 1445, "EUR": 1703, "SAS": 1445}, "total_tokens": 7174, "channels": ["scalar"], "channel_count": 1, "genome_build": 37, "layout_mode": "population_multiview", "coordinate_semantics": "BED 0-based half-open; PRS BP converted to BP-1", "files": [{"resolved_path": "/work/sph-huangj/data/LD/block/AFR.37.bed", "filename": "AFR.37.bed", "block_count": 2581, "file_record": "file:61593"}, {"resolved_path": "/work/sph-huangj/data/LD/block/EAS.37.bed", "filename": "EAS.37.bed", "block_count": 1445, "file_record": "file:34464"}, {"resolved_path": "/work/sph-huangj/data/LD/block/EUR.37.bed", "filename": "EUR.37.bed", "block_count": 1703, "file_record": "file:40632"}, {"resolved_path": "/work/sph-huangj/data/LD/block/SAS.37.bed", "filename": "SAS.37.bed", "block_count": 1445, "file_record": "file:34464"}], "population_count_status": "matches_expected_local_2016_counts"}
+[GRID ABM] LD audit {"mode": "population_multiview", "layout_id": "multi37_dd26c5bb7441", "block_files": ["/work/sph-huangj/data/LD/block/AFR.37.bed", "/work/sph-huangj/data/LD/block/EAS.37.bed", "/work/sph-huangj/data/LD/block/EUR.37.bed", "/work/sph-huangj/data/LD/block/SAS.37.bed"], "block_file_record": {"AFR.37.bed": "file:61593", "EAS.37.bed": "file:34464", "EUR.37.bed": "file:40632", "SAS.37.bed": "file:34464"}, "counts": {"AFR": 2581, "EAS": 1445, "EUR": 1703, "SAS": 1445}, "total_tokens": 7174, "channels": ["scalar"], "channel_count": 1, "genome_build": 37, "layout_mode": "population_multiview", "coordinate_semantics": "BED 0-based half-open; PRS BP converted to BP-1", "files": [{"resolved_path": "/work/sph-huangj/data/LD/block/AFR.37.bed", "filename": "AFR.37.bed", "block_count": 2581, "file_record": "file:61593"}, {"resolved_path": "/work/sph-huangj/data/LD/block/EAS.37.bed", "filename": "EAS.37.bed", "block_count": 1445, "file_record": "file:34464"}, {"resolved_path": "/work/sph-huangj/data/LD/block/EUR.37.bed", "filename": "EUR.37.bed", "block_count": 1703, "file_record": "file:40632"}, {"resolved_path": "/work/sph-huangj/data/LD/block/SAS.37.bed", "filename": "SAS.37.bed", "block_count": 1445, "file_record": "file:34464"}], "population_count_status": "matches_expected_local_2016_counts"}
+[GRID ABM] current representation architecture completed
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u09b>
+Subject: Job 4406343: <grid.architecture> in cluster <qmhpc> Done
+
+Job <grid.architecture> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 09:44:53 2026
+Job was executed on host(s) <40*b08u09b>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 22:39:15 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Fri Nov 13 22:39:15 2026
+Terminated at Fri Nov 13 22:39:41 2026
+Results reported at Fri Nov 13 22:39:41 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.architecture
+#BSUB -q 33
+#BSUB -n 40
+#BSUB -R "span[hosts=1] rusage[mem=16GB/host]"
+#BSUB -W 24:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run11/logs/abm.cpu_architecture.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run11/logs/abm.cpu_architecture.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 40 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: height.abm.cpu_evaluate, ldl.abm.cpu_evaluate, t2dm.abm.cpu_evaluate
+# Scientific command: bash /work/sph-huangj/scripts/grid/grid.sh architecture --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid --block-config /work/sph-huangj/scripts/grid/config/abm.blocks.yml
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run11/plan.json --key abm.cpu_architecture
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.93 sec.
+    Max Memory :                                 101 MB
+    Average Memory :                             78.00 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               16283.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                9
+    Run time :                                   25 sec.
+    Turnaround time :                            46488 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run11/logs/abm.cpu_architecture.4406343.err> for stderr output of this job.
+

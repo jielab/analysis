@@ -1,0 +1,5 @@
+[allocation] LSF job=4404565 cores=20 budget=64 GiB; scheduler-controlled worker
+usage: console.py [-h] --log-dir LOG_DIR --label LABEL [--interval INTERVAL]
+                  [--verbose]
+                  ...
+console.py: error: argument --label: label must start with a letter/digit and contain only letters, digits, _, . or -

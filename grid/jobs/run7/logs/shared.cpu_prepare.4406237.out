@@ -1,0 +1,165 @@
+[EXEC] bash /work/sph-huangj/scripts/grid/4.prsformer.sh prepare --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid --device cpu --threads 8
+[lock] waiting 60s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 120s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 180s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 240s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 300s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 361s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 421s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 481s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 541s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 601s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 661s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 721s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 781s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 841s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 901s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 961s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1021s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1082s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1142s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1202s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1262s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1322s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1382s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1442s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1502s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1562s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1622s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1682s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1742s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1803s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1863s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1923s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 1983s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 2043s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[lock] waiting 2103s: /work/sph-huangj/analysis/grid/tmp/cache/shared_preparation/.resume.lock
+[GRID data] Reading table with R: split.rds
+SHARED ROSTER OK: N=486,745; test=243,372; reused unchanged
+COHORT: reading phenotype /work/sph-huangj/phe/ukb/Rdata/all.rds
+[GRID data] Reading selected columns with R: all.rds
+COHORT: reading ancestry /work/sph-huangj/data/gen/ukb/pca_proj/ukb.ancestry.auto.tsv.gz
+LABEL height: train=194,121, validation=48,542, test=242,644
+LABEL ldl: train=163,182, validation=40,769, test=203,355
+LABEL t2dm: train=194,698, validation=48,675, test=243,372
+PREPARE: 486,745 individuals x 158,604 candidate SNPs; ALT dosage, missing=-1, float16
+DISK: upper bound 144.30 GiB for the final shared matrix plus reserve; train-only MAF>=0.01, call rate>=0.98
+STAGING: RAM 143.80 GiB; job headroom 255.36 GiB
+GENOTYPES chr1: checked 5,664/12,859; cumulative 5,116 SNPs retained
+GENOTYPES chr1: checked 11,552/12,859; cumulative 10,390 SNPs retained
+GENOTYPES chr1: cumulative 11,548 SNPs retained
+GENOTYPES chr2: checked 4,384/11,863; cumulative 15,435 SNPs retained
+GENOTYPES chr2: checked 10,272/11,863; cumulative 20,586 SNPs retained
+GENOTYPES chr2: cumulative 22,021 SNPs retained
+GENOTYPES chr3: checked 4,000/9,778; cumulative 25,557 SNPs retained
+GENOTYPES chr3: cumulative 30,712 SNPs retained
+GENOTYPES chr4: checked 32/8,514; cumulative 30,735 SNPs retained
+GENOTYPES chr4: checked 5,888/8,514; cumulative 35,900 SNPs retained
+GENOTYPES chr4: cumulative 38,242 SNPs retained
+GENOTYPES chr5: checked 3,008/8,968; cumulative 40,971 SNPs retained
+GENOTYPES chr5: checked 8,896/8,968; cumulative 46,267 SNPs retained
+GENOTYPES chr5: cumulative 46,335 SNPs retained
+GENOTYPES chr6: checked 5,664/14,324; cumulative 51,406 SNPs retained
+GENOTYPES chr6: checked 11,616/14,324; cumulative 56,545 SNPs retained
+GENOTYPES chr6: cumulative 58,944 SNPs retained
+GENOTYPES chr7: checked 2,976/7,993; cumulative 61,542 SNPs retained
+GENOTYPES chr7: cumulative 66,054 SNPs retained
+GENOTYPES chr8: checked 608/7,477; cumulative 66,586 SNPs retained
+GENOTYPES chr8: checked 6,464/7,477; cumulative 71,790 SNPs retained
+GENOTYPES chr8: cumulative 72,687 SNPs retained
+GENOTYPES chr9: checked 4,672/7,308; cumulative 76,770 SNPs retained
+GENOTYPES chr9: cumulative 79,139 SNPs retained
+GENOTYPES chr10: checked 3,040/8,077; cumulative 81,816 SNPs retained
+GENOTYPES chr10: cumulative 86,301 SNPs retained
+GENOTYPES chr11: checked 640/7,921; cumulative 86,897 SNPs retained
+GENOTYPES chr11: checked 6,528/7,921; cumulative 92,107 SNPs retained
+GENOTYPES chr11: cumulative 93,354 SNPs retained
+GENOTYPES chr12: checked 4,288/7,846; cumulative 97,147 SNPs retained
+GENOTYPES chr12: cumulative 100,351 SNPs retained
+GENOTYPES chr13: checked 2,080/5,481; cumulative 102,208 SNPs retained
+GENOTYPES chr13: cumulative 105,198 SNPs retained
+GENOTYPES chr14: checked 2,240/5,070; cumulative 107,169 SNPs retained
+GENOTYPES chr14: cumulative 109,695 SNPs retained
+GENOTYPES chr15: checked 2,848/5,127; cumulative 112,239 SNPs retained
+GENOTYPES chr15: cumulative 114,264 SNPs retained
+GENOTYPES chr16: checked 3,328/5,504; cumulative 117,235 SNPs retained
+GENOTYPES chr16: cumulative 119,160 SNPs retained
+GENOTYPES chr17: checked 3,456/5,402; cumulative 122,227 SNPs retained
+GENOTYPES chr17: cumulative 123,996 SNPs retained
+GENOTYPES chr18: checked 3,744/4,456; cumulative 127,338 SNPs retained
+GENOTYPES chr18: cumulative 127,969 SNPs retained
+GENOTYPES chr19: cumulative 132,313 SNPs retained
+GENOTYPES chr20: checked 32/4,541; cumulative 132,342 SNPs retained
+GENOTYPES chr20: cumulative 136,405 SNPs retained
+GENOTYPES chr21: checked 1,184/2,340; cumulative 137,462 SNPs retained
+GENOTYPES chr21: cumulative 138,529 SNPs retained
+GENOTYPES chr22: cumulative 141,149 SNPs retained
+WRITE: sequential sample-major genotypes 486,745 x 141,149; 127.97 GiB
+WRITE: 83,898/486,745 rows (17.2%); 375.9 MiB/s
+WRITE: 167,559/486,745 rows (34.4%); 375.3 MiB/s
+WRITE: 250,746/486,745 rows (51.5%); 374.3 MiB/s
+WRITE: 334,407/486,745 rows (68.7%); 374.3 MiB/s
+WRITE: 416,409/486,745 rows (85.5%); 373.0 MiB/s
+WRITE: 486,745/486,745 rows (100.0%); 371.9 MiB/s
+WRITE OK: durable genotype matrix in 352.5s
+PREPARE OK: 486,745 individuals x 141,149 SNPs -> /work/sph-huangj/analysis/grid/tmp/prsformer/cache
+[shared inputs] READY: frozen cohort and genotype cache; no model trained
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u39a>
+Subject: Job 4406237: <grid.prsformer.shared.cpu_prepare> in cluster <qmhpc> Exited
+
+Job <grid.prsformer.shared.cpu_prepare> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 07:47:51 2026
+Job was executed on host(s) <32*b04u39a>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Fri Nov 13 07:47:52 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/grid> was used as the working directory.
+Started at Fri Nov 13 07:47:52 2026
+Terminated at Fri Nov 13 08:59:21 2026
+Results reported at Fri Nov 13 08:59:21 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J grid.prsformer.shared.cpu_prepare
+#BSUB -q 38
+#BSUB -n 32
+#BSUB -R "span[hosts=1] rusage[mem=256GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/grid/jobs/run7/logs/shared.cpu_prepare.%J.out
+#BSUB -e /work/sph-huangj/analysis/grid/jobs/run7/logs/shared.cpu_prepare.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 32 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/grid/4.prsformer.sh prepare --traits height,ldl,t2dm --analysis-root /work/sph-huangj/analysis/grid --device cpu --threads 8
+exec /work/sph-huangj/.conda/envs/py311/bin/python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/grid/jobs/run7/plan.json --key shared.cpu_prepare
+
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   2126.72 sec.
+    Max Memory :                                 131847 MB
+    Average Memory :                             36728.48 MB
+    Total Requested Memory :                     262144.00 MB
+    Delta Memory :                               130297.00 MB
+    Max Swap :                                   6 MB
+    Max Processes :                              6
+    Max Threads :                                8
+    Run time :                                   4287 sec.
+    Turnaround time :                            4290 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/grid/jobs/run7/logs/shared.cpu_prepare.4406237.err> for stderr output of this job.
+

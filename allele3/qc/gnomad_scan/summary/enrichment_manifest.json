@@ -1,0 +1,15 @@
+{
+  "bootstrap_replicates": 2000,
+  "difficult_region_complete": true,
+  "inference": "LOCO context/primary-AF/AN expected; percentile LD-block bootstrap CI; centered two-sided bootstrap P; BH FDR within threshold/sensitivity",
+  "ld_ancestry": "EUR",
+  "missing_loco": "NA if any exposed stratum is unsupported",
+  "n_tests": 1442,
+  "outside_partition": "excluded from inference; count retained",
+  "primary_thresholds": [
+    5,
+    10
+  ],
+  "seed": 20261024,
+  "status": "complete"
+}

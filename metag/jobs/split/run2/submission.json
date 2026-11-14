@@ -1,0 +1,47 @@
+{
+  "attempts": [
+    {
+      "jobs": [
+        {
+          "argv": [
+            "bsub"
+          ],
+          "command_path": "/work/sph-huangj/analysis/metag/jobs/split/run2/split.1.cmd",
+          "command_sha256": "523818746b18e3b845d6da2888ff58ee34d912db71ad1d19e681ac5e289aa96c",
+          "dependency": null,
+          "job_id": 4404270,
+          "receipt_path": "/work/sph-huangj/analysis/metag/jobs/split/run2/split.1.submission.json",
+          "returncode": 0,
+          "role": "split_1",
+          "schema": 1,
+          "status": "submitted",
+          "stderr": "",
+          "stdout": "Job <4404270> is submitted to queue <v3-6t>.\n",
+          "submitted_at": "2026-11-12T12:51:51.904404+00:00"
+        },
+        {
+          "argv": [
+            "bsub",
+            "-w",
+            "ended(4404270)"
+          ],
+          "command_path": "/work/sph-huangj/analysis/metag/jobs/split/run2/summary.cmd",
+          "command_sha256": "c8137001362b1f5e60f3bf03ebf720a83d00ed40f47239eb4e9afbd7eca1e3fa",
+          "dependency": "ended(4404270)",
+          "job_id": 4404271,
+          "receipt_path": "/work/sph-huangj/analysis/metag/jobs/split/run2/summary.submission.json",
+          "returncode": 0,
+          "role": "summary",
+          "schema": 1,
+          "status": "submitted",
+          "stderr": "",
+          "stdout": "Job <4404271> is submitted to queue <v3-6t>.\n",
+          "submitted_at": "2026-11-12T12:51:51.947823+00:00"
+        }
+      ],
+      "started_at": "2026-11-12T12:51:51.899206+00:00",
+      "status": "submitted"
+    }
+  ],
+  "schema": 1
+}

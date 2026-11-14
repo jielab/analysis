@@ -1,0 +1,93 @@
+# Source: phole/logs/run/fingerprint-check.log
+# Snapshot UTC: 2026-11-14T00:42:37Z
+# Source bytes: 7252
+# Capture: full text; source may still be running.
+
+
+[2026-11-13T13:01:28+00:00] /work/sph-huangj/software/venvs/phole-v5/bin/python /work/sph-huangj/scripts/phole/f/fingerprint_check.py --cross-dir /work/sph-huangj/analysis/phole/cross-check --fingerprints-dir /work/sph-huangj/analysis/phole/qc/fingerprints --out /work/sph-huangj/analysis/phole/qc/fingerprint-check --selection core-six --region-flank 250000 --cis-flank 500000 --tabix tabix --assay-manifest /work/sph-huangj/analysis/phole/logs/assay-manifest.tsv --allow-scan
+{
+  "schema": "phole-fingerprint-full-gwas-v1",
+  "mode": "full_regions",
+  "synthetic_input": null,
+  "selection": "core-six",
+  "hypotheses": 0,
+  "canonical_proteins": 0,
+  "mapped_assays": 0,
+  "unmapped_protein_cohorts": 0,
+  "planned_regions": 0,
+  "unique_region_queries": 0,
+  "source_lead_rows": 0,
+  "unique_source_coordinates": 0,
+  "full_files_inspected": 0,
+  "full_files_opened_this_run": 0,
+  "cached_files_reused": 0,
+  "regional_variants_extracted": 0,
+  "aligned_regional_variant_comparisons": 0,
+  "region_assay_rows": 0,
+  "region_comparison_rows": 0,
+  "matched_reference_controls": 0,
+  "lead_effect_rows": 0,
+  "exact_cis_windows": 0,
+  "exact_cis_window_assay_rows": 0,
+  "planned_unselected_coordinate_assay_tests": 0,
+  "followup_threshold": null,
+  "source_summary_P_mismatches": 0,
+  "source_full_selection_failures": 0,
+  "source_variant_identity_conflicts": 0,
+  "captured_identities_confirmed": 0,
+  "colocalization_tested": false,
+  "complete_scope_policy": "INPUT_SCOPE=full is a source declaration. Successful extraction inspects all supplied regional rows; file naming and observed variants do not prove full population variant coverage. No absence call for missing/unmapped/build-conflicting/empty/QC-invalid regions.",
+  "family_definition": "Frozen union source coordinate/rsID queries x every mapped intended/alternative assay; any assay selected at that coordinate excluded; missing/build-conflicting/QC-unresolved cells remain in the denominator. These are exploratory association follow-ups, not independent validation or identity tests.",
+  "shape_policy": "Signed Z Pearson/Spearman and sign agreement use every harmonizable allele variant without a significance filter. Matched-reference controls use an identical three-assay variant intersection. No inferential correlation P, beta-scale equivalence, LD independence, colocalization, or captured identity is asserted.",
+  "holdout_policy": "Region, 5 Mb, and chromosome exclusions are inherited from frozen fingerprint nominations; a region touching an exclusion is excluded in full. They are descriptive sensitivity partitions, not independent data.",
+  "source_P_policy": "Original text P is retained. Nonzero underflow remains precise via Decimal. Literal P=0 may be rounded, clipped or underflowed: a valid source LOG10P is used for association thresholds; zero without LOG10P has unresolved precision and is not assigned infinite strength or a threshold verdict. LOG10P is positive -log10(P); source-versus-full nonzero P agreement tolerance is 1 percent.",
+  "cis_boundary_policy": "Only cis-window-checks.tsv tests exact verified gene-body +/- cis_flank boundaries, including every component. Merged display-region minima must never be labelled cis minima.",
+  "lead_orientation_policy": "Prefer frozen nominating primary source, then nominating alternative reference, then lexical remaining source assays; choose first QC-resolved source, never strongest full P. Regional pair/triple alignment uses its own left/primary anchor and can resolve same-ancestry palindromes even if a separate lead anchor cannot.",
+  "interpretation": "Descriptive follow-up of selected hypotheses. Similar fingerprints and absence of detected own-cis association do not by themselves establish that two assays captured the same protein.",
+  "plan_sha256": "312f92dfbe84f2d057b377d391577730fa248b3cf4d8320f3f9aa337ba1c73f7",
+  "input_sha256": {
+    "fingerprints/fingerprint-dossiers.summary.json": "47306473b0d7e47c97c3cdaf2bd9cf0662e82c5b115736577266180bf2c75f2d",
+    "cross-check.data.json": "04875211cefdda43f8b1aa0599894bd007221fcfb2012bc57dc7e31709e1784f",
+    "signals.tsv": "a216160cb68bf9aaf0e066c5b8b14c4d5724f1c5cb37df76e12d7156deb17f46",
+    "provenance.json": "4164822e2406b288da8df0fbc95fe97e31b678777b93a2db6ff9f6d62709f396",
+    "summary.json": "e288680fb7d786f40bc5837d8f3ffd6bb312792252ddd1cb4bc5f5410fc7d6d4",
+    "input-files.tsv": "0bf2f9e05a01fb81310d3291a58164d069a3dfceb6d6acef7b9e40ebbf065b71",
+    "fingerprints/assay-evidence.tsv": "37352806a13f934231e954bb9d9500dd1b03a6ee94f51d397dc894012fc6fb5a",
+    "fingerprints/anchor-evidence.tsv": "32b55da501c38cc4a03893201ac9deede87438d9acfd91700f273f3865cf0c59",
+    "coordinates-used.tsv": "54df1499cdc7d2a1e34705e41fd4a23916282169f00374f9d84c34933ba41d47",
+    "prot.names.resolved.tsv": "75e0530208541aa10d245966c4cb961f2572759580600182d01738970bc30868",
+    "assay_manifest": "cea38ebd56bfc0f7068ad0b61dcea93328ae6693a201630c0e6cadff1772e5b0"
+  },
+  "code_sha256": {
+    "fingerprint_check.py": "94d662859fe493a99221db42428570a1fa8703ff8455e4074a6610d05091c8fe",
+    "signed_input.py": "173997875947667254975c0a7247f3c7d1dbd88335221ee9ef663d67c612d634",
+    "specificity_check.py": "60236d24cc6c2b61e241c7c26b7529f7cec4b51e10b236cd3b4fe8e015e93e48",
+    "assay_specificity.py": "1ce822802048bdb970a37d18a8a3972222f32916b8532a5908b54c38d37be254"
+  },
+  "parameters": {
+    "region_flank": 250000,
+    "cis_flank": 500000,
+    "alpha": 0.05,
+    "allow_scan": true
+  },
+  "output_sha256": {
+    "aligned-regional-variants.tsv.gz": "641a8fbea5323a7eb2082c212e1c42111294b96a62f2f2661ff9966d85c7b269",
+    "assay-plan.tsv": "c2dcaf13e9edea66bbc6640cf7cf9226bbe568335b36ebcb7327f09bf55a135f",
+    "cis-window-checks.tsv": "835709df166d28ea7de9d2a47f2ad6ae6eb0a4c3253a981fb71e05885b26a68b",
+    "cis-windows.tsv": "d8d51903e73caa2b3625c0ec58156cb8153a2b0c901a8669ce72683c1263e808",
+    "frozen-followup-family.tsv": "90c3e711d69a02e954fc26009b63ca6b64099caca9670136bd40d1e40051dae7",
+    "hypotheses.tsv": "16311f1ca28a4d45d569f70d1377344f6ab70874457defccc4e963469f3f6fee",
+    "input-receipts.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "lead-effects.tsv": "35c3f1e796fdb5a51e0ff20dea3a181d0c0c5e7f1f3b02d6a6bc2de9b3bf3c15",
+    "lead-queries.tsv": "76d937aff17d2c98d7132dc52b541950fbaadc0432cc3e82c2ccc35c8209693c",
+    "matched-reference-controls.tsv": "bfe4659212a7ca733300bf46821ab9648834d4babc073723551882a40336659a",
+    "pair-summary.tsv": "ee3b941585e1f7579fbde03da7e3cced24e05afd3951d242f7c2970d59762c6c",
+    "plan-exclusions.tsv": "1179f1d5b814346eb7e42d2321669bc673ea0201971325cf377afbb04f0055db",
+    "plot-data.json": "80aac15a7f2ad23c5ba758410b9d4c6f9f19a1a12baa5eb12bbb2b95ea689866",
+    "region-assay-qc.tsv": "f5f2c80e023f04204f5b74aea0253e580ad459f32c099db4a4797e635ed7cdb7",
+    "region-comparisons.tsv": "bfe4659212a7ca733300bf46821ab9648834d4babc073723551882a40336659a",
+    "regions.tsv": "6638100fca95f57560840f8d038c2df93b8e7bc96aa3077923154f34c7e99e66",
+    "source-summary-checks.tsv": "4ed93f62c50fc12c251f167bd19ce1dbc5bee328a83d8e7eabac0d14ab13d1b7"
+  },
+  "full_gwas_identity": "path/size/mtime_ns plus index fingerprint; not a full-file content hash"
+}

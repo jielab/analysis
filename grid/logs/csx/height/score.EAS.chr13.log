@@ -1,0 +1,27 @@
+PLINK v2.0.0-a.6.9LM 64-bit Intel (29 Jan 2025)    cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /work/sph-huangj/analysis/grid/tmp/cache/tables/fba176f2b1426b9c/scores/run/EAS.chr13.log.
+Options in effect:
+  --memory 2048
+  --out /work/sph-huangj/analysis/grid/tmp/cache/tables/fba176f2b1426b9c/scores/run/EAS.chr13
+  --pfile /work/sph-huangj/data/gen/ukb/37/typ/chr13
+  --score /work/sph-huangj/data/gwas/4grid/common/height.EAS/gwas/height.EAS.csx.gz 1 2 3 header-read no-mean-imputation list-variants cols=+scoresums
+  --threads 8
+
+Start time: Fri Nov 13 02:08:09 2026
+515370 MiB RAM detected, ~494257 available; reserving 2048 MiB for main
+workspace.
+Using up to 8 compute threads.
+488377 samples (264719 females, 223411 males, 247 ambiguous; 488377 founders)
+loaded from /work/sph-huangj/data/gen/ukb/37/typ/chr13.psam.
+26806 variants loaded from /work/sph-huangj/data/gen/ukb/37/typ/chr13.pvar.
+1 categorical phenotype loaded (488377 values).
+Warning: --score: 125527 entries in
+/work/sph-huangj/data/gwas/4grid/common/height.EAS/gwas/height.EAS.csx.gz were
+skipped due to missing variant IDs.
+--score: 4403 variants processed.
+--score: Variant list written to /work/sph-huangj/analysis/grid/tmp/cache/tables/fba176f2b1426b9c/scores/run/EAS.chr13.sscore.vars .
+--score: Results written to
+/work/sph-huangj/analysis/grid/tmp/cache/tables/fba176f2b1426b9c/scores/run/EAS.chr13.sscore
+.
+End time: Fri Nov 13 02:08:10 2026

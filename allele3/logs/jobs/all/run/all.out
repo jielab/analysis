@@ -1,0 +1,209 @@
+[allele3 1/7] environment: bash /work/sph-huangj/scripts/allele3/install.sh --check --stage all
+[execution] mode=hpc worker=1 jobs_N=8 max_running=32
+[paths] DIR_DATA=/work/sph-huangj/data ANALYSIS_ROOT=/work/sph-huangj/analysis
+{
+  "python": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/python3.12",
+  "python_version": "3.12.16 (main, Oct 26 2026, 11:37:43) [GCC 15.3.0]",
+  "stage": "all",
+  "packages": {
+    "matplotlib": {
+      "version": "3.11.2",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/matplotlib/__init__.py"
+    },
+    "numpy": {
+      "version": "2.5.4",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/numpy/__init__.py"
+    },
+    "pandas": {
+      "version": "3.1.0",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/pandas/__init__.py"
+    },
+    "pgenlib": {
+      "version": "0.95.1",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/pgenlib.cpython-312-x86_64-linux-gnu.so"
+    },
+    "plotly": {
+      "version": "7.1.0",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/plotly/__init__.py"
+    },
+    "pyliftover": {
+      "version": "0.4.1",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/pyliftover/__init__.py"
+    },
+    "pyreadr": {
+      "version": "0.5.9",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/pyreadr/__init__.py"
+    },
+    "pysam": {
+      "version": "0.24.1",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/pysam/__init__.py"
+    },
+    "scipy": {
+      "version": "1.18.1",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/scipy/__init__.py"
+    },
+    "statsmodels": {
+      "version": "0.15.0",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/statsmodels/__init__.py"
+    },
+    "zstandard": {
+      "version": "0.25.0",
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/lib/python3.12/site-packages/zstandard/__init__.py"
+    }
+  },
+  "executables": {
+    "/work/sph-huangj/.conda/envs/allele3-evolution/bin/RepeatMasker": {
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/RepeatMasker",
+      "version": [
+        "RepeatMasker version 4.2.4"
+      ],
+      "exit_code": 0
+    },
+    "/work/sph-huangj/.conda/envs/allele3-evolution/bin/rmblastn": {
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/rmblastn",
+      "version": [
+        "rmblastn: 2.17.1+",
+        " Package: blast 2.17.0, build Jul 22 2026 12:38:07"
+      ],
+      "exit_code": 0
+    },
+    "bcftools": {
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/bcftools",
+      "version": [
+        "bcftools 1.25",
+        "Using htslib 1.25",
+        "Copyright (C) 2026 Genome Research Ltd."
+      ],
+      "exit_code": 0
+    },
+    "plink2": {
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/plink2",
+      "version": [
+        "PLINK v2.0.0-a.7.13 64-bit (15 Oct 2026)"
+      ],
+      "exit_code": 0
+    },
+    "samtools": {
+      "path": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/samtools",
+      "version": [
+        "samtools 1.25",
+        "Using htslib 1.25",
+        "Copyright (C) 2026 Genome Research Ltd."
+      ],
+      "exit_code": 0
+    }
+  },
+  "errors": [],
+  "herv_pgen_python": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/python",
+  "status": "verified_selected_dependencies"
+}
+[allele3 2/7] hotspots: bash /work/sph-huangj/scripts/allele3/allele3.sh hotspots --scan-dir /work/sph-huangj/analysis/allele3/gnomad_scan --out /work/sph-huangj/analysis/allele3/hotspots --with-atlas TRUE --atlas-resources /work/sph-huangj/scripts/allele3/config/alphagenome_resources.vcf.tsv
+[execution] mode=hpc worker=1 jobs_N=8 max_running=32
+[paths] DIR_DATA=/work/sph-huangj/data ANALYSIS_ROOT=/work/sph-huangj/analysis
+[resolved path] --scan-dir = /work/sph-huangj/analysis/allele3/gnomad_scan
+[allele3] full log=/work/sph-huangj/analysis/allele3/logs/hotspots/hotspots.log
+[hotspots] start windows
+[genome-windows] background: 8,157,908 compact strata
+[hotspots] complete windows
+[hotspots] complete characterize
+[build-check] atlas_targets=GRCh38 coordinates=1-based selected_sites=1225 theoretical_ALT_per_site=3 REF_score=NA
+[build-check] atlas=avi declared=GRCh38 source=GRCh38_header_and_declared index=TBI:1-based exact_REF=checked_per_returned_target
+[dataset] atlas=avi status=ready source_version=user-declared-unverified file=/work/sph-huangj/data/annot/allele3/alphagenome/38/chr{chrom}.vcf.bgz
+[build-check] atlas=splicing declared=GRCh38 source=GRCh38_header_and_declared index=TBI:1-based exact_REF=checked_per_returned_target
+[dataset] atlas=splicing status=ready source_version=user-declared-unverified file=/work/sph-huangj/data/annot/allele3/alphagenome/38/chr{chrom}.vcf.bgz
+[build-check] atlas=avi_attributions declared=GRCh38 source=GRCh38_header_and_declared index=TBI:1-based exact_REF=checked_per_returned_target
+[dataset] atlas=avi_attributions status=ready source_version=user-declared-unverified file=/work/sph-huangj/data/annot/allele3/alphagenome/38/chr{chrom}.vcf.bgz
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@ae2u36a>
+Subject: Job 4409729: <allele3.all> in cluster <qmhpc> Exited
+
+Job <allele3.all> was submitted from host <a04u28l> by user <sph-huangj> in cluster <qmhpc> at Sat Nov 14 15:34:20 2026
+Job was executed on host(s) <40*ae2u36a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Sat Nov 14 15:34:22 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/allele3> was used as the working directory.
+Started at Sat Nov 14 15:34:22 2026
+Terminated at Sat Nov 14 16:08:32 2026
+Results reported at Sat Nov 14 16:08:32 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J "allele3.all"
+#BSUB -q 33
+#BSUB -n 40
+#BSUB -W 120:00
+#BSUB -R "span[hosts=1] rusage[mem=160GB/host]"
+#BSUB -o /work/sph-huangj/analysis/allele3/logs/jobs/all/run/all.out
+#BSUB -e /work/sph-huangj/analysis/allele3/logs/jobs/all/run/all.err
+
+set -euo pipefail
+[[ ${LSB_JOBID:-} =~ ^[1-9][0-9]*$ ]] || { echo 'Submit this .cmd with bsub; no login-node payload' >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} =~ ^[0-9]+$ && ${LSB_DJOB_NUMPROC:-0} -ge 40 ]] || { echo 'Insufficient allocated CPU slots' >&2; exit 2; }
+export ALLELE_1KG_PANEL=/work/sph-huangj/data/gen/1kg/38/samples.txt
+export ALLELE_1KG_VCF_DIR=/work/sph-huangj/data/gen/1kg/38/vcf
+export ALLELE_ALL_OF_US=/work/sph-huangj/data/annot/allele3/allofus/hg38_allofus.txt.gz
+export ALLELE_ANALYSIS_ROOT=/work/sph-huangj/analysis/allele3
+export ALLELE_ANCIENT_DIR=/work/sph-huangj/data/gen/ancient
+export ALLELE_ARCHAIC_CACHE=/work/sph-huangj/analysis/allele3/archaic_overlap
+export ALLELE_ARCHAIC_DATASETS=1kg
+export ALLELE_ARCHAIC_LIFTOVER=/work/sph-huangj/software/bin/liftOver
+export ALLELE_ARCHAIC_ROOT=/work/sph-huangj/data/gen
+export ALLELE_ATLAS_DIR=/work/sph-huangj/data/annot/allele3/alphagenome/38
+export ALLELE_CHAIN37TO38=/work/sph-huangj/files/liftOver/hg19ToHg38.over.chain.gz
+export ALLELE_CHAIN38TO37=/work/sph-huangj/files/liftOver/hg38ToHg19.over.chain.gz
+export ALLELE_COHORT_TABLE=/work/sph-huangj/data/gen/1kg/38/allele3/herv_cohort/herv_cohort_burden.tsv
+export ALLELE_COORDINATES=/work/sph-huangj/analysis/allele3/pca3d/coordinates/all.sscore
+export ALLELE_ERV_JOINED=/work/sph-huangj/data/annot/allele3/repeats/hg38/rmskJoinedCurrent.txt.gz
+export ALLELE_EXECUTION_MODE=hpc
+export ALLELE_FASTA=/work/sph-huangj/data/gen/1hgp/38/GRCH38.fasta.gz
+export ALLELE_FASTA37=/work/sph-huangj/data/gen/1hgp/37/GRCH37.fasta.gz
+export ALLELE_LD_BLOCK_DIR=/work/sph-huangj/data/LD/block
+export ALLELE_LOW_MAPPABILITY_BED=/work/sph-huangj/files/allele3/umap/hg38.k100.lt1.bed.gz
+export ALLELE_MEMORY_LIMIT_GB=160
+export ALLELE_METADATA=/work/sph-huangj/analysis/allele3/pca3d/tables/sample_metadata.tsv
+export ALLELE_PYTHON=/work/sph-huangj/.conda/envs/allele3-evolution/bin/python
+export ALLELE_REPLACE=TRUE
+export ALLELE_SCAN_STORE=/work/sph-huangj/analysis/allele3/gnomad_scan
+export ALLELE_VCF_DIR=/work/sph-huangj/data/annot/allele3/gnomad/sites
+export ANALYSIS_ROOT=/work/sph-huangj/analysis
+export DIR_ANALYSIS=/work/sph-huangj/analysis
+export DIR_ANNOT=/work/sph-huangj/data/annot
+export DIR_BIG=/work/sph-huangj/data
+export DIR_DAT=/work/sph-huangj
+export DIR_DATA=/work/sph-huangj/data
+export DIR_FILES=/work/sph-huangj/files
+export DIR_GEN=/work/sph-huangj/data/gen
+export DIR_GWAS=/work/sph-huangj/data/gwas
+export DIR_HOME=/work/sph-huangj
+export DIR_LD=/work/sph-huangj/data/LD
+export DIR_METAG=/work/sph-huangj/data/metag
+
+(... more ...)
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   1980.69 sec.
+    Max Memory :                                 564 MB
+    Average Memory :                             436.54 MB
+    Total Requested Memory :                     163840.00 MB
+    Delta Memory :                               163276.00 MB
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                8
+    Run time :                                   2048 sec.
+    Turnaround time :                            2052 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/allele3/logs/jobs/all/run/all.err> for stderr output of this job.
+

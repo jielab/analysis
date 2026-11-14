@@ -1,0 +1,4 @@
+trait	role	n	groups	radius	task
+height	calibration	48569	40003	1.3278560747686203	continuous
+height	donor	194228	159241	1.3278560747686203	continuous
+height	test	243372	199713	1.3278560747686203	continuous

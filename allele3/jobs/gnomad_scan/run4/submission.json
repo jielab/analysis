@@ -1,0 +1,26 @@
+{
+  "schema": "allele3-batch-plan-1",
+  "plan_identity": "4a85cf17be6342bc3a3c64fa66a2ee36acdf69e0c6f37e3eefdf1ddb7929ae3c",
+  "mode": "hpc",
+  "created_at": "2026-11-12T14:32:42.345790+00:00",
+  "jobs": {
+    "3_gnomad_scan_sh": {
+      "name": "3_gnomad_scan_sh",
+      "status": "submitted",
+      "job_id": 4404641,
+      "dependency": "",
+      "argv": [
+        "bsub"
+      ],
+      "command_sha256": "5f76b2d6d4760d4e955ff7a628034be30f6bc10bd231c0d86c51cf8638fc8f84",
+      "attempt": 1,
+      "started_at": "2026-11-12T14:32:42.345849+00:00",
+      "history": [],
+      "returncode": 0,
+      "stdout": "Job <4404641> is submitted to queue <33>.\n",
+      "stderr": "",
+      "finished_at": "2026-11-12T14:32:42.409413+00:00"
+    }
+  },
+  "updated_at": "2026-11-12T14:32:42.409425+00:00"
+}

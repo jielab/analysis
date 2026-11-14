@@ -1,0 +1,32 @@
+[
+  {
+    "job_id": "4406245",
+    "old": "done(4406239)",
+    "new": "done(4406239)",
+    "result": "Parameters of job <4406245> are being changed\n"
+  },
+  {
+    "job_id": "4406246",
+    "old": "done(4406240) && ended(4406238)",
+    "new": "done(4406240)",
+    "result": "Parameters of job <4406246> are being changed\n"
+  },
+  {
+    "job_id": "4406247",
+    "old": "done(4406241) && ended(4406239)",
+    "new": "done(4406241)",
+    "result": "Parameters of job <4406247> are being changed\n"
+  },
+  {
+    "job_id": "4406248",
+    "old": "done(4406242) && ended(4406240)",
+    "new": "done(4406242)",
+    "result": "Parameters of job <4406248> are being changed\n"
+  },
+  {
+    "job_id": "4406249",
+    "old": "done(4406243) && ended(4406241)",
+    "new": "done(4406243)",
+    "result": "Parameters of job <4406249> are being changed\n"
+  }
+]

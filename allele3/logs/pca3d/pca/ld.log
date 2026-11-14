@@ -1,0 +1,28 @@
+PLINK v2.0.0-a.7.13 64-bit (15 Oct 2026)
+Options in effect:
+  --indep-pairwise 200kb 1 0.1
+  --memory 16384
+  --out /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ld
+  --pfile /work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/basis_common
+  --threads 4
+
+Hostname: r13n04
+Working directory: /work/sph-huangj/scripts/allele3
+Start time: Thu Nov 12 20:22:50 2026
+
+Random number seed: 1794486170
+192846 MiB RAM detected, ~182251 available; reserving 16384 MiB for main
+workspace.
+Using up to 4 compute threads.
+4374 samples (0 females, 0 males, 4374 ambiguous; 4374 founders) loaded from
+/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/basis_common.psam.
+5330204 variants loaded from
+/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/basis_common.pvar.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+--indep-pairwise (3 compute threads): 5272599/5330204 variants removed.
+Variant lists written to
+/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ld.prune.in and
+/work/sph-huangj/analysis/allele3/tmp/pca3d/work/pca/ld.prune.out .
+
+End time: Thu Nov 12 20:22:57 2026
