@@ -1,0 +1,506 @@
+{
+  "classifier": "kraken",
+  "classify_threads": 22,
+  "context": {
+    "classifier_engine": "kraken",
+    "code_release": "/work/sph-huangj/analysis/metag/releases/0fef49ee3e234ea0199c839dd5a60cf84fd54f4d0ff4d85f7f7f7f0fc11e9eff/metag",
+    "confidence": 0.1,
+    "database_files": {
+      "hashes.txt": {
+        "runtime_state": {
+          "ctime_ns": 1794230836398654803,
+          "mtime_ns": 1794230836398654803,
+          "size": 315
+        },
+        "sha256": "dd5eea5e2e6397131447cb5b8692060929e216337ce5a65aa1c4030c9a3dc6b2",
+        "state": {
+          "size": 315
+        }
+      },
+      "invertebrates/hash.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793945819397361000,
+          "mtime_ns": 1793945546377320744,
+          "size": 283566953356
+        },
+        "sha256": "1a56b6c961ff4120b8ca9b7ac0a0b5fc77cc4abf4655fbac0368b9437828839e",
+        "state": {
+          "size": 283566953356
+        }
+      },
+      "invertebrates/opts.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793895724006680306,
+          "mtime_ns": 1793895724006680306,
+          "size": 64
+        },
+        "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+        "state": {
+          "size": 64
+        }
+      },
+      "invertebrates/taxo.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793895722836693588,
+          "mtime_ns": 1793895722836693588,
+          "size": 4916632
+        },
+        "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+        "state": {
+          "size": 4916632
+        }
+      },
+      "microbes/hash.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793921218110264000,
+          "mtime_ns": 1793920056437855499,
+          "size": 101819298408
+        },
+        "sha256": "6ca8f1ab1480bb7aa6f9564dbb20730bf0e067ab92dc8438ac60270e9841e18d",
+        "state": {
+          "size": 101819298408
+        }
+      },
+      "microbes/opts.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793901384786117344,
+          "mtime_ns": 1793901384786117344,
+          "size": 64
+        },
+        "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+        "state": {
+          "size": 64
+        }
+      },
+      "microbes/taxo.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793901383028385500,
+          "mtime_ns": 1793901383028385500,
+          "size": 4916632
+        },
+        "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+        "state": {
+          "size": 4916632
+        }
+      },
+      "opts.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1794230836396905809,
+          "mtime_ns": 1794230836396905809,
+          "size": 64
+        },
+        "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+        "state": {
+          "size": 64
+        }
+      },
+      "plants/hash.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793927277619722000,
+          "mtime_ns": 1793927167111092358,
+          "size": 148288577860
+        },
+        "sha256": "f497d03fc18ab8f7c9ec9fdb5f6cac005acc656945e0ba5c6bdf46dfb5514b51",
+        "state": {
+          "size": 148288577860
+        }
+      },
+      "plants/opts.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793898106671417201,
+          "mtime_ns": 1793898106671417201,
+          "size": 64
+        },
+        "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+        "state": {
+          "size": 64
+        }
+      },
+      "plants/taxo.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793898105741268372,
+          "mtime_ns": 1793898105741268372,
+          "size": 4916632
+        },
+        "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+        "state": {
+          "size": 4916632
+        }
+      },
+      "taxo.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1794230836383891822,
+          "mtime_ns": 1794230836383891822,
+          "size": 4916632
+        },
+        "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+        "state": {
+          "size": 4916632
+        }
+      },
+      "vertebrates/hash.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1794228494499338000,
+          "mtime_ns": 1794227430906626618,
+          "size": 1131809205424
+        },
+        "sha256": "926a8c2dc380975bb2d42fd100307e8f31e215988407a847f4e8fbd7051b4a62",
+        "state": {
+          "size": 1131809205424
+        }
+      },
+      "vertebrates/opts.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1794054969777818887,
+          "mtime_ns": 1794054969777818887,
+          "size": 64
+        },
+        "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+        "state": {
+          "size": 64
+        }
+      },
+      "vertebrates/taxo.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1794054968601422117,
+          "mtime_ns": 1794054968601422117,
+          "size": 4916632
+        },
+        "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+        "state": {
+          "size": 4916632
+        }
+      },
+      "viruses/hash.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793891912561418000,
+          "mtime_ns": 1793891910041619997,
+          "size": 664467780
+        },
+        "sha256": "5584a09e166843f0044266284590a95bbbdecfdb267ee45ee4eceac91c761602",
+        "state": {
+          "size": 664467780
+        }
+      },
+      "viruses/opts.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793891768360015635,
+          "mtime_ns": 1793891768360015635,
+          "size": 64
+        },
+        "sha256": "d51697baeed11477f0886c0609465805a57531bc2f774fdaf51fd68be057c267",
+        "state": {
+          "size": 64
+        }
+      },
+      "viruses/taxo.k2d": {
+        "runtime_state": {
+          "ctime_ns": 1793891766793147745,
+          "mtime_ns": 1793891766793147745,
+          "size": 4916632
+        },
+        "sha256": "1ec0f5851d3bd0338847e4ce93efb57c7c33da880528dc9d01462c739a2795ce",
+        "state": {
+          "size": 4916632
+        }
+      }
+    },
+    "database_identity": "517413916fb7977ebd433a287a5d1a1af9c22a5390dce40213e43de313c5013c",
+    "database_runtime_states": {
+      "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/delnodes.dmp": {
+        "mtime_ns": 1793891371834880597,
+        "size": 7579967
+      },
+      "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/merged.dmp": {
+        "mtime_ns": 1793891371750395114,
+        "size": 1932463
+      },
+      "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/names.dmp": {
+        "mtime_ns": 1793891371640585298,
+        "size": 317753670
+      },
+      "/work/sph-huangj/data/annot/metag/lib/global/taxonomy/nodes.dmp": {
+        "mtime_ns": 1793891370478003406,
+        "size": 232650504
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/hashes.txt": {
+        "mtime_ns": 1794230836398654803,
+        "size": 315
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/invertebrates/hash.k2d": {
+        "mtime_ns": 1793945546377320744,
+        "size": 283566953356
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/invertebrates/opts.k2d": {
+        "mtime_ns": 1793895724006680306,
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/invertebrates/taxo.k2d": {
+        "mtime_ns": 1793895722836693588,
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/microbes/hash.k2d": {
+        "mtime_ns": 1793920056437855499,
+        "size": 101819298408
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/microbes/opts.k2d": {
+        "mtime_ns": 1793901384786117344,
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/microbes/taxo.k2d": {
+        "mtime_ns": 1793901383028385500,
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/opts.k2d": {
+        "mtime_ns": 1794230836396905809,
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/plants/hash.k2d": {
+        "mtime_ns": 1793927167111092358,
+        "size": 148288577860
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/plants/opts.k2d": {
+        "mtime_ns": 1793898106671417201,
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/plants/taxo.k2d": {
+        "mtime_ns": 1793898105741268372,
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/taxo.k2d": {
+        "mtime_ns": 1794230836383891822,
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/hash.k2d": {
+        "mtime_ns": 1794227430906626618,
+        "size": 1131809205424
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/opts.k2d": {
+        "mtime_ns": 1794054969777818887,
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/taxo.k2d": {
+        "mtime_ns": 1794054968601422117,
+        "size": 4916632
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/viruses/hash.k2d": {
+        "mtime_ns": 1793891910041619997,
+        "size": 664467780
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/viruses/opts.k2d": {
+        "mtime_ns": 1793891768360015635,
+        "size": 64
+      },
+      "/work/sph-huangj/data/annot/metag/lib/index/viruses/taxo.k2d": {
+        "mtime_ns": 1793891766793147745,
+        "size": 4916632
+      }
+    },
+    "db_dir": "/work/sph-huangj/data/annot/metag/lib/index",
+    "engine_parameters": {},
+    "input_runtime_states": [
+      {
+        "path": "/work/sph-huangj/data/metag/raw/england/ERR14374050_1.fastq.gz",
+        "state": {
+          "ctime_ns": 1794105676790112959,
+          "mtime_ns": 1793494605000000000,
+          "size": 2904581417
+        }
+      },
+      {
+        "path": "/work/sph-huangj/data/metag/raw/england/ERR14374050_2.fastq.gz",
+        "state": {
+          "ctime_ns": 1794105699106256069,
+          "mtime_ns": 1793502287000000000,
+          "size": 3050362716
+        }
+      }
+    ],
+    "inputs": [
+      {
+        "path": "/work/sph-huangj/data/metag/raw/england/ERR14374050_1.fastq.gz",
+        "state": {
+          "size": 2904581417
+        }
+      },
+      {
+        "path": "/work/sph-huangj/data/metag/raw/england/ERR14374050_2.fastq.gz",
+        "state": {
+          "size": 3050362716
+        }
+      }
+    ],
+    "limit": 0,
+    "minimum_base_quality": 0,
+    "minimum_hit_groups": 2,
+    "native": {
+      "path": "/work/sph-huangj/software/metag_parallel/metag_union/releases/e3f893d3a2aee77a/bin/metag_classify",
+      "state": {
+        "ctime_ns": 1794319909250797708,
+        "mtime_ns": 1794319909250538668,
+        "size": 3813368
+      }
+    },
+    "output_format": "directory",
+    "sample": {
+      "dataset": "england",
+      "r1": "/work/sph-huangj/data/metag/raw/england/ERR14374050_1.fastq.gz",
+      "r2": "/work/sph-huangj/data/metag/raw/england/ERR14374050_2.fastq.gz",
+      "sample": "ERR14374050",
+      "sample_id": "england/ERR14374050"
+    },
+    "schema": "metag-hpc-sample-v3",
+    "source_database_identity": "517413916fb7977ebd433a287a5d1a1af9c22a5390dce40213e43de313c5013c",
+    "source_release": "/work/sph-huangj/analysis/metag/releases/0fef49ee3e234ea0199c839dd5a60cf84fd54f4d0ff4d85f7f7f7f0fc11e9eff/metag",
+    "split_policy": {
+      "always_materialize_taxids": [
+        9606
+      ],
+      "human_host": {
+        "enabled": false
+      },
+      "materialize_species_min_fragments": 20,
+      "split_gzip_level": 3,
+      "write_read_assignments": true
+    },
+    "taxonomy_dir": "/work/sph-huangj/data/annot/metag/lib/global/taxonomy",
+    "taxonomy_files": {
+      "delnodes.dmp": {
+        "runtime_state": {
+          "ctime_ns": 1793891371834880597,
+          "mtime_ns": 1793891371834880597,
+          "size": 7579967
+        },
+        "sha256": "96c046c6d7c1b84366a7ecb321028bd9b5e6cdb56d8d87916463b2beb864ace9",
+        "state": {
+          "size": 7579967
+        }
+      },
+      "merged.dmp": {
+        "runtime_state": {
+          "ctime_ns": 1793891371750395114,
+          "mtime_ns": 1793891371750395114,
+          "size": 1932463
+        },
+        "sha256": "646c37f56db14ab19792b03b61b4d3433cf0daddfe8e73190103e76e5c90d530",
+        "state": {
+          "size": 1932463
+        }
+      },
+      "names.dmp": {
+        "runtime_state": {
+          "ctime_ns": 1793891371640585298,
+          "mtime_ns": 1793891371640585298,
+          "size": 317753670
+        },
+        "sha256": "e3d52a29a21767dd7c3a73da05e08d2eb8af61b56235131771e329689ee46f23",
+        "state": {
+          "size": 317753670
+        }
+      },
+      "nodes.dmp": {
+        "runtime_state": {
+          "ctime_ns": 1793891370478003406,
+          "mtime_ns": 1793891370478003406,
+          "size": 232650504
+        },
+        "sha256": "bbda26ed90765718d39277ff27623df4c369ae19699685adf51afb23826e4bf4",
+        "state": {
+          "size": 232650504
+        }
+      }
+    }
+  },
+  "created_utc": "2026-11-13T05:01:02.257637+00:00",
+  "identity": "3a752b056008d351d0e236d549961f89713408689dd42d48b8d2f5c6666ec275",
+  "prefix_note": "",
+  "publication": "fresh stage; complete receipt; directory replacement under sample lock",
+  "query": {
+    "batch_classification_seconds": 15937.615400671959,
+    "batch_fragments": 392914656,
+    "batch_index_load_seconds": 1811.26194,
+    "batch_query_seconds_excluding_index_load": 14126.353460671959,
+    "batch_samples": 10,
+    "batch_taxonomy_load_seconds": 69.14392922632396,
+    "classification_timing": "batch wall time apportioned by fragment count",
+    "command": [
+      "/work/sph-huangj/software/metag_parallel/metag_union/releases/e3f893d3a2aee77a/bin/metag_classify",
+      "-H",
+      "/work/sph-huangj/data/annot/metag/lib/index/microbes/hash.k2d",
+      "-t",
+      "/work/sph-huangj/data/annot/metag/lib/index/taxo.k2d",
+      "-o",
+      "/work/sph-huangj/data/annot/metag/lib/index/opts.k2d",
+      "-p",
+      "22",
+      "-T",
+      "0.1",
+      "-g",
+      "2",
+      "-Q",
+      "0",
+      "--metag-hashes",
+      "/work/sph-huangj/data/annot/metag/lib/index/hashes.txt",
+      "-S"
+    ],
+    "fastq_uncompressed_bytes": 29068903122,
+    "first_ordinal": 39998632,
+    "fragments": 39583068,
+    "fragments_per_second": 24653.290101569022,
+    "input_digest": "50cb89ad211a3e95a520f0e1dd6fcb0e9845a6bced356588cb94e0835d966f1d",
+    "input_states": [
+      {
+        "path": "/work/sph-huangj/data/metag/raw/england/ERR14374050_1.fastq.gz",
+        "state": {
+          "size": 2904581417
+        }
+      },
+      {
+        "path": "/work/sph-huangj/data/metag/raw/england/ERR14374050_2.fastq.gz",
+        "state": {
+          "size": 3050362716
+        }
+      }
+    ],
+    "log_path": "/work/sph-huangj/analysis/metag/tmp/queries/resident-batches/batch-ugel5ee7/query.log",
+    "memory_mapping": false,
+    "native_executable": "/work/sph-huangj/software/metag_parallel/metag_union/releases/e3f893d3a2aee77a/bin/metag_classify",
+    "native_index_loads": 1,
+    "omp_num_threads": 22,
+    "paired": true,
+    "project_preparation": {
+      "project_cache_hit": false,
+      "project_preparation_seconds": 69.143747927621,
+      "projects": {
+        "england": {
+          "discovery": {
+            "directory_scan": true,
+            "files": 844,
+            "inventory_hit": false,
+            "inventory_seconds": 0.865508209913969,
+            "probe_hits": 0,
+            "probe_seconds": 79.35461520776153,
+            "probed_samples": 422
+          },
+          "preparation_hit": false
+        }
+      },
+      "taxonomy_cache_build_seconds": 68.90829619206488,
+      "taxonomy_cache_hit": false,
+      "taxonomy_cache_identity": "f4b1460603e86ebd5176fb6ca5a4a378bd2f35b8136cd98d5b1cdecf0fd865ce",
+      "taxonomy_cache_path": "/work/sph-huangj/analysis/metag/cache/taxonomy/routing.sqlite",
+      "taxonomy_cache_rows": 3126663
+    },
+    "reads": 79166136,
+    "requested_limit": 0,
+    "sample_id": "england/ERR14374050",
+    "seconds": 1605.589673302096,
+    "taxids": "/work/sph-huangj/analysis/metag/tmp/queries/resident-batches/batch-ugel5ee7/taxids.2.bin",
+    "taxids_state": {
+      "size": 316664544
+    },
+    "total_bases": 11874920400,
+    "validated_scope": "entire_input"
+  },
+  "schema": "metag-hpc-sample-v3"
+}

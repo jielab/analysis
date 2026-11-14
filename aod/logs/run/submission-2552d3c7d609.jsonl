@@ -1,2 +1,0 @@
-{"cmd": "/work/sph-huangj/analysis/ukb/aod/logs/run/aod.cmd", "status": "submitting", "argv": ["bsub"], "timeout_seconds": 300.0}
-{"cmd": "/work/sph-huangj/analysis/ukb/aod/logs/run/aod.cmd", "job_id": "4404361", "returncode": 0, "stdout": "Job <4404361> is submitted to queue <33>.\n", "stderr": "", "status": "submitted"}
