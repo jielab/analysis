@@ -1,0 +1,51 @@
+{
+  "command": [
+    "bsub",
+    "-J",
+    "metag.index.optimized",
+    "-q",
+    "1t81c",
+    "-n",
+    "32",
+    "-W",
+    "120:00",
+    "-R",
+    "span[hosts=1] rusage[mem=640GB/host]",
+    "-oo",
+    "/work/sph-huangj/analysis/metag/indices/optimized/logs/qc/group_library/run2/run.out",
+    "-eo",
+    "/work/sph-huangj/analysis/metag/indices/optimized/logs/qc/group_library/run2/run.err"
+  ],
+  "config_sha256": "c960872e7623e4cc4a44205920a334f60743f6b605df31e1331e7d1e1e7fe791",
+  "dependency": "",
+  "effective_config": "/work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/group_library/run2/effective-config.json",
+  "job_id": "4417471",
+  "scope": {
+    "action": "",
+    "datasets": [],
+    "group_library_dir": "/work/sph-huangj/data/annot/metag/lib/group/optimized",
+    "index_use": "optimized",
+    "library_dir": "/work/sph-huangj/data/annot/metag/lib",
+    "module": "group_library",
+    "output_dir": "/work/sph-huangj/data/metag/species/optimized",
+    "samples": []
+  },
+  "script": "/work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/group_library/run2/run.cmd",
+  "source_release": "/work/sph-huangj/analysis/metag/indices/optimized/releases/ace738227ad6bc1ab800bd68c6fe6ae102641e9a156c4d3c7777474c53e73d5c/metag",
+  "status": "submitted",
+  "submission_cwd": "/work/sph-huangj/scripts/metag",
+  "worker": [
+    "/work/sph-huangj/software/venvs/metag-20261115/bin/python",
+    "/work/sph-huangj/analysis/metag/indices/optimized/releases/ace738227ad6bc1ab800bd68c6fe6ae102641e9a156c4d3c7777474c53e73d5c/metag/f/group_library.py",
+    "--config",
+    "/work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/group_library/run2/effective-config.json",
+    "--max-gib",
+    "384.0",
+    "--estimate",
+    "auto",
+    "--threads",
+    "32",
+    "--replace",
+    "TRUE"
+  ]
+}

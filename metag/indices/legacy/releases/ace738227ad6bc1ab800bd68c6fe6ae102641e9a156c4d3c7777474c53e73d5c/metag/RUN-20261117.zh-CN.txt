@@ -1,0 +1,65 @@
+metag 单库、命名索引版本（2026-11-17 更新）
+
+HPC 目录：/work/sph-huangj/scripts/metag
+只需要：
+  cd /work/sph-huangj/scripts/metag
+  ./1.lib.sh build
+  ./metag.sh all --dat-list Ndesert,Wxiamen,changj,england --batch 1-2 --batch-size 10 --index-use optimized
+
+在 HPC 上自动使用 bsub。build 是一个建库作业；上面的 all 是 7 个批次作业。
+可以在 build 实际提交成功后立即提交 all，程序自动添加 done(建库作业ID) 依赖。
+建库失败时依赖不会放行；先检查建库日志，修好后重新提交需要的任务。
+--plan-only 只生成冻结代码、配置和 .cmd，不提交。检查：./1.lib.sh status 或 ./1.lib.sh check。
+
+统一目录
+/work/sph-huangj/data/annot/metag/lib/
+  prepared/、global/、categories/、manifests/：共用已准备参考数据
+  index/：共用完整五分类索引
+  group/legacy/：原 group 索引，保留用于比较
+  group/optimized/：本次优化配置构建的 group 索引
+不再依赖 lib0，也不再创建 library.json bundle。
+
+选择方法
+--index-use optimized（默认）：新的 group 筛选配置。
+--index-use legacy：原来的 group 索引，直接运行，无需重新 build。
+--index-use full：可选的完整 union 路由，没有 group hash 下采样，但随机 I/O 成本很高。
+legacy/optimized 是同一分类器的不同筛选配置，并非不同物种参考数据或不同分类算法。
+完整物种细分阶段共用 lib/index。默认细分 human,plant；可以 --groups all。
+
+构建行为
+./1.lib.sh build 默认只构建或更新 group/optimized。
+- 已完成且输入/设置相同：复用。
+- 输入或设置变更：只替换程序拥有的 optimized 目录；先在临时目录构建、校验成功后再发布。
+- 当前正在使用 optimized 的已提交样本任务，会成为替换建库任务的结束依赖。
+- 不改 legacy、raw、prepared 或完整物种索引。
+- 验证旧的 native union 估计与准备库、程序、参数一致后复用，省掉一次完整 FASTA 估计扫描；不能复用才重新估计。
+- 仍需要一次完整 prepared FASTA 建库扫描。默认 hash 上限 384 GiB，资源 32 核/640 GiB/1t81c 队列。
+- --max-gib N 可以调整 optimized 的配置，名称不随大小变化。变更索引后旧 split 不能静默复用，可用 --replace TRUE 重算。
+- ./1.lib.sh build --index-use legacy 仅验证并复用旧索引，避免覆盖基线。
+
+输出与日志
+optimized：data/metag/species/optimized/DATASET/SAMPLE
+legacy：data/metag/species/legacy/DATASET/SAMPLE
+full：data/metag/species/full/DATASET/SAMPLE
+工作区：analysis/metag/indices/<index-use>/
+日志：工作区/logs/qc/group_library/run*/run.out、run.err；样本在 hierarchical_split/ 下。
+提交回执、冻结配置、run.cmd：工作区/jobs/qc/<module>/run*/。
+每样本 workflow-progress.json 保存阶段耗时。
+
+执行与评估
+同一个作业内按全部 group -> 全部 species -> 全部 evaluate 执行，避免首个样本的昂贵评估挡住整批 split。
+all 默认 --evaluation basic：数量/文件检查、分层抽样 QC、参考锚点 PCA、参考正对照。
+完整库 agreement 和独立 minimap2 比对需 --evaluation full，仍在同一批次作业中完成。
+只 split 可以 ./metag.sh split ...；单样本后补完整评估可用 ./metag.sh evaluate --sample 数据集/样本 --index-use optimized --evaluation full。
+--include-uncertain 在完整 union 中细分不确定 reads；不改写父级 group 的比例。
+
+仍保留的缓存修复
+共享缓存、项目缓存和分类树缓存不再用节点本地 st_dev 作身份；reference 读锁覆盖全部读取过程。
+alignment 缓存默认上限 2 TiB，参考缓存 512 GiB，耗尽时明确记录回退原因。
+每个 alignment panel 记录准备/总耗时和即时失败信息。
+提交时只打开选定批次的 FASTQ 前缀；运行时逐片段重新校验配对和完整性。
+
+解释结果
+优化配置预计保留更多 minimizer hash，但不是 reads recall 的保证；是否降低 ambiguous/unclassified 需要实测。
+basic 比 full 少做两项昂贵评估，耗时不能作为相同评估范围下的算法加速证据。
+快速 check 不会重读 TB 级 payload 做 SHA；check --full 才对完整 union 做 SHA。旧 group 没有发布 payload SHA，仍检查结构和文件状态。

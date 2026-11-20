@@ -1,0 +1,542 @@
+BATCH STAGE group: 10 samples; evaluation=basic
+2026-11-18T06:55:04.151295+00:00 START Wxiamen/SRR39271681: group (1/10)
+CACHE taxonomy HIT: /work/sph-huangj/analysis/metag/indices/optimized/cache/taxonomy/195b835a6912dfd1b50b8f9767fab0a64a150f8aaa4c97605fab5c26da78e0d4/routing.sqlite
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271681] query streamed 100,000 fragments
+[Wxiamen/SRR39271681] query classified 100,000 fragments; elapsed=542.1s
+[Wxiamen/SRR39271681] query streamed 200,000 fragments
+[Wxiamen/SRR39271681] query classified 200,000 fragments; elapsed=545.1s
+[Wxiamen/SRR39271681] query streamed 300,000 fragments
+[Wxiamen/SRR39271681] query classified 300,000 fragments; elapsed=547.7s
+[Wxiamen/SRR39271681] query streamed 400,000 fragments
+[Wxiamen/SRR39271681] query classified 400,000 fragments; elapsed=550.4s
+[Wxiamen/SRR39271681] query streamed 500,000 fragments
+[Wxiamen/SRR39271681] query classified 500,000 fragments; elapsed=552.7s
+[Wxiamen/SRR39271681] query streamed 600,000 fragments
+[Wxiamen/SRR39271681] query classified 600,000 fragments; elapsed=555.7s
+[Wxiamen/SRR39271681] query streamed 700,000 fragments
+[Wxiamen/SRR39271681] query classified 700,000 fragments; elapsed=559.0s
+[Wxiamen/SRR39271681] query streamed 800,000 fragments
+[Wxiamen/SRR39271681] query classified 800,000 fragments; elapsed=561.8s
+[Wxiamen/SRR39271681] query streamed 900,000 fragments
+[Wxiamen/SRR39271681] query classified 900,000 fragments; elapsed=564.5s
+[Wxiamen/SRR39271681] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271681] query classified 1,000,000 fragments; elapsed=567.7s
+[Wxiamen/SRR39271681] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271681] query classified 1,100,000 fragments; elapsed=570.8s
+[Wxiamen/SRR39271681] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271681] query classified 1,200,000 fragments; elapsed=573.8s
+[Wxiamen/SRR39271681] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271681] query classified 1,300,000 fragments; elapsed=576.7s
+[Wxiamen/SRR39271681] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271681] query classified 1,400,000 fragments; elapsed=579.7s
+[Wxiamen/SRR39271681] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271681] query classified 1,500,000 fragments; elapsed=582.6s
+[Wxiamen/SRR39271681] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271681] query classified 1,600,000 fragments; elapsed=585.8s
+[Wxiamen/SRR39271681] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271681] query classified 1,700,000 fragments; elapsed=588.8s
+[Wxiamen/SRR39271681] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271681] query classified 1,800,000 fragments; elapsed=591.7s
+[Wxiamen/SRR39271681] query streamed 1,900,000 fragments
+[Wxiamen/SRR39271681] query classified 1,900,000 fragments; elapsed=595.1s
+[Wxiamen/SRR39271681] query streamed 2,000,000 fragments
+[Wxiamen/SRR39271681] query classified 2,000,000 fragments; elapsed=598.0s
+[Wxiamen/SRR39271681] query streamed 2,100,000 fragments
+[Wxiamen/SRR39271681] query classified 2,100,000 fragments; elapsed=601.3s
+[Wxiamen/SRR39271681] query streamed 2,200,000 fragments
+[Wxiamen/SRR39271681] query classified 2,200,000 fragments; elapsed=604.4s
+[Wxiamen/SRR39271681] query streamed 2,300,000 fragments
+[Wxiamen/SRR39271681] query classified 2,300,000 fragments; elapsed=607.7s
+[Wxiamen/SRR39271681] query streamed 2,400,000 fragments
+[Wxiamen/SRR39271681] query classified 2,400,000 fragments; elapsed=610.9s
+[Wxiamen/SRR39271681] query streamed 2,500,000 fragments
+[Wxiamen/SRR39271681] query classified 2,500,000 fragments; elapsed=614.0s
+group Wxiamen/SRR39271681: wrote 1,000,000 pairs
+group Wxiamen/SRR39271681: wrote 2,000,000 pairs
+2026-11-18T07:07:48.778945+00:00 DONE Wxiamen/SRR39271681: group; seconds=764.7
+2026-11-18T07:07:48.783474+00:00 START Wxiamen/SRR39271682: group (2/10)
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271682] query streamed 100,000 fragments
+[Wxiamen/SRR39271682] query classified 100,000 fragments; elapsed=798.3s
+[Wxiamen/SRR39271682] query streamed 200,000 fragments
+[Wxiamen/SRR39271682] query classified 200,000 fragments; elapsed=801.6s
+[Wxiamen/SRR39271682] query streamed 300,000 fragments
+[Wxiamen/SRR39271682] query classified 300,000 fragments; elapsed=804.8s
+[Wxiamen/SRR39271682] query streamed 400,000 fragments
+[Wxiamen/SRR39271682] query classified 400,000 fragments; elapsed=808.0s
+[Wxiamen/SRR39271682] query streamed 500,000 fragments
+[Wxiamen/SRR39271682] query classified 500,000 fragments; elapsed=811.3s
+[Wxiamen/SRR39271682] query streamed 600,000 fragments
+[Wxiamen/SRR39271682] query classified 600,000 fragments; elapsed=814.2s
+[Wxiamen/SRR39271682] query streamed 700,000 fragments
+[Wxiamen/SRR39271682] query classified 700,000 fragments; elapsed=817.5s
+[Wxiamen/SRR39271682] query streamed 800,000 fragments
+[Wxiamen/SRR39271682] query classified 800,000 fragments; elapsed=820.3s
+[Wxiamen/SRR39271682] query streamed 900,000 fragments
+[Wxiamen/SRR39271682] query classified 900,000 fragments; elapsed=823.4s
+[Wxiamen/SRR39271682] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271682] query classified 1,000,000 fragments; elapsed=826.5s
+[Wxiamen/SRR39271682] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271682] query classified 1,100,000 fragments; elapsed=830.4s
+[Wxiamen/SRR39271682] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271682] query classified 1,200,000 fragments; elapsed=833.1s
+[Wxiamen/SRR39271682] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271682] query classified 1,300,000 fragments; elapsed=836.1s
+[Wxiamen/SRR39271682] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271682] query classified 1,400,000 fragments; elapsed=839.2s
+[Wxiamen/SRR39271682] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271682] query classified 1,500,000 fragments; elapsed=842.3s
+[Wxiamen/SRR39271682] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271682] query classified 1,600,000 fragments; elapsed=845.4s
+[Wxiamen/SRR39271682] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271682] query classified 1,700,000 fragments; elapsed=848.3s
+[Wxiamen/SRR39271682] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271682] query classified 1,800,000 fragments; elapsed=851.6s
+[Wxiamen/SRR39271682] query streamed 1,900,000 fragments
+[Wxiamen/SRR39271682] query classified 1,900,000 fragments; elapsed=855.1s
+group Wxiamen/SRR39271682: wrote 1,000,000 pairs
+2026-11-18T07:24:02.691638+00:00 DONE Wxiamen/SRR39271682: group; seconds=973.9
+2026-11-18T07:24:02.696319+00:00 START Wxiamen/SRR39271683: group (3/10)
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271683] query streamed 100,000 fragments
+[Wxiamen/SRR39271683] query classified 100,000 fragments; elapsed=724.7s
+[Wxiamen/SRR39271683] query streamed 200,000 fragments
+[Wxiamen/SRR39271683] query classified 200,000 fragments; elapsed=727.6s
+[Wxiamen/SRR39271683] query streamed 300,000 fragments
+[Wxiamen/SRR39271683] query classified 300,000 fragments; elapsed=730.9s
+[Wxiamen/SRR39271683] query streamed 400,000 fragments
+[Wxiamen/SRR39271683] query classified 400,000 fragments; elapsed=734.0s
+[Wxiamen/SRR39271683] query streamed 500,000 fragments
+[Wxiamen/SRR39271683] query classified 500,000 fragments; elapsed=737.1s
+[Wxiamen/SRR39271683] query streamed 600,000 fragments
+[Wxiamen/SRR39271683] query classified 600,000 fragments; elapsed=740.3s
+[Wxiamen/SRR39271683] query streamed 700,000 fragments
+[Wxiamen/SRR39271683] query classified 700,000 fragments; elapsed=743.1s
+2026-11-18T07:37:09.054765+00:00 DONE Wxiamen/SRR39271683: group; seconds=786.4
+2026-11-18T07:37:09.059583+00:00 START Wxiamen/SRR39271684: group (4/10)
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271684] query streamed 100,000 fragments
+[Wxiamen/SRR39271684] query classified 100,000 fragments; elapsed=844.7s
+[Wxiamen/SRR39271684] query streamed 200,000 fragments
+[Wxiamen/SRR39271684] query classified 200,000 fragments; elapsed=847.8s
+[Wxiamen/SRR39271684] query streamed 300,000 fragments
+[Wxiamen/SRR39271684] query classified 300,000 fragments; elapsed=851.0s
+[Wxiamen/SRR39271684] query streamed 400,000 fragments
+[Wxiamen/SRR39271684] query classified 400,000 fragments; elapsed=854.0s
+[Wxiamen/SRR39271684] query streamed 500,000 fragments
+[Wxiamen/SRR39271684] query classified 500,000 fragments; elapsed=857.2s
+[Wxiamen/SRR39271684] query streamed 600,000 fragments
+[Wxiamen/SRR39271684] query classified 600,000 fragments; elapsed=860.2s
+[Wxiamen/SRR39271684] query streamed 700,000 fragments
+[Wxiamen/SRR39271684] query classified 700,000 fragments; elapsed=863.2s
+[Wxiamen/SRR39271684] query streamed 800,000 fragments
+[Wxiamen/SRR39271684] query classified 800,000 fragments; elapsed=866.2s
+[Wxiamen/SRR39271684] query streamed 900,000 fragments
+[Wxiamen/SRR39271684] query classified 900,000 fragments; elapsed=869.3s
+[Wxiamen/SRR39271684] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271684] query classified 1,000,000 fragments; elapsed=872.4s
+[Wxiamen/SRR39271684] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271684] query classified 1,100,000 fragments; elapsed=875.8s
+[Wxiamen/SRR39271684] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271684] query classified 1,200,000 fragments; elapsed=878.9s
+group Wxiamen/SRR39271684: wrote 1,000,000 pairs
+2026-11-18T07:53:00.641799+00:00 DONE Wxiamen/SRR39271684: group; seconds=951.6
+2026-11-18T07:53:00.646771+00:00 START Wxiamen/SRR39271685: group (5/10)
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271685] query streamed 100,000 fragments
+[Wxiamen/SRR39271685] query classified 100,000 fragments; elapsed=797.6s
+[Wxiamen/SRR39271685] query streamed 200,000 fragments
+[Wxiamen/SRR39271685] query classified 200,000 fragments; elapsed=800.5s
+[Wxiamen/SRR39271685] query streamed 300,000 fragments
+[Wxiamen/SRR39271685] query classified 300,000 fragments; elapsed=804.1s
+[Wxiamen/SRR39271685] query streamed 400,000 fragments
+[Wxiamen/SRR39271685] query classified 400,000 fragments; elapsed=807.3s
+[Wxiamen/SRR39271685] query streamed 500,000 fragments
+[Wxiamen/SRR39271685] query classified 500,000 fragments; elapsed=810.3s
+[Wxiamen/SRR39271685] query streamed 600,000 fragments
+[Wxiamen/SRR39271685] query classified 600,000 fragments; elapsed=813.5s
+[Wxiamen/SRR39271685] query streamed 700,000 fragments
+[Wxiamen/SRR39271685] query classified 700,000 fragments; elapsed=816.6s
+[Wxiamen/SRR39271685] query streamed 800,000 fragments
+[Wxiamen/SRR39271685] query classified 800,000 fragments; elapsed=819.7s
+[Wxiamen/SRR39271685] query streamed 900,000 fragments
+[Wxiamen/SRR39271685] query classified 900,000 fragments; elapsed=822.7s
+[Wxiamen/SRR39271685] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271685] query classified 1,000,000 fragments; elapsed=826.1s
+[Wxiamen/SRR39271685] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271685] query classified 1,100,000 fragments; elapsed=829.4s
+[Wxiamen/SRR39271685] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271685] query classified 1,200,000 fragments; elapsed=832.4s
+[Wxiamen/SRR39271685] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271685] query classified 1,300,000 fragments; elapsed=835.5s
+group Wxiamen/SRR39271685: wrote 1,000,000 pairs
+2026-11-18T08:08:14.501250+00:00 DONE Wxiamen/SRR39271685: group; seconds=913.9
+2026-11-18T08:08:14.506316+00:00 START Wxiamen/SRR39271686: group (6/10)
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271686] query streamed 100,000 fragments
+[Wxiamen/SRR39271686] query classified 100,000 fragments; elapsed=839.6s
+[Wxiamen/SRR39271686] query streamed 200,000 fragments
+[Wxiamen/SRR39271686] query classified 200,000 fragments; elapsed=842.9s
+[Wxiamen/SRR39271686] query streamed 300,000 fragments
+[Wxiamen/SRR39271686] query classified 300,000 fragments; elapsed=846.0s
+[Wxiamen/SRR39271686] query streamed 400,000 fragments
+[Wxiamen/SRR39271686] query classified 400,000 fragments; elapsed=849.1s
+[Wxiamen/SRR39271686] query streamed 500,000 fragments
+[Wxiamen/SRR39271686] query classified 500,000 fragments; elapsed=852.0s
+[Wxiamen/SRR39271686] query streamed 600,000 fragments
+[Wxiamen/SRR39271686] query classified 600,000 fragments; elapsed=855.3s
+[Wxiamen/SRR39271686] query streamed 700,000 fragments
+[Wxiamen/SRR39271686] query classified 700,000 fragments; elapsed=858.3s
+[Wxiamen/SRR39271686] query streamed 800,000 fragments
+[Wxiamen/SRR39271686] query classified 800,000 fragments; elapsed=861.2s
+[Wxiamen/SRR39271686] query streamed 900,000 fragments
+[Wxiamen/SRR39271686] query classified 900,000 fragments; elapsed=864.2s
+[Wxiamen/SRR39271686] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271686] query classified 1,000,000 fragments; elapsed=867.4s
+group Wxiamen/SRR39271686: wrote 1,000,000 pairs
+2026-11-18T08:23:47.916991+00:00 DONE Wxiamen/SRR39271686: group; seconds=933.4
+2026-11-18T08:23:47.921757+00:00 START Wxiamen/SRR39271687: group (7/10)
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271687] query streamed 100,000 fragments
+[Wxiamen/SRR39271687] query classified 100,000 fragments; elapsed=1031.1s
+[Wxiamen/SRR39271687] query streamed 200,000 fragments
+[Wxiamen/SRR39271687] query classified 200,000 fragments; elapsed=1034.3s
+[Wxiamen/SRR39271687] query streamed 300,000 fragments
+[Wxiamen/SRR39271687] query classified 300,000 fragments; elapsed=1037.5s
+[Wxiamen/SRR39271687] query streamed 400,000 fragments
+[Wxiamen/SRR39271687] query classified 400,000 fragments; elapsed=1041.0s
+[Wxiamen/SRR39271687] query streamed 500,000 fragments
+[Wxiamen/SRR39271687] query classified 500,000 fragments; elapsed=1044.0s
+[Wxiamen/SRR39271687] query streamed 600,000 fragments
+[Wxiamen/SRR39271687] query classified 600,000 fragments; elapsed=1047.7s
+[Wxiamen/SRR39271687] query streamed 700,000 fragments
+[Wxiamen/SRR39271687] query classified 700,000 fragments; elapsed=1050.8s
+[Wxiamen/SRR39271687] query streamed 800,000 fragments
+[Wxiamen/SRR39271687] query classified 800,000 fragments; elapsed=1054.4s
+[Wxiamen/SRR39271687] query streamed 900,000 fragments
+[Wxiamen/SRR39271687] query classified 900,000 fragments; elapsed=1057.6s
+[Wxiamen/SRR39271687] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271687] query classified 1,000,000 fragments; elapsed=1060.8s
+[Wxiamen/SRR39271687] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271687] query classified 1,100,000 fragments; elapsed=1064.2s
+[Wxiamen/SRR39271687] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271687] query classified 1,200,000 fragments; elapsed=1067.7s
+[Wxiamen/SRR39271687] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271687] query classified 1,300,000 fragments; elapsed=1070.9s
+[Wxiamen/SRR39271687] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271687] query classified 1,400,000 fragments; elapsed=1073.9s
+[Wxiamen/SRR39271687] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271687] query classified 1,500,000 fragments; elapsed=1077.3s
+[Wxiamen/SRR39271687] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271687] query classified 1,600,000 fragments; elapsed=1081.0s
+[Wxiamen/SRR39271687] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271687] query classified 1,700,000 fragments; elapsed=1084.3s
+[Wxiamen/SRR39271687] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271687] query classified 1,800,000 fragments; elapsed=1087.1s
+[Wxiamen/SRR39271687] query streamed 1,900,000 fragments
+[Wxiamen/SRR39271687] query classified 1,900,000 fragments; elapsed=1090.5s
+[Wxiamen/SRR39271687] query streamed 2,000,000 fragments
+[Wxiamen/SRR39271687] query classified 2,000,000 fragments; elapsed=1093.8s
+[Wxiamen/SRR39271687] query streamed 2,100,000 fragments
+[Wxiamen/SRR39271687] query classified 2,100,000 fragments; elapsed=1097.7s
+group Wxiamen/SRR39271687: wrote 1,000,000 pairs
+group Wxiamen/SRR39271687: wrote 2,000,000 pairs
+2026-11-18T08:44:17.003347+00:00 DONE Wxiamen/SRR39271687: group; seconds=1229.1
+2026-11-18T08:44:17.008749+00:00 START Wxiamen/SRR39271688: group (8/10)
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271688] query streamed 100,000 fragments
+[Wxiamen/SRR39271688] query classified 100,000 fragments; elapsed=841.7s
+[Wxiamen/SRR39271688] query streamed 200,000 fragments
+[Wxiamen/SRR39271688] query classified 200,000 fragments; elapsed=844.9s
+[Wxiamen/SRR39271688] query streamed 300,000 fragments
+[Wxiamen/SRR39271688] query classified 300,000 fragments; elapsed=847.9s
+[Wxiamen/SRR39271688] query streamed 400,000 fragments
+[Wxiamen/SRR39271688] query classified 400,000 fragments; elapsed=851.1s
+[Wxiamen/SRR39271688] query streamed 500,000 fragments
+[Wxiamen/SRR39271688] query classified 500,000 fragments; elapsed=854.1s
+[Wxiamen/SRR39271688] query streamed 600,000 fragments
+[Wxiamen/SRR39271688] query classified 600,000 fragments; elapsed=857.7s
+[Wxiamen/SRR39271688] query streamed 700,000 fragments
+[Wxiamen/SRR39271688] query classified 700,000 fragments; elapsed=860.7s
+[Wxiamen/SRR39271688] query streamed 800,000 fragments
+[Wxiamen/SRR39271688] query classified 800,000 fragments; elapsed=863.7s
+[Wxiamen/SRR39271688] query streamed 900,000 fragments
+[Wxiamen/SRR39271688] query classified 900,000 fragments; elapsed=867.0s
+[Wxiamen/SRR39271688] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271688] query classified 1,000,000 fragments; elapsed=869.9s
+[Wxiamen/SRR39271688] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271688] query classified 1,100,000 fragments; elapsed=873.6s
+[Wxiamen/SRR39271688] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271688] query classified 1,200,000 fragments; elapsed=876.8s
+[Wxiamen/SRR39271688] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271688] query classified 1,300,000 fragments; elapsed=879.9s
+[Wxiamen/SRR39271688] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271688] query classified 1,400,000 fragments; elapsed=883.5s
+[Wxiamen/SRR39271688] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271688] query classified 1,500,000 fragments; elapsed=886.8s
+[Wxiamen/SRR39271688] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271688] query classified 1,600,000 fragments; elapsed=889.9s
+[Wxiamen/SRR39271688] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271688] query classified 1,700,000 fragments; elapsed=893.0s
+[Wxiamen/SRR39271688] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271688] query classified 1,800,000 fragments; elapsed=896.5s
+[Wxiamen/SRR39271688] query streamed 1,900,000 fragments
+[Wxiamen/SRR39271688] query classified 1,900,000 fragments; elapsed=899.5s
+group Wxiamen/SRR39271688: wrote 1,000,000 pairs
+2026-11-18T09:01:09.322469+00:00 DONE Wxiamen/SRR39271688: group; seconds=1012.3
+2026-11-18T09:01:09.348713+00:00 START Wxiamen/SRR39271689: group (9/10)
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271689] query streamed 100,000 fragments
+[Wxiamen/SRR39271689] query classified 100,000 fragments; elapsed=711.0s
+[Wxiamen/SRR39271689] query streamed 200,000 fragments
+[Wxiamen/SRR39271689] query classified 200,000 fragments; elapsed=714.3s
+[Wxiamen/SRR39271689] query streamed 300,000 fragments
+[Wxiamen/SRR39271689] query classified 300,000 fragments; elapsed=717.5s
+[Wxiamen/SRR39271689] query streamed 400,000 fragments
+[Wxiamen/SRR39271689] query classified 400,000 fragments; elapsed=720.9s
+[Wxiamen/SRR39271689] query streamed 500,000 fragments
+[Wxiamen/SRR39271689] query classified 500,000 fragments; elapsed=723.9s
+[Wxiamen/SRR39271689] query streamed 600,000 fragments
+[Wxiamen/SRR39271689] query classified 600,000 fragments; elapsed=727.1s
+[Wxiamen/SRR39271689] query streamed 700,000 fragments
+[Wxiamen/SRR39271689] query classified 700,000 fragments; elapsed=730.2s
+[Wxiamen/SRR39271689] query streamed 800,000 fragments
+[Wxiamen/SRR39271689] query classified 800,000 fragments; elapsed=733.5s
+[Wxiamen/SRR39271689] query streamed 900,000 fragments
+[Wxiamen/SRR39271689] query classified 900,000 fragments; elapsed=736.7s
+[Wxiamen/SRR39271689] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271689] query classified 1,000,000 fragments; elapsed=739.9s
+[Wxiamen/SRR39271689] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271689] query classified 1,100,000 fragments; elapsed=743.4s
+[Wxiamen/SRR39271689] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271689] query classified 1,200,000 fragments; elapsed=746.7s
+[Wxiamen/SRR39271689] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271689] query classified 1,300,000 fragments; elapsed=749.8s
+[Wxiamen/SRR39271689] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271689] query classified 1,400,000 fragments; elapsed=752.8s
+[Wxiamen/SRR39271689] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271689] query classified 1,500,000 fragments; elapsed=756.1s
+[Wxiamen/SRR39271689] query streamed 1,600,000 fragments
+[Wxiamen/SRR39271689] query classified 1,600,000 fragments; elapsed=759.1s
+[Wxiamen/SRR39271689] query streamed 1,700,000 fragments
+[Wxiamen/SRR39271689] query classified 1,700,000 fragments; elapsed=762.2s
+[Wxiamen/SRR39271689] query streamed 1,800,000 fragments
+[Wxiamen/SRR39271689] query classified 1,800,000 fragments; elapsed=765.2s
+group Wxiamen/SRR39271689: wrote 1,000,000 pairs
+2026-11-18T09:15:40.281046+00:00 DONE Wxiamen/SRR39271689: group; seconds=870.9
+2026-11-18T09:15:40.286214+00:00 START Wxiamen/SRR39271690: group (10/10)
+Preloading Kraken index into private RAM; allocation=448 GiB; read_threads=8. Classification starts after loading.
+[Wxiamen/SRR39271690] query streamed 100,000 fragments
+[Wxiamen/SRR39271690] query classified 100,000 fragments; elapsed=700.5s
+[Wxiamen/SRR39271690] query streamed 200,000 fragments
+[Wxiamen/SRR39271690] query classified 200,000 fragments; elapsed=703.8s
+[Wxiamen/SRR39271690] query streamed 300,000 fragments
+[Wxiamen/SRR39271690] query classified 300,000 fragments; elapsed=707.1s
+[Wxiamen/SRR39271690] query streamed 400,000 fragments
+[Wxiamen/SRR39271690] query classified 400,000 fragments; elapsed=710.4s
+[Wxiamen/SRR39271690] query streamed 500,000 fragments
+[Wxiamen/SRR39271690] query classified 500,000 fragments; elapsed=714.2s
+[Wxiamen/SRR39271690] query streamed 600,000 fragments
+[Wxiamen/SRR39271690] query classified 600,000 fragments; elapsed=717.3s
+[Wxiamen/SRR39271690] query streamed 700,000 fragments
+[Wxiamen/SRR39271690] query classified 700,000 fragments; elapsed=720.6s
+[Wxiamen/SRR39271690] query streamed 800,000 fragments
+[Wxiamen/SRR39271690] query classified 800,000 fragments; elapsed=724.2s
+[Wxiamen/SRR39271690] query streamed 900,000 fragments
+[Wxiamen/SRR39271690] query classified 900,000 fragments; elapsed=727.5s
+[Wxiamen/SRR39271690] query streamed 1,000,000 fragments
+[Wxiamen/SRR39271690] query classified 1,000,000 fragments; elapsed=730.9s
+[Wxiamen/SRR39271690] query streamed 1,100,000 fragments
+[Wxiamen/SRR39271690] query classified 1,100,000 fragments; elapsed=734.3s
+[Wxiamen/SRR39271690] query streamed 1,200,000 fragments
+[Wxiamen/SRR39271690] query classified 1,200,000 fragments; elapsed=737.9s
+[Wxiamen/SRR39271690] query streamed 1,300,000 fragments
+[Wxiamen/SRR39271690] query classified 1,300,000 fragments; elapsed=741.1s
+[Wxiamen/SRR39271690] query streamed 1,400,000 fragments
+[Wxiamen/SRR39271690] query classified 1,400,000 fragments; elapsed=744.8s
+[Wxiamen/SRR39271690] query streamed 1,500,000 fragments
+[Wxiamen/SRR39271690] query classified 1,500,000 fragments; elapsed=748.1s
+group Wxiamen/SRR39271690: wrote 1,000,000 pairs
+2026-11-18T09:29:39.617443+00:00 DONE Wxiamen/SRR39271690: group; seconds=839.3
+BATCH STAGE species: 10 samples; evaluation=basic
+2026-11-18T09:29:40.086130+00:00 START Wxiamen/SRR39271681: species (1/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T10:19:12.684279+00:00 DONE Wxiamen/SRR39271681: species; seconds=2972.6
+2026-11-18T10:19:12.744648+00:00 START Wxiamen/SRR39271682: species (2/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T11:23:40.676971+00:00 DONE Wxiamen/SRR39271682: species; seconds=3868.0
+2026-11-18T11:23:40.754099+00:00 START Wxiamen/SRR39271683: species (3/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T11:51:17.048771+00:00 DONE Wxiamen/SRR39271683: species; seconds=1656.3
+2026-11-18T11:51:17.126598+00:00 START Wxiamen/SRR39271684: species (4/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T12:04:31.098541+00:00 DONE Wxiamen/SRR39271684: species; seconds=794.0
+2026-11-18T12:04:31.159563+00:00 START Wxiamen/SRR39271685: species (5/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T12:18:28.272994+00:00 DONE Wxiamen/SRR39271685: species; seconds=837.1
+2026-11-18T12:18:28.328406+00:00 START Wxiamen/SRR39271686: species (6/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T12:32:50.420698+00:00 DONE Wxiamen/SRR39271686: species; seconds=862.1
+2026-11-18T12:32:50.492828+00:00 START Wxiamen/SRR39271687: species (7/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T13:05:04.002136+00:00 DONE Wxiamen/SRR39271687: species; seconds=1933.5
+2026-11-18T13:05:04.083804+00:00 START Wxiamen/SRR39271688: species (8/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T13:24:35.713317+00:00 DONE Wxiamen/SRR39271688: species; seconds=1171.6
+2026-11-18T13:24:35.799092+00:00 START Wxiamen/SRR39271689: species (9/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T13:34:11.298074+00:00 DONE Wxiamen/SRR39271689: species; seconds=575.5
+2026-11-18T13:34:11.361453+00:00 START Wxiamen/SRR39271690: species (10/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+2026-11-18T13:36:59.549233+00:00 DONE Wxiamen/SRR39271690: species; seconds=168.2
+BATCH STAGE evaluate: 10 samples; evaluation=basic
+2026-11-18T13:36:59.986811+00:00 START Wxiamen/SRR39271681: evaluate (1/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271681/group/evaluation.html
+EVALUATE Wxiamen/SRR39271681 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271681/species/evaluation.html
+EVALUATE Wxiamen/SRR39271681 species: partial
+2026-11-18T13:42:06.694096+00:00 DONE Wxiamen/SRR39271681: evaluate; seconds=306.7
+2026-11-18T13:42:06.727089+00:00 START Wxiamen/SRR39271682: evaluate (2/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271682/group/evaluation.html
+EVALUATE Wxiamen/SRR39271682 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271682/species/evaluation.html
+EVALUATE Wxiamen/SRR39271682 species: partial
+2026-11-18T13:42:19.753440+00:00 DONE Wxiamen/SRR39271682: evaluate; seconds=13.0
+2026-11-18T13:42:19.757876+00:00 START Wxiamen/SRR39271683: evaluate (3/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271683/group/evaluation.html
+EVALUATE Wxiamen/SRR39271683 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271683/species/evaluation.html
+EVALUATE Wxiamen/SRR39271683 species: partial
+2026-11-18T13:42:30.319314+00:00 DONE Wxiamen/SRR39271683: evaluate; seconds=10.6
+2026-11-18T13:42:30.324237+00:00 START Wxiamen/SRR39271684: evaluate (4/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271684/group/evaluation.html
+EVALUATE Wxiamen/SRR39271684 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271684/species/evaluation.html
+EVALUATE Wxiamen/SRR39271684 species: partial
+2026-11-18T13:42:39.492403+00:00 DONE Wxiamen/SRR39271684: evaluate; seconds=9.2
+2026-11-18T13:42:39.498415+00:00 START Wxiamen/SRR39271685: evaluate (5/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271685/group/evaluation.html
+EVALUATE Wxiamen/SRR39271685 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271685/species/evaluation.html
+EVALUATE Wxiamen/SRR39271685 species: partial
+2026-11-18T13:42:48.879405+00:00 DONE Wxiamen/SRR39271685: evaluate; seconds=9.4
+2026-11-18T13:42:48.884748+00:00 START Wxiamen/SRR39271686: evaluate (6/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271686/group/evaluation.html
+EVALUATE Wxiamen/SRR39271686 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271686/species/evaluation.html
+EVALUATE Wxiamen/SRR39271686 species: partial
+2026-11-18T13:42:58.100407+00:00 DONE Wxiamen/SRR39271686: evaluate; seconds=9.2
+2026-11-18T13:42:58.104595+00:00 START Wxiamen/SRR39271687: evaluate (7/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271687/group/evaluation.html
+EVALUATE Wxiamen/SRR39271687 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271687/species/evaluation.html
+EVALUATE Wxiamen/SRR39271687 species: partial
+2026-11-18T13:43:09.242983+00:00 DONE Wxiamen/SRR39271687: evaluate; seconds=11.1
+2026-11-18T13:43:09.248091+00:00 START Wxiamen/SRR39271688: evaluate (8/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271688/group/evaluation.html
+EVALUATE Wxiamen/SRR39271688 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271688/species/evaluation.html
+EVALUATE Wxiamen/SRR39271688 species: partial
+2026-11-18T13:43:19.342848+00:00 DONE Wxiamen/SRR39271688: evaluate; seconds=10.1
+2026-11-18T13:43:19.347520+00:00 START Wxiamen/SRR39271689: evaluate (9/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271689/group/evaluation.html
+EVALUATE Wxiamen/SRR39271689 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271689/species/evaluation.html
+EVALUATE Wxiamen/SRR39271689 species: partial
+2026-11-18T13:43:29.647331+00:00 DONE Wxiamen/SRR39271689: evaluate; seconds=10.3
+2026-11-18T13:43:29.661217+00:00 START Wxiamen/SRR39271690: evaluate (10/10)
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271690/group/evaluation.html
+EVALUATE Wxiamen/SRR39271690 group: partial
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+EVALUATION_REPORT /work/sph-huangj/analysis/metag/indices/optimized/qc/evaluate/Wxiamen/SRR39271690/species/evaluation.html
+EVALUATE Wxiamen/SRR39271690 species: partial
+2026-11-18T13:43:39.401261+00:00 DONE Wxiamen/SRR39271690: evaluate; seconds=9.7
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@a03u24s>
+Subject: Job 4420442: <metag.Wxiamen.batch1> in cluster <qmhpc> Done
+
+Job <metag.Wxiamen.batch1> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 18 14:27:13 2026
+Job was executed on host(s) <40*a03u24s>, in queue <v3-6t>, as user <sph-huangj> in cluster <qmhpc> at Wed Nov 18 14:54:49 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/metag> was used as the working directory.
+Started at Wed Nov 18 14:54:49 2026
+Terminated at Wed Nov 18 21:43:40 2026
+Results reported at Wed Nov 18 21:43:40 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+source /work/sph-huangj/analysis/metag/indices/optimized/releases/081acf230c8b8d5358ca33188a6ad968a3711fb240c9f3c552fcc9b2d5b33a06/metag/f/env.sh
+cd /work/sph-huangj/scripts/metag
+/work/sph-huangj/software/venvs/metag-20261115/bin/python /work/sph-huangj/analysis/metag/indices/optimized/releases/081acf230c8b8d5358ca33188a6ad968a3711fb240c9f3c552fcc9b2d5b33a06/metag/f/qc_submit.py --verify-config /work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/hierarchical_split/run19/effective-config.json 0f0c379a54c5c0778020d13d0df90d0f26893c84d9da7d2cb4ed2cf3112ac11f /work/sph-huangj/analysis/metag/indices/optimized/releases/081acf230c8b8d5358ca33188a6ad968a3711fb240c9f3c552fcc9b2d5b33a06/metag
+exec /work/sph-huangj/software/venvs/metag-20261115/bin/python /work/sph-huangj/analysis/metag/indices/optimized/releases/081acf230c8b8d5358ca33188a6ad968a3711fb240c9f3c552fcc9b2d5b33a06/metag/f/hierarchical_split.py --config /work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/hierarchical_split/run19/effective-config.json group,species,evaluate,report --replace FALSE --stage both --evaluation basic --routing compact --sample Wxiamen/SRR39271681 --sample Wxiamen/SRR39271682 --sample Wxiamen/SRR39271683 --sample Wxiamen/SRR39271684 --sample Wxiamen/SRR39271685 --sample Wxiamen/SRR39271686 --sample Wxiamen/SRR39271687 --sample Wxiamen/SRR39271688 --sample Wxiamen/SRR39271689 --sample Wxiamen/SRR39271690 --threads 38
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5300.68 sec.
+    Max Memory :                                 394713 MB
+    Average Memory :                             72579.39 MB
+    Total Requested Memory :                     458752.00 MB
+    Delta Memory :                               64039.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              5
+    Max Threads :                                45
+    Run time :                                   24530 sec.
+    Turnaround time :                            26187 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/metag/indices/optimized/logs/qc/hierarchical_split/run19/run.err> for stderr output of this job.
+

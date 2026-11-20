@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/hierarchical_split.py", line 817, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/hierarchical_split.py", line 792, in main
+    if action=='group':split_group(cfg,sample,replace=a.replace)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/hierarchical_split.py", line 248, in split_group
+    q=query_once(qcfg,sample,snapshot,query_work,taxonomy=tax);queries=[q]
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/ordinal_query.py", line 301, in query_once
+    return query_many(cfg, [sample], snapshot, work, limit=limit, taxonomy=taxonomy)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/ordinal_query.py", line 404, in query_many
+    line = process.stdout.readline(16 << 20)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

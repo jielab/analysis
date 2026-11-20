@@ -1,0 +1,52 @@
+Reusing the matching native union estimate; no estimation FASTA pass
+Building group hash 384.000 GiB; selected capacity fraction 0.248874. Hash-based minimizer downsampling reduces sensitivity, especially for short, divergent, masked or rare-target fragments. The retention fraction is a hash selection fraction, not a measured read recall. All groups compete together; a group call is provisional and subsequent species classification is conditional on routing. Validate retained targets and quantify missed-reference controls.
+Completed compact group index: /work/sph-huangj/data/annot/metag/lib/group/optimized
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u14s>
+Subject: Job 4417471: <metag.index.optimized> in cluster <qmhpc> Done
+
+Job <metag.index.optimized> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Tue Nov 17 11:51:36 2026
+Job was executed on host(s) <32*b04u14s>, in queue <ot38>, as user <sph-huangj> in cluster <qmhpc> at Tue Nov 17 12:14:25 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/metag> was used as the working directory.
+Started at Tue Nov 17 12:14:25 2026
+Terminated at Wed Nov 18 12:00:24 2026
+Results reported at Wed Nov 18 12:00:24 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+source /work/sph-huangj/analysis/metag/indices/optimized/releases/ace738227ad6bc1ab800bd68c6fe6ae102641e9a156c4d3c7777474c53e73d5c/metag/f/env.sh
+cd /work/sph-huangj/scripts/metag
+/work/sph-huangj/software/venvs/metag-20261115/bin/python /work/sph-huangj/analysis/metag/indices/optimized/releases/ace738227ad6bc1ab800bd68c6fe6ae102641e9a156c4d3c7777474c53e73d5c/metag/f/qc_submit.py --verify-config /work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/group_library/run2/effective-config.json c960872e7623e4cc4a44205920a334f60743f6b605df31e1331e7d1e1e7fe791 /work/sph-huangj/analysis/metag/indices/optimized/releases/ace738227ad6bc1ab800bd68c6fe6ae102641e9a156c4d3c7777474c53e73d5c/metag
+exec /work/sph-huangj/software/venvs/metag-20261115/bin/python /work/sph-huangj/analysis/metag/indices/optimized/releases/ace738227ad6bc1ab800bd68c6fe6ae102641e9a156c4d3c7777474c53e73d5c/metag/f/group_library.py --config /work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/group_library/run2/effective-config.json --max-gib 384.0 --estimate auto --threads 32 --replace TRUE
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2417977.75 sec.
+    Max Memory :                                 404736 MB
+    Average Memory :                             400954.75 MB
+    Total Requested Memory :                     655360.00 MB
+    Delta Memory :                               250624.00 MB
+    Max Swap :                                   2 MB
+    Max Processes :                              4
+    Max Threads :                                37
+    Run time :                                   85555 sec.
+    Turnaround time :                            86928 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/metag/indices/optimized/logs/qc/group_library/run2/run.err> for stderr output of this job.
+

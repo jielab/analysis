@@ -1,0 +1,55 @@
+BATCH STAGE group: 10 samples; evaluation=basic
+2026-11-18T05:58:58.601081+00:00 START Wxiamen/SRR39271681: group (1/10)
+CACHE taxonomy HIT: /work/sph-huangj/analysis/metag/indices/optimized/cache/taxonomy/195b835a6912dfd1b50b8f9767fab0a64a150f8aaa4c97605fab5c26da78e0d4/routing.sqlite
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+[Wxiamen/SRR39271681] query streamed 100,000 fragments
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u37b>
+Subject: Job 4419912: <metag.Wxiamen.batch1> in cluster <qmhpc> Exited
+
+Job <metag.Wxiamen.batch1> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 18 12:28:06 2026
+Job was executed on host(s) <40*b04u37b>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Wed Nov 18 13:58:49 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/metag> was used as the working directory.
+Started at Wed Nov 18 13:58:49 2026
+Terminated at Wed Nov 18 14:13:27 2026
+Results reported at Wed Nov 18 14:13:27 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+source /work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/env.sh
+cd /work/sph-huangj/scripts/metag
+/work/sph-huangj/software/venvs/metag-20261115/bin/python /work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/qc_submit.py --verify-config /work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/hierarchical_split/run12/effective-config.json cb1367d56e711553018dbfd544ed125d1407de27fed7482033c08baf0aa10e64 /work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag
+exec /work/sph-huangj/software/venvs/metag-20261115/bin/python /work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/hierarchical_split.py --config /work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/hierarchical_split/run12/effective-config.json group,species,evaluate,report --replace FALSE --stage both --evaluation basic --routing compact --sample Wxiamen/SRR39271681 --sample Wxiamen/SRR39271682 --sample Wxiamen/SRR39271683 --sample Wxiamen/SRR39271684 --sample Wxiamen/SRR39271685 --sample Wxiamen/SRR39271686 --sample Wxiamen/SRR39271687 --sample Wxiamen/SRR39271688 --sample Wxiamen/SRR39271689 --sample Wxiamen/SRR39271690 --threads 38
+
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   11.00 sec.
+    Max Memory :                                 200 MB
+    Average Memory :                             127.15 MB
+    Total Requested Memory :                     458752.00 MB
+    Delta Memory :                               458552.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                44
+    Run time :                                   882 sec.
+    Turnaround time :                            6321 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/metag/indices/optimized/logs/qc/hierarchical_split/run12/run.err> for stderr output of this job.
+

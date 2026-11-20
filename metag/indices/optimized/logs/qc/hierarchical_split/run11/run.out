@@ -1,0 +1,57 @@
+BATCH STAGE group: 10 samples; evaluation=basic
+2026-11-18T04:26:35.537762+00:00 START Ndesert/SRR23862437: group (1/10)
+CACHE taxonomy BUILD: /work/sph-huangj/analysis/metag/indices/optimized/cache/taxonomy/195b835a6912dfd1b50b8f9767fab0a64a150f8aaa4c97605fab5c26da78e0d4/routing.sqlite
+Mapped Kraken index. Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+[Ndesert/SRR23862437] query streamed 100,000 fragments
+[Ndesert/SRR23862437] query streamed 200,000 fragments
+[Ndesert/SRR23862437] query streamed 300,000 fragments
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b04u35a>
+Subject: Job 4419896: <metag.Ndesert.batch1> in cluster <qmhpc> Exited
+
+Job <metag.Ndesert.batch1> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 18 12:26:25 2026
+Job was executed on host(s) <40*b04u35a>, in queue <38>, as user <sph-huangj> in cluster <qmhpc> at Wed Nov 18 12:26:25 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/metag> was used as the working directory.
+Started at Wed Nov 18 12:26:25 2026
+Terminated at Wed Nov 18 14:13:29 2026
+Results reported at Wed Nov 18 14:13:29 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+source /work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/env.sh
+cd /work/sph-huangj/scripts/metag
+/work/sph-huangj/software/venvs/metag-20261115/bin/python /work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/qc_submit.py --verify-config /work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/hierarchical_split/run11/effective-config.json b7c2c9c72850db60d5af831dea09833a1208b0a513b0a1501cccce34b5d29cc7 /work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag
+exec /work/sph-huangj/software/venvs/metag-20261115/bin/python /work/sph-huangj/analysis/metag/indices/optimized/releases/dcd996ec28843a68e67ae651ebfa2f70106d0f15a0f285665b0b02945c35256b/metag/f/hierarchical_split.py --config /work/sph-huangj/analysis/metag/indices/optimized/jobs/qc/hierarchical_split/run11/effective-config.json group,species,evaluate,report --replace FALSE --stage both --evaluation basic --routing compact --sample Ndesert/SRR23862437 --sample Ndesert/SRR23862438 --sample Ndesert/SRR23862439 --sample Ndesert/SRR23862440 --sample Ndesert/SRR23862441 --sample Ndesert/SRR23862442 --sample Ndesert/SRR23862443 --sample Ndesert/SRR23862444 --sample Ndesert/SRR23862445 --sample Ndesert/SRR23862446 --threads 38
+
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   178.14 sec.
+    Max Memory :                                 1180 MB
+    Average Memory :                             411.03 MB
+    Total Requested Memory :                     458752.00 MB
+    Delta Memory :                               457572.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                44
+    Run time :                                   6420 sec.
+    Turnaround time :                            6424 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/metag/indices/optimized/logs/qc/hierarchical_split/run11/run.err> for stderr output of this job.
+
