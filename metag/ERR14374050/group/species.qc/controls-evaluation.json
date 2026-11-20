@@ -1,0 +1,39 @@
+{
+  "assigned_pairs_on_labeled_truth": 158,
+  "assignment_rows": 200,
+  "assignment_rows_without_truth": 0,
+  "assignment_source": {
+    "mtime_ns": 1795049090978478540,
+    "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls.assignments.tsv.gz",
+    "size": 1720
+  },
+  "classification_rate_on_labeled_truth": 0.79,
+  "control_kind": "reference_prefix_positive_control",
+  "control_scope": "conditional_on_known_source_group",
+  "correct_pairs": 158,
+  "f1": 0.88268156424581,
+  "interpretation": "Optimistic recovery control using windows from classification reference genomes. This checks routing/implementation and in-reference recovery; it is not held-out performance on real metagenomic samples.",
+  "known_label_rows": 200,
+  "label_policy": "group labels or species-level truth (explicit true_species_taxid, otherwise frozen-taxonomy ancestor when available); unclassified/missing calls contribute false negatives. Without taxonomy the supplied true_taxid must already be a species ID.",
+  "matched_truth_rows": 200,
+  "missing_predictions": 0,
+  "precision_assigned": 1.0,
+  "recall": 0.79,
+  "selected_groups": [
+    "human",
+    "plant"
+  ],
+  "source_in_classification_reference": true,
+  "stage": "species",
+  "status": "complete",
+  "taxid_normalization": {
+    "explicit_true_species_taxid": 200
+  },
+  "truth_rows": 200,
+  "truth_source": {
+    "mtime_ns": 1795049090984783000,
+    "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls.target.truth.tsv",
+    "size": 33015
+  },
+  "unknown_truth_rows": 0
+}

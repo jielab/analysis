@@ -1,0 +1,36 @@
+{
+  "anchor_pairs": 1100,
+  "cache_reused": true,
+  "groups": {
+    "archaea": 100,
+    "bacteria": 100,
+    "fungi": 100,
+    "human": 100,
+    "invertebrate": 100,
+    "mammal": 100,
+    "other_eukaryote": 100,
+    "other_vertebrate": 100,
+    "plant": 100,
+    "unresolved": 100,
+    "virus": 100
+  },
+  "interpretation": "Exploratory reference anchors and optimistic positive controls; not genome-wide random sampling or held-out accuracy",
+  "issues": [],
+  "limits": {
+    "bases_per_reference": 1048576,
+    "insert_size": 350,
+    "pairs_per_group": 100,
+    "read_lengths": [
+      150,
+      150
+    ],
+    "references_per_group": 5,
+    "seed": 20261115
+  },
+  "reference_files_considered": 47,
+  "reference_prefix_bases_scanned": 43375400,
+  "sampling_scope": "bounded_reference_prefix_windows",
+  "selection": "smallest species taxids, one deterministic assembly per species, up to the per-group cap",
+  "source": "/work/sph-huangj/data/annot/metag/lib/group/optimized/references.tsv",
+  "status": "complete"
+}

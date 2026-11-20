@@ -1,0 +1,161 @@
+{
+  "interpretation": "Optimistic in-reference prefix-window recovery; species controls are conditional on known source group, not end-to-end accuracy.",
+  "pairs": 200,
+  "queries": [
+    {
+      "batch_classification_seconds": 0.24960078671574593,
+      "batch_fragments": 100,
+      "batch_index_load_seconds": 0,
+      "batch_query_seconds_excluding_index_load": 0.24960078671574593,
+      "batch_samples": 1,
+      "classification_timing": "sample wall time",
+      "command": [
+        "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+        "-H",
+        "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/hash.k2d",
+        "-t",
+        "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/taxo.k2d",
+        "-o",
+        "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/opts.k2d",
+        "-p",
+        "38",
+        "-T",
+        "0.1",
+        "-g",
+        "2",
+        "-Q",
+        "0",
+        "-M",
+        "-S"
+      ],
+      "fastq_uncompressed_bytes": 63600,
+      "first_ordinal": 1,
+      "fragments": 100,
+      "fragments_per_second": 400.6397628621399,
+      "input_digest": "c4a5266dd21554655ddb13905073391cae35058f82ad4b21b440981822b514ee",
+      "input_states": [
+        {
+          "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/human/R1.fastq.gz",
+          "state": {
+            "size": 5333
+          }
+        },
+        {
+          "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/human/R2.fastq.gz",
+          "state": {
+            "size": 5321
+          }
+        }
+      ],
+      "log_path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/human/query/query.log",
+      "memory_mapping": true,
+      "memory_mode": "mmap",
+      "native_executable": "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+      "native_index_loads": 1,
+      "native_metrics": {
+        "anonymous_rss_peak_observed_bytes": 20480,
+        "available": true,
+        "file_rss_peak_observed_bytes": 0,
+        "interval_seconds": 2.0,
+        "major_faults_observed": 0,
+        "minor_faults_observed": 22,
+        "note": "Sampled Linux procfs; final interval may be missed. Virtual bytes are not RAM. RSS excludes the Python worker and unmapped OS page cache; this is not a memory limit.",
+        "read_bytes_observed": 0,
+        "rss_peak_observed_bytes": 20480,
+        "samples": 1,
+        "scope": "native process, whole query batch",
+        "virtual_peak_observed_bytes": 2678784
+      },
+      "omp_num_threads": 38,
+      "paired": true,
+      "reads": 200,
+      "requested_limit": 0,
+      "sample_id": "reference-controls/human",
+      "seconds": 0.24960078671574593,
+      "taxids": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/human/query/taxids.bin",
+      "taxids_state": {
+        "size": 800
+      },
+      "total_bases": 30000,
+      "validated_scope": "entire_input"
+    },
+    {
+      "batch_classification_seconds": 0.2967782113701105,
+      "batch_fragments": 100,
+      "batch_index_load_seconds": 0,
+      "batch_query_seconds_excluding_index_load": 0.2967782113701105,
+      "batch_samples": 1,
+      "classification_timing": "sample wall time",
+      "command": [
+        "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+        "-H",
+        "/work/sph-huangj/data/annot/metag/lib/index/plants/hash.k2d",
+        "-t",
+        "/work/sph-huangj/data/annot/metag/lib/index/plants/taxo.k2d",
+        "-o",
+        "/work/sph-huangj/data/annot/metag/lib/index/plants/opts.k2d",
+        "-p",
+        "38",
+        "-T",
+        "0.1",
+        "-g",
+        "2",
+        "-Q",
+        "0",
+        "-M",
+        "-S"
+      ],
+      "fastq_uncompressed_bytes": 63600,
+      "first_ordinal": 1,
+      "fragments": 100,
+      "fragments_per_second": 336.9519599782564,
+      "input_digest": "fd71b984feab3467231411f6cc804c769175b8ae3a8060784c503d1768f8cfa7",
+      "input_states": [
+        {
+          "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/plant/R1.fastq.gz",
+          "state": {
+            "size": 5448
+          }
+        },
+        {
+          "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/plant/R2.fastq.gz",
+          "state": {
+            "size": 5479
+          }
+        }
+      ],
+      "log_path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/plant/query/query.log",
+      "memory_mapping": true,
+      "memory_mode": "mmap",
+      "native_executable": "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+      "native_index_loads": 1,
+      "native_metrics": {
+        "anonymous_rss_peak_observed_bytes": 20480,
+        "available": true,
+        "file_rss_peak_observed_bytes": 0,
+        "interval_seconds": 2.0,
+        "major_faults_observed": 0,
+        "minor_faults_observed": 22,
+        "note": "Sampled Linux procfs; final interval may be missed. Virtual bytes are not RAM. RSS excludes the Python worker and unmapped OS page cache; this is not a memory limit.",
+        "read_bytes_observed": 0,
+        "rss_peak_observed_bytes": 20480,
+        "samples": 1,
+        "scope": "native process, whole query batch",
+        "virtual_peak_observed_bytes": 2678784
+      },
+      "omp_num_threads": 38,
+      "paired": true,
+      "reads": 200,
+      "requested_limit": 0,
+      "sample_id": "reference-controls/plant",
+      "seconds": 0.2967782113701105,
+      "taxids": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/plant/query/taxids.bin",
+      "taxids_state": {
+        "size": 800
+      },
+      "total_bases": 30000,
+      "validated_scope": "entire_input"
+    }
+  ],
+  "status": "complete"
+}

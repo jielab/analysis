@@ -1,0 +1,17 @@
+bin	pairs	r1	r2	bytes_r1	bytes_r2
+group/human/species/9606	94	group/human/species/9606/R1.fastq.gz	group/human/species/9606/R2.fastq.gz	8475	8747
+group/human/species/unresolved	627	group/human/species/unresolved/R1.fastq.gz	group/human/species/unresolved/R2.fastq.gz	52818	55163
+group/plant/species/13333	87	group/plant/species/13333/R1.fastq.gz	group/plant/species/13333/R2.fastq.gz	7067	7500
+group/plant/species/13451	54	group/plant/species/13451/R1.fastq.gz	group/plant/species/13451/R2.fastq.gz	4811	5076
+group/plant/species/148566	20	group/plant/species/148566/R1.fastq.gz	group/plant/species/148566/R2.fastq.gz	1370	1479
+group/plant/species/180675	28	group/plant/species/180675/R1.fastq.gz	group/plant/species/180675/R2.fastq.gz	2233	2331
+group/plant/species/3218	1019	group/plant/species/3218/R1.fastq.gz	group/plant/species/3218/R2.fastq.gz	84099	88270
+group/plant/species/3469	26	group/plant/species/3469/R1.fastq.gz	group/plant/species/3469/R2.fastq.gz	1627	1758
+group/plant/species/3517	1121	group/plant/species/3517/R1.fastq.gz	group/plant/species/3517/R2.fastq.gz	94603	98568
+group/plant/species/3691	60	group/plant/species/3691/R1.fastq.gz	group/plant/species/3691/R2.fastq.gz	5275	5502
+group/plant/species/3694	41	group/plant/species/3694/R1.fastq.gz	group/plant/species/3694/R2.fastq.gz	3466	3646
+group/plant/species/38942	304	group/plant/species/38942/R1.fastq.gz	group/plant/species/38942/R2.fastq.gz	25635	26794
+group/plant/species/4081	32	group/plant/species/4081/R1.fastq.gz	group/plant/species/4081/R2.fastq.gz	1851	1974
+group/plant/species/97700	67	group/plant/species/97700/R1.fastq.gz	group/plant/species/97700/R2.fastq.gz	5388	5599
+group/plant/species/other	310	group/plant/species/other/R1.fastq.gz	group/plant/species/other/R2.fastq.gz	25552	26611
+group/plant/species/unresolved	183838	group/plant/species/unresolved/R1.fastq.gz	group/plant/species/unresolved/R2.fastq.gz	14934664	15647544

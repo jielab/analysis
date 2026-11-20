@@ -1,0 +1,9 @@
+COMMAND ["/work/sph-huangj/software/metag_parallel/kraken/bin/classify", "-H", "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/hash.k2d", "-t", "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/taxo.k2d", "-o", "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/opts.k2d", "-p", "38", "-T", "0.1", "-g", "2", "-Q", "0", "-M", "-S"]
+OMP_NUM_THREADS 38
+MEMORY_MODE mmap
+MEMORY_NOTE Demand-paged index: the complete index is not preloaded; virtual size may exceed RAM. Resident pages depend on OS reclaim and storage I/O; no hard RSS limit is imposed.
+Loading database information... done.
+100 sequences (0.03 Mbp) processed in 0.054s (111.9 Kseq/m, 33.57 Mbp/m).
+  100 sequences classified (100.00%)
+  0 sequences unclassified (0.00%)
+NATIVE_METRICS {"anonymous_rss_peak_observed_bytes": 20480, "available": true, "file_rss_peak_observed_bytes": 0, "interval_seconds": 2.0, "major_faults_observed": 0, "minor_faults_observed": 22, "note": "Sampled Linux procfs; final interval may be missed. Virtual bytes are not RAM. RSS excludes the Python worker and unmapped OS page cache; this is not a memory limit.", "read_bytes_observed": 0, "rss_peak_observed_bytes": 20480, "samples": 1, "scope": "native process, whole query batch", "virtual_peak_observed_bytes": 2678784}

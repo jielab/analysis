@@ -1,0 +1,558 @@
+{
+  "accounting": {
+    "assignment_rows": 187728,
+    "checked_artifacts": 32,
+    "checks": [
+      {
+        "check": "writer_pair_conservation",
+        "expected": 187728,
+        "observed": 187728,
+        "passed": true
+      },
+      {
+        "check": "counts_vs_writer",
+        "expected": 187728,
+        "observed": 187728,
+        "passed": true
+      },
+      {
+        "check": "assignment_rows_vs_input",
+        "expected": 187728,
+        "observed": 187728,
+        "passed": true
+      },
+      {
+        "check": "species_input_vs_processed_parent_bins",
+        "expected": 187728,
+        "observed": 187728,
+        "passed": true
+      },
+      {
+        "check": "species_processed_plus_preserved_parent_pairs",
+        "expected": 39583068,
+        "observed": 39583068,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/human/species/9606/R1.fastq.gz",
+        "expected": 8475,
+        "observed": 8475,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/human/species/9606/R2.fastq.gz",
+        "expected": 8747,
+        "observed": 8747,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/human/species/unresolved/R1.fastq.gz",
+        "expected": 52818,
+        "observed": 52818,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/human/species/unresolved/R2.fastq.gz",
+        "expected": 55163,
+        "observed": 55163,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/13333/R1.fastq.gz",
+        "expected": 7067,
+        "observed": 7067,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/13333/R2.fastq.gz",
+        "expected": 7500,
+        "observed": 7500,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/13451/R1.fastq.gz",
+        "expected": 4811,
+        "observed": 4811,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/13451/R2.fastq.gz",
+        "expected": 5076,
+        "observed": 5076,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/148566/R1.fastq.gz",
+        "expected": 1370,
+        "observed": 1370,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/148566/R2.fastq.gz",
+        "expected": 1479,
+        "observed": 1479,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/180675/R1.fastq.gz",
+        "expected": 2233,
+        "observed": 2233,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/180675/R2.fastq.gz",
+        "expected": 2331,
+        "observed": 2331,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3218/R1.fastq.gz",
+        "expected": 84099,
+        "observed": 84099,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3218/R2.fastq.gz",
+        "expected": 88270,
+        "observed": 88270,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3469/R1.fastq.gz",
+        "expected": 1627,
+        "observed": 1627,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3469/R2.fastq.gz",
+        "expected": 1758,
+        "observed": 1758,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3517/R1.fastq.gz",
+        "expected": 94603,
+        "observed": 94603,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3517/R2.fastq.gz",
+        "expected": 98568,
+        "observed": 98568,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3691/R1.fastq.gz",
+        "expected": 5275,
+        "observed": 5275,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3691/R2.fastq.gz",
+        "expected": 5502,
+        "observed": 5502,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3694/R1.fastq.gz",
+        "expected": 3466,
+        "observed": 3466,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/3694/R2.fastq.gz",
+        "expected": 3646,
+        "observed": 3646,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/38942/R1.fastq.gz",
+        "expected": 25635,
+        "observed": 25635,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/38942/R2.fastq.gz",
+        "expected": 26794,
+        "observed": 26794,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/4081/R1.fastq.gz",
+        "expected": 1851,
+        "observed": 1851,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/4081/R2.fastq.gz",
+        "expected": 1974,
+        "observed": 1974,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/97700/R1.fastq.gz",
+        "expected": 5388,
+        "observed": 5388,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/97700/R2.fastq.gz",
+        "expected": 5599,
+        "observed": 5599,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/other/R1.fastq.gz",
+        "expected": 25552,
+        "observed": 25552,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/other/R2.fastq.gz",
+        "expected": 26611,
+        "observed": 26611,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/unresolved/R1.fastq.gz",
+        "expected": 14934664,
+        "observed": 14934664,
+        "passed": true
+      },
+      {
+        "check": "artifact_bytes:group/plant/species/unresolved/R2.fastq.gz",
+        "expected": 15647544,
+        "observed": 15647544,
+        "passed": true
+      }
+    ],
+    "counts_pairs": 187728,
+    "errors": [],
+    "input_pairs": 187728,
+    "notes": [],
+    "scope": "full writer/count accounting plus artifact existence/size; output FASTQs are not reread in full",
+    "status": "complete",
+    "written_pairs": 187728
+  },
+  "agreement": {
+    "reason": "Not requested in basic evaluation profile",
+    "status": "skipped"
+  },
+  "alignment": {
+    "reason": "Not requested in basic evaluation profile",
+    "status": "skipped"
+  },
+  "anchors": {
+    "anchor_pairs": 1100,
+    "cache_reused": true,
+    "groups": {
+      "archaea": 100,
+      "bacteria": 100,
+      "fungi": 100,
+      "human": 100,
+      "invertebrate": 100,
+      "mammal": 100,
+      "other_eukaryote": 100,
+      "other_vertebrate": 100,
+      "plant": 100,
+      "unresolved": 100,
+      "virus": 100
+    },
+    "interpretation": "Exploratory reference anchors and optimistic positive controls; not genome-wide random sampling or held-out accuracy",
+    "issues": [],
+    "limits": {
+      "bases_per_reference": 1048576,
+      "insert_size": 350,
+      "pairs_per_group": 100,
+      "read_lengths": [
+        150,
+        150
+      ],
+      "references_per_group": 5,
+      "seed": 20261115
+    },
+    "reference_files_considered": 47,
+    "reference_prefix_bases_scanned": 43375400,
+    "sampling_scope": "bounded_reference_prefix_windows",
+    "selection": "smallest species taxids, one deterministic assembly per species, up to the per-group cap",
+    "source": "/work/sph-huangj/data/annot/metag/lib/group/optimized/references.tsv",
+    "status": "complete"
+  },
+  "composition": {
+    "excluded_no_valid_4mers": 0,
+    "explained_variance_fraction": [
+      0.25017650657902785,
+      0.0608215233921421
+    ],
+    "features": 136,
+    "fit_scope": "reference_anchors_only",
+    "interpretation": "Short-read nucleotide composition is exploratory. Separation, overlap and distance are not species accuracy, ancestry inference, or proof of contamination.",
+    "reference_anchor_groups": 11,
+    "reference_anchor_points": 1100,
+    "status": "complete",
+    "transformation": "sqrt(canonical 4-mer frequency); centered PCA",
+    "usable_read_points": 23890
+  },
+  "controls": {
+    "assigned_pairs_on_labeled_truth": 158,
+    "assignment_rows": 200,
+    "assignment_rows_without_truth": 0,
+    "assignment_source": {
+      "mtime_ns": 1795049090978478540,
+      "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls.assignments.tsv.gz",
+      "size": 1720
+    },
+    "classification_rate_on_labeled_truth": 0.79,
+    "control_kind": "reference_prefix_positive_control",
+    "control_scope": "conditional_on_known_source_group",
+    "correct_pairs": 158,
+    "f1": 0.88268156424581,
+    "interpretation": "Optimistic recovery control using windows from classification reference genomes. This checks routing/implementation and in-reference recovery; it is not held-out performance on real metagenomic samples.",
+    "known_label_rows": 200,
+    "label_policy": "group labels or species-level truth (explicit true_species_taxid, otherwise frozen-taxonomy ancestor when available); unclassified/missing calls contribute false negatives. Without taxonomy the supplied true_taxid must already be a species ID.",
+    "matched_truth_rows": 200,
+    "missing_predictions": 0,
+    "precision_assigned": 1.0,
+    "recall": 0.79,
+    "selected_groups": [
+      "human",
+      "plant"
+    ],
+    "source_in_classification_reference": true,
+    "stage": "species",
+    "status": "complete",
+    "taxid_normalization": {
+      "explicit_true_species_taxid": 200
+    },
+    "truth_rows": 200,
+    "truth_source": {
+      "mtime_ns": 1795049090984783000,
+      "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls.target.truth.tsv",
+      "size": 33015
+    },
+    "unknown_truth_rows": 0
+  },
+  "controls_execution": {
+    "interpretation": "Optimistic in-reference prefix-window recovery; species controls are conditional on known source group, not end-to-end accuracy.",
+    "pairs": 200,
+    "queries": [
+      {
+        "batch_classification_seconds": 0.24960078671574593,
+        "batch_fragments": 100,
+        "batch_index_load_seconds": 0,
+        "batch_query_seconds_excluding_index_load": 0.24960078671574593,
+        "batch_samples": 1,
+        "classification_timing": "sample wall time",
+        "command": [
+          "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+          "-H",
+          "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/hash.k2d",
+          "-t",
+          "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/taxo.k2d",
+          "-o",
+          "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/opts.k2d",
+          "-p",
+          "38",
+          "-T",
+          "0.1",
+          "-g",
+          "2",
+          "-Q",
+          "0",
+          "-M",
+          "-S"
+        ],
+        "fastq_uncompressed_bytes": 63600,
+        "first_ordinal": 1,
+        "fragments": 100,
+        "fragments_per_second": 400.6397628621399,
+        "input_digest": "c4a5266dd21554655ddb13905073391cae35058f82ad4b21b440981822b514ee",
+        "input_states": [
+          {
+            "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/human/R1.fastq.gz",
+            "state": {
+              "size": 5333
+            }
+          },
+          {
+            "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/human/R2.fastq.gz",
+            "state": {
+              "size": 5321
+            }
+          }
+        ],
+        "log_path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/human/query/query.log",
+        "memory_mapping": true,
+        "memory_mode": "mmap",
+        "native_executable": "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+        "native_index_loads": 1,
+        "native_metrics": {
+          "anonymous_rss_peak_observed_bytes": 20480,
+          "available": true,
+          "file_rss_peak_observed_bytes": 0,
+          "interval_seconds": 2.0,
+          "major_faults_observed": 0,
+          "minor_faults_observed": 22,
+          "note": "Sampled Linux procfs; final interval may be missed. Virtual bytes are not RAM. RSS excludes the Python worker and unmapped OS page cache; this is not a memory limit.",
+          "read_bytes_observed": 0,
+          "rss_peak_observed_bytes": 20480,
+          "samples": 1,
+          "scope": "native process, whole query batch",
+          "virtual_peak_observed_bytes": 2678784
+        },
+        "omp_num_threads": 38,
+        "paired": true,
+        "reads": 200,
+        "requested_limit": 0,
+        "sample_id": "reference-controls/human",
+        "seconds": 0.24960078671574593,
+        "taxids": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/human/query/taxids.bin",
+        "taxids_state": {
+          "size": 800
+        },
+        "total_bases": 30000,
+        "validated_scope": "entire_input"
+      },
+      {
+        "batch_classification_seconds": 0.2967782113701105,
+        "batch_fragments": 100,
+        "batch_index_load_seconds": 0,
+        "batch_query_seconds_excluding_index_load": 0.2967782113701105,
+        "batch_samples": 1,
+        "classification_timing": "sample wall time",
+        "command": [
+          "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+          "-H",
+          "/work/sph-huangj/data/annot/metag/lib/index/plants/hash.k2d",
+          "-t",
+          "/work/sph-huangj/data/annot/metag/lib/index/plants/taxo.k2d",
+          "-o",
+          "/work/sph-huangj/data/annot/metag/lib/index/plants/opts.k2d",
+          "-p",
+          "38",
+          "-T",
+          "0.1",
+          "-g",
+          "2",
+          "-Q",
+          "0",
+          "-M",
+          "-S"
+        ],
+        "fastq_uncompressed_bytes": 63600,
+        "first_ordinal": 1,
+        "fragments": 100,
+        "fragments_per_second": 336.9519599782564,
+        "input_digest": "fd71b984feab3467231411f6cc804c769175b8ae3a8060784c503d1768f8cfa7",
+        "input_states": [
+          {
+            "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/plant/R1.fastq.gz",
+            "state": {
+              "size": 5448
+            }
+          },
+          {
+            "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/plant/R2.fastq.gz",
+            "state": {
+              "size": 5479
+            }
+          }
+        ],
+        "log_path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/plant/query/query.log",
+        "memory_mapping": true,
+        "memory_mode": "mmap",
+        "native_executable": "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+        "native_index_loads": 1,
+        "native_metrics": {
+          "anonymous_rss_peak_observed_bytes": 20480,
+          "available": true,
+          "file_rss_peak_observed_bytes": 0,
+          "interval_seconds": 2.0,
+          "major_faults_observed": 0,
+          "minor_faults_observed": 22,
+          "note": "Sampled Linux procfs; final interval may be missed. Virtual bytes are not RAM. RSS excludes the Python worker and unmapped OS page cache; this is not a memory limit.",
+          "read_bytes_observed": 0,
+          "rss_peak_observed_bytes": 20480,
+          "samples": 1,
+          "scope": "native process, whole query batch",
+          "virtual_peak_observed_bytes": 2678784
+        },
+        "omp_num_threads": 38,
+        "paired": true,
+        "reads": 200,
+        "requested_limit": 0,
+        "sample_id": "reference-controls/plant",
+        "seconds": 0.2967782113701105,
+        "taxids": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/species.qc/controls-query/plant/query/taxids.bin",
+        "taxids_state": {
+          "size": 800
+        },
+        "total_bases": 30000,
+        "validated_scope": "entire_input"
+      }
+    ],
+    "status": "complete"
+  },
+  "created_at": "2026-11-19T00:44:44.798648+00:00",
+  "diagnostic_bundle": {
+    "metadata_path": "diagnostic-bundle.json",
+    "path": "diagnostic.zip",
+    "sampled_sequences_only": true
+  },
+  "errors": [],
+  "evaluation_profile": "basic",
+  "evaluation_seconds": 5.296,
+  "sample_id": "england/ERR14374050",
+  "sample_qc": {
+    "errors": [],
+    "median_r1_length": 150.0,
+    "median_r2_length": 150.0,
+    "represented_pairs": 187728,
+    "represented_population_fraction": 1.0,
+    "sampled_pairs": 23890,
+    "scope": "QC metrics estimate represented strata only; absent strata and species are not inferred",
+    "status": "complete",
+    "strata": 6,
+    "weighted_population_estimates": {
+      "adapter_signature_read_fraction": 0.002276176702463138,
+      "bases": 56318399.99999999,
+      "fragments": 187727.99999999997,
+      "gc_fraction": 0.36425840875983695,
+      "homopolymer_ge15_read_fraction": 0.004087658740305123,
+      "length_distribution": {
+        "150": 375455.99999999994
+      },
+      "low_complexity_read_fraction": 0.002800039951419075,
+      "mean_phred": 35.495305246384845,
+      "mean_read_length": 150.0,
+      "mean_sequence_entropy_bits": 1.8724334476234468,
+      "mean_unique_15mer_fraction": 0.993175306717227,
+      "n_fraction": 8.26127162703486e-06,
+      "q20_fraction": 0.9674151111004574,
+      "q30_fraction": 0.9126306702019235,
+      "reads": 375455.99999999994
+    },
+    "weighting": "inverse sampling fraction N_h/n_h within each represented stratum"
+  },
+  "schema": "metag-stage-evaluation-v1",
+  "stage": "species",
+  "stage_scope": {
+    "expected_pairs": 39583068,
+    "input_pairs": 187728,
+    "processed_groups": [
+      "human",
+      "plant"
+    ],
+    "scope": "selected_coarse_groups_only",
+    "selected_groups": [
+      "human",
+      "plant"
+    ],
+    "unprocessed_pairs": 39395340
+  },
+  "status": "complete_with_limitations",
+  "truth": {
+    "interpretation": "No real-sample accuracy estimate without true labels",
+    "status": "not_supplied"
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "artifact_observations": {
+    "group/human/species/9606/R1.fastq.gz": {
+      "ctime_ns": 1795009999051453176,
+      "mtime_ns": 1795009999051494000,
+      "size": 8475
+    },
+    "group/human/species/9606/R2.fastq.gz": {
+      "ctime_ns": 1795009999051532218,
+      "mtime_ns": 1795009999051565000,
+      "size": 8747
+    },
+    "group/human/species/unresolved/R1.fastq.gz": {
+      "ctime_ns": 1795009999051593601,
+      "mtime_ns": 1795009999051614000,
+      "size": 52818
+    },
+    "group/human/species/unresolved/R2.fastq.gz": {
+      "ctime_ns": 1795009999051650373,
+      "mtime_ns": 1795009999051664000,
+      "size": 55163
+    },
+    "group/plant/species/13333/R1.fastq.gz": {
+      "ctime_ns": 1795010214868846693,
+      "mtime_ns": 1795010214868867000,
+      "size": 7067
+    },
+    "group/plant/species/13333/R2.fastq.gz": {
+      "ctime_ns": 1795010214868893979,
+      "mtime_ns": 1795010214868909000,
+      "size": 7500
+    },
+    "group/plant/species/13451/R1.fastq.gz": {
+      "ctime_ns": 1795010214868603780,
+      "mtime_ns": 1795010214868619000,
+      "size": 4811
+    },
+    "group/plant/species/13451/R2.fastq.gz": {
+      "ctime_ns": 1795010214868644359,
+      "mtime_ns": 1795010214868666000,
+      "size": 5076
+    },
+    "group/plant/species/148566/R1.fastq.gz": {
+      "ctime_ns": 1795010214868692586,
+      "mtime_ns": 1795010214868692586,
+      "size": 1370
+    },
+    "group/plant/species/148566/R2.fastq.gz": {
+      "ctime_ns": 1795010214868714738,
+      "mtime_ns": 1795010214868714738,
+      "size": 1479
+    },
+    "group/plant/species/180675/R1.fastq.gz": {
+      "ctime_ns": 1795010214868467913,
+      "mtime_ns": 1795010214868467913,
+      "size": 2233
+    },
+    "group/plant/species/180675/R2.fastq.gz": {
+      "ctime_ns": 1795010214868489374,
+      "mtime_ns": 1795010214868489374,
+      "size": 2331
+    },
+    "group/plant/species/3218/R1.fastq.gz": {
+      "ctime_ns": 1795010214868736958,
+      "mtime_ns": 1795010214868752000,
+      "size": 84099
+    },
+    "group/plant/species/3218/R2.fastq.gz": {
+      "ctime_ns": 1795010214868791850,
+      "mtime_ns": 1795010214868807000,
+      "size": 88270
+    },
+    "group/plant/species/3469/R1.fastq.gz": {
+      "ctime_ns": 1795010214868088626,
+      "mtime_ns": 1795010214868088626,
+      "size": 1627
+    },
+    "group/plant/species/3469/R2.fastq.gz": {
+      "ctime_ns": 1795010214868133948,
+      "mtime_ns": 1795010214868133948,
+      "size": 1758
+    },
+    "group/plant/species/3517/R1.fastq.gz": {
+      "ctime_ns": 1795010214868936416,
+      "mtime_ns": 1795010214868959000,
+      "size": 94603
+    },
+    "group/plant/species/3517/R2.fastq.gz": {
+      "ctime_ns": 1795010214869001808,
+      "mtime_ns": 1795010214869017000,
+      "size": 98568
+    },
+    "group/plant/species/3691/R1.fastq.gz": {
+      "ctime_ns": 1795010214868155152,
+      "mtime_ns": 1795010214868194000,
+      "size": 5275
+    },
+    "group/plant/species/3691/R2.fastq.gz": {
+      "ctime_ns": 1795010214868229031,
+      "mtime_ns": 1795010214868254000,
+      "size": 5502
+    },
+    "group/plant/species/3694/R1.fastq.gz": {
+      "ctime_ns": 1795010214868282052,
+      "mtime_ns": 1795010214868282052,
+      "size": 3466
+    },
+    "group/plant/species/3694/R2.fastq.gz": {
+      "ctime_ns": 1795010214868306734,
+      "mtime_ns": 1795010214868306734,
+      "size": 3646
+    },
+    "group/plant/species/38942/R1.fastq.gz": {
+      "ctime_ns": 1795010214868510454,
+      "mtime_ns": 1795010214868528000,
+      "size": 25635
+    },
+    "group/plant/species/38942/R2.fastq.gz": {
+      "ctime_ns": 1795010214868557952,
+      "mtime_ns": 1795010214868574000,
+      "size": 26794
+    },
+    "group/plant/species/4081/R1.fastq.gz": {
+      "ctime_ns": 1795010214868424247,
+      "mtime_ns": 1795010214868424247,
+      "size": 1851
+    },
+    "group/plant/species/4081/R2.fastq.gz": {
+      "ctime_ns": 1795010214868446085,
+      "mtime_ns": 1795010214868446085,
+      "size": 1974
+    },
+    "group/plant/species/97700/R1.fastq.gz": {
+      "ctime_ns": 1795010214868328800,
+      "mtime_ns": 1795010214868350000,
+      "size": 5388
+    },
+    "group/plant/species/97700/R2.fastq.gz": {
+      "ctime_ns": 1795010214868381529,
+      "mtime_ns": 1795010214868398000,
+      "size": 5599
+    },
+    "group/plant/species/other/R1.fastq.gz": {
+      "ctime_ns": 1795010214869058568,
+      "mtime_ns": 1795010214869074000,
+      "size": 25552
+    },
+    "group/plant/species/other/R2.fastq.gz": {
+      "ctime_ns": 1795010214869103887,
+      "mtime_ns": 1795010214869124000,
+      "size": 26611
+    },
+    "group/plant/species/unresolved/R1.fastq.gz": {
+      "ctime_ns": 1795010214869155934,
+      "mtime_ns": 1795010214869155934,
+      "size": 14934664
+    },
+    "group/plant/species/unresolved/R2.fastq.gz": {
+      "ctime_ns": 1795010214869200238,
+      "mtime_ns": 1795010214869200238,
+      "size": 15647544
+    },
+    "group/species.qc/assignments.tsv.gz": {
+      "ctime_ns": 1795010214873025245,
+      "mtime_ns": 1795010214873025245,
+      "size": 2262486
+    },
+    "group/species.qc/counts.tsv": {
+      "ctime_ns": 1795010215398665134,
+      "mtime_ns": 1795010215398665134,
+      "size": 1918
+    },
+    "group/species.qc/sample.R1.fastq.gz": {
+      "ctime_ns": 1795010215306877907,
+      "mtime_ns": 1795010215306877907,
+      "size": 1996733
+    },
+    "group/species.qc/sample.R2.fastq.gz": {
+      "ctime_ns": 1795010215305769470,
+      "mtime_ns": 1795010215305769470,
+      "size": 2092462
+    },
+    "group/species.qc/sample.tsv": {
+      "ctime_ns": 1795010215395185132,
+      "mtime_ns": 1795010215395185132,
+      "size": 4443910
+    },
+    "group/species.qc/taxa.tsv": {
+      "ctime_ns": 1795010215399798365,
+      "mtime_ns": 1795010215399829000,
+      "size": 18172
+    }
+  },
+  "artifacts": {
+    "group/human/species/9606/R1.fastq.gz": 8475,
+    "group/human/species/9606/R2.fastq.gz": 8747,
+    "group/human/species/unresolved/R1.fastq.gz": 52818,
+    "group/human/species/unresolved/R2.fastq.gz": 55163,
+    "group/plant/species/13333/R1.fastq.gz": 7067,
+    "group/plant/species/13333/R2.fastq.gz": 7500,
+    "group/plant/species/13451/R1.fastq.gz": 4811,
+    "group/plant/species/13451/R2.fastq.gz": 5076,
+    "group/plant/species/148566/R1.fastq.gz": 1370,
+    "group/plant/species/148566/R2.fastq.gz": 1479,
+    "group/plant/species/180675/R1.fastq.gz": 2233,
+    "group/plant/species/180675/R2.fastq.gz": 2331,
+    "group/plant/species/3218/R1.fastq.gz": 84099,
+    "group/plant/species/3218/R2.fastq.gz": 88270,
+    "group/plant/species/3469/R1.fastq.gz": 1627,
+    "group/plant/species/3469/R2.fastq.gz": 1758,
+    "group/plant/species/3517/R1.fastq.gz": 94603,
+    "group/plant/species/3517/R2.fastq.gz": 98568,
+    "group/plant/species/3691/R1.fastq.gz": 5275,
+    "group/plant/species/3691/R2.fastq.gz": 5502,
+    "group/plant/species/3694/R1.fastq.gz": 3466,
+    "group/plant/species/3694/R2.fastq.gz": 3646,
+    "group/plant/species/38942/R1.fastq.gz": 25635,
+    "group/plant/species/38942/R2.fastq.gz": 26794,
+    "group/plant/species/4081/R1.fastq.gz": 1851,
+    "group/plant/species/4081/R2.fastq.gz": 1974,
+    "group/plant/species/97700/R1.fastq.gz": 5388,
+    "group/plant/species/97700/R2.fastq.gz": 5599,
+    "group/plant/species/other/R1.fastq.gz": 25552,
+    "group/plant/species/other/R2.fastq.gz": 26611,
+    "group/plant/species/unresolved/R1.fastq.gz": 14934664,
+    "group/plant/species/unresolved/R2.fastq.gz": 15647544,
+    "group/species.qc/assignments.tsv.gz": 2262486,
+    "group/species.qc/counts.tsv": 1918,
+    "group/species.qc/sample.R1.fastq.gz": 1996733,
+    "group/species.qc/sample.R2.fastq.gz": 2092462,
+    "group/species.qc/sample.tsv": 4443910,
+    "group/species.qc/taxa.tsv": 18172
+  },
+  "assignment_rows": 187728,
+  "completed_at": "2026-11-18T13:56:55.399886+00:00",
+  "evaluation_status": "partial",
+  "expected_pairs": 39583068,
+  "input_digest": "9f5befac0d1d825f5e90fa21439befeecd33a5ec74f80800b8a95a4317ff0306",
+  "input_pairs": 187728,
+  "note": "Known groups use conditional category evidence; optional uncertain inputs use full all-category competition. Unselected pairs remain in coarse bins.",
+  "paired": true,
+  "processed_groups": [
+    "human",
+    "plant"
+  ],
+  "queries": [
+    {
+      "batch_classification_seconds": 702.5746880322695,
+      "batch_fragments": 721,
+      "batch_index_load_seconds": 0,
+      "batch_query_seconds_excluding_index_load": 702.5746880322695,
+      "batch_samples": 1,
+      "classification_timing": "sample wall time",
+      "command": [
+        "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+        "-H",
+        "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/hash.k2d",
+        "-t",
+        "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/taxo.k2d",
+        "-o",
+        "/work/sph-huangj/data/annot/metag/lib/index/vertebrates/opts.k2d",
+        "-p",
+        "38",
+        "-T",
+        "0.1",
+        "-g",
+        "2",
+        "-Q",
+        "0",
+        "-M",
+        "-S"
+      ],
+      "fastq_uncompressed_bytes": 529516,
+      "first_ordinal": 1,
+      "fragments": 721,
+      "fragments_per_second": 1.0262254138692857,
+      "input_digest": "08fd9f145eff0fea3ec41d0c580a66c2fb4202d6c0e5ddc13e7b7387bd29efd1",
+      "input_states": [
+        {
+          "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/human/R1.fastq.gz",
+          "state": {
+            "size": 61050
+          }
+        },
+        {
+          "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/human/R2.fastq.gz",
+          "state": {
+            "size": 63669
+          }
+        }
+      ],
+      "log_path": "/work/sph-huangj/analysis/metag/indices/optimized/tmp/hierarchy/england/ERR14374050/human-r9x3_r5i/query.log",
+      "memory_mapping": true,
+      "memory_mode": "mmap",
+      "native_executable": "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+      "native_index_loads": 1,
+      "native_metrics": {
+        "anonymous_rss_peak_observed_bytes": 119406592,
+        "available": true,
+        "file_rss_peak_observed_bytes": 171511808,
+        "interval_seconds": 2.0,
+        "major_faults_observed": 0,
+        "minor_faults_observed": 73209,
+        "note": "Sampled Linux procfs; final interval may be missed. Virtual bytes are not RAM. RSS excludes the Python worker and unmapped OS page cache; this is not a memory limit.",
+        "read_bytes_observed": 0,
+        "rss_peak_observed_bytes": 290918400,
+        "samples": 352,
+        "scope": "native process, whole query batch",
+        "virtual_peak_observed_bytes": 1134447562752
+      },
+      "omp_num_threads": 38,
+      "paired": true,
+      "reads": 1442,
+      "requested_limit": 0,
+      "sample_id": "england/ERR14374050/human",
+      "seconds": 702.5746880322695,
+      "taxids": "/work/sph-huangj/analysis/metag/indices/optimized/tmp/hierarchy/england/ERR14374050/human-r9x3_r5i/taxids.bin",
+      "taxids_state": {
+        "size": 5768
+      },
+      "total_bases": 216300,
+      "validated_scope": "entire_input"
+    },
+    {
+      "batch_classification_seconds": 209.39545438811183,
+      "batch_fragments": 187007,
+      "batch_index_load_seconds": 0,
+      "batch_query_seconds_excluding_index_load": 209.39545438811183,
+      "batch_samples": 1,
+      "classification_timing": "sample wall time",
+      "command": [
+        "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+        "-H",
+        "/work/sph-huangj/data/annot/metag/lib/index/plants/hash.k2d",
+        "-t",
+        "/work/sph-huangj/data/annot/metag/lib/index/plants/taxo.k2d",
+        "-o",
+        "/work/sph-huangj/data/annot/metag/lib/index/plants/opts.k2d",
+        "-p",
+        "38",
+        "-T",
+        "0.1",
+        "-g",
+        "2",
+        "-Q",
+        "0",
+        "-M",
+        "-S"
+      ],
+      "fastq_uncompressed_bytes": 137332262,
+      "first_ordinal": 1,
+      "fragments": 187007,
+      "fragments_per_second": 893.08051383668,
+      "input_digest": "924a0a414b1747efadb84112893f528f0b16d7fd5d02dd135408b3e4c6350beb",
+      "input_states": [
+        {
+          "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/plant/R1.fastq.gz",
+          "state": {
+            "size": 15186913
+          }
+        },
+        {
+          "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/plant/R2.fastq.gz",
+          "state": {
+            "size": 15912436
+          }
+        }
+      ],
+      "log_path": "/work/sph-huangj/analysis/metag/indices/optimized/tmp/hierarchy/england/ERR14374050/plant-na8acevx/query.log",
+      "memory_mapping": true,
+      "memory_mode": "mmap",
+      "native_executable": "/work/sph-huangj/software/metag_parallel/kraken/bin/classify",
+      "native_index_loads": 1,
+      "native_metrics": {
+        "anonymous_rss_peak_observed_bytes": 533291008,
+        "available": true,
+        "file_rss_peak_observed_bytes": 32711843840,
+        "interval_seconds": 2.0,
+        "major_faults_observed": 0,
+        "minor_faults_observed": 8777275,
+        "note": "Sampled Linux procfs; final interval may be missed. Virtual bytes are not RAM. RSS excludes the Python worker and unmapped OS page cache; this is not a memory limit.",
+        "read_bytes_observed": 0,
+        "rss_peak_observed_bytes": 33494667264,
+        "samples": 105,
+        "scope": "native process, whole query batch",
+        "virtual_peak_observed_bytes": 151597834240
+      },
+      "omp_num_threads": 38,
+      "paired": true,
+      "reads": 374014,
+      "requested_limit": 0,
+      "sample_id": "england/ERR14374050/plant",
+      "seconds": 209.3954543881118,
+      "taxids": "/work/sph-huangj/analysis/metag/indices/optimized/tmp/hierarchy/england/ERR14374050/plant-na8acevx/taxids.bin",
+      "taxids_state": {
+        "size": 1496056
+      },
+      "total_bases": 56102100,
+      "validated_scope": "entire_input"
+    }
+  ],
+  "request": {
+    "code": "081acf230c8b8d5358ca33188a6ad968a3711fb240c9f3c552fcc9b2d5b33a06",
+    "confidence": 0.1,
+    "databases": {
+      "human": "532fb791aadbeac8e16d1fb21955ad9854c77510e559267984ab345edc5d3323",
+      "plant": "b63287ca988556b35719138a8e80adec93a6558d3908c3e7112c890cfd1ab301"
+    },
+    "evaluation_pairs_per_stratum": 1000,
+    "evaluation_seed": 20261115,
+    "evaluation_target_pairs_per_stratum": 10000,
+    "group_inputs": {
+      "group/human/R1.fastq.gz": {
+        "ctime_ns": 1794988834184825588,
+        "mtime_ns": 1794988834184890000,
+        "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/human/R1.fastq.gz",
+        "size": 61050
+      },
+      "group/human/R2.fastq.gz": {
+        "ctime_ns": 1794988834184976014,
+        "mtime_ns": 1794988834184996000,
+        "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/human/R2.fastq.gz",
+        "size": 63669
+      },
+      "group/human/ordinals.tsv.gz": {
+        "ctime_ns": 1794988834312367733,
+        "mtime_ns": 1794988834312367733,
+        "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/human/ordinals.tsv.gz",
+        "size": 3650
+      },
+      "group/plant/R1.fastq.gz": {
+        "ctime_ns": 1794988834310802546,
+        "mtime_ns": 1794988834310802546,
+        "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/plant/R1.fastq.gz",
+        "size": 15186913
+      },
+      "group/plant/R2.fastq.gz": {
+        "ctime_ns": 1794988834310861768,
+        "mtime_ns": 1794988834310861768,
+        "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/plant/R2.fastq.gz",
+        "size": 15912436
+      },
+      "group/plant/ordinals.tsv.gz": {
+        "ctime_ns": 1794988834322325958,
+        "mtime_ns": 1794988834322325958,
+        "path": "/work/sph-huangj/data/metag/species/optimized/england/ERR14374050/group/plant/ordinals.tsv.gz",
+        "size": 1048240
+      }
+    },
+    "groups": [
+      "human",
+      "plant"
+    ],
+    "gzip_level": 3,
+    "include_uncertain": false,
+    "inputs": [
+      {
+        "ctime_ns": 1794105676790112959,
+        "mtime_ns": 1793494605000000000,
+        "path": "/work/sph-huangj/data/metag/raw/england/ERR14374050_1.fastq.gz",
+        "size": 2904581417
+      },
+      {
+        "ctime_ns": 1794105699106256069,
+        "mtime_ns": 1793502287000000000,
+        "path": "/work/sph-huangj/data/metag/raw/england/ERR14374050_2.fastq.gz",
+        "size": 3050362716
+      }
+    ],
+    "method": "detailed_category_kraken",
+    "minimum_base_quality": 0,
+    "minimum_hit_groups": 2,
+    "minimum_species_file_pairs": 20,
+    "parent": "7948445b95f5179b2406d4cdc1dbec6c9cd079ab9af330aee440ca89c651c567",
+    "sample": "england/ERR14374050",
+    "schema": "metag-hierarchy-v1",
+    "stage": "species"
+  },
+  "sample_id": "england/ERR14374050",
+  "sampling": {
+    "method": "uniform_reservoir_within_group_and_status",
+    "other_limit": 1000,
+    "pairs": 23890,
+    "seed": 20261115,
+    "strata": {
+      "human:assigned_species": 94,
+      "human:taxon_unresolved": 150,
+      "human:unclassified_within_group": 477,
+      "plant:assigned_species": 3169,
+      "plant:taxon_unresolved": 11667,
+      "plant:unclassified_within_group": 172171
+    },
+    "target_limit": 10000
+  },
+  "schema": "metag-hierarchy-v1",
+  "scope": "selected_coarse_groups_only",
+  "selected_groups": [
+    "human",
+    "plant"
+  ],
+  "stage": "species",
+  "status": "complete",
+  "taxonomy_dir": "/work/sph-huangj/data/annot/metag/lib/global/taxonomy",
+  "unprocessed_pairs": 39395340,
+  "written_pairs": 187728
+}
