@@ -1,0 +1,15 @@
+Tomatoes
+Butter
+Legumes
+Low-fat_dairy_products
+Dried_fruit
+Whole_grains
+Eggs
+Apples_Pears
+Wine
+Green_leafy_vegetables
+Processed_meats
+Sweetened_beverages
+Water
+Tea
+Olive_oil

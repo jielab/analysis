@@ -1,0 +1,19 @@
+2026-11-25T23:49:14+00:00
+/work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/dose/mechanism.py
+/work/sph-huangj/software/diet/python/enigmatoolbox/datasets/base.py:411: SyntaxWarning: "is" with 'str' literal. Did you mean "=="?
+  if parcellation is 'aparc':
+/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/io_support/freesurfer_support.py:61: SyntaxWarning: invalid escape sequence '\s'
+  re_npoints_cells = re.compile('[\s]*(\d+)[\s]*(\d+)[\s]*$')
+Volume anatomy: Missing local atlas: /work/sph-huangj/.local/share/dose/mri_atlases/HarvardOxford-Cortical.xml. Prepare atlas files before running; downloads are disabled.
+b anatomy: [Errno 2] No such file or directory: '/work/sph-huangj/.local/share/dose/mri_atlases/ukb_tracts27/structureList.source.txt'
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/diet/dose/mechanism.py", line 648, in <module>
+    common.run_cli(STEPS)
+  File "/work/sph-huangj/scripts/diet/dose/0.common.py", line 245, in run_cli
+    steps[step]()
+  File "/work/sph-huangj/scripts/diet/dose/mechanism.py", line 507, in run_mri_plot
+    main()
+  File "/work/sph-huangj/scripts/diet/dose/mechanism.py", line 500, in main
+    if errors:raise RuntimeError('Required plot failed; see plot_status.txt')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Required plot failed; see plot_status.txt

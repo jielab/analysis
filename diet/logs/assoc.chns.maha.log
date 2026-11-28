@@ -1,0 +1,56 @@
+2026-11-25T22:10:04+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R chns assoc
+
+========================================================================================
+CHNS FigS1: anti-random validation
+========================================================================================
+
+========================================================================================
+CHNS FigS2: construct profile
+========================================================================================
+
+========================================================================================
+CHNS Figprimary: independent food-preference validation
+========================================================================================
+
+========================================================================================
+CHNS FigS4: processing, preparation and CFCT subclass validation
+========================================================================================
+
+========================================================================================
+CHNS FigS5: socioeconomic and geographic gradients
+========================================================================================
+
+========================================================================================
+CHNS FigS6: cardiometabolic validation
+========================================================================================
+
+========================================================================================
+CHNS FigS7: score distributions and concordance
+========================================================================================
+
+========================================================================================
+CHNS FigS8: FOODCODE map QC
+========================================================================================
+
+========================================================================================
+CHNS main mortality comparison
+========================================================================================
+
+========================================================================================
+CHNS focused high-event mortality sensitivity
+========================================================================================
+[MORTALITY SWEEP] wave2004_age40 : complete
+[MORTALITY SWEEP] wave2006_age40 : complete
+[MORTALITY SWEEP] wave2009_age40 : complete
+[MORTALITY SWEEP] wave2011_age40 : complete
+[TIME UPDATED] Building intervals: end_wave; input rows=30464
+[TIME UPDATED] Cached intervals: 22538 rows
+[TIME UPDATED] Building intervals: last_contact; input rows=30464
+[TIME UPDATED] Cached intervals: 26835 rows
+
+[CHNS] Completed.
+[CHNS] Primary fixed-wave analysis uses baseline 2011 and Cox regression.
+[CHNS] Publication inputs: /work/sph-huangj/analysis/diet/maha/chns/publication_inputs.out.xlsx
+There were 15 warnings (use warnings() to see them)
+MAHA chns assoc complete

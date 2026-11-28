@@ -1,0 +1,17 @@
+{
+  "jobs": {
+    "diet": {
+      "argv": [
+        "bsub"
+      ],
+      "job_id": "4431481",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4431481> is submitted to queue <33>.\n",
+      "submitted": "2026-11-23T00:14:06.386344+00:00"
+    }
+  },
+  "plan": "/work/sph-huangj/analysis/diet/logs/run/plan.json",
+  "plan_sha256": "3bc588377b36f51c789233fb8cc706a667d418ed1bf3a7b7015bea27c40a8ca6"
+}

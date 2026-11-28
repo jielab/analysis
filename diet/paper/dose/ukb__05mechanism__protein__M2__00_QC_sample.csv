@@ -1,0 +1,2 @@
+"main_cohort_N","proteomics_file_N","overlap_N","complete_M2_N","complete_M2_events","event_percent","dose_mean","dose_SD","dose_min","dose_max","proteins_raw_N","proteins_QC_N","transformation"
+191494,41466,15717,15717,195,1.24069478908189,3.3014252083731,1.62960778624485,0,9,2910,2910,"direct Z-standardization"

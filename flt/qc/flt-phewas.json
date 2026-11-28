@@ -1,0 +1,6 @@
+{
+  "detail": "Command '['/work/sph-huangj/scripts/0f/0os.r.sh', '--vanilla', '/work/sph-huangj/scripts/flt/f/s3_3_placo_phewas.R']' returned non-zero exit status 1.",
+  "plan": "/work/sph-huangj/analysis/flt/jobs/run/plan.json",
+  "stage": "phewas",
+  "status": "failed"
+}

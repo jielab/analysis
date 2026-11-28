@@ -1,0 +1,4 @@
+"level","lower","upper","lower_inclusive","upper_inclusive","definition_population"
+"Low",-4.09658,-0.46413,TRUE,TRUE,"Primary cohort with observed PRS"
+"Middle",-0.46413,0.33364,FALSE,TRUE,"Primary cohort with observed PRS"
+"High",0.33364,4.27231,FALSE,TRUE,"Primary cohort with observed PRS"

@@ -1,0 +1,164 @@
+2026-11-25T22:22:10+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/protein
+Proteomic complete M2 cohort: N=15717; IS events=195; proteins=2910
+Flow 1, DOSE -> protein: 1/2910 | A1BG
+Flow 1, DOSE -> protein: 100/2910 | ALMS1
+Flow 1, DOSE -> protein: 200/2910 | ATOX1
+Flow 1, DOSE -> protein: 300/2910 | C1QBP
+Flow 1, DOSE -> protein: 400/2910 | CCL8
+Flow 1, DOSE -> protein: 500/2910 | CDNF
+Flow 1, DOSE -> protein: 600/2910 | CLSPN
+Flow 1, DOSE -> protein: 700/2910 | CSH1
+Flow 1, DOSE -> protein: 800/2910 | DGKA
+Flow 1, DOSE -> protein: 900/2910 | EHD3
+Flow 1, DOSE -> protein: 1000/2910 | FARSA
+Flow 1, DOSE -> protein: 1100/2910 | GAD1
+Flow 1, DOSE -> protein: 1200/2910 | GPIHBP1
+Flow 1, DOSE -> protein: 1300/2910 | HSPG2
+Flow 1, DOSE -> protein: 1400/2910 | IL31RA
+Flow 1, DOSE -> protein: 1500/2910 | KIT
+Flow 1, DOSE -> protein: 1600/2910 | LRFN2
+Flow 1, DOSE -> protein: 1700/2910 | MET
+Flow 1, DOSE -> protein: 1800/2910 | NACC1
+Flow 1, DOSE -> protein: 1900/2910 | NT5E
+Flow 1, DOSE -> protein: 2000/2910 | PDIA4
+Flow 1, DOSE -> protein: 2100/2910 | PPM1A
+Flow 1, DOSE -> protein: 2910/2910 | ZPR1
+Flow 1, DOSE -> protein: 2200/2910 | PXN
+Flow 1, DOSE -> protein: 2300/2910 | RPGR
+Flow 1, DOSE -> protein: 2400/2910 | SERPINE1
+Flow 1, DOSE -> protein: 2500/2910 | SNED1
+Flow 1, DOSE -> protein: 2600/2910 | TAB2
+Flow 1, DOSE -> protein: 2700/2910 | TNFAIP2
+Flow 1, DOSE -> protein: 2800/2910 | TYRO3
+Flow 1, DOSE -> protein: 2900/2910 | ZCCHC8
+Flow 1 completed:
+                                     result N_tested N_P05 N_FDR05
+ Flow 1: DOSE -> protein linear association     2910  1312     976
+Flow 2, protein -> IS Cox: 1/2910 | A1BG
+Flow 2, protein -> IS Cox: 100/2910 | ALMS1
+Flow 2, protein -> IS Cox: 200/2910 | ATOX1
+Flow 2, protein -> IS Cox: 300/2910 | C1QBP
+Flow 2, protein -> IS Cox: 400/2910 | CCL8
+Flow 2, protein -> IS Cox: 500/2910 | CDNF
+Flow 2, protein -> IS Cox: 600/2910 | CLSPN
+Flow 2, protein -> IS Cox: 700/2910 | CSH1
+Flow 2, protein -> IS Cox: 800/2910 | DGKA
+Flow 2, protein -> IS Cox: 900/2910 | EHD3
+Flow 2, protein -> IS Cox: 1000/2910 | FARSA
+Flow 2, protein -> IS Cox: 1100/2910 | GAD1
+Flow 2, protein -> IS Cox: 1200/2910 | GPIHBP1
+Flow 2, protein -> IS Cox: 1300/2910 | HSPG2
+Flow 2, protein -> IS Cox: 1400/2910 | IL31RA
+Flow 2, protein -> IS Cox: 1500/2910 | KIT
+Flow 2, protein -> IS Cox: 1600/2910 | LRFN2
+Flow 2, protein -> IS Cox: 1700/2910 | MET
+Flow 2, protein -> IS Cox: 1800/2910 | NACC1
+Flow 2, protein -> IS Cox: 1900/2910 | NT5E
+Flow 2, protein -> IS Cox: 2000/2910 | PDIA4
+Flow 2, protein -> IS Cox: 2100/2910 | PPM1A
+Flow 2, protein -> IS Cox: 2200/2910 | PXN
+Flow 2, protein -> IS Cox: 2300/2910 | RPGR
+Flow 2, protein -> IS Cox: 2400/2910 | SERPINE1
+Flow 2, protein -> IS Cox: 2500/2910 | SNED1
+Flow 2, protein -> IS Cox: 2600/2910 | TAB2
+Flow 2, protein -> IS Cox: 2700/2910 | TNFAIP2
+Flow 2, protein -> IS Cox: 2800/2910 | TYRO3
+Flow 2, protein -> IS Cox: 2900/2910 | ZCCHC8
+Flow 2, protein -> IS Cox: 2910/2910 | ZPR1
+Flow 2 completed:
+                                             result N_tested N_P05 N_FDR05
+ Flow 2: protein -> IS Cox association without DOSE     2910   262      10
+Intersection retained for pathway analysis and mediation: 139 protein(s) (X-M FDR<0.05 and M-Y P<0.05).
+Starting mediation method: lhr_aft; candidates=139
+lhr_aft: 1/139 | SHISA5
+lhr_aft: 10/139 | COLEC12
+lhr_aft: 20/139 | TNFRSF12A
+lhr_aft: 40/139 | NBL1
+lhr_aft: 30/139 | CD59
+lhr_aft: 60/139 | B2M
+lhr_aft: 50/139 | CCL16
+lhr_aft: 80/139 | ADAMTS15
+lhr_aft: 70/139 | GAST
+lhr_aft: 100/139 | AHNAK2
+lhr_aft: 90/139 | PIGR
+lhr_aft: 120/139 | CD38
+lhr_aft: 110/139 | CCL11
+lhr_aft: 130/139 | PLA2G2A
+lhr_aft: 139/139 | CNTN1
+Flow 3 method completed: lhr_aft
+                        result N_tested N_P05 N_FDR05
+ lhr_aft: ACME/indirect effect      139   138     138
+  lhr_aft: proportion mediated      139     0       0
+Starting mediation method: modern_logistic; candidates=139
+modern_logistic: 1/139 | SHISA5
+modern_logistic: 10/139 | COLEC12
+modern_logistic: 20/139 | TNFRSF12A
+modern_logistic: 30/139 | CD59
+modern_logistic: 40/139 | NBL1
+modern_logistic: 50/139 | CCL16
+modern_logistic: 60/139 | B2M
+modern_logistic: 70/139 | GAST
+modern_logistic: 80/139 | ADAMTS15
+modern_logistic: 90/139 | PIGR
+modern_logistic: 100/139 | AHNAK2
+modern_logistic: 110/139 | CCL11
+modern_logistic: 120/139 | CD38
+modern_logistic: 130/139 | PLA2G2A
+modern_logistic: 139/139 | CNTN1
+Flow 3 method completed: modern_logistic
+                                result N_tested N_P05 N_FDR05
+ modern_logistic: ACME/indirect effect      139    47      14
+  modern_logistic: proportion mediated      139     0       0
+Starting mediation method: cox_product; candidates=139
+cox_product: 1/139 | SHISA5
+cox_product: 10/139 | COLEC12
+cox_product: 30/139 | CD59
+cox_product: 20/139 | TNFRSF12A
+cox_product: 50/139 | CCL16
+cox_product: 40/139 | NBL1
+cox_product: 70/139 | GAST
+cox_product: 60/139 | B2M
+cox_product: 90/139 | PIGR
+cox_product: 110/139 | CCL11
+cox_product: 80/139 | ADAMTS15
+cox_product: 130/139 | PLA2G2A
+cox_product: 100/139 | AHNAK2
+cox_product: 120/139 | CD38
+cox_product: 139/139 | CNTN1
+Flow 3 method completed: cox_product
+                            result N_tested N_P05 N_FDR05
+ cox_product: ACME/indirect effect      139    93      17
+  cox_product: proportion mediated      139     0       0
+Mediation-stage significance counts:
+                               result N_tested N_P05 N_FDR05
+                LHR AFT: total effect      139     0       0
+                        LHR AFT: ACME      139   138     138
+                         LHR AFT: ADE      139     0       0
+         LHR AFT: proportion mediated      139     0       0
+        MODERN logistic: total effect      139     0       0
+                MODERN logistic: ACME      139    47      14
+                 MODERN logistic: ADE      139     0       0
+ MODERN logistic: proportion mediated      139     0       0
+            Cox product: total effect      139     0       0
+         Cox product: indirect effect      139    93      17
+           Cox product: direct effect      139     0       0
+     Cox product: proportion mediated      139     0       0
+  N_main_cohort N_proteomic_complete_M2 N_proteins_raw N_proteins_QC
+1        191494                   15717           2910          2910
+  N_base_complete_M2 IS_events HR_DOSE_IS_overall P_DOSE_IS_overall
+1              15717       195          0.9059432         0.2019668
+  N_mediators_tested N_XM_P05 N_XM_FDR05 N_MY_P05 N_MY_FDR05
+1               2910     1312        976      262         10
+  N_candidates_XM_FDR05_MY_P05 N_LHR_completed N_LHR_ACME_P05 N_LHR_ACME_FDR05
+1                          139             139            138              138
+  N_LHR_positive_prop_P05 N_MODERN_completed N_MODERN_ACME_P05
+1                       0                139                47
+  N_MODERN_ACME_FDR05 N_MODERN_positive_prop_P05 N_PRODUCT_completed
+1                  14                          0                 139
+  N_PRODUCT_indirect_P05 N_PRODUCT_indirect_FDR05 N_PRODUCT_proportion_P05
+1                     93                       17                        0
+  N_PRODUCT_proportion_FDR05 N_PRODUCT_positive_proportion_P05
+1                          0                                 0
+Completed protein mediation analysis. Results: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/protein/M2

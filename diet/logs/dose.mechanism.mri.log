@@ -1,0 +1,126 @@
+2026-11-25T23:39:53+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/mri
+START MRI dose; planned=260
+DONE MRI dose
+START MRI Fruit.dose; planned=260
+DONE MRI Fruit.dose
+START MRI Legumes.dose; planned=260
+DONE MRI Legumes.dose
+START MRI Olive_oil.dose; planned=260
+DONE MRI Olive_oil.dose
+START MRI Vegetables.dose; planned=260
+DONE MRI Vegetables.dose
+START MRI Eggs.dose; planned=260
+DONE MRI Eggs.dose
+START MRI Whole_grains.dose; planned=260
+DONE MRI Whole_grains.dose
+START MRI Wine.dose; planned=260
+DONE MRI Wine.dose
+START MRI Processed_meats.dose; planned=260
+DONE MRI Processed_meats.dose
+START MRI Sweetened_beverages.dose; planned=260
+DONE MRI Sweetened_beverages.dose
+                                                     exposure      family
+Eggs.dose.FA27                                      Eggs.dose        FA27
+Fruit.dose.FA27                                    Fruit.dose        FA27
+Legumes.dose.FA27                                Legumes.dose        FA27
+Olive_oil.dose.FA27                            Olive_oil.dose        FA27
+Processed_meats.dose.FA27                Processed_meats.dose        FA27
+Sweetened_beverages.dose.FA27        Sweetened_beverages.dose        FA27
+Vegetables.dose.FA27                          Vegetables.dose        FA27
+Whole_grains.dose.FA27                      Whole_grains.dose        FA27
+Wine.dose.FA27                                      Wine.dose        FA27
+dose.FA27                                                dose        FA27
+Eggs.dose.MD27                                      Eggs.dose        MD27
+Fruit.dose.MD27                                    Fruit.dose        MD27
+Legumes.dose.MD27                                Legumes.dose        MD27
+Olive_oil.dose.MD27                            Olive_oil.dose        MD27
+Processed_meats.dose.MD27                Processed_meats.dose        MD27
+Sweetened_beverages.dose.MD27        Sweetened_beverages.dose        MD27
+Vegetables.dose.MD27                          Vegetables.dose        MD27
+Whole_grains.dose.MD27                      Whole_grains.dose        MD27
+Wine.dose.MD27                                      Wine.dose        MD27
+dose.MD27                                                dose        MD27
+Eggs.dose.ThicknessDK                               Eggs.dose ThicknessDK
+Fruit.dose.ThicknessDK                             Fruit.dose ThicknessDK
+Legumes.dose.ThicknessDK                         Legumes.dose ThicknessDK
+Olive_oil.dose.ThicknessDK                     Olive_oil.dose ThicknessDK
+Processed_meats.dose.ThicknessDK         Processed_meats.dose ThicknessDK
+Sweetened_beverages.dose.ThicknessDK Sweetened_beverages.dose ThicknessDK
+Vegetables.dose.ThicknessDK                   Vegetables.dose ThicknessDK
+Whole_grains.dose.ThicknessDK               Whole_grains.dose ThicknessDK
+Wine.dose.ThicknessDK                               Wine.dose ThicknessDK
+dose.ThicknessDK                                         dose ThicknessDK
+Eggs.dose.Volume139                                 Eggs.dose   Volume139
+Fruit.dose.Volume139                               Fruit.dose   Volume139
+Legumes.dose.Volume139                           Legumes.dose   Volume139
+Olive_oil.dose.Volume139                       Olive_oil.dose   Volume139
+Processed_meats.dose.Volume139           Processed_meats.dose   Volume139
+Sweetened_beverages.dose.Volume139   Sweetened_beverages.dose   Volume139
+Vegetables.dose.Volume139                     Vegetables.dose   Volume139
+Whole_grains.dose.Volume139                 Whole_grains.dose   Volume139
+Wine.dose.Volume139                                 Wine.dose   Volume139
+dose.Volume139                                           dose   Volume139
+Eggs.dose.WMH                                       Eggs.dose         WMH
+Fruit.dose.WMH                                     Fruit.dose         WMH
+Legumes.dose.WMH                                 Legumes.dose         WMH
+Olive_oil.dose.WMH                             Olive_oil.dose         WMH
+Processed_meats.dose.WMH                 Processed_meats.dose         WMH
+Sweetened_beverages.dose.WMH         Sweetened_beverages.dose         WMH
+Vegetables.dose.WMH                           Vegetables.dose         WMH
+Whole_grains.dose.WMH                       Whole_grains.dose         WMH
+Wine.dose.WMH                                       Wine.dose         WMH
+dose.WMH                                                 dose         WMH
+                                     planned completed P05 FDR05
+Eggs.dose.FA27                            27        27   1     0
+Fruit.dose.FA27                           27        27   2     0
+Legumes.dose.FA27                         27        27  10     0
+Olive_oil.dose.FA27                       27        27   2     0
+Processed_meats.dose.FA27                 27        27   0     0
+Sweetened_beverages.dose.FA27             27        27   1     0
+Vegetables.dose.FA27                      27        27  14     9
+Whole_grains.dose.FA27                    27        27   8     0
+Wine.dose.FA27                            27        27   1     1
+dose.FA27                                 27        27  12    11
+Eggs.dose.MD27                            27        27   4     0
+Fruit.dose.MD27                           27        27   9     4
+Legumes.dose.MD27                         27        27   9     0
+Olive_oil.dose.MD27                       27        27   0     0
+Processed_meats.dose.MD27                 27        27   3     0
+Sweetened_beverages.dose.MD27             27        27   1     0
+Vegetables.dose.MD27                      27        27  11     4
+Whole_grains.dose.MD27                    27        27   0     0
+Wine.dose.MD27                            27        27   2     0
+dose.MD27                                 27        27  12     0
+Eggs.dose.ThicknessDK                     66        66   5     1
+Fruit.dose.ThicknessDK                    66        66  22    13
+Legumes.dose.ThicknessDK                  66        66   1     0
+Olive_oil.dose.ThicknessDK                66        66  32    16
+Processed_meats.dose.ThicknessDK          66        66   4     0
+Sweetened_beverages.dose.ThicknessDK      66        66   4     0
+Vegetables.dose.ThicknessDK               66        66  18     7
+Whole_grains.dose.ThicknessDK             66        66   6     0
+Wine.dose.ThicknessDK                     66        66  31    22
+dose.ThicknessDK                          66        66  28    20
+Eggs.dose.Volume139                      139       139   6     0
+Fruit.dose.Volume139                     139       139  57    38
+Legumes.dose.Volume139                   139       139  12     0
+Olive_oil.dose.Volume139                 139       139  14     0
+Processed_meats.dose.Volume139           139       139  11     2
+Sweetened_beverages.dose.Volume139       139       139  21     1
+Vegetables.dose.Volume139                139       139  15     0
+Whole_grains.dose.Volume139              139       139  25     1
+Wine.dose.Volume139                      139       139  17     0
+dose.Volume139                           139       139  40    16
+Eggs.dose.WMH                              1         1   0     0
+Fruit.dose.WMH                             1         1   0     0
+Legumes.dose.WMH                           1         1   0     0
+Olive_oil.dose.WMH                         1         1   0     0
+Processed_meats.dose.WMH                   1         1   0     0
+Sweetened_beverages.dose.WMH               1         1   1     1
+Vegetables.dose.WMH                        1         1   1     1
+Whole_grains.dose.WMH                      1         1   0     0
+Wine.dose.WMH                              1         1   1     1
+dose.WMH                                   1         1   1     1
+DONE output: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/04mri

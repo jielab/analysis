@@ -1,0 +1,5 @@
+Error in fwrite(x, file.path(outdir, name), sep = "\t", na = "", bom = TRUE) : 
+  No such file or directory: '/work/sph-huangj/analysis/flt/main/results/03phewas/phenotype_dictionary.tsv'. Unable to create new file for writing (it does not exist already). Do you have permission to write here, is there space on the disk and does the path exist?
+Calls: init_tsv -> write_tsv -> fwrite
+Execution halted
+FLT: Command '['/work/sph-huangj/scripts/0f/0os.r.sh', '--vanilla', '/work/sph-huangj/scripts/flt/f/s3_3_placo_phewas.R']' returned non-zero exit status 1.

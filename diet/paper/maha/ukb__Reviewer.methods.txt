@@ -1,0 +1,7 @@
+2026-09-06-webq-window-v1
+Survival time origin: max(enrolment, last of all recorded WebQ dates).
+Outcome-specific events on/before landmark excluded; positive follow-up required.
+Missing/undated WebQ records excluded from survival analysis, retained in descriptive analyses.
+Cox age: enrolment age plus elapsed time to landmark. Other covariates remain enrolment measurements.
+Existing diet scores unchanged; scoring is not optimized using outcomes.
+Administrative censoring: 2023-04-01

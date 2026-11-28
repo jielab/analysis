@@ -1,0 +1,20 @@
+atlas_key,field_id,view,label,display_label,target_x,target_y,text_x,text_y,visible_pixels,beta,FDR_family
+lh_caudalmiddlefrontal,26758,0,Caudal middle frontal gyrus,"Caudal middle
+frontal gyrus",126,204,85.44,65,1434,0.016613717283576,0.0030822592317824
+lh_precentral,26778,0,Precentral gyrus,Precentral gyrus,156,206,256.32,40,2675,0.0190152607989824,0.0013250441798979
+lh_postcentral,26776,0,Postcentral gyrus,"Postcentral
+gyrus",191,190,320.40000000000003,375,2688,0.0124925103917437,0.0267488203483734
+lh_middletemporal,26769,0,Middle temporal gyrus,"Middle temporal
+gyrus",205,292,142.4,445,2546,0.0129477535304779,0.0248778596792
+lh_superiorfrontal,26782,1,Superior frontal gyrus,"Superior frontal
+gyrus",567,184,612.3199999999999,65,6574,0.0148110559586954,0.0067755405716335
+lh_precuneus,26779,1,Precuneus,Precuneus,468,204,445.0,65,3519,0.0116414331126479,0.0349651689513395
+lh_entorhinal,26760,1,Entorhinal cortex,Entorhinal cortex,541,322,555.36,445,513,0.014039169662483,0.0176236247279119
+rh_superiorfrontal,26883,2,Superior frontal gyrus,"Superior frontal
+gyrus",808,209,801.0,65,6076,0.0123666394307033,0.0234062832908186
+rh_isthmuscingulate,26865,2,Isthmus of cingulate cortex,"Isthmus of
+cingulate cortex",933,229,979.0,445,889,0.0121812527051001,0.0349651689513395
+rh_precentral,26879,3,Precentral gyrus,Precentral gyrus,1277,231,1174.8,65,2513,0.0174097790444746,0.0020215609177723
+rh_parsopercularis,26873,3,Pars opercularis,Pars opercularis,1298,247,1352.8,65,764,0.0144803393315146,0.0125404308533933
+rh_superiortemporal,26885,3,Superior temporal gyrus,"Superior temporal
+gyrus",1278,295,1263.8,445,2776,0.0130035972388406,0.0196986268721925

@@ -1,0 +1,5 @@
+Error in `[.data.table`(main, low_precision) : 
+  'low_precision' is not found in calling scope, but it is a column of type logical. If you wish to select rows where that column contains TRUE, or perhaps that column contains row numbers of itself to select, try DT[(col)], DT[DT$col], or DT[col==TRUE] is particularly clear and is optimized. When the first argument inside DT[...] is a single symbol (e.g. DT[var]), data.table looks for var in calling scope.
+Calls: geom_point ... [ -> [.data.table -> stopf -> raise_condition -> signal
+Execution halted
+FLT: Command '['/work/sph-huangj/scripts/0f/0os.r.sh', '--vanilla', '/work/sph-huangj/scripts/flt/f/paper_genetics.R']' returned non-zero exit status 1.

@@ -1,0 +1,160 @@
+[RUNNING] flt-prepare
+character(0)
+character(0)
+character(0)
+[1] "eid"
+总人数： 501936 ；无Food-liking记录： 319993 ；有Food-liking记录，QC前： 181943 
+[1] 181943
+176项QC前： 181943 ；因缺失超过30%排除： 108 ；最终纳入，QC后： 181835 
+[1] 181835
+[1] 181835
+                    variable      n missing         min         max
+                      <char>  <int>   <int>       <num>       <num>
+ 1:   fluid_intelligence.raw 165284  336652 -13.0000000    0.000000
+ 2:        reaction_time.raw 496115    5821  63.0000000 2000.000000
+ 3:       pairs_matching.raw 497319    4617   0.0000000  146.000000
+ 4:       numeric_memory.raw  50316  451620 -12.0000000   -2.000000
+ 5:    life_satisfaction.raw 165724  336212   5.0000000   30.000000
+ 6: subjective_wellbeing.raw 152475  349461   3.0000000   17.000000
+ 7:                 phq4.raw 448420   53516   0.0000000   12.000000
+ 8:                 phq9.raw 154140  347796   0.0000000   27.000000
+ 9:                 cidi.raw  52898  449038   1.0000000    8.000000
+10:                 gad7.raw 154852  347084   0.0000000   21.000000
+11:     fluid_intelligence.z 165284  336652  -4.9076850    3.616949
+12:          reaction_time.z 496115    5821  -7.6132378    7.613193
+13:         pairs_matching.z 497319    4617  -1.8580761    7.970832
+14:         numeric_memory.z  50316  451620  -4.8965853    3.267824
+15:      life_satisfaction.z 165724  336212  -3.3334651    5.098244
+16:   subjective_wellbeing.z 152475  349461  -2.6476204    4.661028
+17:                   phq4.z 448420   53516  -0.9859854    3.799586
+18:                   phq9.z 154140  347796  -1.0902570    5.194442
+19:                   cidi.z  52898  449038  -2.7899384    1.408492
+20:                   gad7.z 154852  347084  -0.8247558    4.596214
+21:     prospective_memory.b 171365  330571   0.0000000    1.000000
+22:  general_mental_health.b 496727    5209   0.0000000    1.000000
+                    variable      n missing         min         max
+                      <char>  <int>   <int>       <num>       <num>
+character(0)
+character(0)
+character(0)
+[1] "eid"
+FLT 队列人数： 181835 
+# A tibble: 9 x 7
+  variable       class   n_total n_missing pct_missing n_nonmissing n_level
+  <chr>          <chr>     <int>     <int>       <dbl>        <int>   <int>
+1 pa_met_tot     numeric  181505     31658       17.4        149847      NA
+2 inc            factor   181505     18520       10.2        162985       3
+3 edu            factor   181505      1812        1          179693       3
+4 bmi            numeric  181505       438        0.24       181067      NA
+5 smoke_status   factor   181505       427        0.24       181078       2
+6 tdi            numeric  181505       217        0.12       181288      NA
+7 alcohol_status factor   181505       157        0.09       181348       2
+8 age            numeric  181505         0        0          181505      NA
+9 sex            factor   181505         0        0          181505       2
+           outcome submitted_flt missing_or_invalid_fpq_date
+1              acd        181835                           0
+2               ad        181835                           0
+3               pd        181835                           0
+4         dystonia        181835                           0
+5           stroke        181835                           0
+6        qi_stroke        181835                           0
+7               ms        181835                           0
+8         epilepsy        181835                           0
+9     encephalitis        181835                           0
+10  sleep_disorder        181835                           0
+11         bipolar        181835                           0
+12   schizophrenia        181835                           0
+13         anxiety        181835                           0
+14      depression        181835                           0
+15 eating_disorder        181835                           0
+16        migraine        181835                           0
+17    cvd_stroke_i        181835                           0
+18   cvd_stroke_ih        181835                           0
+19   cvd_stroke_sh        181835                           0
+   excluded_inconsistent prevalent_at_fpq  total cases person_years  mean_fu
+1                      0              133 181372   530     671581.1 3.702782
+2                      0               42 181463   253     672204.9 3.704363
+3                      0              377 181128   424     670708.2 3.702951
+4                      0              124 181381    40     672114.7 3.705541
+5                      0             2905 178603  1838     659185.6 3.690787
+6                      0             1990 179517  1478     663265.0 3.694720
+7                      0              597 180908    96     670245.4 3.704896
+8                      0             1293 180214   359     667279.8 3.702708
+9                      0              100 181405    54     672191.9 3.705476
+10                     0             2976 178534   950     660190.0 3.697839
+11                     0              321 181185    67     671353.0 3.705345
+12                     0              105 181400    29     672184.8 3.705539
+13                     0             4419 177088  3446     650643.2 3.674123
+14                     0             6061 175448  2658     645801.1 3.680869
+15                     0               50 181455    14     672418.7 3.705705
+16                     0             1935 179573  1006     663796.8 3.696529
+17                     0             1177 180328  1103     666684.7 3.697067
+18                     0              209 181296   232     671611.3 3.704501
+19                     0              303 181202   110     671364.9 3.705063
+   median_fu complete_covariates
+1   3.767283              137244
+2   3.767283              137312
+3   3.767283              137066
+4   3.767283              137252
+5   3.767283              135180
+6   3.767283              135857
+7   3.767283              136921
+8   3.767283              136420
+9   3.767283              137266
+10  3.767283              135109
+11  3.767283              137102
+12  3.767283              137264
+13  3.767283              134224
+14  3.767283              133020
+15  3.767283              137306
+16  3.767283              135946
+17  3.767283              136475
+18  3.767283              137189
+19  3.767283              137103
+[DONE] flt-prepare
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b07u06a>
+Subject: Job 4440907: <flt-prepare> in cluster <qmhpc> Done
+
+Job <flt-prepare> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:15 2026
+Job was executed on host(s) <4*b07u06a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:15 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Wed Nov 25 23:33:15 2026
+Terminated at Thu Nov 26 00:48:44 2026
+Results reported at Thu Nov 26 00:48:44 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/jobs/run/plan.json flt-prepare
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4486.89 sec.
+    Max Memory :                                 8022 MB
+    Average Memory :                             2709.68 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                7
+    Run time :                                   4525 sec.
+    Turnaround time :                            4529 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/logs/run/flt-prepare.err> for stderr output of this job.
+

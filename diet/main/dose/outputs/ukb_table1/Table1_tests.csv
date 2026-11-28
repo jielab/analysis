@@ -1,0 +1,14 @@
+"variable","test","P","skewness","min_expected"
+"dose","Not tested: grouping exposure",,0.204959349679859,
+"energy.kJ","One-way ANOVA",3.1785669495615e-68,0.492140756891414,
+"age","One-way ANOVA",0,-0.29222598922347,
+"sex.b","Pearson chi-squared",0,,17000.7798834428
+"ethnic.c3","Pearson chi-squared",4.07307156458549e-270,,1505.87903537448
+"tdi","One-way ANOVA",9.78553053291163e-280,0.946957934031858,
+"edu.c","Pearson chi-squared",0,,8920.9462907454
+"smoke.c","Pearson chi-squared",1.83705212997187e-311,,2853.04634609962
+"days_pa_mod.c","Pearson chi-squared",4.16480211515121e-182,,1176.36892539714
+"bmi","Kruskal-Wallis",0,1.15185073505543,
+"fhist_stroke","Pearson chi-squared",2.00871927899321e-39,,724.407072806459
+"primary_ahtn","Pearson chi-squared",4.72712331357731e-13,,3550.50610985201
+"t2dm","Pearson chi-squared",1.31481489830153e-26,,716.28325169457

@@ -1,0 +1,15 @@
+get_icd_fast(): icd10 | traits=19 | participants=501936
+get_icd_fast(): icd10 | coded events=7,276,575 | dated events=7,276,575 | unique codes=12353
+  icd10 trait 1/19: acd
+  icd10 trait 19/19: cvd_stroke_sh
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+

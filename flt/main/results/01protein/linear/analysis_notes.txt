@@ -1,0 +1,9 @@
+Formula: protein ~ liking + age + sex + bmi + edu + inc + tdi + smoke_status +      alcohol_status + pa_met_tot
+Base data: /work/sph-huangj/analysis/flt/tmp/cohort/dat.base.imp.rds
+Protein data: /work/sph-huangj/phe/ukb/Rdata/prot.rds
+Continuous liking: all valid scores 1-9; no intake-data requirement.
+Beta/CI: protein input units per 1-point higher liking; ordinary lm, two-sided t tests.
+FDR_food: BH across selected intersection proteins within each food; FDR_all: BH across all three foods.
+Only food-specific same-direction limma intersection proteins are tested.
+Input proteins per food: 9
+Overview is ranked by regression FDR and limits display only; complete CSV/PDF retain all pairs.

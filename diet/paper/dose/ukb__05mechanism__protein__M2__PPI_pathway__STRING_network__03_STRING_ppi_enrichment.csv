@@ -1,0 +1,2 @@
+"number_of_nodes","number_of_edges","expected_number_of_edges","p_value","method","background_proteins","simulations","seed"
+139,371,45.053,0.000999000999000999,"Offline uniform random protein-set permutation; not STRING API PPI enrichment",19699,1000,12345

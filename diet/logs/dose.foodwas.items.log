@@ -1,0 +1,11 @@
+2026-11-25T11:27:41+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE foodwas/items
+Outcome: cvd_stroke_iFoodWAS cohort = 191494 ; items = 208 
+Item-level M2 FDR<0.05 = 0 
+Item-level FoodWAS complete
+ - cohort: 191494 
+ - detailed food items: 208 
+ - item M1 FDR<0.05: 0 
+ - item M2 FDR<0.05: 0 
+ - output folder: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/item 

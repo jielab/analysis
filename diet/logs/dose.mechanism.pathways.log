@@ -1,0 +1,14 @@
+2026-11-25T22:34:11+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/pathways
+Protein sets prepared: overlap candidates=139; directionally consistent=136; total DOSE-IS HR=0.9059 (P=0.202).
+Running offline GMT enrichment for Overlap_candidates: 139 genes.
+Running offline GMT enrichment for Directionally_consistent: 136 genes.
+STRING enrichment TSV not found. Input files and URLs were created; see README_STRING_manual_step.txt.
+Completed protein PPI/pathway analysis. Results: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/protein/M2/PPI_pathway
+  N_candidate_protein_rows N_unique_candidate_genes
+1                      139                      139
+  N_directionally_consistent_genes N_duplicate_gene_symbols overall_DOSE_IS_HR
+1                              136                        0          0.9059432
+  overall_DOSE_IS_P N_enrichment_rows N_enrichment_FDR05
+1         0.2019668             16692                 68

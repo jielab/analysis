@@ -1,0 +1,44 @@
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G843-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anystroke_eur-ldsc.sumstats.gz) began at: 2026-11-25 23:55:42.558594
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G843-ldsc.sumstats.gz
+Out of 1199538 SNPs, 1176755 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.253; 1176755 remain
+Read in summary statistics [2/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anystroke_eur-ldsc.sumstats.gz
+Out of 1180144 SNPs, 1173779 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 1308.46; 1173779 remain
+          
+Estimating heritability [1/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G843-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G843-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1788
+Lambda GC: 1.1629
+Intercept: 0.9962 (0.0068)
+Ratio: -0.0215 (0.038)
+Total Observed Scale h2: 0.0597 (0.0039)
+h2 Z: 15.3
+     
+Calculating genetic covariance [2/3] for traits: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G843-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anystroke_eur-ldsc.sumstats.gz
+1169432 SNPs remain after merging /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G843-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anystroke_eur-ldsc.sumstats.gz summary statistics
+Results for genetic covariance between: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G843-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anystroke_eur-ldsc.sumstats.gz
+Mean Z*Z: -0.0143
+Cross trait Intercept: 0.0034 (0.0049)
+Total Observed Scale Genetic Covariance (g_cov): -0.0022 (8e-04)
+g_cov Z: -2.58
+g_cov P-value: 0.0099073
+          
+Estimating heritability [3/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anystroke_eur-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anystroke_eur-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.2268
+Lambda GC: 1.1856
+Intercept: 1.0719 (0.0068)
+Ratio: 0.3171 (0.0298)
+Total Observed Scale h2: 0.006 (5e-04)
+h2 Z: 12.5
+     
+      
+Genetic Correlation Results
+Genetic Correlation between G843 and anystroke_eur: -0.1137 (0.0441)
+     
+     
+LDSC finished running at 2026-11-25 23:56:00.754279
+Running LDSC for all files took 0 minutes and 18 seconds
+     

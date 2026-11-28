@@ -1,0 +1,351 @@
+2026-11-25T21:23:58+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE score/distribution
+DOSE plots saved to: /work/sph-huangj/analysis/diet/dose/ukb/04score/figures (n = 191,494)
+DOSE score/stroke
+Pattern checkpoints: reusing 0/14; pending 14.
+Completed cvd_stroke_i: rEDII (M1/M2/M3)
+Completed cvd_stroke_i: MAHA (M1/M2/M3)
+Completed cvd_stroke_i: FDS (M1/M2/M3)
+Completed cvd_stroke_i: MedDiet (M1/M2/M3)
+Completed cvd_stroke_i: AHEI (M1/M2/M3)
+Completed cvd_stroke_i: MIND (M1/M2/M3)
+Completed cvd_stroke_i: DASH (M1/M2/M3)
+Completed cvd_stroke_i: DI-GM (M1/M2/M3)
+Completed cvd_stroke_i: PHDI (M1/M2/M3)
+Completed cvd_stroke_i: DOSE (M1/M2/M3)
+Completed cvd_stroke_i: HLFD (M1/M2/M3)
+Completed cvd_stroke_i: MODERN (M1/M2/M3)
+Completed cvd_stroke_i: HLCD (M1/M2/M3)
+Completed cvd_stroke_i: hPDI (M1/M2/M3)
+
+Analysis complete. Primary M2 comparison (ordered by P10-P90 HR):
+   label        HR       LCI       HCI            P  HR_perSD HR_Q4vsQ1
+    DOSE 0.7081809 0.6314251 0.7942671 3.742649e-09 0.8820858 0.6943416
+    AHEI 0.7911879 0.7107975 0.8806703 1.832472e-05 0.9138295 0.7823013
+ MedDiet 0.7921958 0.7120645 0.8813444 1.857299e-05 0.9140720 0.8194603
+    MIND 0.8013732 0.7198022 0.8921882 5.282490e-05 0.9178060 0.7780317
+    DASH 0.8205051 0.7360814 0.9146116 3.554594e-04 0.9277897 0.8536983
+    HLFD 0.8217212 0.7354274 0.9181406 5.230351e-04 0.9314002 0.8207006
+    PHDI 0.8345822 0.7505142 0.9280670 8.437158e-04 0.9327671 0.8554817
+   rEDII 0.8346749 0.7487778 0.9304259 1.108550e-03 0.9332235 0.8269146
+   DI-GM 0.8606441 0.7848252 0.9437875 1.424960e-03 0.9364764 0.8345291
+    MAHA 0.8829203 0.7929672 0.9830775 2.313037e-02 0.9531473 0.9139810
+    hPDI 0.8879103 0.7997292 0.9858145 2.590209e-02 0.9540648 0.8688872
+  MODERN 0.9148178 0.8389208 0.9975812 4.392892e-02 0.9589814 0.8985854
+     FDS 0.9308316 0.8407546 1.0305592 1.674962e-01 0.9727571 0.8956511
+    HLCD 0.9690580 0.8774663 1.0702102 5.349525e-01 0.9877140 0.9489009
+ C_index_common_M2
+         0.7311081
+         0.7304986
+         0.7304827
+         0.7305839
+         0.7303976
+         0.7301565
+         0.7300013
+         0.7302092
+         0.7299891
+         0.7296911
+         0.7295534
+         0.7295934
+         0.7296376
+         0.7293405
+
+Primary DOSE M2 summary:
+ label  HR_perSD HR_Q4vsQ1      P_trend P_RCS_nonlinear C_index_common_M2
+  DOSE 0.8820858 0.6943416 3.027221e-10      0.09098765         0.7311081
+ Q4_lowest_point_estimate
+                     TRUE
+
+DOSE quartiles (Q1 reference):
+ diet category score_min score_max Group_N Group_Events        HR       LCI
+ dose       Q1       0.0       2.0   53907          900 1.0000000 1.0000000
+ dose       Q2       2.5       3.0   42084          567 0.8149537 0.7330445
+ dose       Q3       3.5       4.5   57560          713 0.7814715 0.7064278
+ dose       Q4       5.0       9.0   37943          405 0.6943416 0.6146378
+       HCI            P
+ 1.0000000           NA
+ 0.9060152 1.529508e-04
+ 0.8644871 1.693193e-06
+ 0.7843811 4.524070e-09
+
+DOSE RCS tests:
+ diet label      outcome model      N Events knot1 knot2 knot3 reference
+ dose  DOSE cvd_stroke_i    M2 191494   2585     1     3   5.5         3
+    P_overall P_nonlinear AIC_linear  AIC_RCS             test
+ 5.701867e-09  0.09098765   60294.14 60293.28 Likelihood ratio
+
+Results: /work/sph-huangj/analysis/diet/dose/ukb/04score/pattern
+DOSE score/sensitivity
+05:27:35 Primary cohort 191494 IS events 2585 
+05:28:39 Component categories: unordered score levels with 0 as reference 
+05:28:40 Component Cox: Fruit.dose M2 
+05:28:46 Component Cox: Fruit.dose M2_mutually_adjusted 
+05:28:56 Component Cox: Legumes.dose M2 
+05:29:02 Component Cox: Legumes.dose M2_mutually_adjusted 
+05:29:11 Component Cox: Olive_oil.dose M2 
+05:29:17 Component Cox: Olive_oil.dose M2_mutually_adjusted 
+05:29:27 Component Cox: Vegetables.dose M2 
+05:29:33 Component Cox: Vegetables.dose M2_mutually_adjusted 
+05:29:42 Component Cox: Eggs.dose M2 
+05:29:49 Component Cox: Eggs.dose M2_mutually_adjusted 
+05:29:58 Component Cox: Whole_grains.dose M2 
+05:30:04 Component Cox: Whole_grains.dose M2_mutually_adjusted 
+05:30:13 Component Cox: Wine.dose M2 
+05:30:20 Component Cox: Wine.dose M2_mutually_adjusted 
+05:30:29 Component Cox: Processed_meats.dose M2 
+05:30:35 Component Cox: Processed_meats.dose M2_mutually_adjusted 
+05:30:44 Component Cox: Sweetened_beverages.dose M2 
+05:30:51 Component Cox: Sweetened_beverages.dose M2_mutually_adjusted 
+05:31:02 Component categorical models and figures complete 
+05:31:02 DOSE9 component M2: Fruit.dose9 
+05:31:05 DOSE9 component M2: Legumes.dose9 
+05:31:08 DOSE9 component M2: Olive_oil.dose9 
+05:31:11 DOSE9 component M2: Vegetables.dose9 
+05:31:14 DOSE9 component M2: Eggs.dose9 
+05:31:17 DOSE9 component M2: Whole_grains.dose9 
+05:31:20 DOSE9 component M2: Wine.dose9 
+05:31:23 DOSE9 component M2: Processed_meats.dose9 
+05:31:26 DOSE9 component M2: Sweetened_beverages.dose9 
+05:31:29 DOSE9 component models and verification complete 
+05:31:29 Cox: Primary_M2 
+05:31:39 Cox: LOO_Fruit 
+05:31:50 Cox: LOO_Legumes 
+05:32:00 Cox: LOO_Olive_oil 
+05:32:10 Cox: LOO_Vegetables 
+05:32:20 Cox: LOO_Eggs 
+05:32:31 Cox: LOO_Whole_grains 
+05:32:41 Cox: LOO_Wine 
+05:32:51 Cox: LOO_Processed_meats 
+05:33:01 Cox: LOO_Sweetened_beverages 
+05:33:11 Cox: No_wine_alcohol_adjusted 
+05:33:22 Cox: M3_medications 
+05:33:34 Cox: M2_alcohol_adjusted 
+05:33:45 Cox: M2_CVD_adjusted 
+05:33:56 Cox: Region_stratified 
+05:34:07 Cox: Landmark_2y 
+05:34:17 Cox: Landmark_5y 
+05:34:27 Cox: Exclude_cvd 
+05:34:36 Cox: Exclude_primary_ahtn 
+05:34:45 Cox: Exclude_t2dm 
+05:34:55 Cox: Disease_free 
+05:35:02 Cox: At_least_2_diet_assessments 
+05:35:09 Cox: Additional_DASH 
+05:35:19 Cox: Additional_AHEI 
+05:35:30 Cox: Alternative_dose11 
+05:35:40 Cox: Alternative_dose9 
+05:35:50 Cox: DOSE_only_available_cohort 
+05:36:19 Cox: Complete_case_original_covariates 
+05:36:35 Cox: Additional_sodium 
+05:36:45 Cox: Additional_potassium 
+05:36:56 Cox: Additional_fiber 
+05:37:07 Cox: Additional_saturated_fat 
+05:37:18 Cox: Additional_four_nutrients 
+05:37:32 Cox: Additional_other_foodgroups 
+05:37:57 Cox: Additional_nutrients_and_other_foodgroups 
+05:38:24 Cox: Subgroup__age60__<60 
+05:38:31 Cox: Subgroup__age60__>=60 
+05:38:49 Cox: Subgroup__sex__Female 
+05:38:55 Cox: Subgroup__sex__Male 
+05:39:13 Cox: Subgroup__BMI30__<30 
+05:39:21 Cox: Subgroup__BMI30__>=30 
+05:39:37 Cox: Subgroup__smoking__never 
+05:39:43 Cox: Subgroup__smoking__previous 
+05:39:46 Cox: Subgroup__smoking__current 
+05:40:01 Cox: Subgroup__hypertension__No 
+05:40:10 Cox: Subgroup__hypertension__Yes 
+05:40:24 Cox: Subgroup__diabetes__No 
+05:40:34 Cox: Subgroup__diabetes__Yes 
+05:40:48 Cox: Subgroup__CVD__No 
+05:40:58 Cox: Subgroup__CVD__Yes 
+05:41:13 Cox: Subgroup__ethnicity__White 
+05:41:22 Cox: Subgroup__ethnicity__Others 
+05:41:36 Cox: Subgroup__diet_assessments__1 
+05:41:41 Cox: Subgroup__diet_assessments__>=2 
+05:42:01 Cox: Subgroup__PRS_tertiles__Low 
+05:42:05 Cox: Subgroup__PRS_tertiles__Middle 
+05:42:10 Cox: Subgroup__PRS_tertiles__High 
+05:42:35 PRS: genetic strata, continuous interaction and joint analysis 
+05:42:36 PRS Cox: Low continuous 
+05:42:38 PRS Cox: Low quartiles 
+05:42:39 PRS Cox: Low trend 
+05:42:41 PRS Cox: Middle continuous 
+05:42:42 PRS Cox: Middle quartiles 
+05:42:44 PRS Cox: Middle trend 
+05:42:45 PRS Cox: High continuous 
+05:42:47 PRS Cox: High quartiles 
+05:42:48 PRS Cox: High trend 
+05:42:49 PRS Cox: Continuous interaction null 
+05:42:54 PRS Cox: Continuous interaction alternative 
+05:42:59 PRS Cox: dose_z strata interaction null 
+05:43:03 PRS Cox: dose_z strata interaction alternative 
+05:43:08 PRS Cox: group strata interaction null 
+05:43:13 PRS Cox: group strata interaction alternative 
+05:43:19 PRS Cox: Joint PRS and DOSE 
+05:43:25 PRS analyses complete; all internal checks passed 
+05:43:25 Standardized absolute risk with death as a competing event 
+05:43:38 Competing death model Death baseline hazards stratified by DOSE quartile and baseline age bands (<45, 45-49, 50-54, 55-59, 60-64, 65-69, >=70); continuous age retained within bands. See unstratified PH diagnostic and risk comparison. 
+05:45:01 COMPLETE: /work/sph-huangj/analysis/diet/dose/ukb/04score/IS_sensitivity 
+DOSE score/plot
+Table 1: 191494 participants; 2585 IS events. Output: /work/sph-huangj/analysis/diet/dose/outputs/ukb_table1
+Validated 10 patterns and 45 unique pairs; N = 191,494. Font: Arial.
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Pattern_Correlations_10patterns.pdf
+Figures and tables complete:
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Pattern_Stroke_Forest_M2.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_DOSE_Quartiles_RCS_M2.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Pattern_IS_Comparison_M2.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Pattern_Stroke_Models_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_dose_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_ahei_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_medi24_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_mind_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_dash_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_hlfd_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_phdi_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_redii_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_digm_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_maha_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_hpdi_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_modern_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_fds_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Quartiles_hlcd_M1_M3.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_DOSE_DASH_Quartiles_M2.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Pattern_Quartile_Trends_M2.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Pattern_Correlation_Cluster.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Pattern_Correlations_10patterns.pdf
+/work/sph-huangj/analysis/diet/dose/ukb/04score/pattern/figures/Fig_Pattern_Correlations_10patterns.png
+DOSE score/outcomes
+Primary score: dose (dose9half); 191494 participants; quartiles: 0-2 / 2.5-3 / 3.5-4.5 / 5-9
+Extracted: infect
+Extracted: infect_bact
+Extracted: infect_viral
+Extracted: cancer
+Extracted: ca_crc
+Extracted: ca_esophagus
+Extracted: ca_stomach
+Extracted: ca_lung
+Extracted: ca_melanoma
+Extracted: ca_breast
+Extracted: ca_prostate
+Extracted: ca_leukemia
+Extracted: blood_immune
+Extracted: anemia
+Extracted: endo
+Extracted: dm
+Extracted: obesity
+Extracted: mental
+Extracted: dementia
+Extracted: substance_abuse
+Extracted: psychotic
+Extracted: mood
+Extracted: neurotic
+Extracted: neuro
+Extracted: parkinson
+Extracted: epilepsy
+Extracted: tia
+Extracted: sleep_disorder
+Extracted: eye
+Extracted: cataract
+Extracted: glaucoma
+Extracted: ear
+Extracted: cvd
+Extracted: htn
+Extracted: ihd
+Extracted: arrhythmia
+Extracted: cvd_afib
+Extracted: hf
+Extracted: cvd_vte
+Extracted: cerebro
+Extracted: pad
+Extracted: resp
+Extracted: flu_pneumonia
+Extracted: copd
+Extracted: asthma
+Extracted: digestive
+Extracted: ibd
+Extracted: liver
+Extracted: pancreatitis
+Extracted: skin
+Extracted: skin_infect_eczema
+Extracted: musculo
+Extracted: ra_disorder
+Extracted: oa
+Extracted: sciatica
+Extracted: soft_tissue
+Extracted: oporosis
+Extracted: gu
+Extracted: renal_failure
+Extracted: ckd
+Completed: cvd_stroke_i | N=191494; events=2585
+Completed: qi_stroke | N=191494; events=3788
+Completed: cvd_stroke_ih | N=191494; events=636
+Completed: cvd_stroke_sh | N=191494; events=342
+Completed: infect | N=188028; events=15014
+Completed: infect_bact | N=189678; events=12301
+Completed: infect_viral | N=190199; events=2011
+Completed: cancer | N=179531; events=25874
+Completed: ca_crc | N=190490; events=2622
+Completed: ca_esophagus | N=191415; events=502
+Completed: ca_stomach | N=191428; events=374
+Completed: ca_lung | N=191359; events=1540
+Completed: ca_melanoma | N=188113; events=8510
+Completed: ca_breast | N=188174; events=4070
+Completed: ca_prostate | N=84368; events=4841
+Completed: ca_leukemia | N=190683; events=2257
+Completed: blood_immune | N=185554; events=15733
+Completed: anemia | N=187015; events=12577
+Completed: endo | N=174710; events=41872
+Completed: dm | N=187317; events=9349
+Completed: obesity | N=189895; events=11443
+Completed: mental | N=187052; events=21962
+Completed: dementia | N=191418; events=2671
+Completed: substance_abuse | N=190043; events=7649
+Completed: psychotic | N=191317; events=327
+Completed: mood | N=189374; events=8485
+Completed: neurotic | N=190465; events=8530
+Completed: neuro | N=181636; events=19428
+Completed: parkinson | N=191347; events=1315
+Completed: epilepsy | N=190700; events=1382
+Completed: tia | N=190987; events=1402
+Completed: sleep_disorder | N=190173; events=2880
+Completed: eye | N=181308; events=28001
+Completed: cataract | N=187077; events=20921
+Completed: glaucoma | N=190530; events=4799
+Completed: ear | N=189166; events=7553
+Completed: cvd | N=157000; events=47796
+Completed: htn | N=173437; events=36515
+Completed: ihd | N=184000; events=11910
+Completed: arrhythmia | N=187516; events=13447
+Completed: cvd_afib | N=188531; events=11034
+Completed: hf | N=190708; events=4841
+Completed: cvd_vte | N=190190; events=3686
+Completed: cerebro | N=191099; events=6470
+Completed: pad | N=190086; events=5175
+Completed: resp | N=176030; events=28714
+Completed: flu_pneumonia | N=189875; events=8913
+Completed: copd | N=190091; events=6596
+Completed: asthma | N=184445; events=10199
+Completed: digestive | N=144773; events=49620
+Completed: ibd | N=185451; events=4724
+Completed: liver | N=190562; events=4706
+Completed: pancreatitis | N=191025; events=880
+Completed: skin | N=179232; events=18523
+Completed: skin_infect_eczema | N=188074; events=7196
+Completed: musculo | N=160139; events=42492
+Completed: ra_disorder | N=187874; events=12578
+Completed: oa | N=181511; events=24226
+Completed: sciatica | N=189345; events=4348
+Completed: soft_tissue | N=181863; events=13764
+Completed: oporosis | N=190074; events=6162
+Completed: gu | N=157923; events=30045
+Completed: renal_failure | N=190706; events=12233
+Completed: ckd | N=191163; events=7271
+Redrawn: /work/sph-huangj/analysis/diet/dose/ukb/04score/otherOutcomes/figures/Fig_DOSE_OutcomeWide_M1_P10P90_Fig2Palette [PDF + PNG]
+Redrawn: /work/sph-huangj/analysis/diet/dose/ukb/04score/otherOutcomes/figures/Fig_DOSE_OutcomeWide_M1_PerSD_Fig2Palette [PDF + PNG]
+Saved: /work/sph-huangj/analysis/diet/dose/ukb/04score/otherOutcomes/figures/Fig_DOSE_OutcomeWide_M1_Dotplot_P10P90_Publication [PDF + PNG]
+Saved: /work/sph-huangj/analysis/diet/dose/ukb/04score/otherOutcomes/figures/Fig_DOSE_OutcomeWide_M1_Dotplot_PerSD_Publication [PDF + PNG]
+Saved chapter forest: /work/sph-huangj/analysis/diet/dose/ukb/04score/otherOutcomes/figures/Fig_DOSE_OutcomeWide_M1_ChapterForest_P10P90
+Saved chapter forest: /work/sph-huangj/analysis/diet/dose/ukb/04score/otherOutcomes/figures/Fig_DOSE_OutcomeWide_M1_ChapterForest_PerSD
+Primary DOSE outcome-wide analysis complete: 64 outcomes; M1; 45 outcomes with continuous-score BH FDR < 0.05.
+Outcome-wide outputs saved to: /work/sph-huangj/analysis/diet/dose/ukb/04score/otherOutcomes
+Saved actual coefficients and SEs: /work/sph-huangj/analysis/diet/dose/ukb/effects.tsv

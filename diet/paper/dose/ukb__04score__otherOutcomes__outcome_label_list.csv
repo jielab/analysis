@@ -1,0 +1,65 @@
+"pattern","name","label","is_stroke"
+NA,"cvd_stroke_i","Ischemic stroke",TRUE
+NA,"qi_stroke","Overall stroke",TRUE
+NA,"cvd_stroke_ih","Intracerebral hemorrhage",TRUE
+NA,"cvd_stroke_sh","Subarachnoid hemorrhage",TRUE
+"A0[1-9]|A[1-9][0-9]|B[0-8][0-9]","infect","Diseases of Infections",FALSE
+"A0[1-9]|A[1-6][0-9]|A7[0-9]","infect_bact","Bacterial infections",FALSE
+"A8[0-9]|A9[0-9]|B0[0-9]|B1[0-9]|B2[0-9]|B3[0-4]","infect_viral","Viral infections",FALSE
+"C[0-9][0-9]","cancer","Cancer",FALSE
+"C1[89]|C20","ca_crc","Colorectal cancer",FALSE
+"C15","ca_esophagus","Esophagus cancer",FALSE
+"C16","ca_stomach","Stomach cancer",FALSE
+"C34","ca_lung","Lung cancer",FALSE
+"C4[34]","ca_melanoma","Melanoma / non-melanoma skin cancer",FALSE
+"C50","ca_breast","Breast cancer",FALSE
+"C61","ca_prostate","Prostate cancer",FALSE
+"C8[1-9]|C9[0-6]","ca_leukemia","Leukemia / lymphoma / hematologic malignancy",FALSE
+"D[5-8][0-9]","blood_immune","Blood and immune disorders",FALSE
+"D5[0-9]|D6[0-4]","anemia","Anemia",FALSE
+"E[0-8][0-9]|E90","endo","Endocrine disorders",FALSE
+"E1[0-4]","dm","Diabetes",FALSE
+"E66","obesity","Obesity",FALSE
+"F[0-9][0-9]","mental","Mental and behavioural disorders",FALSE
+"F0[0-3]|G30|G31","dementia","Dementia",FALSE
+"F1[0-9]","substance_abuse","Substance abuse",FALSE
+"F2[0-9]","psychotic","Psychotic disorders",FALSE
+"F3[0-9]","mood","Mood disorders",FALSE
+"F4[0-8]","neurotic","Neurotic disorders",FALSE
+"G[0-9][0-9]","neuro","Nervous system disorders",FALSE
+"G2[0-2]","parkinson","Parkinson disease",FALSE
+"G4[0-2]","epilepsy","Epilepsy",FALSE
+"G4[56]","tia","Transient ischemic attack",FALSE
+"G47","sleep_disorder","Sleep disorders",FALSE
+"H[0-5][0-9]","eye","Eye disorders",FALSE
+"H2[56]","cataract","Cataracts",FALSE
+"H40","glaucoma","Glaucoma",FALSE
+"H[6-9][0-9]","ear","Ear disorders",FALSE
+"I[0-9][0-9]","cvd","Circulatory system disorders",FALSE
+"I1[0-5]","htn","Hypertension",FALSE
+"I2[0-5]","ihd","Ischemic heart diseases",FALSE
+"I4[6-9]","arrhythmia","Arrhythmias",FALSE
+"I48","cvd_afib","Atrial fibrillation",FALSE
+"I50","hf","Heart failure",FALSE
+"I26|I802","cvd_vte","Venous thromboembolism",FALSE
+"I6[0-9]","cerebro","Cerebrovascular diseases",FALSE
+"I7[0-9]","pad","Peripheral artery diseases",FALSE
+"J[0-9][0-9]","resp","Respiratory system disorders",FALSE
+"J09|J1[0-8]","flu_pneumonia","Influenza and Pneumonia",FALSE
+"J4[0-4]|J47","copd","Chronic obstructive pulmonary disease",FALSE
+"J4[56]","asthma","Asthma",FALSE
+"K0[0-9]|K[1-8][0-9]|K9[0-3]","digestive","Digestive system disorders",FALSE
+"K5[0-2]","ibd","Inflammatory bowel disease",FALSE
+"K7[0-7]","liver","Liver diseases",FALSE
+"K85","pancreatitis","Pancreatitis",FALSE
+"L[0-9][0-9]","skin","Skin disorders",FALSE
+"L0[0-8]|L2[0-9]|L30","skin_infect_eczema","Infections and eczema",FALSE
+"M[0-9][0-9]","musculo","Musculoskeletal system disorders",FALSE
+"M0[56]|M08|M13|M3[0-5]|M45","ra_disorder","Rheumatoid arthritis disorders",FALSE
+"M1[5-9]","oa","Osteoarthritis",FALSE
+"M5[01]","sciatica","Sciatica",FALSE
+"M[67][0-9]","soft_tissue","Soft tissue disorders",FALSE
+"M8[0-2]","oporosis","Osteoporosis",FALSE
+"N[0-9][0-9]","gu","Genitourinary system disorders",FALSE
+"N1[7-9]","renal_failure","Renal failure",FALSE
+"N18","ckd","Chronic kidney disease",FALSE

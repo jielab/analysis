@@ -1,0 +1,3 @@
+PLACO and FUMA lead variants match.
+PheWAS table available: False
+Metascape input available: True

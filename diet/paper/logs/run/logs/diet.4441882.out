@@ -1,0 +1,122 @@
+[EXEC] bash /work/sph-huangj/scripts/diet/diet.paper.sh paper,web --cores 20
+[paper/maha] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R all final
+[publication] wrote FigS1.score_distribution_concordance.png
+MAHA publication ukb: Required intermediate workbook does not exist: /work/sph-huangj/analysis/diet/maha/ukb/Fig3.precision_attenuation.out.xlsx
+MAHA publication nhanes: Required intermediate workbook does not exist: /work/sph-huangj/analysis/diet/maha/nhanes/Fig4.mortality_validation.out.xlsx
+[publication] wrote Fig4.chns.mortality.png
+[publication] wrote Exploratory_CHNS_construct_validation.png
+Scale for colour is already present.
+Adding another scale for colour, which will replace the existing scale.
+[publication] wrote Exploratory_CHNS_external_validation.png
+[publication] wrote FigS7_tmp.chns.high_event_sensitivity.png
+[publication] wrote FigS6_tmp.chns.mortality_sensitivity.png
+Supplement outputs pending: FigS8_tmp.ukb.construct_stress_tests.out.xlsx, FigS8_tmp.ukb.construct_stress_tests.png, FigS9_tmp.nhanes.validation.out.xlsx, FigS9_tmp.nhanes.validation.png, FigS10_tmp.nhanes.construct_concordance.out.xlsx, FigS10_tmp.nhanes.construct_concordance.png
+[publication] finalized verified supplement filenames for scope=all
+[publication] complete: /work/sph-huangj/analysis/diet/diet.paper/maha
+MAHA all final complete
+[dose/score.stroke_comparison] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE score/stroke_comparison
+UKB common M2 cohort: 191494; events: 3788
+Fitting dose
+Fitting medi24
+Fitting mind
+Fitting dash
+Saved UKB overall stroke results
+[paper/dose] /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/dose/final.py --output /work/sph-huangj/analysis/diet
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Fig1: complete
+Fig2: complete
+Fig3: complete
+Fig4: complete
+Fig5: input_missing (a-j; k)
+Saved figure status: /work/sph-huangj/analysis/diet/diet.paper/dose/composite_status.tsv
+[paper/collect] /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/f/results.py final --output /work/sph-huangj/analysis/diet --studies maha,dose
+final: 715 aggregate records
+[paper/nhanes-baseline] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/f/nhanes_baseline.R /work/sph-huangj/analysis/diet
+[paper/supplement] /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/f/paper_tables.py --output /work/sph-huangj/analysis/diet --study all --scope all
+/work/sph-huangj/analysis/diet/diet.paper/maha/MAHA.Supplementary.Tables.xlsx
+/work/sph-huangj/analysis/diet/diet.paper/dose/DOSE.Supplementary.Tables.xlsx
+Publication inputs pending:
+Table S1: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S7: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S8: diet.paper/maha/Fig2.ukb.precision.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig2.ukb.precision.out.xlsx'
+Table S8: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S9: diet.paper/maha/Fig2.ukb.precision.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig2.ukb.precision.out.xlsx'
+Table S9: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S9: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S9: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Fig2.ukb.precision.png
+Fig3.nhanes.mortality.png
+ukb: pending_or_partial
+nhanes: pending_or_partial
+FigS2
+FigS3
+FigS4
+FigS5
+FigS8
+FigS9
+FigS10
+Table S15: dose/ukb/06signature/metabolite/association_mediation/metabolite_signature_IS_continuous.csv [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/dose/ukb/06signature/metabolite/association_mediation/metabolite_signature_IS_continuous.csv'
+Table S15: dose/ukb/06signature/metabolite/association_mediation/metabolite_signature_IS_quartiles.csv [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/dose/ukb/06signature/metabolite/association_mediation/metabolite_signature_IS_quartiles.csv'
+Fig5.DOSE.mechanisms.png
+Fig5: input_missing a-j; k
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@r13n09>
+Subject: Job 4441882: <diet.paper.run> in cluster <qmhpc> Exited
+
+Job <diet.paper.run> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 09:10:57 2026
+Job was executed on host(s) <20*r13n09>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 09:10:58 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/diet> was used as the working directory.
+Started at Thu Nov 26 09:10:58 2026
+Terminated at Thu Nov 26 09:13:10 2026
+Results reported at Thu Nov 26 09:13:10 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J diet.paper.run
+#BSUB -q 33
+#BSUB -n 20
+#BSUB -R "span[hosts=1] rusage[mem=80GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/diet/diet.paper/logs/run/logs/diet.%J.out
+#BSUB -e /work/sph-huangj/analysis/diet/diet.paper/logs/run/logs/diet.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 20 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+source /work/sph-huangj/scripts/0f/0os.sh
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/diet/diet.paper.sh paper,web --cores 20
+exec python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/diet/diet.paper/logs/run/plan.json --key diet
+
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   80.86 sec.
+    Max Memory :                                 3388 MB
+    Average Memory :                             962.71 MB
+    Total Requested Memory :                     81920.00 MB
+    Delta Memory :                               78532.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                7
+    Run time :                                   130 sec.
+    Turnaround time :                            133 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/diet/diet.paper/logs/run/logs/diet.4441882.err> for stderr output of this job.
+

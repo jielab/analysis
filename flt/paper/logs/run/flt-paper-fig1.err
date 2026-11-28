@@ -1,0 +1,15 @@
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+PNG saved: /work/sph-huangj/analysis/flt/paper/main/results/traits/FLT182_tree.png
+Saved: /work/sph-huangj/analysis/flt/paper/main/results/Fig1_B.png
+Saved: /work/sph-huangj/analysis/flt/paper/main/results/Fig1.png
+Plotted 182 items and 910 Cox estimates; 12 estimates marked by boundary triangles.

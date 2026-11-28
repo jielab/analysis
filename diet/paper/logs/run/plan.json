@@ -1,0 +1,212 @@
+{
+  "commands": {
+    "diet": "e2493011a81cb409c1926ecba9721de40859260f848852dae319efc85315269e"
+  },
+  "configuration_sha256": "945ea27b322300561a9eb705dbc08f7dd602337343b1bd6a43616ae82ca4384f",
+  "created": "2026-11-26T01:10:57.209328+00:00",
+  "integrity_version": 1,
+  "jobs": [
+    {
+      "argv": [
+        "bash",
+        "/work/sph-huangj/scripts/diet/diet.paper.sh",
+        "paper,web",
+        "--cores",
+        "20"
+      ],
+      "cwd": "/work/sph-huangj/scripts/diet",
+      "depends": [],
+      "env": {
+        "ANALYSIS_ROOT": "/work/sph-huangj/analysis",
+        "DIET_ENGINE_ENV": "{}",
+        "DIET_GRAPHICS_PREFIX": "/work/sph-huangj/software/diet/graphics",
+        "DIET_PYTHON": "/work/sph-huangj/.conda/envs/le8/bin/python3",
+        "DIET_PYTHON_LIBRARY": "/work/sph-huangj/software/diet/python",
+        "DIET_ROOT": "/work/sph-huangj/scripts/diet",
+        "DIET_RSCRIPT": "/work/sph-huangj/scripts/0f/0os.r.sh",
+        "DIET_R_LIBRARY": "/work/sph-huangj/software/diet/R-library",
+        "DIET_SYSTEM_PREFIX": "/work/sph-huangj/software/diet/system-libs",
+        "DIR_ANALYSIS": "/work/sph-huangj/analysis",
+        "DIR_ANNOT": "/work/sph-huangj/data/annot",
+        "DIR_BIG": "/work/sph-huangj/data",
+        "DIR_DAT": "/work/sph-huangj",
+        "DIR_DATA": "/work/sph-huangj/data",
+        "DIR_FILES": "/work/sph-huangj/files",
+        "DIR_GEN": "/work/sph-huangj/data/gen",
+        "DIR_GWAS": "/work/sph-huangj/data/gwas",
+        "DIR_HOME": "/work/sph-huangj",
+        "DIR_LD": "/work/sph-huangj/data/LD",
+        "DIR_METAG": "/work/sph-huangj/data/metag",
+        "DIR_PHE": "/work/sph-huangj/phe",
+        "DIR_RUNTIME_TMP": "/work/sph-huangj/tmp",
+        "DIR_SCRATCH": "/work/sph-huangj",
+        "DIR_SOFTWARE": "/work/sph-huangj/software",
+        "DIR_TMP": "/work/sph-huangj",
+        "DIR_UKB": "/work/sph-huangj/phe/ukb",
+        "DIR_UKB_RAW": "/work/sph-huangj/phe/ukb/rap/raw",
+        "DIR_WORK": "/work/sph-huangj",
+        "HPC_CPU_QUEUE": "33",
+        "HPC_GPU_MEMORY_GIB": "160",
+        "HPC_GPU_QUEUE": "4a100-40",
+        "HPC_HIGHMEM_QUEUE": "1t81c",
+        "HPC_HOST": "172.18.6.12",
+        "HPC_HUGEMEM_QUEUE": "v3-6t",
+        "HPC_JOB_BACKEND": "lsf",
+        "HPC_MEDIUM_QUEUE": "38",
+        "HPC_PORT": "18188",
+        "HPC_ROOT": "/work/sph-huangj",
+        "HPC_USER": "sph-huangj",
+        "HPC_WALLTIME": "120:00",
+        "OMP_NUM_THREADS": "20",
+        "PROJECT_JOB_ACTIVE": "1",
+        "WORKFLOW_CORES": "20",
+        "WORKFLOW_DEVICE": "cpu",
+        "WORKFLOW_RESUME_POLICY": "new_plan",
+        "_OS_DEFAULT_ALLELE_ANALYSIS_ROOT": "/work/sph-huangj/analysis/allele3",
+        "_OS_DEFAULT_ALLELE_ARCHAIC_ROOT": "/work/sph-huangj/data/gen",
+        "_OS_DEFAULT_ALLELE_JOB_QUEUE": "33",
+        "_OS_DEFAULT_ALLELE_PLANNER_PYTHON": "/work/sph-huangj/.conda/envs/py311/bin/python3",
+        "_OS_DEFAULT_ALLELE_PYTHON": "/work/sph-huangj/.conda/envs/allele3-evolution/bin/python",
+        "_OS_DEFAULT_ANALYSIS_ROOT": "/work/sph-huangj/analysis",
+        "_OS_DEFAULT_DIR_ANALYSIS": "/work/sph-huangj/analysis",
+        "_OS_DEFAULT_DIR_ANNOT": "/work/sph-huangj/data/annot",
+        "_OS_DEFAULT_DIR_BIG": "/work/sph-huangj/data",
+        "_OS_DEFAULT_DIR_DAT": "/work/sph-huangj",
+        "_OS_DEFAULT_DIR_DATA": "/work/sph-huangj/data",
+        "_OS_DEFAULT_DIR_FILES": "/work/sph-huangj/files",
+        "_OS_DEFAULT_DIR_GEN": "/work/sph-huangj/data/gen",
+        "_OS_DEFAULT_DIR_GWAS": "/work/sph-huangj/data/gwas",
+        "_OS_DEFAULT_DIR_HOME": "/work/sph-huangj",
+        "_OS_DEFAULT_DIR_LD": "/work/sph-huangj/data/LD",
+        "_OS_DEFAULT_DIR_METAG": "/work/sph-huangj/data/metag",
+        "_OS_DEFAULT_DIR_PHE": "/work/sph-huangj/phe",
+        "_OS_DEFAULT_DIR_RUNTIME_TMP": "/tmp",
+        "_OS_DEFAULT_DIR_SCRATCH": "/work/sph-huangj",
+        "_OS_DEFAULT_DIR_SOFTWARE": "/work/sph-huangj/software",
+        "_OS_DEFAULT_DIR_TMP": "/work/sph-huangj",
+        "_OS_DEFAULT_DIR_UKB": "/work/sph-huangj/phe/ukb",
+        "_OS_DEFAULT_DIR_UKB_RAW": "/work/sph-huangj/phe/ukb/rap/raw",
+        "_OS_DEFAULT_DIR_WORK": "/work/sph-huangj",
+        "_OS_DEFAULT_GRID_ANALYSIS_ROOT": "/work/sph-huangj/analysis/grid",
+        "_OS_DEFAULT_GRID_CONDA_ENV": "/work/sph-huangj/.conda/envs/grid",
+        "_OS_DEFAULT_GRID_HPC_CONFIG": "/work/sph-huangj/scripts/grid/config/hpc.yml",
+        "_OS_DEFAULT_GRID_OUTPUT_ROOT": "/work/sph-huangj/analysis/grid",
+        "_OS_DEFAULT_GRID_PLANNER_PYTHON": "/work/sph-huangj/.conda/envs/grid/bin/python",
+        "_OS_DEFAULT_GRID_PYTHON": "/work/sph-huangj/.conda/envs/grid/bin/python",
+        "_OS_DEFAULT_GU_ANALYSIS_BASE": "/work/sph-huangj/analysis/gu",
+        "_OS_DEFAULT_GU_QUEUE": "33",
+        "_OS_DEFAULT_GWAS_ANALYSIS_ROOT": "/work/sph-huangj/analysis/gwas",
+        "_OS_DEFAULT_GWAS_PLAN_PYTHON": "/work/sph-huangj/.conda/envs/py311/bin/python3",
+        "_OS_DEFAULT_GWAS_QUEUE": "33",
+        "_OS_DEFAULT_GWAS_RUNTIME_ENV": "/work/sph-huangj/scripts/gwas/f/runtime.env",
+        "_OS_DEFAULT_HPC_CPU_QUEUE": "33",
+        "_OS_DEFAULT_HPC_GPU_MEMORY_GIB": "160",
+        "_OS_DEFAULT_HPC_GPU_QUEUE": "4a100-40",
+        "_OS_DEFAULT_HPC_HIGHMEM_QUEUE": "1t81c",
+        "_OS_DEFAULT_HPC_HOST": "172.18.6.12",
+        "_OS_DEFAULT_HPC_HUGEMEM_QUEUE": "v3-6t",
+        "_OS_DEFAULT_HPC_JOB_BACKEND": "lsf",
+        "_OS_DEFAULT_HPC_MEDIUM_QUEUE": "38",
+        "_OS_DEFAULT_HPC_PORT": "18188",
+        "_OS_DEFAULT_HPC_ROOT": "/work/sph-huangj",
+        "_OS_DEFAULT_HPC_USER": "sph-huangj",
+        "_OS_DEFAULT_HPC_WALLTIME": "120:00",
+        "_OS_DEFAULT_JOB_HOURS": "120",
+        "_OS_DEFAULT_LD_ANALYSIS_ROOT": "/work/sph-huangj/analysis/ld",
+        "_OS_DEFAULT_LD_CXX": "/work/sph-huangj/.conda/envs/py311/bin/x86_64-conda-linux-gnu-c++",
+        "_OS_DEFAULT_LD_PYTHON": "/work/sph-huangj/.conda/envs/py311/bin/python3",
+        "_OS_DEFAULT_LD_QUEUE": "33",
+        "_OS_DEFAULT_LD_RUNTIME_PREFIX": "/work/sph-huangj/.conda/envs/py311",
+        "_OS_DEFAULT_LD_ZSTD_PREFIX": "/work/sph-huangj/.conda/envs/py311",
+        "_OS_DEFAULT_LE8_ANALYSIS_ROOT": "/work/sph-huangj/analysis/le8",
+        "_OS_DEFAULT_LE8_GPU_QUEUE": "4a100-40",
+        "_OS_DEFAULT_LE8_PLANNER_PYTHON": "/work/sph-huangj/.conda/envs/py311/bin/python3",
+        "_OS_DEFAULT_LE8_PYTHON": "/work/sph-huangj/.conda/envs/le8/bin/python3",
+        "_OS_DEFAULT_LE8_QUEUE": "33",
+        "_OS_DEFAULT_LOCAL_JOB_BACKEND": "local",
+        "_OS_DEFAULT_LOCAL_ONLY_MARK": "\ud83c\ude32",
+        "_OS_DEFAULT_MEMORY_DEFAULT_GIB": "80",
+        "_OS_DEFAULT_METAG_READS_RAW": "/work/sph-huangj/data/metag/raw",
+        "_OS_DEFAULT_METAG_REFERENCE_RAW": "/work/sph-huangj/data/annot/metag/raw",
+        "_OS_DEFAULT_METAG_ROOT": "/work/sph-huangj/data/metag",
+        "_OS_DEFAULT_METAG_STATE_ROOT": "/work/sph-huangj/analysis/metag",
+        "_OS_DEFAULT_METAG_TOOLS_DIR": "/work/sph-huangj/software/metag_parallel",
+        "_OS_DEFAULT_OS_AXT_ROOT": "/work/sph-huangj/data/annot/axt/37",
+        "_OS_DEFAULT_OS_FILES_ROOT": "/work/sph-huangj/files",
+        "_OS_DEFAULT_OS_GU_CONDA": "/work/sph-huangj/software/gu/conda",
+        "_OS_DEFAULT_OS_RSCRIPT_HPC": "/work/sph-huangj/.conda/envs/R4.5.3/bin/Rscript",
+        "_OS_DEFAULT_OS_SNP_LIST": "/work/sph-huangj/phe/ukb/common/snp.lst",
+        "_OS_DEFAULT_PERSISTENT_ANALYSIS_ROOT": "/work/sph-huangj/analysis",
+        "_OS_DEFAULT_PHOLE_PLAN_PYTHON": "/work/sph-huangj/.conda/envs/py311/bin/python3",
+        "_OS_DEFAULT_PLINK2": "/work/sph-huangj/software/bin/plink2",
+        "_OS_DEFAULT_SAIGE_ENV_DIR": "/work/sph-huangj/.conda/envs/saige",
+        "_OS_DEFAULT_SCRATCH_ANALYSIS_ROOT": "/work/sph-huangj/analysis",
+        "_OS_DEFAULT_SHARED_PYTHON": "/work/sph-huangj/.conda/envs/py311/bin/python3",
+        "_OS_DEFAULT_WORKFLOW_CORES": "20",
+        "_OS_DEFAULT_WORKFLOW_R_LIBS_USER": "/work/sph-huangj/.conda/envs/le8/lib/R/library:/work/sph-huangj/.conda/envs/gu/lib/R/library",
+        "_OS_DEFAULT_jobs_N": "8"
+      },
+      "job_name": "diet",
+      "key": "diet",
+      "resources": {
+        "cores": 20,
+        "gpus": 0,
+        "hours": 120.0,
+        "memory_gib": 80.0,
+        "memory_scope": "host",
+        "queue": "33"
+      }
+    }
+  ],
+  "mode": "hpc",
+  "name": "diet",
+  "plan_sha256": "94698890e9c415a6ea260122dfd206f41ab37285ce97e38e351834a0648ecf1d",
+  "schema": "workflow-dag-1",
+  "sources": {
+    "/work/sph-huangj/scripts/0f/0os.sh": {
+      "size": 15521
+    },
+    "/work/sph-huangj/scripts/0f/command_jobs.py": {
+      "size": 6730
+    },
+    "/work/sph-huangj/scripts/0f/lsf_submit.py": {
+      "size": 10424
+    },
+    "/work/sph-huangj/scripts/0f/project_entry.sh": {
+      "size": 3406
+    },
+    "/work/sph-huangj/scripts/0f/project_job.py": {
+      "size": 8657
+    },
+    "/work/sph-huangj/scripts/0f/qiming_resources.py": {
+      "size": 5855
+    },
+    "/work/sph-huangj/scripts/0f/submission_io.py": {
+      "size": 1272
+    },
+    "/work/sph-huangj/scripts/0f/submit.py": {
+      "size": 2286
+    },
+    "/work/sph-huangj/scripts/0f/submit_jobs.py": {
+      "size": 10549
+    },
+    "/work/sph-huangj/scripts/0f/workflow_entry.py": {
+      "size": 1870
+    },
+    "/work/sph-huangj/scripts/0f/workflow_jobs.py": {
+      "size": 25535
+    },
+    "/work/sph-huangj/scripts/0f/workflow_layout.py": {
+      "size": 3922
+    },
+    "/work/sph-huangj/scripts/0f/workflow_lock.py": {
+      "size": 3829
+    },
+    "/work/sph-huangj/scripts/0f/workflow_mode.py": {
+      "size": 915
+    },
+    "/work/sph-huangj/scripts/diet/diet.paper.sh": {
+      "size": 2732
+    }
+  }
+}

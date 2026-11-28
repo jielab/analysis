@@ -1,0 +1,85 @@
+2026-11-25T22:35:23+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/metabolite
+Metabolomic complete M2 cohort: N=186875; IS events=2518; metabolites=236
+Flow 1, DOSE -> metabolite: 1/236 | Glucose_Lactate
+Flow 1, DOSE -> metabolite: 100/236 | L_VLDL_C.pct
+Flow 1, DOSE -> metabolite: 200/236 | XL_HDL_PL
+Flow 1, DOSE -> metabolite: 236/236 | XXL_VLDL_TG.pct
+Flow 1 completed:
+                                        result N_tested N_P05 N_FDR05
+ Flow 1: DOSE -> metabolite linear association      236   198     196
+Flow 2, metabolite -> IS Cox: 1/236 | Glucose_Lactate
+Flow 2, metabolite -> IS Cox: 100/236 | L_VLDL_C.pct
+Flow 2, metabolite -> IS Cox: 200/236 | XL_HDL_PL
+Flow 2, metabolite -> IS Cox: 236/236 | XXL_VLDL_TG.pct
+Flow 2 completed:
+                                                result N_tested N_P05 N_FDR05
+ Flow 2: metabolite -> IS Cox association without DOSE      236    57      12
+Intersection retained for pathway analysis and mediation: 44 metabolite(s) (X-M FDR<0.05 and M-Y P<0.05).
+Starting mediation method: lhr_aft; candidates=44
+lhr_aft: 1/44 | DHA.pct
+lhr_aft: 10/44 | S_HDL_FC.pct
+lhr_aft: 20/44 | HDL_P
+lhr_aft: 40/44 | XS_VLDL_L
+lhr_aft: 30/44 | XS_VLDL_CE
+lhr_aft: 44/44 | IDL_TG
+Flow 3 method completed: lhr_aft
+                        result N_tested N_P05 N_FDR05
+ lhr_aft: ACME/indirect effect       44    41      41
+  lhr_aft: proportion mediated       44    41      41
+Starting mediation method: modern_logistic; candidates=44
+modern_logistic: 1/44 | DHA.pct
+modern_logistic: 10/44 | S_HDL_FC.pct
+modern_logistic: 20/44 | HDL_P
+modern_logistic: 30/44 | XS_VLDL_CE
+modern_logistic: 40/44 | XS_VLDL_L
+modern_logistic: 44/44 | IDL_TG
+Flow 3 method completed: modern_logistic
+                                result N_tested N_P05 N_FDR05
+ modern_logistic: ACME/indirect effect       44    23       2
+  modern_logistic: proportion mediated       44    23       2
+Starting mediation method: cox_product; candidates=44
+cox_product: 1/44 | DHA.pct
+cox_product: 10/44 | S_HDL_FC.pct
+cox_product: 20/44 | HDL_P
+cox_product: 30/44 | XS_VLDL_CE
+cox_product: 40/44 | XS_VLDL_L
+cox_product: 44/44 | IDL_TG
+Flow 3 method completed: cox_product
+                            result N_tested N_P05 N_FDR05
+ cox_product: ACME/indirect effect       44    37      30
+  cox_product: proportion mediated       44    31       1
+Mediation-stage significance counts:
+                               result N_tested N_P05 N_FDR05
+                LHR AFT: total effect       44    44      44
+                        LHR AFT: ACME       44    41      41
+                         LHR AFT: ADE       44    44      44
+         LHR AFT: proportion mediated       44    41      41
+        MODERN logistic: total effect       44    44      44
+                MODERN logistic: ACME       44    23       2
+                 MODERN logistic: ADE       44    44      44
+ MODERN logistic: proportion mediated       44    23       2
+            Cox product: total effect       44    44      44
+         Cox product: indirect effect       44    37      30
+           Cox product: direct effect       44    44      44
+     Cox product: proportion mediated       44    31       1
+  N_main_cohort N_metabolomic_complete_M2 N_direct_metabolites_listed
+1        191494                    186875                         252
+  N_direct_metabolites_present N_metabolites_QC N_base_complete_M2 IS_events
+1                          236              236             186875      2518
+  HR_DOSE_IS_overall P_DOSE_IS_overall N_mediators_tested N_XM_P05 N_XM_FDR05
+1          0.8846557      1.308136e-08                236      198        196
+  N_MY_P05 N_MY_FDR05 N_candidates_XM_FDR05_MY_P05 N_LHR_completed
+1       57         12                           44              44
+  N_LHR_ACME_P05 N_LHR_ACME_FDR05 N_LHR_positive_prop_P05 N_MODERN_completed
+1             41               41                      31                 44
+  N_MODERN_ACME_P05 N_MODERN_ACME_FDR05 N_MODERN_positive_prop_P05
+1                23                   2                         15
+  N_PRODUCT_completed N_PRODUCT_indirect_P05 N_PRODUCT_indirect_FDR05
+1                  44                     37                       30
+  N_PRODUCT_proportion_P05 N_PRODUCT_proportion_FDR05
+1                       31                          1
+  N_PRODUCT_positive_proportion_P05
+1                                23
+Completed metabolite mediation analysis. Results: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/metabolite/M2

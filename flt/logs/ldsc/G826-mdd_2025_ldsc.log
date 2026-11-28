@@ -1,0 +1,44 @@
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G826-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-mdd_2025-ldsc.sumstats.gz) began at: 2026-11-25 23:58:55.108242
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G826-ldsc.sumstats.gz
+Out of 1199461 SNPs, 1176680 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.673; 1176680 remain
+Read in summary statistics [2/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-mdd_2025-ldsc.sumstats.gz
+Out of 1104047 SNPs, 1098100 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 1639.572; 1098100 remain
+          
+Estimating heritability [1/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G826-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G826-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1963
+Lambda GC: 1.1629
+Intercept: 0.9922 (0.0079)
+Ratio: -0.04 (0.0405)
+Total Observed Scale h2: 0.0632 (0.0051)
+h2 Z: 12.4
+     
+Calculating genetic covariance [2/3] for traits: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G826-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-mdd_2025-ldsc.sumstats.gz
+1096400 SNPs remain after merging /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G826-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-mdd_2025-ldsc.sumstats.gz summary statistics
+Results for genetic covariance between: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G826-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-mdd_2025-ldsc.sumstats.gz
+Mean Z*Z: -0.0866
+Cross trait Intercept: -6e-04 (0.0062)
+Total Observed Scale Genetic Covariance (g_cov): -0.0084 (0.0013)
+g_cov Z: -6.42
+g_cov P-value: 1.4057e-10
+          
+Estimating heritability [3/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-mdd_2025-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-mdd_2025-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.987
+Lambda GC: 1.7314
+Intercept: 1.0406 (0.0131)
+Ratio: 0.0411 (0.0133)
+Total Observed Scale h2: 0.0306 (0.0011)
+h2 Z: 28.6
+     
+      
+Genetic Correlation Results
+Genetic Correlation between G826 and mdd_2025: -0.1907 (0.0297)
+     
+     
+LDSC finished running at 2026-11-25 23:59:12.80368
+Running LDSC for all files took 0 minutes and 17 seconds
+     

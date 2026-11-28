@@ -1,0 +1,12 @@
+2026-11-25T12:31:43+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE foodwas/plot
+food_group_plot complete
+ - food groups: 38 
+ - M2 groups with any P<0.05: 15 
+ - max |rho| across all groups: 0.461 
+ - proper-reference table: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/Group_cvd_stroke_i_proper.csv 
+ - group association table: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/Group_asso_cvd_stroke_i.csv 
+ - item association table: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/item/Food_asso_cvd_stroke_i.csv 
+ - figures: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/figures 
+ - RCS nonlinear-P ring added from: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/RCS/RCS_summary.csv 

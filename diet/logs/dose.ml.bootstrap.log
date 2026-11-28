@@ -1,0 +1,171 @@
+2026-11-25T20:12:38+00:00
+/work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/dose/ml.py
+Read predictions: 4,595,856 rows in 4.3s
+Bootstrap/paired evaluation
+Primary feature set: PrimaryDelta005_10
+All-candidate set: All15
+Bootstrap replicates: 1000
+
+=== bootstrap performance: PrimaryDelta005_10 | LightGBM ===
+N=191494 events=2585 cutoff=0.39634 AUC=0.6169 AUPRC=0.0217
+  bootstrap 100/1000
+  bootstrap 200/1000
+  bootstrap 300/1000
+  bootstrap 400/1000
+  bootstrap 500/1000
+  bootstrap 600/1000
+  bootstrap 700/1000
+  bootstrap 800/1000
+  bootstrap 900/1000
+  bootstrap 1000/1000
+
+=== bootstrap performance: PrimaryDelta005_10 | XGBoost ===
+N=191494 events=2585 cutoff=0.371698 AUC=0.6083 AUPRC=0.0208
+  bootstrap 100/1000
+  bootstrap 200/1000
+  bootstrap 300/1000
+  bootstrap 400/1000
+  bootstrap 500/1000
+  bootstrap 600/1000
+  bootstrap 700/1000
+  bootstrap 800/1000
+  bootstrap 900/1000
+  bootstrap 1000/1000
+
+=== bootstrap performance: PrimaryDelta005_10 | RandomForest ===
+N=191494 events=2585 cutoff=0.012 AUC=0.5834 AUPRC=0.0182
+  bootstrap 100/1000
+  bootstrap 200/1000
+  bootstrap 300/1000
+  bootstrap 400/1000
+  bootstrap 500/1000
+  bootstrap 600/1000
+  bootstrap 700/1000
+  bootstrap 800/1000
+  bootstrap 900/1000
+  bootstrap 1000/1000
+
+=== bootstrap performance: PrimaryDelta005_10 | Logistic ===
+N=191494 events=2585 cutoff=0.511236 AUC=0.5215 AUPRC=0.0144
+  bootstrap 100/1000
+  bootstrap 200/1000
+  bootstrap 300/1000
+  bootstrap 400/1000
+  bootstrap 500/1000
+  bootstrap 600/1000
+  bootstrap 700/1000
+  bootstrap 800/1000
+  bootstrap 900/1000
+  bootstrap 1000/1000
+
+=== paired feature-set comparison: PrimaryDelta005_10 vs All15 | LightGBM ===
+  paired bootstrap 100/1000
+  paired bootstrap 200/1000
+  paired bootstrap 300/1000
+  paired bootstrap 400/1000
+  paired bootstrap 500/1000
+  paired bootstrap 600/1000
+  paired bootstrap 700/1000
+  paired bootstrap 800/1000
+  paired bootstrap 900/1000
+  paired bootstrap 1000/1000
+
+=== paired feature-set comparison: PrimaryDelta005_10 vs SHAP_Consensus10 | LightGBM ===
+  paired bootstrap 100/1000
+  paired bootstrap 200/1000
+  paired bootstrap 300/1000
+  paired bootstrap 400/1000
+  paired bootstrap 500/1000
+  paired bootstrap 600/1000
+  paired bootstrap 700/1000
+  paired bootstrap 800/1000
+  paired bootstrap 900/1000
+  paired bootstrap 1000/1000
+
+=== paired feature-set comparison: PrimaryDelta005_10 vs RFE_Consensus10 | LightGBM ===
+  paired bootstrap 100/1000
+  paired bootstrap 200/1000
+  paired bootstrap 300/1000
+  paired bootstrap 400/1000
+  paired bootstrap 500/1000
+  paired bootstrap 600/1000
+  paired bootstrap 700/1000
+  paired bootstrap 800/1000
+  paired bootstrap 900/1000
+  paired bootstrap 1000/1000
+
+=== paired model comparison: LightGBM vs XGBoost | PrimaryDelta005_10 ===
+  paired bootstrap 100/1000
+  paired bootstrap 200/1000
+  paired bootstrap 300/1000
+  paired bootstrap 400/1000
+  paired bootstrap 500/1000
+  paired bootstrap 600/1000
+  paired bootstrap 700/1000
+  paired bootstrap 800/1000
+  paired bootstrap 900/1000
+  paired bootstrap 1000/1000
+
+=== paired model comparison: LightGBM vs RandomForest | PrimaryDelta005_10 ===
+  paired bootstrap 100/1000
+  paired bootstrap 200/1000
+  paired bootstrap 300/1000
+  paired bootstrap 400/1000
+  paired bootstrap 500/1000
+  paired bootstrap 600/1000
+  paired bootstrap 700/1000
+  paired bootstrap 800/1000
+  paired bootstrap 900/1000
+  paired bootstrap 1000/1000
+
+=== paired model comparison: LightGBM vs Logistic | PrimaryDelta005_10 ===
+  paired bootstrap 100/1000
+  paired bootstrap 200/1000
+  paired bootstrap 300/1000
+  paired bootstrap 400/1000
+  paired bootstrap 500/1000
+  paired bootstrap 600/1000
+  paired bootstrap 700/1000
+  paired bootstrap 800/1000
+  paired bootstrap 900/1000
+  paired bootstrap 1000/1000
+
+Bootstrap evaluation complete
+Outputs:
+ - /work/sph-huangj/analysis/diet/dose/ukb/03ml/Bootstrap_Performance_Summary.csv
+ - /work/sph-huangj/analysis/diet/dose/ukb/03ml/Confusion_Matrix_Primary.csv
+ - /work/sph-huangj/analysis/diet/dose/ukb/03ml/Paired_FeatureSet_Comparison_LightGBM.csv
+ - /work/sph-huangj/analysis/diet/dose/ukb/03ml/Paired_Model_Comparison_Primary.csv
+
+Primary model performance with bootstrap CIs:
+      Method    Metric  Estimate  Lower95  Upper95
+    LightGBM       AUC  0.616877 0.606461 0.627831
+    LightGBM     AUPRC  0.021668 0.020259 0.023506
+    LightGBM  Accuracy  0.589804 0.587632 0.592024
+    LightGBM Precision  0.019154 0.018253 0.020067
+    LightGBM    Recall  0.585300 0.566365 0.603304
+    LightGBM        F1  0.037094 0.035392 0.038832
+     XGBoost       AUC  0.608315 0.597016 0.619351
+     XGBoost     AUPRC  0.020773 0.019447 0.022383
+     XGBoost  Accuracy  0.534226 0.532111 0.536430
+     XGBoost Precision  0.018073 0.017221 0.019018
+     XGBoost    Recall  0.628240 0.609393 0.647084
+     XGBoost        F1  0.035136 0.033514 0.036927
+RandomForest       AUC  0.583424 0.572226 0.595533
+RandomForest     AUPRC  0.018228 0.017123 0.019556
+RandomForest  Accuracy  0.546508 0.544309 0.548832
+RandomForest Precision  0.017124 0.016225 0.018062
+RandomForest    Recall  0.577950 0.558381 0.597562
+RandomForest        F1  0.033263 0.031553 0.035050
+    Logistic       AUC  0.521451 0.511103 0.532866
+    Logistic     AUPRC  0.014444 0.013697 0.015296
+    Logistic  Accuracy  0.682987 0.680841 0.685035
+    Logistic Precision  0.015101 0.014152 0.016129
+    Logistic    Recall  0.350097 0.332183 0.369021
+    Logistic        F1  0.028953 0.027164 0.030903
+
+LightGBM paired feature-set comparisons:
+      Comparator  Delta_AUC  Delta_AUC_Lower95_boot  Delta_AUC_Upper95_boot  DeLong_P  Delta_AUPRC  Delta_AUPRC_Lower95_boot  Delta_AUPRC_Upper95_boot  Bootstrap_P_DeltaAUPRC
+           All15   0.006427                0.000743                0.011926  0.029845     0.000134                 -0.000818                  0.001118                0.803197
+SHAP_Consensus10   0.005936                0.000137                0.011987  0.049779     0.000049                 -0.000924                  0.000907                0.891109
+ RFE_Consensus10   0.003446               -0.002450                0.009221  0.241050     0.000402                 -0.000605                  0.001213                0.427572

@@ -1,0 +1,16 @@
+2026-11-26T01:11:03+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R all final
+[publication] wrote FigS1.score_distribution_concordance.png
+MAHA publication ukb: Required intermediate workbook does not exist: /work/sph-huangj/analysis/diet/maha/ukb/Fig3.precision_attenuation.out.xlsx
+MAHA publication nhanes: Required intermediate workbook does not exist: /work/sph-huangj/analysis/diet/maha/nhanes/Fig4.mortality_validation.out.xlsx
+[publication] wrote Fig4.chns.mortality.png
+[publication] wrote Exploratory_CHNS_construct_validation.png
+Scale for colour is already present.
+Adding another scale for colour, which will replace the existing scale.
+[publication] wrote Exploratory_CHNS_external_validation.png
+[publication] wrote FigS7_tmp.chns.high_event_sensitivity.png
+[publication] wrote FigS6_tmp.chns.mortality_sensitivity.png
+Supplement outputs pending: FigS8_tmp.ukb.construct_stress_tests.out.xlsx, FigS8_tmp.ukb.construct_stress_tests.png, FigS9_tmp.nhanes.validation.out.xlsx, FigS9_tmp.nhanes.validation.png, FigS10_tmp.nhanes.construct_concordance.out.xlsx, FigS10_tmp.nhanes.construct_concordance.png
+[publication] finalized verified supplement filenames for scope=all
+[publication] complete: /work/sph-huangj/analysis/diet/diet.paper/maha
+MAHA all final complete

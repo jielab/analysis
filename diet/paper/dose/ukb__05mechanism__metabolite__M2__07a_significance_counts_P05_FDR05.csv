@@ -1,0 +1,15 @@
+"result","N_tested","N_P05","N_FDR05"
+"Flow 1: DOSE -> metabolite linear association",236,198,196
+"Flow 2: metabolite -> IS Cox association without DOSE",236,57,12
+"LHR AFT: total effect",44,44,44
+"LHR AFT: ACME",44,41,41
+"LHR AFT: ADE",44,44,44
+"LHR AFT: proportion mediated",44,41,41
+"MODERN logistic: total effect",44,44,44
+"MODERN logistic: ACME",44,23,2
+"MODERN logistic: ADE",44,44,44
+"MODERN logistic: proportion mediated",44,23,2
+"Cox product: total effect",44,44,44
+"Cox product: indirect effect",44,37,30
+"Cox product: direct effect",44,44,44
+"Cox product: proportion mediated",44,31,1

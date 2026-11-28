@@ -1,0 +1,17 @@
+"variable","class","n_total","n_missing","pct_missing","n_nonmissing","n_level"
+"days_pa_mod.c","factor",191494,5937,3.1,185557,8
+"fhist_stroke","factor",191494,3656,1.91,187838,2
+"edu.c","factor",191494,918,0.48,190576,3
+"ethnic.c3","factor",191494,680,0.36,190814,2
+"bmi","numeric",191494,519,0.27,190975,NA
+"smoke.c","factor",191494,501,0.26,190993,3
+"tdi","numeric",191494,242,0.13,191252,NA
+"alcohol.c","factor",191494,187,0.1,191307,3
+"age","integer",191494,0,0,191494,NA
+"drug.dm","factor",191494,0,0,191494,2
+"drug.htn","factor",191494,0,0,191494,2
+"drug.lipid","factor",191494,0,0,191494,2
+"energy.kJ","numeric",191494,0,0,191494,NA
+"primary_ahtn","factor",191494,0,0,191494,2
+"sex.b","factor",191494,0,0,191494,2
+"t2dm","factor",191494,0,0,191494,2

@@ -1,0 +1,16 @@
+2026-11-25T12:33:38+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE foodwas/plot_myth
+MYTH-style FoodWAS figures completed.
+  Main PDF:       /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/figures/food_group_MYTH_circular_ref_first_ordered.pdf
+  Main PNG:       /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/figures/food_group_MYTH_circular_ref_first_ordered.png
+  C1 sensitivity: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/figures/food_group_MYTH_C1_sensitivity_ref_first_ordered.pdf
+  Plot data:      /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/figures/food_group_MYTH_plot_data.csv
+  Color map:      /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/figures/food_group_MYTH_color_map.csv
+  Food groups:    38
+  Inner trend P<.05: 8
+  Outer Cox P<.05 contrasts: 19
+  ML candidates: 15; starred in main figure: 15; shared: 15
+Warning message:
+In eval(dose_step_code(module, step), envir = envir) :
+  Arial font files were not found; the graphics device may substitute another sans-serif font

@@ -1,0 +1,875 @@
+[EXEC] bash /work/sph-huangj/scripts/diet/1.disco.sh all --cores 40
+SKIP charls: medito: measured-component input is not configured
+SKIP charls: medi24: measured-component input is not configured
+SKIP charls: dash: measured-component input is not configured
+SKIP charls: mind: measured-component input is not configured
+SKIP charls: hpdi: measured-component input is not configured
+SKIP charls: ahei: measured-component input is not configured
+SKIP charls: phdi: measured-component input is not configured
+SKIP charls: modern: measured-component input is not configured
+SKIP charls: digm: measured-component input is not configured
+SKIP charls: maha: measured-component input is not configured
+SKIP charls: hlcd: measured-component input is not configured
+SKIP charls: hlfd: measured-component input is not configured
+SKIP charls: redii: measured-component input is not configured
+SKIP charls: fds: measured-component input is not configured
+SKIP charls: maha_bal: measured-component input is not configured
+SKIP charls: maha_strict: measured-component input is not configured
+SKIP charls: maha_nodairy: measured-component input is not configured
+SKIP charls: maha_noprotein: measured-component input is not configured
+SKIP charls: upf: measured-component input is not configured
+SKIP charls: dose: measured-component input is not configured
+SKIP charls: dose11: measured-component input is not configured
+SKIP charls: dose9: measured-component input is not configured
+SKIP charls: dose9half: measured-component input is not configured
+SKIP charls: maha_processed: measured-component input is not configured
+SKIP charls: maha_nomeat: measured-component input is not configured
+SKIP charls: medi: measured-component input is not configured
+SKIP charls: amed: measured-component input is not configured
+SKIP charls: chdi: measured-component input is not configured
+SKIP charls: maha_density: measured-component input is not configured
+SKIP charls: maha_residual: measured-component input is not configured
+SKIP charls: dash_fung: measured-component input is not configured
+SKIP charls: dash_density: measured-component input is not configured
+[disco/ukb.maha] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/f/ukb_maha_score.R
+UKB MAHA-profile scoring: 501936 participants; 19 score totals. Cache: /work/sph-huangj/analysis/diet/.cache/ukb/maha/Rdata
+[disco/ukb.dose] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE foodwas/preprocess
+Running preprocess phase: qc
+Saved preprocess checkpoint: qc
+Running preprocess phase: medito
+Saved preprocess checkpoint: medito
+Running preprocess phase: webq
+WebQ填写时长P5/P95（分钟）: 8 / 31 
+不排除填写时长、仅排除基线饮食经常变化者： 194434 
+最终有效WebQ饮食人群： 192539 
+Food/weight recall averages saved; scoring dietary patterns
+Saved preprocess checkpoint: webq
+Running preprocess phase: patterns
+Saved preprocess checkpoint: patterns
+Running preprocess phase: diet_merge
+Merging participant data: diet.medito.rds
+  Merged: 501936 participants, 13 columns
+Merging participant data: diet.medi24.rds
+  Merged: 501936 participants, 27 columns
+Merging participant data: diet.dash.rds
+  Merged: 501936 participants, 36 columns
+Merging participant data: diet.mind.rds
+  Merged: 501936 participants, 52 columns
+Merging participant data: diet.hpdi.rds
+  Merged: 501936 participants, 70 columns
+Merging participant data: diet.ahei.rds
+  Merged: 501936 participants, 82 columns
+Merging participant data: diet.phdi.rds
+  Merged: 501936 participants, 98 columns
+Merging participant data: diet.modern.rds
+  Merged: 501936 participants, 106 columns
+Merging participant data: diet.digm.rds
+  Merged: 501936 participants, 119 columns
+Merging participant data: diet.maha.rds
+  Merged: 501936 participants, 129 columns
+Merging participant data: diet.hlcd.rds
+  Merged: 501936 participants, 133 columns
+Merging participant data: diet.hlfd.rds
+  Merged: 501936 participants, 134 columns
+Merging participant data: diet.redii.rds
+  Merged: 501936 participants, 135 columns
+Merging participant data: diet.fds.rds
+  Merged: 501936 participants, 146 columns
+Saved preprocess checkpoint: diet_merge
+Running preprocess phase: upf
+Skipping optional UPF_2 appendix: foods.xlsx lacks UPF_2 / Energy_KJ/100g. Main DOSE inputs are complete.
+Saved preprocess checkpoint: upf
+DOSE score/build
+DOSE11: 192539 participants; theoretical total 0-11.
+   Score     N     Percent
+       0  4430  2.30083256
+       1 14217  7.38395857
+       2 24037 12.48422398
+       3 30940 16.06947164
+       4 33273 17.28117420
+       5 31711 16.46990999
+       6 25708 13.35210009
+       7 16867  8.76030311
+       8  8209  4.26355180
+       9  2604  1.35245327
+      10   498  0.25864890
+      11    45  0.02337189
+ Missing     0  0.00000000
+Score variable: diet.dose11.sum
+Scores: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/dose11_score.rds
+Scoring figure: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/figures/Fig_DOSE11.pdf
+DOSE9: 192539 participants; theoretical total 0-9.
+   Score     N     Percent
+       0  4430  2.30083256
+       1 15452  8.02538706
+       2 28691 14.90139660
+       3 39321 20.42235599
+       4 41523 21.56602039
+       5 33682 17.49359870
+       6 20078 10.42801718
+       7  7677  3.98724414
+       8  1561  0.81074484
+       9   124  0.06440254
+ Missing     0  0.00000000
+Score variable: diet.dose9.sum
+Scores: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/dose9_score.rds
+Scoring figure: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/figures/Fig_DOSE9.pdf
+DOSE9HALF: 192539 participants; theoretical total 0-9.
+   Score     N     Percent
+       0  4430  2.30083256
+     0.5  4269  2.21721314
+       1 12719  6.60593438
+     1.5 13452  6.98663647
+       2 19368 10.05926072
+     2.5 20759 10.78171176
+       3 21575 11.20552200
+     3.5 21489 11.16085572
+       4 19144  9.94292066
+     4.5 17226  8.94675884
+       5 13011  6.75759197
+     5.5 10539  5.47369624
+       6  6654  3.45592322
+     6.5  4250  2.20734501
+       7  2203  1.14418378
+     7.5   868  0.45081776
+       8   474  0.24618389
+     8.5    64  0.03324002
+       9    45  0.02337189
+ Missing     0  0.00000000
+Score variable: diet.dose9half.sum
+Scores: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/dose9half_score.rds
+Scoring figure: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/figures/Fig_DOSE9HALF.pdf
+PRIMARY: dose = dose9half; downstream exposure = dose; diet.dose.sum is a compatibility alias. All three totals are retained.
+Saved outcome-free scores: /work/sph-huangj/analysis/diet/.cache/disco/ukb.dose.rds (501936 participants)
+Warning message:
+In eval(expr, envir = new.env(parent = parent.frame())) :
+  NAs introduced by coercion
+[disco/ukb.publish] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/f/common.R disco ukb
+SKIP ukb: maha_processed: unavailable in the selected cohort/profile outputs
+SKIP ukb: maha_nomeat: unavailable in the selected cohort/profile outputs
+SKIP ukb: medi: unavailable in the selected cohort/profile outputs
+SKIP ukb: amed: unavailable in the selected cohort/profile outputs
+SKIP ukb: chdi: unavailable in the selected cohort/profile outputs
+SKIP ukb: maha_density: unavailable in the selected cohort/profile outputs
+SKIP ukb: maha_residual: unavailable in the selected cohort/profile outputs
+SKIP ukb: dash_fung: unavailable in the selected cohort/profile outputs
+SKIP ukb: dash_density: unavailable in the selected cohort/profile outputs
+Saved /work/sph-huangj/analysis/diet/disco/ukb.raw.rds (full scoring data)
+Saved /work/sph-huangj/analysis/diet/disco/ukb.disco.rds (501936 participants; 37 selected score totals)
+[disco/ukb.rdata] /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/f/publish_ukb_rdata.py --source /work/sph-huangj/analysis/diet/.cache/ukb/maha/Rdata --destination /work/sph-huangj/phe/ukb/Rdata
+Published 18 MAHA diet RDS files to /work/sph-huangj/phe/ukb/Rdata
+[disco/nhanes.maha] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R nhanes disco
+
+[NHANES INPUT CHECK] Required raw inputs:
+  OK: 1999-2000/DEMO -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Demographics/DEMO.xpt
+  OK: 1999-2000/BMX -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Examination/BMX.xpt
+  OK: 1999-2000/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXTOT.xpt
+  OK: 1999-2000/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXIFF.xpt
+  OK: 1999-2000/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXFMT.xpt
+  OK: 2001-2002/DEMO -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Demographics/DEMO_B.xpt
+  OK: 2001-2002/BMX -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Examination/BMX_B.xpt
+  OK: 2001-2002/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXTOT_B.xpt
+  OK: 2001-2002/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXIFF_B.xpt
+  OK: 2001-2002/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXFMT_B.xpt
+  OK: 2003-2004/DEMO -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Demographics/DEMO_C.xpt
+  OK: 2003-2004/BMX -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Examination/BMX_C.xpt
+  OK: 2003-2004/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR1TOT_C.xpt
+  OK: 2003-2004/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR1IFF_C.xpt
+  OK: 2003-2004/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DRXFCD_C.xpt
+  OK: 2005-2006/DEMO -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Demographics/DEMO_D.xpt
+  OK: 2005-2006/BMX -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Examination/BMX_D.xpt
+  OK: 2005-2006/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR1TOT_D.xpt
+  OK: 2005-2006/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR1IFF_D.xpt
+  OK: 2005-2006/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DRXFCD_D.xpt
+  OK: 2007-2008/DEMO -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Demographics/DEMO_E.xpt
+  OK: 2007-2008/BMX -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Examination/BMX_E.xpt
+  OK: 2007-2008/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR1TOT_E.xpt
+  OK: 2007-2008/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR1IFF_E.xpt
+  OK: 2007-2008/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DRXFCD_E.xpt
+  OK: 2009-2010/DEMO -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Demographics/DEMO_F.xpt
+  OK: 2009-2010/BMX -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Examination/BMX_F.xpt
+  OK: 2009-2010/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR1TOT_F.xpt
+  OK: 2009-2010/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR1IFF_F.xpt
+  OK: 2009-2010/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DRXFCD_F.xpt
+  OK: 2011-2012/DEMO -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Demographics/DEMO_G.xpt
+  OK: 2011-2012/BMX -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Examination/BMX_G.xpt
+  OK: 2011-2012/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR1TOT_G.xpt
+  OK: 2011-2012/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR1IFF_G.xpt
+  OK: 2011-2012/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DRXFCD_G.xpt
+  OK: 2013-2014/DEMO -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Demographics/DEMO_H.xpt
+  OK: 2013-2014/BMX -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Examination/BMX_H.xpt
+  OK: 2013-2014/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR1TOT_H.xpt
+  OK: 2013-2014/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR1IFF_H.xpt
+  OK: 2013-2014/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DRXFCD_H.xpt
+  OK: 2015-2016/DEMO -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Demographics/DEMO_I.xpt
+  OK: 2015-2016/BMX -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Examination/BMX_I.xpt
+  OK: 2015-2016/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR1TOT_I.xpt
+  OK: 2015-2016/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR1IFF_I.xpt
+  OK: 2015-2016/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DRXFCD_I.xpt
+  OK: 2017-2020/DEMO -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Demographics/P_DEMO.xpt
+  OK: 2017-2020/BMX -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Examination/P_BMX.xpt
+  OK: 2017-2020/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR1TOT.xpt
+  OK: 2017-2020/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR1IFF.xpt
+  OK: 2017-2020/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DRXFCD.xpt
+  OK: 2021-2023/DEMO -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Demographics/DEMO_L.xpt
+  OK: 2021-2023/BMX -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Examination/BMX_L.xpt
+  OK: 2021-2023/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR1TOT_L.xpt
+  OK: 2021-2023/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR1IFF_L.xpt
+  OK: 2021-2023/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DRXFCD_L.xpt
+  OK: 2017-2018/DEMO -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Demographics/DEMO_J.xpt
+  OK: 2017-2018/BMX -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Examination/BMX_J.xpt
+  OK: 2017-2018/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR1TOT_J.xpt
+  OK: 2017-2018/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR1IFF_J.xpt
+  OK: 2017-2018/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DRXFCD_J.xpt
+[NHANES INPUT CHECK] PASS
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 1999-2000
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Demographics/DEMO.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXTOT.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXFMT.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXIFF.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Examination/BMX.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Examination/BPX.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/DIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/MCQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/BPQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/ALQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/SMQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/PAQ.xpt
+missing 1999-2000 : SLQ [SLQ]
+missing 1999-2000 : DPQ [DPQ]
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/KIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/HIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/OCQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Laboratory/LAB10.xpt
+missing 1999-2000 : GLU [GLU]
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Laboratory/LAB13.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Laboratory/LAB13.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Laboratory/LAB13AM.xpt
+missing 1999-2000 : BIOPRO [BIOPRO]
+missing 1999-2000 : ALB_CR [ALB_CR]
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2001-2002
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Demographics/DEMO_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXTOT_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXFMT_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXIFF_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Examination/BMX_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Examination/BPX_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/DIQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/MCQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/BPQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/ALQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/SMQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/PAQ_B.xpt
+missing 2001-2002 : SLQ [SLQ_B]
+missing 2001-2002 : DPQ [DPQ_B]
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/KIQ_U_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/HIQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/OCQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Laboratory/L10_B.xpt
+missing 2001-2002 : GLU [GLU_B]
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Laboratory/L13_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Laboratory/L13_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Laboratory/L13AM_B.xpt
+missing 2001-2002 : BIOPRO [BIOPRO_B]
+missing 2001-2002 : ALB_CR [ALB_CR_B]
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2003-2004
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Demographics/DEMO_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR1TOT_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR2TOT_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DRXFCD_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR1IFF_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR2IFF_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Examination/BMX_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Examination/BPX_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/DIQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/MCQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/BPQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/ALQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/SMQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/PAQ_C.xpt
+missing 2003-2004 : SLQ [SLQ_C]
+missing 2003-2004 : DPQ [DPQ_C]
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/KIQ_U_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/HIQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/OCQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Laboratory/L10_C.xpt
+missing 2003-2004 : GLU [GLU_C]
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Laboratory/L13_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Laboratory/L13_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Laboratory/L13AM_C.xpt
+missing 2003-2004 : BIOPRO [BIOPRO_C]
+missing 2003-2004 : ALB_CR [ALB_CR_C]
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2005-2006
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Demographics/DEMO_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR1TOT_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR2TOT_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DRXFCD_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR1IFF_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR2IFF_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Examination/BMX_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Examination/BPX_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/DIQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/MCQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/BPQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/ALQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/SMQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/PAQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/SLQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/DPQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/KIQ_U_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/HIQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/OCQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/GHB_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/GLU_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/HDL_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/TCHOL_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/TRIGLY_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/BIOPRO_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/ALB_CR_D.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2007-2008
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Demographics/DEMO_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR1TOT_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR2TOT_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DRXFCD_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR1IFF_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR2IFF_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Examination/BMX_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Examination/BPX_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/DIQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/MCQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/BPQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/ALQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/SMQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/PAQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/SLQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/DPQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/KIQ_U_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/HIQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/OCQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/GHB_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/GLU_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/HDL_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/TCHOL_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/TRIGLY_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/BIOPRO_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/ALB_CR_E.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2009-2010
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Demographics/DEMO_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR1TOT_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR2TOT_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DRXFCD_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR1IFF_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR2IFF_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Examination/BMX_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Examination/BPX_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/DIQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/MCQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/BPQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/ALQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/SMQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/PAQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/SLQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/DPQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/KIQ_U_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/HIQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/OCQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/GHB_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/GLU_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/HDL_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/TCHOL_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/TRIGLY_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/BIOPRO_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/ALB_CR_F.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2011-2012
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Demographics/DEMO_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR1TOT_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR2TOT_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DRXFCD_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR1IFF_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR2IFF_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Examination/BMX_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Examination/BPX_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/DIQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/MCQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/BPQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/ALQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/SMQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/PAQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/SLQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/DPQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/KIQ_U_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/HIQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/OCQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/GHB_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/GLU_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/HDL_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/TCHOL_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/TRIGLY_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/BIOPRO_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/ALB_CR_G.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2013-2014
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Demographics/DEMO_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR1TOT_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR2TOT_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DRXFCD_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR1IFF_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR2IFF_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Examination/BMX_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Examination/BPX_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/DIQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/MCQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/BPQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/ALQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/SMQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/PAQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/SLQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/DPQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/KIQ_U_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/HIQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/OCQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/GHB_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/GLU_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/HDL_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/TCHOL_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/TRIGLY_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/BIOPRO_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/ALB_CR_H.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2015-2016
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Demographics/DEMO_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR1TOT_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR2TOT_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DRXFCD_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR1IFF_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR2IFF_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Examination/BMX_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Examination/BPX_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/DIQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/MCQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/BPQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/ALQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/SMQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/PAQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/SLQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/DPQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/KIQ_U_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/HIQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/OCQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/GHB_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/GLU_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/HDL_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/TCHOL_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/TRIGLY_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/BIOPRO_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/ALB_CR_I.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2017-2018
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Demographics/DEMO_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR1TOT_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR2TOT_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DRXFCD_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR1IFF_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR2IFF_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Examination/BMX_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Examination/BPX_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/DIQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/MCQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/BPQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/ALQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/SMQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/PAQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/SLQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/DPQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/KIQ_U_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/HIQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/OCQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/GHB_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/GLU_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/HDL_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/TCHOL_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/TRIGLY_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/BIOPRO_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/ALB_CR_J.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2017-2020
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Demographics/P_DEMO.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR1TOT.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR2TOT.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DRXFCD.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR1IFF.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR2IFF.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Examination/P_BMX.xpt
+missing 2017-2020 : BPX [P_BPX]
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_DIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_MCQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_BPQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_ALQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_SMQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_PAQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_SLQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_DPQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_KIQ_U.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_HIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_OCQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_GHB.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_GLU.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_HDL.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_TCHOL.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_TRIGLY.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_BIOPRO.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_ALB_CR.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2021-2023
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Demographics/DEMO_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR1TOT_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR2TOT_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DRXFCD_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR1IFF_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR2IFF_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Examination/BMX_L.xpt
+missing 2021-2023 : BPX [BPX_L]
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/DIQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/MCQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/BPQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/ALQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/SMQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/PAQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/SLQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/DPQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/KIQ_U_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/HIQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/OCQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/GHB_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/GLU_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/HDL_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/TCHOL_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/TRIGLY_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/BIOPRO_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/ALB_CR_L.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Diet score construction: observed repeated-recall mean
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Wrote MAHA score part: /work/sph-huangj/analysis/diet/.cache/disco/nhanes.maha.rds (128809 survey-release records)
+MAHA nhanes disco complete
+[disco/nhanes.dose] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE nhanes/score
+NHANES food mapping: 1999-2000
+NHANES food mapping: 2001-2002
+NHANES food mapping: 2003-2004
+NHANES food mapping: 2005-2006
+NHANES food mapping: 2007-2008
+NHANES food mapping: 2009-2010
+NHANES food mapping: 2011-2012
+NHANES food mapping: 2013-2014
+NHANES food mapping: 2015-2016
+NHANES food mapping: 2017-2018
+DASH: 1999-2000
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2001-2002
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2003-2004
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2005-2006
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2007-2008
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2009-2010
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2011-2012
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2013-2014
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2015-2016
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2017-2018
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DOSE nhanes/patterns
+MIND / aMED: 1999-2000
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2001-2002
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2003-2004
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2005-2006
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2007-2008
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2009-2010
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2011-2012
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2013-2014
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2015-2016
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2017-2018
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Saved outcome-free scores: /work/sph-huangj/analysis/diet/.cache/disco/nhanes.dose.rds (96766 participants)
+[disco/nhanes.publish] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/f/common.R disco nhanes
+SKIP nhanes: medito: unavailable in the selected cohort/profile outputs
+SKIP nhanes: medi24: unavailable in the selected cohort/profile outputs
+SKIP nhanes: hpdi: unavailable in the selected cohort/profile outputs
+SKIP nhanes: ahei: unavailable in the selected cohort/profile outputs
+SKIP nhanes: phdi: unavailable in the selected cohort/profile outputs
+SKIP nhanes: modern: unavailable in the selected cohort/profile outputs
+SKIP nhanes: digm: unavailable in the selected cohort/profile outputs
+SKIP nhanes: hlcd: unavailable in the selected cohort/profile outputs
+SKIP nhanes: hlfd: unavailable in the selected cohort/profile outputs
+SKIP nhanes: redii: unavailable in the selected cohort/profile outputs
+SKIP nhanes: fds: unavailable in the selected cohort/profile outputs
+SKIP nhanes: upf: unavailable in the selected cohort/profile outputs
+SKIP nhanes: dose11: unavailable in the selected cohort/profile outputs
+SKIP nhanes: dose9: unavailable in the selected cohort/profile outputs
+SKIP nhanes: chdi: unavailable in the selected cohort/profile outputs
+SKIP nhanes: maha_density: unavailable in the selected cohort/profile outputs
+SKIP nhanes: maha_residual: unavailable in the selected cohort/profile outputs
+SKIP nhanes: dash_fung: unavailable in the selected cohort/profile outputs
+SKIP nhanes: dash_density: unavailable in the selected cohort/profile outputs
+Saved /work/sph-huangj/analysis/diet/disco/nhanes.raw.rds (full scoring data)
+Saved /work/sph-huangj/analysis/diet/disco/nhanes.disco.rds (128809 participants; 15 selected score totals)
+[disco/chns.maha] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R chns disco
+
+========================================================================================
+CHNS input-file QC: single primary cohort
+========================================================================================
+[CHNS INPUT CHECK] project directory: /work/sph-huangj/phe/chns
+[CHNS INPUT CHECK] raw directory: /work/sph-huangj/phe/chns/raw
+  NUTR3        OK      CHNS_public_use_plus_user_download : /work/sph-huangj/phe/chns/raw/diet/nutr3_00.sas7bdat
+  C12DIET      OK      CHNS_public_use : /work/sph-huangj/phe/chns/raw/diet/c12diet.sas7bdat
+  MASTER       OK      CHNS_2019_archive : /work/sph-huangj/phe/chns/CHNS2.0-TaoB/raw/Master_ID_201908/mast_pub_12.sas7bdat
+  ROSTER       OK      CHNS_2019_archive : /work/sph-huangj/phe/chns/CHNS2.0-TaoB/raw/Master_ID_201908/rst_12.sas7bdat
+  PEXAM        OK      CHNS_public_use_extra_copy_user_approved : /work/sph-huangj/phe/chns/raw/individual/pexampub12.sav
+  PACT         OK      CHNS_public_use : /work/sph-huangj/phe/chns/raw/individual/pact_12.sas7bdat
+  EDUC         OK      CHNS_public_use_optional : /work/sph-huangj/phe/chns/raw/individual/educ_12.sas7bdat
+  HHINC        OK      CHNS_public_use_optional : /work/sph-huangj/phe/chns/raw/constructed/hhinc_10.sas7bdat
+  JOBS         OK      CHNS_public_use_optional : /work/sph-huangj/phe/chns/raw/individual/jobs_12.sas7bdat
+  SURVEY       OK      CHNS_2019_archive_optional : /work/sph-huangj/phe/chns/CHNS2.0-TaoB/raw/Master_ID_201908/surveys_pub_12.sas7bdat
+  HEALTH       OK      CHNS_public_use_optional : /work/sph-huangj/phe/chns/raw/individual/hlth_12.sas7bdat
+  FOOD_MAP     OK      classification : /work/sph-huangj/phe/chns/MAHA_foodcode/chns_foodcode_map.tsv
+  NUTRIENT_MAP OK      code-level map       : /work/sph-huangj/phe/chns/MAHA_foodcode/chns_foodcode_nutrients.tsv
+[CHNS MANIFEST] /work/sph-huangj/phe/chns/chns.manifest.tsv (provenance only)
+
+========================================================================================
+CHNS variable and wave QC
+========================================================================================
+[CHNS RAW SANITY] PACT rows=125740; variables=276 [PASS]
+  NUTR3 waves : 1989, 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011
+  C12DIET waves: 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011
+  PEXAMPUB waves: 1989, 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011, 2015
+  PACT waves  : 1989, 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011, 2015
+  ROSTER waves: 1989, 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011, 2015
+  Common baseline waves: 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011
+[CHNS WAVE RESOLUTION] baseline=2011; follow-up=2015; gap=4 years
+
+========================================================================================
+CHNS FOODCODE classification and map QC
+========================================================================================
+[CFCT6 classification] gram-weighted coverage 100.0%
+[CODE-LEVEL FOODCODE COVERAGE] WHOLE_GRAIN=96.9%; REFINED_GRAIN=96.9%; LOWFAT_DAIRY=96.9%; GREEN_LEAFY=96.9%; PROCESSED_MEAT=96.9%; SSB=96.9%; SODIUM_MG_100G=96.1%; SFAT_G_100G=12.4%; MUFA_G_100G=12.4%; PUFA_G_100G=12.4%; ALCOHOL_G_100G=96.9%
+[CHNS MAP MODE] FOODCODE-enhanced mode: code-level fine groups + field-specific nutrient/proxy fallback
+
+========================================================================================
+CHNS dietary harmonization
+========================================================================================
+
+========================================================================================
+CHNS diet-score construction
+========================================================================================
+[CHNS SCORE QC] maha_c_protein=9421; maha_c_dairy=9643; maha_c_veg=9643; maha_c_fruit=9643; maha_c_wholegrain=9643; maha_c_fat=9643; maha_c_upf=9643; maha_c_alcohol=9643; maha_c_sodium=9643; diet.maha.sum=9643; diet.maha_density.sum=9643; diet.maha_residual.sum=9643; diet.dash_fung.sum=9643; diet.dash.sum=9643; diet.dash_density.sum=9643; diet.mind.sum=9643; diet.medi.sum=9643
+Wrote MAHA score part: /work/sph-huangj/analysis/diet/.cache/disco/chns.maha.rds (9643 participants)
+Warning message:
+In eval(exprs[i], envir) :
+  Code-level fine groups are sufficiently covered, but one or more nutrient domains (sodium/fat/alcohol) are below threshold; foodcode-enhanced mode will use transparent proxy fallback for those domains.
+MAHA chns disco complete
+[disco/chns.publish] /work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/f/common.R disco chns
+SKIP chns: medito: unavailable in the selected cohort/profile outputs
+SKIP chns: medi24: unavailable in the selected cohort/profile outputs
+SKIP chns: hpdi: unavailable in the selected cohort/profile outputs
+SKIP chns: ahei: unavailable in the selected cohort/profile outputs
+SKIP chns: phdi: unavailable in the selected cohort/profile outputs
+SKIP chns: modern: unavailable in the selected cohort/profile outputs
+SKIP chns: digm: unavailable in the selected cohort/profile outputs
+SKIP chns: hlcd: unavailable in the selected cohort/profile outputs
+SKIP chns: hlfd: unavailable in the selected cohort/profile outputs
+SKIP chns: redii: unavailable in the selected cohort/profile outputs
+SKIP chns: fds: unavailable in the selected cohort/profile outputs
+SKIP chns: upf: unavailable in the selected cohort/profile outputs
+SKIP chns: dose: unavailable in the selected cohort/profile outputs
+SKIP chns: dose11: unavailable in the selected cohort/profile outputs
+SKIP chns: dose9: unavailable in the selected cohort/profile outputs
+SKIP chns: dose9half: unavailable in the selected cohort/profile outputs
+SKIP chns: maha_processed: unavailable in the selected cohort/profile outputs
+SKIP chns: maha_nomeat: unavailable in the selected cohort/profile outputs
+SKIP chns: amed: unavailable in the selected cohort/profile outputs
+Saved /work/sph-huangj/analysis/diet/disco/chns.raw.rds (full scoring data)
+Saved /work/sph-huangj/analysis/diet/disco/chns.disco.rds (9643 participants; 13 selected score totals)
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b07u36a>
+Subject: Job 4431481: <diet.disco> in cluster <qmhpc> Done
+
+Job <diet.disco> was submitted from host <a04u31l> by user <sph-huangj> in cluster <qmhpc> at Mon Nov 23 08:14:07 2026
+Job was executed on host(s) <40*b07u36a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Mon Nov 23 08:14:07 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/diet> was used as the working directory.
+Started at Mon Nov 23 08:14:07 2026
+Terminated at Mon Nov 23 08:47:54 2026
+Results reported at Mon Nov 23 08:47:54 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+#BSUB -J diet.disco
+#BSUB -q 33
+#BSUB -n 40
+#BSUB -R "span[hosts=1] rusage[mem=160GB/host]"
+#BSUB -W 120:00
+#BSUB -o /work/sph-huangj/analysis/diet/logs/run/logs/diet.%J.out
+#BSUB -e /work/sph-huangj/analysis/diet/logs/run/logs/diet.%J.err
+
+set -euo pipefail
+umask 077
+[[ -n "${LSB_JOBID:-}" ]] || { echo "Submit this .cmd with bsub; do not run on a login node." >&2; exit 2; }
+[[ ${LSB_DJOB_NUMPROC:-0} -ge 40 ]] || { echo "Insufficient allocated CPU slots" >&2; exit 2; }
+source /work/sph-huangj/scripts/0f/0os.sh
+# Dependencies: (none)
+# Scientific command: bash /work/sph-huangj/scripts/diet/1.disco.sh all --cores 40
+exec python3 /work/sph-huangj/scripts/0f/workflow_jobs.py worker --plan /work/sph-huangj/analysis/diet/logs/run/plan.json --key diet
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1901.36 sec.
+    Max Memory :                                 15044 MB
+    Average Memory :                             7942.48 MB
+    Total Requested Memory :                     163840.00 MB
+    Delta Memory :                               148796.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                8
+    Run time :                                   2025 sec.
+    Turnaround time :                            2027 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/diet/logs/run/logs/diet.4431481.err> for stderr output of this job.
+

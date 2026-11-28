@@ -1,0 +1,7 @@
+"food","analysis","input_field","grouping_rule","field_id","input_name","unit","n_available","n_zero","n_positive","quantile_low","quantile_high","positive_high_prob","low_cut","high_cut","n_low","n_high","n_tested","status"
+"Butter on bread","liking","p20628","score_9_vs_1",,"Butter on bread liking","score (1-9)",14544,,,,,,1,9,638,4717,2910,"ok"
+"Butter on bread","intake","w.p26063","intake_quantiles",26063,"Butter","g/day",8710,5262,3448,0,7.5,,0,7.5,5262,2187,2910,"ok"
+"Total salad vegetable","liking","F-Salad_vegetables","score_9_vs_1",,"Total salad vegetable liking","score (1-9)",14568,,,,,,1,9,4,1284,2910,"ok"
+"Total salad vegetable","intake","w.p26123","intake_quantiles",26123,"Salad/raw vegetables","g/day",8710,3801,4909,0,33.625,,0,33.625,3801,2178,2910,"ok"
+"Chicken","liking","p20638","score_9_vs_1",,"Chicken liking","score (1-9)",14445,,,,,,1,9,803,6432,2910,"ok"
+"Chicken","intake","w.p26121","intake_quantiles",26121,"Poultry","g/day",8710,4960,3750,0,48.75,,0,48.75,4960,2207,2910,"ok"

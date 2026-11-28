@@ -1,0 +1,27 @@
+
+HDL: High-definition likelihood inference of genetic correlations and heritabilities (HDL)
+Version 1.4.3 (2026-03-15) installed
+Author: Zheng Ning, Xia Shen
+Maintainer: Ao Lan <lanao@mail2.sysu.edu.cn>, Yuying Li <yuying.li@ki.se>, Zheng Ning <zheng.ning@ki.se>
+Tutorial: https://github.com/zhenin/HDL
+Use citation("HDL") to know how to cite this work.
+
+Analysis starts on Wed Nov 25 23:58:50 2026 
+0  SNPs were removed in GWAS 1 due to missing N or missing test statistic.  
+0  SNPs were removed in GWAS 2 due to missing N or missing test statistic.  
+1027747 out of 1029876 (99.79%) SNPs in reference panel are available in GWAS 1.  
+968744 out of 1029876 (94.06%) SNPs in reference panel are available in GWAS 2.  
+Warning: More than 1% SNPs in reference panel are missed in GWAS 2. This may generate bias in estimation. Please make sure that you are using correct reference panel.  
+
+Integrating piecewise results 
+Continuing computing standard error with jackknife 
+
+
+Heritability of phenotype 1:  0.0561 (0.0031) 
+Heritability of phenotype 2:  0.0211 (6e-04) 
+Genetic Covariance:  -0.0019 (0.001) 
+Genetic Correlation:  -0.0551 (0.0286) 
+P:  5.41e-02 
+
+Analysis finished at Thu Nov 26 00:03:19 2026 
+The results were saved to G732-mdd_2025_hdl.log

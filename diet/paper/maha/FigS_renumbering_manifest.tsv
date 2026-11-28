@@ -1,0 +1,6 @@
+old_number	new_number	content	final_stem
+10	6	CHNS fixed-wave mortality sensitivity	FigS6.chns.mortality_sensitivity
+9	7	CHNS high-event mortality sensitivity	FigS7.chns.high_event_sensitivity
+6	8	UKB construct stress tests	FigS8.ukb.construct_stress_tests
+7	9	NHANES criterion and construct validation	FigS9.nhanes.validation
+8	10	NHANES construct profiles and score concordance	FigS10.nhanes.construct_concordance

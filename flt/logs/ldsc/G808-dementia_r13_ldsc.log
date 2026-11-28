@@ -1,0 +1,44 @@
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G808-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-dementia_r13-ldsc.sumstats.gz) began at: 2026-11-25 23:57:27.458619
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G808-ldsc.sumstats.gz
+Out of 1199498 SNPs, 1176715 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.413; 1176715 remain
+Read in summary statistics [2/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-dementia_r13-ldsc.sumstats.gz
+Out of 1196496 SNPs, 1173456 remain after merging with LD-score files
+Removing 12 SNPs with Chi^2 > 494.129; 1173444 remain
+          
+Estimating heritability [1/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G808-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G808-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1336
+Lambda GC: 1.1116
+Intercept: 0.9888 (0.0081)
+Ratio: -0.0838 (0.0609)
+Total Observed Scale h2: 0.0452 (0.0048)
+h2 Z: 9.41
+     
+Calculating genetic covariance [2/3] for traits: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G808-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-dementia_r13-ldsc.sumstats.gz
+1166262 SNPs remain after merging /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G808-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-dementia_r13-ldsc.sumstats.gz summary statistics
+Results for genetic covariance between: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G808-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-dementia_r13-ldsc.sumstats.gz
+Mean Z*Z: -0.0059
+Cross trait Intercept: -0.0121 (0.0053)
+Total Observed Scale Genetic Covariance (g_cov): 3e-04 (0.0018)
+g_cov Z: 0.161
+g_cov P-value: 0.87231
+          
+Estimating heritability [3/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-dementia_r13-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-dementia_r13-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.276
+Lambda GC: 1.2018
+Intercept: 1.1594 (0.0809)
+Ratio: 0.5776 (0.293)
+Total Observed Scale h2: 0.0112 (0.0049)
+h2 Z: 2.29
+     
+      
+Genetic Correlation Results
+Genetic Correlation between G808 and dementia_r13: 0.0126 (0.0782)
+     
+     
+LDSC finished running at 2026-11-25 23:57:45.586576
+Running LDSC for all files took 0 minutes and 18 seconds
+     

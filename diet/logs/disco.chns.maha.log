@@ -1,0 +1,55 @@
+2026-11-23T00:46:09+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R chns disco
+
+========================================================================================
+CHNS input-file QC: single primary cohort
+========================================================================================
+[CHNS INPUT CHECK] project directory: /work/sph-huangj/phe/chns
+[CHNS INPUT CHECK] raw directory: /work/sph-huangj/phe/chns/raw
+  NUTR3        OK      CHNS_public_use_plus_user_download : /work/sph-huangj/phe/chns/raw/diet/nutr3_00.sas7bdat
+  C12DIET      OK      CHNS_public_use : /work/sph-huangj/phe/chns/raw/diet/c12diet.sas7bdat
+  MASTER       OK      CHNS_2019_archive : /work/sph-huangj/phe/chns/CHNS2.0-TaoB/raw/Master_ID_201908/mast_pub_12.sas7bdat
+  ROSTER       OK      CHNS_2019_archive : /work/sph-huangj/phe/chns/CHNS2.0-TaoB/raw/Master_ID_201908/rst_12.sas7bdat
+  PEXAM        OK      CHNS_public_use_extra_copy_user_approved : /work/sph-huangj/phe/chns/raw/individual/pexampub12.sav
+  PACT         OK      CHNS_public_use : /work/sph-huangj/phe/chns/raw/individual/pact_12.sas7bdat
+  EDUC         OK      CHNS_public_use_optional : /work/sph-huangj/phe/chns/raw/individual/educ_12.sas7bdat
+  HHINC        OK      CHNS_public_use_optional : /work/sph-huangj/phe/chns/raw/constructed/hhinc_10.sas7bdat
+  JOBS         OK      CHNS_public_use_optional : /work/sph-huangj/phe/chns/raw/individual/jobs_12.sas7bdat
+  SURVEY       OK      CHNS_2019_archive_optional : /work/sph-huangj/phe/chns/CHNS2.0-TaoB/raw/Master_ID_201908/surveys_pub_12.sas7bdat
+  HEALTH       OK      CHNS_public_use_optional : /work/sph-huangj/phe/chns/raw/individual/hlth_12.sas7bdat
+  FOOD_MAP     OK      classification : /work/sph-huangj/phe/chns/MAHA_foodcode/chns_foodcode_map.tsv
+  NUTRIENT_MAP OK      code-level map       : /work/sph-huangj/phe/chns/MAHA_foodcode/chns_foodcode_nutrients.tsv
+[CHNS MANIFEST] /work/sph-huangj/phe/chns/chns.manifest.tsv (provenance only)
+
+========================================================================================
+CHNS variable and wave QC
+========================================================================================
+[CHNS RAW SANITY] PACT rows=125740; variables=276 [PASS]
+  NUTR3 waves : 1989, 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011
+  C12DIET waves: 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011
+  PEXAMPUB waves: 1989, 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011, 2015
+  PACT waves  : 1989, 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011, 2015
+  ROSTER waves: 1989, 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011, 2015
+  Common baseline waves: 1991, 1993, 1997, 2000, 2004, 2006, 2009, 2011
+[CHNS WAVE RESOLUTION] baseline=2011; follow-up=2015; gap=4 years
+
+========================================================================================
+CHNS FOODCODE classification and map QC
+========================================================================================
+[CFCT6 classification] gram-weighted coverage 100.0%
+[CODE-LEVEL FOODCODE COVERAGE] WHOLE_GRAIN=96.9%; REFINED_GRAIN=96.9%; LOWFAT_DAIRY=96.9%; GREEN_LEAFY=96.9%; PROCESSED_MEAT=96.9%; SSB=96.9%; SODIUM_MG_100G=96.1%; SFAT_G_100G=12.4%; MUFA_G_100G=12.4%; PUFA_G_100G=12.4%; ALCOHOL_G_100G=96.9%
+[CHNS MAP MODE] FOODCODE-enhanced mode: code-level fine groups + field-specific nutrient/proxy fallback
+
+========================================================================================
+CHNS dietary harmonization
+========================================================================================
+
+========================================================================================
+CHNS diet-score construction
+========================================================================================
+[CHNS SCORE QC] maha_c_protein=9421; maha_c_dairy=9643; maha_c_veg=9643; maha_c_fruit=9643; maha_c_wholegrain=9643; maha_c_fat=9643; maha_c_upf=9643; maha_c_alcohol=9643; maha_c_sodium=9643; diet.maha.sum=9643; diet.maha_density.sum=9643; diet.maha_residual.sum=9643; diet.dash_fung.sum=9643; diet.dash.sum=9643; diet.dash_density.sum=9643; diet.mind.sum=9643; diet.medi.sum=9643
+Wrote MAHA score part: /work/sph-huangj/analysis/diet/.cache/disco/chns.maha.rds (9643 participants)
+Warning message:
+In eval(exprs[i], envir) :
+  Code-level fine groups are sufficiently covered, but one or more nutrient domains (sodium/fat/alcohol) are below threshold; foodcode-enhanced mode will use transparent proxy fallback for those domains.
+MAHA chns disco complete

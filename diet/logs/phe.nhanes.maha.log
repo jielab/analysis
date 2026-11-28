@@ -1,0 +1,48 @@
+2026-11-25T10:22:08+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R nhanes phe
+N after QC, observed main analysis: 50800
+N after QC, mortality analysis: 43944
+Main cycles retained: 1999-2000, 2001-2002, 2003-2004, 2005-2006, 2007-2008, 2009-2010, 2011-2012, 2013-2014, 2015-2016, 2017-2020, 2021-2023
+Mortality cycles retained: 1999-2000, 2001-2002, 2003-2004, 2005-2006, 2007-2008, 2009-2010, 2011-2012, 2013-2014, 2015-2016, 2017-2018
+Warning messages:
+1: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+2: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+3: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+4: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+5: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+6: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+7: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+8: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+9: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+10: One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+MAHA nhanes phe complete

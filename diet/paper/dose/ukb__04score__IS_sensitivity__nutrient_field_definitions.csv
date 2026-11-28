@@ -1,0 +1,5 @@
+"nutrient","field","unit","source_url"
+"sodium","w.p26052","mg/day","https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26052"
+"potassium","w.p26024","mg/day","https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26024"
+"fiber","w.p26017","g/day","https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26017"
+"saturated_fat","w.p26014","g/day","https://biobank.ndph.ox.ac.uk/ukb/field.cgi?id=26014"

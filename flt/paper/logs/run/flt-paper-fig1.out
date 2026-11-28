@@ -1,0 +1,61 @@
+[RUNNING] flt-paper-fig1
+# A tibble: 10 x 2
+   category                    n
+   <chr>                   <int>
+ 1 Alcohol/Beverage           13
+ 2 Coffee/Tea                 11
+ 3 Dairy/Cheese               13
+ 4 Dessert                    14
+ 5 Flavor/Taste preference    30
+ 6 Fruits                     18
+ 7 Grain                      11
+ 8 Processed products         18
+ 9 Total Animal Products      23
+10 Vegetable/Beans            31
+[DONE] flt-paper-fig1
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u12a>
+Subject: Job 4441883: <flt-paper-fig1> in cluster <qmhpc> Done
+
+Job <flt-paper-fig1> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 09:11:22 2026
+Job was executed on host(s) <b08u12a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 09:11:22 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Thu Nov 26 09:11:22 2026
+Terminated at Thu Nov 26 09:11:40 2026
+Results reported at Thu Nov 26 09:11:40 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/paper/jobs/run/plan.json flt-paper-fig1
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.62 sec.
+    Max Memory :                                 244 MB
+    Average Memory :                             153.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                7
+    Run time :                                   12 sec.
+    Turnaround time :                            18 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/paper/logs/run/flt-paper-fig1.err> for stderr output of this job.
+

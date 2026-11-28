@@ -1,0 +1,205 @@
+Saved MRI heatmaps: /work/sph-huangj/analysis/flt/paper/main/results/mri
+/work/sph-huangj/software/diet/python/enigmatoolbox/datasets/base.py:411: SyntaxWarning: "is" with 'str' literal. Did you mean "=="?
+  if parcellation is 'aparc':
+/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/io_support/freesurfer_support.py:61: SyntaxWarning: invalid escape sequence '\s'
+  re_npoints_cells = re.compile('[\s]*(\d+)[\s]*(\d+)[\s]*$')
+2026-11-26 09:12:30.932 (  33.145s) [    147408E6A6C0] vtkPythonAlgorithm.cxx:97     ERR| vtkPythonAlgorithm (0x562af11e17d0): Failure when calling method: "ProcessRequest":
+Traceback (most recent call last):
+  File "/work/sph-huangj/software/diet/python/vtkmodules/util/vtkAlgorithm.py", line 152, in ProcessRequest
+    return vtkself.ProcessRequest(request, inInfo, outInfo)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/vtkmodules/util/vtkAlgorithm.py", line 198, in ProcessRequest
+    return self.RequestData(request, inInfo, outInfo)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/io_support/gifti_support.py", line 89, in RequestData
+    s = _read_gifti(self._FileName, self._fnames_pointdata)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/io_support/gifti_support.py", line 32, in _read_gifti
+    s = build_polydata(points, cells=cells)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/mesh/mesh_creation.py", line 54, in build_polydata
+    return serial_connect(s, vtkTriangleFilter())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/pipeline.py", line 344, in serial_connect
+    return get_output(fo, as_data=as_data, update=update, port=port)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/decorators.py", line 41, in _wrapper_wrap
+    data = func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/pipeline.py", line 161, in get_output
+    return to_data(ftr, port=port)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/decorators.py", line 41, in _wrapper_wrap
+    data = func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/pipeline.py", line 128, in to_data
+    out[i] = ftr.GetOutputDataObject(port_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 22, in __call__
+    return _wrap_output_data(self.name(*args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 490, in _wrap_output_data
+    return wrap_vtk(data)
+           ^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 451, in wrap_vtk
+    wobj = BSWrapVTKObject(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 364, in BSWrapVTKObject
+    for c in [sc.__vtkname__[3:] for sc in obj.__class__.mro()[:-3]]:
+              ^^^^^^^^^^^^^^
+AttributeError: type object 'PointSet' has no attribute '__vtkname__'
+2026-11-26 09:12:30.934 (  33.147s) [    147408E6A6C0]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x562aebcc1cb0): Algorithm vtkPythonAlgorithm (0x562af11e17d0) returned failure for request: vtkInformation (0x562aef5083f0)
+  Debug: Off
+  Modified Time: 248
+  Reference Count: 2
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+2026-11-26 09:12:40.467 (  42.680s) [    147408E6A6C0] vtkPythonAlgorithm.cxx:97     ERR| vtkPythonAlgorithm (0x562af256d040): Failure when calling method: "ProcessRequest":
+Traceback (most recent call last):
+  File "/work/sph-huangj/software/diet/python/vtkmodules/util/vtkAlgorithm.py", line 152, in ProcessRequest
+    return vtkself.ProcessRequest(request, inInfo, outInfo)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/vtkmodules/util/vtkAlgorithm.py", line 198, in ProcessRequest
+    return self.RequestData(request, inInfo, outInfo)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/io_support/gifti_support.py", line 89, in RequestData
+    s = _read_gifti(self._FileName, self._fnames_pointdata)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/io_support/gifti_support.py", line 32, in _read_gifti
+    s = build_polydata(points, cells=cells)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/mesh/mesh_creation.py", line 54, in build_polydata
+    return serial_connect(s, vtkTriangleFilter())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/pipeline.py", line 344, in serial_connect
+    return get_output(fo, as_data=as_data, update=update, port=port)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/decorators.py", line 41, in _wrapper_wrap
+    data = func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/pipeline.py", line 161, in get_output
+    return to_data(ftr, port=port)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/decorators.py", line 41, in _wrapper_wrap
+    data = func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/pipeline.py", line 128, in to_data
+    out[i] = ftr.GetOutputDataObject(port_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 22, in __call__
+    return _wrap_output_data(self.name(*args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 490, in _wrap_output_data
+    return wrap_vtk(data)
+           ^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 451, in wrap_vtk
+    wobj = BSWrapVTKObject(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 364, in BSWrapVTKObject
+    for c in [sc.__vtkname__[3:] for sc in obj.__class__.mro()[:-3]]:
+              ^^^^^^^^^^^^^^
+AttributeError: type object 'PointSet' has no attribute '__vtkname__'
+2026-11-26 09:12:40.487 (  42.700s) [    147408E6A6C0]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x562af131abc0): Algorithm vtkPythonAlgorithm (0x562af256d040) returned failure for request: vtkInformation (0x562aef24b240)
+  Debug: Off
+  Modified Time: 740
+  Reference Count: 2
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+2026-11-26 09:12:49.993 (  52.206s) [    147408E6A6C0] vtkPythonAlgorithm.cxx:97     ERR| vtkPythonAlgorithm (0x562aecda21e0): Failure when calling method: "ProcessRequest":
+Traceback (most recent call last):
+  File "/work/sph-huangj/software/diet/python/vtkmodules/util/vtkAlgorithm.py", line 152, in ProcessRequest
+    return vtkself.ProcessRequest(request, inInfo, outInfo)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/vtkmodules/util/vtkAlgorithm.py", line 198, in ProcessRequest
+    return self.RequestData(request, inInfo, outInfo)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/io_support/gifti_support.py", line 89, in RequestData
+    s = _read_gifti(self._FileName, self._fnames_pointdata)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/io_support/gifti_support.py", line 32, in _read_gifti
+    s = build_polydata(points, cells=cells)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/mesh/mesh_creation.py", line 54, in build_polydata
+    return serial_connect(s, vtkTriangleFilter())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/pipeline.py", line 344, in serial_connect
+    return get_output(fo, as_data=as_data, update=update, port=port)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/decorators.py", line 41, in _wrapper_wrap
+    data = func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/pipeline.py", line 161, in get_output
+    return to_data(ftr, port=port)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/decorators.py", line 41, in _wrapper_wrap
+    data = func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/pipeline.py", line 128, in to_data
+    out[i] = ftr.GetOutputDataObject(port_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 22, in __call__
+    return _wrap_output_data(self.name(*args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 490, in _wrap_output_data
+    return wrap_vtk(data)
+           ^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 451, in wrap_vtk
+    wobj = BSWrapVTKObject(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/work/sph-huangj/software/diet/python/enigmatoolbox/vtk_interface/wrappers/base.py", line 364, in BSWrapVTKObject
+    for c in [sc.__vtkname__[3:] for sc in obj.__class__.mro()[:-3]]:
+              ^^^^^^^^^^^^^^
+AttributeError: type object 'PointSet' has no attribute '__vtkname__'
+2026-11-26 09:12:49.996 (  52.209s) [    147408E6A6C0]       vtkExecutive.cxx:729    ERR| vtkCompositeDataPipeline (0x562af173eec0): Algorithm vtkPythonAlgorithm (0x562aecda21e0) returned failure for request: vtkInformation (0x562af2252e30)
+  Debug: Off
+  Modified Time: 1275
+  Reference Count: 2
+  Registered Events: (none)
+  Request: REQUEST_DATA
+  FROM_OUTPUT_PORT: 0
+  ALGORITHM_AFTER_FORWARD: 1
+  FORWARD_DIRECTION: 0
+
+
+Traceback (most recent call last):
+  File "/work/sph-huangj/scripts/flt/f/s1_5_mri_lm.plot.py", line 77, in <module>
+    main()
+  File "/work/sph-huangj/scripts/flt/f/s1_5_mri_lm.plot.py", line 74, in main
+    raise RuntimeError('\n'.join(errors))
+RuntimeError: p20628/thickness_surface: type object 'PointSet' has no attribute '__vtkname__'
+p20628/tract_anatomy: [Errno 2] No such file or directory: '/work/sph-huangj/.local/share/dose/mri_atlases/ukb_tracts27/structureList.source.txt'
+p20628/volume_anatomy: /work/sph-huangj/.local/share/dose/mri_atlases/HarvardOxford-Cortical.xml
+Set --atlas-dir to FSL data/atlases, or use --download-atlases (FSL mirror).
+F-Salad_vegetables/thickness_surface: type object 'PointSet' has no attribute '__vtkname__'
+F-Salad_vegetables/tract_anatomy: [Errno 2] No such file or directory: '/work/sph-huangj/.local/share/dose/mri_atlases/ukb_tracts27/structureList.source.txt'
+F-Salad_vegetables/volume_anatomy: /work/sph-huangj/.local/share/dose/mri_atlases/HarvardOxford-Cortical.xml
+Set --atlas-dir to FSL data/atlases, or use --download-atlases (FSL mirror).
+p20638/thickness_surface: type object 'PointSet' has no attribute '__vtkname__'
+p20638/tract_anatomy: [Errno 2] No such file or directory: '/work/sph-huangj/.local/share/dose/mri_atlases/ukb_tracts27/structureList.source.txt'
+p20638/volume_anatomy: /work/sph-huangj/.local/share/dose/mri_atlases/HarvardOxford-Cortical.xml
+Set --atlas-dir to FSL data/atlases, or use --download-atlases (FSL mirror).
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Saved: /work/sph-huangj/analysis/flt/paper/main/results/Fig4_A.png
+Saved: /work/sph-huangj/analysis/flt/paper/main/results/Fig4_B.png
+Saved: /work/sph-huangj/analysis/flt/paper/main/results/Fig4_C.png
+Saved: /work/sph-huangj/analysis/flt/paper/main/results/Fig4.png

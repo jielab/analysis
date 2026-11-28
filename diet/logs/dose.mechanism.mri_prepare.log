@@ -1,0 +1,24 @@
+2026-11-25T23:28:55+00:00
+/work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/dose/mechanism.py
+pheno.tab.gz rows: 50000
+pheno.tab.gz rows: 100000
+pheno.tab.gz rows: 150000
+pheno.tab.gz rows: 200000
+pheno.tab.gz rows: 250000
+pheno.tab.gz rows: 300000
+pheno.tab.gz rows: 350000
+pheno.tab.gz rows: 400000
+pheno.tab.gz rows: 450000
+pheno.tab.gz rows: 500000
+Wrote: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/04mri/inputs/mri_visit_covariates.csv rows: 501936
+img.tab.gz rows: 50000
+img.tab.gz rows: 100000
+img.tab.gz rows: 150000
+img.tab.gz rows: 200000
+img.tab.gz rows: 250000
+img.tab.gz rows: 300000
+img.tab.gz rows: 350000
+img.tab.gz rows: 400000
+img.tab.gz rows: 450000
+img.tab.gz rows: 500000
+Wrote: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/04mri/inputs/mri_selected.tsv rows: 501936

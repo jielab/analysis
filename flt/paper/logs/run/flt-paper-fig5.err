@@ -1,0 +1,18 @@
+Reading local PLACO GRCh38 coordinates and P_PLACO...
+Valid SNPs: 5944013; drawn background: 358149; lead: 93; independent-only: 80; labels: 93
+Saved: /work/sph-huangj/analysis/flt/paper/main/results/Fig5A.png
+Mapped genes: 407; locus–gene links: 434; genes with >=2 criteria: 183; plotted genes: 23
+Outputs saved in: /work/sph-huangj/analysis/flt/paper/main/results/03fuma/gene_mapping
+Saved plots and tables to: /work/sph-huangj/analysis/flt/paper/main/results/03fuma
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Saved: /work/sph-huangj/analysis/flt/paper/main/results/Fig5.png

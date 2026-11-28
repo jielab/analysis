@@ -1,0 +1,209 @@
+"Category","Food.Group","Food.Item","FieldID","Portion","name","note"
+"Fruit","Berries","Berry intake","104470",40,"p104470",NA
+"Fruit","Berries","Cherry intake","104480",34,"p104480",NA
+"Fruit","Citrus_fruits","Grapefruit intake","104490",148,"p104490",NA
+"Fruit","Citrus_fruits","Orange intake","104530",120,"p104530",NA
+"Fruit","Citrus_fruits","Satsuma intake","104540",70,"p104540",NA
+"Fruit","Apples_Pears","Apple intake","104450",112,"p104450",NA
+"Fruit","Apples_Pears","Pear intake","104560",160,"p104560",NA
+"Fruit","Dried_fruit","Prune intake","104420",60,"p104420",NA
+"Fruit","Dried_fruit","Dried fruit intake","104430",60,"p104430",NA
+"Fruit","Other_fruits","Stewed fruit intake","104410",140,"p104410",NA
+"Fruit","Other_fruits","Mixed fruit intake","104440",105,"p104440",NA
+"Fruit","Other_fruits","Banana intake","104460",100,"p104460",NA
+"Fruit","Other_fruits","Grape intake","104500",100,"p104500",NA
+"Fruit","Other_fruits","Mango intake","104510",113,"p104510",NA
+"Fruit","Other_fruits","Melon intake","104520",180,"p104520",NA
+"Fruit","Other_fruits","Peach/nectarine intake","104550",130,"p104550",NA
+"Fruit","Other_fruits","Pineapple intake","104570",80,"p104570",NA
+"Fruit","Other_fruits","Plum intake","104580",55,"p104580",NA
+"Fruit","Other_fruits","Other fruit intake","104590",60,"p104590",NA
+"Vegetable","Green_leafy_vegetables","Broccoli intake","104140",80,"p104140",NA
+"Vegetable","Green_leafy_vegetables","Cabbage/kale intake","104160",90,"p104160",NA
+"Vegetable","Green_leafy_vegetables","Lettuce intake","104240",35,"p104240",NA
+"Vegetable","Green_leafy_vegetables","Spinach intake","104300",90,"p104300",NA
+"Vegetable","Green_leafy_vegetables","Sprouts intake","104310",90,"p104310",NA
+"Vegetable","Green_leafy_vegetables","Watercress intake","104370",20,"p104370",NA
+"Vegetable","Root_vegetables","Beetroot intake","104130",48,"p104130",NA
+"Vegetable","Root_vegetables","Carrot intake","104170",60,"p104170",NA
+"Vegetable","Root_vegetables","Celery intake","104190",30,"p104190",NA
+"Vegetable","Root_vegetables","Parsnip intake","104270",65,"p104270",NA
+"Vegetable","Root_vegetables","Turnip/swede intake","104360",60,"p104360",NA
+"Vegetable","Tomatoes","Fresh tomato intake","104340",85,"p104340",NA
+"Vegetable","Tomatoes","Tinned tomato intake","104350",135,"p104350",NA
+"Vegetable","Allium_vegetables","Garlic intake","104220",5,"p104220",NA
+"Vegetable","Allium_vegetables","Leek intake","104230",80,"p104230",NA
+"Vegetable","Allium_vegetables","Onion intake","104260",60,"p104260",NA
+"Vegetable","Other_vegetables","Butternut squash intake","104150",130,"p104150",NA
+"Vegetable","Other_vegetables","Sweet pepper intake","104290",133,"p104290",NA
+"Vegetable","Other_vegetables","Sweet potato intake","104330",130,"p104330",NA
+"Vegetable","Other_vegetables","Mixed vegetable intake","104060",90,"p104060",NA
+"Vegetable","Other_vegetables","Vegetable pieces intake","104070",90,"p104070",NA
+"Vegetable","Other_vegetables","Coleslaw intake","104080",90,"p104080",NA
+"Vegetable","Other_vegetables","Avocado intake","104100",136,"p104100",NA
+"Vegetable","Other_vegetables","Courgette intake","104200",90,"p104200",NA
+"Vegetable","Other_vegetables","Cucumber intake","104210",60,"p104210",NA
+"Vegetable","Other_vegetables","Other vegetables intake","104380",60,"p104380",NA
+"Vegetable","Other_vegetables","Cauliflower intake","104180",90,"p104180",NA
+"Vegetable","Other_vegetables","Side salad intake","104090",66,"p104090",NA
+"Vegetable","Other_vegetables","Mushroom intake","104250",44,"p104250",NA
+"Vegetable","Potatoes","Boiled/baked potatoes intake","104030",175,"p104030",NA
+"Vegetable","Potatoes","Mashed potato intake","104050",180,"p104050",NA
+"Cereal & Bread","Refined_grains","Naan bread intake","101230",160,"p101230",NA
+"Cereal & Bread","Refined_grains","Garlic bread intake","101240",20,"p101240",NA
+"Cereal & Bread","Refined_grains","Crispbread intake","101250",10,"p101250",NA
+"Cereal & Bread","Refined_grains","Oatcakes intake","101260",13,"p101260",NA
+"Cereal & Bread","Refined_grains","Other bread intake","101270",45,"p101270",NA
+"Cereal & Bread","Refined_grains","White pasta intake","102710",230,"p102710",NA
+"Cereal & Bread","Refined_grains","White rice intake","102730",150,"p102730",NA
+"Cereal & Bread","Refined_grains","Sushi intake","102750",278,"p102750",NA
+"Cereal & Bread","Refined_grains","Snackpot intake","102760",280,"p102760",NA
+"Cereal & Bread","Refined_grains","Couscous intake","102770",150,"p102770",NA
+"Cereal & Bread","Refined_grains","Sliced bread intake (white)","100950",36,"bread.w","bread"
+"Cereal & Bread","Refined_grains","Baguette intake (white)","101020",95,"baguette.w","baguette"
+"Cereal & Bread","Refined_grains","Bap intake (white)","101090",90,"bap.w","bap"
+"Cereal & Bread","Refined_grains","Bread roll intake (white)","101160",60,"roll.w","roll"
+"Cereal & Bread","Whole_grains","Porridge intake","100770",203.5,"p100770",NA
+"Cereal & Bread","Whole_grains","Muesli intake","100800",100,"p100800",NA
+"Cereal & Bread","Whole_grains","Oat crunch intake","100810",100,"p100810",NA
+"Cereal & Bread","Whole_grains","Sweetened cereal intake","100820",38,"p100820",NA
+"Cereal & Bread","Whole_grains","Plain cereal intake","100830",30,"p100830",NA
+"Cereal & Bread","Whole_grains","Bran cereal intake","100840",50,"p100840",NA
+"Cereal & Bread","Whole_grains","Whole-wheat cereal intake","100850",44,"p100850",NA
+"Cereal & Bread","Whole_grains","Other cereal intake","100860",44,"p100860",NA
+"Cereal & Bread","Whole_grains","Wholemeal pasta intake","102720",230,"p102720",NA
+"Cereal & Bread","Whole_grains","Brown rice intake","102740",150,"p102740",NA
+"Cereal & Bread","Whole_grains","Other grain intake","102780",157,"p102780",NA
+"Cereal & Bread","Whole_grains","Sweetcorn intake","104320",43,"p104320",NA
+"Cereal & Bread","Whole_grains","Sliced bread intake","20091",36,"bread.b","type_bread"
+"Cereal & Bread","Whole_grains","Baguette intake","20092",95,"baguette.b","type_baguette"
+"Cereal & Bread","Whole_grains","Bap intake","20093",90,"bap.b","type_bap"
+"Cereal & Bread","Whole_grains","Bread roll intake","20094",60,"roll.b","type_roll"
+"Legume & Nut","Legumes","Tofu intake","103270",90,"p103270",NA
+"Legume & Nut","Legumes","Baked bean intake","104000",135,"p104000",NA
+"Legume & Nut","Legumes","Pulses intake","104010",70,"p104010",NA
+"Legume & Nut","Legumes","Broad bean intake","104110",70,"p104110",NA
+"Legume & Nut","Legumes","Green bean intake","104120",70,"p104120",NA
+"Legume & Nut","Legumes","Pea intake","104280",65,"p104280",NA
+"Legume & Nut","Nuts","Nut-based spreads","26106",10,"p26106",NA
+"Legume & Nut","Nuts","Salted peanuts intake","102410",40,"p102410",NA
+"Legume & Nut","Nuts","Unsalted peanuts intake","102420",40,"p102420",NA
+"Legume & Nut","Nuts","Salted nuts intake","102430",40,"p102430",NA
+"Legume & Nut","Nuts","Unsalted nuts intake","102440",40,"p102440",NA
+"Legume & Nut","Nuts","Seeds intake","102450",14,"p102450",NA
+"Dairy & Egg","Eggs","Whole egg intake","102940",50,"p102940",NA
+"Dairy & Egg","Eggs","Omelette intake","102950",120,"p102950",NA
+"Dairy & Egg","Eggs","Eggs in sandwiches intake","102960",120,"p102960",NA
+"Dairy & Egg","Eggs","Scotch egg intake","102970",120,"p102970",NA
+"Dairy & Egg","Eggs","Other egg intake","102980",75,"p102980",NA
+"Dairy & Egg","High-fat_dairy_products","Full fat yogurt","26096",125,"p26096",NA
+"Dairy & Egg","High-fat_dairy_products","Whole milk","26150",259,"p26150",NA
+"Dairy & Egg","High-fat_dairy_products","Cream","26154",30,"p26154",NA
+"Dairy & Egg","High-fat_dairy_products","Hard cheese intake","102820",40,"p102820",NA
+"Dairy & Egg","High-fat_dairy_products","Soft cheese intake","102830",40,"p102830",NA
+"Dairy & Egg","High-fat_dairy_products","Blue cheese intake","102840",35,"p102840",NA
+"Dairy & Egg","High-fat_dairy_products","Cheese spread intake","102860",15,"p102860",NA
+"Dairy & Egg","High-fat_dairy_products","Feta intake","102880",40,"p102880",NA
+"Dairy & Egg","High-fat_dairy_products","Mozzarella intake","102890",40,"p102890",NA
+"Dairy & Egg","High-fat_dairy_products","Goat's cheese intake","102900",40,"p102900",NA
+"Dairy & Egg","High-fat_dairy_products","Other cheese intake","102910",40,"p102910",NA
+"Dairy & Egg","Low-fat_dairy_products","Low fat yogurt","26102",125,"p26102",NA
+"Dairy & Egg","Low-fat_dairy_products","Semi skimmed milk","26131",259,"p26131",NA
+"Dairy & Egg","Low-fat_dairy_products","Skimmed milk and cholesterol-lowering milk","26133",259,"p26133",NA
+"Dairy & Egg","Low-fat_dairy_products","Low fat hard cheese intake","102810",40,"p102810",NA
+"Dairy & Egg","Low-fat_dairy_products","Low fat cheese spread intake","102850",15,"p102850",NA
+"Dairy & Egg","Low-fat_dairy_products","Cottage cheese intake","102870",60,"p102870",NA
+"Meat & Fish","Red_meats","Beef intake","103020",120,"p103020",NA
+"Meat & Fish","Red_meats","Pork intake","103030",120,"p103030",NA
+"Meat & Fish","Red_meats","Lamb intake","103040",120,"p103040",NA
+"Meat & Fish","Processed_meats","Sausage intake","103010",30,"p103010",NA
+"Meat & Fish","Processed_meats","Bacon intake","103070",46,"p103070",NA
+"Meat & Fish","Processed_meats","Ham intake","103080",23,"p103080",NA
+"Meat & Fish","Poultry","Poultry intake","103060",130,"p103060",NA
+"Meat & Fish","Fish_and_other_seafood","Tinned tuna intake","103150",92,"p103150",NA
+"Meat & Fish","Fish_and_other_seafood","Oily fish intake","103160",100,"p103160",NA
+"Meat & Fish","Fish_and_other_seafood","White fish intake","103190",120,"p103190",NA
+"Meat & Fish","Fish_and_other_seafood","Other fish intake","103230",100,"p103230",NA
+"Meat & Fish","Fish_and_other_seafood","Prawns intake","103200",60,"p103200",NA
+"Meat & Fish","Fish_and_other_seafood","Lobster/crab intake","103210",85,"p103210",NA
+"Meat & Fish","Fish_and_other_seafood","Shellfish intake","103220",40,"p103220",NA
+"Meat & Fish","Organ_meats","Liver intake","103090",70,"p103090",NA
+"Meat & Fish","Organ_meats","Other meat intake","103100",100,"p103100",NA
+"Fat & Oil","Butter","Animal fat spread lower fat","26062",10,"p26062",NA
+"Fat & Oil","Butter","Animal fat spread normal","26063",10,"p26063",NA
+"Fat & Oil","Margarine","Plant-based spread lower fat","26111",10,"p26111",NA
+"Fat & Oil","Margarine","Plant-based spread normal","26112",10,"p26112",NA
+"Fat & Oil","Olive_oil","Olive oil (drizzling/dunking)","26110",10,"p26110",NA
+"Fat & Oil","Other_oil","Other oil in cooking","s-20090",10,"oil","type_oil"
+"Water & beverage","Beer","Beer/cider intake","26067",574,"p26067",NA
+"Water & beverage","Coffee","Instant coffee intake","100250",190,"p100250",NA
+"Water & beverage","Coffee","Filtered coffee intake","100270",190,"p100270",NA
+"Water & beverage","Coffee","Cappuccino intake","100290",30,"p100290",NA
+"Water & beverage","Coffee","Latte intake","100300",30,"p100300",NA
+"Water & beverage","Coffee","Espresso intake","100310",30,"p100310",NA
+"Water & beverage","Coffee","Other coffee type","100330",190,"p100330",NA
+"Water & beverage","Fruit_juices","Orange juice intake","100190",250,"p100190",NA
+"Water & beverage","Fruit_juices","Grapefruit juice intake","100200",250,"p100200",NA
+"Water & beverage","Fruit_juices","Pure fruit/vegetable juice intake","100210",250,"p100210",NA
+"Water & beverage","Liquor","Spirits intake","26138",23,"p26138",NA
+"Water & beverage","Sweetened_beverages","Fizzy drink intake","100170",330,"p100170",NA
+"Water & beverage","Sweetened_beverages","Squash intake","100180",250,"p100180",NA
+"Water & beverage","Sweetened_beverages","Fruit smoothie intake","100220",260,"p100220",NA
+"Water & beverage","Sweetened_beverages","Dairy smoothie intake","100230",260,"p100230",NA
+"Water & beverage","Sweetened_beverages","Hot chocolate intake","100550",143,"p100550",NA
+"Water & beverage","Sweetened_beverages","Low calorie drink intake","100160",330,"p100160",NA
+"Water & beverage","Sweetened_beverages","Flavoured milk intake","100530",250,"p100530",NA
+"Water & beverage","Sweetened_beverages","Low calorie hot chocolate intake","100540",143,"p100540",NA
+"Water & beverage","Tea","Standard tea intake","100400",190,"p100400",NA
+"Water & beverage","Tea","Rooibos tea intake","100410",190,"p100410",NA
+"Water & beverage","Tea","Green tea intake","100420",190,"p100420",NA
+"Water & beverage","Tea","Herbal tea intake","100430",190,"p100430",NA
+"Water & beverage","Tea","Other tea intake","100440",190,"p100440",NA
+"Water & beverage","Water","Drinking water intake","100150",250,"p100150",NA
+"Water & beverage","Wine","Fortified wine intake","26151",50,"p26151",NA
+"Water & beverage","Wine","Red wine intake","26152",175,"p26152",NA
+"Water & beverage","Wine","White wine intake","26153",175,"p26153",NA
+"Snack & Pastry","Pizza","Pizza intake","102000",150,"p102000",NA
+"Snack & Pastry","Snacks_and_pastries","Added sugars and preserves","26064",6,"p26064",NA
+"Snack & Pastry","Snacks_and_pastries","Double crust pastry intake","101970",60,"p101970",NA
+"Snack & Pastry","Snacks_and_pastries","Single crust pastry intake","101980",30,"p101980",NA
+"Snack & Pastry","Snacks_and_pastries","Crumble intake","101990",70,"p101990",NA
+"Snack & Pastry","Snacks_and_pastries","Pancake intake","102010",110,"p102010",NA
+"Snack & Pastry","Snacks_and_pastries","Scotch pancake intake","102020",41,"p102020",NA
+"Snack & Pastry","Snacks_and_pastries","Yorkshire pudding intake","102030",80,"p102030",NA
+"Snack & Pastry","Snacks_and_pastries","Indian snacks intake","102040",40,"p102040",NA
+"Snack & Pastry","Snacks_and_pastries","Croissant intake","102050",60,"p102050",NA
+"Snack & Pastry","Snacks_and_pastries","Danish pastry intake","102060",110,"p102060",NA
+"Snack & Pastry","Snacks_and_pastries","Scone intake","102070",48,"p102070",NA
+"Snack & Pastry","Snacks_and_pastries","Ice-cream intake","102120",120,"p102120",NA
+"Snack & Pastry","Snacks_and_pastries","Milk-based pudding intake","102140",200,"p102140",NA
+"Snack & Pastry","Snacks_and_pastries","Other milk-based pudding intake","102150",200,"p102150",NA
+"Snack & Pastry","Snacks_and_pastries","Soya dessert intake","102170",125,"p102170",NA
+"Snack & Pastry","Snacks_and_pastries","Fruitcake intake","102180",70,"p102180",NA
+"Snack & Pastry","Snacks_and_pastries","Cake intake","102190",60,"p102190",NA
+"Snack & Pastry","Snacks_and_pastries","Doughnut intake","102200",60,"p102200",NA
+"Snack & Pastry","Snacks_and_pastries","Sponge pudding intake","102210",120,"p102210",NA
+"Snack & Pastry","Snacks_and_pastries","Cheesecake intake","102220",110,"p102220",NA
+"Snack & Pastry","Snacks_and_pastries","Other dessert intake","102230",60,"p102230",NA
+"Snack & Pastry","Snacks_and_pastries","Chocolate bar intake","102260",50,"p102260",NA
+"Snack & Pastry","Snacks_and_pastries","White chocolate intake","102270",50,"p102270",NA
+"Snack & Pastry","Snacks_and_pastries","Milk chocolate intake","102280",50,"p102280",NA
+"Snack & Pastry","Snacks_and_pastries","Dark chocolate intake","102290",50,"p102290",NA
+"Snack & Pastry","Snacks_and_pastries","Chocolate-covered raisin intake","102300",25,"p102300",NA
+"Snack & Pastry","Snacks_and_pastries","Chocolate sweet intake","102310",36,"p102310",NA
+"Snack & Pastry","Snacks_and_pastries","Diet sweets intake","102320",18,"p102320",NA
+"Snack & Pastry","Snacks_and_pastries","Sweets intake","102330",36,"p102330",NA
+"Snack & Pastry","Snacks_and_pastries","Chocolate-covered biscuits intake","102340",24,"p102340",NA
+"Snack & Pastry","Snacks_and_pastries","Chocolate biscuits intake","102350",17,"p102350",NA
+"Snack & Pastry","Snacks_and_pastries","Sweet biscuits intake","102360",17,"p102360",NA
+"Snack & Pastry","Snacks_and_pastries","Cereal bar intake","102370",28,"p102370",NA
+"Snack & Pastry","Snacks_and_pastries","Other sweets intake","102380",40,"p102380",NA
+"Snack & Pastry","Snacks_and_pastries","Savoury biscuits intake","102470",40,"p102470",NA
+"Snack & Pastry","Snacks_and_pastries","Cheesy biscuits intake","102480",40,"p102480",NA
+"Snack & Pastry","Snacks_and_pastries","Olives intake","102490",50,"p102490",NA
+"Snack & Pastry","Snacks_and_pastries","Other savoury snack intake","102500",40,"p102500",NA
+"Fried & Fast food","Fried_and_fast_foods","Fried potatoes intake","104020",180,"p104020",NA
+"Fried & Fast food","Fried_and_fast_foods","Crumbed or deep-fried poultry intake","103050",100,"p103050",NA
+"Fried & Fast food","Fried_and_fast_foods","Breaded fish intake","103170",100,"p103170",NA
+"Fried & Fast food","Fried_and_fast_foods","Battered fish intake","103180",150,"p103180",NA
+"Fried & Fast food","Fried_and_fast_foods","Crisp intake","102460",40,"p102460",NA

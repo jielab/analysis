@@ -1,0 +1,12 @@
+Chicken liking x MDD: existing FUMA MAGMA results.
+A: competitive gene-set analysis. Dot area represents NGENES; axis is -log10(Bonferroni P).
+B: MAGMA gene-property analysis using GTEx v8. Brain and pituitary are coloured separately.
+Bonferroni and BH corrections use all valid tests within each complete input table before selection.
+Significant results are displayed except in the all-pathways and all-54-tissues figures; CSV tables contain all tests.
+All-pathways plot: raw -log10(P) versus rank (log scale); dashed line is the raw Bonferroni threshold 0.05/n_tests. Colours use adjusted P.
+Other plots: dashed line is adjusted P = 0.05.
+The all-54-tissues figure includes nonsignificant tissues; adjusted P = 1 is plotted at zero, with ordering by raw P.
+Specific (54) and general tissues are corrected separately. No rich factor is inferred.
+MSigDB version is not established by these output tables; consult the original FUMA job metadata.
+Metascape import status is recorded in metascape/status.txt. deTS methods and results are saved under deTS/. Whole-blood eQTL mapping is separate from expression enrichment.
+Input: /work/sph-huangj/files/flt/03placo/FUMA_job787285

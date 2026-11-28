@@ -1,0 +1,2237 @@
+2026-11-25T22:00:34+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R nhanes assoc
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Reviewer validation before NHANES main analysis: MAHA is not an arbitrary score
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[NHANES VALIDATE] common complete-case N=27478; deaths=2900; covariates=age,female,race,edu,pir,marital,health_insurance,cycle,kcal,bmi,smoke_ever,hypertension,cad,stroke,heart_failure
+[NHANES VALIDATE] fitting 512 matched direction patterns; workers=20
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+Stratified survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified Stratified 1 - level Cluster Sampling design (with replacement)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+Stratified With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+Stratified With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified Stratified 1 - level Cluster Sampling design (with replacement)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified Stratified 1 - level Cluster Sampling design (with replacement)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified Stratified 1 1- level Cluster Sampling design - level Cluster Sampling design (with replacement)
+ (with replacement)
+With (214) clusters.
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+Stratified With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+Stratified With (214) clusters.
+1survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+     nest = TRUE, data = d)
+- level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+Stratified survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+Stratified With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+Stratified survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+Stratified With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified Stratified 1 - level Cluster Sampling design (with replacement)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified Stratified 1 - level Cluster Sampling design (with replacement)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified Stratified 1 - level Cluster Sampling design (with replacement)
+1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+# A tibble: 1 x 13
+  Cohort     N Deaths MAHA_HR_per_SD MAHA_CI_low MAHA_CI_high Direction_null_n
+  <chr>  <int>  <int>          <dbl>       <dbl>        <dbl>            <int>
+1 NHANES 27478   2900          0.977       0.923         1.03              511
+# i 6 more variables: MAHA_protective_Z <dbl>,
+#   Mortality_percentile_vs_direction_null <dbl>,
+#   Mortality_empirical_one_sided_P <dbl>, MAHA_anchor_Spearman <dbl>,
+#   Anchor_percentile_vs_direction_null <dbl>,
+#   Anchor_empirical_one_sided_P <dbl>
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Reviewer validation before NHANES main analysis: MAHA construct profile
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Figure 3: NHANES all-cause mortality
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+Stratified 1 - level Cluster Sampling design (with replacement)
+With (214) clusters.
+survey::svydesign(ids = ~psu, strata = ~strata, weights = ~wt, 
+    nest = TRUE, data = d)
+# A tibble: 8 x 5
+  diet           label           variable                available n_nonmissing
+  <chr>          <chr>           <chr>                   <lgl>            <int>
+1 maha           MAHA            diet.maha.pts           TRUE             43944
+2 dash           DASH            diet.dash.pts           TRUE             43944
+3 mind           MIND            diet.mind.pts           TRUE             43944
+4 medi           MEDI            diet.medi.pts           TRUE             43944
+5 maha_bal       MAHA-balanced   diet.maha_bal.pts       TRUE             43944
+6 maha_strict    MAHA-strict     diet.maha_strict.pts    TRUE             43944
+7 maha_nodairy   MAHA-no dairy   diet.maha_nodairy.pts   TRUE             43944
+8 maha_noprotein MAHA-no protein diet.maha_noprotein.pts TRUE             43944
+# A tibble: 8 x 13
+  Outcome Exposure       beta     se estimate conf.low conf.high p.value N_total
+  <chr>   <chr>         <dbl>  <dbl>    <dbl>    <dbl>     <dbl>   <dbl>   <int>
+1 death   diet.maha~ -0.0231  0.0292    0.977    0.923     1.03  4.29e-1   27478
+2 death   diet.dash~ -0.0753  0.0289    0.927    0.876     0.981 9.16e-3   27478
+3 death   diet.mind~ -0.0976  0.0286    0.907    0.858     0.959 6.47e-4   27478
+4 death   diet.medi~ -0.126   0.0256    0.881    0.838     0.927 7.61e-7   27478
+5 death   diet.maha~ -0.0659  0.0282    0.936    0.886     0.989 1.94e-2   27478
+6 death   diet.maha~ -0.00961 0.0334    0.990    0.928     1.06  7.74e-1   27478
+7 death   diet.maha~ -0.0280  0.0286    0.972    0.919     1.03  3.29e-1   27478
+8 death   diet.maha~ -0.0193  0.0290    0.981    0.927     1.04  5.06e-1   27478
+# i 4 more variables: N_event <int>, model <chr>, Outcome_label <fct>,
+#   Diet <fct>
+# A tibble: 7 x 8
+  contrast_diet  label           compare_variable        ref_variable  available
+  <chr>          <chr>           <chr>                   <chr>         <lgl>    
+1 dash           DASH            diet.dash.hml           diet.maha.hml TRUE     
+2 medi           MEDI            diet.medi.hml           diet.maha.hml TRUE     
+3 mind           MIND            diet.mind.hml           diet.maha.hml TRUE     
+4 maha_bal       MAHA-balanced   diet.maha_bal.hml       diet.maha.hml FALSE    
+5 maha_strict    MAHA-strict     diet.maha_strict.hml    diet.maha.hml TRUE     
+6 maha_nodairy   MAHA-no dairy   diet.maha_nodairy.hml   diet.maha.hml FALSE    
+7 maha_noprotein MAHA-no protein diet.maha_noprotein.hml diet.maha.hml FALSE    
+# i 3 more variables: n_high_compare_low_MAHA <int>,
+#   n_low_compare_high_MAHA <int>, n_pair <int>
+# A tibble: 3 x 12
+  MAHA  Pattern Outcome contrast     estimate conf.low conf.high p.value N_total
+  <chr> <fct>   <chr>   <chr>           <dbl>    <dbl>     <dbl>   <dbl>   <int>
+1 MAHA  DASH    death   DASH low + ~     2.07    1.26       3.39 0.00398    2199
+2 MAHA  MEDI    death   MEDI low + ~     1.52    1.09       2.13 0.0142     4204
+3 MAHA  MIND    death   MIND low + ~     1.19    0.860      1.65 0.291      4673
+# i 3 more variables: N_event <int>, model <chr>, Outcome_label <fct>
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Figure S3: NHANES diet score distributions and correlation
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Diet_score     N Mean   SD Median  P25  P75 Min   Max
+1 MAHA-no protein 50800 50.1 15.4   50.0 40.0 60.0 0.0 100.0
+2   MAHA-no dairy 50800 48.7 13.8   50.0 40.0 60.0 3.3  96.7
+3     MAHA-strict 50800 52.5 14.1   51.6 44.2 61.3 0.0 100.0
+4   MAHA-balanced 50800 45.1 14.7   46.7 33.3 56.7 0.0  95.7
+5            MEDI 50800 43.1 15.2   43.2 32.4 54.1 0.0 100.0
+6            MIND 50800 44.6 13.1   42.9 34.7 53.1 0.0 100.0
+7            DASH 50800 45.0 15.4   45.2 29.5 54.8 0.0  96.8
+8            MAHA 50800 48.3 13.8   50.0 38.2 58.8 5.9  94.1
+                MAHA DASH MIND MEDI MAHA-balanced MAHA-strict MAHA-no dairy
+MAHA            1.00 0.75 0.55 0.62          0.92        0.76          0.96
+DASH            0.75 1.00 0.64 0.72          0.80        0.66          0.70
+MIND            0.55 0.64 1.00 0.82          0.61        0.57          0.59
+MEDI            0.62 0.72 0.82 1.00          0.71        0.53          0.62
+MAHA-balanced   0.92 0.80 0.61 0.71          1.00        0.63          0.85
+MAHA-strict     0.76 0.66 0.57 0.53          0.63        1.00          0.86
+MAHA-no dairy   0.96 0.70 0.59 0.62          0.85        0.86          1.00
+MAHA-no protein 0.97 0.77 0.54 0.61          0.87        0.82          0.93
+                MAHA-no protein
+MAHA                       0.97
+DASH                       0.77
+MIND                       0.54
+MEDI                       0.61
+MAHA-balanced              0.87
+MAHA-strict                0.82
+MAHA-no dairy              0.93
+MAHA-no protein            1.00
+Warning messages:
+1: In coxph.fit(X, Y, istrat, offset, init, control, weights = weights,  :
+  Loglik converged before variable  9 ; coefficient may be infinite. 
+2: In coxph.fit(X, Y, istrat, offset, init, control, weights = weights,  :
+  Loglik converged before variable  4,7 ; coefficient may be infinite. 
+MAHA nhanes assoc complete

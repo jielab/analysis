@@ -1,0 +1,30 @@
+"Version","Score_variable","Component","Food","Type","Aggregation","Zero_points","Half_point","One_point","Unit","Maximum_points","Total_maximum"
+"dose11","diet.dose11.sum","Apples_Pears.dose11","Apples and pears","adequacy","separate","0",NA,">0","servings/day",1,11
+"dose11","diet.dose11.sum","Dried_fruit.dose11","Dried fruits","adequacy","separate","0",NA,">0","servings/day",1,11
+"dose11","diet.dose11.sum","Legumes.dose11","Legumes","adequacy","separate","0",NA,">0","servings/day",1,11
+"dose11","diet.dose11.sum","Olive_oil.dose11","Olive oil","adequacy","separate","0",NA,">0","servings/day",1,11
+"dose11","diet.dose11.sum","Tomatoes.dose11","Tomatoes","adequacy","separate","0",NA,">0","servings/day",1,11
+"dose11","diet.dose11.sum","Eggs.dose11","Eggs","moderation","separate","0 OR >0.5",NA,">0-0.5","servings/day",1,11
+"dose11","diet.dose11.sum","Green_leafy_vegetables.dose11","Green leafy vegetables","moderation","separate","0 OR >1.56",NA,">0-1.56","servings/day",1,11
+"dose11","diet.dose11.sum","Whole_grains.dose11","Whole grains","moderation","separate","0-1 OR >3",NA,">1-3","servings/day",1,11
+"dose11","diet.dose11.sum","Wine.dose11","Wine","moderation","separate","0 OR >2",NA,">0-2","servings/day",1,11
+"dose11","diet.dose11.sum","Processed_meats.dose11","Processed meats","moderation","separate","0 OR >1",NA,">0-1","servings/day",1,11
+"dose11","diet.dose11.sum","Sweetened_beverages.dose11","Sweetened beverages","restriction","separate",">0",NA,"0","servings/day",1,11
+"dose9","diet.dose9.sum","Fruit.dose9","Dried fruits, apples, and pears","combined domain","OR","Apples and pears (0) AND Dried fruits (0)",NA,"Apples and pears (>0) OR Dried fruits (>0)","servings/day",1,9
+"dose9","diet.dose9.sum","Legumes.dose9","Legumes","adequacy","OR","0",NA,">0","servings/day",1,9
+"dose9","diet.dose9.sum","Olive_oil.dose9","Olive oil","adequacy","OR","0",NA,">0","servings/day",1,9
+"dose9","diet.dose9.sum","Vegetables.dose9","Tomatoes and green leafy vegetables","combined domain","OR","Tomatoes (0) AND Green leafy vegetables (0 OR >1.56)",NA,"Tomatoes (>0) OR Green leafy vegetables (>0-1.56)","servings/day",1,9
+"dose9","diet.dose9.sum","Eggs.dose9","Eggs","moderation","OR","0 OR >0.5",NA,">0-0.5","servings/day",1,9
+"dose9","diet.dose9.sum","Whole_grains.dose9","Whole grains","moderation","OR","0-1 OR >3",NA,">1-3","servings/day",1,9
+"dose9","diet.dose9.sum","Wine.dose9","Wine","moderation","OR","0 OR >2",NA,">0-2","servings/day",1,9
+"dose9","diet.dose9.sum","Processed_meats.dose9","Processed meats","moderation","OR","0 OR >1",NA,">0-1","servings/day",1,9
+"dose9","diet.dose9.sum","Sweetened_beverages.dose9","Sweetened beverages","restriction","OR",">0",NA,"0","servings/day",1,9
+"dose9half","diet.dose9half.sum","Fruit.dose9half","Dried fruits, apples, and pears","combined domain","mean","Apples and pears (0) AND Dried fruits (0)","Exactly one of the two food criteria is met","Apples and pears (>0) AND Dried fruits (>0)","servings/day",1,9
+"dose9half","diet.dose9half.sum","Legumes.dose9half","Legumes","adequacy","mean","0",NA,">0","servings/day",1,9
+"dose9half","diet.dose9half.sum","Olive_oil.dose9half","Olive oil","adequacy","mean","0",NA,">0","servings/day",1,9
+"dose9half","diet.dose9half.sum","Vegetables.dose9half","Tomatoes and green leafy vegetables","combined domain","mean","Tomatoes (0) AND Green leafy vegetables (0 OR >1.56)","Exactly one of the two food criteria is met","Tomatoes (>0) AND Green leafy vegetables (>0-1.56)","servings/day",1,9
+"dose9half","diet.dose9half.sum","Eggs.dose9half","Eggs","moderation","mean","0 OR >0.5",NA,">0-0.5","servings/day",1,9
+"dose9half","diet.dose9half.sum","Whole_grains.dose9half","Whole grains","moderation","mean","0-1 OR >3",NA,">1-3","servings/day",1,9
+"dose9half","diet.dose9half.sum","Wine.dose9half","Wine","moderation","mean","0 OR >2",NA,">0-2","servings/day",1,9
+"dose9half","diet.dose9half.sum","Processed_meats.dose9half","Processed meats","moderation","mean","0 OR >1",NA,">0-1","servings/day",1,9
+"dose9half","diet.dose9half.sum","Sweetened_beverages.dose9half","Sweetened beverages","restriction","mean",">0",NA,"0","servings/day",1,9

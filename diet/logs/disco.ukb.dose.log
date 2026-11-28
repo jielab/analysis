@@ -1,0 +1,113 @@
+2026-11-23T00:22:54+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE foodwas/preprocess
+Running preprocess phase: qc
+Saved preprocess checkpoint: qc
+Running preprocess phase: medito
+Saved preprocess checkpoint: medito
+Running preprocess phase: webq
+WebQ填写时长P5/P95（分钟）: 8 / 31 
+不排除填写时长、仅排除基线饮食经常变化者： 194434 
+最终有效WebQ饮食人群： 192539 
+Food/weight recall averages saved; scoring dietary patterns
+Saved preprocess checkpoint: webq
+Running preprocess phase: patterns
+Saved preprocess checkpoint: patterns
+Running preprocess phase: diet_merge
+Merging participant data: diet.medito.rds
+  Merged: 501936 participants, 13 columns
+Merging participant data: diet.medi24.rds
+  Merged: 501936 participants, 27 columns
+Merging participant data: diet.dash.rds
+  Merged: 501936 participants, 36 columns
+Merging participant data: diet.mind.rds
+  Merged: 501936 participants, 52 columns
+Merging participant data: diet.hpdi.rds
+  Merged: 501936 participants, 70 columns
+Merging participant data: diet.ahei.rds
+  Merged: 501936 participants, 82 columns
+Merging participant data: diet.phdi.rds
+  Merged: 501936 participants, 98 columns
+Merging participant data: diet.modern.rds
+  Merged: 501936 participants, 106 columns
+Merging participant data: diet.digm.rds
+  Merged: 501936 participants, 119 columns
+Merging participant data: diet.maha.rds
+  Merged: 501936 participants, 129 columns
+Merging participant data: diet.hlcd.rds
+  Merged: 501936 participants, 133 columns
+Merging participant data: diet.hlfd.rds
+  Merged: 501936 participants, 134 columns
+Merging participant data: diet.redii.rds
+  Merged: 501936 participants, 135 columns
+Merging participant data: diet.fds.rds
+  Merged: 501936 participants, 146 columns
+Saved preprocess checkpoint: diet_merge
+Running preprocess phase: upf
+Skipping optional UPF_2 appendix: foods.xlsx lacks UPF_2 / Energy_KJ/100g. Main DOSE inputs are complete.
+Saved preprocess checkpoint: upf
+DOSE score/build
+DOSE11: 192539 participants; theoretical total 0-11.
+   Score     N     Percent
+       0  4430  2.30083256
+       1 14217  7.38395857
+       2 24037 12.48422398
+       3 30940 16.06947164
+       4 33273 17.28117420
+       5 31711 16.46990999
+       6 25708 13.35210009
+       7 16867  8.76030311
+       8  8209  4.26355180
+       9  2604  1.35245327
+      10   498  0.25864890
+      11    45  0.02337189
+ Missing     0  0.00000000
+Score variable: diet.dose11.sum
+Scores: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/dose11_score.rds
+Scoring figure: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/figures/Fig_DOSE11.pdf
+DOSE9: 192539 participants; theoretical total 0-9.
+   Score     N     Percent
+       0  4430  2.30083256
+       1 15452  8.02538706
+       2 28691 14.90139660
+       3 39321 20.42235599
+       4 41523 21.56602039
+       5 33682 17.49359870
+       6 20078 10.42801718
+       7  7677  3.98724414
+       8  1561  0.81074484
+       9   124  0.06440254
+ Missing     0  0.00000000
+Score variable: diet.dose9.sum
+Scores: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/dose9_score.rds
+Scoring figure: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/figures/Fig_DOSE9.pdf
+DOSE9HALF: 192539 participants; theoretical total 0-9.
+   Score     N     Percent
+       0  4430  2.30083256
+     0.5  4269  2.21721314
+       1 12719  6.60593438
+     1.5 13452  6.98663647
+       2 19368 10.05926072
+     2.5 20759 10.78171176
+       3 21575 11.20552200
+     3.5 21489 11.16085572
+       4 19144  9.94292066
+     4.5 17226  8.94675884
+       5 13011  6.75759197
+     5.5 10539  5.47369624
+       6  6654  3.45592322
+     6.5  4250  2.20734501
+       7  2203  1.14418378
+     7.5   868  0.45081776
+       8   474  0.24618389
+     8.5    64  0.03324002
+       9    45  0.02337189
+ Missing     0  0.00000000
+Score variable: diet.dose9half.sum
+Scores: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/dose9half_score.rds
+Scoring figure: /work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/scores/figures/Fig_DOSE9HALF.pdf
+PRIMARY: dose = dose9half; downstream exposure = dose; diet.dose.sum is a compatibility alias. All three totals are retained.
+Saved outcome-free scores: /work/sph-huangj/analysis/diet/.cache/disco/ukb.dose.rds (501936 participants)
+Warning message:
+In eval(expr, envir = new.env(parent = parent.frame())) :
+  NAs introduced by coercion

@@ -1,0 +1,19 @@
+2026-11-25T11:58:24+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE foodwas/groups
+Outcome: cvd_stroke_iGroup FoodWAS cohort = 191494 ; items used to build groups = 208 
+Food groups = 38 
+M2 group FoodWAS P<0.05 before clustering = 15 
+Group-level FoodWAS + ML preparation complete
+ - cohort: 191494 
+ - detailed food items used to build groups: 208 
+ - original food groups: 38 
+ - M2 group P<0.05 before clustering: 15 
+ - clustering correlation threshold |rho| >= 0.6 
+ - groups after clustering: 15 
+ - max |rho| among candidates: 0.342 
+ - pairs with |rho| >= 0.6 : 0 
+ - final ML list: Tomatoes, Butter, Legumes, Low-fat_dairy_products, Dried_fruit, Whole_grains, Eggs, Apples_Pears, Wine, Green_leafy_vegetables, Processed_meats, Sweetened_beverages, Water, Tea, Olive_oil 
+ - residualized ML matrix: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/Food_resid_z.csv 
+ - direct s2 ML input: /work/sph-huangj/analysis/diet/dose/ukb/03ml/ML_input.csv 
+ - Region_code folds: 0-9; summary: /work/sph-huangj/analysis/diet/dose/ukb/03ml/Region_code_fold_summary.csv 

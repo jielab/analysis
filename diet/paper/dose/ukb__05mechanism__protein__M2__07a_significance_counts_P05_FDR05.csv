@@ -1,0 +1,15 @@
+"result","N_tested","N_P05","N_FDR05"
+"Flow 1: DOSE -> protein linear association",2910,1312,976
+"Flow 2: protein -> IS Cox association without DOSE",2910,262,10
+"LHR AFT: total effect",139,0,0
+"LHR AFT: ACME",139,138,138
+"LHR AFT: ADE",139,0,0
+"LHR AFT: proportion mediated",139,0,0
+"MODERN logistic: total effect",139,0,0
+"MODERN logistic: ACME",139,47,14
+"MODERN logistic: ADE",139,0,0
+"MODERN logistic: proportion mediated",139,0,0
+"Cox product: total effect",139,0,0
+"Cox product: indirect effect",139,93,17
+"Cox product: direct effect",139,0,0
+"Cox product: proportion mediated",139,0,0

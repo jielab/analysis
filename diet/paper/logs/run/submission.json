@@ -1,0 +1,24 @@
+{
+  "jobs": {
+    "diet": {
+      "argv": [
+        "bsub",
+        "-J",
+        "diet.paper.run"
+      ],
+      "command_sha256": "8bbfaa69a9fc956c4a036fe24cb5fcea2a3bd506d3e8f0e2967b78bafe88bdfe",
+      "dependency": "",
+      "finished_at": "2026-11-26T01:10:57.834780+00:00",
+      "job_id": "4441882",
+      "returncode": 0,
+      "status": "submitted",
+      "stderr": "",
+      "stdout": "Job <4441882> is submitted to queue <33>.\n",
+      "submitted": "2026-11-26T01:10:57.235003+00:00",
+      "submitted_at": "2026-11-26T01:10:57.235003+00:00",
+      "timeout_seconds": 300.0
+    }
+  },
+  "plan": "/work/sph-huangj/analysis/diet/diet.paper/logs/run/plan.json",
+  "plan_sha256": "94698890e9c415a6ea260122dfd206f41ab37285ce97e38e351834a0648ecf1d"
+}

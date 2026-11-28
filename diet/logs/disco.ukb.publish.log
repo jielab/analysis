@@ -1,0 +1,13 @@
+2026-11-23T00:35:31+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/f/common.R disco ukb
+SKIP ukb: maha_processed: unavailable in the selected cohort/profile outputs
+SKIP ukb: maha_nomeat: unavailable in the selected cohort/profile outputs
+SKIP ukb: medi: unavailable in the selected cohort/profile outputs
+SKIP ukb: amed: unavailable in the selected cohort/profile outputs
+SKIP ukb: chdi: unavailable in the selected cohort/profile outputs
+SKIP ukb: maha_density: unavailable in the selected cohort/profile outputs
+SKIP ukb: maha_residual: unavailable in the selected cohort/profile outputs
+SKIP ukb: dash_fung: unavailable in the selected cohort/profile outputs
+SKIP ukb: dash_density: unavailable in the selected cohort/profile outputs
+Saved /work/sph-huangj/analysis/diet/disco/ukb.raw.rds (full scoring data)
+Saved /work/sph-huangj/analysis/diet/disco/ukb.disco.rds (501936 participants; 37 selected score totals)

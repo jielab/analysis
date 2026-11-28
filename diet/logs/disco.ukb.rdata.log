@@ -1,0 +1,3 @@
+2026-11-23T00:36:11+00:00
+/work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/f/publish_ukb_rdata.py --source /work/sph-huangj/analysis/diet/.cache/ukb/maha/Rdata --destination /work/sph-huangj/phe/ukb/Rdata
+Published 18 MAHA diet RDS files to /work/sph-huangj/phe/ukb/Rdata

@@ -1,0 +1,4 @@
+Both panels: participants with an observed primary DOSE score (n = 191,494); missing score: 0.
+Food means use all available intake within this cohort, including zero intake; missing values are excluded.
+The 11 food intakes are shown separately. The orange curve is a descriptive kernel smooth
+(bandwidth >= score step), scaled as density x score step x 100 to match Participants (%).

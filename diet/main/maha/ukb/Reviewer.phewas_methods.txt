@@ -1,0 +1,4 @@
+Raw P preserved; BH FDR computed separately for each score.
+Main and supplementary PheWAS plots cap -log10(P) at 50 for display only.
+P=0 is retained in p_raw and flagged; logp uses .Machine$double.xmin for underflow.
+Input signature: 19989d9cd40d1a4c0f926dd8fca94558

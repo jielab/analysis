@@ -1,0 +1,9 @@
+2026-11-26T01:11:30+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE score/stroke_comparison
+UKB common M2 cohort: 191494; events: 3788
+Fitting dose
+Fitting medi24
+Fitting mind
+Fitting dash
+Saved UKB overall stroke results

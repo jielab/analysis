@@ -1,0 +1,14 @@
+完成：/work/sph-huangj/analysis/flt/main/results/01protein/limma；同向显著食物-蛋白配对数：9；去重蛋白数：9
+双层效应散点图已保存：/work/sph-huangj/analysis/flt/main/results/01protein/limma/effect_strip
+Linear regression: Butter on bread x 9 proteins
+Linear regression: Total salad vegetable x 9 proteins
+Linear regression: Chicken x 9 proteins
+Fig.4b完成：/work/sph-huangj/analysis/flt/main/results/01protein/linear
+Cox sleep_disorder: 6/6
+Cox及森林图完成：/work/sph-huangj/analysis/flt/main/results/01protein/cox/G717
+G824: 无第2步线性回归FDR显著蛋白，跳过cox
+Cox depression: 3/3
+Cox及森林图完成：/work/sph-huangj/analysis/flt/main/results/01protein/cox/G732
+G717: 无第3步Cox FDR显著蛋白，跳过rcs
+G824: 无第3步Cox FDR显著蛋白，跳过rcs
+G732: 无第3步Cox FDR显著蛋白，跳过rcs

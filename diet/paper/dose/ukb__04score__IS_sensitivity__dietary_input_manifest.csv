@@ -1,0 +1,4 @@
+"input","path","md5"
+"nutrients","/work/sph-huangj/analysis/diet/.cache/ukb/dose/Rdata/diet.fudan.rds","d8cac84f785a3e12fc48404d0ce510dc"
+"food_groups","/work/sph-huangj/analysis/diet/dose/ukb/02foodwas/dat.group.rds","0c2661c923caa2e65502dc5339d585ab"
+"food_map","/work/sph-huangj/analysis/diet/dose/ukb/02foodwas/food_group_map.csv","923efc56931dc0e9ce396260210a00dd"

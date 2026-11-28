@@ -1,0 +1,51 @@
+2026-11-25T22:02:48+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE nhanes/stroke
+MIND / aMED: 1999-2000
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2001-2002
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2003-2004
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2005-2006
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2007-2008
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2009-2010
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2011-2012
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2013-2014
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2015-2016
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2017-2018
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+M2: day1_1999_2016
+M2: day1_2003_2016
+M2: day1_2005_2016
+M2: day1_2007_2016
+M2: day1_1999_2018
+M2: day1_2003_2018
+M2: day1_2005_2018
+M2: day1_2007_2018
+M2: two_day_2003_2016
+M2: two_day_2005_2016
+M2: two_day_2007_2016
+M2: two_day_2003_2018
+M2: two_day_2005_2018
+M2: two_day_2007_2018
+DOSE nhanes/plot
+DOSE nhanes/flow
+Saved: /work/sph-huangj/analysis/diet/dose/nhanes/Sfig1_nhanes_primary.png 
+Flow: 60709 - 25708 - 45 - 95 = 34861 ; cases: 1380 
+Saved actual coefficients and SEs: /work/sph-huangj/analysis/diet/dose/nhanes/effects.tsv

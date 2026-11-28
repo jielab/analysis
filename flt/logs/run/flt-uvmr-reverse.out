@@ -1,0 +1,48 @@
+[RUNNING] flt-uvmr-reverse
+[DONE] flt-uvmr-reverse
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u12a>
+Subject: Job 4440926: <flt-uvmr-reverse> in cluster <qmhpc> Done
+
+Job <flt-uvmr-reverse> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:22 2026
+Job was executed on host(s) <8*b08u12a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 00:36:14 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Thu Nov 26 00:36:14 2026
+Terminated at Thu Nov 26 00:58:31 2026
+Results reported at Thu Nov 26 00:58:31 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/jobs/run/plan.json flt-uvmr-reverse
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10225.20 sec.
+    Max Memory :                                 28893 MB
+    Average Memory :                             22197.16 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   2 MB
+    Max Processes :                              12
+    Max Threads :                                14
+    Run time :                                   1336 sec.
+    Turnaround time :                            5109 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/logs/run/flt-uvmr-reverse.err> for stderr output of this job.
+

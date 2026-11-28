@@ -1,0 +1,48 @@
+[RUNNING] flt-ldsc-input-6
+[DONE] flt-ldsc-input-6
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u12a>
+Subject: Job 4440934: <flt-ldsc-input-6> in cluster <qmhpc> Done
+
+Job <flt-ldsc-input-6> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:30 2026
+Job was executed on host(s) <2*b08u12a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:32 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Wed Nov 25 23:33:32 2026
+Terminated at Wed Nov 25 23:53:01 2026
+Results reported at Wed Nov 25 23:53:01 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/jobs/run/plan.json flt-ldsc-input-6
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1156.06 sec.
+    Max Memory :                                 3465 MB
+    Average Memory :                             2417.91 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                6
+    Run time :                                   1166 sec.
+    Turnaround time :                            1171 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/logs/run/flt-ldsc-input-6.err> for stderr output of this job.
+

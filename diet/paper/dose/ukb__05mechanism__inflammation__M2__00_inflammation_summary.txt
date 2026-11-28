@@ -1,0 +1,24 @@
+    bc_NEUT           bc_PLT          bc_MONO         bc_LYMPH      
+ Min.   : 0.000   Min.   :   0.3   Min.   : 0.00   Min.   :  0.000  
+ 1st Qu.: 3.200   1st Qu.: 210.3   1st Qu.: 0.36   1st Qu.:  1.500  
+ Median : 3.950   Median : 244.0   Median : 0.44   Median :  1.840  
+ Mean   : 4.134   Mean   : 249.0   Mean   : 0.47   Mean   :  1.935  
+ 3rd Qu.: 4.840   3rd Qu.: 282.4   3rd Qu.: 0.55   3rd Qu.:  2.240  
+ Max.   :18.810   Max.   :1488.0   Max.   :34.26   Max.   :127.140  
+ NA's   :34883    NA's   :34883    NA's   :34883   NA's   :34883    
+     bb_CRP            LMR               SII               NLR        
+ Min.   : 0.080   Min.   :  0.020   Min.   :    0.0   Min.   : 0.000  
+ 1st Qu.: 0.590   1st Qu.:  3.250   1st Qu.:  385.5   1st Qu.: 1.663  
+ Median : 1.170   Median :  4.172   Median :  517.7   Median : 2.125  
+ Mean   : 2.312   Mean   :  4.576   Mean   :  583.7   Mean   : 2.334  
+ 3rd Qu.: 2.420   3rd Qu.:  5.333   3rd Qu.:  698.5   3rd Qu.: 2.744  
+ Max.   :79.960   Max.   :563.500   Max.   :21991.5   Max.   :94.750  
+ NA's   :34883    NA's   :34928     NA's   :34884     NA's   :34884   
+      PLR           
+ Min.   :    0.144  
+ 1st Qu.:  105.625  
+ Median :  132.353  
+ Mean   :  141.503  
+ 3rd Qu.:  165.931  
+ Max.   :20590.000  
+ NA's   :34884      

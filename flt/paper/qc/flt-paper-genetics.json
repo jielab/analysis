@@ -1,0 +1,6 @@
+{
+  "detail": "Command '['/work/sph-huangj/scripts/0f/0os.r.sh', '--vanilla', '/work/sph-huangj/scripts/flt/f/paper_genetics.R']' returned non-zero exit status 1.",
+  "plan": "/work/sph-huangj/analysis/flt/paper/jobs/run/plan.json",
+  "stage": "genetics",
+  "status": "failed"
+}

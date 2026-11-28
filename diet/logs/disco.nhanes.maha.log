@@ -1,0 +1,428 @@
+2026-11-23T00:36:16+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R nhanes disco
+
+[NHANES INPUT CHECK] Required raw inputs:
+  OK: 1999-2000/DEMO -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Demographics/DEMO.xpt
+  OK: 1999-2000/BMX -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Examination/BMX.xpt
+  OK: 1999-2000/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXTOT.xpt
+  OK: 1999-2000/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXIFF.xpt
+  OK: 1999-2000/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXFMT.xpt
+  OK: 2001-2002/DEMO -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Demographics/DEMO_B.xpt
+  OK: 2001-2002/BMX -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Examination/BMX_B.xpt
+  OK: 2001-2002/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXTOT_B.xpt
+  OK: 2001-2002/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXIFF_B.xpt
+  OK: 2001-2002/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXFMT_B.xpt
+  OK: 2003-2004/DEMO -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Demographics/DEMO_C.xpt
+  OK: 2003-2004/BMX -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Examination/BMX_C.xpt
+  OK: 2003-2004/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR1TOT_C.xpt
+  OK: 2003-2004/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR1IFF_C.xpt
+  OK: 2003-2004/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DRXFCD_C.xpt
+  OK: 2005-2006/DEMO -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Demographics/DEMO_D.xpt
+  OK: 2005-2006/BMX -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Examination/BMX_D.xpt
+  OK: 2005-2006/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR1TOT_D.xpt
+  OK: 2005-2006/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR1IFF_D.xpt
+  OK: 2005-2006/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DRXFCD_D.xpt
+  OK: 2007-2008/DEMO -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Demographics/DEMO_E.xpt
+  OK: 2007-2008/BMX -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Examination/BMX_E.xpt
+  OK: 2007-2008/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR1TOT_E.xpt
+  OK: 2007-2008/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR1IFF_E.xpt
+  OK: 2007-2008/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DRXFCD_E.xpt
+  OK: 2009-2010/DEMO -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Demographics/DEMO_F.xpt
+  OK: 2009-2010/BMX -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Examination/BMX_F.xpt
+  OK: 2009-2010/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR1TOT_F.xpt
+  OK: 2009-2010/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR1IFF_F.xpt
+  OK: 2009-2010/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DRXFCD_F.xpt
+  OK: 2011-2012/DEMO -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Demographics/DEMO_G.xpt
+  OK: 2011-2012/BMX -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Examination/BMX_G.xpt
+  OK: 2011-2012/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR1TOT_G.xpt
+  OK: 2011-2012/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR1IFF_G.xpt
+  OK: 2011-2012/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DRXFCD_G.xpt
+  OK: 2013-2014/DEMO -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Demographics/DEMO_H.xpt
+  OK: 2013-2014/BMX -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Examination/BMX_H.xpt
+  OK: 2013-2014/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR1TOT_H.xpt
+  OK: 2013-2014/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR1IFF_H.xpt
+  OK: 2013-2014/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DRXFCD_H.xpt
+  OK: 2015-2016/DEMO -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Demographics/DEMO_I.xpt
+  OK: 2015-2016/BMX -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Examination/BMX_I.xpt
+  OK: 2015-2016/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR1TOT_I.xpt
+  OK: 2015-2016/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR1IFF_I.xpt
+  OK: 2015-2016/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DRXFCD_I.xpt
+  OK: 2017-2020/DEMO -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Demographics/P_DEMO.xpt
+  OK: 2017-2020/BMX -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Examination/P_BMX.xpt
+  OK: 2017-2020/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR1TOT.xpt
+  OK: 2017-2020/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR1IFF.xpt
+  OK: 2017-2020/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DRXFCD.xpt
+  OK: 2021-2023/DEMO -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Demographics/DEMO_L.xpt
+  OK: 2021-2023/BMX -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Examination/BMX_L.xpt
+  OK: 2021-2023/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR1TOT_L.xpt
+  OK: 2021-2023/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR1IFF_L.xpt
+  OK: 2021-2023/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DRXFCD_L.xpt
+  OK: 2017-2018/DEMO -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Demographics/DEMO_J.xpt
+  OK: 2017-2018/BMX -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Examination/BMX_J.xpt
+  OK: 2017-2018/DR1TOT -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR1TOT_J.xpt
+  OK: 2017-2018/DR1IFF -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR1IFF_J.xpt
+  OK: 2017-2018/DRXFCD -> /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DRXFCD_J.xpt
+[NHANES INPUT CHECK] PASS
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 1999-2000
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Demographics/DEMO.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXTOT.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXFMT.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Dietary/DRXIFF.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Examination/BMX.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Examination/BPX.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/DIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/MCQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/BPQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/ALQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/SMQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/PAQ.xpt
+missing 1999-2000 : SLQ [SLQ]
+missing 1999-2000 : DPQ [DPQ]
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/KIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/HIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Questionnaire/OCQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Laboratory/LAB10.xpt
+missing 1999-2000 : GLU [GLU]
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Laboratory/LAB13.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Laboratory/LAB13.xpt
+read /work/sph-huangj/phe/nhanes/raw/1999-2000/Laboratory/LAB13AM.xpt
+missing 1999-2000 : BIOPRO [BIOPRO]
+missing 1999-2000 : ALB_CR [ALB_CR]
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2001-2002
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Demographics/DEMO_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXTOT_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXFMT_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Dietary/DRXIFF_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Examination/BMX_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Examination/BPX_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/DIQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/MCQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/BPQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/ALQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/SMQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/PAQ_B.xpt
+missing 2001-2002 : SLQ [SLQ_B]
+missing 2001-2002 : DPQ [DPQ_B]
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/KIQ_U_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/HIQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Questionnaire/OCQ_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Laboratory/L10_B.xpt
+missing 2001-2002 : GLU [GLU_B]
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Laboratory/L13_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Laboratory/L13_B.xpt
+read /work/sph-huangj/phe/nhanes/raw/2001-2002/Laboratory/L13AM_B.xpt
+missing 2001-2002 : BIOPRO [BIOPRO_B]
+missing 2001-2002 : ALB_CR [ALB_CR_B]
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2003-2004
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Demographics/DEMO_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR1TOT_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR2TOT_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DRXFCD_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR1IFF_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Dietary/DR2IFF_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Examination/BMX_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Examination/BPX_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/DIQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/MCQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/BPQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/ALQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/SMQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/PAQ_C.xpt
+missing 2003-2004 : SLQ [SLQ_C]
+missing 2003-2004 : DPQ [DPQ_C]
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/KIQ_U_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/HIQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Questionnaire/OCQ_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Laboratory/L10_C.xpt
+missing 2003-2004 : GLU [GLU_C]
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Laboratory/L13_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Laboratory/L13_C.xpt
+read /work/sph-huangj/phe/nhanes/raw/2003-2004/Laboratory/L13AM_C.xpt
+missing 2003-2004 : BIOPRO [BIOPRO_C]
+missing 2003-2004 : ALB_CR [ALB_CR_C]
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2005-2006
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Demographics/DEMO_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR1TOT_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR2TOT_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DRXFCD_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR1IFF_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Dietary/DR2IFF_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Examination/BMX_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Examination/BPX_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/DIQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/MCQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/BPQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/ALQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/SMQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/PAQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/SLQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/DPQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/KIQ_U_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/HIQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Questionnaire/OCQ_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/GHB_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/GLU_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/HDL_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/TCHOL_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/TRIGLY_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/BIOPRO_D.xpt
+read /work/sph-huangj/phe/nhanes/raw/2005-2006/Laboratory/ALB_CR_D.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2007-2008
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Demographics/DEMO_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR1TOT_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR2TOT_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DRXFCD_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR1IFF_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Dietary/DR2IFF_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Examination/BMX_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Examination/BPX_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/DIQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/MCQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/BPQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/ALQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/SMQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/PAQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/SLQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/DPQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/KIQ_U_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/HIQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Questionnaire/OCQ_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/GHB_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/GLU_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/HDL_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/TCHOL_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/TRIGLY_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/BIOPRO_E.xpt
+read /work/sph-huangj/phe/nhanes/raw/2007-2008/Laboratory/ALB_CR_E.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2009-2010
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Demographics/DEMO_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR1TOT_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR2TOT_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DRXFCD_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR1IFF_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Dietary/DR2IFF_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Examination/BMX_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Examination/BPX_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/DIQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/MCQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/BPQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/ALQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/SMQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/PAQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/SLQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/DPQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/KIQ_U_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/HIQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Questionnaire/OCQ_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/GHB_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/GLU_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/HDL_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/TCHOL_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/TRIGLY_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/BIOPRO_F.xpt
+read /work/sph-huangj/phe/nhanes/raw/2009-2010/Laboratory/ALB_CR_F.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2011-2012
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Demographics/DEMO_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR1TOT_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR2TOT_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DRXFCD_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR1IFF_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Dietary/DR2IFF_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Examination/BMX_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Examination/BPX_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/DIQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/MCQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/BPQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/ALQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/SMQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/PAQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/SLQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/DPQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/KIQ_U_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/HIQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Questionnaire/OCQ_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/GHB_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/GLU_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/HDL_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/TCHOL_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/TRIGLY_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/BIOPRO_G.xpt
+read /work/sph-huangj/phe/nhanes/raw/2011-2012/Laboratory/ALB_CR_G.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2013-2014
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Demographics/DEMO_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR1TOT_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR2TOT_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DRXFCD_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR1IFF_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Dietary/DR2IFF_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Examination/BMX_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Examination/BPX_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/DIQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/MCQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/BPQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/ALQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/SMQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/PAQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/SLQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/DPQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/KIQ_U_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/HIQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Questionnaire/OCQ_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/GHB_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/GLU_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/HDL_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/TCHOL_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/TRIGLY_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/BIOPRO_H.xpt
+read /work/sph-huangj/phe/nhanes/raw/2013-2014/Laboratory/ALB_CR_H.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2015-2016
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Demographics/DEMO_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR1TOT_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR2TOT_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DRXFCD_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR1IFF_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Dietary/DR2IFF_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Examination/BMX_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Examination/BPX_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/DIQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/MCQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/BPQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/ALQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/SMQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/PAQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/SLQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/DPQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/KIQ_U_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/HIQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Questionnaire/OCQ_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/GHB_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/GLU_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/HDL_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/TCHOL_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/TRIGLY_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/BIOPRO_I.xpt
+read /work/sph-huangj/phe/nhanes/raw/2015-2016/Laboratory/ALB_CR_I.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2017-2018
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Demographics/DEMO_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR1TOT_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR2TOT_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DRXFCD_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR1IFF_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Dietary/DR2IFF_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Examination/BMX_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Examination/BPX_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/DIQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/MCQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/BPQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/ALQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/SMQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/PAQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/SLQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/DPQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/KIQ_U_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/HIQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Questionnaire/OCQ_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/GHB_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/GLU_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/HDL_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/TCHOL_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/TRIGLY_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/BIOPRO_J.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2018/Laboratory/ALB_CR_J.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2017-2020
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Demographics/P_DEMO.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR1TOT.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR2TOT.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DRXFCD.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR1IFF.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Dietary/P_DR2IFF.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Examination/P_BMX.xpt
+missing 2017-2020 : BPX [P_BPX]
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_DIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_MCQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_BPQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_ALQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_SMQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_PAQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_SLQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_DPQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_KIQ_U.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_HIQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Questionnaire/P_OCQ.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_GHB.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_GLU.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_HDL.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_TCHOL.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_TRIGLY.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_BIOPRO.xpt
+read /work/sph-huangj/phe/nhanes/raw/2017-2020/Laboratory/P_ALB_CR.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Read cycle: 2021-2023
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Demographics/DEMO_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR1TOT_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR2TOT_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DRXFCD_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR1IFF_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Dietary/DR2IFF_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Examination/BMX_L.xpt
+missing 2021-2023 : BPX [BPX_L]
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/DIQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/MCQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/BPQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/ALQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/SMQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/PAQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/SLQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/DPQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/KIQ_U_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/HIQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Questionnaire/OCQ_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/GHB_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/GLU_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/HDL_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/TCHOL_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/TRIGLY_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/BIOPRO_L.xpt
+read /work/sph-huangj/phe/nhanes/raw/2021-2023/Laboratory/ALB_CR_L.xpt
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Diet score construction: observed repeated-recall mean
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Wrote MAHA score part: /work/sph-huangj/analysis/diet/.cache/disco/nhanes.maha.rds (128809 survey-release records)
+MAHA nhanes disco complete

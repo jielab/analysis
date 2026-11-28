@@ -1,0 +1,18 @@
+2026-11-25T22:35:17+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/pathway_plot
+# A tibble: 12 x 4
+   Database_group        Term                             Count Adjusted.P.value
+   <chr>                 <chr>                            <int>            <dbl>
+ 1 KEGG_Human            Cytokine-cytokine receptor inte~    22         7.20e-11
+ 2 KEGG_Human            Viral protein interaction with ~     9         1.59e- 4
+ 3 Reactome              Immune System R-HSA-168256          41         4.64e- 4
+ 4 Reactome              Post-translational Protein Phos~     9         7.44e- 4
+ 5 Reactome              Regulation Of IGF Transport And~     9         1.73e- 3
+ 6 Reactome              Immunoregulatory Interactions B~     8         1.13e- 2
+ 7 GO_Biological_Process Positive Regulation Of MAPK Cas~    13         3.89e- 3
+ 8 GO_Biological_Process Positive Regulation Of ERK1 And~    10         3.89e- 3
+ 9 GO_Biological_Process Negative Regulation Of Cell Pop~    14         3.89e- 3
+10 GO_Biological_Process Negative Regulation Of T Cell A~     6         3.89e- 3
+11 GO_Biological_Process Defense Response To Bacterium (~    10         7.64e- 3
+12 GO_Biological_Process Negative Regulation Of T Cell P~     5         9.64e- 3

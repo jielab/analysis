@@ -1,0 +1,7 @@
+2026-11-25T12:22:16+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE foodwas/trend
+Outcome: cvd_stroke_itrend_P complete
+ - food groups: 38 
+ - M2 P-trend <0.05: 8 
+ - output: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/Group_trend_cvd_stroke_i.csv 

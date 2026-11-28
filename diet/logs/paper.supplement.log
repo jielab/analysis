@@ -1,0 +1,28 @@
+2026-11-26T01:13:00+00:00
+/work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/f/paper_tables.py --output /work/sph-huangj/analysis/diet --study all --scope all
+/work/sph-huangj/analysis/diet/diet.paper/maha/MAHA.Supplementary.Tables.xlsx
+/work/sph-huangj/analysis/diet/diet.paper/dose/DOSE.Supplementary.Tables.xlsx
+Publication inputs pending:
+Table S1: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S7: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S8: diet.paper/maha/Fig2.ukb.precision.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig2.ukb.precision.out.xlsx'
+Table S8: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S9: diet.paper/maha/Fig2.ukb.precision.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig2.ukb.precision.out.xlsx'
+Table S9: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S9: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Table S9: diet.paper/maha/Fig3.nhanes.mortality.out.xlsx [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/diet.paper/maha/Fig3.nhanes.mortality.out.xlsx'
+Fig2.ukb.precision.png
+Fig3.nhanes.mortality.png
+ukb: pending_or_partial
+nhanes: pending_or_partial
+FigS2
+FigS3
+FigS4
+FigS5
+FigS8
+FigS9
+FigS10
+Table S15: dose/ukb/06signature/metabolite/association_mediation/metabolite_signature_IS_continuous.csv [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/dose/ukb/06signature/metabolite/association_mediation/metabolite_signature_IS_continuous.csv'
+Table S15: dose/ukb/06signature/metabolite/association_mediation/metabolite_signature_IS_quartiles.csv [Errno 2] No such file or directory: '/work/sph-huangj/analysis/diet/dose/ukb/06signature/metabolite/association_mediation/metabolite_signature_IS_quartiles.csv'
+Fig5.DOSE.mechanisms.png
+Fig5: input_missing a-j; k

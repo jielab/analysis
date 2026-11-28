@@ -1,0 +1,5 @@
+"nutrient","field","N","unmatched_ID","missing","mean","SD","model_variable","scaling"
+"sodium","w.p26052",191494,0,0,1931.7652724055,736.81037782578,"nutrient.sodium","One SD (nuisance covariate only)"
+"potassium","w.p26024",191494,0,0,3640.8633791695,1019.38023554423,"nutrient.potassium","One SD (nuisance covariate only)"
+"fiber","w.p26017",191494,0,0,17.7239427405006,6.43881090089584,"nutrient.fiber","One SD (nuisance covariate only)"
+"saturated_fat","w.p26014",191494,0,0,26.6168844655665,11.2907905181667,"nutrient.saturated_fat","One SD (nuisance covariate only)"

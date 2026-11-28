@@ -1,0 +1,2 @@
+trait1	trait2	method	build	n_tested	varZ1	varZ2	rho_null_Z	n_null_both	p_cut	n_hits	n_concordant	pct_concordant	n_P_lt_5e8	n_p_capped_at_1	n_FUMA	n_FUMA_P_floor
+G732	mdd_2025	PLACO	GRCh38	5944013	1.15174953139116	1.84760598159705	-0.00816113502231432	5884344	1e-05	3145	1161	36.9157392686805	873	0	5944013	0

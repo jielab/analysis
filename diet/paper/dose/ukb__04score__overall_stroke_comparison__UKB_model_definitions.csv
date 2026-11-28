@@ -1,0 +1,5 @@
+"Diet","Q0","Q25","Q50","Q75","Q100","SD","Covariates"
+"dose",0,2,3,4.5,9,1.63624839452648,"age + sex.b + ethnic.c3 + edu.c + tdi + energy.kJ + smoke.c + days_pa_mod.c + bmi + fhist_stroke + primary_ahtn + t2dm"
+"medi24",0,4.5,5.66666666666667,6.77777777777778,12.3333333333333,1.65526616151215,"age + sex.b + ethnic.c3 + edu.c + tdi + energy.kJ + smoke.c + days_pa_mod.c + bmi + fhist_stroke + primary_ahtn + t2dm"
+"mind",0,4.5,6,7.5,14,1.93672462503282,"age + sex.b + ethnic.c3 + edu.c + tdi + energy.kJ + smoke.c + days_pa_mod.c + bmi + fhist_stroke + primary_ahtn + t2dm"
+"dash",8,22,25,28,39,4.54622231144058,"age + sex.b + ethnic.c3 + edu.c + tdi + energy.kJ + smoke.c + days_pa_mod.c + bmi + fhist_stroke + primary_ahtn + t2dm + alcohol.c"

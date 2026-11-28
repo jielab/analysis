@@ -1,0 +1,65 @@
+Loading required package: R.oo
+Loading required package: R.methodsS3
+R.methodsS3 v1.8.2 (2022-06-13 22:00:14 UTC) successfully loaded. See ?R.methodsS3 for help.
+R.oo v1.27.1 (2025-05-02 21:00:05 UTC) successfully loaded. See ?R.oo for help.
+
+Attaching package: 'R.oo'
+
+The following object is masked from 'package:R.methodsS3':
+
+    throw
+
+The following objects are masked from 'package:methods':
+
+    getClasses, getMethods
+
+The following objects are masked from 'package:base':
+
+    attach, detach, load, save
+
+R.utils v2.13.0 (2025-02-24 21:20:02 UTC) successfully loaded. See ?R.utils for help.
+
+Attaching package: 'R.utils'
+
+The following object is masked from 'package:utils':
+
+    timestamp
+
+The following objects are masked from 'package:base':
+
+    cat, commandArgs, getOption, isOpen, nullfile, parse, use, warnings
+
+There were 23 warnings (use warnings() to see them)
+
+HDL: High-definition likelihood inference of genetic correlations and heritabilities (HDL)
+Version 1.4.3 (2026-03-15) installed
+Author: Zheng Ning, Xia Shen
+Maintainer: Ao Lan <lanao@mail2.sysu.edu.cn>, Yuying Li <yuying.li@ki.se>, Zheng Ning <zheng.ning@ki.se>
+
+Tutorial: https://github.com/zhenin/HDL
+
+Use citation("HDL") to know how to cite this work.
+
+G867：保留 1199455 个 SNP
+G872：保留 1174398 个 SNP
+G856：保留 1199533 个 SNP
+G778：保留 1199526 个 SNP
+G760：保留 1173965 个 SNP
+G784：保留 1199464 个 SNP
+G689：保留 1199489 个 SNP
+G733：保留 1199512 个 SNP
+G828：保留 1198928 个 SNP
+G827：保留 1174544 个 SNP
+G731：保留 1199482 个 SNP
+G812：保留 1199473 个 SNP
+G728：保留 1199539 个 SNP
+G725：保留 1174447 个 SNP
+G765：保留 1199523 个 SNP
+G834：保留 1199497 个 SNP
+G757：保留 1199485 个 SNP
+G814：保留 1199532 个 SNP
+G804：保留 1173904 个 SNP
+G712：保留 1199495 个 SNP
+G771：保留 1199534 个 SNP
+G861：保留 1199538 个 SNP
+G852：保留 1172912 个 SNP

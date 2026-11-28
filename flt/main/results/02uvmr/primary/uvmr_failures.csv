@@ -1,0 +1,52 @@
+trait1_key,trait2_key,direction,exposure_key,outcome_key,pair_id,family,stage,exposure,outcome,exposure_group,outcome_group,n_significant,n_clumped,n_fpass,n_matched,n_mr,status,message
+flt/G710,brain/dementia_r13,forward,flt/G710,brain/dementia_r13,24,brain/dementia_r13,uvmr,G710,dementia_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G713,brain/dementia_r13,forward,flt/G713,brain/dementia_r13,27,brain/dementia_r13,uvmr,G713,dementia_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G839,brain/dementia_r13,forward,flt/G839,brain/dementia_r13,148,brain/dementia_r13,uvmr,G839,dementia_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G844,brain/dementia_r13,forward,flt/G844,brain/dementia_r13,153,brain/dementia_r13,uvmr,G844,dementia_r13,flt,brain,202,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G858,brain/dementia_r13,forward,flt/G858,brain/dementia_r13,167,brain/dementia_r13,uvmr,G858,dementia_r13,flt,brain,1,1,1,1,0,failed,No SNPs remain after allele harmonisation.
+flt/G866,brain/dementia_r13,forward,flt/G866,brain/dementia_r13,175,brain/dementia_r13,uvmr,G866,dementia_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G871,brain/dementia_r13,forward,flt/G871,brain/dementia_r13,180,brain/dementia_r13,uvmr,G871,dementia_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G710,brain/anystroke_eur,forward,flt/G710,brain/anystroke_eur,206,brain/anystroke_eur,uvmr,G710,anystroke_eur,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G713,brain/anystroke_eur,forward,flt/G713,brain/anystroke_eur,209,brain/anystroke_eur,uvmr,G713,anystroke_eur,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G715,brain/anystroke_eur,forward,flt/G715,brain/anystroke_eur,211,brain/anystroke_eur,uvmr,G715,anystroke_eur,flt,brain,26,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G839,brain/anystroke_eur,forward,flt/G839,brain/anystroke_eur,330,brain/anystroke_eur,uvmr,G839,anystroke_eur,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G844,brain/anystroke_eur,forward,flt/G844,brain/anystroke_eur,335,brain/anystroke_eur,uvmr,G844,anystroke_eur,flt,brain,202,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G858,brain/anystroke_eur,forward,flt/G858,brain/anystroke_eur,349,brain/anystroke_eur,uvmr,G858,anystroke_eur,flt,brain,1,1,1,1,0,failed,No SNPs remain after allele harmonisation.
+flt/G866,brain/anystroke_eur,forward,flt/G866,brain/anystroke_eur,357,brain/anystroke_eur,uvmr,G866,anystroke_eur,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G869,brain/anystroke_eur,forward,flt/G869,brain/anystroke_eur,360,brain/anystroke_eur,uvmr,G869,anystroke_eur,flt,brain,34,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G871,brain/anystroke_eur,forward,flt/G871,brain/anystroke_eur,362,brain/anystroke_eur,uvmr,G871,anystroke_eur,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G710,brain/sleep_disorder_r13,forward,flt/G710,brain/sleep_disorder_r13,388,brain/sleep_disorder_r13,uvmr,G710,sleep_disorder_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G713,brain/sleep_disorder_r13,forward,flt/G713,brain/sleep_disorder_r13,391,brain/sleep_disorder_r13,uvmr,G713,sleep_disorder_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G839,brain/sleep_disorder_r13,forward,flt/G839,brain/sleep_disorder_r13,512,brain/sleep_disorder_r13,uvmr,G839,sleep_disorder_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G844,brain/sleep_disorder_r13,forward,flt/G844,brain/sleep_disorder_r13,517,brain/sleep_disorder_r13,uvmr,G844,sleep_disorder_r13,flt,brain,202,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G858,brain/sleep_disorder_r13,forward,flt/G858,brain/sleep_disorder_r13,531,brain/sleep_disorder_r13,uvmr,G858,sleep_disorder_r13,flt,brain,1,1,1,1,0,failed,No SNPs remain after allele harmonisation.
+flt/G866,brain/sleep_disorder_r13,forward,flt/G866,brain/sleep_disorder_r13,539,brain/sleep_disorder_r13,uvmr,G866,sleep_disorder_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G871,brain/sleep_disorder_r13,forward,flt/G871,brain/sleep_disorder_r13,544,brain/sleep_disorder_r13,uvmr,G871,sleep_disorder_r13,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G710,brain/mdd_2025,forward,flt/G710,brain/mdd_2025,570,brain/mdd_2025,uvmr,G710,mdd_2025,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G713,brain/mdd_2025,forward,flt/G713,brain/mdd_2025,573,brain/mdd_2025,uvmr,G713,mdd_2025,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G715,brain/mdd_2025,forward,flt/G715,brain/mdd_2025,575,brain/mdd_2025,uvmr,G715,mdd_2025,flt,brain,26,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G736,brain/mdd_2025,forward,flt/G736,brain/mdd_2025,596,brain/mdd_2025,uvmr,G736,mdd_2025,flt,brain,12,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G839,brain/mdd_2025,forward,flt/G839,brain/mdd_2025,694,brain/mdd_2025,uvmr,G839,mdd_2025,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G844,brain/mdd_2025,forward,flt/G844,brain/mdd_2025,699,brain/mdd_2025,uvmr,G844,mdd_2025,flt,brain,202,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G858,brain/mdd_2025,forward,flt/G858,brain/mdd_2025,713,brain/mdd_2025,uvmr,G858,mdd_2025,flt,brain,1,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G866,brain/mdd_2025,forward,flt/G866,brain/mdd_2025,721,brain/mdd_2025,uvmr,G866,mdd_2025,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G869,brain/mdd_2025,forward,flt/G869,brain/mdd_2025,724,brain/mdd_2025,uvmr,G869,mdd_2025,flt,brain,34,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G871,brain/mdd_2025,forward,flt/G871,brain/mdd_2025,726,brain/mdd_2025,uvmr,G871,mdd_2025,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G710,brain/anxiety_2026,forward,flt/G710,brain/anxiety_2026,752,brain/anxiety_2026,uvmr,G710,anxiety_2026,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G713,brain/anxiety_2026,forward,flt/G713,brain/anxiety_2026,755,brain/anxiety_2026,uvmr,G713,anxiety_2026,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G715,brain/anxiety_2026,forward,flt/G715,brain/anxiety_2026,757,brain/anxiety_2026,uvmr,G715,anxiety_2026,flt,brain,26,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G839,brain/anxiety_2026,forward,flt/G839,brain/anxiety_2026,876,brain/anxiety_2026,uvmr,G839,anxiety_2026,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G844,brain/anxiety_2026,forward,flt/G844,brain/anxiety_2026,881,brain/anxiety_2026,uvmr,G844,anxiety_2026,flt,brain,202,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G858,brain/anxiety_2026,forward,flt/G858,brain/anxiety_2026,895,brain/anxiety_2026,uvmr,G858,anxiety_2026,flt,brain,1,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G866,brain/anxiety_2026,forward,flt/G866,brain/anxiety_2026,903,brain/anxiety_2026,uvmr,G866,anxiety_2026,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G869,brain/anxiety_2026,forward,flt/G869,brain/anxiety_2026,906,brain/anxiety_2026,uvmr,G869,anxiety_2026,flt,brain,34,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G871,brain/anxiety_2026,forward,flt/G871,brain/anxiety_2026,908,brain/anxiety_2026,uvmr,G871,anxiety_2026,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G710,brain/edu,forward,flt/G710,brain/edu,934,brain/edu,uvmr,G710,edu,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G713,brain/edu,forward,flt/G713,brain/edu,937,brain/edu,uvmr,G713,edu,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G715,brain/edu,forward,flt/G715,brain/edu,939,brain/edu,uvmr,G715,edu,flt,brain,26,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G839,brain/edu,forward,flt/G839,brain/edu,1058,brain/edu,uvmr,G839,edu,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G844,brain/edu,forward,flt/G844,brain/edu,1063,brain/edu,uvmr,G844,edu,flt,brain,202,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G858,brain/edu,forward,flt/G858,brain/edu,1077,brain/edu,uvmr,G858,edu,flt,brain,1,1,1,1,0,failed,No SNPs remain after allele harmonisation.
+flt/G866,brain/edu,forward,flt/G866,brain/edu,1085,brain/edu,uvmr,G866,edu,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.
+flt/G869,brain/edu,forward,flt/G869,brain/edu,1088,brain/edu,uvmr,G869,edu,flt,brain,34,1,1,0,,failed,No exposure instruments matched in the outcome GWAS.
+flt/G871,brain/edu,forward,flt/G871,brain/edu,1090,brain/edu,uvmr,G871,edu,flt,brain,0,0,0,,,failed,No significant exposure SNPs at the configured P threshold.

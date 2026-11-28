@@ -1,0 +1,130 @@
+2026-11-23T00:39:49+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE nhanes/score
+NHANES food mapping: 1999-2000
+NHANES food mapping: 2001-2002
+NHANES food mapping: 2003-2004
+NHANES food mapping: 2005-2006
+NHANES food mapping: 2007-2008
+NHANES food mapping: 2009-2010
+NHANES food mapping: 2011-2012
+NHANES food mapping: 2013-2014
+NHANES food mapping: 2015-2016
+NHANES food mapping: 2017-2018
+DASH: 1999-2000
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2001-2002
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2003-2004
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2005-2006
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2007-2008
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2009-2010
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2011-2012
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2013-2014
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2015-2016
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DASH: 2017-2018
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Since no SSB code is provided, the default SSB code from 17-18 FNDDS file is used.
+Since no skim milk code is provided, the default skim milk code from 17-18 FNDDS file is used.
+Since no low-fat cheese code is provided, the default low-fat cheese code from 17-18 FNDDS file is used.
+Reminder: this DASH index uses quintiles to rank participants' food/drink serving sizes and then calculate DASH component scores, which may generate results that are specific to your study population but not comparable to other populations.
+DOSE nhanes/patterns
+MIND / aMED: 1999-2000
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2001-2002
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2003-2004
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2005-2006
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2007-2008
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2009-2010
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2011-2012
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2013-2014
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2015-2016
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+MIND / aMED: 2017-2018
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Reminder: this MED index uses medians to rank participants' food/drink serving sizes and then calculate MED component scores, which may generate results that are specific to your study population but not comparable to other populations.
+Saved outcome-free scores: /work/sph-huangj/analysis/diet/.cache/disco/nhanes.dose.rds (96766 participants)

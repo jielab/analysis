@@ -1,0 +1,44 @@
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G696-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-sleep_disorder_r13-ldsc.sumstats.gz) began at: 2026-11-25 23:59:40.845272
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G696-ldsc.sumstats.gz
+Out of 1198870 SNPs, 1176095 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.335; 1176095 remain
+Read in summary statistics [2/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-sleep_disorder_r13-ldsc.sumstats.gz
+Out of 1196496 SNPs, 1173456 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 495.843; 1173456 remain
+          
+Estimating heritability [1/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G696-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G696-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.217
+Lambda GC: 1.184
+Intercept: 0.9925 (0.0085)
+Ratio: -0.0346 (0.0394)
+Total Observed Scale h2: 0.0711 (0.0052)
+h2 Z: 13.7
+     
+Calculating genetic covariance [2/3] for traits: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G696-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-sleep_disorder_r13-ldsc.sumstats.gz
+1165691 SNPs remain after merging /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G696-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-sleep_disorder_r13-ldsc.sumstats.gz summary statistics
+Results for genetic covariance between: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G696-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-sleep_disorder_r13-ldsc.sumstats.gz
+Mean Z*Z: 0.0028
+Cross trait Intercept: -0.0061 (0.0055)
+Total Observed Scale Genetic Covariance (g_cov): 8e-04 (0.002)
+g_cov Z: 0.387
+g_cov P-value: 0.69877
+          
+Estimating heritability [3/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-sleep_disorder_r13-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-sleep_disorder_r13-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.48
+Lambda GC: 1.4096
+Intercept: 1.1052 (0.0093)
+Ratio: 0.2192 (0.0194)
+Total Observed Scale h2: 0.0385 (0.0022)
+h2 Z: 17.8
+     
+      
+Genetic Correlation Results
+Genetic Correlation between G696 and sleep_disorder_r13: 0.0146 (0.0376)
+     
+     
+LDSC finished running at 2026-11-25 23:59:59.297668
+Running LDSC for all files took 0 minutes and 18 seconds
+     

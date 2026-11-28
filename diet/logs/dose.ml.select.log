@@ -1,0 +1,38 @@
+2026-11-25T13:54:00+00:00
+/work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/dose/ml.py
+k=01/15 | add Olive_oil
+k=02/15 | add Eggs
+k=03/15 | add Legumes
+k=04/15 | add Dried_fruit
+k=05/15 | add Sweetened_beverages
+k=06/15 | add Apples_Pears
+k=07/15 | add Water
+k=08/15 | add Wine
+k=09/15 | add Green_leafy_vegetables
+k=10/15 | add Whole_grains
+k=11/15 | add Tomatoes
+k=12/15 | add Processed_meats
+k=13/15 | add Low-fat_dairy_products
+k=14/15 | add Butter
+k=15/15 | add Tea
+
+Sequential selection complete
+RankingMethod       criterion        role  k  stop_at_k stop_food  threshold
+    TotalGain DeltaLogLoss005     PRIMARY 10       11.0  Tomatoes   0.005000
+    TotalGain         MinLoss SENSITIVITY 15        NaN             0.465705
+    TotalGain           OneSE SENSITIVITY 14        NaN             0.470176
+
+Primary Delta<0.005 selected k = 10
+First sub-threshold decrease occurred when adding k=11: Tomatoes
+
+Primary selected foods:
+Olive_oil
+Eggs
+Legumes
+Dried_fruit
+Sweetened_beverages
+Apples_Pears
+Water
+Wine
+Green_leafy_vegetables
+Whole_grains

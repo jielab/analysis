@@ -1,0 +1,2 @@
+"main_cohort_N","metabolomics_file_N","overlap_N","complete_M2_N","complete_M2_events","event_percent","dose_mean","dose_SD","dose_min","dose_max","direct_metabolites_listed_N","direct_metabolites_present_N","metabolites_QC_N","transformation"
+191494,487354,186875,186875,2518,1.34742474916388,3.31034113712375,1.63616803774869,0,9,252,236,236,"log(x+1), then Z-standardization"

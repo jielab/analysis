@@ -1,0 +1,4 @@
+"Version","Label","Maximum","Step","Apple_upper","Fruit_vegetable_aggregation","Primary"
+"dose11","V1: 11 separate foods",11,1,Inf,"separate",FALSE
+"dose9","V2: 9 components, OR",9,1,Inf,"OR",FALSE
+"dose9half","V3: 9 components, half points",9,0.5,Inf,"mean of two binary criteria",TRUE

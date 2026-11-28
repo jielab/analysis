@@ -1,0 +1,52 @@
+2026-11-25T12:27:24+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE foodwas/rcs
+Outcome: cvd_stroke_iRCS: Berries 
+RCS: Citrus_fruits 
+RCS: Apples_Pears 
+RCS: Dried_fruit 
+RCS: Other_fruits 
+RCS: Green_leafy_vegetables 
+RCS: Root_vegetables 
+RCS: Tomatoes 
+RCS: Allium_vegetables 
+RCS: Other_vegetables 
+RCS: Potatoes 
+RCS: Refined_grains 
+RCS: Whole_grains 
+RCS: Legumes 
+RCS: Nuts 
+RCS: Eggs 
+RCS: High-fat_dairy_products 
+RCS: Low-fat_dairy_products 
+RCS: Red_meats 
+RCS: Processed_meats 
+RCS: Poultry 
+RCS: Fish_and_other_seafood 
+RCS: Organ_meats 
+RCS: Butter 
+RCS: Margarine 
+RCS: Olive_oil 
+RCS: Other_oil 
+RCS: Beer 
+RCS: Coffee 
+RCS: Fruit_juices 
+RCS: Liquor 
+RCS: Sweetened_beverages 
+RCS: Tea 
+RCS: Water 
+RCS: Wine 
+RCS: Pizza 
+RCS: Snacks_and_pastries 
+RCS: Fried_and_fast_foods 
+RCS complete
+ - scope: all 
+ - requested groups: 38 
+ - successful: 38 
+ - skipped: 0 
+ - errors: 0 
+ - consumer-knot fallback: 19 
+ - nonlinear P<0.05: 7 
+ - MYTH-style plots: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/RCS/myth_style 
+ - 01_plot-style plots: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/RCS/01plot_style 
+ - summary: /work/sph-huangj/analysis/diet/dose/ukb/02foodwas/group/RCS/RCS_summary.csv 

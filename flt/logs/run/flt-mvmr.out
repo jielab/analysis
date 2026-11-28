@@ -1,0 +1,223 @@
+[RUNNING] flt-mvmr
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.211912  1.936478  2.178085  2.237683
+Q-Statistic for instrument validity:
+628.8524 on 298 DF , p-value: 8.82306e-26
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic   1.98863  1.972592  2.161639  2.246848
+Q-Statistic for instrument validity:
+710.8499 on 297 DF , p-value: 6.102188e-36
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.147992  1.952035  2.221179  2.217839
+Q-Statistic for instrument validity:
+734.9937 on 297 DF , p-value: 4.704059e-39
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.640641  1.967103  2.195668  2.246284
+Q-Statistic for instrument validity:
+715.8986 on 298 DF , p-value: 2.152005e-36
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.610936  1.913093  2.094057  2.259621
+Q-Statistic for instrument validity:
+639.2239 on 299 DF , p-value: 8.056754e-27
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.956551  1.912852  2.047857  2.225073
+Q-Statistic for instrument validity:
+641.0705 on 297 DF , p-value: 2.25695e-27
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic   2.32866  1.927921  2.135943  2.074866
+Q-Statistic for instrument validity:
+1096.939 on 280 DF , p-value: 4.881849e-97
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.865884  1.912307  2.133743   2.06035
+Q-Statistic for instrument validity:
+957.8851 on 280 DF , p-value: 5.280346e-75
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.716901  1.935032  2.105061  2.003462
+Q-Statistic for instrument validity:
+1090.423 on 280 DF , p-value: 5.554693e-96
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.795706  1.927156  2.158802  2.063401
+Q-Statistic for instrument validity:
+1109.943 on 280 DF , p-value: 3.753988e-99
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.128975  1.896912  2.020838  2.062837
+Q-Statistic for instrument validity:
+1088.488 on 281 DF , p-value: 2.257635e-95
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.599077  1.865058  1.955077  2.071892
+Q-Statistic for instrument validity:
+1101.299 on 280 DF , p-value: 9.56295e-98
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.590763  1.898291  1.930387  2.082839
+Q-Statistic for instrument validity:
+962.0334 on 280 DF , p-value: 1.207754e-75
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.128038  1.889906  2.178756  2.056644
+Q-Statistic for instrument validity:
+1078.978 on 280 DF , p-value: 3.930438e-94
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.980689  1.893261  2.099749  2.057312
+Q-Statistic for instrument validity:
+1062.641 on 280 DF , p-value: 1.672293e-91
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.230712  1.856877  1.959997  2.047129
+Q-Statistic for instrument validity:
+1082.49 on 280 DF , p-value: 1.065644e-94
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.437976  2.019444  2.260776  2.220815
+Q-Statistic for instrument validity:
+742.8311 on 301 DF , p-value: 2.781285e-39
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.648269  1.859114  2.386497  2.196365
+Q-Statistic for instrument validity:
+744.0853 on 303 DF , p-value: 4.741699e-39
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.054176    1.9729  2.084528  2.197379
+Q-Statistic for instrument validity:
+750.9389 on 304 DF , p-value: 9.609834e-40
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.881092  2.009762  2.225866  2.105224
+Q-Statistic for instrument validity:
+731.2967 on 304 DF , p-value: 3.293116e-37
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.235111  1.977238  2.204792  2.126269
+Q-Statistic for instrument validity:
+709.661 on 304 DF , p-value: 1.801212e-34
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.300655  1.978788   2.34501  2.063016
+Q-Statistic for instrument validity:
+763.7891 on 306 DF , p-value: 5.037134e-41
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic   1.78722  1.958712  2.098794   2.18292
+Q-Statistic for instrument validity:
+753.2006 on 302 DF , p-value: 1.945981e-40
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  1.676097  1.948918  2.324871  2.231279
+Q-Statistic for instrument validity:
+695.8809 on 302 DF , p-value: 4.013846e-33
+
+Conditional F-statistics for instrument strength
+
+            exposure1 exposure2 exposure3 exposure4
+F-statistic  2.198194  1.951166  2.344027  2.227309
+Q-Statistic for instrument validity:
+738.6311 on 302 DF , p-value: 1.53476e-38
+[DONE] flt-mvmr
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u12a>
+Subject: Job 4440928: <flt-mvmr> in cluster <qmhpc> Done
+
+Job <flt-mvmr> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:22 2026
+Job was executed on host(s) <2*b08u12a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 00:58:40 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Thu Nov 26 00:58:40 2026
+Terminated at Thu Nov 26 01:45:41 2026
+Results reported at Thu Nov 26 01:45:41 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/jobs/run/plan.json flt-mvmr
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2641.43 sec.
+    Max Memory :                                 5765 MB
+    Average Memory :                             3342.04 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                8
+    Run time :                                   2819 sec.
+    Turnaround time :                            7939 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/logs/run/flt-mvmr.err> for stderr output of this job.
+

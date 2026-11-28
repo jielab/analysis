@@ -1,0 +1,48 @@
+[RUNNING] flt-uvmr-instruments-3
+[DONE] flt-uvmr-instruments-3
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b07u06a>
+Subject: Job 4440916: <flt-uvmr-instruments-3> in cluster <qmhpc> Done
+
+Job <flt-uvmr-instruments-3> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:16 2026
+Job was executed on host(s) <2*b07u06a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:18 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Wed Nov 25 23:33:18 2026
+Terminated at Thu Nov 26 00:36:14 2026
+Results reported at Thu Nov 26 00:36:14 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/jobs/run/plan.json flt-uvmr-instruments-3
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3711.16 sec.
+    Max Memory :                                 5963 MB
+    Average Memory :                             3268.09 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                8
+    Run time :                                   3773 sec.
+    Turnaround time :                            3778 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/logs/run/flt-uvmr-instruments-3.err> for stderr output of this job.
+

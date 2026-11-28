@@ -1,0 +1,104 @@
+[RUNNING] flt-paper-fig5
+   Position MAGMA eQTLGen GTEx_Whole_Blood SMR_Whole_Blood SMR_eQTLGen
+      <int> <int>   <int>            <int>           <int>       <int>
+1:      243    92     282               86              48           0
+  mapped magma_significant intersection union gene_tests gene_correction alpha
+1    407                26           25   408      18649      bonferroni  0.05
+  imported_terms BH_significant_terms BH_significant_clusters
+1            370                  140                      16
+  displayed_clusters
+1                 16
+                               Description Enrichment #GeneInGOAndHitList
+1             GPCRs class A rhodopsin like   4.951020                  16
+12              HDACs deacetylate histones   8.558943                  10
+158   ribonucleoprotein complex biogenesis   3.567808                  20
+173                       Deubiquitination   4.249335                  15
+177 Butyrophilin (BTN) family interactions  26.818023                   4
+184                      ribosome assembly   8.664284                   7
+187                   chromatin remodeling   2.666345                  23
+190 positive regulation of immune response   2.723061                  22
+199                             Hemostasis   2.673316                  21
+201         regulation of cell development   2.492943                  22
+           BH_q
+1   0.002943835
+12  0.002943835
+158 0.004295701
+173 0.006111700
+177 0.009232210
+184 0.010212045
+187 0.011110590
+190 0.011110590
+199 0.014924923
+201 0.022018383
+...............................................                                  tissue hit_genes enrichment_factor      P_BH
+23 Esophagus - Gastroesophageal Junction        22          1.555298 0.5054765
+34                                 Ovary        22          1.555298 0.5054765
+40      Small Intestine - Terminal Ileum        20          1.415831 0.5054765
+21                       Colon - Sigmoid        20          1.413908 0.5054765
+25                Esophagus - Muscularis        20          1.413908 0.5054765
+............................................              tissue hit_genes enrichment_factor      P_BH
+14             Liver        24          1.735400 0.2588968
+21     Parietal Lobe        23          1.663092 0.2588968
+3  Breast Epithelium        21          1.516303 0.4186373
+6       Diencephalon        21          1.516303 0.4186373
+18    Occipital Lobe        20          1.448242 0.4659443
+       reference candidate_ensembl input_symbols matched_symbols
+GTEx        GTEx               408           408             283
+ENCODE    ENCODE               408           408             278
+       unmatched_symbols reference_genes tissue_tests BH_significant
+GTEx                 125           14725           47              0
+ENCODE               130           14031           44              0
+       Bonferroni_significant
+GTEx                        0
+ENCODE                      0
+      analysis tests Bonferroni_significant BH_significant
+1     pathways 17008                      5             22
+2       GTEx54    54                     13             15
+3 GTEx_general    30                      3              3
+[DONE] flt-paper-fig5
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u12a>
+Subject: Job 4441887: <flt-paper-fig5> in cluster <qmhpc> Done
+
+Job <flt-paper-fig5> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 09:11:23 2026
+Job was executed on host(s) <b08u12a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 09:11:25 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Thu Nov 26 09:11:25 2026
+Terminated at Thu Nov 26 09:13:59 2026
+Results reported at Thu Nov 26 09:13:59 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/paper/jobs/run/plan.json flt-paper-fig5
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   140.87 sec.
+    Max Memory :                                 2187 MB
+    Average Memory :                             1009.68 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                7
+    Run time :                                   151 sec.
+    Turnaround time :                            156 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/paper/logs/run/flt-paper-fig5.err> for stderr output of this job.
+

@@ -1,0 +1,55 @@
+*******************************************************************
+* SMR (Summary-data-based Mendelian Randomization)
+* Version 1.4.3 Linux
+* Build at Sep 18 2026 17:15:03, by GCC 11.2
+* (C) 2015-present, Yang Lab, Westlake University
+* Please report bugs to Jian Yang jian.yang@westlake.edu.cn
+* MIT License
+*******************************************************************
+
+Options:
+
+Reading GWAS summary data from [/work/sph-huangj/analysis/flt/tmp/smr-input/G732.ma].
+Reading eQTL SNP information from [/work/sph-huangj/data/gwas/eqtl/gtex_v8_whole_blood/Whole_Blood/Whole_Blood.esi].
+9441097 SNPs to be included from [/work/sph-huangj/data/gwas/eqtl/gtex_v8_whole_blood/Whole_Blood/Whole_Blood.esi].
+Reading PLINK FAM file from [/work/sph-huangj/data/gen/1kg/37/openGWAS/EUR.fam].
+503 individuals to be included from [/work/sph-huangj/data/gen/1kg/37/openGWAS/EUR.fam].
+Reading PLINK BIM file from [/work/sph-huangj/data/gen/1kg/37/openGWAS/EUR.bim].
+8550156 SNPs to be included from [/work/sph-huangj/data/gen/1kg/37/openGWAS/EUR.bim].
+Checking the consistency of the alleles of each SNP between pairwise data sets (including the GWAS summary data, the eQTL summary data and the LD reference data).
+6850453 SNPs are included after allele checking. 
+Reading PLINK BED file from [/work/sph-huangj/data/gen/1kg/37/openGWAS/EUR.bed] in SNP-major format ...
+Genotype data for 503 individuals and 6850453 SNPs to be included from [/work/sph-huangj/data/gen/1kg/37/openGWAS/EUR.bed].
+Calculating allele frequencies ...
+Reading eQTL summary data...
+Reading eQTL probe information from [/work/sph-huangj/data/gwas/eqtl/gtex_v8_whole_blood/Whole_Blood/Whole_Blood.epi].
+19270 Probes to be included from [/work/sph-huangj/data/gwas/eqtl/gtex_v8_whole_blood/Whole_Blood/Whole_Blood.epi].
+Reading eQTL summary data from [/work/sph-huangj/data/gwas/eqtl/gtex_v8_whole_blood/Whole_Blood/Whole_Blood.besd].
+gflag:3
+eQTL summary data of 19270 Probes to be included from [/work/sph-huangj/data/gwas/eqtl/gtex_v8_whole_blood/Whole_Blood/Whole_Blood.besd].
+Analysis started at 23:35:58 CST on Wed Nov 25 2026. 
+Hostname: r13n45
+--bfile /work/sph-huangj/data/gen/1kg/37/openGWAS/EUR
+--gwas-summary /work/sph-huangj/analysis/flt/tmp/smr-input/G732.ma
+--beqtl-summary /work/sph-huangj/data/gwas/eqtl/gtex_v8_whole_blood/Whole_Blood/Whole_Blood
+--out /work/sph-huangj/analysis/flt/tmp/smr/Whole_Blood-G732
+--cis-wind 2000 Kb
+--peqtl-smr   5.00e-08
+--heidi-max-m 20
+--diff-freq 0.200000
+--diff-freq-prop 0.050000
+--thread-num 20
+WARNING: frequency is 'NA' in one or more rows.
+GWAS summary data of 10762892 SNPs to be included from [/work/sph-huangj/analysis/flt/tmp/smr-input/G732.ma].
+WARNING: frequency is "NA" in one or more rows.
+Checking the consistency of allele frequency of each SNP between pairwise data sets (including the GWAS summary data, the eQTL summary data and the LD reference data).
+828 SNPs (0.01% <= 5.00%) with allele frequency differences > 0.20 between any pair of the data sets are excluded from the analysis.
+
+Performing SMR analysis (SMR and HEIDI tests) for 6873 probes (with at least a cis-eQTL at p < 5.00e-08)... 
+For each probe, the analysis will only include SNPs with eQTL p-values < 1.565400e-03,
+then exclude SNPs with LD r-squared between top-SNP > 0.90 or < 0.05, and further exclude one of each pair of the remaining SNPs with LD r-squared > 0.90.
+  0%  5% 25% 75%100%Results of 6873 probes have been saved in file /work/sph-huangj/analysis/flt/tmp/smr/Whole_Blood-G732.smr.
+
+Analysis finished: Wed Nov 25 23:38:38 2026
+ 
+Computational time: 0:2:40

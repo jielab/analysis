@@ -1,0 +1,26 @@
+"Outcome","Food_liking","Cox","MR","MVMR","pval_mvmr","Cox_M2_FDR","UVMR_FDR","Exposure","Reverse_MR_P","Reverse_MR_nominal_P_lt_0.05"
+"Sleep disorders","Butter on bread","harmful","harmful","harmful",0.00219046983157338,0.00784492725746718,0.0289924573639944,"G717",0.123400081231116,FALSE
+"Sleep disorders","Coffee difference","harmful","protective","protective",0.0193973824268462,0.00257040498599269,0.0302266265982789,"G738",0.315160292381797,FALSE
+"Sleep disorders","Fizzy drinks","nonsignificant","protective","nonsignificant",0.249460168057996,0.050252552108455,1.18731415959592e-05,"G763",0.0993128265814877,FALSE
+"Sleep disorders","Porridge","protective","harmful","harmful",0.00544263553893068,0.0146966636720634,0.0302266265982789,"G815",0.1509523763695,FALSE
+"Sleep disorders","Total salad vegetable","protective","protective","protective",0.011852398490383,0.000981534165446499,0.0321075444476512,"G824",0.763248904494478,FALSE
+"Sleep disorders","Vegetables","protective","harmful","protective",0.049412209832139,0.0003211106429673,7.56577052147854e-07,"G862",0.843063465726772,FALSE
+"Depression","Alcohol","protective","protective","nonsignificant",0.377548414691369,0.018369435663524,0.0324591117819277,"G688",0.0110271455396571,TRUE
+"Depression","Bacon","nonsignificant","protective","protective",0.000182195933733253,0.684426265380326,0.0174649355391233,"G695",0.085850617370819,FALSE
+"Depression","Banana","nonsignificant","harmful","nonsignificant",0.294439591440483,0.347646501626093,0.00344575633199136,"G697",0.0785453284730387,FALSE
+"Depression","Butternut squash","protective","harmful","nonsignificant",0.992904859290392,6.25673026927107e-05,0.00772560561608805,"G718",0.0827113592723173,FALSE
+"Depression","Cabbage","protective","harmful","harmful",0.0466644841942669,0.00476705063194143,4.56635804517144e-09,"G719",0.00026955868528047,TRUE
+"Depression","Cauliflower","protective","harmful","nonsignificant",0.465923108619247,0.0150202949064433,0.00562532480936904,"G727",0.144545610958172,FALSE
+"Depression","Chicken","protective","protective","protective",0.000458139356619502,0.0355794760563642,0.0125456830744458,"G732",0.0797417678725183,FALSE
+"Depression","Fizzy drinks","harmful","protective","nonsignificant",0.130909199998556,0.000254729272572184,0.0029563707760426,"G763",0.0245368444893115,TRUE
+"Depression","Fruit juice","nonsignificant","protective","nonsignificant",0.0504239664482782,0.347646501626093,0.00268578199056459,"G768",0.00588614014772541,TRUE
+"Depression","Soy milk","nonsignificant","harmful","nonsignificant",0.153864705570915,0.709611895957523,4.46883440755225e-07,"G845",0.481015909444707,FALSE
+"Anxiety disorders","Alcohol","protective","protective","nonsignificant",0.17987996584523,3.06050747916327e-05,0.00342236591267344,"G688",0.00129976279118726,TRUE
+"Anxiety disorders","Avocado","protective","protective","nonsignificant",0.3127313212271,0.000369273014318226,0.013322962484341,"G694",0.899731031968132,FALSE
+"Anxiety disorders","Cabbage","nonsignificant","harmful","harmful",0.00952490275911514,0.14240698408836,2.01920480198703e-11,"G719",0.105583256550888,FALSE
+"Anxiety disorders","Dried fruit","nonsignificant","protective","protective",0.0291020377368829,0.159681321140287,0.0141577355874672,"G756",0.00172633079567316,TRUE
+"Anxiety disorders","Pork chop","protective","protective","protective",0.00114828051952279,3.88980340055916e-05,0.0141577355874672,"G814",0.00153412193580005,TRUE
+"Anxiety disorders","Salami","protective","protective","nonsignificant",0.474612396232547,0.000165934222314698,0.0402648532461923,"G825",0.0673188534737878,FALSE
+"Anxiety disorders","Vegetables","nonsignificant","harmful","nonsignificant",0.666961102116192,0.153648137855021,0.0381456512414287,"G862",0.610827713029588,FALSE
+"Anxiety disorders","White wine","protective","protective","protective",0.00106865732858012,1.2735692887136e-05,0.00342236591267344,"G867",2.6737086628547e-08,TRUE
+"Anxiety disorders","Total wine","protective","protective","nonsignificant",0.0775510527401121,4.12589719208971e-10,0.0176275468901663,"G872",2.20157242261789e-06,TRUE

@@ -1,0 +1,5 @@
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G701-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:09.820097
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G701-ldsc.sumstats.gz
+Out of 1175031 SNPs, 1168342 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 156.0305; 1168342 remain

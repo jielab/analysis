@@ -1,0 +1,6 @@
+tract_forest: OK
+volume_WMH_forests: OK
+thickness_surface: FAILED: type object 'PointSet' has no attribute '__vtkname__'
+tract_anatomy: FAILED: [Errno 2] No such file or directory: '/work/sph-huangj/.local/share/dose/mri_atlases/ukb_tracts27/structureList.source.txt'
+volume_anatomy: FAILED: /work/sph-huangj/.local/share/dose/mri_atlases/HarvardOxford-Cortical.xml
+Set --atlas-dir to FSL data/atlases, or use --download-atlases (FSL mirror).

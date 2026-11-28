@@ -1,0 +1,15 @@
+"diet","alcohol_in_score","include","variable","available"
+"medi24",TRUE,TRUE,"diet.medi24.sum",TRUE
+"mind",TRUE,TRUE,"diet.mind.sum",TRUE
+"ahei",TRUE,TRUE,"diet.ahei.sum",TRUE
+"redii",TRUE,TRUE,"diet.redii.sum",TRUE
+"fds",TRUE,TRUE,"diet.fds.sum",TRUE
+"dash",FALSE,TRUE,"diet.dash.sum",TRUE
+"hpdi",FALSE,TRUE,"diet.hpdi.sum",TRUE
+"phdi",FALSE,TRUE,"diet.phdi.sum",TRUE
+"digm",FALSE,TRUE,"diet.digm.sum",TRUE
+"hlcd",FALSE,TRUE,"diet.hlcd.sum",TRUE
+"hlfd",FALSE,TRUE,"diet.hlfd.sum",TRUE
+"modern",FALSE,TRUE,"diet.modern.sum",TRUE
+"medito",FALSE,FALSE,"diet.medito.sum",TRUE
+"maha",TRUE,FALSE,"diet.maha.sum",TRUE

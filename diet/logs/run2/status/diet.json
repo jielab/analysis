@@ -1,0 +1,11 @@
+{
+  "completion_contract": "process_exit_only",
+  "ended": "2026-11-25T23:51:18.693975+00:00",
+  "job_id": "4439888",
+  "key": "diet",
+  "pid": 3490331,
+  "plan_sha256": "d54797fc7b0cb05b418cd2da26142a135a7334820ba720ab332e99d1a6e28e3c",
+  "returncode": 1,
+  "started": "2026-11-25T09:43:44.746476+00:00",
+  "status": "EXIT"
+}

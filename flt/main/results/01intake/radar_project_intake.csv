@@ -1,0 +1,49 @@
+"food_liking","liking_score","intake_group","n_liking","n_intake","mean_g_day","min_max"
+"Butter on bread",9,"Alcoholic Beverages",34207,34207,243.237674428236,1
+"Butter on bread",9,"Non-alcoholic Beverages",34207,34207,1573.92530110796,0
+"Butter on bread",9,"Dairy",34207,34207,325.947800888707,1
+"Butter on bread",9,"Eggs",34207,34207,22.1606932304304,1
+"Butter on bread",9,"Fats and Oils",34207,34207,13.6534472486552,1
+"Butter on bread",9,"Fruits",34207,34207,206.360271289502,0
+"Butter on bread",9,"Vegetables",34207,34207,306.624654675944,0
+"Butter on bread",9,"Soybean Products",34207,34207,7.92276312840452,0.0955305366137361
+"Butter on bread",9,"Nuts and Seeds",34207,34207,7.21438448270822,0.217935822063312
+"Butter on bread",9,"Grains",34207,34207,212.77794408546,1
+"Butter on bread",9,"Red and Processed Meat",34207,34207,59.3709238362518,0.839715447214903
+"Butter on bread",9,"Poultry",34207,34207,33.7846493407782,0
+"Butter on bread",9,"Seafood and Fish",34207,34207,31.4882658032956,0
+"Butter on bread",9,"Meat Substitutes",34207,34207,3.34183792790949,0.657849776904237
+"Butter on bread",9,"Sweets and Desserts",34207,34207,67.6736470849046,1
+"Butter on bread",9,"Savoury Foods and Condiments",34207,34207,79.9006358347707,1
+"Total salad vegetable",9,"Alcoholic Beverages",8447,8447,197.824059824001,0
+"Total salad vegetable",9,"Non-alcoholic Beverages",8447,8447,1652.850894795,1
+"Total salad vegetable",9,"Dairy",8447,8447,314.25591482183,0
+"Total salad vegetable",9,"Eggs",8447,8447,21.341492048459,0
+"Total salad vegetable",9,"Fats and Oils",8447,8447,9.5565495307111,0
+"Total salad vegetable",9,"Fruits",8447,8447,265.035528392723,1
+"Total salad vegetable",9,"Vegetables",8447,8447,361.670969969614,1
+"Total salad vegetable",9,"Soybean Products",8447,8447,11.3381486523815,1
+"Total salad vegetable",9,"Nuts and Seeds",8447,8447,8.31873643502624,1
+"Total salad vegetable",9,"Grains",8447,8447,209.62237382108,0
+"Total salad vegetable",9,"Red and Processed Meat",8447,8447,49.8694674637939,0
+"Total salad vegetable",9,"Poultry",8447,8447,34.1521743419755,0.0568641556078361
+"Total salad vegetable",9,"Seafood and Fish",8447,8447,34.0568268813385,1
+"Total salad vegetable",9,"Meat Substitutes",8447,8447,4.29862673138392,1
+"Total salad vegetable",9,"Sweets and Desserts",8447,8447,55.0527583757547,0
+"Total salad vegetable",9,"Savoury Foods and Condiments",8447,8447,79.5722386646147,0.829725751385341
+"Chicken",9,"Alcoholic Beverages",46139,46139,242.636208973609,0.986755833908647
+"Chicken",9,"Non-alcoholic Beverages",46139,46139,1583.92796964968,0.12673542351021
+"Chicken",9,"Dairy",46139,46139,325.319368014767,0.946250513360681
+"Chicken",9,"Eggs",46139,46139,21.4568685566079,0.140840260839538
+"Chicken",9,"Fats and Oils",46139,46139,11.3337228102766,0.433785122772666
+"Chicken",9,"Fruits",46139,46139,217.266006162538,0.185865992096982
+"Chicken",9,"Vegetables",46139,46139,312.605830389331,0.108657149556293
+"Chicken",9,"Soybean Products",46139,46139,7.56202832744533,0
+"Chicken",9,"Nuts and Seeds",46139,46139,6.90663755174581,0
+"Chicken",9,"Grains",46139,46139,209.801041507864,0.0566197776675338
+"Chicken",9,"Red and Processed Meat",46139,46139,61.184558074514,1
+"Chicken",9,"Poultry",46139,46139,40.2478597282126,1
+"Chicken",9,"Seafood and Fish",46139,46139,32.6487772455695,0.451813839349368
+"Chicken",9,"Meat Substitutes",46139,46139,1.50222696634084,0
+"Chicken",9,"Sweets and Desserts",46139,46139,64.391716967569,0.73996045817627
+"Chicken",9,"Savoury Foods and Condiments",46139,46139,77.9719991041563,0

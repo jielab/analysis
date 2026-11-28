@@ -1,0 +1,7 @@
+"input","path","md5"
+"cohort","/work/sph-huangj/analysis/diet/dose/ukb/00data/dat.base.imp.rds","4d1962edba74f0d834e9b4cecaf125f0"
+"config","/work/sph-huangj/analysis/diet/dose/ukb/00data/analysis_config.rds","a995e3f2b1b0bf64e67fc66c01b34a5d"
+"dose","/work/sph-huangj/analysis/diet/dose/ukb/04score/dose_score.rds","2e85913bdcc36d54b95455a15a313c30"
+"definitions","/work/sph-huangj/phe/ukb/common/icd10_other.lst","12120374c108477ae4c781afe0b34694"
+"codes","/work/sph-huangj/phe/ukb/Rdata/icd10.code0.rds","ef0b037ff99e6df3f7c7a16af6e6378c"
+"dates","/work/sph-huangj/phe/ukb/Rdata/icd10.date0.rds","83f6bfe726507f10e2d611e2cc0a3569"

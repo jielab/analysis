@@ -1,0 +1,10 @@
+2026-11-25T14:14:00+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE ml/cox
+MYTH-like cumulative Cox analysis complete
+ - ranked food groups: 15 
+ - primary Delta<0.005 k: 10 
+ - cohort: 191494 
+ - events: 2585 
+ - best P at k = 15 ; HR/SD = 0.876 ; P = 3.28e-10 
+ - Cox path: /work/sph-huangj/analysis/diet/dose/ukb/03ml/Cox_Imp_food_pattern.csv 

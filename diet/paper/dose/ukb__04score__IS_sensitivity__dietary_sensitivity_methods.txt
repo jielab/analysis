@@ -1,0 +1,11 @@
+Dietary sensitivity update
+M2 + sodium; potassium; fiber; saturated fat, individually and jointly.
+Saturated fat uses w.p26014. Legacy w.p26155 is TRANS fat and is not substituted for saturated fat.
+Current constituent foods excluded: Apples_Pears, Dried_fruit, Legumes, Olive_oil, Tomatoes, Eggs, Green_leafy_vegetables, Whole_grains, Wine, Processed_meats, Sweetened_beverages
+Other food groups included: 27
+All other mapped, variable food groups are adjusted jointly; none are selected using IS P values.
+Nutrient/food missingness is handled by complete cases; a same-cohort M2 comparator is added if N changes.
+DOSE increment and quartile cutoffs remain fixed; only adjustment covariates are scaled.
+LOO retains the CURRENT nine DOSE9half components, with own-score increments and quartile boundaries.
+These are overadjustment checks, not mediation estimates or proof of causal independence.
+Table_S13_Sensitivity.csv combines continuous and quartile estimates including P values and group definitions.

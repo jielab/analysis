@@ -1,0 +1,23 @@
+2026-11-23T00:46:02+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/f/common.R disco nhanes
+SKIP nhanes: medito: unavailable in the selected cohort/profile outputs
+SKIP nhanes: medi24: unavailable in the selected cohort/profile outputs
+SKIP nhanes: hpdi: unavailable in the selected cohort/profile outputs
+SKIP nhanes: ahei: unavailable in the selected cohort/profile outputs
+SKIP nhanes: phdi: unavailable in the selected cohort/profile outputs
+SKIP nhanes: modern: unavailable in the selected cohort/profile outputs
+SKIP nhanes: digm: unavailable in the selected cohort/profile outputs
+SKIP nhanes: hlcd: unavailable in the selected cohort/profile outputs
+SKIP nhanes: hlfd: unavailable in the selected cohort/profile outputs
+SKIP nhanes: redii: unavailable in the selected cohort/profile outputs
+SKIP nhanes: fds: unavailable in the selected cohort/profile outputs
+SKIP nhanes: upf: unavailable in the selected cohort/profile outputs
+SKIP nhanes: dose11: unavailable in the selected cohort/profile outputs
+SKIP nhanes: dose9: unavailable in the selected cohort/profile outputs
+SKIP nhanes: chdi: unavailable in the selected cohort/profile outputs
+SKIP nhanes: maha_density: unavailable in the selected cohort/profile outputs
+SKIP nhanes: maha_residual: unavailable in the selected cohort/profile outputs
+SKIP nhanes: dash_fung: unavailable in the selected cohort/profile outputs
+SKIP nhanes: dash_density: unavailable in the selected cohort/profile outputs
+Saved /work/sph-huangj/analysis/diet/disco/nhanes.raw.rds (full scoring data)
+Saved /work/sph-huangj/analysis/diet/disco/nhanes.disco.rds (128809 participants; 15 selected score totals)

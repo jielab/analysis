@@ -1,0 +1,958 @@
+[RUNNING] flt-ldsc-pairs-edu
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G789-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:53:56.969848
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G755-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:53:57.00004
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G867-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:53:56.995157
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G820-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:53:56.979101
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G873-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:53:56.99024
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G763-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:53:57.004936
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G848-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:53:56.985129
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G688-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:53:57.009854
+Reading in LD scores
+Reading in LD scores
+Reading in LD scores
+Reading in LD scores
+Reading in LD scores
+Reading in LD scores
+Reading in LD scores
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G763-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G755-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G848-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G867-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G688-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G873-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G789-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G820-ldsc.sumstats.gz
+Out of 1172206 SNPs, 1165535 remain after merging with LD-score files
+Out of 1199503 SNPs, 1176720 remain after merging with LD-score files
+Out of 1199534 SNPs, 1176751 remain after merging with LD-score files
+Out of 1199463 SNPs, 1176682 remain after merging with LD-score files
+Out of 1199455 SNPs, 1176673 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.285833333333; 1165535 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G853-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:08.722619
+Reading in LD scores
+Out of 1199453 SNPs, 1176670 remain after merging with LD-score files
+Out of 1199521 SNPs, 1176738 remain after merging with LD-score files
+Out of 1199523 SNPs, 1176741 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.805; 1176720 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G741-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:09.199995
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 157.793; 1176751 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G842-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:09.28421
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 157.017; 1176682 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G740-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:09.334552
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.532; 1176673 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G872-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:09.426706
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 156.904; 1176670 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G850-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:09.656801
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 156.958; 1176738 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G701-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:09.820097
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.425; 1176741 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G737-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:09.998848
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G853-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G842-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G740-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G741-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G872-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G850-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G701-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G737-ldsc.sumstats.gz
+Out of 1199538 SNPs, 1176755 remain after merging with LD-score files
+Out of 1199472 SNPs, 1176690 remain after merging with LD-score files
+Out of 1199519 SNPs, 1176736 remain after merging with LD-score files
+Out of 1174398 SNPs, 1167719 remain after merging with LD-score files
+Out of 1175041 SNPs, 1168356 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.219; 1176690 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G855-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:18.360255
+Reading in LD scores
+Out of 1175019 SNPs, 1168332 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.24; 1176736 remain
+Removing 0 SNPs with Chi^2 > 158.4785; 1167719 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G720-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:18.424423
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G856-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:18.451026
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 148.801; 1176755 remain
+Removing 0 SNPs with Chi^2 > 157.911; 1168356 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G735-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:18.50002
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G739-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:18.517499
+Reading in LD scores
+Out of 1175031 SNPs, 1168342 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.3485; 1168332 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G738-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:18.731816
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 156.0305; 1168342 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G857-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:18.949981
+Reading in LD scores
+Out of 1170552 SNPs, 1163894 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.0954165; 1163894 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G858-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:19.156634
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G855-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G720-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G856-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G735-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G739-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G738-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G857-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G858-ldsc.sumstats.gz
+Out of 1198908 SNPs, 1176132 remain after merging with LD-score files
+Out of 1173391 SNPs, 1166709 remain after merging with LD-score files
+Out of 1174464 SNPs, 1167785 remain after merging with LD-score files
+Out of 1199534 SNPs, 1176751 remain after merging with LD-score files
+Out of 1199533 SNPs, 1176750 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.905; 1167785 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G839-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:27.155434
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.918; 1176750 remain
+Removing 0 SNPs with Chi^2 > 157.305; 1176132 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G778-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:27.243856
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G801-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:27.256506
+Reading in LD scores
+Out of 1199496 SNPs, 1176713 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 155.9858; 1166709 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G811-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:27.30268
+Reading in LD scores
+Out of 1199528 SNPs, 1176745 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.006; 1176751 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G751-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:27.529936
+Reading in LD scores
+Out of 1199467 SNPs, 1176686 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.453; 1176713 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G773-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:27.634121
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.151; 1176686 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G709-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:27.966398
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.072; 1176745 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G717-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:28.070113
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G839-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G778-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G801-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G751-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G773-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G811-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G709-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G717-ldsc.sumstats.gz
+Out of 1199510 SNPs, 1176727 remain after merging with LD-score files
+Out of 1198905 SNPs, 1176129 remain after merging with LD-score files
+Out of 1199526 SNPs, 1176744 remain after merging with LD-score files
+Out of 1199497 SNPs, 1176715 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.434; 1176715 remain
+Out of 1199521 SNPs, 1176739 remain after merging with LD-score files
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G704-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:36.189913
+Reading in LD scores
+Out of 1199537 SNPs, 1176754 remain after merging with LD-score files
+Out of 1199540 SNPs, 1176757 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.613; 1176727 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G730-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:36.470513
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.364; 1176739 remain
+Removing 0 SNPs with Chi^2 > 158.675; 1176757 remain
+Out of 1199531 SNPs, 1176748 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.351; 1176744 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G845-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:36.566755
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G721-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:36.566946
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G760-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:36.590192
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.365; 1176129 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G870-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:36.809029
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 150.875; 1176754 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G729-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:37.216192
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 157.457; 1176748 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G843-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:37.473138
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G704-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G721-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G845-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G730-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G760-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G870-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G729-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G843-ldsc.sumstats.gz
+Out of 1199468 SNPs, 1176686 remain after merging with LD-score files
+Out of 1199520 SNPs, 1176737 remain after merging with LD-score files
+Out of 1198875 SNPs, 1176100 remain after merging with LD-score files
+Out of 1199525 SNPs, 1176742 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.246; 1176737 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G854-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:44.523982
+Reading in LD scores
+Out of 1199528 SNPs, 1176745 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.527; 1176686 remain
+Removing 0 SNPs with Chi^2 > 159.17; 1176742 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G786-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:44.75588
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G752-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:44.7957
+Reading in LD scores
+Out of 1173965 SNPs, 1167283 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 113.425; 1176745 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G746-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:45.064057
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.518; 1176100 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G797-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:45.19083
+Reading in LD scores
+Out of 1173915 SNPs, 1167231 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.335; 1167283 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G784-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:45.695046
+Reading in LD scores
+Out of 1199538 SNPs, 1176755 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 156.734; 1167231 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G782-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:46.257147
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.253; 1176755 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G723-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:46.781997
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G854-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G786-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G752-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G746-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G797-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G784-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G782-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G723-ldsc.sumstats.gz
+Out of 1198929 SNPs, 1176153 remain after merging with LD-score files
+Out of 1199525 SNPs, 1176742 remain after merging with LD-score files
+Out of 1199464 SNPs, 1176682 remain after merging with LD-score files
+Out of 1199475 SNPs, 1176694 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.573; 1176742 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G705-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:53.086098
+Reading in LD scores
+Out of 1199533 SNPs, 1176750 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.498; 1176682 remain
+Out of 1199538 SNPs, 1176755 remain after merging with LD-score files
+Removing 18 SNPs with Chi^2 > 159.469; 1176676 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G689-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:53.370343
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G754-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:53.390016
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.441; 1176750 remain
+Removing 1 SNPs with Chi^2 > 159.527; 1176152 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G722-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:53.476508
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G707-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:53.48511
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.348; 1176755 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G706-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:53.62514
+Reading in LD scores
+Out of 1199508 SNPs, 1176726 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.091; 1176726 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G687-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:54.117183
+Reading in LD scores
+Out of 1199532 SNPs, 1176749 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.47; 1176749 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G802-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:54:54.738123
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G705-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G754-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G722-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G707-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G689-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G706-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G687-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G802-ldsc.sumstats.gz
+Out of 1199505 SNPs, 1176722 remain after merging with LD-score files
+Out of 1169157 SNPs, 1162504 remain after merging with LD-score files
+Out of 1199489 SNPs, 1176707 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 155.103; 1176722 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G750-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:01.282357
+Reading in LD scores
+Out of 1174032 SNPs, 1167347 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 152.087; 1176707 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G733-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:01.586821
+Reading in LD scores
+Out of 1199530 SNPs, 1176747 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.39841675; 1162504 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G716-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:01.687767
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.522; 1167347 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G710-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:01.913089
+Reading in LD scores
+Out of 1199530 SNPs, 1176748 remain after merging with LD-score files
+Out of 1199500 SNPs, 1176718 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 156.251; 1176747 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G761-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:02.150292
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.45; 1176748 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G724-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:02.396668
+Reading in LD scores
+Out of 1174510 SNPs, 1167831 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.392666666667; 1167831 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G708-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:02.86013
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 157.485; 1176718 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G758-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:03.353168
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G750-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G716-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G733-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G710-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G761-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G724-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G708-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G758-ldsc.sumstats.gz
+Out of 1199512 SNPs, 1176731 remain after merging with LD-score files
+Out of 1199537 SNPs, 1176754 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.484; 1176731 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G828-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:09.668669
+Reading in LD scores
+Out of 1199528 SNPs, 1176746 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.259; 1176754 remain
+Out of 1199485 SNPs, 1176703 remain after merging with LD-score files
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G844-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:10.168466
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 154.046; 1176746 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G798-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:10.449474
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 140.886; 1176703 remain
+Out of 1199540 SNPs, 1176757 remain after merging with LD-score files
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G822-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:10.666253
+Reading in LD scores
+Out of 1199525 SNPs, 1176743 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.481; 1176743 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G787-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:10.999031
+Reading in LD scores
+Out of 1199494 SNPs, 1176712 remain after merging with LD-score files
+Out of 1199526 SNPs, 1176743 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.772; 1176712 remain
+Removing 0 SNPs with Chi^2 > 158.113; 1176757 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G775-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:11.416416
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G783-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:11.4183
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 157.343; 1176743 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G846-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:12.287369
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G844-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G828-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G798-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G787-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G822-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G783-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G775-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G846-ldsc.sumstats.gz
+Out of 1198928 SNPs, 1176152 remain after merging with LD-score files
+Out of 1198907 SNPs, 1176131 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.571; 1176152 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G827-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:17.943324
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 157.246; 1176131 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G831-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:18.333434
+Reading in LD scores
+Out of 1199536 SNPs, 1176753 remain after merging with LD-score files
+Out of 1199520 SNPs, 1176737 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.31; 1176753 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G759-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:18.924485
+Reading in LD scores
+Out of 1199442 SNPs, 1176660 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.38; 1176737 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G837-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:19.462836
+Reading in LD scores
+Out of 1199529 SNPs, 1176748 remain after merging with LD-score files
+Out of 1199539 SNPs, 1176756 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G827-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.361; 1176660 remain
+Out of 1199533 SNPs, 1176750 remain after merging with LD-score files
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G742-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:20.690723
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G831-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.503; 1176748 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G833-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:21.039833
+Reading in LD scores
+Removing 3 SNPs with Chi^2 > 152.847; 1176753 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G791-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:21.07375
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G759-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 156.731; 1176750 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G864-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:21.44398
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G837-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G742-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G791-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G833-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G864-ldsc.sumstats.gz
+Out of 1174544 SNPs, 1167856 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 156.508666666667; 1167856 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G731-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:25.574106
+Reading in LD scores
+Out of 1174487 SNPs, 1167805 remain after merging with LD-score files
+Out of 1171740 SNPs, 1165063 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 156.6213335; 1165063 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G697-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:26.744174
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.928; 1167805 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G756-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:27.044769
+Reading in LD scores
+Out of 1173421 SNPs, 1166740 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G731-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 152.547; 1166740 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G788-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:28.629578
+Reading in LD scores
+Out of 1173912 SNPs, 1167232 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 153.32275; 1167232 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G694-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:29.002322
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G697-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G756-ldsc.sumstats.gz
+Out of 1147066 SNPs, 1140525 remain after merging with LD-score files
+Out of 1199534 SNPs, 1176751 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 156.6389235; 1140525 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G691-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:30.046001
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.565; 1176751 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G851-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:30.329623
+Reading in LD scores
+Out of 1166867 SNPs, 1160230 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.915144333333; 1160230 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G774-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:30.664312
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G694-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G788-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G691-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G851-ldsc.sumstats.gz
+Out of 1199482 SNPs, 1176700 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G774-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.373; 1176700 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G812-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:33.424399
+Reading in LD scores
+Out of 1199536 SNPs, 1176753 remain after merging with LD-score files
+Out of 1199508 SNPs, 1176726 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.469; 1176753 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G809-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:35.29757
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G812-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.258; 1176726 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G849-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:36.433919
+Reading in LD scores
+Out of 1199533 SNPs, 1176750 remain after merging with LD-score files
+Out of 1199527 SNPs, 1176744 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.218; 1176750 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G806-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:37.219266
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 153.095; 1176744 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G807-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:37.265104
+Reading in LD scores
+Out of 1164816 SNPs, 1158180 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G809-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 153.9238; 1158180 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G792-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:38.89327
+Reading in LD scores
+Out of 1199487 SNPs, 1176704 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G849-ldsc.sumstats.gz
+Removing 17 SNPs with Chi^2 > 157.662; 1176687 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G690-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:39.728731
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G807-ldsc.sumstats.gz
+Out of 1199532 SNPs, 1176749 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G806-ldsc.sumstats.gz
+Out of 1199473 SNPs, 1176691 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G792-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.515; 1176749 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G800-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:41.39473
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.369; 1176691 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G728-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:41.459832
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G690-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G728-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G800-ldsc.sumstats.gz
+Out of 1199515 SNPs, 1176734 remain after merging with LD-score files
+Out of 1199529 SNPs, 1176746 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.468; 1176734 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G713-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:44.674171
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.446; 1176746 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G748-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:44.921007
+Reading in LD scores
+Out of 1199533 SNPs, 1176751 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.458; 1176751 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G767-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:45.513907
+Reading in LD scores
+Out of 1199527 SNPs, 1176745 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.473; 1176745 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G815-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:46.588808
+Reading in LD scores
+Out of 1199495 SNPs, 1176712 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.215; 1176712 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G808-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:47.241686
+Reading in LD scores
+Out of 1199496 SNPs, 1176714 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G713-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G748-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.451; 1176714 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G766-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:47.795604
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G767-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G815-ldsc.sumstats.gz
+Out of 1199539 SNPs, 1176756 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 155.024; 1176756 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G725-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:49.660583
+Reading in LD scores
+Out of 1199423 SNPs, 1176644 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G808-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G766-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.441; 1176644 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G768-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:50.634724
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G725-ldsc.sumstats.gz
+Out of 1199443 SNPs, 1176662 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G768-ldsc.sumstats.gz
+Out of 1170515 SNPs, 1163859 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 156.802; 1176662 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G871-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:53.618529
+Reading in LD scores
+Out of 1199533 SNPs, 1176750 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.2175; 1163859 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G869-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:54.004874
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.623; 1176750 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G868-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:54.074484
+Reading in LD scores
+Out of 1199489 SNPs, 1176706 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.122; 1176706 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G698-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:55.400785
+Reading in LD scores
+Out of 1199498 SNPs, 1176715 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.413; 1176715 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G695-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:55.842059
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G871-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G868-ldsc.sumstats.gz
+Out of 1199482 SNPs, 1176699 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G869-ldsc.sumstats.gz
+Out of 1174447 SNPs, 1167770 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.418; 1176699 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G865-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:57.355151
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 159.523; 1167770 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G765-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:55:57.555295
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G698-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G695-ldsc.sumstats.gz
+Out of 1175011 SNPs, 1168328 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G865-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.344; 1168328 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G866-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:00.189043
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G765-ldsc.sumstats.gz
+Out of 1199514 SNPs, 1176731 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.342; 1176731 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G747-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:02.130699
+Reading in LD scores
+Out of 1199518 SNPs, 1176735 remain after merging with LD-score files
+Out of 1174409 SNPs, 1167733 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G866-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 157.918; 1167733 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G770-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:02.823758
+Reading in LD scores
+Out of 1199540 SNPs, 1176757 remain after merging with LD-score files
+Out of 1199488 SNPs, 1176706 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.61; 1176735 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G745-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:03.836102
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.551; 1176757 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G777-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:04.460234
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.387; 1176706 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G810-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:04.914142
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G747-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G770-ldsc.sumstats.gz
+Out of 1199540 SNPs, 1176757 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.491; 1176757 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G715-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:05.445489
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G745-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G777-ldsc.sumstats.gz
+Out of 1199523 SNPs, 1176741 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.855; 1176741 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G834-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:07.162047
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G810-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G715-ldsc.sumstats.gz
+Out of 1199535 SNPs, 1176752 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.499; 1176752 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G734-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:08.575366
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G834-ldsc.sumstats.gz
+Out of 1199527 SNPs, 1176744 remain after merging with LD-score files
+Out of 1199527 SNPs, 1176745 remain after merging with LD-score files
+Out of 1199537 SNPs, 1176754 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G734-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.353; 1176754 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G829-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:11.355132
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 156.02; 1176745 remain
+Removing 0 SNPs with Chi^2 > 159.554; 1176744 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G841-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:11.446221
+Reading in LD scores
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G832-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:11.454849
+Reading in LD scores
+Out of 1199526 SNPs, 1176743 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.55; 1176743 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G859-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:12.924909
+Reading in LD scores
+Out of 1199537 SNPs, 1176754 remain after merging with LD-score files
+Out of 1199492 SNPs, 1176711 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.435; 1176754 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G821-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:13.405685
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G829-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.347; 1176711 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G753-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:13.962173
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G841-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G832-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G859-ldsc.sumstats.gz
+Out of 1199497 SNPs, 1176715 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.272; 1176715 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G757-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:15.754766
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G821-ldsc.sumstats.gz
+Out of 1199537 SNPs, 1176754 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G753-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.574; 1176754 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G825-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:16.797646
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G757-ldsc.sumstats.gz
+Out of 1199535 SNPs, 1176752 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G825-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 150.683; 1176752 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G732-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:19.634138
+Reading in LD scores
+Out of 1199539 SNPs, 1176756 remain after merging with LD-score files
+Out of 1199536 SNPs, 1176753 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.603; 1176753 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G736-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:20.334144
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.149; 1176756 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G764-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:20.378484
+Reading in LD scores
+Out of 1199448 SNPs, 1176666 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.261; 1176666 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G776-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:21.166683
+Reading in LD scores
+Out of 1199519 SNPs, 1176736 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G732-ldsc.sumstats.gz
+Out of 1173957 SNPs, 1167279 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.556; 1176736 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G696-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:23.021537
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G764-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 158.793; 1167279 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G781-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:23.226877
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G736-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G776-ldsc.sumstats.gz
+Out of 1199485 SNPs, 1176702 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.447; 1176702 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G814-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:24.021202
+Reading in LD scores
+Out of 1199538 SNPs, 1176755 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 154.673; 1176755 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G700-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:25.353665
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G696-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G781-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G814-ldsc.sumstats.gz
+Out of 1199528 SNPs, 1176745 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.559; 1176745 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G796-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:27.344105
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G700-ldsc.sumstats.gz
+Out of 1199540 SNPs, 1176757 remain after merging with LD-score files
+Out of 1199515 SNPs, 1176732 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.189; 1176757 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G817-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:28.91333
+Reading in LD scores
+Out of 1199540 SNPs, 1176757 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.795; 1176757 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G813-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:29.152672
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G796-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 158.385; 1176732 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G819-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:29.658581
+Reading in LD scores
+Out of 1198870 SNPs, 1176095 remain after merging with LD-score files
+Out of 1199518 SNPs, 1176735 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G817-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 158.335; 1176095 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G790-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:31.512408
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G813-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 150.609; 1176735 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G826-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:31.957142
+Reading in LD scores
+Out of 1199532 SNPs, 1176749 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.434; 1176749 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G804-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:32.312406
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G819-ldsc.sumstats.gz
+Out of 1199460 SNPs, 1176678 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G790-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G804-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G826-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 158.442; 1176678 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G794-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:34.922812
+Reading in LD scores
+Out of 1199505 SNPs, 1176723 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 156.695; 1176723 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G762-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:35.383781
+Reading in LD scores
+Out of 1199537 SNPs, 1176754 remain after merging with LD-score files
+Out of 1199534 SNPs, 1176751 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 130.936; 1176751 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G799-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:37.350092
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G794-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 157.99; 1176754 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G836-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:37.476277
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G762-ldsc.sumstats.gz
+Out of 1199523 SNPs, 1176740 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.624; 1176740 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G840-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:38.739071
+Reading in LD scores
+Out of 1198872 SNPs, 1176097 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G799-ldsc.sumstats.gz
+Out of 1199461 SNPs, 1176680 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G836-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 158.453; 1176097 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G830-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:40.214895
+Reading in LD scores
+Out of 1173904 SNPs, 1167233 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.547; 1167233 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G712-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:40.592287
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.673; 1176680 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G692-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:40.979873
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G840-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G712-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G830-ldsc.sumstats.gz
+Out of 1170166 SNPs, 1163508 remain after merging with LD-score files
+Out of 1199530 SNPs, 1176747 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G692-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 158.306; 1176747 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G838-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:43.505848
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 155.344433333333; 1163508 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G703-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:43.58795
+Reading in LD scores
+Out of 1170012 SNPs, 1163347 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.508545454545; 1163347 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G711-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:45.578252
+Reading in LD scores
+Out of 1175055 SNPs, 1168369 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G703-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 156.7405; 1168369 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G714-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:45.999906
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G838-ldsc.sumstats.gz
+Out of 1173445 SNPs, 1166760 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G711-ldsc.sumstats.gz
+Out of 1199518 SNPs, 1176736 remain after merging with LD-score files
+Out of 1199495 SNPs, 1176712 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.34; 1176736 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G693-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:48.332259
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G714-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.414; 1176712 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G771-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:48.516807
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 150.7458; 1166760 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G718-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:48.958104
+Reading in LD scores
+Out of 1199498 SNPs, 1176717 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 155.886; 1176717 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G719-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:50.157297
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G771-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G693-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G718-ldsc.sumstats.gz
+Out of 1199501 SNPs, 1176718 remain after merging with LD-score files
+Out of 1199501 SNPs, 1176719 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 155.491; 1176719 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G702-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:52.203314
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 142.261; 1176718 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G749-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:52.430924
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G719-ldsc.sumstats.gz
+Out of 1199512 SNPs, 1176730 remain after merging with LD-score files
+Out of 1199512 SNPs, 1176730 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.493; 1176730 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G803-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:53.994055
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 158.921; 1176730 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G769-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:54.186315
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G749-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G702-ldsc.sumstats.gz
+Out of 1199533 SNPs, 1176750 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G803-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 152.291; 1176750 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G727-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:56.582635
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G769-ldsc.sumstats.gz
+Out of 1199534 SNPs, 1176751 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 115.868; 1176751 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G861-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:57.243537
+Reading in LD scores
+Out of 1199536 SNPs, 1176753 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 148.949; 1176753 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G805-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:57.547663
+Reading in LD scores
+Out of 1199501 SNPs, 1176718 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.516; 1176718 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G816-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:56:58.628368
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G727-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G861-ldsc.sumstats.gz
+Out of 1199490 SNPs, 1176708 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G805-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.342; 1176708 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G744-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:00.526831
+Reading in LD scores
+Out of 1198924 SNPs, 1176148 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G816-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.501; 1176148 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G847-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:01.307839
+Reading in LD scores
+Out of 1199504 SNPs, 1176721 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.454; 1176721 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G862-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:02.49059
+Reading in LD scores
+Out of 1199522 SNPs, 1176739 remain after merging with LD-score files
+Removing 16 SNPs with Chi^2 > 159.386; 1176723 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G860-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:02.83495
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G744-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G847-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G862-ldsc.sumstats.gz
+Out of 1199492 SNPs, 1176710 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G860-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.496; 1176710 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G818-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:05.409209
+Reading in LD scores
+Out of 1199538 SNPs, 1176755 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 155.376; 1176755 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G852-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:05.850585
+Reading in LD scores
+Out of 1199514 SNPs, 1176731 remain after merging with LD-score files
+Removing 8 SNPs with Chi^2 > 159.518; 1176723 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G793-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:06.647268
+Reading in LD scores
+Out of 1199481 SNPs, 1176699 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.579; 1176699 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G699-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:07.735692
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G818-ldsc.sumstats.gz
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G852-ldsc.sumstats.gz
+Out of 1199508 SNPs, 1176725 remain after merging with LD-score files
+Out of 1199466 SNPs, 1176684 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 154.301; 1176684 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G823-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:09.261494
+Reading in LD scores
+Removing 0 SNPs with Chi^2 > 157.978; 1176725 remain
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G793-ldsc.sumstats.gz
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G795-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:09.374249
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G699-ldsc.sumstats.gz
+Out of 1199495 SNPs, 1176712 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.475; 1176712 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G863-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:11.202263
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G823-ldsc.sumstats.gz
+Out of 1199509 SNPs, 1176727 remain after merging with LD-score files
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G795-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.419; 1176727 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G824-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:12.617242
+Reading in LD scores
+Out of 1172912 SNPs, 1166239 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 147.3445; 1166239 remain
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G863-ldsc.sumstats.gz
+Out of 1199529 SNPs, 1176746 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.303; 1176746 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G726-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:14.687534
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G824-ldsc.sumstats.gz
+Out of 1175030 SNPs, 1168341 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.0145; 1168341 remain
+Out of 1199507 SNPs, 1176725 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.108; 1176725 remain
+Out of 1161307 SNPs, 1154712 remain after merging with LD-score files
+Out of 1199537 SNPs, 1176754 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 154.998405; 1154712 remain
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G726-ldsc.sumstats.gz
+Removing 0 SNPs with Chi^2 > 159.482; 1176754 remain
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G743-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-edu-ldsc.sumstats.gz) began at: 2026-11-25 23:57:17.927996
+Reading in LD scores
+Out of 1164654 SNPs, 1158031 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.098144333333; 1158031 remain
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G743-ldsc.sumstats.gz
+Out of 1172843 SNPs, 1166173 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 159.432333333333; 1166173 remain
+Out of 1173996 SNPs, 1167315 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.39025; 1167315 remain
+Out of 1173514 SNPs, 1166833 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 158.6446; 1166833 remain
+[DONE] flt-ldsc-pairs-edu
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@r13n45>
+Subject: Job 4440942: <flt-ldsc-pairs-edu> in cluster <qmhpc> Done
+
+Job <flt-ldsc-pairs-edu> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:36 2026
+Job was executed on host(s) <8*r13n45>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:53:39 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Wed Nov 25 23:53:39 2026
+Terminated at Wed Nov 25 23:57:28 2026
+Results reported at Wed Nov 25 23:57:28 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/jobs/run/plan.json flt-ldsc-pairs-edu
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1622.34 sec.
+    Max Memory :                                 8450 MB
+    Average Memory :                             6457.26 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              12
+    Max Threads :                                15
+    Run time :                                   227 sec.
+    Turnaround time :                            1432 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/logs/run/flt-ldsc-pairs-edu.err> for stderr output of this job.
+

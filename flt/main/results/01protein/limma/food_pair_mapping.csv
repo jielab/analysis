@@ -1,0 +1,4 @@
+"pair_id","disease_id","outcome","food","liking","intake","intake_field_id","proxy","intake_unit"
+"G717","sleep_disorder_r13","sleep_disorder","Butter on bread","p20628","w.p26063",26063,"Butter","g/day"
+"G824","sleep_disorder_r13","sleep_disorder","Total salad vegetable","F-Salad_vegetables","w.p26123",26123,"Salad/raw vegetables","g/day"
+"G732","mdd_2025","depression","Chicken","p20638","w.p26121",26121,"Poultry","g/day"

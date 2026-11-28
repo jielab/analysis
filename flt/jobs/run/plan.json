@@ -1,0 +1,545 @@
+{
+  "env": {
+    "FLT_ATLAS_DIR": "/work/sph-huangj/files/flt/03placo/GWAS_Atlas",
+    "FLT_BWMR": "/work/sph-huangj/software/flt/sources/BWMR_updated.R",
+    "FLT_CACHE": "/work/sph-huangj/analysis/flt/cache",
+    "FLT_CODE": "/work/sph-huangj/scripts/flt/f",
+    "FLT_COHORT": "/work/sph-huangj/analysis/flt/tmp/cohort",
+    "FLT_CONFIG": "/work/sph-huangj/scripts/flt/config",
+    "FLT_DICTIONARY": "/work/sph-huangj/files/diet/flt.xlsx",
+    "FLT_EQTLGEN": "/work/sph-huangj/data/gwas/eqtl/eqtlgen_v1/cis-eQTLs-full_eQTLGen_AF_incl_nr_formatted_20191212.new.txt_besd-dense",
+    "FLT_EXTERNAL_PLACO": "/work/sph-huangj/files/flt/03placo",
+    "FLT_EXTERNAL_ROOT": "/work/sph-huangj/files/flt",
+    "FLT_FUMA_DIR": "/work/sph-huangj/files/flt/03placo/FUMA_job787285",
+    "FLT_GTEX": "/work/sph-huangj/data/gwas/eqtl/gtex_v8_whole_blood/Whole_Blood/Whole_Blood",
+    "FLT_GWAS": "/work/sph-huangj/data/gwas",
+    "FLT_LDREF": "/work/sph-huangj/data/LD",
+    "FLT_METASCAPE_RESULTS": "/work/sph-huangj/files/flt/03placo/metascape/Enrichment_GO/_FINAL_GO.csv",
+    "FLT_MRI_ATLAS": "/work/sph-huangj/.local/share/dose/mri_atlases",
+    "FLT_MRI_DICTIONARY": "/work/sph-huangj/files/diet/MRI_analysis_dictionary.csv",
+    "FLT_MRI_TOOLS": "/work/sph-huangj/software/diet/.tools",
+    "FLT_MR_LD_PREFIX": "/work/sph-huangj/data/gen/1kg/37/openGWAS/EUR",
+    "FLT_OUT": "/work/sph-huangj/analysis/flt/main/results",
+    "FLT_PANEL": "primary",
+    "FLT_PAPER": "/work/sph-huangj/analysis/flt/paper/main/results",
+    "FLT_PAPER_REPORTS": "/work/sph-huangj/analysis/flt/paper/main/reports",
+    "FLT_PAPER_TMP": "/work/sph-huangj/analysis/flt/paper/tmp",
+    "FLT_PHEWAS_CACHE": "/work/sph-huangj/analysis/flt/cache/phewas",
+    "FLT_PHEWAS_INPUT": "/work/sph-huangj/files/flt/03placo/phewas_cache",
+    "FLT_PHEWAS_ONLINE": "false",
+    "FLT_PLACO_DIR": "/work/sph-huangj/analysis/flt/main/results/03placo",
+    "FLT_PLACO_PREFIX": "G732-mdd_2025_PLACO",
+    "FLT_PLINK": "/work/sph-huangj/.conda/envs/le8/bin/plink",
+    "FLT_PREP": "/work/sph-huangj/analysis/flt/tmp/prepared",
+    "FLT_PROJECT": "/work/sph-huangj/analysis/flt",
+    "FLT_PYTHON": "/work/sph-huangj/.conda/envs/le8/bin/python3",
+    "FLT_QC": "/work/sph-huangj/analysis/flt/qc",
+    "FLT_REPORTS": "/work/sph-huangj/analysis/flt/main/reports",
+    "FLT_RESOURCE_DIR": "/work/sph-huangj/software/flt/resources",
+    "FLT_RSCRIPT": "/work/sph-huangj/scripts/0f/0os.r.sh",
+    "FLT_R_LIBRARY": "/work/sph-huangj/software/flt/R-library",
+    "FLT_SHARED": "/work/sph-huangj/scripts/0f",
+    "FLT_SKIP_MISSING_RESOURCES": "TRUE",
+    "FLT_SMR": "/work/sph-huangj/software/flt/resources/smr/smr",
+    "FLT_SMR_INPUT": "/work/sph-huangj/analysis/flt/tmp/smr-input",
+    "FLT_TMP": "/work/sph-huangj/analysis/flt/tmp",
+    "FLT_UKB": "/work/sph-huangj/phe/ukb"
+  },
+  "jobs": {
+    "flt-behavior": {
+      "cores": 1,
+      "deps": [
+        "flt-prepare"
+      ],
+      "env": {},
+      "slots": 1,
+      "stage": "behavior"
+    },
+    "flt-coloc": {
+      "cores": 2,
+      "deps": [
+        "flt-placo-G732-mdd_2025"
+      ],
+      "env": {},
+      "slots": 2,
+      "stage": "coloc"
+    },
+    "flt-cox": {
+      "cores": 1,
+      "deps": [
+        "flt-prepare"
+      ],
+      "env": {},
+      "slots": 1,
+      "stage": "cox"
+    },
+    "flt-cox-sensitivity": {
+      "cores": 8,
+      "deps": [
+        "flt-prepare"
+      ],
+      "env": {},
+      "slots": 8,
+      "stage": "cox-sensitivity"
+    },
+    "flt-intake": {
+      "cores": 1,
+      "deps": [
+        "flt-prepare"
+      ],
+      "env": {},
+      "slots": 1,
+      "stage": "intake"
+    },
+    "flt-ldsc": {
+      "cores": 1,
+      "deps": [
+        "flt-ldsc-pairs-dementia_r13",
+        "flt-ldsc-pairs-anystroke_eur",
+        "flt-ldsc-pairs-sleep_disorder_r13",
+        "flt-ldsc-pairs-mdd_2025",
+        "flt-ldsc-pairs-anxiety_2026",
+        "flt-ldsc-pairs-edu"
+      ],
+      "env": {},
+      "slots": 1,
+      "stage": "ldsc"
+    },
+    "flt-ldsc-input-1": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "1",
+        "FLT_SHARDS": "8"
+      },
+      "slots": 2,
+      "stage": "ldsc-input"
+    },
+    "flt-ldsc-input-2": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "2",
+        "FLT_SHARDS": "8"
+      },
+      "slots": 2,
+      "stage": "ldsc-input"
+    },
+    "flt-ldsc-input-3": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "3",
+        "FLT_SHARDS": "8"
+      },
+      "slots": 2,
+      "stage": "ldsc-input"
+    },
+    "flt-ldsc-input-4": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "4",
+        "FLT_SHARDS": "8"
+      },
+      "slots": 2,
+      "stage": "ldsc-input"
+    },
+    "flt-ldsc-input-5": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "5",
+        "FLT_SHARDS": "8"
+      },
+      "slots": 2,
+      "stage": "ldsc-input"
+    },
+    "flt-ldsc-input-6": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "6",
+        "FLT_SHARDS": "8"
+      },
+      "slots": 2,
+      "stage": "ldsc-input"
+    },
+    "flt-ldsc-input-7": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "7",
+        "FLT_SHARDS": "8"
+      },
+      "slots": 2,
+      "stage": "ldsc-input"
+    },
+    "flt-ldsc-input-8": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "8",
+        "FLT_SHARDS": "8"
+      },
+      "slots": 2,
+      "stage": "ldsc-input"
+    },
+    "flt-ldsc-pairs-anxiety_2026": {
+      "cores": 8,
+      "deps": [
+        "flt-ldsc-input-1",
+        "flt-ldsc-input-2",
+        "flt-ldsc-input-3",
+        "flt-ldsc-input-4",
+        "flt-ldsc-input-5",
+        "flt-ldsc-input-6",
+        "flt-ldsc-input-7",
+        "flt-ldsc-input-8"
+      ],
+      "env": {
+        "FLT_OUTCOME": "anxiety_2026"
+      },
+      "slots": 8,
+      "stage": "ldsc-pairs"
+    },
+    "flt-ldsc-pairs-anystroke_eur": {
+      "cores": 8,
+      "deps": [
+        "flt-ldsc-input-1",
+        "flt-ldsc-input-2",
+        "flt-ldsc-input-3",
+        "flt-ldsc-input-4",
+        "flt-ldsc-input-5",
+        "flt-ldsc-input-6",
+        "flt-ldsc-input-7",
+        "flt-ldsc-input-8"
+      ],
+      "env": {
+        "FLT_OUTCOME": "anystroke_eur"
+      },
+      "slots": 8,
+      "stage": "ldsc-pairs"
+    },
+    "flt-ldsc-pairs-dementia_r13": {
+      "cores": 8,
+      "deps": [
+        "flt-ldsc-input-1",
+        "flt-ldsc-input-2",
+        "flt-ldsc-input-3",
+        "flt-ldsc-input-4",
+        "flt-ldsc-input-5",
+        "flt-ldsc-input-6",
+        "flt-ldsc-input-7",
+        "flt-ldsc-input-8"
+      ],
+      "env": {
+        "FLT_OUTCOME": "dementia_r13"
+      },
+      "slots": 8,
+      "stage": "ldsc-pairs"
+    },
+    "flt-ldsc-pairs-edu": {
+      "cores": 8,
+      "deps": [
+        "flt-ldsc-input-1",
+        "flt-ldsc-input-2",
+        "flt-ldsc-input-3",
+        "flt-ldsc-input-4",
+        "flt-ldsc-input-5",
+        "flt-ldsc-input-6",
+        "flt-ldsc-input-7",
+        "flt-ldsc-input-8"
+      ],
+      "env": {
+        "FLT_OUTCOME": "edu"
+      },
+      "slots": 8,
+      "stage": "ldsc-pairs"
+    },
+    "flt-ldsc-pairs-mdd_2025": {
+      "cores": 8,
+      "deps": [
+        "flt-ldsc-input-1",
+        "flt-ldsc-input-2",
+        "flt-ldsc-input-3",
+        "flt-ldsc-input-4",
+        "flt-ldsc-input-5",
+        "flt-ldsc-input-6",
+        "flt-ldsc-input-7",
+        "flt-ldsc-input-8"
+      ],
+      "env": {
+        "FLT_OUTCOME": "mdd_2025"
+      },
+      "slots": 8,
+      "stage": "ldsc-pairs"
+    },
+    "flt-ldsc-pairs-sleep_disorder_r13": {
+      "cores": 8,
+      "deps": [
+        "flt-ldsc-input-1",
+        "flt-ldsc-input-2",
+        "flt-ldsc-input-3",
+        "flt-ldsc-input-4",
+        "flt-ldsc-input-5",
+        "flt-ldsc-input-6",
+        "flt-ldsc-input-7",
+        "flt-ldsc-input-8"
+      ],
+      "env": {
+        "FLT_OUTCOME": "sleep_disorder_r13"
+      },
+      "slots": 8,
+      "stage": "ldsc-pairs"
+    },
+    "flt-mri": {
+      "cores": 4,
+      "deps": [
+        "flt-prepare"
+      ],
+      "env": {},
+      "slots": 4,
+      "stage": "mri"
+    },
+    "flt-mvmr": {
+      "cores": 2,
+      "deps": [
+        "flt-uvmr"
+      ],
+      "env": {},
+      "slots": 2,
+      "stage": "mvmr"
+    },
+    "flt-phewas": {
+      "cores": 2,
+      "deps": [
+        "flt-placo-G732-mdd_2025"
+      ],
+      "env": {},
+      "slots": 2,
+      "stage": "phewas"
+    },
+    "flt-placo-G732-mdd_2025": {
+      "cores": 8,
+      "deps": [],
+      "env": {
+        "FLT_PAIR_BRAIN": "mdd_2025",
+        "FLT_PAIR_BUILD": "GRCh38",
+        "FLT_PAIR_FLT": "G732",
+        "FLT_PLACO_METHOD": "PLACO"
+      },
+      "slots": 8,
+      "stage": "placo"
+    },
+    "flt-prepare": {
+      "cores": 4,
+      "deps": [],
+      "env": {},
+      "slots": 4,
+      "stage": "prepare"
+    },
+    "flt-protein": {
+      "cores": 1,
+      "deps": [
+        "flt-prepare"
+      ],
+      "env": {},
+      "slots": 1,
+      "stage": "protein"
+    },
+    "flt-smr": {
+      "cores": 20,
+      "deps": [],
+      "env": {},
+      "slots": 20,
+      "stage": "smr"
+    },
+    "flt-uvmr": {
+      "cores": 1,
+      "deps": [
+        "flt-uvmr-forward-dementia_r13",
+        "flt-uvmr-forward-anystroke_eur",
+        "flt-uvmr-forward-sleep_disorder_r13",
+        "flt-uvmr-forward-mdd_2025",
+        "flt-uvmr-forward-anxiety_2026",
+        "flt-uvmr-forward-edu",
+        "flt-uvmr-reverse"
+      ],
+      "env": {},
+      "slots": 1,
+      "stage": "uvmr"
+    },
+    "flt-uvmr-forward-anxiety_2026": {
+      "cores": 2,
+      "deps": [
+        "flt-uvmr-instruments-1",
+        "flt-uvmr-instruments-2",
+        "flt-uvmr-instruments-3",
+        "flt-uvmr-instruments-4",
+        "flt-uvmr-instruments-5",
+        "flt-uvmr-instruments-6"
+      ],
+      "env": {
+        "FLT_OUTCOME": "anxiety_2026"
+      },
+      "slots": 2,
+      "stage": "uvmr-forward"
+    },
+    "flt-uvmr-forward-anystroke_eur": {
+      "cores": 2,
+      "deps": [
+        "flt-uvmr-instruments-1",
+        "flt-uvmr-instruments-2",
+        "flt-uvmr-instruments-3",
+        "flt-uvmr-instruments-4",
+        "flt-uvmr-instruments-5",
+        "flt-uvmr-instruments-6"
+      ],
+      "env": {
+        "FLT_OUTCOME": "anystroke_eur"
+      },
+      "slots": 2,
+      "stage": "uvmr-forward"
+    },
+    "flt-uvmr-forward-dementia_r13": {
+      "cores": 2,
+      "deps": [
+        "flt-uvmr-instruments-1",
+        "flt-uvmr-instruments-2",
+        "flt-uvmr-instruments-3",
+        "flt-uvmr-instruments-4",
+        "flt-uvmr-instruments-5",
+        "flt-uvmr-instruments-6"
+      ],
+      "env": {
+        "FLT_OUTCOME": "dementia_r13"
+      },
+      "slots": 2,
+      "stage": "uvmr-forward"
+    },
+    "flt-uvmr-forward-edu": {
+      "cores": 2,
+      "deps": [
+        "flt-uvmr-instruments-1",
+        "flt-uvmr-instruments-2",
+        "flt-uvmr-instruments-3",
+        "flt-uvmr-instruments-4",
+        "flt-uvmr-instruments-5",
+        "flt-uvmr-instruments-6"
+      ],
+      "env": {
+        "FLT_OUTCOME": "edu"
+      },
+      "slots": 2,
+      "stage": "uvmr-forward"
+    },
+    "flt-uvmr-forward-mdd_2025": {
+      "cores": 2,
+      "deps": [
+        "flt-uvmr-instruments-1",
+        "flt-uvmr-instruments-2",
+        "flt-uvmr-instruments-3",
+        "flt-uvmr-instruments-4",
+        "flt-uvmr-instruments-5",
+        "flt-uvmr-instruments-6"
+      ],
+      "env": {
+        "FLT_OUTCOME": "mdd_2025"
+      },
+      "slots": 2,
+      "stage": "uvmr-forward"
+    },
+    "flt-uvmr-forward-sleep_disorder_r13": {
+      "cores": 2,
+      "deps": [
+        "flt-uvmr-instruments-1",
+        "flt-uvmr-instruments-2",
+        "flt-uvmr-instruments-3",
+        "flt-uvmr-instruments-4",
+        "flt-uvmr-instruments-5",
+        "flt-uvmr-instruments-6"
+      ],
+      "env": {
+        "FLT_OUTCOME": "sleep_disorder_r13"
+      },
+      "slots": 2,
+      "stage": "uvmr-forward"
+    },
+    "flt-uvmr-instruments-1": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "1",
+        "FLT_SHARDS": "6"
+      },
+      "slots": 2,
+      "stage": "uvmr-instruments"
+    },
+    "flt-uvmr-instruments-2": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "2",
+        "FLT_SHARDS": "6"
+      },
+      "slots": 2,
+      "stage": "uvmr-instruments"
+    },
+    "flt-uvmr-instruments-3": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "3",
+        "FLT_SHARDS": "6"
+      },
+      "slots": 2,
+      "stage": "uvmr-instruments"
+    },
+    "flt-uvmr-instruments-4": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "4",
+        "FLT_SHARDS": "6"
+      },
+      "slots": 2,
+      "stage": "uvmr-instruments"
+    },
+    "flt-uvmr-instruments-5": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "5",
+        "FLT_SHARDS": "6"
+      },
+      "slots": 2,
+      "stage": "uvmr-instruments"
+    },
+    "flt-uvmr-instruments-6": {
+      "cores": 2,
+      "deps": [],
+      "env": {
+        "FLT_SHARD": "6",
+        "FLT_SHARDS": "6"
+      },
+      "slots": 2,
+      "stage": "uvmr-instruments"
+    },
+    "flt-uvmr-reverse": {
+      "cores": 8,
+      "deps": [
+        "flt-uvmr-instruments-1",
+        "flt-uvmr-instruments-2",
+        "flt-uvmr-instruments-3",
+        "flt-uvmr-instruments-4",
+        "flt-uvmr-instruments-5",
+        "flt-uvmr-instruments-6"
+      ],
+      "env": {},
+      "slots": 8,
+      "stage": "uvmr-reverse"
+    }
+  },
+  "qc": "/work/sph-huangj/analysis/flt/qc"
+}

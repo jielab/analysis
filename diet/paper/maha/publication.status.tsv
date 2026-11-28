@@ -1,0 +1,6 @@
+item	status	reason
+shared_score	complete	
+ukb	pending_or_partial	Required intermediate workbook does not exist: /work/sph-huangj/analysis/diet/main/maha/ukb/Fig3.precision_attenuation.out.xlsx
+nhanes	pending_or_partial	Required intermediate workbook does not exist: /work/sph-huangj/analysis/diet/main/maha/nhanes/Fig4.mortality_validation.out.xlsx
+chns	complete	
+supplement_names	complete	

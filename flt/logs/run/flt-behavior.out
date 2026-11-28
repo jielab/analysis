@@ -1,0 +1,343 @@
+[RUNNING] flt-behavior
+分析人群： 181505 ; FLT： 3 ; 表型： 48 
+Adjustment covariates:  age, sex, bmi, edu, inc, tdi, smoke_status, alcohol_status, pa_met_tot 
+
+[1/48] 表型：fat_pct | 表型有效人数：178,866 / 181,505
+  [1/144] fat_pct | FLT：p20628 | 实际分析 N=178,522 | 状态：ok
+  [2/144] fat_pct | FLT：F-Salad_vegetables | 实际分析 N=178,864 | 状态：ok
+  [3/144] fat_pct | FLT：p20638 | 实际分析 N=177,488 | 状态：ok
+
+[2/48] 表型：whole_body_fat_mass | 表型有效人数：178,671 / 181,505
+  [4/144] whole_body_fat_mass | FLT：p20628 | 实际分析 N=178,328 | 状态：ok
+  [5/144] whole_body_fat_mass | FLT：F-Salad_vegetables | 实际分析 N=178,669 | 状态：ok
+  [6/144] whole_body_fat_mass | FLT：p20638 | 实际分析 N=177,296 | 状态：ok
+
+[3/48] 表型：bmi | 表型有效人数：181,067 / 181,505
+  [7/144] bmi | FLT：p20628 | 实际分析 N=180,720 | 状态：ok
+  [8/144] bmi | FLT：F-Salad_vegetables | 实际分析 N=181,065 | 状态：ok
+  [9/144] bmi | FLT：p20638 | 实际分析 N=179,679 | 状态：ok
+
+[4/48] 表型：leg_fat_pct_right | 表型有效人数：178,954 / 181,505
+  [10/144] leg_fat_pct_right | FLT：p20628 | 实际分析 N=178,611 | 状态：ok
+  [11/144] leg_fat_pct_right | FLT：F-Salad_vegetables | 实际分析 N=178,952 | 状态：ok
+  [12/144] leg_fat_pct_right | FLT：p20638 | 实际分析 N=177,575 | 状态：ok
+
+[5/48] 表型：leg_fat_mass_right | 表型有效人数：178,950 / 181,505
+  [13/144] leg_fat_mass_right | FLT：p20628 | 实际分析 N=178,607 | 状态：ok
+  [14/144] leg_fat_mass_right | FLT：F-Salad_vegetables | 实际分析 N=178,948 | 状态：ok
+  [15/144] leg_fat_mass_right | FLT：p20638 | 实际分析 N=177,571 | 状态：ok
+
+[6/48] 表型：leg_fat_free_mass_right | 表型有效人数：178,943 / 181,505
+  [16/144] leg_fat_free_mass_right | FLT：p20628 | 实际分析 N=178,600 | 状态：ok
+  [17/144] leg_fat_free_mass_right | FLT：F-Salad_vegetables | 实际分析 N=178,941 | 状态：ok
+  [18/144] leg_fat_free_mass_right | FLT：p20638 | 实际分析 N=177,564 | 状态：ok
+
+[7/48] 表型：leg_predicted_mass_right | 表型有效人数：178,943 / 181,505
+  [19/144] leg_predicted_mass_right | FLT：p20628 | 实际分析 N=178,600 | 状态：ok
+  [20/144] leg_predicted_mass_right | FLT：F-Salad_vegetables | 实际分析 N=178,941 | 状态：ok
+  [21/144] leg_predicted_mass_right | FLT：p20638 | 实际分析 N=177,564 | 状态：ok
+
+[8/48] 表型：leg_fat_pct_left | 表型有效人数：178,940 / 181,505
+  [22/144] leg_fat_pct_left | FLT：p20628 | 实际分析 N=178,597 | 状态：ok
+  [23/144] leg_fat_pct_left | FLT：F-Salad_vegetables | 实际分析 N=178,938 | 状态：ok
+  [24/144] leg_fat_pct_left | FLT：p20638 | 实际分析 N=177,561 | 状态：ok
+
+[9/48] 表型：leg_fat_mass_left | 表型有效人数：178,939 / 181,505
+  [25/144] leg_fat_mass_left | FLT：p20628 | 实际分析 N=178,596 | 状态：ok
+  [26/144] leg_fat_mass_left | FLT：F-Salad_vegetables | 实际分析 N=178,937 | 状态：ok
+  [27/144] leg_fat_mass_left | FLT：p20638 | 实际分析 N=177,560 | 状态：ok
+
+[10/48] 表型：leg_fat_free_mass_left | 表型有效人数：178,928 / 181,505
+  [28/144] leg_fat_free_mass_left | FLT：p20628 | 实际分析 N=178,585 | 状态：ok
+  [29/144] leg_fat_free_mass_left | FLT：F-Salad_vegetables | 实际分析 N=178,926 | 状态：ok
+  [30/144] leg_fat_free_mass_left | FLT：p20638 | 实际分析 N=177,549 | 状态：ok
+
+[11/48] 表型：leg_predicted_mass_left | 表型有效人数：178,926 / 181,505
+  [31/144] leg_predicted_mass_left | FLT：p20628 | 实际分析 N=178,583 | 状态：ok
+  [32/144] leg_predicted_mass_left | FLT：F-Salad_vegetables | 实际分析 N=178,924 | 状态：ok
+  [33/144] leg_predicted_mass_left | FLT：p20638 | 实际分析 N=177,547 | 状态：ok
+
+[12/48] 表型：arm_fat_pct_right | 表型有效人数：178,925 / 181,505
+  [34/144] arm_fat_pct_right | FLT：p20628 | 实际分析 N=178,582 | 状态：ok
+  [35/144] arm_fat_pct_right | FLT：F-Salad_vegetables | 实际分析 N=178,923 | 状态：ok
+  [36/144] arm_fat_pct_right | FLT：p20638 | 实际分析 N=177,546 | 状态：ok
+
+[13/48] 表型：arm_fat_mass_right | 表型有效人数：178,912 / 181,505
+  [37/144] arm_fat_mass_right | FLT：p20628 | 实际分析 N=178,569 | 状态：ok
+  [38/144] arm_fat_mass_right | FLT：F-Salad_vegetables | 实际分析 N=178,910 | 状态：ok
+  [39/144] arm_fat_mass_right | FLT：p20638 | 实际分析 N=177,533 | 状态：ok
+
+[14/48] 表型：arm_fat_free_mass_right | 表型有效人数：178,911 / 181,505
+  [40/144] arm_fat_free_mass_right | FLT：p20628 | 实际分析 N=178,568 | 状态：ok
+  [41/144] arm_fat_free_mass_right | FLT：F-Salad_vegetables | 实际分析 N=178,909 | 状态：ok
+  [42/144] arm_fat_free_mass_right | FLT：p20638 | 实际分析 N=177,532 | 状态：ok
+
+[15/48] 表型：arm_predicted_mass_right | 表型有效人数：178,911 / 181,505
+  [43/144] arm_predicted_mass_right | FLT：p20628 | 实际分析 N=178,568 | 状态：ok
+  [44/144] arm_predicted_mass_right | FLT：F-Salad_vegetables | 实际分析 N=178,909 | 状态：ok
+  [45/144] arm_predicted_mass_right | FLT：p20638 | 实际分析 N=177,532 | 状态：ok
+
+[16/48] 表型：arm_fat_pct_left | 表型有效人数：178,901 / 181,505
+  [46/144] arm_fat_pct_left | FLT：p20628 | 实际分析 N=178,558 | 状态：ok
+  [47/144] arm_fat_pct_left | FLT：F-Salad_vegetables | 实际分析 N=178,899 | 状态：ok
+  [48/144] arm_fat_pct_left | FLT：p20638 | 实际分析 N=177,522 | 状态：ok
+
+[17/48] 表型：arm_fat_mass_left | 表型有效人数：178,886 / 181,505
+  [49/144] arm_fat_mass_left | FLT：p20628 | 实际分析 N=178,543 | 状态：ok
+  [50/144] arm_fat_mass_left | FLT：F-Salad_vegetables | 实际分析 N=178,884 | 状态：ok
+  [51/144] arm_fat_mass_left | FLT：p20638 | 实际分析 N=177,508 | 状态：ok
+
+[18/48] 表型：arm_fat_free_mass_left | 表型有效人数：178,882 / 181,505
+  [52/144] arm_fat_free_mass_left | FLT：p20628 | 实际分析 N=178,539 | 状态：ok
+  [53/144] arm_fat_free_mass_left | FLT：F-Salad_vegetables | 实际分析 N=178,880 | 状态：ok
+  [54/144] arm_fat_free_mass_left | FLT：p20638 | 实际分析 N=177,503 | 状态：ok
+
+[19/48] 表型：arm_predicted_mass_left | 表型有效人数：178,872 / 181,505
+  [55/144] arm_predicted_mass_left | FLT：p20628 | 实际分析 N=178,529 | 状态：ok
+  [56/144] arm_predicted_mass_left | FLT：F-Salad_vegetables | 实际分析 N=178,870 | 状态：ok
+  [57/144] arm_predicted_mass_left | FLT：p20638 | 实际分析 N=177,493 | 状态：ok
+
+[20/48] 表型：smoke_status | 表型有效人数：181,078 / 181,505
+  [58/144] smoke_status | FLT：p20628 | 实际分析 N=180,732 | 状态：ok
+  [59/144] smoke_status | FLT：F-Salad_vegetables | 实际分析 N=181,076 | 状态：ok
+  [60/144] smoke_status | FLT：p20638 | 实际分析 N=179,689 | 状态：ok
+
+[21/48] 表型：alcohol_status | 表型有效人数：181,348 / 181,505
+  [61/144] alcohol_status | FLT：p20628 | 实际分析 N=181,001 | 状态：ok
+  [62/144] alcohol_status | FLT：F-Salad_vegetables | 实际分析 N=181,346 | 状态：ok
+  [63/144] alcohol_status | FLT：p20638 | 实际分析 N=179,955 | 状态：ok
+
+[22/48] 表型：alcohol_freq | 表型有效人数：181,367 / 181,505
+  [64/144] alcohol_freq | FLT：p20628 | 实际分析 N=181,020 | 状态：ok
+  [65/144] alcohol_freq | FLT：F-Salad_vegetables | 实际分析 N=181,365 | 状态：ok
+  [66/144] alcohol_freq | FLT：p20638 | 实际分析 N=179,974 | 状态：ok
+
+[23/48] 表型：sleep_duration | 表型有效人数：180,995 / 181,505
+  [67/144] sleep_duration | FLT：p20628 | 实际分析 N=180,648 | 状态：ok
+  [68/144] sleep_duration | FLT：F-Salad_vegetables | 实际分析 N=180,993 | 状态：ok
+  [69/144] sleep_duration | FLT：p20638 | 实际分析 N=179,606 | 状态：ok
+
+[24/48] 表型：phone_call_time | 表型有效人数：153,683 / 181,505
+  [70/144] phone_call_time | FLT：p20628 | 实际分析 N=153,399 | 状态：ok
+  [71/144] phone_call_time | FLT：F-Salad_vegetables | 实际分析 N=153,681 | 状态：ok
+  [72/144] phone_call_time | FLT：p20638 | 实际分析 N=152,524 | 状态：ok
+
+[25/48] 表型：tv_time | 表型有效人数：180,911 / 181,505
+  [73/144] tv_time | FLT：p20628 | 实际分析 N=180,565 | 状态：ok
+  [74/144] tv_time | FLT：F-Salad_vegetables | 实际分析 N=180,909 | 状态：ok
+  [75/144] tv_time | FLT：p20638 | 实际分析 N=179,525 | 状态：ok
+
+[26/48] 表型：computer_time | 表型有效人数：179,825 / 181,505
+  [76/144] computer_time | FLT：p20628 | 实际分析 N=179,482 | 状态：ok
+  [77/144] computer_time | FLT：F-Salad_vegetables | 实际分析 N=179,823 | 状态：ok
+  [78/144] computer_time | FLT：p20638 | 实际分析 N=178,445 | 状态：ok
+
+[27/48] 表型：pa_met_tot | 表型有效人数：149,847 / 181,505
+  [79/144] pa_met_tot | FLT：p20628 | 实际分析 N=149,579 | 状态：ok
+  [80/144] pa_met_tot | FLT：F-Salad_vegetables | 实际分析 N=149,845 | 状态：ok
+  [81/144] pa_met_tot | FLT：p20638 | 实际分析 N=148,719 | 状态：ok
+
+[28/48] 表型：summed_mvpa | 表型有效人数：157,227 / 181,505
+  [82/144] summed_mvpa | FLT：p20628 | 实际分析 N=156,943 | 状态：ok
+  [83/144] summed_mvpa | FLT：F-Salad_vegetables | 实际分析 N=157,225 | 状态：ok
+  [84/144] summed_mvpa | FLT：p20638 | 实际分析 N=156,044 | 状态：ok
+
+[29/48] 表型：walking_duration | 表型有效人数：159,994 / 181,505
+  [85/144] walking_duration | FLT：p20628 | 实际分析 N=159,701 | 状态：ok
+  [86/144] walking_duration | FLT：F-Salad_vegetables | 实际分析 N=159,992 | 状态：ok
+  [87/144] walking_duration | FLT：p20638 | 实际分析 N=158,753 | 状态：ok
+
+[30/48] 表型：walk_time | 表型有效人数：136,059 / 181,505
+  [88/144] walk_time | FLT：p20628 | 实际分析 N=135,814 | 状态：ok
+  [89/144] walk_time | FLT：F-Salad_vegetables | 实际分析 N=136,058 | 状态：ok
+  [90/144] walk_time | FLT：p20638 | 实际分析 N=135,001 | 状态：ok
+
+[31/48] 表型：liking_gym | 表型有效人数：159,593 / 181,505
+  [91/144] liking_gym | FLT：p20628 | 实际分析 N=159,319 | 状态：ok
+  [92/144] liking_gym | FLT：F-Salad_vegetables | 实际分析 N=159,592 | 状态：ok
+  [93/144] liking_gym | FLT：p20638 | 实际分析 N=158,424 | 状态：ok
+
+[32/48] 表型：liking_stairs | 表型有效人数：180,804 / 181,505
+  [94/144] liking_stairs | FLT：p20628 | 实际分析 N=180,465 | 状态：ok
+  [95/144] liking_stairs | FLT：F-Salad_vegetables | 实际分析 N=180,802 | 状态：ok
+  [96/144] liking_stairs | FLT：p20638 | 实际分析 N=179,425 | 状态：ok
+
+[33/48] 表型：liking_sweat | 表型有效人数：179,767 / 181,505
+  [97/144] liking_sweat | FLT：p20628 | 实际分析 N=179,439 | 状态：ok
+  [98/144] liking_sweat | FLT：F-Salad_vegetables | 实际分析 N=179,765 | 状态：ok
+  [99/144] liking_sweat | FLT：p20638 | 实际分析 N=178,406 | 状态：ok
+
+[34/48] 表型：education_degree | 表型有效人数：179,693 / 181,505
+  [100/144] education_degree | FLT：p20628 | 实际分析 N=179,352 | 状态：ok
+  [101/144] education_degree | FLT：F-Salad_vegetables | 实际分析 N=179,691 | 状态：ok
+  [102/144] education_degree | FLT：p20638 | 实际分析 N=178,316 | 状态：ok
+
+[35/48] 表型：tdi | 表型有效人数：181,288 / 181,505
+  [103/144] tdi | FLT：p20628 | 实际分析 N=180,941 | 状态：ok
+  [104/144] tdi | FLT：F-Salad_vegetables | 实际分析 N=181,286 | 状态：ok
+  [105/144] tdi | FLT：p20638 | 实际分析 N=179,893 | 状态：ok
+
+[36/48] 表型：inc | 表型有效人数：162,985 / 181,505
+  [106/144] inc | FLT：p20628 | 实际分析 N=162,678 | 状态：ok
+  [107/144] inc | FLT：F-Salad_vegetables | 实际分析 N=162,983 | 状态：ok
+  [108/144] inc | FLT：p20638 | 实际分析 N=161,747 | 状态：ok
+
+[37/48] 表型：fluid_intelligence.z | 表型有效人数：65,746 / 181,505
+  [109/144] fluid_intelligence.z | FLT：p20628 | 实际分析 N=65,617 | 状态：ok
+  [110/144] fluid_intelligence.z | FLT：F-Salad_vegetables | 实际分析 N=65,745 | 状态：ok
+  [111/144] fluid_intelligence.z | FLT：p20638 | 实际分析 N=65,190 | 状态：ok
+
+[38/48] 表型：reaction_time.z | 表型有效人数：180,981 / 181,505
+  [112/144] reaction_time.z | FLT：p20628 | 实际分析 N=180,635 | 状态：ok
+  [113/144] reaction_time.z | FLT：F-Salad_vegetables | 实际分析 N=180,979 | 状态：ok
+  [114/144] reaction_time.z | FLT：p20638 | 实际分析 N=179,590 | 状态：ok
+
+[39/48] 表型：pairs_matching.z | 表型有效人数：180,327 / 181,505
+  [115/144] pairs_matching.z | FLT：p20628 | 实际分析 N=179,983 | 状态：ok
+  [116/144] pairs_matching.z | FLT：F-Salad_vegetables | 实际分析 N=180,325 | 状态：ok
+  [117/144] pairs_matching.z | FLT：p20638 | 实际分析 N=178,945 | 状态：ok
+
+[40/48] 表型：numeric_memory.z | 表型有效人数：19,366 / 181,505
+  [118/144] numeric_memory.z | FLT：p20628 | 实际分析 N=19,341 | 状态：ok
+  [119/144] numeric_memory.z | FLT：F-Salad_vegetables | 实际分析 N=19,365 | 状态：ok
+  [120/144] numeric_memory.z | FLT：p20638 | 实际分析 N=19,212 | 状态：ok
+
+[41/48] 表型：life_satisfaction.z | 表型有效人数：64,878 / 181,505
+  [121/144] life_satisfaction.z | FLT：p20628 | 实际分析 N=64,750 | 状态：ok
+  [122/144] life_satisfaction.z | FLT：F-Salad_vegetables | 实际分析 N=64,877 | 状态：ok
+  [123/144] life_satisfaction.z | FLT：p20638 | 实际分析 N=64,332 | 状态：ok
+
+[42/48] 表型：subjective_wellbeing.z | 表型有效人数：123,278 / 181,505
+  [124/144] subjective_wellbeing.z | FLT：p20628 | 实际分析 N=123,062 | 状态：ok
+  [125/144] subjective_wellbeing.z | FLT：F-Salad_vegetables | 实际分析 N=123,276 | 状态：ok
+  [126/144] subjective_wellbeing.z | FLT：p20638 | 实际分析 N=122,353 | 状态：ok
+
+[43/48] 表型：phq4.z | 表型有效人数：168,879 / 181,505
+  [127/144] phq4.z | FLT：p20628 | 实际分析 N=168,564 | 状态：ok
+  [128/144] phq4.z | FLT：F-Salad_vegetables | 实际分析 N=168,877 | 状态：ok
+  [129/144] phq4.z | FLT：p20638 | 实际分析 N=167,622 | 状态：ok
+
+[44/48] 表型：phq9.z | 表型有效人数：124,734 / 181,505
+  [130/144] phq9.z | FLT：p20628 | 实际分析 N=124,514 | 状态：ok
+  [131/144] phq9.z | FLT：F-Salad_vegetables | 实际分析 N=124,732 | 状态：ok
+  [132/144] phq9.z | FLT：p20638 | 实际分析 N=123,779 | 状态：ok
+
+[45/48] 表型：cidi.z | 表型有效人数：42,459 / 181,505
+  [133/144] cidi.z | FLT：p20628 | 实际分析 N=42,382 | 状态：ok
+  [134/144] cidi.z | FLT：F-Salad_vegetables | 实际分析 N=42,457 | 状态：ok
+  [135/144] cidi.z | FLT：p20638 | 实际分析 N=42,148 | 状态：ok
+
+[46/48] 表型：gad7.z | 表型有效人数：125,278 / 181,505
+  [136/144] gad7.z | FLT：p20628 | 实际分析 N=125,056 | 状态：ok
+  [137/144] gad7.z | FLT：F-Salad_vegetables | 实际分析 N=125,276 | 状态：ok
+  [138/144] gad7.z | FLT：p20638 | 实际分析 N=124,318 | 状态：ok
+
+[47/48] 表型：prospective_memory.b | 表型有效人数：66,278 / 181,505
+  [139/144] prospective_memory.b | FLT：p20628 | 实际分析 N=66,146 | 状态：ok
+  [140/144] prospective_memory.b | FLT：F-Salad_vegetables | 实际分析 N=66,277 | 状态：ok
+  [141/144] prospective_memory.b | FLT：p20638 | 实际分析 N=65,712 | 状态：ok
+
+[48/48] 表型：general_mental_health.b | 表型有效人数：180,529 / 181,505
+  [142/144] general_mental_health.b | FLT：p20628 | 实际分析 N=180,189 | 状态：ok
+  [143/144] general_mental_health.b | FLT：F-Salad_vegetables | 实际分析 N=180,527 | 状态：ok
+  [144/144] general_mental_health.b | FLT：p20638 | 实际分析 N=179,146 | 状态：ok
+                      trait significant
+1              alcohol_freq           3
+2            alcohol_status           3
+3    arm_fat_free_mass_left           3
+4   arm_fat_free_mass_right           3
+5         arm_fat_mass_left           2
+6        arm_fat_mass_right           2
+7          arm_fat_pct_left           2
+8         arm_fat_pct_right           2
+9   arm_predicted_mass_left           3
+10 arm_predicted_mass_right           3
+11                      bmi           3
+12                   cidi.z           2
+13            computer_time           3
+14         education_degree           3
+15                  fat_pct           3
+16     fluid_intelligence.z           3
+17                   gad7.z           2
+18  general_mental_health.b           3
+19                      inc           2
+20   leg_fat_free_mass_left           3
+21  leg_fat_free_mass_right           3
+22        leg_fat_mass_left           3
+23       leg_fat_mass_right           3
+24         leg_fat_pct_left           3
+25        leg_fat_pct_right           3
+26  leg_predicted_mass_left           3
+27 leg_predicted_mass_right           3
+28      life_satisfaction.z           2
+29               liking_gym           3
+30            liking_stairs           3
+31             liking_sweat           3
+32         numeric_memory.z           2
+33               pa_met_tot           3
+34         pairs_matching.z           3
+35          phone_call_time           2
+36                   phq4.z           3
+37                   phq9.z           3
+38     prospective_memory.b           2
+39          reaction_time.z           2
+40           sleep_duration           3
+41             smoke_status           2
+42   subjective_wellbeing.z           2
+43              summed_mvpa           3
+44                      tdi           2
+45                  tv_time           3
+46                walk_time           2
+47         walking_duration           3
+48      whole_body_fat_mass           2
+
+ ok 
+144 
+已保存： /work/sph-huangj/analysis/flt/main/results/01lm 
+[DONE] flt-behavior
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u12a>
+Subject: Job 4440911: <flt-behavior> in cluster <qmhpc> Done
+
+Job <flt-behavior> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:15 2026
+Job was executed on host(s) <b08u12a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 00:48:45 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Thu Nov 26 00:48:45 2026
+Terminated at Thu Nov 26 00:49:38 2026
+Results reported at Thu Nov 26 00:49:38 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/jobs/run/plan.json flt-behavior
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   47.66 sec.
+    Max Memory :                                 1044 MB
+    Average Memory :                             885.44 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                6
+    Run time :                                   53 sec.
+    Turnaround time :                            4583 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/logs/run/flt-behavior.err> for stderr output of this job.
+

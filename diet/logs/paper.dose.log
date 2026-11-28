@@ -1,0 +1,9 @@
+2026-11-26T01:12:20+00:00
+/work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/dose/final.py --output /work/sph-huangj/analysis/diet
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Fig1: complete
+Fig2: complete
+Fig3: complete
+Fig4: complete
+Fig5: input_missing (a-j; k)
+Saved figure status: /work/sph-huangj/analysis/diet/diet.paper/dose/composite_status.tsv

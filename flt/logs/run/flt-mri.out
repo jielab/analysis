@@ -1,0 +1,80 @@
+[RUNNING] flt-mri
+                                         exposure      family planned completed
+F-Salad_vegetables.FA27        F-Salad_vegetables        FA27      27        27
+p20628.FA27                                p20628        FA27      27        27
+p20638.FA27                                p20638        FA27      27        27
+F-Salad_vegetables.MD27        F-Salad_vegetables        MD27      27        27
+p20628.MD27                                p20628        MD27      27        27
+p20638.MD27                                p20638        MD27      27        27
+F-Salad_vegetables.ThicknessDK F-Salad_vegetables ThicknessDK      66        66
+p20628.ThicknessDK                         p20628 ThicknessDK      66        66
+p20638.ThicknessDK                         p20638 ThicknessDK      66        66
+F-Salad_vegetables.Volume139   F-Salad_vegetables   Volume139     139       139
+p20628.Volume139                           p20628   Volume139     139       139
+p20638.Volume139                           p20638   Volume139     139       139
+F-Salad_vegetables.WMH         F-Salad_vegetables         WMH       1         1
+p20628.WMH                                 p20628         WMH       1         1
+p20638.WMH                                 p20638         WMH       1         1
+                               P05 FDR05
+F-Salad_vegetables.FA27          1     0
+p20628.FA27                      9     1
+p20638.FA27                      2     0
+F-Salad_vegetables.MD27         10     1
+p20628.MD27                     10     8
+p20638.MD27                     15    15
+F-Salad_vegetables.ThicknessDK  23    14
+p20628.ThicknessDK              35    29
+p20638.ThicknessDK              20    14
+F-Salad_vegetables.Volume139    44    27
+p20628.Volume139                27     8
+p20638.Volume139                32     8
+F-Salad_vegetables.WMH           0     0
+p20628.WMH                       0     0
+p20638.WMH                       0     0
+[DONE] flt-mri
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@r13n09>
+Subject: Job 4440913: <flt-mri> in cluster <qmhpc> Done
+
+Job <flt-mri> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:16 2026
+Job was executed on host(s) <4*r13n09>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Thu Nov 26 00:48:42 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Thu Nov 26 00:48:42 2026
+Terminated at Thu Nov 26 00:51:19 2026
+Results reported at Thu Nov 26 00:51:19 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/jobs/run/plan.json flt-mri
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   151.07 sec.
+    Max Memory :                                 3283 MB
+    Average Memory :                             1794.52 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   155 sec.
+    Turnaround time :                            4683 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/logs/run/flt-mri.err> for stderr output of this job.
+

@@ -1,0 +1,12 @@
+2026-11-25T23:28:51+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/inflammation_plot
+
+Negative Positive 
+       4        0 
+      inflammation proportion_percent      beta_a     beta_b
+1 Neutrophil count          2.1350077 -0.03146799 0.08763005
+2              CRP          1.2878154 -0.02659739 0.06253704
+3              SII          0.9631428 -0.02432608 0.05113543
+4              NLR          0.6046576 -0.01760702 0.04435339
+Saved: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/inflammation/M2/Fig_DOSE_inflammation_mediation_beta_bubble

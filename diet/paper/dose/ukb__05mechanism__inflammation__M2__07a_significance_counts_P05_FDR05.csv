@@ -1,0 +1,15 @@
+"result","N_tested","N_P05","N_FDR05"
+"Flow 1: DOSE -> inflammation linear association",9,7,7
+"Flow 2: inflammation -> IS Cox association without DOSE",9,5,5
+"LHR AFT: total effect",5,5,5
+"LHR AFT: ACME",5,5,5
+"LHR AFT: ADE",5,5,5
+"LHR AFT: proportion mediated",5,5,5
+"MODERN logistic: total effect",5,5,5
+"MODERN logistic: ACME",5,4,3
+"MODERN logistic: ADE",5,5,5
+"MODERN logistic: proportion mediated",5,4,3
+"Cox product: total effect",5,5,5
+"Cox product: indirect effect",5,5,5
+"Cox product: direct effect",5,5,5
+"Cox product: proportion mediated",5,4,4

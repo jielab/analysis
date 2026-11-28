@@ -1,0 +1,5 @@
+"group","lower","upper","lower_inclusive","upper_inclusive"
+"Q1",0,2,TRUE,TRUE
+"Q2",2,3,FALSE,TRUE
+"Q3",3,4.5,FALSE,TRUE
+"Q4",4.5,9,FALSE,TRUE

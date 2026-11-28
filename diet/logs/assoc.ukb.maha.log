@@ -1,0 +1,1131 @@
+2026-11-25T20:15:00+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R ukb assoc
+Warning: program compiled against libxml 213 using older 209
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Reviewer validation before UKB main analysis: MAHA is not an arbitrary score
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[UKB VALIDATE] common complete-case N=115761; deaths=7245
+[UKB VALIDATE] fitting 512 matched direction patterns; workers=20
+# A tibble: 1 x 13
+  Cohort       N Deaths MAHA_HR_per_SD MAHA_CI_low MAHA_CI_high Direction_null_n
+  <chr>    <int>  <int>          <dbl>       <dbl>        <dbl>            <int>
+1 UK Bio~ 115761   7245          0.945       0.922        0.969              511
+# i 6 more variables: MAHA_protective_Z <dbl>,
+#   Mortality_percentile_vs_direction_null <dbl>,
+#   Mortality_empirical_one_sided_P <dbl>, MAHA_anchor_Spearman <dbl>,
+#   Anchor_percentile_vs_direction_null <dbl>,
+#   Anchor_empirical_one_sided_P <dbl>
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Reviewer validation before UKB main analysis: MAHA construct profile
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Table 1
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Setting theme "Compact"
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Figure 1: PheWAS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[RAW PHEWAS] Fitting diet.maha.s100
+Merging data using these shared columns:  id
+Finding associations...
+Compiling results...
+Cleaning up...
+Finding significance thresholds...
+[RAW PHEWAS] Fitting diet.dash.s100
+Merging data using these shared columns:  id
+Finding associations...
+Compiling results...
+Cleaning up...
+Finding significance thresholds...
+[RAW PHEWAS] Fitting diet.mind.s100
+Merging data using these shared columns:  id
+Finding associations...
+Compiling results...
+Cleaning up...
+Finding significance thresholds...
+[RAW PHEWAS] Fitting diet.medi24.s100
+Merging data using these shared columns:  id
+Finding associations...
+Compiling results...
+Cleaning up...
+Finding significance thresholds...
+# A tibble: 4 x 7
+  Diet  n_bonf n_fdr mean_logp median_logp n_neg_bonf n_pos_bonf
+  <chr>  <int> <int>     <dbl>       <dbl>      <int>      <int>
+1 MEDI     437   746      7.76       1.42         437          0
+2 DASH     392   680      6.73       1.24         391          1
+3 MIND     368   638      5.55       1.14         368          0
+4 MAHA     266   494      4.44       0.860        265          1
+# A tibble: 34 x 5
+   Diet  category                n_bonf prop_bonf mean_logp
+   <chr> <chr>                    <int>     <dbl>     <dbl>
+ 1 DASH  circulatory system          62    0.416     10.1  
+ 2 DASH  congenital anomalies         3    0.0545     0.984
+ 3 DASH  dermatologic                11    0.121      2.74 
+ 4 DASH  digestive                   74    0.5       13.7  
+ 5 DASH  endocrine/metabolic         40    0.282     11.7  
+ 6 DASH  genitourinary               36    0.242      5.43 
+ 7 DASH  hematopoietic               14    0.264      4.03 
+ 8 DASH  infectious diseases         14    0.246      4.29 
+ 9 DASH  injuries & poisonings       15    0.165      2.89 
+10 DASH  mental disorders            21    0.309     14.8  
+11 DASH  musculoskeletal             17    0.153      4.24 
+12 DASH  neoplasms                   19    0.143      2.90 
+13 DASH  neurological                12    0.156      3.44 
+14 DASH  pregnancy complications      0    0          0.543
+15 DASH  respiratory                 34    0.453     14.5  
+16 DASH  sense organs                 9    0.0818     1.43 
+17 DASH  symptoms                    11    0.367      5.86 
+18 MAHA  circulatory system          43    0.289      6.82 
+19 MAHA  congenital anomalies         0    0          0.680
+20 MAHA  dermatologic                11    0.121      2.15 
+21 MAHA  digestive                   55    0.372      8.06 
+22 MAHA  endocrine/metabolic         24    0.169      6.97 
+23 MAHA  genitourinary               15    0.101      2.28 
+24 MAHA  hematopoietic                5    0.0943     1.70 
+25 MAHA  infectious diseases         10    0.175      2.15 
+26 MAHA  injuries & poisonings       11    0.121      1.94 
+27 MAHA  mental disorders            18    0.265     16.9  
+28 MAHA  musculoskeletal             16    0.144      4.01 
+29 MAHA  neoplasms                   16    0.120      2.08 
+30 MAHA  neurological                10    0.130      2.39 
+31 MAHA  pregnancy complications      0    0          0.373
+32 MAHA  respiratory                 24    0.32       7.26 
+33 MAHA  sense organs                 0    0          0.917
+34 MAHA  symptoms                     8    0.267      3.26 
+# A tibble: 50 x 15
+   phenotype description category beta.MAHA beta.DASH  p.MAHA   p.DASH logp.MAHA
+   <chr>     <chr>       <chr>        <dbl>     <dbl>   <dbl>    <dbl>     <dbl>
+ 1 594.3     Calculus o~ genitou~  -6.32e-5  -1.39e-4 1.14e-4 1.61e-21      3.94
+ 2 250.7     Diabetic r~ endocri~  -7.28e-5  -2.43e-4 1.45e-2 7.61e-20      1.84
+ 3 250.23    Type 2 dia~ endocri~  -4.56e-5  -1.42e-4 1.02e-2 3.38e-19      1.99
+ 4 280.1     Iron defic~ hematop~  -1.49e-4  -2.93e-4 1.55e-4 6.18e-17      3.81
+ 5 289       Other dise~ hematop~  -1.03e-4  -1.97e-4 1.20e-4 2.03e-16      3.92
+ 6 280       Iron defic~ hematop~  -1.56e-4  -2.91e-4 9.33e-5 2.57e-16      4.03
+ 7 560.4     Other inte~ digesti~  -1.25e-4  -2.31e-4 1.15e-4 1.57e-15      3.94
+ 8 276.1     Electrolyt~ endocri~  -1.38e-4  -2.58e-4 1.95e-4 4.02e-15      3.71
+ 9 159       Malignant ~ neoplas~  -1.27e-4  -2.14e-4 3.78e-5 6.11e-15      4.42
+10 585.2     Renal fail~ genitou~  -3.95e-5  -8.99e-5 2.44e-3 1.01e-14      2.61
+# i 40 more rows
+# i 7 more variables: logp.DASH <dbl>, sig_bonf.MAHA <lgl>,
+#   sig_bonf.DASH <lgl>, same_direction <lgl>, delta_logp <dbl>,
+#   delta_beta <dbl>, sig_pattern <chr>
+# A tibble: 6 x 15
+  phenotype description   category beta.MAHA beta.DASH  p.MAHA  p.DASH logp.MAHA
+  <chr>     <chr>         <chr>        <dbl>     <dbl>   <dbl>   <dbl>     <dbl>
+1 681.7     Cellulitis a~ dermato~  -4.65e-5  -3.13e-5 3.76e-6 4.93e-4      5.43
+2 858       Complication~ injurie~  -1.04e-4  -6.33e-5 6.29e-6 2.13e-3      5.20
+3 729       Other disord~ musculo~  -6.10e-5  -4.59e-5 6.95e-6 1.45e-4      5.16
+4 761       Cervicalgia   symptoms  -5.60e-5  -4.29e-5 7.34e-6 1.15e-4      5.13
+5 741       Symptoms and~ musculo~  -5.59e-5  -3.28e-5 2.10e-5 5.09e-3      4.68
+6 353       Nerve root a~ neurolo~  -6.39e-5  -4.01e-5 2.35e-5 2.93e-3      4.63
+# i 7 more variables: logp.DASH <dbl>, sig_bonf.MAHA <lgl>,
+#   sig_bonf.DASH <lgl>, same_direction <lgl>, delta_logp <dbl>,
+#   delta_beta <dbl>, sig_pattern <chr>
+# A tibble: 17 x 6
+   category   n_both n_dash_only n_maha_only mean_delta_logp prop_same_direction
+   <chr>       <int>       <int>       <int>           <dbl>               <dbl>
+ 1 respirato~     24          10           0           7.20                0.853
+ 2 digestive      55          19           0           5.60                0.919
+ 3 endocrine~     24          16           0           4.71                0.845
+ 4 circulato~     43          19           0           3.28                0.919
+ 5 genitouri~     15          21           0           3.14                0.859
+ 6 symptoms        7           4           1           2.61                0.9  
+ 7 hematopoi~      5           9           0           2.33                0.811
+ 8 infectiou~     10           4           0           2.14                0.807
+ 9 neurologi~      9           3           1           1.05                0.831
+10 injuries ~     10           5           1           0.949               0.868
+11 neoplasms      16           3           0           0.818               0.850
+12 dermatolo~     10           1           1           0.597               0.813
+13 sense org~      0           9           0           0.512               0.845
+14 congenita~      0           3           0           0.304               0.782
+15 musculosk~     14           3           2           0.229               0.856
+16 pregnancy~      0           0           0           0.170               0.606
+17 mental di~     18           3           0          -2.09                0.868
+# A tibble: 0 x 7
+# i 7 variables: Diet <chr>, beta <dbl>, SE <dbl>, p <dbl>, logp <dbl>,
+#   sig_bonf <lgl>, n_total <int>
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Figure 2: main and alternative MAHA specifications
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              term  estimate  std.error  conf.low conf.high  statistic
+1    diet.maha.pts 0.9723312 0.01265469 0.9485109 0.9967497  -2.217268
+2    diet.dash.pts 0.9344013 0.01246434 0.9118504 0.9575099  -5.443472
+3    diet.mind.pts 0.9319193 0.01265095 0.9090957 0.9553159  -5.573420
+4  diet.medi24.pts 0.9100504 0.01241866 0.8881667 0.9324734  -7.589810
+5    diet.maha.pts 0.9606806 0.02712999 0.9109311 1.0131472  -1.478558
+6    diet.dash.pts 0.8868949 0.02656382 0.8419002 0.9342944  -4.518505
+7    diet.mind.pts 0.8871484 0.02697269 0.8414662 0.9353107  -4.439415
+8  diet.medi24.pts 0.8863241 0.02654330 0.8413921 0.9336555  -4.546254
+9    diet.maha.pts 0.9509709 0.01987728 0.9146340 0.9887514  -2.529108
+10   diet.dash.pts 0.9111594 0.01953969 0.8769237 0.9467316  -4.761459
+11   diet.mind.pts 0.9032780 0.01987018 0.8687755 0.9391506  -5.119479
+12 diet.medi24.pts 0.9002588 0.01948312 0.8665288 0.9353017  -5.393031
+13   diet.maha.pts 1.0219682 0.01549749 0.9913926 1.0534868   1.402187
+14   diet.dash.pts 0.9159389 0.01504371 0.8893261 0.9433481  -5.836700
+15   diet.mind.pts 0.8899336 0.01552527 0.8632612 0.9174301  -7.510874
+16 diet.medi24.pts 0.8534033 0.01511499 0.8284918 0.8790640 -10.487800
+17   diet.maha.pts 0.9236251 0.01669086 0.8938984 0.9543403  -4.760031
+18   diet.dash.pts 0.8340610 0.01629517 0.8078433 0.8611297 -11.135119
+19   diet.mind.pts 0.8593698 0.01658700 0.8318805 0.8877675  -9.137031
+20 diet.medi24.pts 0.8294212 0.01637931 0.8032168 0.8564806 -11.418496
+21   diet.maha.pts 0.9453325 0.01261772 0.9222404 0.9690027  -4.455528
+22   diet.dash.pts 0.8984253 0.01237235 0.8769007 0.9204782  -8.657345
+23   diet.mind.pts 0.9090144 0.01252406 0.8869723 0.9316042  -7.616890
+24 diet.medi24.pts 0.8976622 0.01233592 0.8762184 0.9196307  -8.751798
+        p.value N_total N_event                 Outcome        Exposure
+1  2.660481e-02  111344    7085 Coronary artery disease   diet.maha.pts
+2  5.225186e-08  111344    7085 Coronary artery disease   diet.dash.pts
+3  2.497866e-08  111344    7085 Coronary artery disease   diet.mind.pts
+4  3.203758e-14  111344    7085 Coronary artery disease diet.medi24.pts
+5  1.392584e-01  115514    1570         Ischemic stroke   diet.maha.pts
+6  6.227773e-06  115514    1570         Ischemic stroke   diet.dash.pts
+7  9.020361e-06  115514    1570         Ischemic stroke   diet.mind.pts
+8  5.460903e-06  115514    1570         Ischemic stroke diet.medi24.pts
+9  1.143528e-02  115300    2910           Heart failure   diet.maha.pts
+10 1.921988e-06  115300    2910           Heart failure   diet.dash.pts
+11 3.063812e-07  115300    2910           Heart failure   diet.mind.pts
+12 6.927915e-08  115300    2910           Heart failure diet.medi24.pts
+13 1.608594e-01  113982    4744         Type 2 diabetes   diet.maha.pts
+14 5.324480e-09  113982    4744         Type 2 diabetes   diet.dash.pts
+15 5.873371e-14  113982    4744         Type 2 diabetes   diet.mind.pts
+16 9.828992e-26  113982    4744         Type 2 diabetes diet.medi24.pts
+17 1.935636e-06  115592    4183  Chronic kidney disease   diet.maha.pts
+18 8.463189e-29  115592    4183  Chronic kidney disease   diet.dash.pts
+19 6.419031e-20  115592    4183  Chronic kidney disease   diet.mind.pts
+20 3.380350e-30  115592    4183  Chronic kidney disease diet.medi24.pts
+21 8.368696e-06  115761    7245     All-cause mortality   diet.maha.pts
+22 4.828801e-18  115761    7245     All-cause mortality   diet.dash.pts
+23 2.598605e-14  115761    7245     All-cause mortality   diet.mind.pts
+24 2.099807e-18  115761    7245     All-cause mortality diet.medi24.pts
+   Model_Type error Diet
+1         t2e  <NA> MAHA
+2         t2e  <NA> DASH
+3         t2e  <NA> MIND
+4         t2e  <NA> MEDI
+5         t2e  <NA> MAHA
+6         t2e  <NA> DASH
+7         t2e  <NA> MIND
+8         t2e  <NA> MEDI
+9         t2e  <NA> MAHA
+10        t2e  <NA> DASH
+11        t2e  <NA> MIND
+12        t2e  <NA> MEDI
+13        t2e  <NA> MAHA
+14        t2e  <NA> DASH
+15        t2e  <NA> MIND
+16        t2e  <NA> MEDI
+17        t2e  <NA> MAHA
+18        t2e  <NA> DASH
+19        t2e  <NA> MIND
+20        t2e  <NA> MEDI
+21        t2e  <NA> MAHA
+22        t2e  <NA> DASH
+23        t2e  <NA> MIND
+24        t2e  <NA> MEDI
+# A tibble: 18 x 8
+   MAHA  Pattern Outcome            contrast estimate conf.low conf.high p.value
+   <chr> <fct>   <fct>              <chr>       <dbl>    <dbl>     <dbl>   <dbl>
+ 1 MAHA  DASH    Coronary artery d~ DASH lo~     1.19    1.05       1.35 5.91e-3
+ 2 MAHA  DASH    Ischemic stroke    DASH lo~     1.56    1.19       2.03 1.16e-3
+ 3 MAHA  DASH    Heart failure      DASH lo~     1.19    0.981      1.44 7.83e-2
+ 4 MAHA  DASH    Type 2 diabetes    DASH lo~     1.33    1.14       1.55 3.42e-4
+ 5 MAHA  DASH    Chronic kidney di~ DASH lo~     1.42    1.21       1.67 2.48e-5
+ 6 MAHA  DASH    All-cause mortali~ DASH lo~     1.21    1.06       1.37 3.58e-3
+ 7 MAHA  MEDI    Coronary artery d~ MEDI lo~     1.12    1.00       1.24 4.08e-2
+ 8 MAHA  MEDI    Ischemic stroke    MEDI lo~     1.34    1.07       1.68 9.98e-3
+ 9 MAHA  MEDI    Heart failure      MEDI lo~     1.12    0.949      1.32 1.84e-1
+10 MAHA  MEDI    Type 2 diabetes    MEDI lo~     1.50    1.32       1.71 1.01e-9
+11 MAHA  MEDI    Chronic kidney di~ MEDI lo~     1.32    1.15       1.52 1.05e-4
+12 MAHA  MEDI    All-cause mortali~ MEDI lo~     1.11    1.00       1.24 4.11e-2
+13 MAHA  MIND    Coronary artery d~ MIND lo~     1.06    0.951      1.18 2.91e-1
+14 MAHA  MIND    Ischemic stroke    MIND lo~     1.26    1.01       1.59 4.32e-2
+15 MAHA  MIND    Heart failure      MIND lo~     1.02    0.863      1.20 8.29e-1
+16 MAHA  MIND    Type 2 diabetes    MIND lo~     1.49    1.31       1.71 5.13e-9
+17 MAHA  MIND    Chronic kidney di~ MIND lo~     1.18    1.02       1.36 2.36e-2
+18 MAHA  MIND    All-cause mortali~ MIND lo~     1.10    0.986      1.22 8.75e-2
+# A tibble: 18 x 12
+   MAHA  Pattern Outcome                    Base MAHA_model Traditional    Both
+   <chr> <chr>   <chr>                     <dbl>      <dbl>       <dbl>   <dbl>
+ 1 MAHA  DASH    Coronary artery disease 158125.    158122.     158098. 158099.
+ 2 MAHA  DASH    Ischemic stroke          35136.     35136.      35118.  35119.
+ 3 MAHA  DASH    Heart failure            63430.     63426.      63409.  63411.
+ 4 MAHA  DASH    Type 2 diabetes         103664.    103664.     103632. 103604.
+ 5 MAHA  DASH    Chronic kidney disease   91491.     91471.      91370.  91370.
+ 6 MAHA  DASH    All-cause mortality     161742.    161724.     161669. 161671.
+ 7 MAHA  MEDI    Coronary artery disease 158125.    158122.     158070. 158072.
+ 8 MAHA  MEDI    Ischemic stroke          35136.     35136.      35118.  35120.
+ 9 MAHA  MEDI    Heart failure            63430.     63426.      63403.  63404.
+10 MAHA  MEDI    Type 2 diabetes         103664.    103664.     103556. 103535.
+11 MAHA  MEDI    Chronic kidney disease   91491.     91471.      91363.  91363.
+12 MAHA  MEDI    All-cause mortality     161742.    161724.     161667. 161666.
+13 MAHA  MIND    Coronary artery disease 158125.    158122.     158096. 158098.
+14 MAHA  MIND    Ischemic stroke          35136.     35136.      35118.  35120.
+15 MAHA  MIND    Heart failure            63430.     63426.      63406.  63407.
+16 MAHA  MIND    Type 2 diabetes         103664.    103664.     103609. 103584.
+17 MAHA  MIND    Chronic kidney disease   91491.     91471.      91409.  91410.
+18 MAHA  MIND    All-cause mortality     161742.    161724.     161686. 161686.
+# i 5 more variables: add_MAHA_given_trad <dbl>, add_trad_given_MAHA <dbl>,
+#   maha_only_information <dbl>, traditional_only_information <dbl>,
+#   net_traditional_gain <dbl>
+Coordinate system already present.
+i Adding new coordinate system, which will replace the existing one.
+                      term  estimate  std.error  conf.low conf.high  statistic
+1        diet.maha_bal.pts 0.9674032 0.01268198 0.9436531 0.9917510 -2.6131517
+2     diet.maha_strict.pts 0.9750543 0.01260007 0.9512691 0.9994342 -2.0049184
+3    diet.maha_nodairy.pts 0.9782901 0.01265418 0.9543248 1.0028572 -1.7345317
+4  diet.maha_noprotein.pts 0.9766957 0.01248650 0.9530826 1.0008938 -1.8884533
+5        diet.maha_bal.pts 0.9548457 0.02711491 0.9054250 1.0069638 -1.7040652
+6     diet.maha_strict.pts 0.9600579 0.02685829 0.9108255 1.0119514 -1.5176593
+7    diet.maha_nodairy.pts 0.9482001 0.02706611 0.8992094 0.9998599 -1.9651779
+8  diet.maha_noprotein.pts 0.9682981 0.02680913 0.9187316 1.0205386 -1.2016549
+9        diet.maha_bal.pts 0.9530959 0.01990571 0.9166268 0.9910161 -2.4133629
+10    diet.maha_strict.pts 0.9647270 0.01971940 0.9281516 1.0027437 -1.8210560
+11   diet.maha_nodairy.pts 0.9491656 0.01984971 0.9129470 0.9868210 -2.6283511
+12 diet.maha_noprotein.pts 0.9557781 0.01963404 0.9196958 0.9932759 -2.3036285
+13       diet.maha_bal.pts 1.0110234 0.01552142 0.9807292 1.0422534  0.7063199
+14    diet.maha_strict.pts 1.0058632 0.01538184 0.9759906 1.0366501  0.3800645
+15   diet.maha_nodairy.pts 1.0334236 0.01548269 1.0025343 1.0652646  2.1234810
+16 diet.maha_noprotein.pts 1.0267462 0.01527135 0.9964692 1.0579432  1.7283840
+17       diet.maha_bal.pts 0.9302344 0.01669062 0.9002954 0.9611690 -4.3328921
+18    diet.maha_strict.pts 0.9464560 0.01651473 0.9163108 0.9775930 -3.3322220
+19   diet.maha_nodairy.pts 0.9295599 0.01668080 0.8996600 0.9604536 -4.3789274
+20 diet.maha_noprotein.pts 0.9319962 0.01651025 0.9023195 0.9626490 -4.2656232
+21       diet.maha_bal.pts 0.9501139 0.01262680 0.9268886 0.9739212 -4.0527583
+22    diet.maha_strict.pts 0.9610248 0.01251535 0.9377375 0.9848903 -3.1765055
+23   diet.maha_nodairy.pts 0.9450522 0.01260909 0.9219826 0.9686990 -4.4820937
+24 diet.maha_noprotein.pts 0.9519041 0.01247298 0.9289150 0.9754622 -3.9518182
+        p.value N_total N_event                 Outcome                Exposure
+1  8.971147e-03  111344    7085 Coronary artery disease       diet.maha_bal.pts
+2  4.497177e-02  111344    7085 Coronary artery disease    diet.maha_strict.pts
+3  8.282378e-02  111344    7085 Coronary artery disease   diet.maha_nodairy.pts
+4  5.896512e-02  111344    7085 Coronary artery disease diet.maha_noprotein.pts
+5  8.836891e-02  115514    1570         Ischemic stroke       diet.maha_bal.pts
+6  1.291003e-01  115514    1570         Ischemic stroke    diet.maha_strict.pts
+7  4.939365e-02  115514    1570         Ischemic stroke   diet.maha_nodairy.pts
+8  2.294973e-01  115514    1570         Ischemic stroke diet.maha_noprotein.pts
+9  1.580607e-02  115300    2910           Heart failure       diet.maha_bal.pts
+10 6.859835e-02  115300    2910           Heart failure    diet.maha_strict.pts
+11 8.579990e-03  115300    2910           Heart failure   diet.maha_nodairy.pts
+12 2.124351e-02  115300    2910           Heart failure diet.maha_noprotein.pts
+13 4.799892e-01  113982    4744         Type 2 diabetes       diet.maha_bal.pts
+14 7.038976e-01  113982    4744         Type 2 diabetes    diet.maha_strict.pts
+15 3.371357e-02  113982    4744         Type 2 diabetes   diet.maha_nodairy.pts
+16 8.391940e-02  113982    4744         Type 2 diabetes diet.maha_noprotein.pts
+17 1.471633e-05  115592    4183  Chronic kidney disease       diet.maha_bal.pts
+18 8.615549e-04  115592    4183  Chronic kidney disease    diet.maha_strict.pts
+19 1.192648e-05  115592    4183  Chronic kidney disease   diet.maha_nodairy.pts
+20 1.993450e-05  115592    4183  Chronic kidney disease diet.maha_noprotein.pts
+21 5.061729e-05  115761    7245     All-cause mortality       diet.maha_bal.pts
+22 1.490610e-03  115761    7245     All-cause mortality    diet.maha_strict.pts
+23 7.391428e-06  115761    7245     All-cause mortality   diet.maha_nodairy.pts
+24 7.755966e-05  115761    7245     All-cause mortality diet.maha_noprotein.pts
+   Model_Type error       Diet
+1         t2e  <NA>   balanced
+2         t2e  <NA>     strict
+3         t2e  <NA>   no dairy
+4         t2e  <NA> no protein
+5         t2e  <NA>   balanced
+6         t2e  <NA>     strict
+7         t2e  <NA>   no dairy
+8         t2e  <NA> no protein
+9         t2e  <NA>   balanced
+10        t2e  <NA>     strict
+11        t2e  <NA>   no dairy
+12        t2e  <NA> no protein
+13        t2e  <NA>   balanced
+14        t2e  <NA>     strict
+15        t2e  <NA>   no dairy
+16        t2e  <NA> no protein
+17        t2e  <NA>   balanced
+18        t2e  <NA>     strict
+19        t2e  <NA>   no dairy
+20        t2e  <NA> no protein
+21        t2e  <NA>   balanced
+22        t2e  <NA>     strict
+23        t2e  <NA>   no dairy
+24        t2e  <NA> no protein
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Figure 2 right panels: 10-year all-cause mortality risk
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- Group Statistics and Calculated Risks ---
+# A tibble: 9 x 5
+  x1     x2         N Events Risk 
+  <fct>  <fct>  <int>  <int> <chr>
+1 low    low    23392   1860 4.9% 
+2 low    middle 17521   1341 4.6% 
+3 low    high    1884    127 4.4% 
+4 middle low    17755   1303 3.9% 
+5 middle middle 49572   3281 3.7% 
+6 middle high   18375   1107 3.5% 
+7 high   low     1718    107 3.3% 
+8 high   middle 18592   1100 3.2% 
+9 high   high   22545   1222 3.0% 
+# A tibble: 3 x 3
+  x1          y bg_lbl
+  <fct>   <dbl> <chr> 
+1 low    0.0474 4.7%  
+2 middle 0.0370 3.7%  
+3 high   0.0310 3.1%  
+
+--- Group Statistics and Calculated Risks ---
+# A tibble: 9 x 5
+  x1     x2         N Events Risk 
+  <fct>  <fct>  <int>  <int> <chr>
+1 low    low    23392   1860 4.9% 
+2 low    middle 17755   1303 3.9% 
+3 low    high    1718    107 3.3% 
+4 middle low    17521   1341 4.6% 
+5 middle middle 49572   3281 3.7% 
+6 middle high   18592   1100 3.2% 
+7 high   low     1884    127 4.4% 
+8 high   middle 18375   1107 3.5% 
+9 high   high   22545   1222 3.0% 
+# A tibble: 3 x 3
+  x1          y bg_lbl
+  <fct>   <dbl> <chr> 
+1 low    0.0440 4.4%  
+2 middle 0.0377 3.8%  
+3 high   0.0330 3.3%  
+# A tibble: 9 x 23
+  Panel     Outcome Facet_var Facet_group Line_var Line_group  time     N Events
+  <chr>     <chr>   <chr>     <chr>       <chr>    <chr>      <dbl> <int>  <int>
+1 b. 10-ye~ All-ca~ DASH      low         MAHA     low           10 23392   1860
+2 b. 10-ye~ All-ca~ DASH      middle      MAHA     low           10 17755   1303
+3 b. 10-ye~ All-ca~ DASH      high        MAHA     low           10  1718    107
+4 b. 10-ye~ All-ca~ DASH      low         MAHA     middle        10 17521   1341
+5 b. 10-ye~ All-ca~ DASH      middle      MAHA     middle        10 49572   3281
+6 b. 10-ye~ All-ca~ DASH      high        MAHA     middle        10 18592   1100
+7 b. 10-ye~ All-ca~ DASH      low         MAHA     high          10  1884    127
+8 b. 10-ye~ All-ca~ DASH      middle      MAHA     high          10 18375   1107
+9 b. 10-ye~ All-ca~ DASH      high        MAHA     high          10 22545   1222
+# i 14 more variables: risk <dbl>, risk_lower <dbl>, risk_upper <dbl>,
+#   risk_pct <dbl>, risk_lower_pct <dbl>, risk_upper_pct <dbl>, N_model <int>,
+#   Events_model <int>, adjustment <chr>, model <chr>, prediction <chr>,
+#   covariate_profile <chr>, time_origin <chr>, N_complete9 <int>
+# A tibble: 9 x 23
+  Panel     Outcome Facet_var Facet_group Line_var Line_group  time     N Events
+  <chr>     <chr>   <chr>     <chr>       <chr>    <chr>      <dbl> <int>  <int>
+1 c. 10-ye~ All-ca~ MAHA      low         DASH     low           10 23392   1860
+2 c. 10-ye~ All-ca~ MAHA      middle      DASH     low           10 17521   1341
+3 c. 10-ye~ All-ca~ MAHA      high        DASH     low           10  1884    127
+4 c. 10-ye~ All-ca~ MAHA      low         DASH     middle        10 17755   1303
+5 c. 10-ye~ All-ca~ MAHA      middle      DASH     middle        10 49572   3281
+6 c. 10-ye~ All-ca~ MAHA      high        DASH     middle        10 18375   1107
+7 c. 10-ye~ All-ca~ MAHA      low         DASH     high          10  1718    107
+8 c. 10-ye~ All-ca~ MAHA      middle      DASH     high          10 18592   1100
+9 c. 10-ye~ All-ca~ MAHA      high        DASH     high          10 22545   1222
+# i 14 more variables: risk <dbl>, risk_lower <dbl>, risk_upper <dbl>,
+#   risk_pct <dbl>, risk_lower_pct <dbl>, risk_upper_pct <dbl>, N_model <int>,
+#   Events_model <int>, adjustment <chr>, model <chr>, prediction <chr>,
+#   covariate_profile <chr>, time_origin <chr>, N_complete9 <int>
+   diet.dash.3c diet.maha.3c      N             Outcome
+1           low          low  23863 All-cause mortality
+2           low       middle  17918 All-cause mortality
+3           low         high   1930 All-cause mortality
+4        middle          low  18101 All-cause mortality
+5        middle       middle  50551 All-cause mortality
+6        middle         high  18770 All-cause mortality
+7          high          low   1747 All-cause mortality
+8          high       middle  18953 All-cause mortality
+9          high         high  23010 All-cause mortality
+10         <NA>         <NA> 297330 All-cause mortality
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Figure 5: geography vs TDI clustering
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Scale for fill is already present.
+Adding another scale for fill, which will replace the existing scale.
+# A tibble: 4 x 13
+  center_name     N TDI_mean TDI_sd DASH_mean DASH_sd MEDI_mean MEDI_sd
+  <fct>       <int>    <dbl>  <dbl>     <dbl>   <dbl>     <dbl>   <dbl>
+1 Croydon     13693   -0.704   2.86      56.9    14.4      49.3    13.7
+2 Hounslow    14652   -0.510   2.50      57.3    14.7      50.2    14.0
+3 Bristol     18201   -2.49    2.17      57.0    14.6      48.1    13.4
+4 Edinburgh    5311   -2.32    2.69      55.6    14.6      48.4    13.6
+# i 5 more variables: MIND_mean <dbl>, MIND_sd <dbl>, MAHA_mean <dbl>,
+#   MAHA_sd <dbl>, MAHA_minus_DASH_mean <dbl>
+# A tibble: 4 x 12
+  Diet      N R2_TDI_only R2_center_only R2_grid_only adjR2_grid_only
+  <chr> <int>       <dbl>          <dbl>        <dbl>           <dbl>
+1 DASH  46359    0.000373       0.000565       0.0275          0.0196
+2 MEDI  46359    0.000714       0.00439        0.0533          0.0457
+3 MIND  46359    0.000431       0.00402        0.0429          0.0352
+4 MAHA  46359    0.000119       0.000295       0.0185          0.0106
+# i 6 more variables: R2_TDI_plus_center <dbl>, R2_TDI_plus_grid <dbl>,
+#   unique_TDI_given_center <dbl>, unique_center_given_TDI <dbl>,
+#   unique_TDI_given_grid <dbl>, unique_grid_given_TDI <dbl>
+# A tibble: 4 x 4
+  Diet  Geography_to_TDI_ratio TDI_R2_pct Spatial_grid_R2_pct
+  <chr>                  <dbl>      <dbl>               <dbl>
+1 DASH                    73.6     0.0373                2.75
+2 MEDI                    74.7     0.0714                5.33
+3 MIND                    99.5     0.0431                4.29
+4 MAHA                   155.      0.0119                1.85
+Completed and cached MAHA step: fig5
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# UKB follow-up and proportional-hazards diagnostics
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[PH] Coronary artery disease : DASH
+[PH] Coronary artery disease : MEDI
+[PH] Coronary artery disease : MIND
+[PH] Coronary artery disease : MAHA
+[PH] Ischemic stroke : DASH
+[PH] Ischemic stroke : MEDI
+[PH] Ischemic stroke : MIND
+[PH] Ischemic stroke : MAHA
+[PH] Heart failure : DASH
+[PH WARNING] cox.zph failed after all fallbacks: terms_singledf: system is computationally singular: reciprocal condition number = 1.11662e-16 | terms: system is computationally singular: reciprocal condition number = 1.11662e-16 | coefficients: system is computationally singular: reciprocal condition number = 1.11662e-16
+[PH FALLBACK] Heart failure : DASH -- retrying without center.
+[PH] Heart failure : MEDI
+[PH WARNING] cox.zph failed after all fallbacks: terms_singledf: system is computationally singular: reciprocal condition number = 1.11067e-16 | terms: system is computationally singular: reciprocal condition number = 1.11067e-16 | coefficients: system is computationally singular: reciprocal condition number = 1.11067e-16
+[PH FALLBACK] Heart failure : MEDI -- retrying without center.
+[PH] Heart failure : MIND
+[PH WARNING] cox.zph failed after all fallbacks: terms_singledf: system is computationally singular: reciprocal condition number = 1.13052e-16 | terms: system is computationally singular: reciprocal condition number = 1.13052e-16 | coefficients: system is computationally singular: reciprocal condition number = 1.13052e-16
+[PH FALLBACK] Heart failure : MIND -- retrying without center.
+[PH] Heart failure : MAHA
+[PH WARNING] cox.zph failed after all fallbacks: terms_singledf: system is computationally singular: reciprocal condition number = 1.11563e-16 | terms: system is computationally singular: reciprocal condition number = 1.11563e-16 | coefficients: system is computationally singular: reciprocal condition number = 1.11563e-16
+[PH FALLBACK] Heart failure : MAHA -- retrying without center.
+[PH] Type 2 diabetes : DASH
+[PH] Type 2 diabetes : MEDI
+[PH] Type 2 diabetes : MIND
+[PH] Type 2 diabetes : MAHA
+[PH] Chronic kidney disease : DASH
+[PH] Chronic kidney disease : MEDI
+[PH] Chronic kidney disease : MIND
+[PH] Chronic kidney disease : MAHA
+[PH] All-cause mortality : DASH
+[PH] All-cause mortality : MEDI
+[PH] All-cause mortality : MIND
+[PH] All-cause mortality : MAHA
+`height` was translated to `width`.
+# A tibble: 6 x 14
+  Outcome_key  Outcome                      N Events Event_percent Person_years
+  <chr>        <fct>                    <int>  <int>         <dbl>        <dbl>
+1 cvd_cad      Coronary artery disease 111344   7085          6.36     1209580.
+2 cvd_stroke_i Ischemic stroke         115514   1570          1.36     1283750.
+3 cvd_hfail    Heart failure           115300   2910          2.52     1278503.
+4 t2dm         Type 2 diabetes         113982   4744          4.16     1249578.
+5 ckd          Chronic kidney disease  115592   4183          3.62     1275771.
+6 death        All-cause mortality     115761   7245          6.26     1292255.
+# i 8 more variables: Event_rate_per_1000PY <dbl>, ReverseKM_Q25 <dbl>,
+#   ReverseKM_median <dbl>, ReverseKM_Q75 <dbl>,
+#   Observed_followup_median <dbl>, Observed_followup_min <dbl>,
+#   Observed_followup_max <dbl>, Followup_label <chr>
+# A tibble: 24 x 18
+   Outcome_key  Outcome     Diet       N Events Exposure_PH_chisq Exposure_PH_df
+   <chr>        <fct>       <fct>  <int>  <int>             <dbl>          <dbl>
+ 1 cvd_cad      Coronary a~ DASH  111344   7085             8.54               1
+ 2 cvd_cad      Coronary a~ MEDI  111344   7085             6.24               1
+ 3 cvd_cad      Coronary a~ MIND  111344   7085             7.62               1
+ 4 cvd_cad      Coronary a~ MAHA  111344   7085            12.1                1
+ 5 cvd_stroke_i Ischemic s~ DASH  115514   1570             1.07               1
+ 6 cvd_stroke_i Ischemic s~ MEDI  115514   1570             0.879              1
+ 7 cvd_stroke_i Ischemic s~ MIND  115514   1570             1.08               1
+ 8 cvd_stroke_i Ischemic s~ MAHA  115514   1570             0.511              1
+ 9 cvd_hfail    Heart fail~ DASH  115300   2910             1.52               1
+10 cvd_hfail    Heart fail~ MEDI  115300   2910             0.676              1
+# i 14 more rows
+# i 11 more variables: Exposure_PH_P <dbl>, Global_PH_chisq <dbl>,
+#   Global_PH_df <dbl>, Global_PH_P <dbl>, PH_method <chr>, PH_error <chr>,
+#   PH_center_removed <lgl>, PH_covariate_set <chr>, PH_fallback_reason <chr>,
+#   Exposure_PH_flag <lgl>, Global_PH_flag <lgl>
+[PH] Models with exposure-specific or global P < 0.05:
+# A tibble: 24 x 18
+   Outcome_key Outcome      Diet       N Events Exposure_PH_chisq Exposure_PH_df
+   <chr>       <fct>        <fct>  <int>  <int>             <dbl>          <dbl>
+ 1 cvd_cad     Coronary ar~ MAHA  111344   7085             12.1               1
+ 2 death       All-cause m~ DASH  115761   7245              8.91              1
+ 3 cvd_cad     Coronary ar~ DASH  111344   7085              8.54              1
+ 4 ckd         Chronic kid~ MAHA  115592   4183              8.30              1
+ 5 death       All-cause m~ MEDI  115761   7245              7.67              1
+ 6 cvd_cad     Coronary ar~ MIND  111344   7085              7.62              1
+ 7 cvd_cad     Coronary ar~ MEDI  111344   7085              6.24              1
+ 8 death       All-cause m~ MIND  115761   7245              5.75              1
+ 9 t2dm        Type 2 diab~ MIND  113982   4744              5.12              1
+10 death       All-cause m~ MAHA  115761   7245              2.18              1
+# i 14 more rows
+# i 11 more variables: Exposure_PH_P <dbl>, Global_PH_chisq <dbl>,
+#   Global_PH_df <dbl>, Global_PH_P <dbl>, PH_method <chr>, PH_error <chr>,
+#   PH_center_removed <lgl>, PH_covariate_set <chr>, PH_fallback_reason <chr>,
+#   Exposure_PH_flag <lgl>, Global_PH_flag <lgl>
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Figure S3: diet score distributions and correlation
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Diet_score      N Mean   SD Median  P25  P75 Min Max
+1 MAHA-no protein 174843 53.8 13.2   54.7 45.0 63.4   0 100
+2   MAHA-no dairy 174843 57.3 14.1   58.3 48.0 67.6   0 100
+3     MAHA-strict 174843 50.3 14.1   50.8 40.7 60.3   0 100
+4   MAHA-balanced 174843 56.0 13.9   56.8 46.7 66.0   0 100
+5            MEDI 174843 47.4 13.7   47.1 38.4 56.8   0 100
+6            MIND 174843 41.8 14.0   41.4 31.0 51.7   0 100
+7            DASH 174843 56.2 14.8   58.1 45.2 67.7   0 100
+8            MAHA 174843 53.7 13.4   54.6 44.8 63.4   0 100
+                MAHA DASH MIND MEDI MAHA-balanced MAHA-strict MAHA-no dairy
+MAHA            1.00 0.58 0.49 0.35          0.95        0.85          0.98
+DASH            0.58 1.00 0.65 0.65          0.56        0.54          0.60
+MIND            0.49 0.65 1.00 0.74          0.45        0.41          0.52
+MEDI            0.35 0.65 0.74 1.00          0.34        0.33          0.36
+MAHA-balanced   0.95 0.56 0.45 0.34          1.00        0.94          0.91
+MAHA-strict     0.85 0.54 0.41 0.33          0.94        1.00          0.81
+MAHA-no dairy   0.98 0.60 0.52 0.36          0.91        0.81          1.00
+MAHA-no protein 0.98 0.58 0.48 0.34          0.93        0.87          0.97
+                MAHA-no protein
+MAHA                       0.98
+DASH                       0.58
+MIND                       0.48
+MEDI                       0.34
+MAHA-balanced              0.93
+MAHA-strict                0.87
+MAHA-no dairy              0.97
+MAHA-no protein            1.00
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# eFigure 2: head-to-head comparison of PheWAS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# A tibble: 1,572 x 11
+   phenotype description      beta.MAHA beta.DASH logp.MAHA logp.DASH delta_logp
+   <chr>     <chr>                <dbl>     <dbl>     <dbl>     <dbl>      <dbl>
+ 1 008       Intestinal infe~  -1.08e-4  -1.50e-4    6.56     15.1        8.57  
+ 2 008.5     Bacterial enter~  -8.15e-5  -1.06e-4    5.74     11.6        5.82  
+ 3 008.51    Intestinal e.co~  -9.57e-7  -7.96e-7    0.219     0.202     -0.0172
+ 4 008.52    Intestinal infe~  -4.24e-5  -4.82e-5    4.88      7.58       2.71  
+ 5 008.6     Viral Enteritis   -3.32e-5  -4.00e-5    2.59      4.33       1.74  
+ 6 008.7     Intestinal infe~   2.65e-6   1.27e-6    0.557     0.252     -0.305 
+ 7 010       Tuberculosis      -2.85e-6  -3.66e-6    0.281     0.446      0.164 
+ 8 031       Diseases due to~  -1.61e-7  -2.94e-6    0.0330    1.22       1.18  
+ 9 038       Septicemia        -2.11e-4  -3.40e-4    9.98     30.9       20.9   
+10 038.1     Gram negative s~  -3.67e-5  -8.22e-5    1.67      8.12       6.46  
+11 038.2     Gram positive s~  -2.24e-5  -3.77e-5    1.78      5.20       3.42  
+12 041       Bacterial infec~  -3.97e-4  -5.20e-4   23.1      49.0       25.8   
+13 041.1     Staphylococcus ~  -1.34e-4  -1.63e-4   10.2      18.2        8.03  
+14 041.2     Streptococcus i~  -9.35e-5  -9.65e-5    7.04      9.19       2.15  
+15 041.21    Rheumatic fever~  -6.36e-7  -2.75e-7    0.128     0.0583    -0.0702
+16 041.4     E. coli           -1.17e-4  -1.59e-4    6.18     13.5        7.30  
+17 053       Herpes zoster     -2.46e-5  -2.34e-5    2.49      2.79       0.301 
+18 053.1     Herpes zoster w~  -7.96e-6  -6.46e-6    1.28      1.11      -0.168 
+19 054       Herpes simplex    -7.92e-6  -1.07e-5    0.745     1.38       0.635 
+20 070       Viral hepatitis   -2.23e-5  -6.44e-5    0.980     6.83       5.85  
+21 070.1     Viral hepatitis~  -8.84e-7  -3.33e-6    0.103     0.592      0.489 
+22 070.2     Viral hepatitis~  -2.10e-6  -6.65e-7    0.191     0.0609    -0.130 
+23 070.3     Viral hepatitis~  -7.24e-7  -5.69e-6    0.0482    0.612      0.563 
+24 070.4     Chronic hepatit~  -3.89e-6  -1.23e-6    0.261     0.0806    -0.181 
+25 070.9     Hepatitis NOS     -1.63e-5  -5.21e-5    1.12      9.80       8.68  
+26 071       Human immunodef~   4.72e-6  -8.68e-7    0.553     0.0844    -0.469 
+27 071.1     HIV infection, ~   3.56e-6  -2.00e-6    0.439     0.247     -0.192 
+28 078       Viral warts & H~   2.37e-6  -2.53e-6    0.0806    0.0979     0.0173
+29 079       Viral infection   -3.08e-5  -5.93e-5    0.931     3.14       2.21  
+30 079.1     Varicella infec~  -2.36e-6  -1.57e-6    0.414     0.287     -0.127 
+# i 1,542 more rows
+# i 4 more variables: delta_beta <dbl>, sig_pattern <chr>, logp.MAHA.cap <dbl>,
+#   logp.DASH.cap <dbl>
+# A tibble: 18 x 11
+   phenotype description      beta.MAHA beta.DASH logp.MAHA logp.DASH delta_logp
+   <chr>     <chr>                <dbl>     <dbl>     <dbl>     <dbl>      <dbl>
+ 1 250.7     Diabetic retino~  -7.28e-5  -2.43e-4      1.84     19.1       17.3 
+ 2 594.3     Calculus of ure~  -6.32e-5  -1.39e-4      3.94     20.8       16.8 
+ 3 250.23    Type 2 diabetes~  -4.56e-5  -1.42e-4      1.99     18.5       16.5 
+ 4 280.1     Iron deficiency~  -1.49e-4  -2.93e-4      3.81     16.2       12.4 
+ 5 289       Other diseases ~  -1.03e-4  -1.97e-4      3.92     15.7       11.8 
+ 6 280       Iron deficiency~  -1.56e-4  -2.91e-4      4.03     15.6       11.6 
+ 7 585.2     Renal failure N~  -3.95e-5  -8.99e-5      2.61     14.0       11.4 
+ 8 251.1     Hypoglycemia      -3.96e-5  -9.98e-5      2.12     13.3       11.2 
+ 9 560.4     Other intestina~  -1.25e-4  -2.31e-4      3.94     14.8       10.9 
+10 276.1     Electrolyte imb~  -1.38e-4  -2.58e-4      3.71     14.4       10.7 
+11 858       Complication of~  -1.04e-4  -6.33e-5      5.20      2.67      -2.53
+12 741       Symptoms and di~  -5.59e-5  -3.28e-5      4.68      2.29      -2.38
+13 681.7     Cellulitis and ~  -4.65e-5  -3.13e-5      5.43      3.31      -2.12
+14 353       Nerve root and ~  -6.39e-5  -4.01e-5      4.63      2.53      -2.10
+15 250.2     Type 2 diabetes   -6.00e-4  -1.14e-3     36.8     163.       126.  
+16 317       Alcohol-related~  -1.32e-3  -7.73e-4    221.       95.9     -125.  
+17 250       Diabetes mellit~  -5.91e-4  -1.16e-3     32.9     155.       122.  
+18 585       Renal failure     -5.55e-4  -8.32e-4     38.9     108.        69.2 
+# i 4 more variables: delta_beta <dbl>, sig_pattern <chr>, logp.MAHA.cap <dbl>,
+#   logp.DASH.cap <dbl>
+# A tibble: 7 x 11
+  phenotype description       beta.MAHA beta.DASH logp.MAHA logp.DASH delta_logp
+  <chr>     <chr>                 <dbl>     <dbl>     <dbl>     <dbl>      <dbl>
+1 250.7     Diabetic retinop~  -7.28e-5  -2.43e-4      1.84     19.1       17.3 
+2 280.1     Iron deficiency ~  -1.49e-4  -2.93e-4      3.81     16.2       12.4 
+3 280       Iron deficiency ~  -1.56e-4  -2.91e-4      4.03     15.6       11.6 
+4 858       Complication of ~  -1.04e-4  -6.33e-5      5.20      2.67      -2.53
+5 353       Nerve root and p~  -6.39e-5  -4.01e-5      4.63      2.53      -2.10
+6 250       Diabetes mellitus  -5.91e-4  -1.16e-3     32.9     155.       122.  
+7 317       Alcohol-related ~  -1.32e-3  -7.73e-4    221.       95.9     -125.  
+# i 4 more variables: delta_beta <dbl>, sig_pattern <chr>, logp.MAHA.cap <dbl>,
+#   logp.DASH.cap <dbl>
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# eFigure 4: 10-year joint DASH and MAHA categories
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                   Outcome   dash   maha    risk10            Y N_model
+1  Coronary artery disease    low    low 3.5497294      cvd_cad  111344
+2  Coronary artery disease    low middle 3.3559943      cvd_cad  111344
+3  Coronary artery disease    low   high 3.7635618      cvd_cad  111344
+4  Coronary artery disease middle    low 3.2504121      cvd_cad  111344
+5  Coronary artery disease middle middle 2.9256739      cvd_cad  111344
+6  Coronary artery disease middle   high 3.1141023      cvd_cad  111344
+7  Coronary artery disease   high    low 2.7177267      cvd_cad  111344
+8  Coronary artery disease   high middle 2.9440521      cvd_cad  111344
+9  Coronary artery disease   high   high 3.0448265      cvd_cad  111344
+10         Ischemic stroke    low    low 0.7568693 cvd_stroke_i  115514
+11         Ischemic stroke    low middle 0.7714690 cvd_stroke_i  115514
+12         Ischemic stroke    low   high 1.0245131 cvd_stroke_i  115514
+13         Ischemic stroke middle    low 0.6167939 cvd_stroke_i  115514
+14         Ischemic stroke middle middle 0.6224322 cvd_stroke_i  115514
+15         Ischemic stroke middle   high 0.6379468 cvd_stroke_i  115514
+16         Ischemic stroke   high    low 0.4345215 cvd_stroke_i  115514
+17         Ischemic stroke   high middle 0.5755212 cvd_stroke_i  115514
+18         Ischemic stroke   high   high 0.5966126 cvd_stroke_i  115514
+19           Heart failure    low    low 0.9902369    cvd_hfail  115300
+20           Heart failure    low middle 0.9171778    cvd_hfail  115300
+21           Heart failure    low   high 1.2729490    cvd_hfail  115300
+22           Heart failure middle    low 0.8855726    cvd_hfail  115300
+23           Heart failure middle middle 0.8397449    cvd_hfail  115300
+24           Heart failure middle   high 0.8955097    cvd_hfail  115300
+25           Heart failure   high    low 0.5910580    cvd_hfail  115300
+26           Heart failure   high middle 0.8150876    cvd_hfail  115300
+27           Heart failure   high   high 0.7486913    cvd_hfail  115300
+28         Type 2 diabetes    low    low 1.7571959         t2dm  113982
+29         Type 2 diabetes    low middle 1.8955899         t2dm  113982
+30         Type 2 diabetes    low   high 2.1296796         t2dm  113982
+31         Type 2 diabetes middle    low 1.6298051         t2dm  113982
+32         Type 2 diabetes middle middle 1.6712849         t2dm  113982
+33         Type 2 diabetes middle   high 1.8789923         t2dm  113982
+34         Type 2 diabetes   high    low 1.2424482         t2dm  113982
+35         Type 2 diabetes   high middle 1.5178344         t2dm  113982
+36         Type 2 diabetes   high   high 1.5266045         t2dm  113982
+37  Chronic kidney disease    low    low 2.7147067          ckd  115592
+38  Chronic kidney disease    low middle 2.8145686          ckd  115592
+39  Chronic kidney disease    low   high 3.3574830          ckd  115592
+40  Chronic kidney disease middle    low 2.0100019          ckd  115592
+41  Chronic kidney disease middle middle 2.2552573          ckd  115592
+42  Chronic kidney disease middle   high 1.9553564          ckd  115592
+43  Chronic kidney disease   high    low 1.5442217          ckd  115592
+44  Chronic kidney disease   high middle 1.7678315          ckd  115592
+45  Chronic kidney disease   high   high 1.6659925          ckd  115592
+46     All-cause mortality    low    low 3.2180449        death  115761
+47     All-cause mortality    low middle 3.2492133        death  115761
+48     All-cause mortality    low   high 2.8343664        death  115761
+49     All-cause mortality middle    low 2.7177072        death  115761
+50     All-cause mortality middle middle 2.7103389        death  115761
+51     All-cause mortality middle   high 2.6497756        death  115761
+52     All-cause mortality   high    low 2.3587414        death  115761
+53     All-cause mortality   high middle 2.3589487        death  115761
+54     All-cause mortality   high   high 2.4783798        death  115761
+   Events_model N_group Events_group
+1          7085   14106         1127
+2          7085   10791          716
+3          7085    1179           85
+4          7085   11363          871
+5          7085   32515         1951
+6          7085   12184          673
+7          7085    1166           79
+8          7085   12545          765
+9          7085   15495          818
+10         1570   14719          236
+11         1570   11236          172
+12         1570    1212           25
+13         1570   11857          170
+14         1570   33705          448
+15         1570   12555          156
+16         1570    1218           13
+17         1570   13019          166
+18         1570   15993          184
+19         2910   14668          445
+20         2910   11199          289
+21         2910    1212           44
+22         2910   11848          350
+23         2910   33658          840
+24         2910   12531          294
+25         2910    1217           26
+26         2910   12999          319
+27         2910   15968          303
+28         4744   14493          805
+29         4744   10999          555
+30         4744    1190           63
+31         4744   11718          563
+32         4744   33278         1361
+33         4744   12368          464
+34         4744    1200           44
+35         4744   12904          448
+36         4744   15832          441
+37         4183   14729          626
+38         4183   11231          497
+39         4183    1213           70
+40         4183   11872          418
+41         4183   33743         1298
+42         4183   12552          403
+43         4183    1220           36
+44         4183   13026          406
+45         4183   16006          429
+46         7245   14761         1085
+47         7245   11262          795
+48         7245    1217           76
+49         7245   11887          807
+50         7245   33789         2120
+51         7245   12572          713
+52         7245    1220           76
+53         7245   13039          732
+54         7245   16014          841
+                                                                                              adjustment
+1  age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+2  age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+3  age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+4  age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+5  age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+6  age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+7  age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+8  age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+9  age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+10 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+11 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+12 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+13 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+14 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+15 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+16 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+17 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+18 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+19 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+20 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+21 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+22 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+23 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+24 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+25 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+26 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+27 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+28 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+29 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+30 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+31 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+32 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+33 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+34 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+35 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+36 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+37 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+38 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+39 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+40 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+41 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+42 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+43 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+44 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+45 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+46 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+47 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+48 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+49 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+50 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+51 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+52 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+53 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+54 age.landmark; sex.f; center; tdi; PC1; PC2; bmi.pts; bp.pts; nonhdl.pts; smoke.pts; pa.pts; sleep.pts
+                          model
+1  Cox; DASH * MAHA interaction
+2  Cox; DASH * MAHA interaction
+3  Cox; DASH * MAHA interaction
+4  Cox; DASH * MAHA interaction
+5  Cox; DASH * MAHA interaction
+6  Cox; DASH * MAHA interaction
+7  Cox; DASH * MAHA interaction
+8  Cox; DASH * MAHA interaction
+9  Cox; DASH * MAHA interaction
+10 Cox; DASH * MAHA interaction
+11 Cox; DASH * MAHA interaction
+12 Cox; DASH * MAHA interaction
+13 Cox; DASH * MAHA interaction
+14 Cox; DASH * MAHA interaction
+15 Cox; DASH * MAHA interaction
+16 Cox; DASH * MAHA interaction
+17 Cox; DASH * MAHA interaction
+18 Cox; DASH * MAHA interaction
+19 Cox; DASH * MAHA interaction
+20 Cox; DASH * MAHA interaction
+21 Cox; DASH * MAHA interaction
+22 Cox; DASH * MAHA interaction
+23 Cox; DASH * MAHA interaction
+24 Cox; DASH * MAHA interaction
+25 Cox; DASH * MAHA interaction
+26 Cox; DASH * MAHA interaction
+27 Cox; DASH * MAHA interaction
+28 Cox; DASH * MAHA interaction
+29 Cox; DASH * MAHA interaction
+30 Cox; DASH * MAHA interaction
+31 Cox; DASH * MAHA interaction
+32 Cox; DASH * MAHA interaction
+33 Cox; DASH * MAHA interaction
+34 Cox; DASH * MAHA interaction
+35 Cox; DASH * MAHA interaction
+36 Cox; DASH * MAHA interaction
+37 Cox; DASH * MAHA interaction
+38 Cox; DASH * MAHA interaction
+39 Cox; DASH * MAHA interaction
+40 Cox; DASH * MAHA interaction
+41 Cox; DASH * MAHA interaction
+42 Cox; DASH * MAHA interaction
+43 Cox; DASH * MAHA interaction
+44 Cox; DASH * MAHA interaction
+45 Cox; DASH * MAHA interaction
+46 Cox; DASH * MAHA interaction
+47 Cox; DASH * MAHA interaction
+48 Cox; DASH * MAHA interaction
+49 Cox; DASH * MAHA interaction
+50 Cox; DASH * MAHA interaction
+51 Cox; DASH * MAHA interaction
+52 Cox; DASH * MAHA interaction
+53 Cox; DASH * MAHA interaction
+54 Cox; DASH * MAHA interaction
+                                                        prediction
+1  Fixed profile: numeric means; categorical modes in model sample
+2  Fixed profile: numeric means; categorical modes in model sample
+3  Fixed profile: numeric means; categorical modes in model sample
+4  Fixed profile: numeric means; categorical modes in model sample
+5  Fixed profile: numeric means; categorical modes in model sample
+6  Fixed profile: numeric means; categorical modes in model sample
+7  Fixed profile: numeric means; categorical modes in model sample
+8  Fixed profile: numeric means; categorical modes in model sample
+9  Fixed profile: numeric means; categorical modes in model sample
+10 Fixed profile: numeric means; categorical modes in model sample
+11 Fixed profile: numeric means; categorical modes in model sample
+12 Fixed profile: numeric means; categorical modes in model sample
+13 Fixed profile: numeric means; categorical modes in model sample
+14 Fixed profile: numeric means; categorical modes in model sample
+15 Fixed profile: numeric means; categorical modes in model sample
+16 Fixed profile: numeric means; categorical modes in model sample
+17 Fixed profile: numeric means; categorical modes in model sample
+18 Fixed profile: numeric means; categorical modes in model sample
+19 Fixed profile: numeric means; categorical modes in model sample
+20 Fixed profile: numeric means; categorical modes in model sample
+21 Fixed profile: numeric means; categorical modes in model sample
+22 Fixed profile: numeric means; categorical modes in model sample
+23 Fixed profile: numeric means; categorical modes in model sample
+24 Fixed profile: numeric means; categorical modes in model sample
+25 Fixed profile: numeric means; categorical modes in model sample
+26 Fixed profile: numeric means; categorical modes in model sample
+27 Fixed profile: numeric means; categorical modes in model sample
+28 Fixed profile: numeric means; categorical modes in model sample
+29 Fixed profile: numeric means; categorical modes in model sample
+30 Fixed profile: numeric means; categorical modes in model sample
+31 Fixed profile: numeric means; categorical modes in model sample
+32 Fixed profile: numeric means; categorical modes in model sample
+33 Fixed profile: numeric means; categorical modes in model sample
+34 Fixed profile: numeric means; categorical modes in model sample
+35 Fixed profile: numeric means; categorical modes in model sample
+36 Fixed profile: numeric means; categorical modes in model sample
+37 Fixed profile: numeric means; categorical modes in model sample
+38 Fixed profile: numeric means; categorical modes in model sample
+39 Fixed profile: numeric means; categorical modes in model sample
+40 Fixed profile: numeric means; categorical modes in model sample
+41 Fixed profile: numeric means; categorical modes in model sample
+42 Fixed profile: numeric means; categorical modes in model sample
+43 Fixed profile: numeric means; categorical modes in model sample
+44 Fixed profile: numeric means; categorical modes in model sample
+45 Fixed profile: numeric means; categorical modes in model sample
+46 Fixed profile: numeric means; categorical modes in model sample
+47 Fixed profile: numeric means; categorical modes in model sample
+48 Fixed profile: numeric means; categorical modes in model sample
+49 Fixed profile: numeric means; categorical modes in model sample
+50 Fixed profile: numeric means; categorical modes in model sample
+51 Fixed profile: numeric means; categorical modes in model sample
+52 Fixed profile: numeric means; categorical modes in model sample
+53 Fixed profile: numeric means; categorical modes in model sample
+54 Fixed profile: numeric means; categorical modes in model sample
+                                                                                                                                                                                                                                                                                 covariate_profile
+1  age.landmark=58.6393723273473; sex.f=Female; center=c11011; tdi=-1.77698385184653; PC1=-11.3060175054026; PC2=3.22937967224847; bmi.pts=74.4587045552522; bp.pts=46.2848020548929; nonhdl.pts=47.3866575657422; smoke.pts=76.3606929874982; pa.pts=86.5124299468314; sleep.pts=91.5296738037074
+2  age.landmark=58.6393723273473; sex.f=Female; center=c11011; tdi=-1.77698385184653; PC1=-11.3060175054026; PC2=3.22937967224847; bmi.pts=74.4587045552522; bp.pts=46.2848020548929; nonhdl.pts=47.3866575657422; smoke.pts=76.3606929874982; pa.pts=86.5124299468314; sleep.pts=91.5296738037074
+3  age.landmark=58.6393723273473; sex.f=Female; center=c11011; tdi=-1.77698385184653; PC1=-11.3060175054026; PC2=3.22937967224847; bmi.pts=74.4587045552522; bp.pts=46.2848020548929; nonhdl.pts=47.3866575657422; smoke.pts=76.3606929874982; pa.pts=86.5124299468314; sleep.pts=91.5296738037074
+4  age.landmark=58.6393723273473; sex.f=Female; center=c11011; tdi=-1.77698385184653; PC1=-11.3060175054026; PC2=3.22937967224847; bmi.pts=74.4587045552522; bp.pts=46.2848020548929; nonhdl.pts=47.3866575657422; smoke.pts=76.3606929874982; pa.pts=86.5124299468314; sleep.pts=91.5296738037074
+5  age.landmark=58.6393723273473; sex.f=Female; center=c11011; tdi=-1.77698385184653; PC1=-11.3060175054026; PC2=3.22937967224847; bmi.pts=74.4587045552522; bp.pts=46.2848020548929; nonhdl.pts=47.3866575657422; smoke.pts=76.3606929874982; pa.pts=86.5124299468314; sleep.pts=91.5296738037074
+6  age.landmark=58.6393723273473; sex.f=Female; center=c11011; tdi=-1.77698385184653; PC1=-11.3060175054026; PC2=3.22937967224847; bmi.pts=74.4587045552522; bp.pts=46.2848020548929; nonhdl.pts=47.3866575657422; smoke.pts=76.3606929874982; pa.pts=86.5124299468314; sleep.pts=91.5296738037074
+7  age.landmark=58.6393723273473; sex.f=Female; center=c11011; tdi=-1.77698385184653; PC1=-11.3060175054026; PC2=3.22937967224847; bmi.pts=74.4587045552522; bp.pts=46.2848020548929; nonhdl.pts=47.3866575657422; smoke.pts=76.3606929874982; pa.pts=86.5124299468314; sleep.pts=91.5296738037074
+8  age.landmark=58.6393723273473; sex.f=Female; center=c11011; tdi=-1.77698385184653; PC1=-11.3060175054026; PC2=3.22937967224847; bmi.pts=74.4587045552522; bp.pts=46.2848020548929; nonhdl.pts=47.3866575657422; smoke.pts=76.3606929874982; pa.pts=86.5124299468314; sleep.pts=91.5296738037074
+9  age.landmark=58.6393723273473; sex.f=Female; center=c11011; tdi=-1.77698385184653; PC1=-11.3060175054026; PC2=3.22937967224847; bmi.pts=74.4587045552522; bp.pts=46.2848020548929; nonhdl.pts=47.3866575657422; smoke.pts=76.3606929874982; pa.pts=86.5124299468314; sleep.pts=91.5296738037074
+10 age.landmark=58.8448340001088; sex.f=Female; center=c11011; tdi=-1.77537224925117; PC1=-11.3078819530606; PC2=3.22955337240005; bmi.pts=74.0660439427256; bp.pts=45.9060373634365; nonhdl.pts=47.7484980175563; smoke.pts=76.2056980106307; pa.pts=86.4913343837111; sleep.pts=91.4599096213446
+11 age.landmark=58.8448340001088; sex.f=Female; center=c11011; tdi=-1.77537224925117; PC1=-11.3078819530606; PC2=3.22955337240005; bmi.pts=74.0660439427256; bp.pts=45.9060373634365; nonhdl.pts=47.7484980175563; smoke.pts=76.2056980106307; pa.pts=86.4913343837111; sleep.pts=91.4599096213446
+12 age.landmark=58.8448340001088; sex.f=Female; center=c11011; tdi=-1.77537224925117; PC1=-11.3078819530606; PC2=3.22955337240005; bmi.pts=74.0660439427256; bp.pts=45.9060373634365; nonhdl.pts=47.7484980175563; smoke.pts=76.2056980106307; pa.pts=86.4913343837111; sleep.pts=91.4599096213446
+13 age.landmark=58.8448340001088; sex.f=Female; center=c11011; tdi=-1.77537224925117; PC1=-11.3078819530606; PC2=3.22955337240005; bmi.pts=74.0660439427256; bp.pts=45.9060373634365; nonhdl.pts=47.7484980175563; smoke.pts=76.2056980106307; pa.pts=86.4913343837111; sleep.pts=91.4599096213446
+14 age.landmark=58.8448340001088; sex.f=Female; center=c11011; tdi=-1.77537224925117; PC1=-11.3078819530606; PC2=3.22955337240005; bmi.pts=74.0660439427256; bp.pts=45.9060373634365; nonhdl.pts=47.7484980175563; smoke.pts=76.2056980106307; pa.pts=86.4913343837111; sleep.pts=91.4599096213446
+15 age.landmark=58.8448340001088; sex.f=Female; center=c11011; tdi=-1.77537224925117; PC1=-11.3078819530606; PC2=3.22955337240005; bmi.pts=74.0660439427256; bp.pts=45.9060373634365; nonhdl.pts=47.7484980175563; smoke.pts=76.2056980106307; pa.pts=86.4913343837111; sleep.pts=91.4599096213446
+16 age.landmark=58.8448340001088; sex.f=Female; center=c11011; tdi=-1.77537224925117; PC1=-11.3078819530606; PC2=3.22955337240005; bmi.pts=74.0660439427256; bp.pts=45.9060373634365; nonhdl.pts=47.7484980175563; smoke.pts=76.2056980106307; pa.pts=86.4913343837111; sleep.pts=91.4599096213446
+17 age.landmark=58.8448340001088; sex.f=Female; center=c11011; tdi=-1.77537224925117; PC1=-11.3078819530606; PC2=3.22955337240005; bmi.pts=74.0660439427256; bp.pts=45.9060373634365; nonhdl.pts=47.7484980175563; smoke.pts=76.2056980106307; pa.pts=86.4913343837111; sleep.pts=91.4599096213446
+18 age.landmark=58.8448340001088; sex.f=Female; center=c11011; tdi=-1.77537224925117; PC1=-11.3078819530606; PC2=3.22955337240005; bmi.pts=74.0660439427256; bp.pts=45.9060373634365; nonhdl.pts=47.7484980175563; smoke.pts=76.2056980106307; pa.pts=86.4913343837111; sleep.pts=91.4599096213446
+19 age.landmark=58.8339686013869; sex.f=Female; center=c11011; tdi=-1.77480069384215; PC1=-11.3068282536587; PC2=3.22980282623434; bmi.pts=74.1044666088465; bp.pts=45.9098005203816; nonhdl.pts=47.7271465741544; smoke.pts=76.2291847354727; pa.pts=86.4995663486557; sleep.pts=91.4731136166522
+20 age.landmark=58.8339686013869; sex.f=Female; center=c11011; tdi=-1.77480069384215; PC1=-11.3068282536587; PC2=3.22980282623434; bmi.pts=74.1044666088465; bp.pts=45.9098005203816; nonhdl.pts=47.7271465741544; smoke.pts=76.2291847354727; pa.pts=86.4995663486557; sleep.pts=91.4731136166522
+21 age.landmark=58.8339686013869; sex.f=Female; center=c11011; tdi=-1.77480069384215; PC1=-11.3068282536587; PC2=3.22980282623434; bmi.pts=74.1044666088465; bp.pts=45.9098005203816; nonhdl.pts=47.7271465741544; smoke.pts=76.2291847354727; pa.pts=86.4995663486557; sleep.pts=91.4731136166522
+22 age.landmark=58.8339686013869; sex.f=Female; center=c11011; tdi=-1.77480069384215; PC1=-11.3068282536587; PC2=3.22980282623434; bmi.pts=74.1044666088465; bp.pts=45.9098005203816; nonhdl.pts=47.7271465741544; smoke.pts=76.2291847354727; pa.pts=86.4995663486557; sleep.pts=91.4731136166522
+23 age.landmark=58.8339686013869; sex.f=Female; center=c11011; tdi=-1.77480069384215; PC1=-11.3068282536587; PC2=3.22980282623434; bmi.pts=74.1044666088465; bp.pts=45.9098005203816; nonhdl.pts=47.7271465741544; smoke.pts=76.2291847354727; pa.pts=86.4995663486557; sleep.pts=91.4731136166522
+24 age.landmark=58.8339686013869; sex.f=Female; center=c11011; tdi=-1.77480069384215; PC1=-11.3068282536587; PC2=3.22980282623434; bmi.pts=74.1044666088465; bp.pts=45.9098005203816; nonhdl.pts=47.7271465741544; smoke.pts=76.2291847354727; pa.pts=86.4995663486557; sleep.pts=91.4731136166522
+25 age.landmark=58.8339686013869; sex.f=Female; center=c11011; tdi=-1.77480069384215; PC1=-11.3068282536587; PC2=3.22980282623434; bmi.pts=74.1044666088465; bp.pts=45.9098005203816; nonhdl.pts=47.7271465741544; smoke.pts=76.2291847354727; pa.pts=86.4995663486557; sleep.pts=91.4731136166522
+26 age.landmark=58.8339686013869; sex.f=Female; center=c11011; tdi=-1.77480069384215; PC1=-11.3068282536587; PC2=3.22980282623434; bmi.pts=74.1044666088465; bp.pts=45.9098005203816; nonhdl.pts=47.7271465741544; smoke.pts=76.2291847354727; pa.pts=86.4995663486557; sleep.pts=91.4731136166522
+27 age.landmark=58.8339686013869; sex.f=Female; center=c11011; tdi=-1.77480069384215; PC1=-11.3068282536587; PC2=3.22980282623434; bmi.pts=74.1044666088465; bp.pts=45.9098005203816; nonhdl.pts=47.7271465741544; smoke.pts=76.2291847354727; pa.pts=86.4995663486557; sleep.pts=91.4731136166522
+28    age.landmark=58.783925085329; sex.f=Female; center=c11011; tdi=-1.78127914933937; PC1=-11.3117429111451; PC2=3.23205320228649; bmi.pts=74.4351301082627; bp.pts=46.0981119825937; nonhdl.pts=47.5408397817199; smoke.pts=76.27300801881; pa.pts=86.5445421206857; sleep.pts=91.5185731080346
+29    age.landmark=58.783925085329; sex.f=Female; center=c11011; tdi=-1.78127914933937; PC1=-11.3117429111451; PC2=3.23205320228649; bmi.pts=74.4351301082627; bp.pts=46.0981119825937; nonhdl.pts=47.5408397817199; smoke.pts=76.27300801881; pa.pts=86.5445421206857; sleep.pts=91.5185731080346
+30    age.landmark=58.783925085329; sex.f=Female; center=c11011; tdi=-1.78127914933937; PC1=-11.3117429111451; PC2=3.23205320228649; bmi.pts=74.4351301082627; bp.pts=46.0981119825937; nonhdl.pts=47.5408397817199; smoke.pts=76.27300801881; pa.pts=86.5445421206857; sleep.pts=91.5185731080346
+31    age.landmark=58.783925085329; sex.f=Female; center=c11011; tdi=-1.78127914933937; PC1=-11.3117429111451; PC2=3.23205320228649; bmi.pts=74.4351301082627; bp.pts=46.0981119825937; nonhdl.pts=47.5408397817199; smoke.pts=76.27300801881; pa.pts=86.5445421206857; sleep.pts=91.5185731080346
+32    age.landmark=58.783925085329; sex.f=Female; center=c11011; tdi=-1.78127914933937; PC1=-11.3117429111451; PC2=3.23205320228649; bmi.pts=74.4351301082627; bp.pts=46.0981119825937; nonhdl.pts=47.5408397817199; smoke.pts=76.27300801881; pa.pts=86.5445421206857; sleep.pts=91.5185731080346
+33    age.landmark=58.783925085329; sex.f=Female; center=c11011; tdi=-1.78127914933937; PC1=-11.3117429111451; PC2=3.23205320228649; bmi.pts=74.4351301082627; bp.pts=46.0981119825937; nonhdl.pts=47.5408397817199; smoke.pts=76.27300801881; pa.pts=86.5445421206857; sleep.pts=91.5185731080346
+34    age.landmark=58.783925085329; sex.f=Female; center=c11011; tdi=-1.78127914933937; PC1=-11.3117429111451; PC2=3.23205320228649; bmi.pts=74.4351301082627; bp.pts=46.0981119825937; nonhdl.pts=47.5408397817199; smoke.pts=76.27300801881; pa.pts=86.5445421206857; sleep.pts=91.5185731080346
+35    age.landmark=58.783925085329; sex.f=Female; center=c11011; tdi=-1.78127914933937; PC1=-11.3117429111451; PC2=3.23205320228649; bmi.pts=74.4351301082627; bp.pts=46.0981119825937; nonhdl.pts=47.5408397817199; smoke.pts=76.27300801881; pa.pts=86.5445421206857; sleep.pts=91.5185731080346
+36    age.landmark=58.783925085329; sex.f=Female; center=c11011; tdi=-1.78127914933937; PC1=-11.3117429111451; PC2=3.23205320228649; bmi.pts=74.4351301082627; bp.pts=46.0981119825937; nonhdl.pts=47.5408397817199; smoke.pts=76.27300801881; pa.pts=86.5445421206857; sleep.pts=91.5185731080346
+37    age.landmark=58.8493480503472; sex.f=Female; center=c11011; tdi=-1.77511627102222; PC1=-11.308698691396; PC2=3.22969320294155; bmi.pts=74.0630839504464; bp.pts=45.9005813551111; nonhdl.pts=47.7576302858329; smoke.pts=76.1913021662399; pa.pts=86.49171222922; sleep.pts=91.4609142501211
+38    age.landmark=58.8493480503472; sex.f=Female; center=c11011; tdi=-1.77511627102222; PC1=-11.308698691396; PC2=3.22969320294155; bmi.pts=74.0630839504464; bp.pts=45.9005813551111; nonhdl.pts=47.7576302858329; smoke.pts=76.1913021662399; pa.pts=86.49171222922; sleep.pts=91.4609142501211
+39    age.landmark=58.8493480503472; sex.f=Female; center=c11011; tdi=-1.77511627102222; PC1=-11.308698691396; PC2=3.22969320294155; bmi.pts=74.0630839504464; bp.pts=45.9005813551111; nonhdl.pts=47.7576302858329; smoke.pts=76.1913021662399; pa.pts=86.49171222922; sleep.pts=91.4609142501211
+40    age.landmark=58.8493480503472; sex.f=Female; center=c11011; tdi=-1.77511627102222; PC1=-11.308698691396; PC2=3.22969320294155; bmi.pts=74.0630839504464; bp.pts=45.9005813551111; nonhdl.pts=47.7576302858329; smoke.pts=76.1913021662399; pa.pts=86.49171222922; sleep.pts=91.4609142501211
+41    age.landmark=58.8493480503472; sex.f=Female; center=c11011; tdi=-1.77511627102222; PC1=-11.308698691396; PC2=3.22969320294155; bmi.pts=74.0630839504464; bp.pts=45.9005813551111; nonhdl.pts=47.7576302858329; smoke.pts=76.1913021662399; pa.pts=86.49171222922; sleep.pts=91.4609142501211
+42    age.landmark=58.8493480503472; sex.f=Female; center=c11011; tdi=-1.77511627102222; PC1=-11.308698691396; PC2=3.22969320294155; bmi.pts=74.0630839504464; bp.pts=45.9005813551111; nonhdl.pts=47.7576302858329; smoke.pts=76.1913021662399; pa.pts=86.49171222922; sleep.pts=91.4609142501211
+43    age.landmark=58.8493480503472; sex.f=Female; center=c11011; tdi=-1.77511627102222; PC1=-11.308698691396; PC2=3.22969320294155; bmi.pts=74.0630839504464; bp.pts=45.9005813551111; nonhdl.pts=47.7576302858329; smoke.pts=76.1913021662399; pa.pts=86.49171222922; sleep.pts=91.4609142501211
+44    age.landmark=58.8493480503472; sex.f=Female; center=c11011; tdi=-1.77511627102222; PC1=-11.308698691396; PC2=3.22969320294155; bmi.pts=74.0630839504464; bp.pts=45.9005813551111; nonhdl.pts=47.7576302858329; smoke.pts=76.1913021662399; pa.pts=86.49171222922; sleep.pts=91.4609142501211
+45    age.landmark=58.8493480503472; sex.f=Female; center=c11011; tdi=-1.77511627102222; PC1=-11.308698691396; PC2=3.22969320294155; bmi.pts=74.0630839504464; bp.pts=45.9005813551111; nonhdl.pts=47.7576302858329; smoke.pts=76.1913021662399; pa.pts=86.49171222922; sleep.pts=91.4609142501211
+46    age.landmark=58.8534180985995; sex.f=Female; center=c11011; tdi=-1.77459731688565; PC1=-11.3090762250313; PC2=3.23025477334698; bmi.pts=74.0441513117544; bp.pts=45.8800459567557; nonhdl.pts=47.76686448804; smoke.pts=76.193104758943; pa.pts=86.4829260286279; sleep.pts=91.4561899085184
+47    age.landmark=58.8534180985995; sex.f=Female; center=c11011; tdi=-1.77459731688565; PC1=-11.3090762250313; PC2=3.23025477334698; bmi.pts=74.0441513117544; bp.pts=45.8800459567557; nonhdl.pts=47.76686448804; smoke.pts=76.193104758943; pa.pts=86.4829260286279; sleep.pts=91.4561899085184
+48    age.landmark=58.8534180985995; sex.f=Female; center=c11011; tdi=-1.77459731688565; PC1=-11.3090762250313; PC2=3.23025477334698; bmi.pts=74.0441513117544; bp.pts=45.8800459567557; nonhdl.pts=47.76686448804; smoke.pts=76.193104758943; pa.pts=86.4829260286279; sleep.pts=91.4561899085184
+49    age.landmark=58.8534180985995; sex.f=Female; center=c11011; tdi=-1.77459731688565; PC1=-11.3090762250313; PC2=3.23025477334698; bmi.pts=74.0441513117544; bp.pts=45.8800459567557; nonhdl.pts=47.76686448804; smoke.pts=76.193104758943; pa.pts=86.4829260286279; sleep.pts=91.4561899085184
+50    age.landmark=58.8534180985995; sex.f=Female; center=c11011; tdi=-1.77459731688565; PC1=-11.3090762250313; PC2=3.23025477334698; bmi.pts=74.0441513117544; bp.pts=45.8800459567557; nonhdl.pts=47.76686448804; smoke.pts=76.193104758943; pa.pts=86.4829260286279; sleep.pts=91.4561899085184
+51    age.landmark=58.8534180985995; sex.f=Female; center=c11011; tdi=-1.77459731688565; PC1=-11.3090762250313; PC2=3.23025477334698; bmi.pts=74.0441513117544; bp.pts=45.8800459567557; nonhdl.pts=47.76686448804; smoke.pts=76.193104758943; pa.pts=86.4829260286279; sleep.pts=91.4561899085184
+52    age.landmark=58.8534180985995; sex.f=Female; center=c11011; tdi=-1.77459731688565; PC1=-11.3090762250313; PC2=3.23025477334698; bmi.pts=74.0441513117544; bp.pts=45.8800459567557; nonhdl.pts=47.76686448804; smoke.pts=76.193104758943; pa.pts=86.4829260286279; sleep.pts=91.4561899085184
+53    age.landmark=58.8534180985995; sex.f=Female; center=c11011; tdi=-1.77459731688565; PC1=-11.3090762250313; PC2=3.23025477334698; bmi.pts=74.0441513117544; bp.pts=45.8800459567557; nonhdl.pts=47.76686448804; smoke.pts=76.193104758943; pa.pts=86.4829260286279; sleep.pts=91.4561899085184
+54    age.landmark=58.8534180985995; sex.f=Female; center=c11011; tdi=-1.77459731688565; PC1=-11.3090762250313; PC2=3.23025477334698; bmi.pts=74.0441513117544; bp.pts=45.8800459567557; nonhdl.pts=47.76686448804; smoke.pts=76.193104758943; pa.pts=86.4829260286279; sleep.pts=91.4561899085184
+                                                    time_origin
+1  End of all recorded WebQ assessments (or enrolment if later)
+2  End of all recorded WebQ assessments (or enrolment if later)
+3  End of all recorded WebQ assessments (or enrolment if later)
+4  End of all recorded WebQ assessments (or enrolment if later)
+5  End of all recorded WebQ assessments (or enrolment if later)
+6  End of all recorded WebQ assessments (or enrolment if later)
+7  End of all recorded WebQ assessments (or enrolment if later)
+8  End of all recorded WebQ assessments (or enrolment if later)
+9  End of all recorded WebQ assessments (or enrolment if later)
+10 End of all recorded WebQ assessments (or enrolment if later)
+11 End of all recorded WebQ assessments (or enrolment if later)
+12 End of all recorded WebQ assessments (or enrolment if later)
+13 End of all recorded WebQ assessments (or enrolment if later)
+14 End of all recorded WebQ assessments (or enrolment if later)
+15 End of all recorded WebQ assessments (or enrolment if later)
+16 End of all recorded WebQ assessments (or enrolment if later)
+17 End of all recorded WebQ assessments (or enrolment if later)
+18 End of all recorded WebQ assessments (or enrolment if later)
+19 End of all recorded WebQ assessments (or enrolment if later)
+20 End of all recorded WebQ assessments (or enrolment if later)
+21 End of all recorded WebQ assessments (or enrolment if later)
+22 End of all recorded WebQ assessments (or enrolment if later)
+23 End of all recorded WebQ assessments (or enrolment if later)
+24 End of all recorded WebQ assessments (or enrolment if later)
+25 End of all recorded WebQ assessments (or enrolment if later)
+26 End of all recorded WebQ assessments (or enrolment if later)
+27 End of all recorded WebQ assessments (or enrolment if later)
+28 End of all recorded WebQ assessments (or enrolment if later)
+29 End of all recorded WebQ assessments (or enrolment if later)
+30 End of all recorded WebQ assessments (or enrolment if later)
+31 End of all recorded WebQ assessments (or enrolment if later)
+32 End of all recorded WebQ assessments (or enrolment if later)
+33 End of all recorded WebQ assessments (or enrolment if later)
+34 End of all recorded WebQ assessments (or enrolment if later)
+35 End of all recorded WebQ assessments (or enrolment if later)
+36 End of all recorded WebQ assessments (or enrolment if later)
+37 End of all recorded WebQ assessments (or enrolment if later)
+38 End of all recorded WebQ assessments (or enrolment if later)
+39 End of all recorded WebQ assessments (or enrolment if later)
+40 End of all recorded WebQ assessments (or enrolment if later)
+41 End of all recorded WebQ assessments (or enrolment if later)
+42 End of all recorded WebQ assessments (or enrolment if later)
+43 End of all recorded WebQ assessments (or enrolment if later)
+44 End of all recorded WebQ assessments (or enrolment if later)
+45 End of all recorded WebQ assessments (or enrolment if later)
+46 End of all recorded WebQ assessments (or enrolment if later)
+47 End of all recorded WebQ assessments (or enrolment if later)
+48 End of all recorded WebQ assessments (or enrolment if later)
+49 End of all recorded WebQ assessments (or enrolment if later)
+50 End of all recorded WebQ assessments (or enrolment if later)
+51 End of all recorded WebQ assessments (or enrolment if later)
+52 End of all recorded WebQ assessments (or enrolment if later)
+53 End of all recorded WebQ assessments (or enrolment if later)
+54 End of all recorded WebQ assessments (or enrolment if later)
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Figure S6: MAHA and DASH components
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# A tibble: 36 x 12
+   item      OR conf.low conf.high   p.value   beta     n in_dash in_maha origin
+   <chr>  <dbl>    <dbl>     <dbl>     <dbl>  <dbl> <int> <lgl>   <lgl>   <chr> 
+ 1 p26152 0.376    0.356     0.396 1.41e-280 -0.979 16487 FALSE   TRUE    MAHA ~
+ 2 p26063 2.65     2.53      2.78  0          0.976 16487 FALSE   TRUE    MAHA ~
+ 3 p26150 2.51     2.32      2.72  2.43e-114  0.921 16487 FALSE   TRUE    MAHA ~
+ 4 p26067 0.427    0.399     0.457 3.43e-136 -0.851 16487 FALSE   TRUE    MAHA ~
+ 5 p26153 0.429    0.406     0.453 1.88e-203 -0.846 16487 FALSE   TRUE    MAHA ~
+ 6 oil    1.94     1.86      2.01  5.00e-240  0.661 16487 FALSE   TRUE    MAHA ~
+ 7 p26138 0.620    0.589     0.653 2.69e- 74 -0.478 16487 FALSE   TRUE    MAHA ~
+ 8 p26062 1.61     1.53      1.69  2.33e- 74  0.476 16487 FALSE   TRUE    MAHA ~
+ 9 sauce~ 0.652    0.623     0.683 3.00e- 73 -0.428 16487 TRUE    FALSE   DASH ~
+10 bread~ 1.45     1.40      1.50  4.69e- 86  0.370 16487 FALSE   TRUE    MAHA ~
+# i 26 more rows
+# i 2 more variables: origin2 <chr>, item_label <chr>
+# A tibble: 120 x 13
+   item         Y     Outcome    HR conf.low conf.high  p.value     beta in_dash
+   <chr>        <chr> <chr>   <dbl>    <dbl>     <dbl>    <dbl>    <dbl> <lgl>  
+ 1 p26152       cvd_~ Corona~ 0.953    0.932     0.973 1.05e- 5 -4.86e-2 FALSE  
+ 2 p26152       cvd_~ Ischem~ 0.972    0.929     1.02  2.17e- 1 -2.86e-2 FALSE  
+ 3 p26152       cvd_~ Heart ~ 0.985    0.954     1.02  3.72e- 1 -1.48e-2 FALSE  
+ 4 p26152       t2dm  Type 2~ 0.905    0.880     0.931 5.09e-12 -9.96e-2 FALSE  
+ 5 p26152       ckd   Chroni~ 0.864    0.836     0.893 4.49e-18 -1.46e-1 FALSE  
+ 6 p26152       death All-ca~ 0.960    0.940     0.981 2.41e- 4 -4.07e-2 FALSE  
+ 7 p26063       cvd_~ Corona~ 0.998    0.978     1.02  8.20e- 1 -2.36e-3 FALSE  
+ 8 p26063       cvd_~ Ischem~ 1.05     1.01      1.09  2.41e- 2  4.76e-2 FALSE  
+ 9 p26063       cvd_~ Heart ~ 0.999    0.968     1.03  9.59e- 1 -8.18e-4 FALSE  
+10 p26063       t2dm  Type 2~ 0.991    0.966     1.02  4.61e- 1 -9.32e-3 FALSE  
+11 p26063       ckd   Chroni~ 1.02     0.997     1.05  8.30e- 2  2.34e-2 FALSE  
+12 p26063       death All-ca~ 1.03     1.01      1.05  4.97e- 3  2.83e-2 FALSE  
+13 p26150       cvd_~ Corona~ 0.982    0.961     1.00  9.74e- 2 -1.84e-2 FALSE  
+14 p26150       cvd_~ Ischem~ 1.05     1.02      1.09  5.05e- 3  5.32e-2 FALSE  
+15 p26150       cvd_~ Heart ~ 1.04     1.01      1.07  1.91e- 2  3.56e-2 FALSE  
+16 p26150       t2dm  Type 2~ 1.01     0.981     1.03  5.95e- 1  6.95e-3 FALSE  
+17 p26150       ckd   Chroni~ 1.03     1.00      1.05  4.86e- 2  2.64e-2 FALSE  
+18 p26150       death All-ca~ 1.04     1.02      1.05  2.52e- 4  3.46e-2 FALSE  
+19 p26067       cvd_~ Corona~ 0.988    0.968     1.01  2.59e- 1 -1.18e-2 FALSE  
+20 p26067       cvd_~ Ischem~ 1.04     1.000     1.09  5.18e- 2  4.16e-2 FALSE  
+21 p26067       cvd_~ Heart ~ 0.999    0.966     1.03  9.32e- 1 -1.43e-3 FALSE  
+22 p26067       t2dm  Type 2~ 0.970    0.947     0.994 1.58e- 2 -3.03e-2 FALSE  
+23 p26067       ckd   Chroni~ 0.946    0.916     0.977 6.83e- 4 -5.55e-2 FALSE  
+24 p26067       death All-ca~ 1.02     0.999     1.04  5.85e- 2  2.01e-2 FALSE  
+25 p26153       cvd_~ Corona~ 0.954    0.931     0.977 1.16e- 4 -4.75e-2 FALSE  
+26 p26153       cvd_~ Ischem~ 0.975    0.927     1.02  3.13e- 1 -2.56e-2 FALSE  
+27 p26153       cvd_~ Heart ~ 0.935    0.899     0.973 8.47e- 4 -6.68e-2 FALSE  
+28 p26153       t2dm  Type 2~ 0.869    0.840     0.899 5.95e-16 -1.40e-1 FALSE  
+29 p26153       ckd   Chroni~ 0.888    0.857     0.920 7.31e-11 -1.19e-1 FALSE  
+30 p26153       death All-ca~ 0.954    0.932     0.978 1.41e- 4 -4.67e-2 FALSE  
+31 oil          cvd_~ Corona~ 1.01     0.990     1.03  3.05e- 1  1.13e-2 FALSE  
+32 oil          cvd_~ Ischem~ 1.01     0.967     1.06  5.84e- 1  1.28e-2 FALSE  
+33 oil          cvd_~ Heart ~ 1.01     0.973     1.04  7.27e- 1  5.94e-3 FALSE  
+34 oil          t2dm  Type 2~ 1.02     0.991     1.04  2.02e- 1  1.71e-2 FALSE  
+35 oil          ckd   Chroni~ 1.03     1.000     1.06  5.08e- 2  2.74e-2 FALSE  
+36 oil          death All-ca~ 1.02     0.995     1.04  1.39e- 1  1.61e-2 FALSE  
+37 p26138       cvd_~ Corona~ 1.01     0.986     1.02  5.81e- 1  5.37e-3 FALSE  
+38 p26138       cvd_~ Ischem~ 1.03     0.995     1.07  9.24e- 2  3.31e-2 FALSE  
+39 p26138       cvd_~ Heart ~ 1.01     0.980     1.04  5.25e- 1  9.53e-3 FALSE  
+40 p26138       t2dm  Type 2~ 0.988    0.965     1.01  3.01e- 1 -1.23e-2 FALSE  
+41 p26138       ckd   Chroni~ 1.01     0.986     1.04  3.93e- 1  1.11e-2 FALSE  
+42 p26138       death All-ca~ 1.02     1.00      1.04  3.94e- 2  1.95e-2 FALSE  
+43 p26062       cvd_~ Corona~ 1.00     0.983     1.02  7.34e- 1  3.51e-3 FALSE  
+44 p26062       cvd_~ Ischem~ 1.04     0.997     1.08  7.39e- 2  3.54e-2 FALSE  
+45 p26062       cvd_~ Heart ~ 1.01     0.979     1.04  5.63e- 1  8.97e-3 FALSE  
+46 p26062       t2dm  Type 2~ 1.04     1.02      1.07  1.73e- 5  4.39e-2 FALSE  
+47 p26062       ckd   Chroni~ 1.01     0.987     1.04  3.49e- 1  1.23e-2 FALSE  
+48 p26062       death All-ca~ 1.01     0.989     1.03  3.74e- 1  9.09e-3 FALSE  
+49 sauce.hummus cvd_~ Corona~ 0.973    0.947     1.00  5.33e- 2 -2.72e-2 TRUE   
+50 sauce.hummus cvd_~ Ischem~ 0.949    0.892     1.01  9.92e- 2 -5.23e-2 TRUE   
+# i 70 more rows
+# i 4 more variables: in_maha <lgl>, origin <chr>, origin2 <chr>,
+#   item_label <chr>
+There were 47 warnings (use warnings() to see them)
+MAHA ukb assoc complete

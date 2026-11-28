@@ -1,0 +1,136 @@
+Loading required package: R.oo
+Loading required package: R.methodsS3
+R.methodsS3 v1.8.2 (2022-06-13 22:00:14 UTC) successfully loaded. See ?R.methodsS3 for help.
+R.oo v1.27.1 (2025-05-02 21:00:05 UTC) successfully loaded. See ?R.oo for help.
+
+Attaching package: 'R.oo'
+
+The following object is masked from 'package:R.methodsS3':
+
+    throw
+
+The following objects are masked from 'package:methods':
+
+    getClasses, getMethods
+
+The following objects are masked from 'package:base':
+
+    attach, detach, load, save
+
+R.utils v2.13.0 (2025-02-24 21:20:02 UTC) successfully loaded. See ?R.utils for help.
+
+Attaching package: 'R.utils'
+
+The following object is masked from 'package:utils':
+
+    timestamp
+
+The following objects are masked from 'package:base':
+
+    cat, commandArgs, getOption, isOpen, nullfile, parse, use, warnings
+
+====================================================================
+                  PLACO v0.2.0 is loaded
+====================================================================
+If you use this software, please cite:
+
+Original PLACO paper -->
+Ray and Chatterjee (2020) A powerful method for pleiotropic analysis
+    under composite null hypothesis identifies novel shared
+    loci between type 2 diabetes and prostate cancer.
+    PLoS Genetics 16(12): e1009218
+
+PLACO+ paper -->
+Park and Ray (2025+) A robust pleiotropy method with
+    applications to lipid traits and to inflammatory bowel
+    disease subtypes with sample overlap. Submitted.
+
+**See https://github.com/RayDebashree/PLACO for updated citations
+--------------------------------------------------------------------
+
+PLACO functions ready (embedded offline version; no download).
+QC | G732         | read                                 | n = 10,763,418
+G732: input = /work/sph-huangj/data/gwas/flt/common/G732/gwas/G732.gz
+QC | G732         | nonmissing_id                        | n = 10,763,418
+QC | G732         | unique_nonmissing_id                 | n = 10,762,885
+QC | G732         | valid_snv_and_statistics             | n = 10,063,715
+QC | G732         | valid_nonpalindromic_snv             | n = 8,499,139
+G732: EAF valid frequency = 8499139/8499139; missing = 0
+QC | G732         | maf_filtered_using_EAF               | n = 7,226,907
+QC | G732         | usable                               | n = 7,226,907
+QC | mdd_2025     | read                                 | n = 7,139,872
+mdd_2025: input = /work/sph-huangj/data/gwas/brain/common/mdd_2025/gwas/mdd_2025.gz
+QC | mdd_2025     | nonmissing_id                        | n = 7,139,872
+QC | mdd_2025     | unique_nonmissing_id                 | n = 7,139,872
+QC | mdd_2025     | valid_snv_and_statistics             | n = 7,139,872
+QC | mdd_2025     | valid_nonpalindromic_snv             | n = 6,201,631
+mdd_2025: EAF valid frequency = 6201631/6201631; missing = 0
+QC | mdd_2025     | maf_filtered_using_EAF               | n = 6,158,176
+QC | mdd_2025     | usable                               | n = 6,018,622
+QC | pair         | shared_id                            | n = 5,944,259
+Coordinate mismatch examples (verify the actual genome builds):
+QC | pair         | matching_coordinates                 | n = 5,944,178
+QC | pair         | harmonised                           | n = 5,944,178
+QC | pair         | Z2_filtered                          | n = 5,944,013
+Testing 5944013 SNPs; VarZ = 1.1517, 1.8476; null-SNP Z correlation = -0.0081611
+PLACO: SNPs 1–100000 completed
+PLACO: SNPs 300001–400000 completed
+PLACO: SNPs 200001–300000 completed
+PLACO: SNPs 100001–200000 completed
+PLACO: SNPs 600001–700000 completed
+PLACO: SNPs 700001–800000 completed
+PLACO: SNPs 400001–500000 completed
+PLACO: SNPs 500001–600000 completed
+PLACO: SNPs 1100001–1200000 completed
+PLACO: SNPs 800001–900000 completed
+PLACO: SNPs 1000001–1100000 completed
+PLACO: SNPs 900001–1000000 completed
+PLACO: SNPs 1400001–1500000 completed
+PLACO: SNPs 1500001–1600000 completed
+PLACO: SNPs 1200001–1300000 completed
+PLACO: SNPs 1300001–1400000 completed
+PLACO: SNPs 1900001–2000000 completed
+PLACO: SNPs 1600001–1700000 completed
+PLACO: SNPs 2200001–2300000 completed
+PLACO: SNPs 1800001–1900000 completed
+PLACO: SNPs 1700001–1800000 completed
+PLACO: SNPs 2100001–2200000 completed
+PLACO: SNPs 2300001–2400000 completed
+PLACO: SNPs 2000001–2100000 completed
+PLACO: SNPs 2700001–2800000 completed
+PLACO: SNPs 2400001–2500000 completed
+PLACO: SNPs 3000001–3100000 completed
+PLACO: SNPs 2500001–2600000 completed
+PLACO: SNPs 2600001–2700000 completed
+PLACO: SNPs 2900001–3000000 completed
+PLACO: SNPs 3100001–3200000 completed
+PLACO: SNPs 2800001–2900000 completed
+PLACO: SNPs 3200001–3300000 completed
+PLACO: SNPs 3500001–3600000 completed
+PLACO: SNPs 3800001–3900000 completed
+PLACO: SNPs 3300001–3400000 completed
+PLACO: SNPs 3400001–3500000 completed
+PLACO: SNPs 3700001–3800000 completed
+PLACO: SNPs 3900001–4000000 completed
+PLACO: SNPs 3600001–3700000 completed
+PLACO: SNPs 4000001–4100000 completed
+PLACO: SNPs 4300001–4400000 completed
+PLACO: SNPs 4600001–4700000 completed
+PLACO: SNPs 4100001–4200000 completed
+PLACO: SNPs 4200001–4300000 completed
+PLACO: SNPs 4500001–4600000 completed
+PLACO: SNPs 4700001–4800000 completed
+PLACO: SNPs 4400001–4500000 completed
+PLACO: SNPs 5100001–5200000 completed
+PLACO: SNPs 4800001–4900000 completed
+PLACO: SNPs 5400001–5500000 completed
+PLACO: SNPs 4900001–5000000 completed
+PLACO: SNPs 5000001–5100000 completed
+PLACO: SNPs 5300001–5400000 completed
+PLACO: SNPs 5500001–5600000 completed
+PLACO: SNPs 5200001–5300000 completed
+PLACO: SNPs 5900001–5944013 completed
+PLACO: SNPs 5600001–5700000 completed
+PLACO: SNPs 5700001–5800000 completed
+PLACO: SNPs 5800001–5900000 completed
+Saved: /work/sph-huangj/analysis/flt/main/results/03placo/G732-mdd_2025_PLACO

@@ -1,0 +1,31 @@
+2026-11-25T23:17:29+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/metabolite_plot
+
+Negative Positive 
+      11       12 
+       metabolite proportion_percent       beta_a      beta_b
+1         Albumin          4.1466769  0.044473877 -0.11427006
+2         DHA.pct          2.9701963  0.081258829 -0.04479730
+3    Unsaturation          2.7783407  0.072029160 -0.04727313
+4       PUFA2MUFA          2.2101356  0.052849408 -0.05125262
+5        MUFA.pct          1.9847532 -0.049442497  0.04919754
+6        PUFA.pct          1.9434436  0.052408860 -0.04544692
+7           GlycA          1.6498668 -0.031506032  0.06417892
+8        M_HDL_CE          1.2643284  0.027048771 -0.05728614
+9    M_HDL_PL.pct          1.2518665 -0.029871995  0.05136071
+10        M_HDL_C          1.2167261  0.027836191 -0.05356983
+11   S_HDL_TG.pct          1.2015914 -0.024576945  0.05991922
+12    M_HDL_C.pct          0.9674215  0.028159628 -0.04210426
+13          HDL_P          0.9455653  0.022623400 -0.05122369
+14   L_LDL_TG.pct          0.9431890 -0.019901120  0.05808426
+15   M_HDL_TG.pct          0.9384276 -0.023921895  0.04807756
+16 XS_VLDL_PL.pct          0.9037226 -0.021717463  0.05099919
+17   M_HDL_CE.pct          0.7980353  0.021793418 -0.04487805
+18      IDL_C.pct          0.7372017  0.019003938 -0.04754228
+19     IDL_CE.pct          0.7066152  0.016586431 -0.05221164
+20     Creatinine          0.6561587 -0.016198983  0.04964304
+21   M_LDL_TG.pct          0.5978683 -0.014204174  0.05158540
+22         LDL_TG          0.4020502 -0.009055757  0.05441176
+23       L_LDL_TG          0.3752023 -0.007398982  0.06214852
+Saved: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/metabolite/M2/Fig_DOSE_metabolite_mediation_beta_bubble

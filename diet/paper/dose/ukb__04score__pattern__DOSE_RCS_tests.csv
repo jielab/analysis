@@ -1,0 +1,2 @@
+"diet","label","outcome","model","N","Events","knot1","knot2","knot3","reference","P_overall","P_nonlinear","AIC_linear","AIC_RCS","test"
+"dose","DOSE","cvd_stroke_i","M2",191494,2585,1,3,5.5,3,5.70186688313834e-09,0.0909876461606021,60294.1361567968,60293.2793444824,"Likelihood ratio"

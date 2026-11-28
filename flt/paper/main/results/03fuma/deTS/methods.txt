@@ -1,0 +1,11 @@
+deTS version: 1.0
+Input: same FUMA-mapped union MAGMA-significant candidate genes as Metascape; deduplicated FUMA/MAGMA symbols.
+Exact symbol matching; unmatched symbols are exported separately for each panel. No automatic alias substitution.
+References: package-bundled GTEx_t_score and ENCODE_z_score; not the FUMA GTEx v8 reference.
+Tissue-specific genes: scores strictly above the 95th percentile, following deTS implementation (ratio=0.05).
+Background: all genes in each reference matrix; candidate list is intersected with this background.
+Test: one-sided Fisher exact test (greater), NOT permutation testing.
+BH and Bonferroni adjustments are computed across all tissues separately within each reference.
+All tissue results are plotted, including nonsignificant results. Dot area indicates hit gene count.
+Raw deTS P values verified against independently constructed Fisher contingency tables.
+Reference: https://search.r-project.org/CRAN/refmans/deTS/html/tsea.analysis.html

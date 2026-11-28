@@ -1,0 +1,7 @@
+START MRI p20628; planned=260
+DONE MRI p20628
+START MRI F-Salad_vegetables; planned=260
+DONE MRI F-Salad_vegetables
+START MRI p20638; planned=260
+DONE MRI p20638
+DONE output: /work/sph-huangj/analysis/flt/main/results/01lm/mri

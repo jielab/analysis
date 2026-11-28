@@ -1,0 +1,16 @@
+"diet","label","alcohol_in_score","include","variable","scoring_method","minimum","maximum","step","available"
+"medi24","MedDiet",TRUE,TRUE,"diet.medi24.sum","medi24",NA,NA,NA,TRUE
+"mind","MIND",TRUE,TRUE,"diet.mind.sum","mind",NA,NA,NA,TRUE
+"ahei","AHEI",TRUE,TRUE,"diet.ahei.sum","ahei",NA,NA,NA,TRUE
+"redii","rEDII",TRUE,TRUE,"diet.redii.sum","redii",NA,NA,NA,TRUE
+"fds","FDS",TRUE,TRUE,"diet.fds.sum","fds",NA,NA,NA,TRUE
+"dash","DASH",FALSE,TRUE,"diet.dash.sum","dash",NA,NA,NA,TRUE
+"hpdi","hPDI",FALSE,TRUE,"diet.hpdi.sum","hpdi",NA,NA,NA,TRUE
+"phdi","PHDI",FALSE,TRUE,"diet.phdi.sum","phdi",NA,NA,NA,TRUE
+"digm","DI-GM",FALSE,TRUE,"diet.digm.sum","digm",NA,NA,NA,TRUE
+"hlcd","HLCD",FALSE,TRUE,"diet.hlcd.sum","hlcd",NA,NA,NA,TRUE
+"hlfd","HLFD",FALSE,TRUE,"diet.hlfd.sum","hlfd",NA,NA,NA,TRUE
+"modern","MODERN",FALSE,TRUE,"diet.modern.sum","modern",NA,NA,NA,TRUE
+"dose","DOSE",TRUE,TRUE,"dose","dose9half",0,9,0.5,TRUE
+"medito","MedDiet-original",FALSE,FALSE,"diet.medito.sum","medito",NA,NA,NA,TRUE
+"maha","MAHA",TRUE,TRUE,"diet.maha.sum","maha",NA,NA,NA,TRUE

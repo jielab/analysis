@@ -1,0 +1,6 @@
+"name","path","exists","md5"
+"functions","/work/sph-huangj/scripts/diet/dose/0.common.R",TRUE,"0a2e55a89df39e990c2d0b8d42ae8ef0"
+"cohort","/work/sph-huangj/analysis/diet/dose/ukb/00data/dat.base.imp.rds",TRUE,"4d1962edba74f0d834e9b4cecaf125f0"
+"config","/work/sph-huangj/analysis/diet/dose/ukb/00data/analysis_config.rds",TRUE,"a995e3f2b1b0bf64e67fc66c01b34a5d"
+"dose","/work/sph-huangj/analysis/diet/dose/ukb/04score/dose_score.rds",TRUE,"2e85913bdcc36d54b95455a15a313c30"
+"protein","/work/sph-huangj/phe/ukb/Rdata/prot.rds",TRUE,"4754fade70718644882d41184d8b2462"

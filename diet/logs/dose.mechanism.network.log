@@ -1,0 +1,30 @@
+2026-11-25T22:34:24+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/network
+Mapped: 139/139; aliases: PALM2
+{"index": 1, "total": 1, "path": "/work/sph-huangj/analysis/diet/dose/ukb/05mechanism/protein/M2/PPI_pathway/STRING_network/Fig_PPI_circular.png", "before_bytes": 3271568, "after_bytes": 946362, "method": "resize+palette256", "before_sha256": "7da8b1d9420150bd173874df52fd42e6b7488dfc28f4a8f23051bf1b9d60fdbb", "before_size": [3960, 3520], "after_size": [2750, 2444], "after_sha256": "417c4789221bfdb233a353076e45f5ebaf37c0c4d76505f32d98a9a3f59828ed"}
+{"scanned": 1, "oversized": 1, "processed": 1, "errors": []}
+{"index": 1, "total": 1, "path": "/work/sph-huangj/analysis/diet/dose/ukb/05mechanism/protein/M2/PPI_pathway/STRING_network/preview.png", "before_bytes": 1000106, "after_bytes": 990387, "method": "lossless", "before_sha256": "8f39b361134af7a5b6e6d797c85e788d5c63e4271a5c08f1d6a21123ae9d955d", "before_size": [1800, 1600], "after_size": [1800, 1600], "after_sha256": "4747974931528f75d246b48b3708efc6aac9e2125a76bce349c4ba62c67d7c7a"}
+{"scanned": 1, "oversized": 1, "processed": 1, "errors": []}
+  input_proteins mapped unmapped connected isolated edges components
+1            139    139        0       113       26   371         30
+  largest_component average_degree   density
+1               107       5.338129 0.0386821
+  number_of_nodes number_of_edges expected_number_of_edges     p_value
+1             139             371                   45.053 0.000999001
+                                                                         method
+1 Offline uniform random protein-set permutation; not STRING API PPI enrichment
+  background_proteins simulations  seed
+1               19699        1000 12345
+      Gene degree strength
+59     IL6     52   31.115
+117    CD4     37   23.706
+102 CXCL10     24   15.482
+60     B2M     21   13.483
+64   CD274     21   13.046
+28  SCARB2     20   10.905
+120   CD38     17   10.243
+88  CHI3L1     13    6.908
+119   CSF3     13    8.718
+79     ELN     13    8.138
+Completed: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/protein/M2/PPI_pathway/STRING_network

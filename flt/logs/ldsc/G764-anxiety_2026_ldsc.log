@@ -1,0 +1,44 @@
+Multivariate ld-score regression of 2 traits (/work/sph-huangj/analysis/flt/tmp/ldsc/flt-G764-ldsc.sumstats.gz /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anxiety_2026-ldsc.sumstats.gz) began at: 2026-11-25 23:58:36.544768
+Reading in LD scores
+Read in summary statistics [1/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G764-ldsc.sumstats.gz
+Out of 1199540 SNPs, 1176757 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 157.189; 1176757 remain
+Read in summary statistics [2/2] from: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anxiety_2026-ldsc.sumstats.gz
+Out of 1152644 SNPs, 1148337 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 851.685; 1148337 remain
+          
+Estimating heritability [1/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G764-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G764-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1925
+Lambda GC: 1.1629
+Intercept: 0.9922 (0.0094)
+Ratio: -0.0406 (0.049)
+Total Observed Scale h2: 0.0632 (0.0062)
+h2 Z: 10.2
+     
+Calculating genetic covariance [2/3] for traits: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G764-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anxiety_2026-ldsc.sumstats.gz
+1144237 SNPs remain after merging /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G764-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anxiety_2026-ldsc.sumstats.gz summary statistics
+Results for genetic covariance between: /work/sph-huangj/analysis/flt/tmp/ldsc/flt-G764-ldsc.sumstats.gz and /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anxiety_2026-ldsc.sumstats.gz
+Mean Z*Z: -0.0168
+Cross trait Intercept: -9e-04 (0.0055)
+Total Observed Scale Genetic Covariance (g_cov): -0.0018 (0.0014)
+g_cov Z: -1.26
+g_cov P-value: 0.20823
+          
+Estimating heritability [3/3] for: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anxiety_2026-ldsc.sumstats.gz
+Heritability Results for trait: /work/sph-huangj/analysis/flt/tmp/ldsc/brain-anxiety_2026-ldsc.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.6215
+Lambda GC: 1.4895
+Intercept: 1.0402 (0.009)
+Ratio: 0.0647 (0.0144)
+Total Observed Scale h2: 0.0364 (0.0014)
+h2 Z: 26.8
+     
+      
+Genetic Correlation Results
+Genetic Correlation between G764 and anxiety_2026: -0.0379 (0.0301)
+     
+     
+LDSC finished running at 2026-11-25 23:58:52.34322
+Running LDSC for all files took 0 minutes and 15 seconds
+     

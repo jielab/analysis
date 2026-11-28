@@ -1,0 +1,65 @@
+"outcome","label","input_N","sex_restriction","prior_N","sex_excluded_after_prior_N","undated_after_prior_N","invalid_follow_after_exclusions_N","incomplete_after_exclusions_N","N","Events","person_years","diagnoses_after_censor_N"
+"cvd_stroke_i","Ischemic stroke",191494,"None",0,0,0,0,0,191494,2585,2137417.18001369,0
+"qi_stroke","Overall stroke",191494,"None",0,0,0,0,0,191494,3788,2133357.58795346,0
+"cvd_stroke_ih","Intracerebral hemorrhage",191494,"None",0,0,0,0,0,191494,636,2145435.41957563,0
+"cvd_stroke_sh","Subarachnoid hemorrhage",191494,"None",0,0,0,0,0,191494,342,2145890.14921287,0
+"infect","Diseases of Infections",191494,"None",3466,0,0,0,0,188028,15014,2047886.19849418,6
+"infect_bact","Bacterial infections",191494,"None",1816,0,0,0,0,189678,12301,2078017.59342916,6
+"infect_viral","Viral infections",191494,"None",1295,0,0,0,0,190199,2011,2124127.40862423,0
+"cancer","Cancer",191494,"None",11963,0,0,0,0,179531,25874,1907107.70157426,8
+"ca_crc","Colorectal cancer",191494,"None",1004,0,0,0,0,190490,2622,2126898.21218344,2
+"ca_esophagus","Esophagus cancer",191494,"None",79,0,0,0,0,191415,502,2145324.90349076,0
+"ca_stomach","Stomach cancer",191494,"None",66,0,0,0,0,191428,374,2145821.13347023,0
+"ca_lung","Lung cancer",191494,"None",135,0,0,0,0,191359,1540,2143058.02327173,0
+"ca_melanoma","Melanoma / non-melanoma skin cancer",191494,"None",3381,0,0,0,0,188113,8510,2067546.0807666,1
+"ca_breast","Breast cancer",191494,"None",3320,0,0,0,0,188174,4070,2089900.36413415,1
+"ca_prostate","Prostate cancer",191494,"Male",1435,105691,0,0,0,84368,4841,918391.830253251,1
+"ca_leukemia","Leukemia / lymphoma / hematologic malignancy",191494,"None",811,0,0,0,0,190683,2257,2130441.2019165,1
+"blood_immune","Blood and immune disorders",191494,"None",5940,0,0,0,0,185554,15733,2017432.46543463,5
+"anemia","Anemia",191494,"None",4479,0,0,0,0,187015,12577,2046357.58795346,2
+"endo","Endocrine disorders",191494,"None",16784,0,0,0,0,174710,41872,1759111.76454483,13
+"dm","Diabetes",191494,"None",4177,0,0,0,0,187317,9349,2054852.38056126,3
+"obesity","Obesity",191494,"None",1599,0,0,0,0,189895,11443,2078264.36687201,5
+"mental","Mental and behavioural disorders",191494,"None",4442,0,0,0,0,187052,21962,1996098.35728953,5
+"dementia","Dementia",191494,"None",76,0,0,0,0,191418,2671,2140101.26488706,0
+"substance_abuse","Substance abuse",191494,"None",1451,0,0,0,0,190043,7649,2089096.66529774,1
+"psychotic","Psychotic disorders",191494,"None",177,0,0,0,0,191317,327,2143775.34565366,0
+"mood","Mood disorders",191494,"None",2120,0,0,0,0,189374,8485,2083103.22518823,4
+"neurotic","Neurotic disorders",191494,"None",1029,0,0,0,0,190465,8530,2100826.47227926,1
+"neuro","Nervous system disorders",191494,"None",9858,0,0,0,0,181636,19428,1950229.87542779,3
+"parkinson","Parkinson disease",191494,"None",147,0,0,0,0,191347,1315,2141348.48459959,0
+"epilepsy","Epilepsy",191494,"None",794,0,0,0,0,190700,1382,2132286.98151951,1
+"tia","Transient ischemic attack",191494,"None",507,0,0,0,0,190987,1402,2135109.80698152,0
+"sleep_disorder","Sleep disorders",191494,"None",1321,0,0,0,0,190173,2880,2118669.32785763,1
+"eye","Eye disorders",191494,"None",10186,0,0,0,0,181308,28001,1909429.02669405,9
+"cataract","Cataracts",191494,"None",4417,0,0,0,0,187077,20921,2010839.29637235,5
+"glaucoma","Glaucoma",191494,"None",964,0,0,0,0,190530,4799,2115638.29158111,1
+"ear","Ear disorders",191494,"None",2328,0,0,0,0,189166,7553,2091398.74332649,3
+"cvd","Circulatory system disorders",191494,"None",34494,0,0,0,0,157000,47796,1508302.49144422,15
+"htn","Hypertension",191494,"None",18057,0,0,0,0,173437,36515,1754920.79123888,12
+"ihd","Ischemic heart diseases",191494,"None",7494,0,0,0,0,184000,11910,2006646.9705681,3
+"arrhythmia","Arrhythmias",191494,"None",3978,0,0,0,0,187516,13447,2048753.0294319,3
+"cvd_afib","Atrial fibrillation",191494,"None",2963,0,0,0,0,188531,11034,2069743.84394251,3
+"hf","Heart failure",191494,"None",786,0,0,0,0,190708,4841,2124048.38329911,1
+"cvd_vte","Venous thromboembolism",191494,"None",1304,0,0,0,0,190190,3686,2120728.1724846,1
+"cerebro","Cerebrovascular diseases",191494,"None",395,0,0,0,0,191099,6470,2120615.55099247,1
+"pad","Peripheral artery diseases",191494,"None",1408,0,0,0,0,190086,5175,2112067.3045859,3
+"resp","Respiratory system disorders",191494,"None",15464,0,0,0,0,176030,28714,1846479.60574949,7
+"flu_pneumonia","Influenza and Pneumonia",191494,"None",1619,0,0,0,0,189875,8913,2102843.45790554,3
+"copd","Chronic obstructive pulmonary disease",191494,"None",1403,0,0,0,0,190091,6596,2104124.6899384,0
+"asthma","Asthma",191494,"None",7049,0,0,0,0,184445,10199,2010534.45311431,4
+"digestive","Digestive system disorders",191494,"None",46721,0,0,0,0,144773,49620,1352087.95071869,14
+"ibd","Inflammatory bowel disease",191494,"None",6043,0,0,0,0,185451,4724,2057213.94934976,2
+"liver","Liver diseases",191494,"None",932,0,0,0,0,190562,4706,2121569.62902122,1
+"pancreatitis","Pancreatitis",191494,"None",469,0,0,0,0,191025,880,2138121.5797399,0
+"skin","Skin disorders",191494,"None",12262,0,0,0,0,179232,18523,1926261.24572211,5
+"skin_infect_eczema","Infections and eczema",191494,"None",3420,0,0,0,0,188074,7196,2078657.43737166,2
+"musculo","Musculoskeletal system disorders",191494,"None",31355,0,0,0,0,160139,42492,1570939.42778919,11
+"ra_disorder","Rheumatoid arthritis disorders",191494,"None",3620,0,0,0,0,187874,12578,2046454.25051335,2
+"oa","Osteoarthritis",191494,"None",9983,0,0,0,0,181511,24226,1910291.22245038,5
+"sciatica","Sciatica",191494,"None",2149,0,0,0,0,189345,4348,2101823.47433265,0
+"soft_tissue","Soft tissue disorders",191494,"None",9631,0,0,0,0,181863,13764,1963689.34428474,1
+"oporosis","Osteoporosis",191494,"None",1420,0,0,0,0,190074,6162,2105522.35455168,0
+"gu","Genitourinary system disorders",191494,"None",33571,0,0,0,0,157923,30045,1624496.65434634,9
+"renal_failure","Renal failure",191494,"None",788,0,0,0,0,190706,12233,2099917.22655715,4
+"ckd","Chronic kidney disease",191494,"None",331,0,0,0,0,191163,7271,2118105.10609172,3

@@ -1,0 +1,25 @@
+group,id,status,detail,input
+flt,G873,ok,"",/work/sph-huangj/data/gwas/flt/common/G873/gwas/G873.gz
+flt,G850,ok,"",/work/sph-huangj/data/gwas/flt/common/G850/gwas/G850.gz
+flt,G738,ok,"",/work/sph-huangj/data/gwas/flt/common/G738/gwas/G738.gz
+flt,G773,ok,"",/work/sph-huangj/data/gwas/flt/common/G773/gwas/G773.gz
+flt,G729,ok,"",/work/sph-huangj/data/gwas/flt/common/G729/gwas/G729.gz
+flt,G782,ok,"",/work/sph-huangj/data/gwas/flt/common/G782/gwas/G782.gz
+flt,G687,ok,"",/work/sph-huangj/data/gwas/flt/common/G687/gwas/G687.gz
+flt,G724,ok,"",/work/sph-huangj/data/gwas/flt/common/G724/gwas/G724.gz
+flt,G822,ok,"",/work/sph-huangj/data/gwas/flt/common/G822/gwas/G822.gz
+flt,G759,ok,"",/work/sph-huangj/data/gwas/flt/common/G759/gwas/G759.gz
+flt,G697,ok,"",/work/sph-huangj/data/gwas/flt/common/G697/gwas/G697.gz
+flt,G809,ok,"",/work/sph-huangj/data/gwas/flt/common/G809/gwas/G809.gz
+flt,G713,ok,"",/work/sph-huangj/data/gwas/flt/common/G713/gwas/G713.gz
+flt,G871,ok,"",/work/sph-huangj/data/gwas/flt/common/G871/gwas/G871.gz
+flt,G747,ok,"",/work/sph-huangj/data/gwas/flt/common/G747/gwas/G747.gz
+flt,G832,ok,"",/work/sph-huangj/data/gwas/flt/common/G832/gwas/G832.gz
+flt,G736,ok,"",/work/sph-huangj/data/gwas/flt/common/G736/gwas/G736.gz
+flt,G813,ok,"",/work/sph-huangj/data/gwas/flt/common/G813/gwas/G813.gz
+flt,G799,ok,"",/work/sph-huangj/data/gwas/flt/common/G799/gwas/G799.gz
+flt,G711,ok,"",/work/sph-huangj/data/gwas/flt/common/G711/gwas/G711.gz
+flt,G769,ok,"",/work/sph-huangj/data/gwas/flt/common/G769/gwas/G769.gz
+flt,G860,ok,"",/work/sph-huangj/data/gwas/flt/common/G860/gwas/G860.gz
+flt,G824,ok,"",/work/sph-huangj/data/gwas/flt/common/G824/gwas/G824.gz
+brain,edu,unavailable,"No HM3 SNPs with usable N, beta and P for edu",/work/sph-huangj/data/gwas/brain/common/edu/gwas/edu.gz

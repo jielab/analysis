@@ -1,0 +1,9 @@
+2026-11-25T09:43:48+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/maha/run.R ukb phe
+Warning: program compiled against libxml 213 using older 209
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Data QC
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[LANDMARK] Excluding 1 scored participants with missing/undated WebQ dates from survival analyses.
+MAHA ukb phe complete

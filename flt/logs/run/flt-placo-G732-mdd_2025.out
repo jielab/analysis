@@ -1,0 +1,65 @@
+[RUNNING] flt-placo-G732-mdd_2025
+Key: <SNP>
+           SNP   CHR1     POS1   CHR2     POS2
+        <char> <char>    <num> <char>    <num>
+1: rs114215405      6 61309289      6 61308946
+2: rs114460489      6 61311919      6 61311576
+3: rs114505868      6 61314250      6 61313906
+4: rs114526341      6 61308365      6 61308017
+5: rs115803990      6 61311154      6 61310810
+   trait1   trait2 method  build n_tested   varZ1    varZ2   rho_null_Z
+   <char>   <char> <char> <char>    <int>   <num>    <num>        <num>
+1:   G732 mdd_2025  PLACO GRCh38  5944013 1.15175 1.847606 -0.008161135
+   n_null_both p_cut n_hits n_concordant pct_concordant n_P_lt_5e8
+         <int> <num>  <int>        <int>          <num>      <int>
+1:     5884344 1e-05   3145         1161       36.91574        873
+   n_p_capped_at_1  n_FUMA n_FUMA_P_floor
+             <int>   <int>          <int>
+1:               0 5944013              0
+[DONE] flt-placo-G732-mdd_2025
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@b08u12a>
+Subject: Job 4440944: <flt-placo-G732-mdd_2025> in cluster <qmhpc> Done
+
+Job <flt-placo-G732-mdd_2025> was submitted from host <b04u17l> by user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:37 2026
+Job was executed on host(s) <8*b08u12a>, in queue <33>, as user <sph-huangj> in cluster <qmhpc> at Wed Nov 25 23:33:38 2026
+</work/sph-huangj> was used as the home directory.
+</work/sph-huangj/scripts/flt> was used as the working directory.
+Started at Wed Nov 25 23:33:38 2026
+Terminated at Thu Nov 26 00:04:53 2026
+Results reported at Thu Nov 26 00:04:53 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/usr/bin/env bash
+set -euo pipefail
+exec /work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/flt/f/workflow.py worker /work/sph-huangj/analysis/flt/jobs/run/plan.json flt-placo-G732-mdd_2025
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   11772.96 sec.
+    Max Memory :                                 17384 MB
+    Average Memory :                             13469.15 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              12
+    Max Threads :                                13
+    Run time :                                   1873 sec.
+    Turnaround time :                            1876 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file </work/sph-huangj/analysis/flt/logs/run/flt-placo-G732-mdd_2025.err> for stderr output of this job.
+

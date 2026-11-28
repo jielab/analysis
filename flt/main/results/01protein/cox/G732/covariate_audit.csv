@@ -1,0 +1,11 @@
+"variable","included"
+"age",TRUE
+"sex",TRUE
+"bmi",TRUE
+"edu",TRUE
+"inc",TRUE
+"tdi",TRUE
+"smoke_status",TRUE
+"alcohol_status",TRUE
+"pa_met_tot",TRUE
+"ethnic.c3",FALSE

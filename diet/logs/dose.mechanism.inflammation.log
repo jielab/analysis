@@ -1,0 +1,69 @@
+2026-11-25T23:17:33+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/inflammation
+Inflammation complete M2 cohort: N=191494; IS events=2585; inflammatory markers=9
+Flow 1, DOSE -> inflammation: 1/9 | bc_NEUT
+Flow 1, DOSE -> inflammation: 9/9 | PLR
+Flow 1 completed:
+                                          result N_tested N_P05 N_FDR05
+ Flow 1: DOSE -> inflammation linear association        9     7       7
+Flow 2, inflammation -> IS Cox: 1/9 | bc_NEUT
+Flow 2, inflammation -> IS Cox: 9/9 | PLR
+Flow 2 completed:
+                                                  result N_tested N_P05 N_FDR05
+ Flow 2: inflammation -> IS Cox association without DOSE        9     5       5
+Intersection retained for pathway analysis and mediation: 5 inflammation(s) (X-M FDR<0.05 and M-Y P<0.05).
+Starting mediation method: lhr_aft; candidates=5
+lhr_aft: 1/5 | bc_NEUT
+lhr_aft: 5/5 | NLR
+Flow 3 method completed: lhr_aft
+                        result N_tested N_P05 N_FDR05
+ lhr_aft: ACME/indirect effect        5     5       5
+  lhr_aft: proportion mediated        5     5       5
+Starting mediation method: modern_logistic; candidates=5
+modern_logistic: 1/5 | bc_NEUT
+modern_logistic: 5/5 | NLR
+Flow 3 method completed: modern_logistic
+                                result N_tested N_P05 N_FDR05
+ modern_logistic: ACME/indirect effect        5     4       3
+  modern_logistic: proportion mediated        5     4       3
+Starting mediation method: cox_product; candidates=5
+cox_product: 1/5 | bc_NEUT
+cox_product: 5/5 | NLR
+Flow 3 method completed: cox_product
+                            result N_tested N_P05 N_FDR05
+ cox_product: ACME/indirect effect        5     5       5
+  cox_product: proportion mediated        5     4       4
+Mediation-stage significance counts:
+                               result N_tested N_P05 N_FDR05
+                LHR AFT: total effect        5     5       5
+                        LHR AFT: ACME        5     5       5
+                         LHR AFT: ADE        5     5       5
+         LHR AFT: proportion mediated        5     5       5
+        MODERN logistic: total effect        5     5       5
+                MODERN logistic: ACME        5     4       3
+                 MODERN logistic: ADE        5     5       5
+ MODERN logistic: proportion mediated        5     4       3
+            Cox product: total effect        5     5       5
+         Cox product: indirect effect        5     5       5
+           Cox product: direct effect        5     5       5
+     Cox product: proportion mediated        5     4       4
+  N_main_cohort N_inflammation_complete_M2 N_measured_inflammation
+1        191494                     191494                       5
+  N_derived_inflammation N_inflammation_QC N_base_complete_M2 IS_events
+1                      4                 9             191494      2585
+  HR_DOSE_IS_overall P_DOSE_IS_overall N_mediators_tested N_XM_P05 N_XM_FDR05
+1          0.8820858      3.742649e-09                  9        7          7
+  N_MY_P05 N_MY_FDR05 N_candidates_XM_FDR05_MY_P05 N_LHR_completed
+1        5          5                            5               5
+  N_LHR_ACME_P05 N_LHR_ACME_FDR05 N_LHR_positive_prop_P05 N_MODERN_completed
+1              5                5                       5                  5
+  N_MODERN_ACME_P05 N_MODERN_ACME_FDR05 N_MODERN_positive_prop_P05
+1                 4                   3                          4
+  N_PRODUCT_completed N_PRODUCT_indirect_P05 N_PRODUCT_indirect_FDR05
+1                   5                      5                        5
+  N_PRODUCT_proportion_P05 N_PRODUCT_proportion_FDR05
+1                        4                          4
+  N_PRODUCT_positive_proportion_P05
+1                                 4
+Completed inflammation mediation analysis. Results: /work/sph-huangj/analysis/diet/dose/ukb/05mechanism/inflammation/M2

@@ -1,0 +1,2 @@
+Volume anatomy: Missing local atlas: /work/sph-huangj/.local/share/dose/mri_atlases/HarvardOxford-Cortical.xml. Prepare atlas files before running; downloads are disabled.
+b anatomy: [Errno 2] No such file or directory: '/work/sph-huangj/.local/share/dose/mri_atlases/ukb_tracts27/structureList.source.txt'

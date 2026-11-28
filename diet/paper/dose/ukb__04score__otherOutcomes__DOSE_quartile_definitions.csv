@@ -1,0 +1,5 @@
+"diet","scoring_method","category","cut_lower","cut_upper","lower_inclusive","upper_inclusive","N","score_min","score_max"
+"dose","dose9half","Q1",0,2,TRUE,TRUE,53907,0,2
+"dose","dose9half","Q2",2,3,FALSE,TRUE,42084,2.5,3
+"dose","dose9half","Q3",3,4.5,FALSE,TRUE,57560,3.5,4.5
+"dose","dose9half","Q4",4.5,9,FALSE,TRUE,37943,5,9

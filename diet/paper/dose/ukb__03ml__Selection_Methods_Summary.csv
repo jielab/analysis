@@ -1,0 +1,16 @@
+Food,Rank_TotalGain,Rank_SHAP,Rank_XGB_Gain,Rank_RF_Impurity,MeanRank_SHAP,MeanRank_RFE,n_RFE_selected,Primary_Delta005
+Olive_oil,1,1,2,1,1.6666666666666667,1.0,5,True
+Eggs,2,2,1,2,2.0,1.4,3,True
+Legumes,3,6,3,3,5.333333333333333,1.0,5,True
+Dried_fruit,4,4,5,7,3.0,1.0,5,True
+Sweetened_beverages,5,3,6,4,5.333333333333333,1.0,5,True
+Apples_Pears,6,7,4,5,6.333333333333333,1.2,4,True
+Water,7,5,11,6,5.333333333333333,1.4,4,True
+Wine,8,8,7,10,8.0,1.2,4,True
+Green_leafy_vegetables,9,11,9,14,10.666666666666666,3.8,1,True
+Whole_grains,10,12,13,13,12.0,3.6,1,True
+Tomatoes,11,10,12,11,10.0,1.4,4,False
+Processed_meats,12,13,8,8,11.666666666666666,2.4,2,False
+Low-fat_dairy_products,13,9,14,12,10.0,2.4,3,False
+Butter,14,14,10,9,14.333333333333334,1.8,4,False
+Tea,15,15,15,15,14.333333333333334,5.4,0,False

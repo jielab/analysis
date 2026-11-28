@@ -1,0 +1,15 @@
+2026-11-25T20:14:22+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE ml/plot
+Final ML plots complete
+ - primary criterion: DeltaLogLoss005
+ - selected k: 10 
+ - feature-selection validation methods: 10
+   3 model-based + 3 SHAP + 4 RFE
+ - predictive validation: 4 feature sets x 6 algorithms = 24 model-feature-set combinations
+ - main figure: /work/sph-huangj/analysis/diet/dose/ukb/03ml/figures/Fig_ML.pdf 
+ - cumulative Cox-style figure: /work/sph-huangj/analysis/diet/dose/ukb/03ml/figures/Fig_ML_Cox_path.pdf 
+ - mirrored ML/Cox figure: /work/sph-huangj/analysis/diet/dose/ukb/03ml/figures/Fig_ML_Cox_mirror.pdf 
+ - combined pAB + Cox figure: /work/sph-huangj/analysis/diet/dose/ukb/03ml/figures/Fig_ML_pAB_Cox.pdf 
+ - bootstrap performance figure: /work/sph-huangj/analysis/diet/dose/ukb/03ml/figures/Fig_ML_performance_bootstrap.pdf 
+ - paired-comparison figure: /work/sph-huangj/analysis/diet/dose/ukb/03ml/figures/Fig_ML_paired_comparison.pdf 

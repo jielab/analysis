@@ -1,0 +1,6 @@
+2026-11-25T23:48:47+00:00
+/work/sph-huangj/scripts/0f/0os.r.sh /work/sph-huangj/scripts/diet/dose/adapter.R
+DOSE mechanism/mri_refit
+PASS: independent raw-data refit of DOSE / field 25782 matches N, beta, SE, P and 95% CI.
+N = 44763 residual df = 44717
+Formula: scale(p25782_i2) ~ scale(dose) + sex.b + ethnic.c3 + edu.c +      tdi + energy.kJ + smoke.c + days_pa_mod.c + bmi + fhist_stroke +      primary_ahtn + t2dm + scale(age) + I(as.numeric(scale(age))^2) +      center + scale(p26521_i2) 

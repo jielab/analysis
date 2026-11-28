@@ -1,0 +1,1 @@
+"pair_id","disease_id","food","outcome","protein","n","events","person_years","mean_protein","sd_protein","unit","beta","SE","HR","CI_low","CI_high","P","PH_P","PH_global_P","PH_status","status","reason","covariates","race_included","FDR_outcome","FDR_all","significant"

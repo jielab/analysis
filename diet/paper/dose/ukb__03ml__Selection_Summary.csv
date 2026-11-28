@@ -1,0 +1,4 @@
+RankingMethod,criterion,role,k,stop_at_k,stop_food,threshold
+TotalGain,DeltaLogLoss005,PRIMARY,10,11.0,Tomatoes,0.005
+TotalGain,MinLoss,SENSITIVITY,15,,,0.46570511755769467
+TotalGain,OneSE,SENSITIVITY,14,,,0.47017552433422605

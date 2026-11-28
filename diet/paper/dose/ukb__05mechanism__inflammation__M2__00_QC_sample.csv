@@ -1,0 +1,2 @@
+"main_cohort_N","inflammation_source_N","overlap_N","complete_M2_N","complete_M2_events","event_percent","dose_mean","dose_SD","dose_min","dose_max","measured_inflammation_N","derived_inflammation_N","inflammation_QC_N","transformation"
+191494,191494,191494,191494,2585,1.34991174658214,3.30921595454688,1.63624839452648,0,9,5,4,9,"direct Z-standardization; no log transformation"

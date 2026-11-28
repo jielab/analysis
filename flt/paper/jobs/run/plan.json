@@ -1,0 +1,102 @@
+{
+  "env": {
+    "FLT_ATLAS_DIR": "/work/sph-huangj/files/flt/03placo/GWAS_Atlas",
+    "FLT_BWMR": "/work/sph-huangj/software/flt/sources/BWMR_updated.R",
+    "FLT_CACHE": "/work/sph-huangj/analysis/flt/cache",
+    "FLT_CODE": "/work/sph-huangj/scripts/flt/f",
+    "FLT_COHORT": "/work/sph-huangj/analysis/flt/tmp/cohort",
+    "FLT_CONFIG": "/work/sph-huangj/scripts/flt/config",
+    "FLT_DICTIONARY": "/work/sph-huangj/files/diet/flt.xlsx",
+    "FLT_EQTLGEN": "/work/sph-huangj/data/gwas/eqtl/eqtlgen_v1/cis-eQTLs-full_eQTLGen_AF_incl_nr_formatted_20191212.new.txt_besd-dense",
+    "FLT_EXTERNAL_PLACO": "/work/sph-huangj/files/flt/03placo",
+    "FLT_EXTERNAL_ROOT": "/work/sph-huangj/files/flt",
+    "FLT_FUMA_DIR": "/work/sph-huangj/files/flt/03placo/FUMA_job787285",
+    "FLT_GTEX": "/work/sph-huangj/data/gwas/eqtl/gtex_v8_whole_blood/Whole_Blood/Whole_Blood",
+    "FLT_GWAS": "/work/sph-huangj/data/gwas",
+    "FLT_LDREF": "/work/sph-huangj/data/LD",
+    "FLT_METASCAPE_RESULTS": "/work/sph-huangj/files/flt/03placo/metascape/Enrichment_GO/_FINAL_GO.csv",
+    "FLT_MRI_ATLAS": "/work/sph-huangj/.local/share/dose/mri_atlases",
+    "FLT_MRI_DICTIONARY": "/work/sph-huangj/files/diet/MRI_analysis_dictionary.csv",
+    "FLT_MRI_TOOLS": "/work/sph-huangj/software/diet/.tools",
+    "FLT_MR_LD_PREFIX": "/work/sph-huangj/data/gen/1kg/37/openGWAS/EUR",
+    "FLT_OUT": "/work/sph-huangj/analysis/flt/main/results",
+    "FLT_PANEL": "primary",
+    "FLT_PAPER": "/work/sph-huangj/analysis/flt/paper/main/results",
+    "FLT_PAPER_REPORTS": "/work/sph-huangj/analysis/flt/paper/main/reports",
+    "FLT_PAPER_TMP": "/work/sph-huangj/analysis/flt/paper/tmp",
+    "FLT_PHEWAS_CACHE": "/work/sph-huangj/analysis/flt/cache/phewas",
+    "FLT_PHEWAS_INPUT": "/work/sph-huangj/files/flt/03placo/phewas_cache",
+    "FLT_PHEWAS_ONLINE": "false",
+    "FLT_PLACO_DIR": "/work/sph-huangj/analysis/flt/main/results/03placo",
+    "FLT_PLACO_PREFIX": "G732-mdd_2025_PLACO",
+    "FLT_PLINK": "/work/sph-huangj/.conda/envs/le8/bin/plink",
+    "FLT_PREP": "/work/sph-huangj/analysis/flt/tmp/prepared",
+    "FLT_PROJECT": "/work/sph-huangj/analysis/flt",
+    "FLT_PYTHON": "/work/sph-huangj/.conda/envs/le8/bin/python3",
+    "FLT_QC": "/work/sph-huangj/analysis/flt/qc",
+    "FLT_REPORTS": "/work/sph-huangj/analysis/flt/main/reports",
+    "FLT_RESOURCE_DIR": "/work/sph-huangj/software/flt/resources",
+    "FLT_RSCRIPT": "/work/sph-huangj/scripts/0f/0os.r.sh",
+    "FLT_R_LIBRARY": "/work/sph-huangj/software/flt/R-library",
+    "FLT_SHARED": "/work/sph-huangj/scripts/0f",
+    "FLT_SKIP_MISSING_RESOURCES": "TRUE",
+    "FLT_SMR": "/work/sph-huangj/software/flt/resources/smr/smr",
+    "FLT_SMR_INPUT": "/work/sph-huangj/analysis/flt/tmp/smr-input",
+    "FLT_TMP": "/work/sph-huangj/analysis/flt/tmp",
+    "FLT_UKB": "/work/sph-huangj/phe/ukb"
+  },
+  "jobs": {
+    "flt-paper-fig1": {
+      "cores": 1,
+      "deps": [],
+      "env": {},
+      "slots": 1,
+      "stage": "fig1"
+    },
+    "flt-paper-fig2": {
+      "cores": 1,
+      "deps": [],
+      "env": {},
+      "slots": 1,
+      "stage": "fig2"
+    },
+    "flt-paper-fig3": {
+      "cores": 1,
+      "deps": [],
+      "env": {},
+      "slots": 1,
+      "stage": "fig3"
+    },
+    "flt-paper-fig4": {
+      "cores": 1,
+      "deps": [],
+      "env": {},
+      "slots": 1,
+      "stage": "fig4"
+    },
+    "flt-paper-fig5": {
+      "cores": 1,
+      "deps": [],
+      "env": {},
+      "slots": 1,
+      "stage": "fig5"
+    },
+    "flt-paper-genetics": {
+      "cores": 1,
+      "deps": [],
+      "env": {},
+      "slots": 1,
+      "stage": "genetics"
+    },
+    "flt-paper-tables": {
+      "cores": 1,
+      "deps": [
+        "flt-paper-fig5"
+      ],
+      "env": {},
+      "slots": 1,
+      "stage": "tables"
+    }
+  },
+  "qc": "/work/sph-huangj/analysis/flt/paper/qc"
+}

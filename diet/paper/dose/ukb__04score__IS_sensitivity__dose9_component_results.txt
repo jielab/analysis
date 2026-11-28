@@ -1,0 +1,6 @@
+DOSE9 component analysis: exploratory comparison using the same primary cohort and M2 covariates.
+Fruit and vegetables use OR aggregation: original 0.5 and 1 both map to 1. Other seven components unchanged.
+Separate Cox model per component, without total score or other components; all comparisons are 1 vs 0.
+BH FDR calculated across the nine component contrasts; no threshold changed based on outcome significance.
+Nominal P<0.05: 6/9; FDR<0.05: 5/9.
+Encoding checked against the saved DOSE9 score; seven unchanged components reproduce previous M2 estimates.

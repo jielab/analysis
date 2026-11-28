@@ -1,0 +1,2 @@
+"path","md5","covariates"
+"/work/sph-huangj/analysis/diet/dose/ukb/04score/dose9_score.rds","2cfe7b418214cc151d45a4d83c145a10","age + sex.b + ethnic.c3 + edu.c + tdi + energy.kJ + smoke.c + days_pa_mod.c + bmi + fhist_stroke + primary_ahtn + t2dm"

@@ -1,0 +1,2 @@
+"score_version","primary_scoring_method","contains_alcohol","components"
+"dose","dose9half",TRUE,"Fruit.dose;Legumes.dose;Olive_oil.dose;Vegetables.dose;Eggs.dose;Whole_grains.dose;Wine.dose;Processed_meats.dose;Sweetened_beverages.dose"

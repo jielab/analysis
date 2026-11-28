@@ -1,0 +1,4 @@
+"food","pair_id","disease_id","outcome","liking","intake","intake_field_id","proxy","intake_unit","protein"
+"Chicken","G732","mdd_2025","depression","p20638","w.p26121",26121,"Poultry","g/day","BAMBI"
+"Chicken","G732","mdd_2025","depression","p20638","w.p26121",26121,"Poultry","g/day","CGREF1"
+"Chicken","G732","mdd_2025","depression","p20638","w.p26121",26121,"Poultry","g/day","TTR"

@@ -1,0 +1,226 @@
+筛选并 clump 工具 SNP：G717
+筛选并 clump 工具 SNP：G738
+筛选并 clump 工具 SNP：G763
+筛选并 clump 工具 SNP：G815
+筛选并 clump 工具 SNP：G824
+筛选并 clump 工具 SNP：G862
+筛选并 clump 工具 SNP：G688
+筛选并 clump 工具 SNP：G695
+筛选并 clump 工具 SNP：G697
+筛选并 clump 工具 SNP：G718
+筛选并 clump 工具 SNP：G719
+筛选并 clump 工具 SNP：G727
+筛选并 clump 工具 SNP：G732
+筛选并 clump 工具 SNP：G768
+筛选并 clump 工具 SNP：G845
+筛选并 clump 工具 SNP：G694
+筛选并 clump 工具 SNP：G756
+筛选并 clump 工具 SNP：G814
+筛选并 clump 工具 SNP：G825
+筛选并 clump 工具 SNP：G867
+筛选并 clump 工具 SNP：G872
+筛选并 clump 工具 SNP：income
+筛选并 clump 工具 SNP：edu
+筛选并 clump 工具 SNP：physical_activity
+提取交叉效应：G717
+提取交叉效应：G738
+提取交叉效应：G763
+提取交叉效应：G815
+提取交叉效应：G824
+提取交叉效应：G862
+提取交叉效应：G688
+提取交叉效应：G695
+提取交叉效应：G697
+提取交叉效应：G718
+提取交叉效应：G719
+提取交叉效应：G727
+提取交叉效应：G732
+提取交叉效应：G768
+提取交叉效应：G845
+提取交叉效应：G694
+提取交叉效应：G756
+提取交叉效应：G814
+提取交叉效应：G825
+提取交叉效应：G867
+提取交叉效应：G872
+提取交叉效应：income
+提取交叉效应：edu
+提取交叉效应：physical_activity
+提取交叉效应：sleep_disorder_r13
+提取交叉效应：mdd_2025
+提取交叉效应：anxiety_2026
+Harmonising G717 (G717) and income (income)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G717 (G717) and edu (edu)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs6867851, rs7920624
+Harmonising G717 (G717) and physical_activity (physical_activity)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G717 (G717) and sleep_disorder_r13 (sleep_disorder_r13)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs117799466, rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G717 (G717) and sleep_disorder_r13 (sleep_disorder_r13)
+Harmonising G738 (G738) and income (income)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G738 (G738) and edu (edu)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs6867851, rs7920624
+Harmonising G738 (G738) and physical_activity (physical_activity)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G738 (G738) and sleep_disorder_r13 (sleep_disorder_r13)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs117799466, rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G738 (G738) and sleep_disorder_r13 (sleep_disorder_r13)
+Harmonising G763 (G763) and income (income)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G763 (G763) and edu (edu)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs6867851, rs7920624
+Harmonising G763 (G763) and physical_activity (physical_activity)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G763 (G763) and sleep_disorder_r13 (sleep_disorder_r13)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs117799466, rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G763 (G763) and sleep_disorder_r13 (sleep_disorder_r13)
+Harmonising G815 (G815) and income (income)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G815 (G815) and edu (edu)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs6867851, rs7920624, rs8005245
+Harmonising G815 (G815) and physical_activity (physical_activity)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G815 (G815) and sleep_disorder_r13 (sleep_disorder_r13)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs117799466, rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G815 (G815) and sleep_disorder_r13 (sleep_disorder_r13)
+Harmonising G824 (G824) and income (income)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G824 (G824) and edu (edu)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs6867851, rs7920624
+Harmonising G824 (G824) and physical_activity (physical_activity)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G824 (G824) and sleep_disorder_r13 (sleep_disorder_r13)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs117799466, rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G824 (G824) and sleep_disorder_r13 (sleep_disorder_r13)
+Harmonising G862 (G862) and income (income)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G862 (G862) and edu (edu)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs6867851, rs7920624
+Harmonising G862 (G862) and physical_activity (physical_activity)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G862 (G862) and sleep_disorder_r13 (sleep_disorder_r13)
+Removing the following SNPs for being palindromic with intermediate allele frequencies:
+rs117799466, rs12134151, rs13130765, rs1455350, rs2414072, rs2478208, rs2545798, rs320693, rs401687, rs466047, rs60483752, rs7920624
+Harmonising G862 (G862) and sleep_disorder_r13 (sleep_disorder_r13)
+Harmonising G688 (G688) and income (income)
+Harmonising G688 (G688) and edu (edu)
+Harmonising G688 (G688) and physical_activity (physical_activity)
+Harmonising G688 (G688) and mdd_2025 (mdd_2025)
+Harmonising G688 (G688) and mdd_2025 (mdd_2025)
+Harmonising G695 (G695) and income (income)
+Harmonising G695 (G695) and edu (edu)
+Harmonising G695 (G695) and physical_activity (physical_activity)
+Harmonising G695 (G695) and mdd_2025 (mdd_2025)
+Harmonising G695 (G695) and mdd_2025 (mdd_2025)
+Harmonising G697 (G697) and income (income)
+Harmonising G697 (G697) and edu (edu)
+Harmonising G697 (G697) and physical_activity (physical_activity)
+Harmonising G697 (G697) and mdd_2025 (mdd_2025)
+Harmonising G697 (G697) and mdd_2025 (mdd_2025)
+Harmonising G718 (G718) and income (income)
+Harmonising G718 (G718) and edu (edu)
+Harmonising G718 (G718) and physical_activity (physical_activity)
+Harmonising G718 (G718) and mdd_2025 (mdd_2025)
+Harmonising G718 (G718) and mdd_2025 (mdd_2025)
+Harmonising G719 (G719) and income (income)
+Harmonising G719 (G719) and edu (edu)
+Harmonising G719 (G719) and physical_activity (physical_activity)
+Harmonising G719 (G719) and mdd_2025 (mdd_2025)
+Harmonising G719 (G719) and mdd_2025 (mdd_2025)
+Harmonising G727 (G727) and income (income)
+Harmonising G727 (G727) and edu (edu)
+Harmonising G727 (G727) and physical_activity (physical_activity)
+Harmonising G727 (G727) and mdd_2025 (mdd_2025)
+Harmonising G727 (G727) and mdd_2025 (mdd_2025)
+Harmonising G732 (G732) and income (income)
+Harmonising G732 (G732) and edu (edu)
+Harmonising G732 (G732) and physical_activity (physical_activity)
+Harmonising G732 (G732) and mdd_2025 (mdd_2025)
+Harmonising G732 (G732) and mdd_2025 (mdd_2025)
+Harmonising G763 (G763) and income (income)
+Harmonising G763 (G763) and edu (edu)
+Harmonising G763 (G763) and physical_activity (physical_activity)
+Harmonising G763 (G763) and mdd_2025 (mdd_2025)
+Harmonising G763 (G763) and mdd_2025 (mdd_2025)
+Harmonising G768 (G768) and income (income)
+Harmonising G768 (G768) and edu (edu)
+Harmonising G768 (G768) and physical_activity (physical_activity)
+Harmonising G768 (G768) and mdd_2025 (mdd_2025)
+Harmonising G768 (G768) and mdd_2025 (mdd_2025)
+Harmonising G845 (G845) and income (income)
+Harmonising G845 (G845) and edu (edu)
+Harmonising G845 (G845) and physical_activity (physical_activity)
+Harmonising G845 (G845) and mdd_2025 (mdd_2025)
+Harmonising G845 (G845) and mdd_2025 (mdd_2025)
+Harmonising G688 (G688) and income (income)
+Harmonising G688 (G688) and edu (edu)
+Harmonising G688 (G688) and physical_activity (physical_activity)
+Harmonising G688 (G688) and anxiety_2026 (anxiety_2026)
+Harmonising G688 (G688) and anxiety_2026 (anxiety_2026)
+Harmonising G694 (G694) and income (income)
+Harmonising G694 (G694) and edu (edu)
+Harmonising G694 (G694) and physical_activity (physical_activity)
+Harmonising G694 (G694) and anxiety_2026 (anxiety_2026)
+Harmonising G694 (G694) and anxiety_2026 (anxiety_2026)
+Harmonising G719 (G719) and income (income)
+Harmonising G719 (G719) and edu (edu)
+Harmonising G719 (G719) and physical_activity (physical_activity)
+Harmonising G719 (G719) and anxiety_2026 (anxiety_2026)
+Harmonising G719 (G719) and anxiety_2026 (anxiety_2026)
+Harmonising G756 (G756) and income (income)
+Harmonising G756 (G756) and edu (edu)
+Harmonising G756 (G756) and physical_activity (physical_activity)
+Harmonising G756 (G756) and anxiety_2026 (anxiety_2026)
+Harmonising G756 (G756) and anxiety_2026 (anxiety_2026)
+Harmonising G814 (G814) and income (income)
+Harmonising G814 (G814) and edu (edu)
+Harmonising G814 (G814) and physical_activity (physical_activity)
+Harmonising G814 (G814) and anxiety_2026 (anxiety_2026)
+Harmonising G814 (G814) and anxiety_2026 (anxiety_2026)
+Harmonising G825 (G825) and income (income)
+Harmonising G825 (G825) and edu (edu)
+Harmonising G825 (G825) and physical_activity (physical_activity)
+Harmonising G825 (G825) and anxiety_2026 (anxiety_2026)
+Harmonising G825 (G825) and anxiety_2026 (anxiety_2026)
+Harmonising G862 (G862) and income (income)
+Harmonising G862 (G862) and edu (edu)
+Harmonising G862 (G862) and physical_activity (physical_activity)
+Harmonising G862 (G862) and anxiety_2026 (anxiety_2026)
+Harmonising G862 (G862) and anxiety_2026 (anxiety_2026)
+Harmonising G867 (G867) and income (income)
+Harmonising G867 (G867) and edu (edu)
+Harmonising G867 (G867) and physical_activity (physical_activity)
+Harmonising G867 (G867) and anxiety_2026 (anxiety_2026)
+Harmonising G867 (G867) and anxiety_2026 (anxiety_2026)
+Harmonising G872 (G872) and income (income)
+Harmonising G872 (G872) and edu (edu)
+Harmonising G872 (G872) and physical_activity (physical_activity)
+Harmonising G872 (G872) and anxiety_2026 (anxiety_2026)
+Harmonising G872 (G872) and anxiety_2026 (anxiety_2026)
+There were 50 or more warnings (use warnings() to see the first 50)
+MVMR完成：/work/sph-huangj/analysis/flt/main/results/02mvmr/primary

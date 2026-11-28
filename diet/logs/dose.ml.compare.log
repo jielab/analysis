@@ -1,0 +1,86 @@
+2026-11-25T12:33:45+00:00
+/work/sph-huangj/.conda/envs/le8/bin/python3 /work/sph-huangj/scripts/diet/dose/ml.py
+Models to compare: LightGBM, XGBoost, RandomForest, Logistic, SVM, CatBoost
+Features: 15
+Folds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+=== LightGBM ===
+fold 0: AUC=0.5912 AUPRC=0.0190 BalAcc=0.5619
+fold 1: AUC=0.5927 AUPRC=0.0244 BalAcc=0.5601
+fold 2: AUC=0.6170 AUPRC=0.0257 BalAcc=0.5688
+fold 3: AUC=0.6178 AUPRC=0.0244 BalAcc=0.5790
+fold 4: AUC=0.6075 AUPRC=0.0198 BalAcc=0.5760
+fold 5: AUC=0.6249 AUPRC=0.0332 BalAcc=0.5880
+fold 6: AUC=0.6076 AUPRC=0.0227 BalAcc=0.5858
+fold 7: AUC=0.6129 AUPRC=0.0206 BalAcc=0.5792
+fold 8: AUC=0.6362 AUPRC=0.0166 BalAcc=0.6153
+fold 9: AUC=0.6760 AUPRC=0.0213 BalAcc=0.6238
+
+=== XGBoost ===
+fold 0: AUC=0.5818 AUPRC=0.0180 BalAcc=0.5606
+fold 1: AUC=0.5787 AUPRC=0.0237 BalAcc=0.5497
+fold 2: AUC=0.6128 AUPRC=0.0238 BalAcc=0.5855
+fold 3: AUC=0.6164 AUPRC=0.0256 BalAcc=0.5727
+fold 4: AUC=0.6022 AUPRC=0.0200 BalAcc=0.5774
+fold 5: AUC=0.6106 AUPRC=0.0272 BalAcc=0.5832
+fold 6: AUC=0.6037 AUPRC=0.0193 BalAcc=0.5754
+fold 7: AUC=0.5908 AUPRC=0.0200 BalAcc=0.5787
+fold 8: AUC=0.6199 AUPRC=0.0150 BalAcc=0.5695
+fold 9: AUC=0.6805 AUPRC=0.0177 BalAcc=0.6427
+
+=== RandomForest ===
+fold 0: AUC=0.5666 AUPRC=0.0156 BalAcc=0.5487
+fold 1: AUC=0.5870 AUPRC=0.0228 BalAcc=0.5604
+fold 2: AUC=0.5829 AUPRC=0.0201 BalAcc=0.5565
+fold 3: AUC=0.5879 AUPRC=0.0224 BalAcc=0.5569
+fold 4: AUC=0.5682 AUPRC=0.0167 BalAcc=0.5557
+fold 5: AUC=0.5895 AUPRC=0.0256 BalAcc=0.5624
+fold 6: AUC=0.5551 AUPRC=0.0150 BalAcc=0.5426
+fold 7: AUC=0.5767 AUPRC=0.0166 BalAcc=0.5506
+fold 8: AUC=0.6127 AUPRC=0.0127 BalAcc=0.5736
+fold 9: AUC=0.6099 AUPRC=0.0197 BalAcc=0.5660
+
+=== Logistic ===
+fold 0: AUC=0.5036 AUPRC=0.0128 BalAcc=0.5025
+fold 1: AUC=0.5475 AUPRC=0.0209 BalAcc=0.5412
+fold 2: AUC=0.5157 AUPRC=0.0163 BalAcc=0.5038
+fold 3: AUC=0.5392 AUPRC=0.0199 BalAcc=0.5365
+fold 4: AUC=0.5484 AUPRC=0.0144 BalAcc=0.5370
+fold 5: AUC=0.5359 AUPRC=0.0268 BalAcc=0.5282
+fold 6: AUC=0.5195 AUPRC=0.0132 BalAcc=0.5263
+fold 7: AUC=0.4911 AUPRC=0.0128 BalAcc=0.4946
+fold 8: AUC=0.4983 AUPRC=0.0090 BalAcc=0.4651
+fold 9: AUC=0.6220 AUPRC=0.0175 BalAcc=0.5869
+
+=== SVM ===
+fold 0: AUC=0.5037 AUPRC=0.0128 BalAcc=0.5031
+fold 1: AUC=0.5476 AUPRC=0.0209 BalAcc=0.5416
+fold 2: AUC=0.5158 AUPRC=0.0163 BalAcc=0.5033
+fold 3: AUC=0.5392 AUPRC=0.0199 BalAcc=0.5360
+fold 4: AUC=0.5483 AUPRC=0.0144 BalAcc=0.5528
+fold 5: AUC=0.5360 AUPRC=0.0268 BalAcc=0.5256
+fold 6: AUC=0.5195 AUPRC=0.0132 BalAcc=0.5284
+fold 7: AUC=0.4912 AUPRC=0.0128 BalAcc=0.4950
+fold 8: AUC=0.4983 AUPRC=0.0090 BalAcc=0.4599
+fold 9: AUC=0.6221 AUPRC=0.0175 BalAcc=0.5867
+
+=== CatBoost ===
+fold 0: AUC=0.6051 AUPRC=0.0203 BalAcc=0.5724
+fold 1: AUC=0.6011 AUPRC=0.0291 BalAcc=0.5804
+fold 2: AUC=0.6132 AUPRC=0.0258 BalAcc=0.5766
+fold 3: AUC=0.6200 AUPRC=0.0251 BalAcc=0.5772
+fold 4: AUC=0.5999 AUPRC=0.0182 BalAcc=0.5752
+fold 5: AUC=0.6116 AUPRC=0.0269 BalAcc=0.5785
+fold 6: AUC=0.6050 AUPRC=0.0247 BalAcc=0.5776
+fold 7: AUC=0.6045 AUPRC=0.0202 BalAcc=0.5779
+fold 8: AUC=0.6407 AUPRC=0.0185 BalAcc=0.6090
+fold 9: AUC=0.6519 AUPRC=0.0184 BalAcc=0.6086
+
+Model comparison complete
+      Method  AUC_mean  AUPRC_mean  AUPRC_enrichment  Sensitivity_Youden_mean  Specificity_Youden_mean  Youden_Index_mean  Discrimination_mean_rank  Suggested_best_discrimination
+    LightGBM  0.618361    0.022756          1.685757                 0.675563                 0.492017           0.167580                       1.0                           True
+    CatBoost  0.615311    0.022716          1.682742                 0.598836                 0.567828           0.166664                       2.0                          False
+     XGBoost  0.609722    0.021033          1.558119                 0.603831                 0.555285           0.159116                       3.0                          False
+RandomForest  0.583643    0.018714          1.386345                 0.536614                 0.578069           0.114683                       4.0                          False
+         SVM  0.532169    0.016349          1.211142                 0.428036                 0.618428           0.046465                       5.5                          False
+    Logistic  0.532133    0.016350          1.211181                 0.438017                 0.606443           0.044460                       5.5                          False

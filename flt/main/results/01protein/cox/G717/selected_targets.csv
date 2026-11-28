@@ -1,0 +1,7 @@
+"food","pair_id","disease_id","outcome","liking","intake","intake_field_id","proxy","intake_unit","protein"
+"Butter on bread","G717","sleep_disorder_r13","sleep_disorder","p20628","w.p26063",26063,"Butter","g/day","CA4"
+"Butter on bread","G717","sleep_disorder_r13","sleep_disorder","p20628","w.p26063",26063,"Butter","g/day","CPA2"
+"Butter on bread","G717","sleep_disorder_r13","sleep_disorder","p20628","w.p26063",26063,"Butter","g/day","DKK4"
+"Butter on bread","G717","sleep_disorder_r13","sleep_disorder","p20628","w.p26063",26063,"Butter","g/day","ITGA2"
+"Butter on bread","G717","sleep_disorder_r13","sleep_disorder","p20628","w.p26063",26063,"Butter","g/day","MUC13"
+"Butter on bread","G717","sleep_disorder_r13","sleep_disorder","p20628","w.p26063",26063,"Butter","g/day","TMPRSS15"

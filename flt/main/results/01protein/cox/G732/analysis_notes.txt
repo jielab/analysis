@@ -1,0 +1,7 @@
+Covariates: age, sex, bmi, edu, inc, tdi, smoke_status, alcohol_status, pa_met_tot
+Race included: FALSE
+Only step-2 linear FDR_food < 0.05 proteins from the food-specific limma intersection.
+Outcome-specific eligible risk sets; complete cases for each protein and model covariates.
+No new imputation; continuous covariates remain continuous.
+Resume checkpoints compare file path/size/mtime and model options; failed models are also retained.
+Set resume_models <- FALSE after changing inputs/options or to retry failed models.
